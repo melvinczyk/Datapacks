@@ -1,0 +1,21 @@
+{
+  "attribute_modifiers": [
+    {
+      "amount": 1.0,
+      "attribute": "curios:ring",
+      "operation": "addition"
+    }
+  ],
+  "background_texture": "skilltree:textures/icons/background/keystone.png",
+  "button_size": 24,
+  "connections": [
+    "skilltree:miner_subclass_2_life_4"
+  ],
+  "icon_texture": "skilltree:textures/icons/miner_subclass_2_mastery.png",
+  "position": {
+    "x": -327.95526,
+    "y": 337.7826
+  },
+  "tooltip_texture": "skilltree:textures/tooltip/keystone.png",
+  "tree": "skilltree:tree"
+}

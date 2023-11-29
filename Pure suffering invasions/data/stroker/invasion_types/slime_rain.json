@@ -1,0 +1,258 @@
+{
+  "DefaultName": "Slime rain",
+    "Dimensions": [
+      "minecraft:overworld"
+    ],
+    "InvasionPriority": "BOTH",
+    "InvasionTime": "DAY",
+    "Rarity": 2,
+    "SeverityInfo": [
+      {
+        "ClusterSize": 2,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.4,
+        "MobSpawnList": [
+          {
+            "EntityType": "minecraft:slime",
+            "MaxCount": 2,
+            "ForceDespawn": true,
+            "IgnoreSpawnRules": true,
+            "MinCount": 1,
+            "Weight": 5
+          },
+          {
+            "EntityType": "aether:blue_swet",
+            "MaxCount": 2,
+            "ForceDespawn": true,
+            "IgnoreSpawnRules": true,
+            "MinCount": 1,
+            "Weight": 4
+          },
+          {
+            "EntityType": "aether:golden_swet",
+            "MaxCount": 1,
+            "ForceDespawn": true,
+            "IgnoreSpawnRules": true,
+            "MinCount": 1,
+            "Weight": 4
+          },
+          {
+            "EntityType": "twilightforest:maze_slime",
+            "MaxCount": 1,
+            "ForceDespawn": true,
+            "IgnoreSpawnRules": true,
+            "MinCount": 1,
+            "Weight": 2
+          },
+          {
+            "EntityType": "mobcompack:crystallineslime",
+            "MaxCount": 3,
+            "MinCount": 1,
+            "Weight": 2
+          }
+        ],
+        "TickDelay": 32
+      },
+      {
+        "ClusterSize": 2,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.4,
+        "MobSpawnList": [
+            {
+                "EntityType": "minecraft:slime",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 5
+              },
+              {
+                "EntityType": "aether:blue_swet",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 4
+              },
+              {
+                "EntityType": "aether:golden_swet",
+                "MaxCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 4
+              },
+              {
+                "EntityType": "twilightforest:maze_slime",
+                "MaxCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 2
+              },
+              {
+                "EntityType": "mobcompack:crystallineslime",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 2
+              }
+        ],
+        "TickDelay": 26
+      },
+      {
+        "ClusterSize": 2,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.7,
+        "MobSpawnList": [
+            {
+                "EntityType": "minecraft:slime",
+                "MaxCount": 3,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 5
+              },
+              {
+                "EntityType": "aether:blue_swet",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 4
+              },
+              {
+                "EntityType": "aether:golden_swet",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 4
+              },
+              {
+                "EntityType": "twilightforest:maze_slime",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 2
+              },
+              {
+                "EntityType": "mobcompack:crystallineslime",
+                "MaxCount": 3,
+                "MinCount": 2,
+                "Weight": 2
+              }
+        ],
+        "TickDelay": 20
+      },
+      {
+        "ClusterSize": 2,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.8,
+        "MobSpawnList": [
+            {
+                "EntityType": "minecraft:slime",
+                "MaxCount": 4,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 5
+              },
+              {
+                "EntityType": "aether:blue_swet",
+                "MaxCount": 3,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 4
+              },
+              {
+                "EntityType": "aether:golden_swet",
+                "MaxCount": 3,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 4
+              },
+              {
+                "EntityType": "twilightforest:maze_slime",
+                "MaxCount": 3,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 2
+              },
+              {
+                "EntityType": "mobcompack:crystallineslime",
+                "MaxCount": 4,
+                "MinCount": 2,
+                "Weight": 2
+              },
+              {
+                "EntityType": "alexsmobs:mimicube",
+                "MaxCount": 4,
+                "MinCount": 2,
+                "Weight": 2
+              }
+        ],
+        "TickDelay": 14
+      },
+      {
+        "ClusterSize": 2,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 1.0,
+        "MobSpawnList": [
+            {
+                "EntityType": "minecraft:slime",
+                "MaxCount": 6,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 3,
+                "Weight": 5
+              },
+              {
+                "EntityType": "aether:blue_swet",
+                "MaxCount": 4,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 4
+              },
+              {
+                "EntityType": "aether:golden_swet",
+                "MaxCount": 4,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 4
+              },
+              {
+                "EntityType": "twilightforest:maze_slime",
+                "MaxCount": 4,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 2
+              },
+              {
+                "EntityType": "mobcompack:crystallineslime",
+                "MaxCount": 4,
+                "MinCount": 3,
+                "Weight": 2
+              },
+              {
+                "EntityType": "alexsmobs:mimicube",
+                "MaxCount": 4,
+                "MinCount": 3,
+                "Weight": 2
+              }
+        ],
+        "TickDelay": 8
+      }
+    ],
+    "SpawningSystem": "DEFAULT",
+    "Tier": 0,
+    "TimeChangeability": "DEFAULT",
+    "TimeModifier": "NONE",
+    "WeatherType": "RAIN"
+  }

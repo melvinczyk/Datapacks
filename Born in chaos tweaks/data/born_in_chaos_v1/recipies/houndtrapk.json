@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "born_in_chaos_v1:fangofthe_hound_leader"
+    },
+    "1": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "2": {
+      "item": "born_in_chaos_v1:fangofthe_hound_leader"
+    },
+    "3": {
+      "item": "born_in_chaos_v1:fangofthe_hound_leader"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "born_in_chaos_v1:fangofthe_hound_leader"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:hound_trap",
+    "count": 1
+  }
+}

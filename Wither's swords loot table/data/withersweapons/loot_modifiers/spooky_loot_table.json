@@ -1,0 +1,14 @@
+{
+  "type": "withersweapons:loot_table",
+  "conditions": [
+    {
+      "chance": 0.3,
+      "condition": "minecraft:random_chance"
+    },
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/simple_dungeon"
+    }
+  ],
+  "loot_table": "withersweapons:spooky_loot_table"
+}

@@ -1,0 +1,115 @@
+{
+    "DefaultName": "Pumpkin",
+      "Dimensions": [
+        "minecraft:overworld"
+      ],
+      "InvasionPriority": "BOTH",
+      "InvasionTime": "BOTH",
+      "Rarity": 5,
+      "SeverityInfo": [
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.2,
+          "MobSpawnList": [
+            {
+              "EntityType": "realmrpg_creep:creepling",
+              "MaxCount": 2,
+              "IgnoreSpawnRules": true,
+              "MinCount": 1,
+              "Weight": 7
+            }
+          ],
+          "TickDelay": 32
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.4,
+          "MobSpawnList": [
+            {
+                "EntityType": "realmrpg_creep:creepling",
+                "MaxCount": 2,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 7
+              }
+          ],
+          "TickDelay": 26
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.6,
+          "MobSpawnList": [
+            {
+                "EntityType": "realmrpg_creep:creepling",
+                "MaxCount": 3,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 7
+              },
+              {
+                "EntityType": "realmrpg_creep:halloweed",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 3
+              }
+          ],
+          "TickDelay": 20
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.8,
+          "MobSpawnList": [
+            {
+                "EntityType": "realmrpg_creep:creepling",
+                "MaxCount": 4,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 7
+              },
+              {
+                "EntityType": "realmrpg_creep:halloweed",
+                "MaxCount": 3,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 3
+              }
+          ],
+          "TickDelay": 14
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 1.0,
+          "MobSpawnList": [
+            {
+                "EntityType": "realmrpg_creep:creepling",
+                "MaxCount": 5,
+                "IgnoreSpawnRules": true,
+                "MinCount": 3,
+                "Weight": 7
+              },
+              {
+                "EntityType": "realmrpg_creep:halloweed",
+                "MaxCount": 3,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 3
+              }
+          ],
+          "TickDelay": 8
+        }
+      ],
+      "SpawningSystem": "DEFAULT",
+      "Tier": 0,
+      "TimeChangeability": "DEFAULT",
+      "TimeModifier": "NONE",
+      "WeatherType": "DEFAULT"
+    }

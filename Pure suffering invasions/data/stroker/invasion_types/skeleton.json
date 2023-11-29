@@ -1,0 +1,237 @@
+{
+  "DefaultName": "Skeleton",
+    "Dimensions": [
+      "minecraft:overworld"
+    ],
+    "InvasionPriority": "BOTH",
+    "InvasionTime": "NIGHT",
+    "Rarity": 2,
+    "SeverityInfo": [
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.2,
+        "MobSpawnList": [
+          {
+            "EntityType": "minecraft:skeleton",
+            "MaxCount": 3,
+            "MinCount": 1,
+            "Weight": 12
+          }
+        ],
+        "TickDelay": 30
+      },
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.4,
+        "MobSpawnList": [
+          {
+            "EntityType": "minecraft:skeleton",
+            "MaxCount": 3,
+            "MinCount": 1,
+            "Weight": 12
+          },
+          {
+            "EntityType": "minecraft:wither_skeleton",
+            "MaxCount": 1,
+            "MinCount": 1,
+            "Weight": 3
+          },
+          {
+            "EntityType": "graveyard:skeleton_creeper",
+            "MaxCount": 2,
+            "MinCount": 1,
+            "Weight": 1
+          }
+        ],
+        "TickDelay": 24
+      },
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.6,
+        "MobSpawnList": [
+          {
+            "EntityType": "minecraft:skeleton",
+            "MaxCount": 4,
+            "MinCount": 2,
+            "Weight": 10
+          },
+          {
+            "EntityType": "minecraft:wither_skeleton",
+            "MaxCount": 2,
+            "MinCount": 1,
+            "Weight": 3
+          },
+          {
+            "EntityType": "graveyard:skeleton_creeper",
+            "MaxCount": 2,
+            "MinCount": 1,
+            "Weight": 2
+          },
+          {
+            "EntityType": "twilightforest:skeleton_druid",
+            "MaxCount": 2,
+            "MinCount": 1,
+            "Weight": 3
+          },
+          {
+            "EntityType": "bygonenether:wraither",
+            "MaxCount": 2,
+            "MinCount": 1,
+            "Weight": 3
+          },
+          {
+            "EntityType": "bygonenether:corpor",
+            "MaxCount": 2,
+            "MinCount": 1,
+            "Weight": 1
+          },
+          {
+            "EntityType": "majrszsdifficulty:tank",
+            "MaxCount": 1,
+            "MinCount": 1,
+            "Weight": 1
+          },
+          {
+            "EntityType": "enemyexpansion:huntsman",
+            "MaxCount": 1,
+            "ForceDespawn": true,
+            "IgnoreSpawnRules": true,
+            "MinCount": 1,
+            "Weight": 3
+          }
+
+        ],
+        "TickDelay": 18
+      },
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.8,
+        "MobSpawnList": [
+            {
+                "EntityType": "minecraft:skeleton",
+                "MaxCount": 4,
+                "MinCount": 2,
+                "Weight": 10
+              },
+              {
+                "EntityType": "minecraft:wither_skeleton",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 3
+              },
+              {
+                "EntityType": "graveyard:skeleton_creeper",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 2
+              },
+              {
+                "EntityType": "twilightforest:skeleton_druid",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 3
+              },
+              {
+                "EntityType": "bygonenether:wraither",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 3
+              },
+              {
+                "EntityType": "bygonenether:corpor",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 1
+              },
+              {
+                "EntityType": "majrszsdifficulty:tank",
+                "MaxCount": 1,
+                "MinCount": 1,
+                "Weight": 2
+              },
+              {
+                "EntityType": "enemyexpansion:huntsman",
+                "MaxCount": 3,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 3
+              }
+        ],
+        "TickDelay": 12
+      },
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 1.0,
+        "MobSpawnList": [
+            {
+                "EntityType": "minecraft:skeleton",
+                "MaxCount": 4,
+                "MinCount": 2,
+                "Weight": 10
+              },
+              {
+                "EntityType": "minecraft:wither_skeleton",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 3
+              },
+              {
+                "EntityType": "graveyard:skeleton_creeper",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 2
+              },
+              {
+                "EntityType": "twilightforest:skeleton_druid",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 3
+              },
+              {
+                "EntityType": "bygonenether:wraither",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 3
+              },
+              {
+                "EntityType": "bygonenether:corpor",
+                "MaxCount": 3,
+                "MinCount": 1,
+                "Weight": 2
+              },
+              {
+                "EntityType": "majrszsdifficulty:tank",
+                "MaxCount": 3,
+                "MinCount": 1,
+                "Weight": 3
+              },
+              {
+                "EntityType": "bygonenether:wither_skeleton_knight",
+                "MaxCount": 1,
+                "MinCount": 1,
+                "Weight": 2
+              },
+              {
+                "EntityType": "enemyexpansion:huntsman",
+                "MaxCount": 3,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 3
+              }
+        ],
+        "TickDelay": 6
+      }
+    ],
+    "SpawningSystem": "DEFAULT",
+    "Tier": 1,
+    "TimeChangeability": "DEFAULT",
+    "TimeModifier": "NONE",
+    "WeatherType": "DEFAULT"
+  }

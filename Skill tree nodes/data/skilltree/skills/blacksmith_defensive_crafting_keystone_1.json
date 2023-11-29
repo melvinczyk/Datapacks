@@ -1,0 +1,19 @@
+{
+  "attribute_modifiers": [
+    {
+      "amount": 0.375,
+      "attribute": "skilltree:crafted_armor_defence",
+      "operation": "multiply_base"
+    }
+  ],
+  "background_texture": "skilltree:textures/icons/background/keystone.png",
+  "button_size": 24,
+  "connections": [],
+  "icon_texture": "skilltree:textures/icons/blacksmith_defensive_crafting_keystone_1.png",
+  "position": {
+    "x": -348.64246,
+    "y": -99.01296
+  },
+  "tooltip_texture": "skilltree:textures/tooltip/keystone.png",
+  "tree": "skilltree:tree"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "bettercombat:cutlass",
+  "attributes": {
+    "attack_range": 3
+}
+    }

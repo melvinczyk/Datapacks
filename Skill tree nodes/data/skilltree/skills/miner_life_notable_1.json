@@ -1,0 +1,19 @@
+{
+  "attribute_modifiers": [
+    {
+      "amount": 1.0,
+      "attribute": "skilltree:maximum_life_per_gem_in_armor",
+      "operation": "addition"
+    }
+  ],
+  "background_texture": "skilltree:textures/icons/background/notable.png",
+  "button_size": 20,
+  "connections": [],
+  "icon_texture": "skilltree:textures/icons/miner_life_notable_1.png",
+  "position": {
+    "x": -222.63979,
+    "y": 112.762024
+  },
+  "tooltip_texture": "skilltree:textures/tooltip/notable.png",
+  "tree": "skilltree:tree"
+}

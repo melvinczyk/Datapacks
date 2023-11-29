@@ -1,0 +1,22 @@
+{
+  "attribute_modifiers": [
+    {
+      "amount": 1.0,
+      "attribute": "skilltree:equipment_repair_efficiency",
+      "operation": "multiply_base"
+    }
+  ],
+  "background_texture": "skilltree:textures/icons/background/class.png",
+  "button_size": 24,
+  "connections": [
+    "skilltree:blacksmith_subclass_2_crafting_1",
+    "skilltree:blacksmith_subclass_2_life_1"
+  ],
+  "icon_texture": "skilltree:textures/icons/blacksmith_subclass_2.png",
+  "position": {
+    "x": -357.34277,
+    "y": -44.010185
+  },
+  "tooltip_texture": "skilltree:textures/tooltip/keystone.png",
+  "tree": "skilltree:tree"
+}

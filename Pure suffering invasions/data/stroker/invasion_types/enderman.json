@@ -1,0 +1,146 @@
+{
+  "DefaultName": "Enderman",
+    "Dimensions": [
+      "minecraft:the_end"
+    ],
+    "InvasionPriority": "PRIMARY_ONLY",
+    "InvasionTime": "BOTH",
+    "Rarity": 8,
+    "SeverityInfo": [
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.2,
+        "MobSpawnList": [
+          {
+            "EntityType": "minecraft:enderman",
+            "MaxCount": 1,
+            "MinCount": 1,
+            "Weight": 5
+          },
+          {
+            "EntityType": "endermanoverhaul:end_enderman",
+            "MaxCount": 1,
+            "MinCount": 1,
+            "Weight": 3
+          },
+          {
+            "EntityType": "endermanoverhaul:end_islands_enderman",
+            "MaxCount": 1,
+            "MinCount": 1,
+            "Weight": 3
+          }
+        ],
+        "TickDelay": 32
+      },
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.4,
+        "MobSpawnList": [
+            {
+                "EntityType": "minecraft:enderman",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 5
+              },
+              {
+                "EntityType": "endermanoverhaul:end_enderman",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 3
+              },
+              {
+                "EntityType": "endermanoverhaul:end_islands_enderman",
+                "MaxCount": 1,
+                "MinCount": 1,
+                "Weight": 3
+              }
+        ],
+        "TickDelay": 26
+      },
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.6,
+        "MobSpawnList": [
+            {
+                "EntityType": "minecraft:enderman",
+                "MaxCount": 3,
+                "MinCount": 1,
+                "Weight": 5
+              },
+              {
+                "EntityType": "endermanoverhaul:end_enderman",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 3
+              },
+              {
+                "EntityType": "endermanoverhaul:end_islands_enderman",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 3
+              }
+        ],
+        "TickDelay": 20
+      },
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.8,
+        "MobSpawnList": [
+            {
+                "EntityType": "minecraft:enderman",
+                "MaxCount": 3,
+                "MinCount": 2,
+                "Weight": 3
+              },
+              {
+                "EntityType": "endermanoverhaul:end_enderman",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 3
+              },
+              {
+                "EntityType": "endermanoverhaul:end_islands_enderman",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 3
+              }
+        ],
+        "TickDelay": 14
+      },
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 1.0,
+        "MobSpawnList": [
+            {
+                "EntityType": "minecraft:enderman",
+                "MaxCount": 3,
+                "MinCount": 1,
+                "Weight": 3
+              },
+              {
+                "EntityType": "endermanoverhaul:end_enderman",
+                "MaxCount": 3,
+                "MinCount": 1,
+                "Weight": 3
+              },
+              {
+                "EntityType": "endermanoverhaul:end_islands_enderman",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 3
+              }
+        ],
+        "TickDelay": 8
+      }
+    ],
+    "SpawningSystem": "DEFAULT",
+    "Tier": 2,
+    "TimeChangeability": "DEFAULT",
+    "TimeModifier": "NONE",
+    "WeatherType": "DEFAULT"
+  }

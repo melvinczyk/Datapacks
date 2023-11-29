@@ -1,0 +1,19 @@
+{
+  "attribute_modifiers": [
+    {
+      "amount": 6.0,
+      "attribute": "skilltree:maximum_life_under_potion_effect",
+      "operation": "addition"
+    }
+  ],
+  "background_texture": "skilltree:textures/icons/background/notable.png",
+  "button_size": 20,
+  "connections": [],
+  "icon_texture": "skilltree:textures/icons/alchemist_life_notable_1.png",
+  "position": {
+    "x": -9.997005,
+    "y": 235.52727
+  },
+  "tooltip_texture": "skilltree:textures/tooltip/notable.png",
+  "tree": "skilltree:tree"
+}

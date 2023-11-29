@@ -1,0 +1,195 @@
+{
+	"DefaultName": "Desert",
+    "Dimensions": [
+      "minecraft:overworld"
+    ],
+    "InvasionPriority": "BOTH",
+    "InvasionTime": "DAY",
+    "Rarity": 3,
+    "SeverityInfo": [
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.2,
+        "MobSpawnList": [
+			{
+                "EntityType": "minecraft:husk",
+                "MaxCount": 2,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 4
+              },
+              {
+                "EntityType": "alexsmobs:guster",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 7
+              },
+              {
+                "EntityType": "endermanoverhaul:scarab",
+                "MaxCount": 2,
+				"ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 3
+              }
+        ],
+        "TickDelay": 32
+      },
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.4,
+        "MobSpawnList": [
+            {
+                "EntityType": "minecraft:husk",
+                "MaxCount": 3,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 4
+              },
+              {
+                "EntityType": "alexsmobs:guster",
+                "MaxCount": 3,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 7
+              },
+              {
+                "EntityType": "endermanoverhaul:scarab",
+                "MaxCount": 3,
+				"ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 3
+              }
+        ],
+        "TickDelay": 26
+      },
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.6,
+        "MobSpawnList": [
+            {
+                "EntityType": "minecraft:husk",
+                "MaxCount": 3,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 4
+              },
+              {
+                "EntityType": "alexsmobs:guster",
+                "MaxCount": 4,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 7
+              },
+              {
+                "EntityType": "endermanoverhaul:scarab",
+                "MaxCount": 4,
+				"ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 3
+              },
+			  {
+                "EntityType": "twilightforest:fire_beetle",
+                "MaxCount": 3,
+				"ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 3
+              }
+        ],
+        "TickDelay": 20
+      },
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.8,
+        "MobSpawnList": [
+            {
+                "EntityType": "minecraft:husk",
+                "MaxCount": 5,
+                "IgnoreSpawnRules": true,
+                "MinCount": 3,
+                "Weight": 4
+              },
+              {
+                "EntityType": "alexsmobs:guster",
+                "MaxCount": 5,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 3,
+                "Weight": 7
+              },
+              {
+                "EntityType": "endermanoverhaul:scarab",
+                "MaxCount": 6,
+				"ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 3
+              },
+			  {
+                "EntityType": "twilightforest:fire_beetle",
+                "MaxCount": 3,
+				"ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 3
+              }
+        ],
+        "TickDelay": 14
+      },
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 1.0,
+        "MobSpawnList": [
+            {
+                "EntityType": "minecraft:husk",
+                "MaxCount": 5,
+                "IgnoreSpawnRules": true,
+                "MinCount": 3,
+                "Weight": 4
+              },
+              {
+                "EntityType": "alexsmobs:guster",
+                "MaxCount": 5,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 3,
+                "Weight": 7
+              },
+              {
+                "EntityType": "endermanoverhaul:scarab",
+                "MaxCount": 6,
+				"ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 3
+              },
+			  {
+                "EntityType": "twilightforest:fire_beetle",
+                "MaxCount": 3,
+				"ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 3
+              }
+        ],
+        "TickDelay": 8
+      }
+    ],
+    "SpawningSystem": "DEFAULT",
+    "Tier": 0,
+    "TimeChangeability": "DEFAULT",
+    "TimeModifier": "NONE",
+    "WeatherType": "CLEAR"
+  }

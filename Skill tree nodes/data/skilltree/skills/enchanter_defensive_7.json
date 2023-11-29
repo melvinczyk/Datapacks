@@ -1,0 +1,22 @@
+{
+  "attribute_modifiers": [
+    {
+      "amount": 0.01,
+      "attribute": "skilltree:block_chance",
+      "operation": "multiply_base"
+    }
+  ],
+  "background_texture": "skilltree:textures/icons/background/lesser.png",
+  "button_size": 16,
+  "connections": [
+    "skilltree:enchanter_defensive_8",
+    "skilltree:enchanter_lesser_1"
+  ],
+  "icon_texture": "skilltree:textures/icons/enchanter_defensive_1.png",
+  "position": {
+    "x": 245.19548,
+    "y": -216.52092
+  },
+  "tooltip_texture": "skilltree:textures/tooltip/lesser.png",
+  "tree": "skilltree:tree"
+}

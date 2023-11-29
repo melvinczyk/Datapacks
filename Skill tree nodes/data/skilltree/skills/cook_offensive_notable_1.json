@@ -1,0 +1,23 @@
+{
+  "attribute_modifiers": [
+    {
+      "amount": 0.2,
+      "attribute": "skilltree:damage_if_not_hungry",
+      "operation": "multiply_base"
+    }
+  ],
+  "background_texture": "skilltree:textures/icons/background/notable.png",
+  "button_size": 20,
+  "connections": [
+    "skilltree:cook_offensive_4",
+    "skilltree:cook_offensive_crafting_5",
+    "skilltree:cook_subclass_1_defensive_1"
+  ],
+  "icon_texture": "skilltree:textures/icons/cook_offensive_notable_1.png",
+  "position": {
+    "x": 69.98579,
+    "y": -240.5256
+  },
+  "tooltip_texture": "skilltree:textures/tooltip/notable.png",
+  "tree": "skilltree:tree"
+}

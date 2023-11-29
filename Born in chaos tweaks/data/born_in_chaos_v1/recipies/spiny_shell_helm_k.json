@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "born_in_chaos_v1:spiny_shell"
+    },
+    "1": {
+      "item": "born_in_chaos_v1:spiny_shell"
+    },
+    "2": {
+      "item": "born_in_chaos_v1:spiny_shell"
+    },
+    "3": {
+      "item": "born_in_chaos_v1:spiny_shell"
+    },
+    "5": {
+      "item": "born_in_chaos_v1:spiny_shell"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:spiny_shell_armor_helmet",
+    "count": 1
+  }
+}

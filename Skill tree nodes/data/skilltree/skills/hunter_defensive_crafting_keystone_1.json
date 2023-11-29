@@ -1,0 +1,19 @@
+{
+  "attribute_modifiers": [
+    {
+      "amount": 1.0,
+      "attribute": "skilltree:crafted_helmets_sockets",
+      "operation": "addition"
+    }
+  ],
+  "background_texture": "skilltree:textures/icons/background/keystone.png",
+  "button_size": 24,
+  "connections": [],
+  "icon_texture": "skilltree:textures/icons/hunter_defensive_crafting_keystone_1.png",
+  "position": {
+    "x": 324.64246,
+    "y": 75.01296
+  },
+  "tooltip_texture": "skilltree:textures/tooltip/keystone.png",
+  "tree": "skilltree:tree"
+}

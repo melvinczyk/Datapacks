@@ -1,0 +1,385 @@
+{
+  "Dimensions": [
+    "minecraft:overworld"
+  ],
+  "InvasionPriority": "BOTH",
+  "InvasionTime": "NIGHT",
+  "Rarity": 1,
+  "SeverityInfo": [
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.7,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:zombie",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 5
+        },
+        {
+          "EntityType": "enemyexpansion:slugger",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:husk",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:stray",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "enemyexpansion:sprinter",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "graveyard:revenant",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "enemyexpansion:meature",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 4
+        },
+        {
+          "EntityType": "graveyard:ghouling",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 4
+        },
+        {
+          "EntityType": "majruszsdifficulty:tank",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 24
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.8,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:zombie",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 5
+        },
+        {
+          "EntityType": "enemyexpansion:slugger",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:husk",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:stray",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "graveyard:ghoul",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "graveyard:revenant",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 4
+        },
+        {
+          "EntityType": "enemyexpansion:meature",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "enemyexpansion:sprinter",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "majruszsdifficulty:tank",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 1
+        }
+      ],
+      "TickDelay": 20
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 0.9,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:zombie",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 5
+        },
+        {
+          "EntityType": "enemyexpansion:slugger",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:husk",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:stray",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 1
+        },
+        {
+          "EntityType": "graveyard:ghoul",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "graveyard:revenant",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 4
+        },
+        {
+          "EntityType": "enemyexpansion:sprinter",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "enemyexpansion:meature",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "majruszsdifficulty:tank",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        }
+      ],
+      "TickDelay": 16
+    },
+    {
+      "ClusterSize": 1,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 1.0,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:zombie",
+          "MaxCount": 5,
+          "MinCount": 2,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:husk",
+          "MaxCount": 3,
+          "MinCount": 2,
+          "Weight": 2
+        },
+        {
+          "EntityType": "enemyexpansion:slugger",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 5,
+          "MinCount": 2,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:stray",
+          "MaxCount": 3,
+          "MinCount": 2,
+          "Weight": 1
+        },
+        {
+          "EntityType": "graveyard:ghoul",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "graveyard:revenant",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 4
+        },
+        {
+          "EntityType": "enemyexpansion:sprinter",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "enemyexpansion:meature",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "majruszsdifficulty:tank",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        }
+      ],
+      "TickDelay": 12
+    },
+    {
+      "ClusterSize": 2,
+      "ForceNoSleep": false,
+      "MobCapPercentage": 1.1,
+      "MobSpawnList": [
+        {
+          "EntityType": "minecraft:zombie",
+          "MaxCount": 5,
+          "MinCount": 3,
+          "Weight": 5
+        },
+        {
+          "EntityType": "enemyexpansion:slugger",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 5
+        },
+        {
+          "EntityType": "minecraft:husk",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 2
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 5,
+          "MinCount": 3,
+          "Weight": 4
+        },
+        {
+          "EntityType": "minecraft:stray",
+          "MaxCount": 4,
+          "MinCount": 2,
+          "Weight": 1
+        },
+        {
+          "EntityType": "graveyard:ghoul",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "graveyard:revenant",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 2
+        },
+        {
+          "EntityType": "minecraft:skeleton",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 4
+        },
+        {
+          "EntityType": "enemyexpansion:sprinter",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "enemyexpansion:meature",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "majruszsdifficulty:tank",
+          "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 2
+        }
+      ],
+      "TickDelay": 8
+    }
+  ],
+  "SpawningSystem": "DEFAULT",
+  "Tier": 0,
+  "TimeChangeability": "DEFAULT",
+  "TimeModifier": "NONE",
+  "WeatherType": "DEFAULT"
+}

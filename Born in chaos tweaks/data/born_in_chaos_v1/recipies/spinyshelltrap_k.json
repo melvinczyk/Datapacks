@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "born_in_chaos_v1:spiny_shell"
+    },
+    "1": {
+      "item": "born_in_chaos_v1:spiny_shell"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:spiny_shell_trap",
+    "count": 1
+  }
+}

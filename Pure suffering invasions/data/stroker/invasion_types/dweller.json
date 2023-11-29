@@ -1,0 +1,112 @@
+{
+    "DefaultName": "Dark dwellers",
+      "Dimensions": [
+        "minecraft:overworld"
+      ],
+      "InvasionPriority": "PRIMARY_ONLY",
+      "InvasionTime": "NIGHT",
+      "Rarity": 13,
+      "SeverityInfo": [
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.2,
+          "MobSpawnList": [
+            {
+              "EntityType": "cave_dweller:cave_dweller",
+              "MaxCount": 1,
+              "ForceDespawn": true,
+              "IgnoreSpawnRules": true,
+              "MinCount": 1,
+              "Weight": 4
+            }
+          ],
+          "TickDelay": 32
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.4,
+          "MobSpawnList": [
+            {
+                "EntityType": "cave_dweller:cave_dweller",
+                "MaxCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 4
+              }
+          ],
+          "TickDelay": 26
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.6,
+          "MobSpawnList": [
+            {
+                "EntityType": "cave_dweller:cave_dweller",
+                "MaxCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 4
+              }
+          ],
+          "TickDelay": 20
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.8,
+          "MobSpawnList": [
+            {
+                "EntityType": "cave_dweller:cave_dweller",
+                "MaxCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 4
+              },
+              {
+                "EntityType": "man:manfromthefog",
+                "MaxCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 1
+              }
+          ],
+          "TickDelay": 14
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 1.0,
+          "MobSpawnList": [
+            {
+                "EntityType": "cave_dweller:cave_dweller",
+                "MaxCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 4
+              },
+              {
+                "EntityType": "man:manfromthefog",
+                "MaxCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 1
+              }
+          ],
+          "TickDelay": 8
+        }
+      ],
+      "SpawningSystem": "DEFAULT",
+      "Tier": 2,
+      "TimeChangeability": "DEFAULT",
+      "TimeModifier": "NONE",
+      "WeatherType": "DEFAULT"
+    }

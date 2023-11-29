@@ -1,0 +1,21 @@
+{
+  "attribute_modifiers": [
+    {
+      "amount": 0.1,
+      "attribute": "skilltree:life_regeneration_bonus",
+      "operation": "addition"
+    }
+  ],
+  "background_texture": "skilltree:textures/icons/background/lesser.png",
+  "button_size": 16,
+  "connections": [
+    "skilltree:miner_healing_3"
+  ],
+  "icon_texture": "skilltree:textures/icons/miner_healing_1.png",
+  "position": {
+    "x": -115.41354,
+    "y": 142.03067
+  },
+  "tooltip_texture": "skilltree:textures/tooltip/lesser.png",
+  "tree": "skilltree:tree"
+}

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "born_in_chaos_v1:monster_skin"
+    },
+    "1": {
+      "item": "born_in_chaos_v1:monster_skin"
+    },
+    "2": {
+      "item": "born_in_chaos_v1:monster_skin"
+    },
+    "3": {
+      "item": "born_in_chaos_v1:monster_skin"
+    },
+    "4": {
+      "item": "born_in_chaos_v1:nightmare_stalker_skull"
+    },
+    "5": {
+      "item": "born_in_chaos_v1:monster_skin"
+    },
+    "6": {
+      "item": "born_in_chaos_v1:pieceofdarkmetal"
+    },
+    "8": {
+      "item": "born_in_chaos_v1:pieceofdarkmetal"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:nightmare_mantleofthe_night_helmet",
+    "count": 1
+  }
+}

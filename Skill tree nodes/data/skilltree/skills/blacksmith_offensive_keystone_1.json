@@ -1,0 +1,19 @@
+{
+  "attribute_modifiers": [
+    {
+      "amount": 0.1,
+      "attribute": "skilltree:attack_damage_per_armor",
+      "operation": "addition"
+    }
+  ],
+  "background_texture": "skilltree:textures/icons/background/keystone.png",
+  "button_size": 24,
+  "connections": [],
+  "icon_texture": "skilltree:textures/icons/blacksmith_offensive_keystone_1.png",
+  "position": {
+    "x": -313.6711,
+    "y": -248.54828
+  },
+  "tooltip_texture": "skilltree:textures/tooltip/keystone.png",
+  "tree": "skilltree:tree"
+}

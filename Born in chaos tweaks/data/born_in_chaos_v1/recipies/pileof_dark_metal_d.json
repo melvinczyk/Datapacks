@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "born_in_chaos_v1:pieceofdarkmetal"
+    },
+    "1": {
+      "item": "born_in_chaos_v1:pieceofdarkmetal"
+    },
+    "2": {
+      "item": "born_in_chaos_v1:pieceofdarkmetal"
+    },
+    "3": {
+      "item": "born_in_chaos_v1:pieceofdarkmetal"
+    },
+    "4": {
+      "item": "born_in_chaos_v1:pieceofdarkmetal"
+    },
+    "5": {
+      "item": "born_in_chaos_v1:pieceofdarkmetal"
+    },
+    "6": {
+      "item": "born_in_chaos_v1:pieceofdarkmetal"
+    },
+    "7": {
+      "item": "born_in_chaos_v1:pieceofdarkmetal"
+    },
+    "8": {
+      "item": "born_in_chaos_v1:pieceofdarkmetal"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:pileof_dark_metal",
+    "count": 1
+  }
+}

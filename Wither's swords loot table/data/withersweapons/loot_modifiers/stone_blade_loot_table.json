@@ -1,0 +1,14 @@
+{
+  "type": "withersweapons:loot_table",
+  "conditions": [
+    {
+      "chance": 0.7,
+      "condition": "minecraft:random_chance"
+    },
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/stronghold_corridor"
+    }
+  ],
+  "loot_table": "withersweapons:stone_blade_loot_table"
+}

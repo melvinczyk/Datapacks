@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Nyctophobia",
+        "description": "The Darkness Calls...",
+        "icon": {
+            "item": "minecraft:black_concrete"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:hako",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

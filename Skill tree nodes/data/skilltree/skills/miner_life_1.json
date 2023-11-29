@@ -1,0 +1,21 @@
+{
+  "attribute_modifiers": [
+    {
+      "amount": 1.0,
+      "attribute": "skilltree:maximum_life_per_gem_in_helmet",
+      "operation": "addition"
+    }
+  ],
+  "background_texture": "skilltree:textures/icons/background/lesser.png",
+  "button_size": 16,
+  "connections": [
+    "skilltree:miner_life_notable_1"
+  ],
+  "icon_texture": "skilltree:textures/icons/miner_life_1.png",
+  "position": {
+    "x": -206.64354,
+    "y": 139.006
+  },
+  "tooltip_texture": "skilltree:textures/tooltip/lesser.png",
+  "tree": "skilltree:tree"
+}

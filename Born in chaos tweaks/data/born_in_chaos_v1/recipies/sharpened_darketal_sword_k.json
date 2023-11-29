@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "born_in_chaos_v1:dark_metal_ingot"
+    },
+    "1": {
+      "item": "born_in_chaos_v1:dark_metal_ingot"
+    },
+    "2": {
+      "item": "born_in_chaos_v1:bone_handle"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:sharpened_dark_metal_sword",
+    "count": 1
+  }
+}

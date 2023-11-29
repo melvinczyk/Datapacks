@@ -1,0 +1,21 @@
+{
+  "attribute_modifiers": [
+    {
+      "amount": 1.0,
+      "attribute": "skilltree:crafted_melee_weapon_damage_bonus",
+      "operation": "addition"
+    }
+  ],
+  "background_texture": "skilltree:textures/icons/background/lesser.png",
+  "button_size": 16,
+  "connections": [
+    "skilltree:blacksmith_offensive_crafting_7"
+  ],
+  "icon_texture": "skilltree:textures/icons/blacksmith_offensive_crafting_1.png",
+  "position": {
+    "x": -203.16188,
+    "y": -228.05856
+  },
+  "tooltip_texture": "skilltree:textures/tooltip/lesser.png",
+  "tree": "skilltree:tree"
+}

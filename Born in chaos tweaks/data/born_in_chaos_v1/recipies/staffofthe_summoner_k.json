@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "born_in_chaos_v1:shattered_skull"
+    },
+    "1": {
+      "item": "born_in_chaos_v1:orbofthe_summoner"
+    },
+    "2": {
+      "item": "born_in_chaos_v1:bone_handle"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:staffofthe_summoner",
+    "count": 1
+  }
+}

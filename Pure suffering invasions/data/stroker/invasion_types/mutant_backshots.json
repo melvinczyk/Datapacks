@@ -1,0 +1,152 @@
+{
+  "DefaultName": "Mutant backshots",
+    "Dimensions": [
+      "minecraft:overworld"
+    ],
+    "InvasionPriority": "PRIMARY_ONLY",
+    "InvasionTime": "NIGHT",
+    "Rarity": 13,
+    "SeverityInfo": [
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.2,
+        "MobSpawnList": [
+          {
+            "EntityType": "mutantmonsters:mutant_zombie",
+            "MaxCount": 1,
+            "ForceDespawn": true,
+            "IgnoreSpawnRules": true,
+            "MinCount": 1,
+            "Weight": 5
+          },
+          {
+            "EntityType": "mutantmonsters:mutant_skeleton",
+            "MaxCount": 1,
+            "ForceDespawn": true,
+            "IgnoreSpawnRules": true,
+            "MinCount": 1,
+            "Weight": 3
+          }
+        ],
+        "TickDelay": 32
+      },
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.4,
+        "MobSpawnList": [
+            {
+                "EntityType": "mutantmonsters:mutant_zombie",
+                "MaxCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 5
+              },
+              {
+                "EntityType": "mutantmonsters:mutant_skeleton",
+                "MaxCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 4
+              }
+        ],
+        "TickDelay": 26
+      },
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.6,
+        "MobSpawnList": [
+            {
+                "EntityType": "mutantmonsters:mutant_zombie",
+                "MaxCount": 3,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 7
+              },
+              {
+                "EntityType": "mutantmonsters:mutant_skeleton",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 3
+              }
+        ],
+        "TickDelay": 20
+      },
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 0.8,
+        "MobSpawnList": [
+            {
+                "EntityType": "mutantmonsters:mutant_zombie",
+                "MaxCount": 3,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 7
+              },
+              {
+                "EntityType": "mutantmonsters:mutant_skeleton",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 4
+              },
+              {
+                "EntityType": "mutantmonsters:mutant_enderman",
+                "MaxCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 3
+              }
+        ],
+        "TickDelay": 14
+      },
+      {
+        "ClusterSize": 1,
+        "ForceNoSleep": false,
+        "MobCapPercentage": 1.0,
+        "MobSpawnList": [
+            {
+                "EntityType": "mutantmonsters:mutant_zombie",
+                "MaxCount": 4,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 2,
+                "Weight": 8
+              },
+              {
+                "EntityType": "mutantmonsters:mutant_skeleton",
+                "MaxCount": 3,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 4
+              },
+              {
+                "EntityType": "mutantmonsters:mutant_enderman",
+                "MaxCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 3
+              }
+        ],
+        "TickDelay": 8
+      }
+    ],
+    "SpawningSystem": "DEFAULT",
+    "Tier": 3,
+    "TimeChangeability": "DEFAULT",
+    "TimeModifier": "NONE",
+    "WeatherType": "DEFAULT"
+  }

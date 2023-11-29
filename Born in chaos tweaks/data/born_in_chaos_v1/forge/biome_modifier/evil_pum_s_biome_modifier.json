@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "born_in_chaos_v1:evil_pum_s",
+  "step": "surface_structures"
+}

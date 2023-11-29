@@ -1,0 +1,256 @@
+{
+    "DefaultName": "Chilly",
+      "Dimensions": [
+        "minecraft:overworld"
+      ],
+      "InvasionPriority": "PRIMARY_ONLY",
+      "InvasionTime": "BOTH",
+      "Rarity": 5,
+      "SeverityInfo": [
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.2,
+          "MobSpawnList": [
+              {
+                "EntityType": "twilightforest:stable_ice_core",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 3
+              },
+              {
+                "EntityType": "twilightforest:unstable_ice_core",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 3
+              }
+          ],
+          "TickDelay": 32
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.4,
+          "MobSpawnList": [
+            {
+                "EntityType": "twilightforest:yeti",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 7
+              },
+              {
+                  "EntityType": "twilightforest:troll",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                  "EntityType": "twilightforest:stable_ice_core",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                  "EntityType": "twilightforest:unstable_ice_core",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                  "EntityType": "minecraft:stray",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                }
+          ],
+          "TickDelay": 26
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.6,
+          "MobSpawnList": [
+            {
+                "EntityType": "twilightforest:yeti",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 7
+              },
+              {
+                  "EntityType": "twilightforest:troll",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                  "EntityType": "twilightforest:stable_ice_core",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                  "EntityType": "twilightforest:unstable_ice_core",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                  "EntityType": "twilightforest:winter_wolf",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                  "EntityType": "minecraft:stray",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                }
+          ],
+          "TickDelay": 20
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.8,
+          "MobSpawnList": [
+            {
+                "EntityType": "twilightforest:yeti",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 7
+              },
+              {
+                  "EntityType": "twilightforest:troll",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                  "EntityType": "twilightforest:stable_ice_core",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                  "EntityType": "twilightforest:unstable_ice_core",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                  "EntityType": "twilightforest:winter_wolf",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                  "EntityType": "minecraft:stray",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                }
+          ],
+          "TickDelay": 14
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 1.0,
+          "MobSpawnList": [
+            {
+                "EntityType": "twilightforest:yeti",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 7
+              },
+              {
+                  "EntityType": "twilightforest:troll",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                  "EntityType": "twilightforest:stable_ice_core",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                  "EntityType": "twilightforest:unstable_ice_core",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                  "EntityType": "twilightforest:winter_wolf",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                  "EntityType": "minecraft:stray",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                }
+          ],
+          "TickDelay": 8
+        }
+      ],
+      "SpawningSystem": "DEFAULT",
+      "Tier": 2,
+      "TimeChangeability": "DEFAULT",
+      "TimeModifier": "NONE",
+      "WeatherType": "DEFAULT"
+    }

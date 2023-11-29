@@ -1,0 +1,7 @@
+{
+  "parent": "bettercombat:coral_blade",
+  "attributes": {
+    "attack_range": 3,
+    "minecraft:generic.attack_speed": 4
+}
+    }

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "born_in_chaos_v1:spiny_shell"
+    },
+    "2": {
+      "item": "born_in_chaos_v1:spiny_shell"
+    },
+    "4": {
+      "item": "born_in_chaos_v1:bone_handle"
+    },
+    "5": {
+      "item": "born_in_chaos_v1:spiny_shell"
+    },
+    "6": {
+      "item": "born_in_chaos_v1:bone_handle"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:shell_mace",
+    "count": 1
+  }
+}

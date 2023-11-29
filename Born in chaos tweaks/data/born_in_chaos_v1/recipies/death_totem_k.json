@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "born_in_chaos_v1:shattered_skull"
+    },
+    {
+      "item": "born_in_chaos_v1:seedof_chaos"
+    },
+    {
+      "item": "born_in_chaos_v1:ethereal_spirit"
+    },
+    {
+      "tag": "d_dub"
+    }
+  ],
+  "result": {
+    "item": "born_in_chaos_v1:death_totem",
+    "count": 1
+  }
+}

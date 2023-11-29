@@ -1,0 +1,19 @@
+{
+  "attribute_modifiers": [
+    {
+      "amount": 0.35,
+      "attribute": "skilltree:chance_to_apply_better_weapon_enchantment",
+      "operation": "multiply_base"
+    }
+  ],
+  "background_texture": "skilltree:textures/icons/background/keystone.png",
+  "button_size": 24,
+  "connections": [],
+  "icon_texture": "skilltree:textures/icons/enchanter_offensive_crafting_keystone_1.png",
+  "position": {
+    "x": 324.65372,
+    "y": -98.99352
+  },
+  "tooltip_texture": "skilltree:textures/tooltip/keystone.png",
+  "tree": "skilltree:tree"
+}

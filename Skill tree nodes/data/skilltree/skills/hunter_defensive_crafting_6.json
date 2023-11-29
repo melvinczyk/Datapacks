@@ -1,0 +1,21 @@
+{
+  "attribute_modifiers": [
+    {
+      "amount": 0.025,
+      "attribute": "skilltree:crafted_armor_evasion",
+      "operation": "multiply_base"
+    }
+  ],
+  "background_texture": "skilltree:textures/icons/background/lesser.png",
+  "button_size": 16,
+  "connections": [
+    "skilltree:hunter_defensive_crafting_7"
+  ],
+  "icon_texture": "skilltree:textures/icons/hunter_defensive_crafting_1.png",
+  "position": {
+    "x": 280.14682,
+    "y": 51.009857
+  },
+  "tooltip_texture": "skilltree:textures/tooltip/lesser.png",
+  "tree": "skilltree:tree"
+}

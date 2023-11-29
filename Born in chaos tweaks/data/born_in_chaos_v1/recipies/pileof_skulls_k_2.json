@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "born_in_chaos_v1:pile_of_skulls"
+    }
+  ],
+  "result": {
+    "item": "born_in_chaos_v1:shattered_skull",
+    "count": 4
+  }
+}

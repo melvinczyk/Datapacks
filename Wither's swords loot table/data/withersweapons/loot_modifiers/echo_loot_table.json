@@ -1,0 +1,14 @@
+{
+  "type": "withersweapons:loot_table",
+  "conditions": [
+    {
+      "chance": 0.3,
+      "condition": "minecraft:random_chance"
+    },
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/ancient_city"
+    }
+  ],
+  "loot_table": "withersweapons:echo_loot_table"
+}
