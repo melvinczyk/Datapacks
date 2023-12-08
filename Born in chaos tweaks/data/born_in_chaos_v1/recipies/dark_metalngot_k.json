@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "category": "misc",
   "experience": 7,
-  "cookingtime": 400,
+  "cookingtime": 800,
   "ingredient": {
     "item": "born_in_chaos_v1:pileof_dark_metal"
   },

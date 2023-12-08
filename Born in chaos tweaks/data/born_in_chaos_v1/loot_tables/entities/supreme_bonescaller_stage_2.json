@@ -45,7 +45,7 @@
             {
               "function": "set_count",
               "count": {
-                "min": 1,
+                "min": 0,
                 "max": 3
               }
             }
@@ -87,12 +87,12 @@
         {
           "type": "minecraft:item",
           "name": "born_in_chaos_v1:orbofthe_summoner",
-          "weight": 100,
+          "weight": 5,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 1,
+                "min": 0,
                 "max": 1
               }
             }

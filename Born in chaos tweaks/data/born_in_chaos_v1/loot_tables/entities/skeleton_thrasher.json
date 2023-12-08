@@ -25,27 +25,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "born_in_chaos_v1:pieceofdarkmetal",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "born_in_chaos_v1:skullbreaker_hammer",
           "weight": 1,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 1,
+                "min": 0,
                 "max": 1
               }
             }

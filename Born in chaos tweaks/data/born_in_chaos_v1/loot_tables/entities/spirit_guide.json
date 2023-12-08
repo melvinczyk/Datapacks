@@ -64,20 +64,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "born_in_chaos_v1:pieceofdarkmetal",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
         }
       ]
     }

@@ -13,34 +13,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "born_in_chaos_v1:pieceofdarkmetal",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "born_in_chaos_v1:pileof_dark_metal",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "born_in_chaos_v1:fire_dust",
           "weight": 100,
           "functions": [
@@ -70,12 +42,12 @@
         {
           "type": "minecraft:item",
           "name": "born_in_chaos_v1:seedof_chaos",
-          "weight": 5,
+          "weight": 3,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 1,
+                "min": 0,
                 "max": 2
               }
             }
