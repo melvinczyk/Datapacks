@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "crimson_steves_mobs:lava_mutant_zombie",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

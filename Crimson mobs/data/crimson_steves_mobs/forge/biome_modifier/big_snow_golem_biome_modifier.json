@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "windswept_hills",
+    "snowy_plains",
+    "snowy_slopes",
+    "snowy_taiga",
+    "snowy_beach"
+  ],
+  "spawners": {
+    "type": "crimson_steves_mobs:big_snow_golem",
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

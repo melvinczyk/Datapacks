@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "crimson_steves_mobs:redstone_powered_iron_golem",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

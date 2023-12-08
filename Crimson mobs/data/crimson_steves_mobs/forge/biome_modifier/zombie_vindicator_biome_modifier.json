@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "crimson_steves_mobs:zombie_vindicator",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}
