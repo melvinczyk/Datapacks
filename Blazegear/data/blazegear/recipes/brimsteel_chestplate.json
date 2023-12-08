@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "blazegear:brimsteel_ingot"
+    },
+    "#":{
+        "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "item": "blazegear:brimsteel_chestplate"
+  }
+}

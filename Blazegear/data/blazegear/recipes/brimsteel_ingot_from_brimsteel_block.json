@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "brimsteel_ingot",
+  "ingredients": [
+    {
+      "item": "blazegear:brimsteel_block"
+    }
+  ],
+  "result": {
+    "item": "blazegear:brimsteel_ingot",
+    "count": 9
+  }
+}

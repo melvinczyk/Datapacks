@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "brimsteel_ingot",
+	"ingredients": [
+		{
+			"item": "minecraft:diamond"
+		},
+		{
+			"item": "minecraft:blaze_powder"
+		},
+		{
+			"item": "minecraft:blaze_powder"
+		},
+		{
+			"item": "minecraft:blaze_powder"
+		},
+		{
+			"item": "minecraft:magma_cream"
+		},
+		{
+			"item": "minecraft:magma_cream"
+		},
+		{
+			"item": "minecraft:gold_ingot"
+		},
+		{
+			"item": "minecraft:gold_ingot"
+		},
+		{
+			"item": "minecraft:ghast_tear"
+		}
+	],
+	"result": {
+		"item": "blazegear:brimsteel_ingot"
+	}
+}

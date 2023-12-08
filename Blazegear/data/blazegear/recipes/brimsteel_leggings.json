@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "blazegear:brimsteel_ingot"
+    },
+    "#":{
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "item": "blazegear:brimsteel_leggings"
+  }
+}
