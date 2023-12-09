@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "soul_magma",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:magma_cream"
+    },
+    "1": {
+      "item": "minecraft:magma_cream"
+    },
+    "2": {
+      "item": "minecraft:magma_cream"
+    },
+    "3": {
+      "item": "minecraft:magma_cream"
+    },
+    "4": {
+      "item": "beyond:soul_lava_bucket"
+    },
+    "5": {
+      "item": "minecraft:magma_cream"
+    },
+    "6": {
+      "item": "minecraft:magma_cream"
+    },
+    "7": {
+      "item": "minecraft:magma_cream"
+    },
+    "8": {
+      "item": "minecraft:magma_cream"
+    }
+  },
+  "result": {
+    "item": "beyond:soul_magma_block",
+    "count": 2
+  }
+}

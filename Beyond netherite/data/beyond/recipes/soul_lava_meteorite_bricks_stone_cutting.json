@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "soul_lava_meteorite_bricks",
+  "count": 1,
+  "ingredient": {
+    "item": "beyond:soul_ignited_meteorite"
+  },
+  "result": "beyond:soul_lava_meteorite_bricks"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "soul_lava_meteorite_bricks",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "beyond:soul_ignited_meteorite"
+    },
+    "1": {
+      "item": "beyond:soul_ignited_meteorite"
+    },
+    "2": {
+      "item": "beyond:soul_ignited_meteorite"
+    },
+    "3": {
+      "item": "beyond:soul_ignited_meteorite"
+    }
+  },
+  "result": {
+    "item": "beyond:soul_lava_meteorite_bricks",
+    "count": 4
+  }
+}

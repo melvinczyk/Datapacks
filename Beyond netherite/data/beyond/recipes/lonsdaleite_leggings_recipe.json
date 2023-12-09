@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "tag": "forge:netherite_leggings"
+  },
+  "addition": {
+    "item": "beyond:lonsdaleite"
+  },
+  "result": {
+    "item": "beyond:lonsdaleite_armor_leggings"
+  }
+}

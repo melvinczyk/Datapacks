@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "meteoric_steel_ingot",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:nuggets/meteoric_steel"
+    },
+    "1": {
+      "tag": "forge:nuggets/meteoric_steel"
+    },
+    "2": {
+      "tag": "forge:nuggets/meteoric_steel"
+    },
+    "3": {
+      "tag": "forge:nuggets/meteoric_steel"
+    },
+    "4": {
+      "tag": "forge:nuggets/meteoric_steel"
+    },
+    "5": {
+      "tag": "forge:nuggets/meteoric_steel"
+    },
+    "6": {
+      "tag": "forge:nuggets/meteoric_steel"
+    },
+    "7": {
+      "tag": "forge:nuggets/meteoric_steel"
+    },
+    "8": {
+      "tag": "forge:nuggets/meteoric_steel"
+    }
+  },
+  "result": {
+    "item": "beyond:meteoric_steel_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "debris_chestplate",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "2": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "3": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "4": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "5": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "6": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "7": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "8": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "item": "beyond:debris_armor_chestplate",
+    "count": 1
+  }
+}

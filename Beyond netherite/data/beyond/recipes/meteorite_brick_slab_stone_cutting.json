@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "meteorite_brick_slab",
+  "count": 2,
+  "ingredient": {
+    "item": "beyond:meteorite"
+  },
+  "result": "beyond:meteorite_brick_slab"
+}

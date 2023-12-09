@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "debris_boots",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "2": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "3": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "5": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "item": "beyond:debris_armor_boots",
+    "count": 1
+  }
+}

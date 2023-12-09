@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lonsdaleite",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "beyond:lonsdaleite_block"
+    }
+  },
+  "result": {
+    "item": "beyond:lonsdaleite",
+    "count": 9
+  }
+}

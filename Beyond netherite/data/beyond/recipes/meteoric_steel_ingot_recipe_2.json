@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "meteoric_steel_ingot",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "beyond:meteoric_steel_block"
+    }
+  },
+  "result": {
+    "item": "beyond:meteoric_steel_ingot",
+    "count": 9
+  }
+}

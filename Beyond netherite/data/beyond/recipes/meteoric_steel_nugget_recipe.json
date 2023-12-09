@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "meteoric_steel_nugget",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:ingots/meteoric_steel"
+    }
+  },
+  "result": {
+    "item": "beyond:meteoric_steel_nugget",
+    "count": 9
+  }
+}

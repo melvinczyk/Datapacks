@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "tag": "forge:netherite_leggings"
+  },
+  "addition": {
+    "item": "beyond:ender_core"
+  },
+  "result": {
+    "item": "beyond:oblivion_armor_leggings"
+  }
+}

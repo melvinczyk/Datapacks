@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "tag": "forge:netherite_axes"
+  },
+  "addition": {
+    "item": "beyond:lonsdaleite"
+  },
+  "result": {
+    "item": "beyond:lonsdaleite_axe"
+  }
+}

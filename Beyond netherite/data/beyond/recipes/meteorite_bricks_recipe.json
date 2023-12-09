@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "meteorite_bricks",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "beyond:meteorite"
+    },
+    "1": {
+      "item": "beyond:meteorite"
+    },
+    "2": {
+      "item": "beyond:meteorite"
+    },
+    "3": {
+      "item": "beyond:meteorite"
+    }
+  },
+  "result": {
+    "item": "beyond:meteorite_bricks",
+    "count": 4
+  }
+}

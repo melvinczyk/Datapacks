@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "group": "meteoric_steel_nugget",
+  "category": "misc",
+  "experience": 0.25,
+  "cookingtime": 100,
+  "ingredient": {
+    "tag": "forge:misc/meteoric_steel"
+  },
+  "result": "beyond:meteoric_steel_nugget"
+}

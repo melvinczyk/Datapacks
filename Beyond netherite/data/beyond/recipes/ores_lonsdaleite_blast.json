@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "group": "lonsdaleite_shard",
+  "category": "misc",
+  "experience": 3,
+  "cookingtime": 100,
+  "ingredient": {
+    "tag": "forge:ores/lonsdaleite"
+  },
+  "result": "beyond:lonsdaleite_shard"
+}

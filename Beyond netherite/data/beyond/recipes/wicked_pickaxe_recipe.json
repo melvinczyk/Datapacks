@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "tag": "forge:netherite_pickaxes"
+  },
+  "addition": {
+    "item": "beyond:soul_core"
+  },
+  "result": {
+    "item": "beyond:wicked_pickaxe"
+  }
+}

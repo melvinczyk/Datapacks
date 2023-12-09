@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "minecraft:iron_helmet"
+  },
+  "addition": {
+    "tag": "forge:ingots/meteoric_steel"
+  },
+  "result": {
+    "item": "beyond:meteoric_steel_armor_helmet"
+  }
+}

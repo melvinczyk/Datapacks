@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "soul_ignited_meteorite",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "beyond:meteorite"
+    },
+    {
+      "item": "beyond:meteorite"
+    },
+    {
+      "item": "beyond:soul_lava_bucket"
+    },
+    {
+      "item": "beyond:meteorite"
+    },
+    {
+      "item": "beyond:meteorite"
+    }
+  ],
+  "result": {
+    "item": "beyond:soul_ignited_meteorite",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "tag": "forge:netherite_swords"
+  },
+  "addition": {
+    "item": "beyond:soul_core"
+  },
+  "result": {
+    "item": "beyond:wicked_sword"
+  }
+}

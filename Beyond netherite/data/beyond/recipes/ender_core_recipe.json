@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ender_core",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dragon_breath"
+    },
+    "1": {
+      "item": "minecraft:dragon_breath"
+    },
+    "2": {
+      "item": "minecraft:dragon_breath"
+    },
+    "3": {
+      "item": "minecraft:dragon_breath"
+    },
+    "4": {
+      "item": "beyond:netherite_upgrade"
+    },
+    "5": {
+      "item": "minecraft:dragon_breath"
+    },
+    "6": {
+      "item": "minecraft:dragon_breath"
+    },
+    "7": {
+      "item": "minecraft:dragon_breath"
+    },
+    "8": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "result": {
+    "item": "beyond:ender_core",
+    "count": 1
+  }
+}

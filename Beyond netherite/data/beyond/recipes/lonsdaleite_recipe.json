@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lonsdaleite",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "beyond:lonsdaleite_shard"
+    },
+    "1": {
+      "item": "beyond:lonsdaleite_shard"
+    },
+    "2": {
+      "item": "beyond:lonsdaleite_shard"
+    },
+    "3": {
+      "item": "beyond:lonsdaleite_shard"
+    },
+    "4": {
+      "item": "beyond:netherite_upgrade"
+    },
+    "5": {
+      "item": "beyond:lonsdaleite_shard"
+    },
+    "6": {
+      "item": "beyond:lonsdaleite_shard"
+    },
+    "7": {
+      "item": "beyond:lonsdaleite_shard"
+    },
+    "8": {
+      "item": "beyond:lonsdaleite_shard"
+    }
+  },
+  "result": {
+    "item": "beyond:lonsdaleite",
+    "count": 1
+  }
+}

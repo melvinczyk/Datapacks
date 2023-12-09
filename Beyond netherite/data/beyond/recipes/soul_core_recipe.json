@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "soul_core",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "beyond:soul_lava_bucket"
+    },
+    "1": {
+      "item": "beyond:soul_lava_bucket"
+    },
+    "2": {
+      "item": "beyond:soul_lava_bucket"
+    },
+    "3": {
+      "item": "beyond:soul_lava_bucket"
+    },
+    "4": {
+      "item": "beyond:netherite_upgrade"
+    },
+    "5": {
+      "item": "beyond:soul_lava_bucket"
+    },
+    "6": {
+      "item": "beyond:soul_lava_bucket"
+    },
+    "7": {
+      "item": "beyond:soul_lava_bucket"
+    },
+    "8": {
+      "item": "beyond:soul_lava_bucket"
+    }
+  },
+  "result": {
+    "item": "beyond:soul_core",
+    "count": 1
+  }
+}

@@ -2,45 +2,29 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bone",
-          "weight": 100,
+          "name": "beyond:raw_meteoric_steel",
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 1,
-                "max": 2
+                "min": 0,
+                "max": 1
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "born_in_chaos_v1:shattered_skull",
-          "weight": 25,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "born_in_chaos_v1:seedof_chaos",
-          "weight": 1,
+          "name": "beyond:meteoric_steel_nugget",
+          "weight": 3,
           "functions": [
             {
               "function": "set_count",
@@ -53,8 +37,41 @@
         },
         {
           "type": "minecraft:item",
-          "name": "born_in_chaos_v1:staffof_magic_arrows",
-          "weight": 15,
+          "name": "beyond:meteorite",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "beyond:ignited_meteorite",
+          "weight": 24,
           "functions": [
             {
               "function": "set_count",
@@ -67,8 +84,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "born_in_chaos_v1:orbofthe_summoner",
-          "weight": 5,
+          "name": "beyond:warped_nether_wart",
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
@@ -82,5 +99,5 @@
       ]
     }
   ],
-  "random_sequence": "born_in_chaos_v1:entities/bonescaller_not_despawn"
+  "random_sequence": "beyond:entities/stargazer"
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "meteoric_steel_brick_slab",
+  "count": 2,
+  "ingredient": {
+    "item": "beyond:meteoric_steel_bricks"
+  },
+  "result": "beyond:meteoric_steel_brick_slab"
+}

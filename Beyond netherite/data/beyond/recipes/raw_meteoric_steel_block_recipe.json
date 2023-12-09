@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "raw_meteoric_steel_block",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "beyond:raw_meteoric_steel"
+    },
+    "1": {
+      "item": "beyond:raw_meteoric_steel"
+    },
+    "2": {
+      "item": "beyond:raw_meteoric_steel"
+    },
+    "3": {
+      "item": "beyond:raw_meteoric_steel"
+    },
+    "4": {
+      "item": "beyond:raw_meteoric_steel"
+    },
+    "5": {
+      "item": "beyond:raw_meteoric_steel"
+    },
+    "6": {
+      "item": "beyond:raw_meteoric_steel"
+    },
+    "7": {
+      "item": "beyond:raw_meteoric_steel"
+    },
+    "8": {
+      "item": "beyond:raw_meteoric_steel"
+    }
+  },
+  "result": {
+    "item": "beyond:raw_meteoric_steel_block",
+    "count": 1
+  }
+}
