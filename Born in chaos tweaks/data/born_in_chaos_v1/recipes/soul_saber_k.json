@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 12",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "born_in_chaos_v1:nightmare_claw"
+    },
+    "2": {
+      "item": "born_in_chaos_v1:nightmare_claw"
+    },
+    "4": {
+      "item": "born_in_chaos_v1:dark_metal_ingot"
+    },
+    "6": {
+      "item": "born_in_chaos_v1:bone_handle"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:soul_cutlass",
+    "count": 1
+  }
+}

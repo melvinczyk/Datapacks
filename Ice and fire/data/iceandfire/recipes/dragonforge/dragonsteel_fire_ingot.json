@@ -3,7 +3,7 @@
   "dragon_type": "fire",
   "cook_time": 3000,
   "input": {
-    "tag": "forge:ingots/enderite"
+    "item": "enderite:enderite_ingot"
   },
   "blood": {
     "item": "iceandfire:fire_dragon_blood"

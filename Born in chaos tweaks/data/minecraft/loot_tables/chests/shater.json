@@ -56,7 +56,7 @@
         {
           "type": "minecraft:item",
           "name": "born_in_chaos_v1:intoxicating_decoction",
-          "weight": 40,
+          "weight": 45,
           "functions": [
             {
               "function": "set_count",
@@ -84,26 +84,12 @@
         {
           "type": "minecraft:item",
           "name": "born_in_chaos_v1:serpumpkinhead_m",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 0,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "born_in_chaos_v1:spiritinabottle",
-          "weight": 14,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
                 "max": 1
               }
             }
@@ -280,6 +266,56 @@
         {
           "type": "minecraft:item",
           "name": "born_in_chaos_v1:monster_flesh",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:dark_upgrade",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:intoxicating_dagger",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 25,
+                "max": 35
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:mint_candy",
           "weight": 35,
           "functions": [
             {
@@ -287,6 +323,34 @@
               "count": {
                 "min": 1,
                 "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:mint_ice_cream",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:transmuting_elixir",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
               }
             }
           ]
