@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BIB",
+    "N N",
+    "BIB"
+  ],
+  "key": {
+    "B": {
+      "item": "iceandfire:dragonforge_ice_brick"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "N": {
+      "tag": "forge:ingots/netherite"
+    }
+  },
+  "result": {
+    "item": "iceandfire:dragonforge_ice_input"
+  }
+}

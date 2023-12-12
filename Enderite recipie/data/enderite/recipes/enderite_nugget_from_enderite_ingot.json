@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "enderite_nugget",
+  "ingredients": [
+    {
+      "item": "enderite:enderite_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "enderite:enderite_nugget"
+  }
+}

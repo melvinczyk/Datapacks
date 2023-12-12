@@ -5,11 +5,12 @@
     "snowy_plains",
     "snowy_slopes",
     "snowy_taiga",
-    "snowy_beach"
+    "snowy_beach",
+    "stellarity:blazing_dunes"
   ],
   "spawners": {
     "type": "crimson_steves_mobs:big_snow_golem",
-    "weight": 3,
+    "weight": 100,
     "minCount": 1,
     "maxCount": 1
   }

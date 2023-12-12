@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "enderite:enderite_ingot"
+  },
+  "base": {
+    "tag": "forge:armors/gilded_netherite_leggings"
+  },
+  "result": {
+    "item": "enderite:gilded_enderite_leggings"
+  },
+  "template": {
+    "item": "enderite:enderite_upgrade_smithing_template"
+  }
+}

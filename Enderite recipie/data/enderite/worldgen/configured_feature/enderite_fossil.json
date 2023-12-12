@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:fossil",
+  "config": {
+    "fossil_processors": "enderite:enderite_fossil_rot",
+    "fossil_structures": [
+      "enderite:fossil/baby_dragon_fossil",
+      "enderite:fossil/dragon_skull",
+      "enderite:fossil/dragon_chest_fossil",
+      "enderite:fossil/dragon_tail_fossil",
+      "enderite:fossil/dragon_left_feet_fossil",
+      "enderite:fossil/dragon_right_feet_fossil",
+      "enderite:fossil/dragon_left_wing_fossil",
+      "enderite:fossil/dragon_right_wing_fossil"
+    ],
+    "max_empty_corners_allowed": 4,
+    "overlay_processors": "enderite:enderite_fossil",
+    "overlay_structures": [
+      "enderite:fossil/baby_dragon_fossil_enderite",
+      "enderite:fossil/dragon_skull_enderite",
+      "enderite:fossil/dragon_chest_fossil_enderite",
+      "enderite:fossil/dragon_tail_fossil_enderite",
+      "enderite:fossil/dragon_left_feet_fossil_enderite",
+      "enderite:fossil/dragon_right_feet_fossil_enderite",
+      "enderite:fossil/dragon_left_wing_fossil_enderite",
+      "enderite:fossil/dragon_right_wing_fossil_enderite"
+    ]
+  }
+}

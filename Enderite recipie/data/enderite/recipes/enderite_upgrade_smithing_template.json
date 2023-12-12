@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "enderite:endercrystal_shard"
+    },
+    "E": {
+      "item": "minecraft:end_stone"
+    },
+    "U": {
+      "item": "enderite:enderite_upgrade_smithing_template"
+    },
+    "#": {
+      "item": "enderite:endercrystal_shard"
+    }
+  },
+  "pattern": [
+    "DUD",
+    "#E#",
+    "D#D"
+  ],
+  "result": {
+    "count": 2,
+    "item": "enderite:enderite_upgrade_smithing_template"
+  },
+  "show_notification": true
+}

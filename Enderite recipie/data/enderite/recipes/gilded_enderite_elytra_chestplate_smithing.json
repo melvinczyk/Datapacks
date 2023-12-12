@@ -1,0 +1,27 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "enderite:elytra_chestplate_crafting"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:smithing_transform",
+        "addition": {
+          "item": "minecraft:elytra"
+        },
+        "base": {
+          "item": "enderite:gilded_enderite_chestplate"
+        },
+        "result": {
+          "item": "enderite:gilded_enderite_elytra_chestplate"
+        },
+        "template": {
+          "item": "enderite:enderite_upgrade_smithing_template"
+        }
+      }
+    }
+  ]
+}

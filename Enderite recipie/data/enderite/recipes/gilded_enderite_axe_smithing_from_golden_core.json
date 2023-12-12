@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:totem_of_undying"
+  },
+  "base": {
+    "item": "enderite:enderite_axe"
+  },
+  "result": {
+    "item": "enderite:gilded_enderite_axe"
+  },
+  "template": {
+    "item": "enderite:enderite_upgrade_smithing_template"
+  }
+}

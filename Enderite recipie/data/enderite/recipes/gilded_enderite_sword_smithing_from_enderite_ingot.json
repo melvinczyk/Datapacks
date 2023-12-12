@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "enderite:enderite_ingot"
+  },
+  "base": {
+    "tag": "forge:tools/gilded_netherite_sword"
+  },
+  "result": {
+    "item": "enderite:gilded_enderite_sword"
+  },
+  "template": {
+    "item": "enderite:enderite_upgrade_smithing_template"
+  }
+}
