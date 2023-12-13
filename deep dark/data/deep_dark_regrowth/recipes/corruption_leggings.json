@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_leggings"
+    },
+    {
+      "item": "deep_dark_regrowth:corrupted_matter"
+    }
+  ],
+  "result": {
+    "item": "deep_dark_regrowth:corruption_leggings",
+    "count": 1
+  }
+}

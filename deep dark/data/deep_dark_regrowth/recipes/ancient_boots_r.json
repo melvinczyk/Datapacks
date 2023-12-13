@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "042",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:sculk_carapace_piece"
+    },
+    "2": {
+      "item": "deep_dark_regrowth:sculk_carapace_piece"
+    },
+    "3": {
+      "item": "deep_dark_regrowth:sculk_remnants"
+    },
+    "5": {
+      "item": "deep_dark_regrowth:sculk_remnants"
+    },
+    "4": {
+      "item": "deep_dark_regrowth:heart_goo"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:ancient_boots",
+    "count": 1
+  }
+}

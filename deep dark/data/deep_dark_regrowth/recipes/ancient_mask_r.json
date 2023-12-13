@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:sculk_remnants"
+    },
+    "2": {
+      "item": "deep_dark_regrowth:sculk_remnants"
+    },
+    "3": {
+      "item": "deep_dark_regrowth:sculk_carapace_piece"
+    },
+    "4": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "5": {
+      "item": "deep_dark_regrowth:sculk_carapace_piece"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:ancient_helmet",
+    "count": 1
+  }
+}

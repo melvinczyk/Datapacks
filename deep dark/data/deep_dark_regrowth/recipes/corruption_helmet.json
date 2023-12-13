@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:skeleton_skull"
+    },
+    {
+      "item": "deep_dark_regrowth:corrupted_matter"
+    },
+    {
+      "item": "minecraft:diamond_helmet"
+    }
+  ],
+  "result": {
+    "item": "deep_dark_regrowth:corruption_helmet",
+    "count": 1
+  }
+}

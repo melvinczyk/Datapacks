@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:pulse_flower_petal"
+    },
+    "1": {
+      "item": "deep_dark_regrowth:heart_goo"
+    },
+    "2": {
+      "item": "deep_dark_regrowth:pulse_flower_petal"
+    },
+    "3": {
+      "item": "deep_dark_regrowth:heart_goo"
+    },
+    "4": {
+      "item": "deep_dark_regrowth:exxo_plant"
+    },
+    "5": {
+      "item": "deep_dark_regrowth:heart_goo"
+    },
+    "6": {
+      "item": "deep_dark_regrowth:pulse_flower_petal"
+    },
+    "7": {
+      "item": "deep_dark_regrowth:heart_goo"
+    },
+    "8": {
+      "item": "deep_dark_regrowth:pulse_flower_petal"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:life_fruit",
+    "count": 1
+  }
+}

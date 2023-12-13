@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_chestplate"
+    },
+    {
+      "item": "deep_dark_regrowth:corrupted_matter"
+    }
+  ],
+  "result": {
+    "item": "deep_dark_regrowth:corruption_chestplate",
+    "count": 1
+  }
+}
