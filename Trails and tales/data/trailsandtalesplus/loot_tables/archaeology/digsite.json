@@ -1,0 +1,100 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pitcher_pod"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torchflower_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:lost_armor_trim_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:suspicious_sniffer_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:sus_tuff"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:ancient_script"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:wall_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:spores_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:piglin_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:tuff_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:cube_pottery_sherd"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "trailsandtalesplus:archaeology/digsite"
+}

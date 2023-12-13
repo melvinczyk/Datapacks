@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "trailsandtalesplus:baobab_planks"
+    }
+  ],
+  "result": {
+    "item": "trailsandtalesplus:baobab_button"
+  }
+}

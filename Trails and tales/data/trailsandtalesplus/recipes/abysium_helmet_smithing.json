@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "trailsandtalesplus:abysium_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "result": {
+    "item": "trailsandtalesplus:abysium_helmet"
+  },
+  "template": {
+    "item": "trailsandtalesplus:abysium_smithing_template"
+  }
+}

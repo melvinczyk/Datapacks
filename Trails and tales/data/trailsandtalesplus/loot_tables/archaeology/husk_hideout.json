@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cactus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sand"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dead_bush"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:fennec_fur"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lantern"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lead"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:flower_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:soul_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:wings_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:mojang_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:wings_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_foot"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "trailsandtalesplus:archaeology/husk_hideout"
+}

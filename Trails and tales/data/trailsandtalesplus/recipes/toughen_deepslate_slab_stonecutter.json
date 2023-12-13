@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "trailsandtalesplus:toughen_deepslate"
+  },
+  "result": "trailsandtalesplus:toughen_deepslate_slab"
+}

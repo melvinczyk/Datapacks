@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "minecraft:end_highlands",
+  "spawners": {
+    "type": "trailsandtalesplus:elderman",
+    "minCount": 1,
+    "maxCount": 1,
+    "weight": 6
+  },
+  "category": "creature"
+}

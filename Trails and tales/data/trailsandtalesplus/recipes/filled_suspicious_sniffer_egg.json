@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "trailsandtalesplus:suspicious_sniffer_egg_shell"
+    },
+    "S": {
+      "item": "trailsandtalesplus:suspicious_sniffer_spawn_egg"
+    }
+  },
+  "pattern": [
+    "###",
+    "#S#",
+    "###"
+  ],
+  "result": {
+    "item": "trailsandtalesplus:suspicious_sniffer_egg"
+  },
+  "show_notification": true
+}

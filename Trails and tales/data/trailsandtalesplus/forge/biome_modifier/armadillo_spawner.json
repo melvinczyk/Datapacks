@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "minecraft:savanna",
+  "spawners": {
+    "type": "trailsandtalesplus:mob_b",
+    "minCount": 1,
+    "maxCount": 3,
+    "weight": 8
+  },
+  "category": "creature"
+}

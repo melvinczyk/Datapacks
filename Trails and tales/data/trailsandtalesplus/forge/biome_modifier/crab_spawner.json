@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "minecraft:mangrove_swamp",
+  "spawners": {
+    "type": "trailsandtalesplus:mob_a",
+    "minCount": 1,
+    "maxCount": 3,
+    "weight": 90
+  },
+  "category": "creature"
+}

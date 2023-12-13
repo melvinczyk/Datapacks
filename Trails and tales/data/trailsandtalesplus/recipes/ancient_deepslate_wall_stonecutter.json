@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "trailsandtalesplus:ancient_deepslate"
+  },
+  "result": "trailsandtalesplus:ancient_deepslate_wall"
+}

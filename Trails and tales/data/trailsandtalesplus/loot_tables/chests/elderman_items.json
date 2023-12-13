@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_chest"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_rod"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_rocket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:voidum"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_log"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:birch_log"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spruce_log"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cherry_log"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mangrove_log"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_log"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dark_oak_log"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:acacia_log"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crimson_stem"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_stem"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:geoxyle_log"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:azalea_log"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trailsandtalesplus:baobab_log"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "trailsandtalesplus:archaeology/digsite"
+}

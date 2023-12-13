@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:cherry_leaves"
+    }
+  ],
+  "result": {
+    "item": "trailsandtalesplus:cherry_vine",
+    "count": 6
+  }
+}

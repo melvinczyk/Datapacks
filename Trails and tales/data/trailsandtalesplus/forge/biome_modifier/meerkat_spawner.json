@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "minecraft:desert",
+  "spawners": {
+    "type": "trailsandtalesplus:meerkat",
+    "minCount": 1,
+    "maxCount": 4,
+    "weight": 6
+  },
+  "category": "creature"
+}

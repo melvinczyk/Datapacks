@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "black_dye",
+  "ingredients": [
+    {
+      "item": "trailsandtalesplus:black_petals"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_dye"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "trailsandtalesplus:abysium_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "result": {
+    "item": "trailsandtalesplus:abysium_pickaxe"
+  },
+  "template": {
+    "item": "trailsandtalesplus:abysium_smithing_template"
+  }
+}

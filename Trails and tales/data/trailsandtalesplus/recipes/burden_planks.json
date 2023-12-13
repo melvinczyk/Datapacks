@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "trailsandtalesplus:burden_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "trailsandtalesplus:burden_planks"
+  }
+}

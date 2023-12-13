@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_door",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "E": {
+      "item": "minecraft:gilded_blackstone"
+    }
+  },
+  "pattern": [
+    "EE",
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "trailsandtalesplus:replication_table"
+  },
+  "show_notification": true
+}

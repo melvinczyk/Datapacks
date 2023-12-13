@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wax",
+  "key": {
+    "#": {
+      "item": "trailsandtalesplus:wax"
+    },
+    "D": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "result": {
+    "item": "trailsandtalesplus:lime_wax_block"
+  },
+  "show_notification": true
+}

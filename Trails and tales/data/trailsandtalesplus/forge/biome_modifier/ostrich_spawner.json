@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#trailsandtalesplus:has_acacia_trees",
+  "spawners": {
+    "type": "trailsandtalesplus:ostrich",
+    "minCount": 1,
+    "maxCount": 3,
+    "weight": 8
+  },
+  "category": "creature"
+}

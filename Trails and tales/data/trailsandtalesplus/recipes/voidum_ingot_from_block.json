@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "trailsandtalesplus:voidum_block"
+    }
+  ],
+  "result": {
+    "item": "trailsandtalesplus:voidum",
+    "count" : 9
+  }
+}

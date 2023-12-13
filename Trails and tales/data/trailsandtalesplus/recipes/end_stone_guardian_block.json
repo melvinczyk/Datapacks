@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "trailsandtalesplus:purstone"
+    },
+    "#": {
+      "item": "minecraft:end_stone_bricks"
+    },
+    "S": {
+      "item": "trailsandtalesplus:abysium_ingot"
+    }
+  },
+  "pattern": [
+    "#E#",
+    "ESE",
+    "#E#"
+  ],
+  "result": {
+    "item": "trailsandtalesplus:end_stone_guardian_block"
+  },
+  "show_notification": true
+}

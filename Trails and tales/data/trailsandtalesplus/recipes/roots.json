@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decoration",
+  "key": {
+    "#": {
+      "item": "minecraft:mangrove_roots"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "item": "trailsandtalesplus:roots"
+  },
+  "show_notification": true
+}

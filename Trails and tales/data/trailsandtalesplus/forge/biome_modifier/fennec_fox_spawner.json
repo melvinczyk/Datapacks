@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "minecraft:desert",
+  "spawners": {
+    "type": "trailsandtalesplus:fennec_fox",
+    "minCount": 1,
+    "maxCount": 3,
+    "weight": 4
+  },
+  "category": "creature"
+}

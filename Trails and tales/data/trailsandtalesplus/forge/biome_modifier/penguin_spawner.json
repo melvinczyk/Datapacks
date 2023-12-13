@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "minecraft:stony_shore",
+  "spawners": {
+    "type": "trailsandtalesplus:mob_c",
+    "minCount": 1,
+    "maxCount": 3,
+    "weight": 45
+  },
+  "category": "creature"
+}

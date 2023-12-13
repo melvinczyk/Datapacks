@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "trailsandtalesplus:celestine_alloy_ingot"
+    },
+    "E": {
+      "item": "trailsandtalesplus:celestine"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#E#",
+    " # "
+  ],
+  "result": {
+    "item": "trailsandtalesplus:blank_core"
+  },
+  "show_notification": true
+}

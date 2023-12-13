@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "minecraft:small_end_islands",
+  "spawners": {
+    "type": "trailsandtalesplus:ghoul",
+    "minCount": 1,
+    "maxCount": 1,
+    "weight": 16
+  },
+  "category": "monster"
+}

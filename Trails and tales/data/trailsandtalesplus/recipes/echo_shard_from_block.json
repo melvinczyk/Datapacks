@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "trailsandtalesplus:echo_shard_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:echo_shard",
+    "count" : 4
+  }
+}

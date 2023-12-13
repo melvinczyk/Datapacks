@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "trailsandtalesplus:baobab_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "trailsandtalesplus:baobab_planks"
+  }
+}

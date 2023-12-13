@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:magma_cream"
+    },
+    "d": {
+      "item": "minecraft:golden_boots"
+    }
+  },
+  "pattern": [
+    "###",
+    "#d#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "item": "trailsandtalesplus:magma_boots"
+  },
+  "show_notification": true
+}

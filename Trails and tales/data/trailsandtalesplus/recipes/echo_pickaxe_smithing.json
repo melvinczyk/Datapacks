@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "trailsandtalesplus:echo_ingot"
+  },
+  "base": {
+    "item": "minecraft:diamond_pickaxe"
+  },
+  "result": {
+    "item": "trailsandtalesplus:echo_pickaxe"
+  },
+  "template": {
+    "item": "trailsandtalesplus:echo_smithing_template"
+  }
+}

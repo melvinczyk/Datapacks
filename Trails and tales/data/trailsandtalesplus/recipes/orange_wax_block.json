@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wax",
+  "key": {
+    "#": {
+      "item": "trailsandtalesplus:wax"
+    },
+    "D": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "result": {
+    "item": "trailsandtalesplus:orange_wax_block"
+  },
+  "show_notification": true
+}

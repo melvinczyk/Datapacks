@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gray_dye",
+  "ingredients": [
+    {
+      "item": "trailsandtalesplus:gray_petals"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_dye"
+  }
+}

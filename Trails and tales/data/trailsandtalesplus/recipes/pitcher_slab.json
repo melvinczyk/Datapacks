@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:pitcher_pod"
+    },
+    "#": {
+      "item": "minecraft:bamboo_slab"
+    }
+  },
+  "pattern": [
+    "###",
+    "#D#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "trailsandtalesplus:pitcher_slab"
+  },
+  "show_notification": true
+}

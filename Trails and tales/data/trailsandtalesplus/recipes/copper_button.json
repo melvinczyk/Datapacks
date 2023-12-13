@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "copper_button",
+  "ingredients": [
+    {
+      "item": "minecraft:cut_copper"
+    }
+  ],
+  "result": {
+    "item": "trailsandtalesplus:copper_button"
+  }
+}

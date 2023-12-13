@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:end_stone"
+    },
+    "E": {
+      "item": "trailsandtalesplus:blast_powder"
+    }
+  },
+  "pattern": [
+    "E#E",
+    "#E#",
+    "E#E"
+  ],
+  "result": {
+    "item": "trailsandtalesplus:ucc"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "trailsandtalesplus:abysium_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "trailsandtalesplus:abysium_sword"
+  },
+  "template": {
+    "item": "trailsandtalesplus:abysium_smithing_template"
+  }
+}

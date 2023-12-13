@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 1000,
+  "experience": 0.7,
+  "group": "voidum",
+  "ingredient": {
+    "item": "trailsandtalesplus:raw_abysium_block"
+  },
+  "result": "trailsandtalesplus:abysium_ingot"
+}

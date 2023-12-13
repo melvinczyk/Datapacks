@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "trailsandtalesplus:echo_ingot"
+  },
+  "base": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "result": {
+    "item": "trailsandtalesplus:echo_shovel"
+  },
+  "template": {
+    "item": "trailsandtalesplus:echo_smithing_template"
+  }
+}

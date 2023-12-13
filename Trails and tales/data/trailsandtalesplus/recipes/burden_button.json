@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "trailsandtalesplus:burden_planks"
+    }
+  ],
+  "result": {
+    "item": "trailsandtalesplus:burden_button"
+  }
+}

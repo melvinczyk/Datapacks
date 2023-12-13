@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:copper_ingot"
+    },
+    "W": {
+      "item": "minecraft:oxidized_copper"
+    },
+    "R": {
+      "item": "minecraft:lightning_rod"
+    }
+  },
+  "pattern": [
+    "#R#",
+    "#W#",
+    "###"
+  ],
+  "result": {
+    "item": "trailsandtalesplus:weather_detector"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "petals",
+  "ingredients": [
+    {
+      "item": "minecraft:yellow_dye"
+    },
+    [
+      {
+        "item": "trailsandtalesplus:blue_petals"
+      },
+      {
+        "item": "trailsandtalesplus:brown_petals"
+      },
+      {
+        "item": "trailsandtalesplus:cyan_petals"
+      },
+      {
+        "item": "trailsandtalesplus:gray_petals"
+      },
+      {
+        "item": "trailsandtalesplus:green_petals"
+      },
+      {
+        "item": "trailsandtalesplus:light_blue_petals"
+      },
+      {
+        "item": "trailsandtalesplus:light_gray_petals"
+      },
+      {
+        "item": "trailsandtalesplus:lime_petals"
+      },
+      {
+        "item": "trailsandtalesplus:magenta_petals"
+      },
+      {
+        "item": "trailsandtalesplus:orange_petals"
+      },
+      {
+        "item": "minecraft:pink_petals"
+      },
+      {
+        "item": "trailsandtalesplus:purple_petals"
+      },
+      {
+        "item": "trailsandtalesplus:red_petals"
+      },
+      {
+        "item": "trailsandtalesplus:black_petals"
+      },
+      {
+        "item": "trailsandtalesplus:white_petals"
+      }
+    ]
+  ],
+  "result": {
+    "item": "trailsandtalesplus:yellow_petals"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "trailsandtalesplus:echo_block"
+    }
+  ],
+  "result": {
+    "item": "trailsandtalesplus:echo_ingot",
+    "count" : 9
+  }
+}

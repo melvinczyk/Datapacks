@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wax",
+  "key": {
+    "#": {
+      "item": "trailsandtalesplus:wax"
+    }
+  },
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "trailsandtalesplus:wax_block"
+  },
+  "show_notification": true
+}
