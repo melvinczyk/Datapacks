@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "group": "lava_meteorite_bricks",
-  "count": 1,
-  "ingredient": {
-    "item": "beyond:ignited_meteorite"
-  },
-  "result": "beyond:lava_meteorite_bricks"
-}

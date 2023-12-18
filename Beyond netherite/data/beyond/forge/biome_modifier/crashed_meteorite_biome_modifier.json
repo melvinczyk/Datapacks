@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "beyond:crashed_meteorite",
-  "step": "surface_structures"
-}

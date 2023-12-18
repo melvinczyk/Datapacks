@@ -4,7 +4,7 @@
   "cookingtime": 200,
   "experience": 0.7,
   "ingredient": {
-    "item": "trailsandtalesplus:raw_abysium"
+    "item": "trailsandtalesplus:raw_abysium_block"
   },
   "result": "trailsandtalesplus:abysium_ingot"
 }

@@ -2,7 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "042",
+    "1 4",
+    "0 2",
     "3 5"
   ],
   "key": {
@@ -19,6 +20,9 @@
       "item": "deep_dark_regrowth:sculk_remnants"
     },
     "4": {
+      "item": "deep_dark_regrowth:heart_goo"
+    },
+    "1": {
       "item": "deep_dark_regrowth:heart_goo"
     }
   },

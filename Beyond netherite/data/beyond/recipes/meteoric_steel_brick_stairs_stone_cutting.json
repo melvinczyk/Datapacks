@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "group": "meteoric_steel_brick_stairs",
-  "count": 1,
-  "ingredient": {
-    "item": "beyond:meteoric_steel_bricks"
-  },
-  "result": "beyond:meteoric_steel_brick_stairs"
-}

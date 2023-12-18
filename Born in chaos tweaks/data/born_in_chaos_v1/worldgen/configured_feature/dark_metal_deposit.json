@@ -2,7 +2,7 @@
   "type": "born_in_chaos_v1:dark_metal_deposit",
   "config": {
     "size": 4,
-    "discard_chance_on_air_exposure": 0,
+    "discard_chance_on_air_exposure": 0.5,
     "targets": [
       {
         "target": {

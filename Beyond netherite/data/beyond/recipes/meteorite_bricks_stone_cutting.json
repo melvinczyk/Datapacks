@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "group": "meteorite_bricks",
-  "count": 1,
-  "ingredient": {
-    "item": "beyond:meteorite"
-  },
-  "result": "beyond:meteorite_bricks"
-}

@@ -5,7 +5,7 @@
     "type": "trailsandtalesplus:snareling",
     "minCount": 1,
     "maxCount": 3,
-    "weight": 100
+    "weight": 10
   },
   "category": "monster"
 }
