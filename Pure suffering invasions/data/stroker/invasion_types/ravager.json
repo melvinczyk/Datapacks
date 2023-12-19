@@ -1,11 +1,12 @@
 {
-    "DefaultName": "Fishy",
+    "DefaultName": "Ravage",
       "Dimensions": [
-        "minecraft:overworld"
+        "minecraft:overworld",
+        "minecraft:the_end"
       ],
       "InvasionPriority": "PRIMARY_ONLY",
-      "InvasionTime": "DAY",
-      "Rarity": 6,
+      "InvasionTime": "BOTH",
+      "Rarity": 8,
       "SeverityInfo": [
         {
           "ClusterSize": 1,
@@ -13,12 +14,20 @@
           "MobCapPercentage": 0.2,
           "MobSpawnList": [
             {
-              "EntityType": "aquamirae:anglerfish",
+              "EntityType": "minecraft:ravager",
               "MaxCount": 1,
               "ForceDespawn": true,
               "IgnoreSpawnRules": true,
               "MinCount": 1,
-              "Weight": 7
+              "Weight": 5
+            },
+            {
+              "EntityType": "crimson_steves_mobs:zombie_ravager",
+              "MaxCount": 1,
+              "ForceDespawn": true,
+              "IgnoreSpawnRules": true,
+              "MinCount": 1,
+              "Weight": 5
             }
           ],
           "TickDelay": 32
@@ -29,28 +38,28 @@
           "MobCapPercentage": 0.4,
           "MobSpawnList": [
             {
-                "EntityType": "aquamirae:anglerfish",
-                "MaxCount": 1,
-                "ForceDespawn": true,
-                "IgnoreSpawnRules": true,
-                "MinCount": 1,
-                "Weight": 7
-              },
-              {
-                "EntityType": "iceandfire:sea_serpent",
-                "MaxCount": 1,
-                "ForceDespawn": true,
-                "IgnoreSpawnRules": true,
-                "MinCount": 1,
-                "Weight": 7
-              },
-              {
-                "EntityType": "aquamirae:maw",
+                "EntityType": "minecraft:ravager",
                 "MaxCount": 2,
                 "ForceDespawn": true,
                 "IgnoreSpawnRules": true,
                 "MinCount": 1,
-                "Weight": 7
+                "Weight": 8
+              },
+              {
+                "EntityType": "crimson_steves_mobs:zombie_ravager",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 5
+              },
+              {
+                "EntityType": "crimson_steves_mobs:ravager_enderman",
+                "MaxCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 5
               }
           ],
           "TickDelay": 26
@@ -61,36 +70,36 @@
           "MobCapPercentage": 0.6,
           "MobSpawnList": [
             {
-                "EntityType": "aquamirae:anglerfish",
+                "EntityType": "minecraft:ravager",
                 "MaxCount": 2,
                 "ForceDespawn": true,
                 "IgnoreSpawnRules": true,
                 "MinCount": 1,
-                "Weight": 4
+                "Weight": 8
               },
               {
-                "EntityType": "iceandfire:sea_serpent",
-                "MaxCount": 1,
-                "ForceDespawn": true,
-                "IgnoreSpawnRules": true,
-                "MinCount": 1,
-                "Weight": 7
-              },
-              {
-                "EntityType": "aquamirae:maw",
+                "EntityType": "crimson_steves_mobs:zombie_ravager",
                 "MaxCount": 2,
                 "ForceDespawn": true,
                 "IgnoreSpawnRules": true,
                 "MinCount": 1,
-                "Weight": 7
+                "Weight": 5
               },
               {
-                "EntityType": "aquamirae:eel",
+                "EntityType": "crimson_steves_mobs:ravager_enderman",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 5
+              },
+              {
+                "EntityType": "crimson_steves_mobs:ender_ravager",
                 "MaxCount": 1,
                 "ForceDespawn": true,
                 "IgnoreSpawnRules": true,
                 "MinCount": 1,
-                "Weight": 2
+                "Weight": 5
               }
           ],
           "TickDelay": 20
@@ -101,36 +110,44 @@
           "MobCapPercentage": 0.8,
           "MobSpawnList": [
             {
-                "EntityType": "aquamirae:anglerfish",
-                "MaxCount": 3,
-                "ForceDespawn": true,
-                "IgnoreSpawnRules": true,
-                "MinCount": 1,
-                "Weight": 4
-              },
-              {
-                "EntityType": "iceandfire:sea_serpent",
+                "EntityType": "minecraft:ravager",
                 "MaxCount": 2,
                 "ForceDespawn": true,
                 "IgnoreSpawnRules": true,
                 "MinCount": 1,
-                "Weight": 7
+                "Weight": 8
               },
               {
-                "EntityType": "aquamirae:maw",
-                "MaxCount": 3,
+                "EntityType": "crimson_steves_mobs:zombie_ravager",
+                "MaxCount": 2,
                 "ForceDespawn": true,
                 "IgnoreSpawnRules": true,
                 "MinCount": 1,
-                "Weight": 7
+                "Weight": 5
               },
               {
-                "EntityType": "aquamirae:eel",
+                "EntityType": "crimson_steves_mobs:ravager_enderman",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 5
+              },
+              {
+                "EntityType": "crimson_steves_mobs:ender_ravager",
                 "MaxCount": 1,
                 "ForceDespawn": true,
                 "IgnoreSpawnRules": true,
                 "MinCount": 1,
-                "Weight": 2
+                "Weight": 5
+              },
+              {
+                "EntityType": "crimson_steves_mobs:elite_ender_ravager",
+                "MaxCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 1
               }
           ],
           "TickDelay": 14
@@ -141,44 +158,52 @@
           "MobCapPercentage": 1.0,
           "MobSpawnList": [
             {
-                "EntityType": "aquamirae:anglerfish",
-                "MaxCount": 3,
+                "EntityType": "minecraft:ravager",
+                "MaxCount": 2,
                 "ForceDespawn": true,
                 "IgnoreSpawnRules": true,
                 "MinCount": 1,
-                "Weight": 4
+                "Weight": 8
               },
               {
-                "EntityType": "iceandfire:sea_serpent",
-                "MaxCount": 3,
+                "EntityType": "crimson_steves_mobs:zombie_ravager",
+                "MaxCount": 2,
                 "ForceDespawn": true,
                 "IgnoreSpawnRules": true,
                 "MinCount": 1,
-                "Weight": 7
+                "Weight": 5
               },
               {
-                "EntityType": "aquamirae:maw",
-                "MaxCount": 3,
+                "EntityType": "crimson_steves_mobs:ravager_enderman",
+                "MaxCount": 2,
                 "ForceDespawn": true,
                 "IgnoreSpawnRules": true,
                 "MinCount": 1,
-                "Weight": 7
+                "Weight": 5
               },
               {
-                "EntityType": "aquamirae:eel",
+                "EntityType": "crimson_steves_mobs:ender_ravager",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 5
+              },
+              {
+                "EntityType": "crimson_steves_mobs:elite_ender_ravager",
                 "MaxCount": 1,
                 "ForceDespawn": true,
                 "IgnoreSpawnRules": true,
                 "MinCount": 1,
-                "Weight": 2
+                "Weight": 1
               }
           ],
           "TickDelay": 8
         }
       ],
       "SpawningSystem": "DEFAULT",
-      "Tier": 1,
+      "Tier": 3,
       "TimeChangeability": "DEFAULT",
       "TimeModifier": "NONE",
-      "WeatherType": "RAIN"
+      "WeatherType": "DEFAULT"
     }

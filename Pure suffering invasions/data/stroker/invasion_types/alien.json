@@ -68,6 +68,14 @@
                 "MaxCount": 3,
                 "MinCount": 2,
                 "Weight": 7
+              },
+              {
+                "EntityType": "fromtheshadows:nehemoth",
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MaxCount": 1,
+                "MinCount": 1,
+                "Weight": 1
               }
         ],
         "TickDelay": 14

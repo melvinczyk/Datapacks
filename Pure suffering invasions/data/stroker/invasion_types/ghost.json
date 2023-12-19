@@ -1,0 +1,274 @@
+{
+    "DefaultName": "Ghost",
+      "Dimensions": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "aether:the_aether"
+      ],
+      "InvasionPriority": "BOTH",
+      "InvasionTime": "BOTH",
+      "Rarity": 4,
+      "SeverityInfo": [
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.2,
+          "MobSpawnList": [
+            {
+              "EntityType": "born_in_chaos_v1:dark_vortex",
+              "MaxCount": 2,
+              "MinCount": 1,
+              "ForceDespawn": true,
+              "IgnoreSpawnRules": true,
+              "Weight": 5
+            },
+            {
+              "EntityType": "born_in_chaos_v1:restless_spirit",
+              "MaxCount": 2,
+              "MinCount": 1,
+              "ForceDespawn": true,
+              "IgnoreSpawnRules": true,
+              "Weight": 5
+            },
+            {
+              "EntityType": "born_in_chaos_v1:shy_spirit",
+              "MaxCount": 2,
+              "MinCount": 1,
+              "ForceDespawn": true,
+              "IgnoreSpawnRules": true,
+              "Weight": 5
+            },
+            {
+                "EntityType": "iceandfire:ghost",
+                "MaxCount": 3,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 5
+            }
+          ],
+          "TickDelay": 32
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.4,
+          "MobSpawnList": [
+            {
+                "EntityType": "born_in_chaos_v1:dark_vortex",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 5
+              },
+              {
+                "EntityType": "born_in_chaos_v1:restless_spirit",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 5
+              },
+              {
+                "EntityType": "born_in_chaos_v1:shy_spirit",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 5
+              },
+              {
+                "EntityType": "born_in_chaos_v1:seared_spirit",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 3
+              },
+              {
+                "EntityType": "born_in_chaos_v1:scarlet_persecutor",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 3
+              },
+              {
+                "EntityType": "iceandfire:ghost",
+                "MaxCount": 3,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 5
+              }
+          ],
+          "TickDelay": 26
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.6,
+          "MobSpawnList": [
+            {
+                "EntityType": "born_in_chaos_v1:dark_vortex",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 5
+              },
+              {
+                "EntityType": "born_in_chaos_v1:restless_spirit",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 5
+              },
+              {
+                "EntityType": "born_in_chaos_v1:shy_spirit",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 5
+              },
+              {
+                "EntityType": "born_in_chaos_v1:seared_spirit",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 3
+              },
+              {
+                "EntityType": "born_in_chaos_v1:scarlet_persecutor",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 3
+              },
+              {
+                "EntityType": "iceandfire:ghost",
+                "MaxCount": 3,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 5
+              }
+          ],
+          "TickDelay": 20
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.8,
+          "MobSpawnList": [
+            {
+                "EntityType": "born_in_chaos_v1:dark_vortex",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 5
+              },
+              {
+                "EntityType": "born_in_chaos_v1:restless_spirit",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 5
+              },
+              {
+                "EntityType": "born_in_chaos_v1:shy_spirit",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 5
+              },
+              {
+                "EntityType": "born_in_chaos_v1:seared_spirit",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 3
+              },
+              {
+                "EntityType": "born_in_chaos_v1:scarlet_persecutor",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 3
+              }
+          ],
+          "TickDelay": 14
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 1.0,
+          "MobSpawnList": [
+            {
+                "EntityType": "born_in_chaos_v1:dark_vortex",
+                "MaxCount": 4,
+                "MinCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 8
+              },
+              {
+                "EntityType": "born_in_chaos_v1:restless_spirit",
+                "MaxCount": 4,
+                "MinCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 5
+              },
+              {
+                "EntityType": "born_in_chaos_v1:shy_spirit",
+                "MaxCount": 4,
+                "MinCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 5
+              },
+              {
+                "EntityType": "born_in_chaos_v1:seared_spirit",
+                "MaxCount": 2,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 3
+              },
+              {
+                "EntityType": "born_in_chaos_v1:scarlet_persecutor",
+                "MaxCount": 4,
+                "MinCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 4
+              },
+              {
+                "EntityType": "iceandfire:ghost",
+                "MaxCount": 3,
+                "MinCount": 1,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "Weight": 8
+              }
+          ],
+          "TickDelay": 8
+        }
+      ],
+      "SpawningSystem": "DEFAULT",
+      "Tier": 1,
+      "TimeChangeability": "DEFAULT",
+      "TimeModifier": "NONE",
+      "WeatherType": "DEFAULT"
+    }

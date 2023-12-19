@@ -1,0 +1,218 @@
+{
+    "DefaultName": "Baby",
+      "Dimensions": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "aether:the_aether"
+      ],
+      "InvasionPriority": "SECONDARY_ONLY",
+      "InvasionTime": "NIGHT",
+      "Rarity": 5,
+      "SeverityInfo": [
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.2,
+          "MobSpawnList": [
+            {
+              "EntityType": "minecraft:baby_zombie",
+              "MaxCount": 1,
+              "MinCount": 1,
+              "ForceDespawn": true,
+              "IgnoreSpawnRules": true,
+              "Weight": 3
+            }
+          ],
+          "TickDelay": 32
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.4,
+          "MobSpawnList": [
+                {
+                  "EntityType": "minecraft:baby_zombie",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 3
+                },
+                {
+                    "EntityType": "born_in_chaos_v1:baby_skeleton",
+                    "MaxCount": 3,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "MinCount": 1,
+                    "Weight": 3
+                }
+          ],
+          "TickDelay": 26
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.6,
+          "MobSpawnList": [
+                {
+                  "EntityType": "minecraft:baby_zombie",
+                  "MaxCount": 3,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 3
+                },
+                {
+                    "EntityType": "born_in_chaos_v1:baby_skeleton",
+                    "MaxCount": 3,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "MinCount": 1,
+                    "Weight": 3
+                },
+                {
+                    "EntityType": "born_in_chaos_v1:baby_skeleton_2",
+                    "MaxCount": 3,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "MinCount": 1,
+                    "Weight": 3
+                }
+          ],
+          "TickDelay": 20
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.8,
+          "MobSpawnList": [
+                {
+                  "EntityType": "minecraft:baby_zombie",
+                  "MaxCount": 3,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 2,
+                  "Weight": 3
+                },
+                {
+                    "EntityType": "born_in_chaos_v1:baby_skeleton",
+                    "MaxCount": 3,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "MinCount": 1,
+                    "Weight": 3
+                },
+                {
+                    "EntityType": "born_in_chaos_v1:baby_skeleton_2",
+                    "MaxCount": 3,
+                    "MinCount": 1,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "Weight": 3
+                },
+                {
+                    "EntityType": "born_in_chaos_v1:baby_skeleton_minion",
+                    "MaxCount": 3,
+                    "MinCount": 1,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "Weight": 3
+                },
+                {
+                    "EntityType": "born_in_chaos_v1:bone_imp",
+                    "MaxCount": 3,
+                    "MinCount": 1,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "Weight": 3
+                },
+                {
+                    "EntityType": "born_in_chaos_v1:bone_imp_minion",
+                    "MaxCount": 3,
+                    "MinCount": 1,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "Weight": 3
+                },
+                {
+                    "EntityType": "born_in_chaos_v1:bone_imp_2",
+                    "MaxCount": 3,
+                    "MinCount": 1,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "Weight": 3
+                }
+          ],
+          "TickDelay": 14
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 1.0,
+          "MobSpawnList": [
+                {
+                  "EntityType": "minecraft:baby_zombie",
+                  "MaxCount": 4,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 2,
+                  "Weight": 3
+                },
+                {
+                    "EntityType": "born_in_chaos_v1:baby_skeleton",
+                    "MaxCount": 4,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "MinCount": 1,
+                    "Weight": 3
+                },
+                {
+                    "EntityType": "born_in_chaos_v1:baby_skeleton_2",
+                    "MaxCount": 4,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "MinCount": 1,
+                    "Weight": 3
+                },
+                {
+                    "EntityType": "born_in_chaos_v1:baby_skeleton_minion",
+                    "MaxCount": 4,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "MinCount": 1,
+                    "Weight": 3
+                },
+                {
+                    "EntityType": "born_in_chaos_v1:bone_imp",
+                    "MaxCount": 4,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "MinCount": 1,
+                    "Weight": 3
+                },
+                {
+                    "EntityType": "born_in_chaos_v1:bone_imp_minion",
+                    "MaxCount": 4,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "MinCount": 1,
+                    "Weight": 3
+                },
+                {
+                    "EntityType": "born_in_chaos_v1:bone_imp_2",
+                    "MaxCount": 4,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "MinCount": 1,
+                    "Weight": 3
+                }
+          ],
+          "TickDelay": 8
+        }
+      ],
+      "SpawningSystem": "DEFAULT",
+      "Tier": 1,
+      "TimeChangeability": "DEFAULT",
+      "TimeModifier": "NONE",
+      "WeatherType": "DEFAULT"
+    }

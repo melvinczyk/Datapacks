@@ -66,6 +66,12 @@
           "MaxCount": 3,
           "MinCount": 1,
           "Weight": 3
+        },
+        {
+          "EntityType": "born_in_chaos_v1:corpse_fly",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
         }
       ],
       "TickDelay": 26
@@ -102,6 +108,18 @@
         {
           "EntityType": "alexsmobs:crimson_mosquito",
           "MaxCount": 3,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "born_in_chaos_v1:corpse_fly",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "born_in_chaos_v1:firelight",
+          "MaxCount": 2,
           "MinCount": 1,
           "Weight": 3
         }
@@ -148,6 +166,18 @@
           "MaxCount": 2,
           "ForceDespawn": true,
           "IgnoreSpawnRules": true,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "born_in_chaos_v1:corpse_fly",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "born_in_chaos_v1:firelight",
+          "MaxCount": 2,
           "MinCount": 1,
           "Weight": 3
         }
@@ -198,6 +228,18 @@
           "MaxCount": 2,
           "ForceDespawn": true,
           "IgnoreSpawnRules": true,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "born_in_chaos_v1:corpse_fly",
+          "MaxCount": 2,
+          "MinCount": 1,
+          "Weight": 3
+        },
+        {
+          "EntityType": "born_in_chaos_v1:firelight",
+          "MaxCount": 2,
           "MinCount": 1,
           "Weight": 3
         }

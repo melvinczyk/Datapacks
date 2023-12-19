@@ -1,0 +1,249 @@
+{
+    "DefaultName": "Zombie virus",
+      "Dimensions": [
+        "minecraft:overworld"
+      ],
+      "InvasionPriority": "BOTH",
+      "InvasionTime": "NIGHT",
+      "Rarity": 4,
+      "SeverityInfo": [
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.2,
+          "MobSpawnList": [
+            {
+              "EntityType": "crimson_steves_mobs:zombie_pig",
+              "MaxCount": 3,
+              "ForceDespawn": true,
+              "IgnoreSpawnRules": true,
+              "MinCount": 1,
+              "Weight": 10
+            },
+            {
+                "EntityType": "crimson_steves_mobs:zombie_cow",
+                "MaxCount": 3,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 10
+              }
+          ],
+          "TickDelay": 32
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.4,
+          "MobSpawnList": [
+            {
+                "EntityType": "crimson_steves_mobs:zombie_pig",
+                "MaxCount": 3,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 10
+            },
+            {
+                  "EntityType": "crimson_steves_mobs:zombie_cow",
+                  "MaxCount": 3,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 10
+            },
+            {
+                "EntityType": "crimson_steves_mobs:zombie_pillager",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 7
+              },
+              {
+                  "EntityType": "crimson_steves_mobs:zombie_vindicator",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                }
+          ],
+          "TickDelay": 26
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.6,
+          "MobSpawnList": [
+            {
+                "EntityType": "crimson_steves_mobs:zombie_pig",
+                "MaxCount": 3,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 10
+            },
+            {
+                  "EntityType": "crimson_steves_mobs:zombie_cow",
+                  "MaxCount": 3,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 10
+            },
+            {
+                "EntityType": "crimson_steves_mobs:zombie_pillager",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 7
+              },
+              {
+                  "EntityType": "crimson_steves_mobs:zombie_vindicator",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                    "EntityType": "crimson_steves_mobs:zombiefied_chad_villager",
+                    "MaxCount": 2,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "MinCount": 1,
+                    "Weight": 5
+                  }
+          ],
+          "TickDelay": 20
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.8,
+          "MobSpawnList": [
+            {
+                "EntityType": "crimson_steves_mobs:zombie_pig",
+                "MaxCount": 3,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 10
+            },
+            {
+                  "EntityType": "crimson_steves_mobs:zombie_cow",
+                  "MaxCount": 3,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 10
+            },
+            {
+                "EntityType": "crimson_steves_mobs:zombie_pillager",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 7
+              },
+              {
+                  "EntityType": "crimson_steves_mobs:zombie_vindicator",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                    "EntityType": "crimson_steves_mobs:zombiefied_chad_villager",
+                    "MaxCount": 2,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "MinCount": 1,
+                    "Weight": 8
+                  },
+                  {
+                    "EntityType": "crimson_steves_mobs:zombie_ravager",
+                    "MaxCount": 2,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "MinCount": 1,
+                    "Weight": 5
+                  }
+
+          ],
+          "TickDelay": 14
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 1.0,
+          "MobSpawnList": [
+            {
+                "EntityType": "crimson_steves_mobs:zombie_pig",
+                "MaxCount": 3,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 10
+            },
+            {
+                  "EntityType": "crimson_steves_mobs:zombie_cow",
+                  "MaxCount": 3,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 10
+            },
+            {
+                "EntityType": "crimson_steves_mobs:zombie_pillager",
+                "MaxCount": 2,
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MinCount": 1,
+                "Weight": 7
+              },
+              {
+                  "EntityType": "crimson_steves_mobs:zombie_vindicator",
+                  "MaxCount": 2,
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MinCount": 1,
+                  "Weight": 7
+                },
+                {
+                    "EntityType": "crimson_steves_mobs:zombiefied_chad_villager",
+                    "MaxCount": 2,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "MinCount": 1,
+                    "Weight": 8
+                  },
+                  {
+                    "EntityType": "crimson_steves_mobs:zombie_evoker",
+                    "MaxCount": 1,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "MinCount": 1,
+                    "Weight": 5
+                  },
+                  {
+                    "EntityType": "crimson_steves_mobs:zombie_ravager",
+                    "MaxCount": 2,
+                    "ForceDespawn": true,
+                    "IgnoreSpawnRules": true,
+                    "MinCount": 1,
+                    "Weight": 5
+                  }
+          ],
+          "TickDelay": 8
+        }
+      ],
+      "SpawningSystem": "DEFAULT",
+      "Tier": 1,
+      "TimeChangeability": "DEFAULT",
+      "TimeModifier": "NONE",
+      "WeatherType": "THUNDER"
+    }

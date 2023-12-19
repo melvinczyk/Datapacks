@@ -75,14 +75,6 @@
                   "IgnoreSpawnRules": true,
                   "MinCount": 1,
                   "Weight": 7
-                },
-                {
-                  "EntityType": "mutant_iceologer:mutant_iceologer",
-                  "MaxCount": 1,
-                  "ForceDespawn": true,
-                  "IgnoreSpawnRules": true,
-                  "MinCount": 1,
-                  "Weight": 3
                 }
           ],
           "TickDelay": 26
@@ -139,14 +131,6 @@
                   "IgnoreSpawnRules": true,
                   "MinCount": 1,
                   "Weight": 7
-                },
-                {
-                  "EntityType": "mutant_iceologer:mutant_iceologer",
-                  "MaxCount": 2,
-                  "ForceDespawn": true,
-                  "IgnoreSpawnRules": true,
-                  "MinCount": 1,
-                  "Weight": 4
                 }
           ],
           "TickDelay": 20
@@ -203,14 +187,6 @@
                   "IgnoreSpawnRules": true,
                   "MinCount": 1,
                   "Weight": 7
-                },
-                {
-                  "EntityType": "mutant_iceologer:mutant_iceologer",
-                  "MaxCount": 2,
-                  "ForceDespawn": true,
-                  "IgnoreSpawnRules": true,
-                  "MinCount": 1,
-                  "Weight": 4
                 }
           ],
           "TickDelay": 14
@@ -267,14 +243,6 @@
                   "IgnoreSpawnRules": true,
                   "MinCount": 1,
                   "Weight": 7
-                },
-                {
-                  "EntityType": "mutant_iceologer:mutant_iceologer",
-                  "MaxCount": 3,
-                  "ForceDespawn": true,
-                  "IgnoreSpawnRules": true,
-                  "MinCount": 1,
-                  "Weight": 5
                 }
           ],
           "TickDelay": 8

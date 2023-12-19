@@ -1,0 +1,137 @@
+{
+    "DefaultName": "Tanks",
+      "Dimensions": [
+        "minecraft:overworld",
+        "minecraft:the_nether"
+      ],
+      "InvasionPriority": "SECONDARY_ONLY",
+      "InvasionTime": "BOTH",
+      "Rarity": 7,
+      "SeverityInfo": [
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.2,
+          "MobSpawnList": [
+            {
+              "EntityType": "majruszsdifficulty:tank",
+              "ForceDespawn": true,
+              "IgnoreSpawnRules": true,
+              "MaxCount": 1,
+              "MinCount": 1,
+              "Weight": 5
+            },
+            {
+                "EntityType": "born_in_chaos_v1:skeleton_thrasher",
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MaxCount": 1,
+                "MinCount": 1,
+                "Weight": 5
+              }
+          ],
+          "TickDelay": 32
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.4,
+          "MobSpawnList": [
+            {
+                "EntityType": "majruszsdifficulty:tank",
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MaxCount": 1,
+                "MinCount": 1,
+                "Weight": 5
+              },
+              {
+                  "EntityType": "born_in_chaos_v1:skeleton_thrasher",
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MaxCount": 2,
+                  "MinCount": 1,
+                  "Weight": 5
+                }
+          ],
+          "TickDelay": 26
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.6,
+          "MobSpawnList": [
+            {
+                "EntityType": "majruszsdifficulty:tank",
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 10
+              },
+              {
+                  "EntityType": "born_in_chaos_v1:skeleton_thrasher",
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MaxCount": 2,
+                  "MinCount": 1,
+                  "Weight": 10
+                }
+          ],
+          "TickDelay": 20
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 0.8,
+          "MobSpawnList": [
+            {
+                "EntityType": "majruszsdifficulty:tank",
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 10
+              },
+              {
+                  "EntityType": "born_in_chaos_v1:skeleton_thrasher",
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MaxCount": 2,
+                  "MinCount": 1,
+                  "Weight": 5
+                }
+          ],
+          "TickDelay": 14
+        },
+        {
+          "ClusterSize": 1,
+          "ForceNoSleep": false,
+          "MobCapPercentage": 1.0,
+          "MobSpawnList": [
+            {
+                "EntityType": "majruszsdifficulty:tank",
+                "ForceDespawn": true,
+                "IgnoreSpawnRules": true,
+                "MaxCount": 2,
+                "MinCount": 1,
+                "Weight": 10
+              },
+              {
+                  "EntityType": "born_in_chaos_v1:skeleton_thrasher",
+                  "ForceDespawn": true,
+                  "IgnoreSpawnRules": true,
+                  "MaxCount": 2,
+                  "MinCount": 1,
+                  "Weight": 10
+                }
+          ],
+          "TickDelay": 8
+        }
+      ],
+      "SpawningSystem": "DEFAULT",
+      "Tier": 3,
+      "TimeChangeability": "DEFAULT",
+      "TimeModifier": "NONE",
+      "WeatherType": "DEFAULT"
+    }
