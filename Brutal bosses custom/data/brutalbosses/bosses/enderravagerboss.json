@@ -1,0 +1,32 @@
+{
+    "entity": "crimson_steves_mobs:ender_ravager",
+    "name": "Brutus the Resistant",
+    "visualscale": 3.0,
+    "experience": 300,
+    "effects": {
+      "minecraft:resistance": 3,
+      "minecraft:fire_resistance": 5
+    },
+    "attributes": {
+      "generic.max_health": 500,
+      "generic.follow_range": 80,
+      "generic.knockback_resistance": 4
+    },
+    "customattributes": {
+    },
+    "gear": {
+    },
+    "ai-goals": {
+      "brutalbosses:charge": {},
+      "brutalbosses:aftercombatregen": {
+        "amount": 4
+      }
+    },
+    "spawnatchest": {
+      "minecraft:chests/end_city_treasure": 5,
+      "minecraft:chests/stronghold_library": 1,
+      "minecraft:chests/simple_dungeon": 1,
+      "totw_additions:chests/end_tower/end_tower_chest": 1,
+      "awesomedungeonend:chests/awesome_dungeon": 3
+    }
+  }

@@ -6,7 +6,7 @@
   ],
   "spawners": {
     "type": "crimson_steves_mobs:animated_temple",
-    "weight": 3,
+    "weight": 10,
     "minCount": 1,
     "maxCount": 1
   }

@@ -1,0 +1,39 @@
+{
+    "entity": "crimson_steves_mobs:redstone_powered_iron_golem",
+    "name": "Unhinged Mistake",
+    "visualscale": 2.0,
+    "experience": 300,
+    "effects": {
+      "minecraft:resistance": 1,
+      "minecraft:regeneration": 1,
+      "minecraft:fire_resistance": 1
+    },
+    "attributes": {
+      "generic.max_health": 100,
+      "generic.follow_range": 80,
+      "generic.knockback_resistance": 1
+    },
+    "gear":{
+
+    },
+    "customattributes": {
+      "attack_speed": 0.5
+    },
+    "ai-goals": {
+      "brutalbosses:charge": {},
+      "minecraft:target": {},
+      "brutalbosses:whirlwind": {},
+      "brutalbosses:chasetarget": {}
+    },
+    "spawnatchest": {
+      "minecraft:chests/village/village_butcher": 5,
+      "minecraft:chests/jungle_temple": 1,
+      "minecraft:chests/bastion_hoglin_stable": 1,
+      "goblinsanddungeons:chests/camp_loot_table": 1,
+      "dungeons_enhanced:pillager_camp_kitchen": 1,
+      "dungeons_arise:chests/infested_temple/infested_temple_top_treasure": 1,
+      "dungeons_arise:chests/mushroom_house/mushroom_house_treasure": 1,
+      "dungeons_enhanced:chests/monster_maze/treasure": 1,
+      "dungeons_arise:chests/plague_asylum/plague_asylum_treasure": 1
+    }
+  }

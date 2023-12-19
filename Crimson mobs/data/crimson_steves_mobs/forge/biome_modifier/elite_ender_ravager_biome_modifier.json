@@ -1,11 +1,11 @@
 {
   "type": "forge:add_spawns",
   "biomes": {
-    "type": "forge:any"
+    "type": "#minecraft:is_end"
   },
   "spawners": {
     "type": "crimson_steves_mobs:elite_ender_ravager",
-    "weight": 1,
+    "weight": 3,
     "minCount": 1,
     "maxCount": 1
   }

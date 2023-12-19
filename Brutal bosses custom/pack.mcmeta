@@ -1,0 +1,7 @@
+{
+    "pack": {
+      "description": "Brutal bosses example datapack",
+      "pack_format": 8,
+      "_comment": "Includes all bosses of the mod, only keep files you modify, remove the others, so they load the defaults of the mod itself"
+    }
+}

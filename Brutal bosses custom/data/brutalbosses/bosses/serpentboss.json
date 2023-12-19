@@ -1,0 +1,47 @@
+{
+    "entity": "iceandfire:sea_serpent",
+    "name": "Hullbreaker Horror",
+    "visualscale": 3.5,
+    "experience": 300,
+    "protect_treasure": true,
+    "effects": {
+      "minecraft:dolphins_grace": 6,
+      "minecraft:resistance": 1
+    },
+    "attributes": {
+      "generic.max_health": 100,
+      "generic.follow_range": 50,
+      "generic.attack_damage": 3,
+      "generic.knockback_resistance": 2
+    },
+    "customattributes": {
+      "attack_speed": 0.5
+    },
+    "gear":{
+
+    },
+    "ai-goals": {
+      "brutalbosses:aftercombatregen": {
+        "amount": 2
+      },
+      "brutalbosses:whirlwind": {
+        "potiononhit": "minecraft:slowness",
+        "potionlevel": 3
+      }
+    },
+    "spawnatchest": {
+      "minecraft:chests/ruined_portal": 1,
+      "minecraft:chests/underwater_ruin_small": 10,
+      "minecraft:chests/underwater_ruin_big": 10,
+      "minecraft:chests/shipwreck_treasure": 10,
+      "minecraft:chests/shipwreck_supply": 10,
+      "minecraft:chests/shipwreck_map": 10,
+      "dungeons_enhanced:castle_spring": 1,
+      "unstructured:chests/ocean_house": 1,
+      "dungeons_plus:chests/warped_garden/common": 1,
+      "dungeons_arise:chests/illager_galley/illager_galley_treasure": 1,
+      "dungeons_arise:chests/typhon/typhon_treasure": 1,
+      "philipsruins:chests/ocean_ruins_loot": 1,
+      "minecraft:chests/buried_treasure": 3
+    }
+  }
