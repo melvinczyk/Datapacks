@@ -1,14 +1,14 @@
 {
     "entity": "crimson_steves_mobs:ender_ravager",
     "name": "Brutus the Resistant",
-    "visualscale": 3.0,
+    "visualscale": 2.0,
     "experience": 300,
     "effects": {
       "minecraft:resistance": 3,
       "minecraft:fire_resistance": 5
     },
     "attributes": {
-      "generic.max_health": 500,
+      "generic.max_health": 2000,
       "generic.follow_range": 80,
       "generic.knockback_resistance": 4
     },

@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "Evocation",
+	"icon": {
+		"type": "texture",
+		"data": {
+			"texture": "iron_x_puffish_compat:textures/gui/icons/evocationtab.png"
+		}
+	},
+	"background": "iron_x_puffish_compat:textures/gui/advancements/backgrounds/evocationbg.png"
+}

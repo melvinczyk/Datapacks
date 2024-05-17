@@ -5,7 +5,7 @@
       ],
       "InvasionPriority": "BOTH",
       "InvasionTime": "BOTH",
-      "Rarity": 15,
+      "Rarity": 25,
       "SeverityInfo": [
         {
           "ClusterSize": 1,

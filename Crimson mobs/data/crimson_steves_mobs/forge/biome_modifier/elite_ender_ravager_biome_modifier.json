@@ -1,11 +1,9 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "#minecraft:is_end"
-  },
+  "biomes": "#stellarity:biomes/all",
   "spawners": {
     "type": "crimson_steves_mobs:elite_ender_ravager",
-    "weight": 3,
+    "weight": 1,
     "minCount": 1,
     "maxCount": 1
   }

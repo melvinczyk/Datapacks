@@ -1,0 +1,137 @@
+{
+	"lure+3%": {
+		"title": "+3% Lure",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "aquaculture:nether_star_hook"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additional_attributes:fishing_lure",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"fishing_luck+3%": {
+		"title": "+3% Fishing Luck",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "aquaculture:atlantic_cod"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "additional_attributes:fishing_luck",
+					"value": 0.03,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+    "experience_gained+3%": {
+        "title": "+3% Experience Gained",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:experience_bottle"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "attributeslib:experience_gained",
+                    "value": 0.03,
+                    "operation": "multiply_total"
+                }
+            }
+        ]
+    },
+    "root_fishing": {
+        "title": "+5% Lure",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:fishing_rod"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additional_attributes:fishing_lure",
+                    "value": 0.05,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "give @s aquaculture:iron_hook"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "say So your §bfishing §6journey §abegins§c!!!"
+                }
+            }
+        ]
+    },
+    "mastery": {
+        "title": "Master Baiter",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "aquaculture:neptunium_helmet"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "say §6Congrats you are now a §bMaster Baiter§c!!!!"
+                }
+            },
+            {
+                "type": "puffish_command",
+                "data": {
+                    "command": "say Enjoy your new §a[gear]"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "give @s aquaculture:neptunium_helmet"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "give @s aquaculture:neptunium_chestplate"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "give @s aquaculture:neptunium_leggings"
+                }
+            },
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "command": "give @s aquaculture:neptunium_boots"
+                }
+            }
+        ]
+    }
+}

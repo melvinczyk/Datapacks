@@ -8,7 +8,7 @@
       "minecraft:resistance": 1
     },
     "attributes": {
-      "generic.max_health": 150,
+      "generic.max_health": 1000,
       "generic.follow_range": 50,
       "generic.attack_damage": 10,
       "generic.knockback_resistance": 10

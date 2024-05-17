@@ -11,7 +11,7 @@
       "minecraft:fire_resistance": 1
     },
     "attributes": {
-      "generic.max_health": 90,
+      "generic.max_health":2000,
       "generic.follow_range": 80,
       "generic.knockback_resistance": 1
     },

@@ -4,8 +4,8 @@
   "spawners": {
     "type": "trailsandtalesplus:snareling",
     "minCount": 1,
-    "maxCount": 3,
-    "weight": 10
+    "maxCount": 2,
+    "weight": 3
   },
   "category": "monster"
 }

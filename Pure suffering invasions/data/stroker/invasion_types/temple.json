@@ -3,9 +3,9 @@
       "Dimensions": [
         "minecraft:overworld"
       ],
-      "InvasionPriority": "PRIMARY_ONLY",
+      "InvasionPriority": "BOTH",
       "InvasionTime": "BOTH",
-      "Rarity": 13,
+      "Rarity": 20,
       "SeverityInfo": [
         {
           "ClusterSize": 1,
@@ -62,7 +62,7 @@
           "MobSpawnList": [
             {
                 "EntityType": "crimson_steves_mobs:animated_temple",
-                "MaxCount": 2,
+                "MaxCount": 1,
                 "ForceDespawn": true,
                 "IgnoreSpawnRules": true,
                 "MinCount": 1,
@@ -78,7 +78,7 @@
           "MobSpawnList": [
             {
                 "EntityType": "crimson_steves_mobs:animated_temple",
-                "MaxCount": 2,
+                "MaxCount": 1,
                 "ForceDespawn": true,
                 "IgnoreSpawnRules": true,
                 "MinCount": 1,

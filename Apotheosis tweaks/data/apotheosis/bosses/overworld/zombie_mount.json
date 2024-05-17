@@ -10,8 +10,11 @@
 		"minecraft:overworld"
 	],
 	"mount": {
-		"entity": "spider"
+		"entity": "crimson_steves_mobs:zombie_ravager"
 	},
+	"valid_gear_sets": [
+		"#overworld"
+	],
 	"min_rarity": "uncommon",
 	"max_rarity": "uncommon",
 	"stats": {

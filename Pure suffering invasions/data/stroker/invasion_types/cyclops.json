@@ -3,9 +3,9 @@
       "Dimensions": [
         "minecraft:overworld"
       ],
-      "InvasionPriority": "BOTH",
+      "InvasionPriority": "SECONDARY_ONLY",
       "InvasionTime": "BOTH",
-      "Rarity": 10,
+      "Rarity": 15,
       "SeverityInfo": [
         {
           "ClusterSize": 1,

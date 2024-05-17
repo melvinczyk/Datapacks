@@ -6,7 +6,7 @@
     "effects": {
     },
     "attributes": {
-      "generic.max_health": 200,
+      "generic.max_health": 50,
       "generic.follow_range": 50,
       "generic.knockback_resistance": 10,
       "generic.attack_damage": 10

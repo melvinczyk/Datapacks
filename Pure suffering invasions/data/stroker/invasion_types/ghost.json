@@ -6,7 +6,7 @@
         "aether:the_aether"
       ],
       "InvasionPriority": "BOTH",
-      "InvasionTime": "BOTH",
+      "InvasionTime": "NIGHT",
       "Rarity": 4,
       "SeverityInfo": [
         {

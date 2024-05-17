@@ -1,0 +1,11 @@
+{
+    "unlocked_by_default": true,
+    "title": "Blood",
+    "icon": {
+        "type": "texture",
+        "data": {
+            "texture": "iron_x_puffish_compat:textures/gui/icons/bloodtab.png"
+        }
+    },
+    "background": "iron_x_puffish_compat:textures/gui/advancements/backgrounds/bloodbg.png"
+}

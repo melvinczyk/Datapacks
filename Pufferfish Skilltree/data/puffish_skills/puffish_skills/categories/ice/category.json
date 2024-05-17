@@ -1,0 +1,11 @@
+{
+	"unlocked_by_default": true,
+	"title": "Ice",
+	"icon": {
+		"type": "texture",
+		"data": {
+			"texture": "iron_x_puffish_compat:textures/gui/icons/icetab.png"
+		}
+	},
+	"background": "iron_x_puffish_compat:textures/gui/advancements/backgrounds/icebg.png"
+}
