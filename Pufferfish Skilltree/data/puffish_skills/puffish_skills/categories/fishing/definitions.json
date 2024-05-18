@@ -1,10 +1,10 @@
 {
-	"lure+3%": {
-		"title": "+3% Lure",
+	"lure+5%": {
+		"title": "+5% Lure",
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "aquaculture:nether_star_hook"
+				"item": "aquaculture:gold_hook"
 			}
 		},
 		"rewards": [
@@ -18,8 +18,8 @@
 			}
 		]
 	},
-	"fishing_luck+3%": {
-		"title": "+3% Fishing Luck",
+	"fishing_luck+5%": {
+		"title": "+5% Fishing Luck",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -103,9 +103,9 @@
                 }
             },
             {
-                "type": "puffish_command",
+                "type": "puffish_skills:command",
                 "data": {
-                    "command": "say Enjoy your new §a[gear]"
+                    "command": "say Enjoy your new §agear"
                 }
             },
             {

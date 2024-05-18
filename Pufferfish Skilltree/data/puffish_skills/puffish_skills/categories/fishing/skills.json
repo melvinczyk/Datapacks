@@ -1,428 +1,158 @@
 {
-	"-13_-1": {
-		"x": -416,
-		"y": -32,
-		"definition": "fortune+0.1"
-	},
-	"-13_1": {
-		"x": -416,
-		"y": 32,
-		"definition": "fortune+0.1"
-	},
-	"-11_-2": {
-		"x": -352,
-		"y": -64,
-		"definition": "mining_speed+3%"
-	},
-	"-11_2": {
-		"x": -352,
-		"y": 64,
-		"definition": "mining_speed+3%"
-	},
-	"-10_-8": {
-		"x": -320,
-		"y": -256,
-		"definition": "fortune+0.1"
-	},
-	"-10_-4": {
-		"x": -320,
-		"y": -128,
-		"definition": "mining_speed+3%"
-	},
-	"-10_4": {
-		"x": -320,
-		"y": 128,
-		"definition": "mining_speed+3%"
-	},
-	"-10_8": {
-		"x": -320,
-		"y": 256,
-		"definition": "fortune+0.1"
-	},
-	"-9_-6": {
-		"x": -288,
-		"y": -192,
-		"definition": "mining_speed+3%"
-	},
-	"-9_-1": {
-		"x": -288,
-		"y": -32,
-		"definition": "mining_speed+3%"
-	},
-	"-9_1": {
-		"x": -288,
-		"y": 32,
-		"definition": "mining_speed+3%"
-	},
-	"-9_6": {
-		"x": -288,
-		"y": 192,
-		"definition": "mining_speed+3%"
-	},
-	"-8_-10": {
-		"x": -256,
-		"y": -320,
-		"definition": "fortune+0.1"
-	},
-	"-8_-3": {
-		"x": -256,
-		"y": -96,
-		"definition": "mining_speed+3%"
-	},
-	"-8_3": {
-		"x": -256,
-		"y": 96,
-		"definition": "mining_speed+3%"
-	},
-	"-8_10": {
-		"x": -256,
-		"y": 320,
-		"definition": "fortune+0.1"
-	},
-	"-7_-5": {
-		"x": -224,
-		"y": -160,
-		"definition": "mining_speed+3%"
-	},
-	"-7_5": {
-		"x": -224,
-		"y": 160,
-		"definition": "mining_speed+3%"
-	},
-	"-6_-9": {
-		"x": -192,
-		"y": -288,
-		"definition": "mining_speed+3%"
-	},
-	"-6_-2": {
-		"x": -192,
-		"y": -64,
-		"definition": "mining_speed+3%"
-	},
-	"-6_2": {
-		"x": -192,
-		"y": 64,
-		"definition": "mining_speed+3%"
-	},
-	"-6_9": {
-		"x": -192,
-		"y": 288,
-		"definition": "mining_speed+3%"
-	},
-	"-5_-7": {
-		"x": -160,
-		"y": -224,
-		"definition": "mining_speed+3%"
-	},
-	"-5_7": {
-		"x": -160,
-		"y": 224,
-		"definition": "mining_speed+3%"
-	},
-	"-4_-10": {
-		"x": -128,
-		"y": -320,
-		"definition": "mining_speed+3%"
-	},
-	"-4_-1": {
-		"x": -128,
-		"y": -32,
-		"definition": "mining_speed+3%"
-	},
-	"-4_1": {
-		"x": -128,
-		"y": 32,
-		"definition": "mining_speed+3%"
-	},
-	"-4_10": {
-		"x": -128,
-		"y": 320,
-		"definition": "mining_speed+3%"
-	},
-	"-3_-8": {
-		"x": -96,
-		"y": -256,
-		"definition": "mining_speed+3%"
-	},
-	"-3_8": {
-		"x": -96,
-		"y": 256,
-		"definition": "mining_speed+3%"
-	},
-	"-2_-11": {
-		"x": -64,
-		"y": -352,
-		"definition": "mining_speed+3%"
-	},
-	"-2_-6": {
-		"x": -64,
-		"y": -192,
-		"definition": "mining_speed+3%"
-	},
-	"-2_0": {
-		"x": -64,
+	"bt236pvb6fk89cp8": {
+		"definition": "root_fishing",
+		"x": 256,
 		"y": 0,
-		"definition": "mining_speed+3%"
-	},
-	"-2_6": {
-		"x": -64,
-		"y": 192,
-		"definition": "mining_speed+3%"
-	},
-	"-2_11": {
-		"x": -64,
-		"y": 352,
-		"definition": "mining_speed+3%"
-	},
-	"-1_-13": {
-		"x": -32,
-		"y": -416,
-		"definition": "fortune+0.1"
-	},
-	"-1_-9": {
-		"x": -32,
-		"y": -288,
-		"definition": "mining_speed+3%"
-	},
-	"-1_-4": {
-		"x": -32,
-		"y": -128,
-		"definition": "mining_speed+3%"
-	},
-	"-1_4": {
-		"x": -32,
-		"y": 128,
-		"definition": "mining_speed+3%"
-	},
-	"-1_9": {
-		"x": -32,
-		"y": 288,
-		"definition": "mining_speed+3%"
-	},
-	"-1_13": {
-		"x": -32,
-		"y": 416,
-		"definition": "fortune+0.1"
-	},
-	"0_-2": {
-		"x": 0,
-		"y": -64,
-		"definition": "mining_speed+3%"
-	},
-	"0_0": {
-		"x": 0,
-		"y": 0,
-		"definition": "mining_speed+3%",
 		"root": true
 	},
-	"0_2": {
+	"id418i5nm6glwkj4": {
+		"definition": "lure+5%",
+		"x": 256,
+		"y": -73.9008344562721,
+		"root": false
+	},
+	"cb9luxuxpoj89kkr": {
+		"definition": "lure+5%",
+		"x": 256,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"u03ee06025eyqscb": {
+		"definition": "fishing_luck+5%",
+		"x": 256,
+		"y": 73.9008344562721,
+		"root": false
+	},
+	"epxkcmhwyoc77s1v": {
+		"definition": "fishing_luck+5%",
+		"x": 256,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"e07onofuvdt6mj73": {
+		"definition": "fishing_luck+5%",
+		"x": 192,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"fu2bmmuttgwxswsw": {
+		"definition": "lure+5%",
+		"x": 192,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"ckqkom0zhep148io": {
+		"definition": "mastery",
+		"x": -256,
+		"y": 0,
+		"root": false
+	},
+	"pivzpw4j87fzj1bu": {
+		"definition": "fishing_luck+5%",
+		"x": -224,
+		"y": 55.425625842204084,
+		"root": false
+	},
+	"1jsn0nok972cfew2": {
+		"definition": "lure+5%",
+		"x": -224,
+		"y": -55.425625842204056,
+		"root": false
+	},
+	"84bhv004hh4j9srr": {
+		"definition": "experience_gained+3%",
+		"x": -64,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"ckmh0l81di23py62": {
+		"definition": "experience_gained+3%",
+		"x": -64,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"1kzp1xw6cv6m0gjh": {
+		"definition": "lure+5%",
+		"x": -160,
+		"y": -129.32646029847615,
+		"root": false
+	},
+	"91dnyk3339osqi2u": {
+		"definition": "lure+5%",
+		"x": 64,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"37w9ix2gopx7d8je": {
+		"definition": "fishing_luck+5%",
 		"x": 0,
-		"y": 64,
-		"definition": "mining_speed+3%"
+		"y": -147.8016689125442,
+		"root": false
 	},
-	"1_-13": {
-		"x": 32,
-		"y": -416,
-		"definition": "fortune+0.1"
+	"131b8ri3k80zvkgs": {
+		"definition": "lure+5%",
+		"x": 0,
+		"y": 147.8016689125442,
+		"root": false
 	},
-	"1_-9": {
-		"x": 32,
-		"y": -288,
-		"definition": "mining_speed+3%"
-	},
-	"1_-4": {
-		"x": 32,
-		"y": -128,
-		"definition": "mining_speed+3%"
-	},
-	"1_4": {
-		"x": 32,
-		"y": 128,
-		"definition": "mining_speed+3%"
-	},
-	"1_9": {
-		"x": 32,
-		"y": 288,
-		"definition": "mining_speed+3%"
-	},
-	"1_13": {
-		"x": 32,
-		"y": 416,
-		"definition": "fortune+0.1"
-	},
-	"2_-11": {
+	"y2sypf9b83d26g2q": {
+		"definition": "fishing_luck+5%",
 		"x": 64,
-		"y": -352,
-		"definition": "mining_speed+3%"
+		"y": 110.85125168440814,
+		"root": false
 	},
-	"2_-6": {
-		"x": 64,
-		"y": -192,
-		"definition": "mining_speed+3%"
-	},
-	"2_0": {
+	"djebkgxbl7743kvc": {
+		"definition": "experience_gained+3%",
 		"x": 64,
 		"y": 0,
-		"definition": "mining_speed+3%"
+		"root": false
 	},
-	"2_6": {
-		"x": 64,
-		"y": 192,
-		"definition": "mining_speed+3%"
+	"a9842rs7nar1lqas": {
+		"definition": "lure+5%",
+		"x": 0,
+		"y": 36.95041722813605,
+		"root": false
 	},
-	"2_11": {
-		"x": 64,
-		"y": 352,
-		"definition": "mining_speed+3%"
+	"ltu9tvj9sfdey6j2": {
+		"definition": "fishing_luck+5%",
+		"x": 0,
+		"y": -36.95041722813605,
+		"root": false
 	},
-	"3_-8": {
-		"x": 96,
-		"y": -256,
-		"definition": "mining_speed+3%"
+	"gr5elffjfl468319": {
+		"definition": "lure+5%",
+		"x": -128,
+		"y": 36.95041722813605,
+		"root": false
 	},
-	"3_8": {
-		"x": 96,
-		"y": 256,
-		"definition": "mining_speed+3%"
+	"4q0g3dqbiim5xqbt": {
+		"definition": "fishing_luck+5%",
+		"x": -128,
+		"y": -36.95041722813605,
+		"root": false
 	},
-	"4_-10": {
+	"rayldws0bvjqzi0x": {
+		"definition": "experience_gained+3%",
+		"x": -192,
+		"y": 0,
+		"root": false
+	},
+	"xhxjba88cha6uyev": {
+		"definition": "fishing_luck+5%",
 		"x": 128,
-		"y": -320,
-		"definition": "mining_speed+3%"
+		"y": 73.9008344562721,
+		"root": false
 	},
-	"4_-1": {
+	"l80dhi1dm6y7artp": {
+		"definition": "lure+5%",
 		"x": 128,
-		"y": -32,
-		"definition": "mining_speed+3%"
+		"y": -73.9008344562721,
+		"root": false
 	},
-	"4_1": {
-		"x": 128,
-		"y": 32,
-		"definition": "mining_speed+3%"
-	},
-	"4_10": {
-		"x": 128,
-		"y": 320,
-		"definition": "mining_speed+3%"
-	},
-	"5_-7": {
-		"x": 160,
-		"y": -224,
-		"definition": "mining_speed+3%"
-	},
-	"5_7": {
-		"x": 160,
-		"y": 224,
-		"definition": "mining_speed+3%"
-	},
-	"6_-9": {
-		"x": 192,
-		"y": -288,
-		"definition": "mining_speed+3%"
-	},
-	"6_-2": {
-		"x": 192,
-		"y": -64,
-		"definition": "mining_speed+3%"
-	},
-	"6_2": {
-		"x": 192,
-		"y": 64,
-		"definition": "mining_speed+3%"
-	},
-	"6_9": {
-		"x": 192,
-		"y": 288,
-		"definition": "mining_speed+3%"
-	},
-	"7_-5": {
-		"x": 224,
-		"y": -160,
-		"definition": "mining_speed+3%"
-	},
-	"7_5": {
-		"x": 224,
-		"y": 160,
-		"definition": "mining_speed+3%"
-	},
-	"8_-10": {
-		"x": 256,
-		"y": -320,
-		"definition": "fortune+0.1"
-	},
-	"8_-3": {
-		"x": 256,
-		"y": -96,
-		"definition": "mining_speed+3%"
-	},
-	"8_3": {
-		"x": 256,
-		"y": 96,
-		"definition": "mining_speed+3%"
-	},
-	"8_10": {
-		"x": 256,
-		"y": 320,
-		"definition": "fortune+0.1"
-	},
-	"9_-6": {
-		"x": 288,
-		"y": -192,
-		"definition": "mining_speed+3%"
-	},
-	"9_-1": {
-		"x": 288,
-		"y": -32,
-		"definition": "mining_speed+3%"
-	},
-	"9_1": {
-		"x": 288,
-		"y": 32,
-		"definition": "mining_speed+3%"
-	},
-	"9_6": {
-		"x": 288,
-		"y": 192,
-		"definition": "mining_speed+3%"
-	},
-	"10_-8": {
-		"x": 320,
-		"y": -256,
-		"definition": "fortune+0.1"
-	},
-	"10_-4": {
-		"x": 320,
-		"y": -128,
-		"definition": "mining_speed+3%"
-	},
-	"10_4": {
-		"x": 320,
-		"y": 128,
-		"definition": "mining_speed+3%"
-	},
-	"10_8": {
-		"x": 320,
-		"y": 256,
-		"definition": "fortune+0.1"
-	},
-	"11_-2": {
-		"x": 352,
-		"y": -64,
-		"definition": "mining_speed+3%"
-	},
-	"11_2": {
-		"x": 352,
-		"y": 64,
-		"definition": "mining_speed+3%"
-	},
-	"13_-1": {
-		"x": 416,
-		"y": -32,
-		"definition": "fortune+0.1"
-	},
-	"13_1": {
-		"x": 416,
-		"y": 32,
-		"definition": "fortune+0.1"
+	"hwujhxhqylv2iw2r": {
+		"definition": "fishing_luck+5%",
+		"x": -160,
+		"y": 129.32646029847615,
+		"root": false
 	}
 }

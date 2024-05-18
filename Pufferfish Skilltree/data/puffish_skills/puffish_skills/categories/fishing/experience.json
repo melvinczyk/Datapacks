@@ -2,18 +2,18 @@
     "experience_per_level": {
         "type": "expression",
         "data": {
-            "expression": "min(level ^1.7 + 15, 215)"
+            "expression": "min(level ^1.75 + 20, 200)"
         }
     },
     "sources": [
         {
-            "type": "pufferfish_skills:increase_stat",
+            "type": "puffish_skills:increase_stat",
             "data": {
                 "conditions": {
                     "is_fish": {
                         "type": "stat",
                         "data": {
-                            "stat": "minecraft.custom:minecraft:fish_caught"
+                            "stat": "minecraft.custom:minecraft.fish_caught"
                         }
                     }
                 },
