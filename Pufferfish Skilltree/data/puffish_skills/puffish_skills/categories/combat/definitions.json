@@ -137,8 +137,8 @@
 			}
 		]
 	},
-	"melee_damage+3%": {
-		"title": "+3% Melee Damage",
+	"damage+0.25": {
+		"title": "+0.25 Damage",
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -149,9 +149,9 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.melee_damage",
-					"value": 0.03,
-					"operation": "multiply_total"
+					"attribute": "minecraft:generic_damage",
+					"value": 0.25,
+					"operation": "addition"
 				}
 			}
 		]
@@ -232,8 +232,8 @@
 			}
 		]
 	},
-	"stamina+5%": {
-		"title": "+5% Stamina",
+	"crit_chance+3%": {
+		"title": "+3% Crit Chance",
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -244,8 +244,8 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.stamina",
-					"value": 0.05,
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.03,
 					"operation": "multiply_total"
 				}
 			}
@@ -270,8 +270,8 @@
 			}
 		]
 	},
-	"jump+5%": {
-		"title": "+5% Jump",
+	"armor_pierce+0.25": {
+		"title": "+0.25 Armor Pierce",
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -282,9 +282,9 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.jump",
-					"value": 0.05,
-					"operation": "multiply_total"
+					"attribute": "attributeslib:armor_pierce",
+					"value": 0.25,
+					"operation": "addition"
 				}
 			}
 		]
