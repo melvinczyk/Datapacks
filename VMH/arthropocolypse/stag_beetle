@@ -1,9 +1,9 @@
 {
-    "entity_type": "born_in_chaos_v1:zombie_lumberjack",
+    "entity_type": "arthropocolypse:stag_beetle",
     "entity_data": {
-        "min": 0.95, 
-        "max": 1.05,
-      "median": 1.0,
+      "min": 1.0, 
+      "max": 1.10,
+      "median": 1.05,
       "distribution_type": 0,
       "scaleByBreeding": true,
       "scaleTruncationCoefficent": 1.01,
