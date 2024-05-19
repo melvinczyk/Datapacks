@@ -1,9 +1,9 @@
 {
-    "entity_type": "born_in_chaos_v1:zombie_lumberjack",
+    "entity_type": "born_in_chaos_v1:corpse_fish",
     "entity_data": {
-        "min": 0.95, 
-        "max": 1.05,
-      "median": 1.0,
+      "min": 1.0, 
+      "max": 1.15,
+      "median": 1.125,
       "distribution_type": 0,
       "scaleByBreeding": true,
       "scaleTruncationCoefficent": 1.01,
@@ -22,8 +22,8 @@
         "isModified": true,
         "doOverride": true,
         "min": 1.0, 
-        "max": 1.10,
-        "median": 1.05,
+        "max": 1.15,
+        "median": 1.125,
         "distribution_type": 0
       },
       "attack_Knockback_Overrides": {
@@ -54,8 +54,8 @@
         "isModified": false,
         "doOverride": false,
         "min": 1.0, 
-        "max": 1.10,
-        "median": 1.05,
+        "max": 1.15,
+        "median": 1.125,
         "distribution_type": 0
       },
       "jump_Overrides": {
@@ -70,8 +70,8 @@
         "isModified": true,
         "doOverride": true,
         "min": 1.0, 
-        "max": 1.10,
-        "median": 1.05,
+      "max": 1.15,
+      "median": 1.125,
         "distribution_type": 0
       },
       "dimensional_variant_overrides": {},
