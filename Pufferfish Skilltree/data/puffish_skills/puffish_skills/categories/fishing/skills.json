@@ -5,58 +5,10 @@
 		"y": 0,
 		"root": true
 	},
-	"id418i5nm6glwkj4": {
-		"definition": "lure+5%",
-		"x": 256,
-		"y": -73.9008344562721,
-		"root": false
-	},
-	"cb9luxuxpoj89kkr": {
-		"definition": "lure+5%",
-		"x": 256,
-		"y": -147.8016689125442,
-		"root": false
-	},
-	"u03ee06025eyqscb": {
-		"definition": "fishing_luck+5%",
-		"x": 256,
-		"y": 73.9008344562721,
-		"root": false
-	},
-	"epxkcmhwyoc77s1v": {
-		"definition": "fishing_luck+5%",
-		"x": 256,
-		"y": 147.8016689125442,
-		"root": false
-	},
-	"e07onofuvdt6mj73": {
-		"definition": "fishing_luck+5%",
-		"x": 192,
-		"y": 110.85125168440814,
-		"root": false
-	},
-	"fu2bmmuttgwxswsw": {
-		"definition": "lure+5%",
-		"x": 192,
-		"y": -110.85125168440814,
-		"root": false
-	},
 	"ckqkom0zhep148io": {
 		"definition": "mastery",
 		"x": -256,
 		"y": 0,
-		"root": false
-	},
-	"pivzpw4j87fzj1bu": {
-		"definition": "fishing_luck+5%",
-		"x": -224,
-		"y": 55.425625842204084,
-		"root": false
-	},
-	"1jsn0nok972cfew2": {
-		"definition": "lure+5%",
-		"x": -224,
-		"y": -55.425625842204056,
 		"root": false
 	},
 	"84bhv004hh4j9srr": {
@@ -71,64 +23,10 @@
 		"y": -147.8016689125442,
 		"root": false
 	},
-	"1kzp1xw6cv6m0gjh": {
-		"definition": "lure+5%",
-		"x": -160,
-		"y": -129.32646029847615,
-		"root": false
-	},
-	"91dnyk3339osqi2u": {
-		"definition": "lure+5%",
-		"x": 64,
-		"y": -110.85125168440814,
-		"root": false
-	},
-	"37w9ix2gopx7d8je": {
-		"definition": "fishing_luck+5%",
-		"x": 0,
-		"y": -147.8016689125442,
-		"root": false
-	},
-	"131b8ri3k80zvkgs": {
-		"definition": "lure+5%",
-		"x": 0,
-		"y": 147.8016689125442,
-		"root": false
-	},
-	"y2sypf9b83d26g2q": {
-		"definition": "fishing_luck+5%",
-		"x": 64,
-		"y": 110.85125168440814,
-		"root": false
-	},
 	"djebkgxbl7743kvc": {
 		"definition": "experience_gained+3%",
-		"x": 64,
+		"x": 128,
 		"y": 0,
-		"root": false
-	},
-	"a9842rs7nar1lqas": {
-		"definition": "lure+5%",
-		"x": 0,
-		"y": 36.95041722813605,
-		"root": false
-	},
-	"ltu9tvj9sfdey6j2": {
-		"definition": "fishing_luck+5%",
-		"x": 0,
-		"y": -36.95041722813605,
-		"root": false
-	},
-	"gr5elffjfl468319": {
-		"definition": "lure+5%",
-		"x": -128,
-		"y": 36.95041722813605,
-		"root": false
-	},
-	"4q0g3dqbiim5xqbt": {
-		"definition": "fishing_luck+5%",
-		"x": -128,
-		"y": -36.95041722813605,
 		"root": false
 	},
 	"rayldws0bvjqzi0x": {
@@ -137,22 +35,160 @@
 		"y": 0,
 		"root": false
 	},
-	"xhxjba88cha6uyev": {
-		"definition": "fishing_luck+5%",
-		"x": 128,
-		"y": 73.9008344562721,
+	"bvyfhli272dq5axl": {
+		"definition": "fishing_luck+10%",
+		"x": 256,
+		"y": -64,
 		"root": false
 	},
-	"l80dhi1dm6y7artp": {
-		"definition": "lure+5%",
-		"x": 128,
-		"y": -73.9008344562721,
+	"aryh8rioh0an66eu": {
+		"definition": "fishing_luck+10%",
+		"x": 256,
+		"y": -128,
 		"root": false
 	},
-	"hwujhxhqylv2iw2r": {
-		"definition": "fishing_luck+5%",
-		"x": -160,
-		"y": 129.32646029847615,
+	"whf08x8o9vj94nhl": {
+		"definition": "fishing_luck+10%",
+		"x": 256,
+		"y": -192,
+		"root": false
+	},
+	"0fz7pib2gzuxdd1q": {
+		"definition": "lure+10%",
+		"x": 256,
+		"y": 64,
+		"root": false
+	},
+	"hs3ifi3atpb1df8e": {
+		"definition": "lure+10%",
+		"x": 256,
+		"y": 128,
+		"root": false
+	},
+	"a1vnredowg6vlp58": {
+		"definition": "lure+10%",
+		"x": 256,
+		"y": 192,
+		"root": false
+	},
+	"823zop5iu0tql0q1": {
+		"definition": "fishing_luck+10%",
+		"x": 192,
+		"y": -160,
+		"root": false
+	},
+	"ex8hjn6q4osrh3sm": {
+		"definition": "fishing_luck+10%",
+		"x": 128,
+		"y": -96,
+		"root": false
+	},
+	"mfb9ekdhd6w1qlxx": {
+		"definition": "lure+10%",
+		"x": 192,
+		"y": 160,
+		"root": false
+	},
+	"epmoaj2ugoteo51x": {
+		"definition": "lure+10%",
+		"x": 128,
+		"y": 96,
+		"root": false
+	},
+	"681z0b0yyp36ot87": {
+		"definition": "fishing_luck+10%",
+		"x": 64,
+		"y": 128,
+		"root": false
+	},
+	"wnlo0xubawsmuobg": {
+		"definition": "fishing_luck+10%",
+		"x": 0,
+		"y": 160,
+		"root": false
+	},
+	"bljb27tqikt1vwtq": {
+		"definition": "lure+10%",
+		"x": -128,
+		"y": 128,
+		"root": false
+	},
+	"snh5vshtvvykkbl9": {
+		"definition": "lure+10%",
+		"x": -192,
+		"y": 96,
+		"root": false
+	},
+	"dxq2wu5navp1b36v": {
+		"definition": "fishing_luck+10%",
+		"x": -224,
+		"y": 64,
+		"root": false
+	},
+	"4057tt77q6pyxelt": {
+		"definition": "lure+10%",
+		"x": 64,
+		"y": -128,
+		"root": false
+	},
+	"xch64tvplx7wbab2": {
+		"definition": "lure+10%",
+		"x": 0,
+		"y": -160,
+		"root": false
+	},
+	"qo15ja2fxhiblym3": {
+		"definition": "fishing_luck+10%",
+		"x": -128,
+		"y": -128,
+		"root": false
+	},
+	"hurxrka76irblj8t": {
+		"definition": "fishing_luck+10%",
+		"x": -192,
+		"y": -96,
+		"root": false
+	},
+	"qerb2yl2nt0zq5ah": {
+		"definition": "lure+10%",
+		"x": -224,
+		"y": -64,
+		"root": false
+	},
+	"v5ugynn7nfvl8gbw": {
+		"definition": "lure+10%",
+		"x": -64,
+		"y": 64,
+		"root": false
+	},
+	"hhinqvsumt1oyws1": {
+		"definition": "fishing_luck+10%",
+		"x": -128,
+		"y": 0,
+		"root": false
+	},
+	"p2npqzjc178rqac7": {
+		"definition": "lure+10%",
+		"x": 64,
+		"y": -32,
+		"root": false
+	},
+	"lbv2nl1mfoqzomt3": {
+		"definition": "lure+10%",
+		"x": 0,
+		"y": 0,
+		"root": false
+	},
+	"kqpg54pg096bribt": {
+		"definition": "fishing_luck+10%",
+		"x": -64,
+		"y": -64,
+		"root": false
+	},
+	"a9ckqh28wbmveidu": {
+		"definition": "fishing_luck+10%",
+		"x": 64,
+		"y": 32,
 		"root": false
 	}
 }

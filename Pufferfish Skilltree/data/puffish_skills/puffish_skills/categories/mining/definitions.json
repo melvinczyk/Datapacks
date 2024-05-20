@@ -51,7 +51,7 @@
 				"data": {
 					"attribute": "forge:block_reach",
 					"value": 0.5,
-					"operation": "additiom"
+					"operation": "addition"
 				}
 			}
 		]

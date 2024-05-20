@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#epicsamurai:enenra_biomes",
+  "spawners":{
+    "type": "epicsamurai:enenra",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 5
+  }
+}

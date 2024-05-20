@@ -3,7 +3,7 @@
   "biomes": "#stellarity:biomes/all",
   "spawners": {
     "type": "crimson_steves_mobs:ender_ravager",
-    "weight": 2,
+    "weight": 5,
     "minCount": 1,
     "maxCount": 1
   }

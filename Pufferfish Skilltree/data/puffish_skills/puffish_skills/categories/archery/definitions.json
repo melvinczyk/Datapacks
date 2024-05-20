@@ -1,0 +1,78 @@
+{
+	"arrow_damage+5%": {
+		"title": "+5% Arrow Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_damage",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"arrow_velocity+5%": {
+		"title": "+5% Arrow Velocity",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "alexscaves:tesla_bulb"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:arrow_velocity",
+					"value": 0.05,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+    "draw_speed+10%": {
+        "title": "+10% Draw Speed",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:crossbow"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "attributeslib:draw_speed",
+                    "value": 0.03,
+                    "operation": "addition"
+                }
+            }
+        ]
+    },
+    "experience_gained+2.5%": {
+        "title": "+2.5% Experience Gained",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:experience_bottle"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "attributeslib:experience_gained",
+                    "value": 0.025,
+                    "operation": "addition"
+                }
+            }
+        ]
+    }
+}

@@ -22,10 +22,13 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "gf5oi6d6pl24nh6y"
+		}
 	},
-	"root_resistance+1%": {
-		"title": "+1% Resistance",
+	"root_armor+1": {
+		"title": "+1 Armor",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -33,24 +36,27 @@
 			}
 		},
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "resistance"
+				"item": "immersiveores:enderium_chestplate"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.resistance",
-					"value": 0.01,
-					"operation": "multiply_total"
+					"attribute": "generic.armor",
+					"value": 1,
+					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "6cr15g7qimobm77m"
+		}
 	},
-	"root_melee_damage+3%": {
-		"title": "+3% Melee Damage",
+	"root_damage+0.25": {
+		"title": "+0.25 Melee Damage",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -67,15 +73,18 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.melee_damage",
-					"value": 0.03,
-					"operation": "multiply_total"
+					"attribute": "generic.attack_damage",
+					"value": 0.25,
+					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "ucjmb9z2sm1529rn"
+		}
 	},
-	"root_ranged_damage+3%": {
-		"title": "+3% Ranged Damage",
+	"root_crit_chance+1%": {
+		"title": "+1% Crit Chance",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -85,19 +94,22 @@
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "bow"
+				"item": "enlightened_end:adamantite_knife"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.ranged_damage",
-					"value": 0.03,
-					"operation": "multiply_total"
+					"attribute": "attributeslib:crit_chance",
+					"value": 0.01,
+					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "bwtqy29p8bh3i374"
+		}
 	},
 	"health+2": {
 		"title": "+1 Heart",
@@ -116,7 +128,10 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "o9a7iztogvl9di50"
+		}
 	},
 	"resistance+1%": {
 		"title": "+1% Resistance",
@@ -135,7 +150,10 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "revhxsan7jy0c2w7"
+		}
 	},
 	"damage+0.25": {
 		"title": "+0.25 Damage",
@@ -149,31 +167,37 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "minecraft:generic_damage",
+					"attribute": "generic.attack_damage",
 					"value": 0.25,
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "45n8y8p22akpx0mx"
+		}
 	},
-	"ranged_damage+3%": {
-		"title": "+3% Ranged Damage",
+	"dodge_chance+2.5%": {
+		"title": "+2.5% Dodge Chance",
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "bow"
+				"item": "relics:roller_skates"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "puffish_skills:player.ranged_damage",
-					"value": 0.03,
-					"operation": "multiply_total"
+					"attribute": "attributeslib:dodge_chance",
+					"value": 0.025,
+					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "zrezv9oxqag9ic0j"
+		}
 	},
 	"attack_speed+5%": {
 		"title": "+5% Attack Speed",
@@ -192,52 +216,61 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "akzlkyjdb3bs6ws4"
+		}
 	},
-	"movement_speed+5%": {
-		"title": "+5% Movement Speed",
+	"armor+0.5": {
+		"title": "+0.5 Armor",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "speed"
+				"item": "immersiveores:enderium_chestplate"
 			}
 		},
 		"rewards": [
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "generic.movement_speed",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			}
-		]
-	},
-	"luck+0.25": {
-		"title": "+0.25 Luck",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "luck"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.luck",
-					"value": 0.25,
+					"attribute": "generic.armor",
+					"value": 0.5,
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "ofiu8pzpatsckn1y"
+		}
 	},
-	"crit_chance+3%": {
-		"title": "+3% Crit Chance",
+	"crit_damage+3%": {
+		"title": "+3% Crit Damage",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "saturation"
+				"item": "simplyswords:sunfire"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:crit_damage",
+					"value": 0.03,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "73xwobwf84nfbhvr"
+		}
+	},
+	"crit_chance+1%": {
+		"title": "+1% Crit Chance",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "enlightened_end:adamantite_knife"
 			}
 		},
 		"rewards": [
@@ -245,11 +278,14 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "attributeslib:crit_chance",
-					"value": 0.03,
-					"operation": "multiply_total"
+					"value": 0.01,
+					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "uyo5pc6oi4cb5ny0"
+		}
 	},
 	"healing+5%": {
 		"title": "+5% Healing",
@@ -268,14 +304,17 @@
 					"operation": "multiply_total"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "hwteyljbdbqao0yv"
+		}
 	},
 	"armor_pierce+0.25": {
 		"title": "+0.25 Armor Pierce",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "jump_boost"
+				"item": "iceandfire:tide_trident"
 			}
 		},
 		"rewards": [
@@ -287,6 +326,75 @@
 					"operation": "addition"
 				}
 			}
-		]
+		],
+		"metadata": {
+			"icon": "d5x226jigbv4le0s"
+		}
+	},
+	"experience_gained+0.025": {
+		"title": "+2.5% Experience Gained",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "experience_bottle"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:experience_gained",
+					"value": 0.025,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ipyysgaire5zogyo"
+		}
+	},
+	"prot_pierce+0.25": {
+		"title": "+0.25 Protection Pierce",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "tipped_arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "attributeslib:prot_pierce",
+					"value": 0.25,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "lmuxygzk3uortklz"
+		}
+	},
+	"movement_speed+5%": {
+		"title": "+5% Movement Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.movement_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1t3kin22dkhqqenu"
+		}
 	}
 }

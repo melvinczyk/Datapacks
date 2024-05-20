@@ -1,5 +1,5 @@
 {
-	"lure+5%": {
+	"lure+10%": {
 		"title": "+5% Lure",
 		"icon": {
 			"type": "item",
@@ -12,13 +12,13 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "additional_attributes:fishing_lure",
-					"value": 0.03,
+					"value": 0.1,
 					"operation": "multiply_total"
 				}
 			}
 		]
 	},
-	"fishing_luck+5%": {
+	"fishing_luck+10%": {
 		"title": "+5% Fishing Luck",
 		"icon": {
 			"type": "item",
@@ -31,7 +31,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "additional_attributes:fishing_luck",
-					"value": 0.03,
+					"value": 0.1,
 					"operation": "multiply_total"
 				}
 			}
@@ -51,13 +51,13 @@
                 "data": {
                     "attribute": "attributeslib:experience_gained",
                     "value": 0.03,
-                    "operation": "multiply_total"
+                    "operation": "addition"
                 }
             }
         ]
     },
     "root_fishing": {
-        "title": "+5% Lure",
+        "title": "+10% Lure and Luck",
         "icon": {
             "type": "item",
             "data": {
@@ -69,8 +69,16 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "additional_attributes:fishing_lure",
-                    "value": 0.05,
-                    "operation": "multiply_total"
+                    "value": 0.1,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "additional_attributes:fishing_luck",
+                    "value": 0.1,
+                    "operation": "addition"
                 }
             },
             {
@@ -82,7 +90,7 @@
             {
                 "type": "puffish_skills:command",
                 "data": {
-                    "command": "say So your §bfishing §6journey §abegins§c!!!"
+                    "command": "say So your §dfishing journey begins"
                 }
             }
         ]

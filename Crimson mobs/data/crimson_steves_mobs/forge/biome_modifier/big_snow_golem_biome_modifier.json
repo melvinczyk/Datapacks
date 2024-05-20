@@ -10,7 +10,7 @@
   ],
   "spawners": {
     "type": "crimson_steves_mobs:big_snow_golem",
-    "weight": 100,
+    "weight": 1,
     "minCount": 1,
     "maxCount": 1
   }
