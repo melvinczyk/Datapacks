@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "item": "immersiveores:vibranium_ingot"
+    },
+    "N": {
+      "item": "immersiveores:enderium_helmet"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "ENE",
+    "   "
+  ],
+  "result": {
+    "item": "immersiveores:vibranium_helmet"
+  },
+  "show_notification": true
+}

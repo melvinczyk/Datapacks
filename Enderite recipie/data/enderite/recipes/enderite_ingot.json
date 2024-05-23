@@ -25,7 +25,10 @@
       "item": "enderite:enderite_scrap"
     },
     {
-      "item": "enderite:endercrystal_shard"
+      "item": "enderite:ender_crystal_shard"
+    },
+    {
+      "item": "enlightened_end:adamantite_ingot"
     }
   ],
   "result": {
