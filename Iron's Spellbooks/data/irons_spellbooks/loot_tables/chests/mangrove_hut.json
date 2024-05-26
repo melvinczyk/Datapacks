@@ -21,11 +21,6 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:nether_wart"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:brown_mushroom"
         },
         {

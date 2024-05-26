@@ -1,8 +1,8 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": 
+ "#forge:is_mountain"
+  ,
   "spawners": {
     "type": "crimson_steves_mobs:t_rabus",
     "weight": 1,

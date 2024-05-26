@@ -64,6 +64,20 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:spiritual_guide_sombrero_helmet",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
         }
       ]
     }

@@ -1,0 +1,24 @@
+{
+  "type": "celestisynth:shaped_celestial_crafting",
+  "category": "equipment",
+  "key": {
+    "i": {
+      "item": "celestisynth:celestial_core_heated"
+    },
+    "n": {
+      "item": "celestisynth:supernal_netherite_ingot"
+    },
+    "z": {
+      "item": "celestisynth:zephyr_deposit"
+    }
+  },
+  "pattern": [
+    " nz",
+    "znn",
+    "iz "
+  ],
+  "result": {
+    "item": "celestisynth:breezebreaker"
+  },
+  "show_notification": true
+}

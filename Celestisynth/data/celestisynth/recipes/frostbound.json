@@ -1,0 +1,27 @@
+{
+  "type": "celestisynth:shaped_celestial_crafting",
+  "category": "equipment",
+  "key": {
+    "i": {
+      "item": "celestisynth:celestial_core_heated"
+    },
+    "n": {
+      "item": "celestisynth:supernal_netherite_ingot"
+    },
+    "s": {
+      "item": "celestisynth:wintereis_shard"
+    },
+    "t": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "ssi",
+    " ns",
+    "t  "
+  ],
+  "result": {
+    "item": "celestisynth:frostbound"
+  },
+  "show_notification": true
+}

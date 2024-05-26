@@ -32,6 +32,19 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "crossbowverhaul:bolt_iron",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 32
+              }
+            }
+          ]
         }
       ]
     },

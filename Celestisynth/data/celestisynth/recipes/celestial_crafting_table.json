@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "c": {
+      "item": "minecraft:crafting_table"
+    },
+    "n": {
+      "item": "celestisynth:celestial_netherite_ingot"
+    },
+    "o": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "bnb",
+    "ncn",
+    "ooo"
+  ],
+  "result": {
+    "item": "celestisynth:celestial_crafting_table"
+  },
+  "show_notification": true
+}

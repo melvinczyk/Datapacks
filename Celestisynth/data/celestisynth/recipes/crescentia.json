@@ -1,0 +1,24 @@
+{
+  "type": "celestisynth:shaped_celestial_crafting",
+  "category": "equipment",
+  "key": {
+    "i": {
+      "item": "celestisynth:celestial_core_heated"
+    },
+    "l": {
+      "item": "celestisynth:lunar_scrap"
+    },
+    "n": {
+      "item": "celestisynth:supernal_netherite_ingot"
+    }
+  },
+  "pattern": [
+    "lll",
+    "l l",
+    "nni"
+  ],
+  "result": {
+    "item": "celestisynth:crescentia"
+  },
+  "show_notification": true
+}

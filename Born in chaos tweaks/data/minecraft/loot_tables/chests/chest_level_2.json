@@ -19,8 +19,22 @@
             {
               "function": "set_count",
               "count": {
-                "min": 0,
+                "min": 1,
                 "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:pieceofdarkmetal",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
               }
             }
           ]
@@ -47,7 +61,7 @@
             {
               "function": "set_count",
               "count": {
-                "min": 0,
+                "min": 1,
                 "max": 1
               }
             }
@@ -311,6 +325,20 @@
               "count": {
                 "min": 1,
                 "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:shattered_skull",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
               }
             }
           ]

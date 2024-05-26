@@ -11,7 +11,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.15
+          "chance": 0.1
         }
       ]
     },
@@ -54,11 +54,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:emerald",
           "weight": 1,
           "functions": [
@@ -87,7 +82,7 @@
               "function": "irons_spellbooks:randomize_spell",
               "quality": {
                 "min": 0.0,
-                "max": 0.5
+                "max": 0.3
               }
             }
           ]
@@ -104,8 +99,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 5,
-                "max": 16
+                "min": 0,
+                "max": 5
               }
             }
           ]
@@ -115,28 +110,6 @@
     {
       "rolls": 2,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_sword",
-          "functions": [
-            {
-              "function": "irons_spellbooks:randomize_spell",
-              "quality": {
-                "min": 0.2,
-                "max": 0.75
-              }
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 39.0,
-                "min": 20.0
-              },
-              "treasure": true
-            }
-          ]
-        },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",

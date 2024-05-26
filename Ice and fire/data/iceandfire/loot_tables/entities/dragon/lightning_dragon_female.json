@@ -8,7 +8,7 @@
         {
           "type": "item",
           "name": "iceandfire:dragonscales_electric",
-          "weight": 15,
+          "weight": 60,
           "functions": [
             {
               "function": "set_count",
@@ -42,7 +42,7 @@
         {
           "type": "item",
           "name": "iceandfire:dragonegg_electric",
-          "weight": 5,
+          "weight": 4,
           "functions": [
             {
               "function": "set_count",
