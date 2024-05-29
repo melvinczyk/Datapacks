@@ -55,8 +55,8 @@
 			"icon": "6cr15g7qimobm77m"
 		}
 	},
-	"root_damage+0.25": {
-		"title": "+0.25 Melee Damage",
+	"root_damage+0.5": {
+		"title": "+0.5 Melee Damage",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -112,7 +112,7 @@
 		}
 	},
 	"health+2": {
-		"title": "+1 Heart",
+		"title": "+0.5 Heart",
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -124,7 +124,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.max_health",
-					"value": 2,
+					"value": 1,
 					"operation": "addition"
 				}
 			}
@@ -221,8 +221,8 @@
 			"icon": "akzlkyjdb3bs6ws4"
 		}
 	},
-	"armor+0.5": {
-		"title": "+0.5 Armor",
+	"armor+1": {
+		"title": "+1 Armor",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -390,6 +390,72 @@
 					"attribute": "generic.movement_speed",
 					"value": 0.05,
 					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1t3kin22dkhqqenu"
+		}
+	},
+	"armor+2": {
+		"title": "+2 Armor",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": ""
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.melee_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1t3kin22dkhqqenu"
+		}
+	},
+	"melee_damage+5%": {
+		"title": "+5% Melee Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "artifacts:fire_gauntlet"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:player.melee_damage",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1t3kin22dkhqqenu"
+		}
+	},
+	"health+1_heart": {
+		"title": "+1 Heart",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "artifacts:fire_gauntlet"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
 				}
 			}
 		],

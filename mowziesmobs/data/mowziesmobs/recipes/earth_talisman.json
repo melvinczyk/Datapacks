@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " F ",
+      " S ",
+      " E "
+    ],
+    "key": {
+      "S":
+      {
+        "item": "minecraft:stick"
+      },
+      "F":
+      {
+        "item": "mowziesmobs:foliad_seed"
+      },
+      "E":
+      {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "mowziesmobs:earth_talisman",
+      "count": 8
+    }
+  }
