@@ -10,7 +10,7 @@
             {
               "function": "irons_spellbooks:randomize_spell",
               "quality": {
-                "min": 0.0,
+                "min": 0.15,
                 "max": 0.4
               },
               "school": "irons_spellbooks:fire"
@@ -61,7 +61,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0,
+                "min": 2,
                 "max": 4
               }
             }
@@ -140,7 +140,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.075
+          "chance": 0.05
         }
       ]
     }

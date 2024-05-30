@@ -78,7 +78,7 @@
               "function": "irons_spellbooks:randomize_spell",
               "school": "irons_spellbooks:nature",
               "quality": {
-                "min": 0.1,
+                "min": 0.3,
                 "max": 0.65
               }
             }

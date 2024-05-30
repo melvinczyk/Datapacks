@@ -1,0 +1,20 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "minecraft:cherry_grove",
+    "minecraft:mangrove_swamp",
+    "biomesoplenty:bayou",
+    "regions_unexplored:bayou",
+    "regions_unexplored:old_growth_bayou",
+    "biomesoplenty:bog",
+    "biomesoplenty:floodplain",
+    "biomesoplenty:marsh"
+
+  ],
+  "spawners": {
+    "type": "tameablebeasts:tameable_beetle",
+    "weight": 100,
+    "maxCount": 4,
+    "minCount": 1
+  }
+}

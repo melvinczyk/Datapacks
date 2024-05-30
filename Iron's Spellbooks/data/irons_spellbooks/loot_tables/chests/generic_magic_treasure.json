@@ -31,8 +31,8 @@
             {
               "function": "irons_spellbooks:randomize_spell",
               "quality": {
-                "min": 0.2,
-                "max": 0.6
+                "min": 0.3,
+                "max": 0.7
               }
             }
           ]

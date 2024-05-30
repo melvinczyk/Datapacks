@@ -78,7 +78,7 @@
             {
               "function": "irons_spellbooks:randomize_spell",
               "quality": {
-                "min": 0.1,
+                "min": 0.3,
                 "max": 0.75
               },
               "school": "irons_spellbooks:ice"

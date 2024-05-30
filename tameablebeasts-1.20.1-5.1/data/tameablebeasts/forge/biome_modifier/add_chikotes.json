@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#forge:is_grassland",
+  "spawners": {
+    "type": "tameablebeasts:tameable_chikote",
+    "weight": 60,
+    "maxCount": 4,
+    "minCount": 1
+  }
+}

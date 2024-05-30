@@ -36,8 +36,8 @@
             {
               "function": "irons_spellbooks:randomize_spell",
               "quality": {
-                "min": 0.0,
-                "max": 0.4
+                "min": 0.3,
+                "max": 0.7
               }
             }
           ]
@@ -59,7 +59,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.01
+          "chance": 0.05
         }
       ]
     },

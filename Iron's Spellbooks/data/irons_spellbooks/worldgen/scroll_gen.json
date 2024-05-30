@@ -11,7 +11,7 @@
               "function": "irons_spellbooks:randomize_spell",
               "levels": {
                 "min": 1,
-                "max": 5
+                "max": 3
               }
             }
           ]
