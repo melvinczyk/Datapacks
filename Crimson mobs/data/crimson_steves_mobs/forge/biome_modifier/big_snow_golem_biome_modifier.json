@@ -1,13 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": [
-    "windswept_hills",
-    "snowy_plains",
-    "snowy_slopes",
-    "snowy_taiga",
-    "snowy_beach",
-    "stellarity:blazing_dunes"
-  ],
+  "biomes": "#forge:is_cold/overworld",
   "spawners": {
     "type": "crimson_steves_mobs:big_snow_golem",
     "weight": 1,

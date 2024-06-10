@@ -1,9 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": [
-    "sparse_jungle",
-    "jungle"
-  ],
+  "biomes": "#forge:is_jungle",
   "spawners": {
     "type": "crimson_steves_mobs:animated_temple",
     "weight": 10,
