@@ -12,7 +12,7 @@
       "minecraft:regeneration": 1
     },
     "attributes": {
-      "generic.max_health": 100,
+      "generic.max_health": 250,
       "generic.follow_range": 50,
       "generic.attack_damage": 5,
       "generic.knockback_resistance": 1,

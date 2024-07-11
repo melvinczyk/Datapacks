@@ -1,6 +1,6 @@
 {
 	"root_health+2": {
-		"title": "+1 Heart",
+		"title": "+2 Hearts",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -18,7 +18,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.max_health",
-					"value": 2,
+					"value": 4,
 					"operation": "addition"
 				}
 			}
@@ -27,8 +27,8 @@
 			"icon": "gf5oi6d6pl24nh6y"
 		}
 	},
-	"root_armor+1": {
-		"title": "+1 Armor",
+	"root_armor+2": {
+		"title": "+2 Armor",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -46,7 +46,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.armor",
-					"value": 1,
+					"value": 2,
 					"operation": "addition"
 				}
 			}
@@ -55,8 +55,8 @@
 			"icon": "6cr15g7qimobm77m"
 		}
 	},
-	"root_damage+0.5": {
-		"title": "+0.5 Melee Damage",
+	"root_damage+1": {
+		"title": "+1 Melee Damage",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -74,7 +74,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.attack_damage",
-					"value": 0.25,
+					"value": 1,
 					"operation": "addition"
 				}
 			}
@@ -83,8 +83,8 @@
 			"icon": "ucjmb9z2sm1529rn"
 		}
 	},
-	"root_crit_chance+1%": {
-		"title": "+1% Crit Chance",
+	"root_crit_chance+2.5%": {
+		"title": "+2.5% Crit Chance",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -102,7 +102,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "attributeslib:crit_chance",
-					"value": 0.01,
+					"value": 0.025,
 					"operation": "addition"
 				}
 			}
@@ -111,7 +111,7 @@
 			"icon": "bwtqy29p8bh3i374"
 		}
 	},
-	"health+2": {
+	"health+1": {
 		"title": "+0.5 Heart",
 		"icon": {
 			"type": "effect",
@@ -130,11 +130,11 @@
 			}
 		],
 		"metadata": {
-			"icon": "o9a7iztogvl9di50"
+			"icon": "he3m06m0vky9nsya"
 		}
 	},
-	"resistance+1%": {
-		"title": "+1% Resistance",
+	"resistance+2.5%": {
+		"title": "+2.5% Resistance",
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -146,7 +146,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_skills:player.resistance",
-					"value": 0.01,
+					"value": 0.025,
 					"operation": "multiply_total"
 				}
 			}
@@ -234,7 +234,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.armor",
-					"value": 0.5,
+					"value": 1,
 					"operation": "addition"
 				}
 			}
@@ -309,8 +309,8 @@
 			"icon": "hwteyljbdbqao0yv"
 		}
 	},
-	"armor_pierce+0.25": {
-		"title": "+0.25 Armor Pierce",
+	"armor_pierce+0.5": {
+		"title": "+0.5 Armor Pierce",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -322,7 +322,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "attributeslib:armor_pierce",
-					"value": 0.25,
+					"value": 0.5,
 					"operation": "addition"
 				}
 			}
@@ -331,8 +331,8 @@
 			"icon": "d5x226jigbv4le0s"
 		}
 	},
-	"experience_gained+0.025": {
-		"title": "+2.5% Experience Gained",
+	"experience_gained+0.05": {
+		"title": "+5% Experience Gained",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -344,7 +344,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "attributeslib:experience_gained",
-					"value": 0.025,
+					"value": 0.05,
 					"operation": "addition"
 				}
 			}
@@ -353,8 +353,8 @@
 			"icon": "ipyysgaire5zogyo"
 		}
 	},
-	"prot_pierce+0.25": {
-		"title": "+0.25 Protection Pierce",
+	"prot_pierce+0.5": {
+		"title": "+0.5 Protection Pierce",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -366,7 +366,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "attributeslib:prot_pierce",
-					"value": 0.25,
+					"value": 0.5,
 					"operation": "addition"
 				}
 			}
@@ -397,30 +397,8 @@
 			"icon": "1t3kin22dkhqqenu"
 		}
 	},
-	"armor+2": {
-		"title": "+2 Armor",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": ""
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:player.melee_damage",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "1t3kin22dkhqqenu"
-		}
-	},
-	"melee_damage+5%": {
-		"title": "+5% Melee Damage",
+	"melee_damage+6.25%": {
+		"title": "+6.25% Melee Damage",
 		"icon": {
 			"type": "item",
 			"data": {
@@ -432,21 +410,21 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:player.melee_damage",
-					"value": 0.05,
+					"value": 0.0625,
 					"operation": "multiply_total"
 				}
 			}
 		],
 		"metadata": {
-			"icon": "1t3kin22dkhqqenu"
+			"icon": "yqcnrbfxznbesrw2"
 		}
 	},
-	"health+1_heart": {
+	"health+2": {
 		"title": "+1 Heart",
 		"icon": {
 			"type": "item",
 			"data": {
-				"item": "artifacts:fire_gauntlet"
+				"item": "artifacts:crystal_heart"
 			}
 		},
 		"rewards": [
@@ -460,7 +438,7 @@
 			}
 		],
 		"metadata": {
-			"icon": "1t3kin22dkhqqenu"
+			"icon": "s5c5j7vbpwb1yfxp"
 		}
 	}
 }

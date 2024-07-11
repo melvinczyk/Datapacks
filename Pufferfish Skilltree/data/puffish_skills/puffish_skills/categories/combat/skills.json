@@ -53,20 +53,8 @@
 		"y": -384,
 		"root": false
 	},
-	"-12_-3": {
-		"definition": "armor_pierce+0.25",
-		"x": -384,
-		"y": -96,
-		"root": false
-	},
-	"-12_3": {
-		"definition": "armor_pierce+0.25",
-		"x": -384,
-		"y": 96,
-		"root": false
-	},
 	"-12_12": {
-		"definition": "damage+0.25",
+		"definition": "root_damage+1",
 		"x": -384,
 		"y": 384,
 		"root": false
@@ -120,15 +108,9 @@
 		"root": false
 	},
 	"-7_-13": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": -224,
 		"y": -416,
-		"root": false
-	},
-	"-7_4": {
-		"definition": "prot_pierce+0.25",
-		"x": -224,
-		"y": 128,
 		"root": false
 	},
 	"-6_-15": {
@@ -150,19 +132,13 @@
 		"root": false
 	},
 	"-6_-1": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": -192,
 		"y": -32,
 		"root": false
 	},
-	"-6_8": {
-		"definition": "resistance+1%",
-		"x": -192,
-		"y": 256,
-		"root": false
-	},
 	"-5_-13": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": -160,
 		"y": -416,
 		"root": false
@@ -180,7 +156,7 @@
 		"root": false
 	},
 	"-4_-10": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": -128,
 		"y": -320,
 		"root": false
@@ -210,7 +186,7 @@
 		"root": false
 	},
 	"-3_-5": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": -96,
 		"y": -160,
 		"root": false
@@ -222,19 +198,19 @@
 		"root": false
 	},
 	"-2_9": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": -64,
 		"y": 288,
 		"root": false
 	},
 	"-1_-15": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": -32,
 		"y": -480,
 		"root": false
 	},
 	"-1_-11": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": -32,
 		"y": -352,
 		"root": false
@@ -269,26 +245,20 @@
 		"y": -64,
 		"root": true
 	},
-	"0_2": {
-		"definition": "root_armor+1",
-		"x": 0,
-		"y": 64,
-		"root": true
-	},
 	"0_13": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": 0,
 		"y": 416,
 		"root": false
 	},
 	"1_-15": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": 32,
 		"y": -480,
 		"root": false
 	},
 	"1_-11": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": 32,
 		"y": -352,
 		"root": false
@@ -311,14 +281,8 @@
 		"y": 192,
 		"root": false
 	},
-	"2_0": {
-		"definition": "root_crit_chance+1%",
-		"x": 64,
-		"y": 0,
-		"root": true
-	},
 	"2_9": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": 64,
 		"y": 288,
 		"root": false
@@ -330,7 +294,7 @@
 		"root": false
 	},
 	"3_-5": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": 96,
 		"y": -160,
 		"root": false
@@ -342,31 +306,13 @@
 		"root": false
 	},
 	"4_-10": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": 128,
 		"y": -320,
 		"root": false
 	},
-	"4_-7": {
-		"definition": "armor_pierce+0.25",
-		"x": 128,
-		"y": -224,
-		"root": false
-	},
-	"4_1": {
-		"definition": "prot_pierce+0.25",
-		"x": 128,
-		"y": 32,
-		"root": false
-	},
-	"4_7": {
-		"definition": "prot_pierce+0.25",
-		"x": 128,
-		"y": 224,
-		"root": false
-	},
 	"5_-13": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": 160,
 		"y": -416,
 		"root": false
@@ -402,15 +348,9 @@
 		"root": false
 	},
 	"6_-1": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": 192,
 		"y": -32,
-		"root": false
-	},
-	"6_8": {
-		"definition": "resistance+1%",
-		"x": 192,
-		"y": 256,
 		"root": false
 	},
 	"6_11": {
@@ -420,7 +360,7 @@
 		"root": false
 	},
 	"7_-13": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": 224,
 		"y": -416,
 		"root": false
@@ -431,14 +371,8 @@
 		"y": -128,
 		"root": false
 	},
-	"7_4": {
-		"definition": "armor_pierce+0.25",
-		"x": 224,
-		"y": 128,
-		"root": false
-	},
 	"8_-10": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": 256,
 		"y": -320,
 		"root": false
@@ -504,27 +438,15 @@
 		"root": false
 	},
 	"11_6": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": 352,
 		"y": 192,
 		"root": false
 	},
 	"12_-12": {
-		"definition": "crit_chance+1%",
+		"definition": "crit_damage+3%",
 		"x": 384,
 		"y": -384,
-		"root": false
-	},
-	"12_-3": {
-		"definition": "prot_pierce+0.25",
-		"x": 384,
-		"y": -96,
-		"root": false
-	},
-	"12_3": {
-		"definition": "prot_pierce+0.25",
-		"x": 384,
-		"y": 96,
 		"root": false
 	},
 	"13_-7": {
@@ -570,20 +492,8 @@
 		"root": false
 	},
 	"17_0": {
-		"definition": "crit_chance+1%",
+		"definition": "root_crit_chance+2.5%",
 		"x": 544,
-		"y": 0,
-		"root": false
-	},
-	"y26ex7g7t0n54gw0": {
-		"definition": "armor_pierce+0.25",
-		"x": -128,
-		"y": 32,
-		"root": false
-	},
-	"6yq2pu6bgi9f1zts": {
-		"definition": "experience_gained+0.025",
-		"x": -256,
 		"y": 0,
 		"root": false
 	},
@@ -605,50 +515,8 @@
 		"y": 160,
 		"root": false
 	},
-	"klgjyqu8vq5jkic8": {
-		"definition": "experience_gained+0.025",
-		"x": 0,
-		"y": 256,
-		"root": false
-	},
-	"4n0sf19wslh1gw48": {
-		"definition": "experience_gained+0.025",
-		"x": 256,
-		"y": 0,
-		"root": false
-	},
-	"9r3ynwxa4c1h8i62": {
-		"definition": "experience_gained+0.025",
-		"x": 0,
-		"y": -256,
-		"root": false
-	},
-	"h6lu1stfnxxcowu9": {
-		"definition": "health+2",
-		"x": -352,
-		"y": 192,
-		"root": false
-	},
-	"mf8rsh4590wmnr1a": {
-		"definition": "resistance+1%",
-		"x": -192,
-		"y": 480,
-		"root": false
-	},
-	"7gqfxtskosze2qh3": {
-		"definition": "resistance+1%",
-		"x": 192,
-		"y": 480,
-		"root": false
-	},
-	"9zmfisqq8tqg758q": {
-		"definition": "resistance+1%",
-		"x": -32,
-		"y": 128,
-		"root": false
-	},
 	"zbia2czuomdfk3zi": {
-		"definition": "health+2",
+		"definition": "health+1",
 		"x": -256,
 		"y": -320,
 		"root": false
@@ -658,12 +526,6 @@
 		"x": -416,
 		"y": -160,
 		"root": false
-	},
-	"mp34bcqgj5sechdi": {
-		"definition": "root_damage+0.5",
-		"x": -64,
-		"y": 0,
-		"root": true
 	},
 	"bdztcexhin5wudxp": {
 		"definition": "armor+1",
@@ -714,7 +576,7 @@
 		"root": false
 	},
 	"x80ufa3td320ryfq": {
-		"definition": "armor+1",
+		"definition": "root_armor+2",
 		"x": 0,
 		"y": 544,
 		"root": false
@@ -732,7 +594,7 @@
 		"root": false
 	},
 	"4d4su587u7j2upmy": {
-		"definition": "armor+1",
+		"definition": "root_armor+2",
 		"x": 384,
 		"y": 384,
 		"root": false
@@ -839,30 +701,6 @@
 		"y": -32,
 		"root": false
 	},
-	"4mbsddz36uvc5sby": {
-		"definition": "melee_damage+5%",
-		"x": -256,
-		"y": 256,
-		"root": false
-	},
-	"p9lufxm9q93w4ni9": {
-		"definition": "melee_damage+5%",
-		"x": 256,
-		"y": 256,
-		"root": false
-	},
-	"jkdzxr1dp42biez4": {
-		"definition": "melee_damage+5%",
-		"x": 256,
-		"y": -256,
-		"root": false
-	},
-	"d0dxauaxg67tbmd0": {
-		"definition": "melee_damage+5%",
-		"x": -256,
-		"y": -256,
-		"root": false
-	},
 	"tkw04nrun635dhy7": {
 		"definition": "armor+1",
 		"x": -96,
@@ -881,10 +719,154 @@
 		"y": 128,
 		"root": false
 	},
-	"ct1b2cyw8yo2mqrv": {
-		"definition": "melee_damage+5%",
+	"jy3qjxh4j6r1a83i": {
+		"definition": "root_armor+2",
+		"x": 0,
+		"y": 64,
+		"root": true
+	},
+	"dw4pryvej0ckyokv": {
+		"definition": "root_damage+1",
+		"x": -64,
+		"y": 0,
+		"root": true
+	},
+	"7k7x92oemeu2ti91": {
+		"definition": "root_crit_chance+2.5%",
+		"x": 64,
+		"y": 0,
+		"root": true
+	},
+	"4eynhfpuauf9cxoc": {
+		"definition": "resistance+2.5%",
+		"x": -32,
+		"y": 128,
+		"root": false
+	},
+	"kbn2qm6ot101de3r": {
+		"definition": "prot_pierce+0.5",
+		"x": 128,
+		"y": 224,
+		"root": false
+	},
+	"z3ts2enuej20tji3": {
+		"definition": "experience_gained+0.05",
+		"x": 0,
+		"y": 256,
+		"root": false
+	},
+	"pgjju94il1nxzj3k": {
+		"definition": "resistance+2.5%",
+		"x": 192,
+		"y": 256,
+		"root": false
+	},
+	"jci3yyn4j2h5be70": {
+		"definition": "melee_damage+6.25%",
+		"x": 256,
+		"y": 256,
+		"root": false
+	},
+	"us3fp9pjvnzejkvp": {
+		"definition": "melee_damage+6.25%",
+		"x": -256,
+		"y": 256,
+		"root": false
+	},
+	"fi4ra2wm99hr3nus": {
+		"definition": "resistance+2.5%",
+		"x": -192,
+		"y": 480,
+		"root": false
+	},
+	"ris3o9ptm035akzn": {
+		"definition": "resistance+2.5%",
+		"x": 192,
+		"y": 480,
+		"root": false
+	},
+	"4xdesedd27snsu6e": {
+		"definition": "resistance+2.5%",
+		"x": -192,
+		"y": 256,
+		"root": false
+	},
+	"1fm909subcj9fs3d": {
+		"definition": "melee_damage+6.25%",
+		"x": -256,
+		"y": -256,
+		"root": false
+	},
+	"78vlewuhsskhvkie": {
+		"definition": "melee_damage+6.25%",
+		"x": 256,
+		"y": -256,
+		"root": false
+	},
+	"6h4pvvncxsw49o3a": {
+		"definition": "armor_pierce+0.5",
+		"x": -128,
+		"y": 32,
+		"root": false
+	},
+	"k82vagwun78gvh6l": {
+		"definition": "experience_gained+0.05",
+		"x": -256,
+		"y": 0,
+		"root": false
+	},
+	"qaxrhcwxcrv9axdk": {
+		"definition": "experience_gained+0.05",
+		"x": 0,
+		"y": -256,
+		"root": false
+	},
+	"9y6x01y0f9aocpus": {
+		"definition": "experience_gained+0.05",
+		"x": 256,
+		"y": 0,
+		"root": false
+	},
+	"6a5ls9tbcxy9djdc": {
+		"definition": "prot_pierce+0.5",
+		"x": -224,
+		"y": 128,
+		"root": false
+	},
+	"a7b7wr3ci7zf0ucc": {
+		"definition": "prot_pierce+0.5",
+		"x": 128,
+		"y": 32,
+		"root": false
+	},
+	"b3jew7g1g5lzeyko": {
+		"definition": "armor_pierce+0.5",
+		"x": 224,
+		"y": 128,
+		"root": false
+	},
+	"0n09j0po8gx38ya5": {
+		"definition": "armor_pierce+0.5",
+		"x": 128,
+		"y": -224,
+		"root": false
+	},
+	"vzxag9qby680vmjd": {
+		"definition": "health+1",
+		"x": -352,
+		"y": 192,
+		"root": false
+	},
+	"rzpsqookufdiijbo": {
+		"definition": "crit_damage+3%",
 		"x": -192,
 		"y": 352,
+		"root": false
+	},
+	"6dsbaffm3b8fyl4c": {
+		"definition": "dodge_chance+2.5%",
+		"x": 0,
+		"y": 0,
 		"root": false
 	}
 }
