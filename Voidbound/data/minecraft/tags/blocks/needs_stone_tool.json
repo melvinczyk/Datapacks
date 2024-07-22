@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "voidbound:grilled_iron_block",
+    "voidbound:iron_plating",
+    "voidbound:red_plating",
+    "voidbound:blue_plating",
+    "voidbound:end_stone_gold_ore",
+    "voidbound:end_stone_emerald_ore",
+    "voidbound:end_stone_lapis_ore",
+    "voidbound:end_stone_coal_ore",
+    "voidbound:end_stone_iron_ore"
+  ]
+}

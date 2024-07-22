@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "voidbound:petrified_planks",
+    "voidbound:loopwood_roots",
+    "voidbound:pelargorium_trapdoor",
+    "voidbound:droop_trapdoor",
+    "voidbound:pelargorium_door",
+    "voidbound:droop_door",
+    "voidbound:droop_planks",
+    "voidbound:droop_log",
+    "voidbound:droop_wood",
+    "voidbound:pelargorium_planks",
+    "voidbound:pelargorium_log",
+    "voidbound:pelargorium_wood",
+    "voidbound:lux_trapdoor",
+    "voidbound:lux_door",
+    "voidbound:lu_planks",
+    "voidbound:loop_trapdoor",
+    "voidbound:loop_door",
+    "voidbound:lux_log",
+    "voidbound:luxwood",
+    "voidbound:loop_planks",
+    "voidbound:loo_log",
+    "voidbound:loowood",
+    "voidbound:rub_planks",
+    "voidbound:ruby_log",
+    "voidbound:ruby_wood"
+  ]
+}

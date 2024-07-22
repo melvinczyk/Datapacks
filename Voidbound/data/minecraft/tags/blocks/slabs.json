@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "voidbound:droop_slab",
+    "voidbound:pelargorium_slab",
+    "voidbound:purple_chromite_brick_slab",
+    "voidbound:blue_chromite_brick_slab",
+    "voidbound:green_chromite_brick_slab",
+    "voidbound:yellow_chromite_brick_slab",
+    "voidbound:orange_chromite_brick_slab",
+    "voidbound:red_chromite_brick_slab",
+    "voidbound:purple_chromite_slab",
+    "voidbound:blue_chromite_slab",
+    "voidbound:green_chromite_slab",
+    "voidbound:yellow_chromite_slab",
+    "voidbound:orange_chromite_slab",
+    "voidbound:red_chromite_slab",
+    "voidbound:chromite_slab",
+    "voidbound:chromite_brick_slab",
+    "voidbound:end_stone_slab",
+    "voidbound:lu_slab",
+    "voidbound:smooth_end_stone_slab",
+    "voidbound:obsidian_slab",
+    "voidbound:obsidian_brick_slab",
+    "voidbound:loop_slab",
+    "voidbound:rub_slab"
+  ]
+}

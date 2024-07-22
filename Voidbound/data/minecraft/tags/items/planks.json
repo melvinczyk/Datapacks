@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "voidbound:rub_planks",
+    "voidbound:lu_planks",
+    "voidbound:loop_planks",
+    "voidbound:pelargorium_planks",
+    "voidbound:droop_planks"
+  ]
+}

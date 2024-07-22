@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "voidbound:obsidian_stairs",
+    "voidbound:obsidian_wall",
+    "voidbound:obsidian_slab"
+  ]
+}

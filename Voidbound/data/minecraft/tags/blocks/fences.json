@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "voidbound:droop_fence",
+    "voidbound:pelargorium_fence",
+    "voidbound:lu_fence",
+    "voidbound:loop_fence",
+    "voidbound:rub_fence"
+  ]
+}

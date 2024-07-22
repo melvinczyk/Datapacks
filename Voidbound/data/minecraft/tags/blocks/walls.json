@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "voidbound:purple_chromite_brick_wall",
+    "voidbound:blue_chromite_brick_wall",
+    "voidbound:green_chromite_brick_wall",
+    "voidbound:yellow_chromite_brick_wall",
+    "voidbound:orange_chromite_brick_wall",
+    "voidbound:red_chromite_brick_wall",
+    "voidbound:purple_chromite_wall",
+    "voidbound:blue_chromite_wall",
+    "voidbound:green_chromite_wall",
+    "voidbound:yellow_chromite_wall",
+    "voidbound:orange_chromite_wall",
+    "voidbound:red_chromite_wall",
+    "voidbound:chromite_wall",
+    "voidbound:chromite_brick_wall",
+    "voidbound:end_stone_wall",
+    "voidbound:purpur_wall",
+    "voidbound:smooth_end_stone_wall",
+    "voidbound:obsidian_wall",
+    "voidbound:obsidian_brick_wall"
+  ]
+}

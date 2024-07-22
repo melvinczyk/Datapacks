@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "voidbound:end_stone_diamond_ore",
+    "voidbound:chisled_obsidian_bricks",
+    "voidbound:endergit_block",
+    "voidbound:endergite_ore",
+    "voidbound:obsidian_brick_stairs",
+    "voidbound:obsidian_brick_wall",
+    "voidbound:obsidian_brick_slab",
+    "voidbound:obsidian_bricks"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "voidbound:luxshroom_fur",
+    "voidbound:droop_flowers",
+    "voidbound:electric_flower",
+    "voidbound:end_cactus_static",
+    "voidbound:energized_luxin_wall_moss",
+    "voidbound:energized_wetland_wall_moss",
+    "voidbound:luxin_wall_moss",
+    "voidbound:lux_shortgrass",
+    "voidbound:luxin_bamboo",
+    "voidbound:medium_wall_luxshroom",
+    "voidbound:luxshroom",
+    "voidbound:wall_lotus",
+    "voidbound:loopshroom",
+    "voidbound:loop_wall_moss",
+    "voidbound:wetland_shortgrass",
+    "voidbound:end_lotus",
+    "voidbound:pink_end_lotus",
+    "voidbound:wetland_shroom",
+    "voidbound:vinesbulb",
+    "voidbound:wall_bulbshroom",
+    "voidbound:ruby_shortgrass",
+    "voidbound:energized_ruby_wall_moss",
+    "voidbound:ruby_wall_moss"
+  ]
+}
