@@ -1,0 +1,27 @@
+{
+    "name": "Magic",
+    "icon": "irons_spellbooks:diamond_spell_book",
+    "category": "patchouli:world",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "I will not go too in depth with magic as there is a guidebook you can craft that will tell you EVERYTHING you need to know.$(br2)I will only explain some things about the world regarding magic."
+        },
+        {
+            "title": "Magic Guidebook",
+            "type": "patchouli:crafting",
+            "recipe": "irons_spellbooks:patchouli_book",
+            "text": "If you want an indepth guide on magic and how to use it then craft this guidebook.$(br2)The book teaches you how to use spells and spellbooks and the upgrade system, as well as how to make the staffs and armors."
+        },
+        {
+            "title": "World Magic",
+            "type": "patchouli:spotlight",
+            "item": "irons_spellbooks:lightning_upgrade_orb,irons_spellbooks:holy_upgrade_orb,irons_spellbooks:ice_upgrade_orb,irons_spellbooks:ender_upgrade_orb,irons_spellbooks:blood_upgrade_orb,irons_spellbooks:evocation_upgrade_orb,irons_spellbooks:nature_upgrade_orb,irons_spellbooks:fire_upgrade_orb",
+            "text": "In this world magic is one of the strongest things you can use if not the strongest. The progression is using magic in all aspects.$(br2)Magic is essential if you want to take down large enemies and bosses, if you choose not to use magic thats fine as melee or archery has equally effective tools. But magic is the soul of progression in this world."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "majruszsdifficulty:cerberus"
+        }
+    ]
+}

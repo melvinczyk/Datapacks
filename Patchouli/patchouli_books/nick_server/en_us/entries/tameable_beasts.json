@@ -1,0 +1,138 @@
+{
+    "name": "Tameable Beasts",
+    "icon": "tameablebeasts:beetle_egg",
+    "category": "patchouli:world",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "There are some mounts you can get in the game that come from various mods such as Alexsmobs, Ice and Fire, Arthropocalypse, and other random ones. We are going to talk about some that don't give you information in game.$(br2)Most of these are from the Tameable Beasts mod so you can look up more on the mod page in $(l:https://www.curseforge.com/minecraft/mc-mods/tameable-beasts)curseforge"
+        },
+        {
+            "title": "Racoon",
+            "type": "patchouli:entity",
+            "entity": "tameablebeasts:tameable_racoon",
+            "text": "You can tame raccoons with Melon and breed them with an egg."
+        },
+        {
+            "title": "Chickote",
+            "type": "patchouli:spotlight",
+            "item": "tameablebeasts:chikote_saddle,minecraft:potato,minecraft:beetroot",
+            "text": "The chikote will eat all crops unless there is a scarecrow nearby, you can breed them with crops like potatoes and beetroot.$(br2)When you breed two chikotes they will drop an egg where you can nurture it to have a chikote. Chikote drop feathers and Big Bird Meat."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "tameablebeasts:tameable_chikote",
+            "text": "Chikote's ability is slow falling"
+        },
+        {
+            "title": "Giant Grasshopper",
+            "type": "patchouli:spotlight",
+            "item": "tameablebeasts:grasshopper_saddle,tameablebeasts:egg_rests,tameablebeasts:leaf",
+            "text": "Grasshoppers are tamed with egg rests and bred with leaves. They will drop an egg if you breed two tamed grasshoppers. You get egg rests once a mount has bed hatched from its egg."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "tameablebeasts:giant_grasshopper",
+            "text": "The grasshopper's ability is it jumps very high"
+        },
+        {
+            "title": "Roly Poly",
+            "type": "patchouli:spotlight",
+            "item": "tameablebeasts:roly_poly_saddle,tameablebeasts:egg_rests,tameablebeasts:biker_helmet,tameablebeasts:roly_plaque",
+            "text": "Roly polys are spawned in taigas and you tame them with egg rests and breed them with leaves. When they die they drop their shell and you can make them a biker helmet out of it to make them go faster."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "tameablebeasts:giant_roly_poly",
+            "text": "The roly poly's ability is that it is the fastest mount."
+        },
+        {
+            "title": "Penguin",
+            "type": "patchouli:spotlight",
+            "item": "tameablebeasts:icepop,tameablebeasts:ice_helmet,tameablebeasts:ice_chestplate,tameablebeasts:roly_plaque,minecraft:tropical_fish",
+            "text": "Penguins can be bred with tropical fish and tamed with cod and salmon. When two tamed penguins are bred they will drop an egg. You can equid penguins with ice armor and a icepop as a weapon"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "tameablebeasts:tameable_penguin",
+            "text": "The penguin's ability is that it is fast on ice and will defend you"
+        },
+        {
+            "title": "Crested Gecko",
+            "type": "patchouli:spotlight",
+            "item": "tameablebeasts:beetle_egg,tameablebeasts:ground_beetle_egg,tameablebeasts:crested_gecko_saddle,minecraft:melon",
+            "text": "Geckos can be tamed with beetle larva or grasshopper eggs and bred with melons. When two bred geckos are tamed they will drop a gecko egg and spawn in jungles"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "tameablebeasts:crested_gecko",
+            "text": "The gecko's ability is that it will allow you to climb on walls"
+        },
+        {
+            "title": "Quetzalcoatlus",
+            "type": "patchouli:spotlight",
+            "item": "tameablebeasts:quetzal_saddle,tameablebeasts:quetzal_stand,tameablebeasts:quetzal_meat,tameablebeasts:flying_helmet",
+            "text": "Quetzals are bred with big bird meat and drop a quetzal egg when done so. Quetzals are huge so you can ride up to 4 people if you craft a quetzal stand, you can make them go faster with a flying helmet."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "tameablebeasts:quetzalcoatlus",
+            "text": "The quetzal's ability is that it can fly and carry 4 people"
+        },
+        {
+            "title": "Argentavis",
+            "type": "patchouli:spotlight",
+            "item": "tameablebeasts:argentavis_saddle,tameablebeasts:big_bird_meat,tameablebeasts:quetzal_meat",
+            "text": "Argemtavis is bred with quetzal meat and drop an argentavis egg when done so. The argentavis can fly"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "tameablebeasts:argentavis",
+            "text": "The argentavis's ability is that it can fly at a moderate speed"
+        },
+        {
+            "title": "Ground Beetle",
+            "type": "patchouli:spotlight",
+            "item": "tameablebeasts:ground_beetle_egg,minecraft:honey_bottle,minecraft:honeycomb",
+            "text": "The ground beetle lives in swamps and can be tamed with honeycomb and bred with honey. When bred they will drop a ground beetle larva"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "tameablebeasts:ground_beetle",
+            "text": "The ground beetle's ability is that it is naturally armored"
+        },
+        {
+            "title": "Flying Beetle",
+            "type": "patchouli:spotlight",
+            "item": "tameablebeasts:ground_beetle_egg,minecraft:honey_bottle,minecraft:honeycomb",
+            "text": "The flying beetle lives in swamps and can be tamed with honeycomb and bred with honey. When bred they will drop a flying beetle larva"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "tameablebeasts:tameable_beetle",
+            "text": "The flying beetle's ability is that it is can fly. BUT NOT WITH YOU FOR SOME REASON"
+        },
+        {
+            "title": "Scarecrow",
+            "type": "patchouli:spotlight",
+            "item": "tameablebeasts:purple_allay,tameablebeasts:scarecrow_straw_hat,tameablebeasts:iron_big_hoe,tameablebeasts:scarecrow_block",
+            "text": "You can get purple allays by killing illagers and click on a scarecrow block to create a scarecrow. You can give it an iron big hoe for it to do more damage."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "tameablebeasts:scarecrow_allay",
+            "text": "They scarecrow allay will follow you and protect you."
+        },
+        {
+            "title": "Platerodrilus",
+            "type": "patchouli:spotlight",
+            "item": "minecraft:oak_log",
+            "text": "You can tame this bug by feeding it any log and attaching a saddle to it."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "arthropocolypse:platerodrilus",
+            "text": "This insect is a mount"
+        }
+    ]
+}

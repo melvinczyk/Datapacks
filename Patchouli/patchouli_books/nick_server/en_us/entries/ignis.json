@@ -1,0 +1,49 @@
+{
+    "name": "Ignis",
+    "icon": "cataclysm:ignitium_helmet",
+    "category": "patchouli:special_mobs",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Ignis is one of the final bosses you should fight in the world. $(br2)He has a massive amount of health and he lives in the burning arena located in the nether. $(br2)He is capable of stripping armor and going stright to player damage so no matter how mcuh armro you have you need to be vigilant."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "cataclysm:ignis" 
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cataclysm:flame_eye",
+            "title": "Eye of the Flame",
+            "text": "You use this eye the same way you would use an eye of ender to find the burning arena.$(br2)When you find his arena you will need to kill Ignited Revenants to craft burning ashes to summon ignis on his altar."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "cataclysm:ignited_revenant",
+            "text": "Kill ignited revenants to get 4 dying embers to craft a Burning Ashes" 
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "cataclysm:altar_of_fire,cataclysm:burning_ashes",
+            "title": "Altar of Fire",
+            "text": "You must place the Burning Ashes in the altar of fire in order to summon Ignis."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cataclysm:the_incinerator",
+            "title": "The Incinerator",
+            "text": "The Incinerator is one of the strongest weapons in the world only being crafter after defeating Ignis. It requires two ignitium ingots but does an explosion attack that can travel far."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cataclysm:bulwark_of_the_flame",
+            "title": "Bulwark of the Flame",
+            "text": "This shield can do a lot of damage and also a huge charge sprint attach and can be combined with the Gauntlet of Guard to make the Guantlet"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'cataclysm:ignitium_boots',Count:1},{id:'cataclysm:ignitium_leggings',Count:1},{id:'cataclysm:ignitium_elytra_chestplate',Count:1},{id:'cataclysm:ignitium_helmet',Count:1}]}",
+            "text": "The ignitium set comes with a chestplate in chich you can combine an elytra to." 
+        }
+    ]
+}

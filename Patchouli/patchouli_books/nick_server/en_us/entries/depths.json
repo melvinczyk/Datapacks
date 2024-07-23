@@ -1,0 +1,37 @@
+{
+    "name": "The Depths",
+    "icon": "callfromthedepth_:soulinagony",
+    "category": "patchouli:world",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A new challenging dimension has been added to this world, the depths. The depths is an end game dimension in chich you should only go if you have defeated the ender dragon already.$(br2)The entrance to the dimension is the giant portal in the center of an ancient city. You will need to clean off all the sculk from it at first before you activate the portal"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "callfromthedepth_:depthkeycraft",
+            "text": "The depth key is what you need in order to go the the depths. You need an echo shard and skulk catalyst both of whcih are dropped by the warden."
+        },
+        {
+            "title": "Immemorial Debris",
+            "type": "patchouli:spotlight",
+            "item": "callfromthedepth_:immemorial_debris",
+            "text": "Immemorial debris is the new ore found in the depths and is used to craft the depth set whcih is a super high tier armor and toolset."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'callfromthedepth_:depth_armor_boots',Count:1},{id:'callfromthedepth_:depth_armor_leggings',Count:1},{id:'callfromthedepth_:depth_armor_chestplate',Count:1},{id:'callfromthedepth_:depth_armor_helmet',Count:1}]}",
+            "text": "The depth armor is one of the best in the game, it is the second best craftable item armor other than dragonsteel"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "callfromthedepth_:soulinagonycraft",
+            "text": "craft this soul from melting lost soul sand and finding a soul stone, this is used to activate the boss battle with the agony soul.$(br2)Click on the sacrificial stone with the agony soul to summon the boss of the Depth dimension."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "callfromthedepth_:agonysoul",
+            "text": "The agony soul is the final boss of the Depths and will grant you soul ingots used to make the Soul Blade"
+        }
+    ]
+}

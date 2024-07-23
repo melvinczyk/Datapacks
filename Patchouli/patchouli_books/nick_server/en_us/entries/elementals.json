@@ -1,0 +1,49 @@
+{
+    "name": "World Elementals",
+    "icon": "iter_rpg:elemental_ingot",
+    "category": "patchouli:world",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "There are five elements in this world, earth, water, air, fire, and ender. Each element is sealed away until we break their seal in which they will spawn in the world.$(br2)There are shrines in the world that contain the seals for the elements that we need to break."
+        },
+        {
+            "title": "Element power",
+            "type": "patchouli:spotlight",
+            "item": "iter_rpg:earth_fragment,iter_rpg:water_fragment,iter_rpg:air_fragment,iter_rpg:fire_fragment,iter_rpg:void_fragment",
+            "text": "Each fragment will be availiable after the element is released into the world. We need these fragments to make the elemental armor wich is one of the strongest armors over netherite. As well as make the five element's weapons that are very useful."
+        },
+        {
+            "title": "Elemental Set",
+            "type": "patchouli:entity",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'iter_rpg:elemental_armor_boots',Count:1},{id:'iter_rpg:elemental_armor_leggings',Count:1},{id:'iter_rpg:elemental_armor_chestplate',Count:1},{id:'iter_rpg:elemental_armor_helmet',Count:1}]}",
+            "text": "Elemental armor is hard to piece together but once yo uhave it you will harness the power of all 5 elements."
+        },
+        {
+            "title": "Element Seals",
+            "type": "patchouli:spotlight",
+            "item": "iter_rpg:earth_seal,iter_rpg:water_seal,iter_rpg:air_seal,iter_rpg:fire_seal,iter_rpg:void_seal",
+            "text": "This is what each seal looks like, each seal will be in its own shrine but the shrines are rare and hard to find. Once you break the seal with a pickaxe the elemental will spawn and then will natrually spawn in the game."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "iter_rpg:earth_elemental"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "iter_rpg:water_elemental"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "iter_rpg:air_elemental"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "iter_rpg:fire_elemental"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "iter_rpg:void_elemental"
+        }
+    ]
+}

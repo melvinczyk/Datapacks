@@ -1,0 +1,25 @@
+{
+    "name": "World Difficulty",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:world",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The world is set up in three stages, each signifying a different milestone triggered in the world.$(br2)The starting phase is normal difficulty where all mobs are normal and drop normal exp.$(br2)In this stage no one has gone to a different dimension and nothing will change."
+        },
+        {
+            "title": "Expert Difficulty",
+            "type": "patchouli:text",
+            "text": "The world will enter Expert Difficulty as soon as a player enters a new dimension such as the Nether, End, Depths, or Sculk Depths dimension.$(br2)In this world phase mobs will be 20% stronger and Tank skeletons will start to spawn around the world. Along with the difficulty, mobs will also drop 20% more exp and have a higher chance of dropping more loot."
+        },
+        {
+            "title": "Master Difficulty",
+            "type": "patchouli:text",
+            "text": "The world will enter Master Difficulty as soon as the Ender Dragon is defeated and will be very challenging.$(br2)In this phase, mobs will be 35% stronger and Cerebrus will start spawning natrually."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "majruszsdifficulty:cerberus"
+        }
+    ]
+}

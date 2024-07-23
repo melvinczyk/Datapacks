@@ -1,0 +1,98 @@
+{
+    "name": "Relics and Artifacts",
+    "icon": "relics:space_dissector",
+    "category": "patchouli:world",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Relics are different from artifacts. Relics and artifacts are extremely rare and can only be found through looting in dungenos or in chests.$(br2)Artifacts usually give passive buffs and relics are upgradable items that you can use.$(br2)We will go over some artifacts and how to level up relics on the research table."
+        },
+        {
+            "title": "Artifacts",
+            "type": "patchouli:text",
+            "text": "Artifacts are rare items that you can find in dungeons, suspiscious sand, villages, anywhere where there is loot chests. They can be worn in your $(6)Curios Slot$(0) which is that circle button on the top left of your character in inventory.$(br2)Lets see a couple artifacts to see what we are dealing with. You can see them all by typing $(o)@artifacts$() in your item list"
+        },
+        {
+            "title": "Everlasting Beef",
+            "type": "patchouli:spotlight",
+            "item": "artifacts:everlasting_beef,artifacts:eternal_steak",
+            "text": "This beef has a crazy low chance to drop whenever killing a cow and will last you forever. You can cook it to turn it into the everlasting steak which will never run out!"
+        },
+        {
+            "title": "Cloud in a bottle",
+            "type": "patchouli:spotlight",
+            "item": "artifacts:cloud_in_a_bottle",
+            "text": "This cloud in a bottle goes on your belt and will allow you to use a double jump."
+        },
+        {
+            "title": "Crystal Heart",
+            "type": "patchouli:spotlight",
+            "item": "artifacts:crystal_heart",
+            "text": "This heart is super rare to find but if you do it will give you +10 max health. This is very valuable since there are only 4 ways including this to gain more max health."
+        },
+        {
+            "title": "Basketball shoes",
+            "type": "patchouli:spotlight",
+            "item": "artifacts:running_shoes",
+            "text": "These shoes make you run faster while you are sprinting as well as make you jump higher. Sounds kinda like a..."
+        },
+        {
+            "title": "Mimics",
+            "type": "patchouli:entity",
+            "entity": "artifacts:mimic",
+            "text": "Mimics give a gaurenteed artifact if you are able to kill them. Mimics spawn in caves at campsites but are rare."
+        },
+        {
+            "title": "Relics",
+            "type": "patchouli:text",
+            "text": "Relics are more complex than artifacts as they each have unique abilities that you can level up. Each relic can be upgraded using exp levels or relic use levels.$(br2)Relics are stronger than artifacts and because of this they are rarer than them too, so if you find one be sure not to lose it because you probably will never find the same one again."
+        },
+        {
+            "title": "Researching Table",
+            "type": "patchouli:crafting",
+            "recipe": "relics:researching_table",
+            "text": "The researching table is what you will use to upgrade your relics. The relic can be put on by clicking the table with the relic and then shift clicking with an empty hand to access the table."
+        },
+        {
+            "title": "Relic Leveling",
+            "type": "patchouli:text",
+            "text": "Each relic has its own unique abilities that you can level up. You can trade your levels for relic experience and use that to upgrade abilities.$(br2)The abilities are in use as soon as you unlock them so you don't need to worry about activating some. You can randomize the stats to get better rolls on them but its a GAMBLE.$(br2)Okay lets look at some cool relics."
+        },
+        {
+            "title": "Space Dissector",
+            "type": "patchouli:spotlight",
+            "item": "relics:space_dissector",
+            "text": "The Space Dissector is a portal in your pocket, you can aim it as far as 50 blocks and create a portal to there. It is useful for covering large distances and especially for going up tall structures or crossing large gaps."
+        },
+        {
+            "title": "Infinity Ham",
+            "type": "patchouli:spotlight",
+            "item": "relics:infinity_ham",
+            "text": "The infinity ham is similar to the everlasting beef except that you can eat it whenever and see it gain flesh. You can level it up so that it gives you more hunger back and regenerate faster"
+        },
+        {
+            "title": "Magic Mirror",
+            "type": "patchouli:spotlight",
+            "item": "relics:magic_mirror",
+            "text": "The magic mirror is a mirror that will teleport you back to where your spawn point is. It has a limited distance but you can upgrade it to more that 1000 blocks whcih should be more than enough."
+        },
+        {
+            "title": "Midnight Robe",
+            "type": "patchouli:spotlight",
+            "item": "relics:midnight_robe",
+            "text": "This robe will make you faster and invisible in low light levels. The first attack you do while vanished can do significant more damage which you can level up"
+        },
+        {
+            "title": "Hunter Belt",
+            "type": "patchouli:spotlight",
+            "item": "relics:hunter_belt",
+            "text": "The hunter belt allows you to cary more relics as well as increase the damage your pets do."
+        },
+        {
+            "title": "Ender Hand",
+            "type": "patchouli:spotlight",
+            "item": "relics:enders_hand",
+            "text": "The ender hand makes all enderman and ender ravagers neutral towards you but it also allows you to swap places with anything you are looking at currently"
+        }
+    ]
+}

@@ -3,5 +3,7 @@
     "landing_text": "Use this book for a reference for the server. This contains information about various aspects about the world that you might need to know.",
     "version": 1,
     "creative_tab": "minecraft:tools_and_utilities",
-    "use_resource_pack": false
+    "use_resource_pack": false,
+    "book_texture": "patchouli:textures/gui/book_cyan.png",
+    "model": "patchouli:book_cyan"
 }

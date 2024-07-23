@@ -1,0 +1,61 @@
+{
+    "name": "Dinosaurs",
+    "icon": "dawnera:tyrannosaurus_egg",
+    "category": "patchouli:world",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "As you probably saw the world isfull of dinosaurs that sometimes will piss you off. But did you know that you can tame them?$(br2)In order to tame dinosaurs you must physically drop their special taming item in front of them so they can eat it. Taming large dinosaurs may take VERY LONG but you will be rewarded with a very strong mount."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dawnera:diabloceratops",
+            "text": "You will need to drop leaves to tame this one."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dawnera:triceratops",
+            "text": "You will need to drop leaves to tame this one."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dawnera:psittacosaurus",
+            "text": "You will need to drop berries to tame this one."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dawnera:dimorphodon",
+            "text": "You will need to drop raw meat to tame this one."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dawnera:ceratosaurus",
+            "text": "You will need to drop raw meat to tame this one."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dawnera:sachicasaurus",
+            "text": "You will need to drop raw meat to tame this one."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dawnera:dunkleosteus",
+            "text": "You will need to drop raw meat to tame this one."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "dawnera:tyrannosaurus",
+            "text": "You will need to drop raw meat to tame this one."
+        },
+        {
+            "title": "Dino Armors",
+            "type": "patchouli:text",
+            "text": "In order to ride the dinosaurs you need to make a saddle for you to ride on them.$(br2)Only the Tyrannosaurus and the Triceratops can wear armor which can armor them up very significantly."
+        },
+        {
+            "title": "Dino Armors",
+            "type": "patchouli:crafting",
+            "recipe2": "dawnera:tyrannosaurus_armor,dawnera:triceratops_armor"
+        }
+    ]
+}

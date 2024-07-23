@@ -1,0 +1,32 @@
+{
+    "name": "Netherite Monstrosity",
+    "icon": "cataclysm:monstrous_helm",
+    "category": "patchouli:special_mobs",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Netherite Monstrosity is a hard boss found in the soul black smith in the nether and is a tanky boss.$(br2)The monstrosity can throw bombs and cause insane knockback and should be a late game boss."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "cataclysm:netherite_monstrosity" 
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cataclysm:monstrous_eye",
+            "title": "Eye of Monstrous",
+            "text": "You use this eye the same way you would use an eye of ender to find the soul black smith.$(br2)He will be there waiting for you in the arena when you arive no need to summon him."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "cataclysm:infernal_forge",
+            "title": "The Infernal Forge",
+            "text": "The infernal forge is an item dropped by the Monstrosity and you can smash the ground to cause magma eruptions to occur.$(br2)You can combine this with the Void Core to create the Voide Forge which does the same thing but with ender magic."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "cataclysm:monstrous_helm",
+            "text": "The Monstrous Helm is created with a monstrous horn dropped by the Monstrosity.$(br2)This helmet knocks back all entities when you are at half health and increases regen, defencse, and knockback resistance while worn." 
+        }
+    ]
+}
