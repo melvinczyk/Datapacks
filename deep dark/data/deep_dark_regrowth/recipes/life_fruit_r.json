@@ -8,7 +8,7 @@
   ],
   "key": {
     "0": {
-      "item": "deep_dark_regrowth:pulse_flower_petal"
+      "item": "minecraft:echo_shard"
     },
     "1": {
       "item": "deep_dark_regrowth:heart_goo"
@@ -32,7 +32,7 @@
       "item": "deep_dark_regrowth:heart_goo"
     },
     "8": {
-      "item": "deep_dark_regrowth:pulse_flower_petal"
+      "item": "minecraft:echo_shard"
     }
   },
   "result": {

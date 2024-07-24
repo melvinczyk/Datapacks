@@ -55,7 +55,14 @@
         {
             "title": "Dino Armors",
             "type": "patchouli:crafting",
-            "recipe2": "dawnera:tyrannosaurus_armor,dawnera:triceratops_armor"
+            "recipe": "dawnera:tyrannosaurus_armor",
+            "text": "This is the tyrannosaurus armor that can be put on the T-rex"
+        },
+        {
+            "title": "Dino Armors",
+            "type": "patchouli:crafting",
+            "recipe": "dawnera:triceratops_armor",
+            "text": "This is the triceratops armor"
         }
     ]
 }

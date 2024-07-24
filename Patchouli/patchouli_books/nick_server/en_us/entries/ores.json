@@ -1,11 +1,11 @@
 {
-    "name": "Magic",
-    "icon": "irons_spellbooks:diamond_spell_book",
+    "name": "Ores",
+    "icon": "minecraft:diamond",
     "category": "patchouli:world",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "I will not go too in depth with magic as there is a guidebook you can craft that will tell you EVERYTHING you need to know.$(br2)I will only explain some things about the world regarding magic."
+            "text": "Mining in this world is the only way you will be able to get the best armor in the game. There are a lot of useful ores in the game and a lot can be found by just mining!$(br2)I will go over some that you might want to keep your eye on"
         },
         {
             "title": "Magic Guidebook",
