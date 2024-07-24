@@ -5,24 +5,127 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Mining in this world is the only way you will be able to get the best armor in the game. There are a lot of useful ores in the game and a lot can be found by just mining!$(br2)I will go over some that you might want to keep your eye on"
+            "text": "Mining in this world is the only way you will be able to get the best armor in the game. There are a lot of useful ores in the game and a lot can be found by just mining!$(br2)I will go over some that you might want to keep your eye on."
         },
         {
-            "title": "Magic Guidebook",
-            "type": "patchouli:crafting",
-            "recipe": "irons_spellbooks:patchouli_book",
-            "text": "If you want an indepth guide on magic and how to use it then craft this guidebook.$(br2)The book teaches you how to use spells and spellbooks and the upgrade system, as well as how to make the staffs and armors."
+            "name": "Ore Guide",
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "pattern": [
+                    [ "     ", "     ", "     ", "     " ], 
+                    [ "     ", "     ", "     ", "     " ],
+                    [ "     ", "     ", "     ", "     " ], 
+                    [ "     ", " 0   ", "     ", "     " ], 
+                    [ "_RDV_", "P?TES", "TEVRD", "_PR?_" ]
+                ],
+                "mapping": {
+                    "R": "elementus:remnant",
+                    "D": "born_in_chaos_v1:dark_metal_deposit",
+                    "V": "immersiveores:vibranium_ore",
+                    "P": "immersiveores:vulpus_ore",
+                    "S": "epicsamurai:deepslate_silver_ore",
+                    "E": "enderite:enderite_ore",
+                    "?": "luminite_and_sunilite:luminite_sunilite_ore",
+                    "T": "betterend:thallasium_ore"
+                },
+                "symmetrical": true
+            },
+            "text": "There are a variety of ores you will come across. So lets take a look."
         },
         {
-            "title": "World Magic",
+            "title": "Overworld:Remnant",
             "type": "patchouli:spotlight",
-            "item": "irons_spellbooks:lightning_upgrade_orb,irons_spellbooks:holy_upgrade_orb,irons_spellbooks:ice_upgrade_orb,irons_spellbooks:ender_upgrade_orb,irons_spellbooks:blood_upgrade_orb,irons_spellbooks:evocation_upgrade_orb,irons_spellbooks:nature_upgrade_orb,irons_spellbooks:fire_upgrade_orb",
-            "text": "In this world magic is one of the strongest things you can use if not the strongest. The progression is using magic in all aspects.$(br2)Magic is essential if you want to take down large enemies and bosses, if you choose not to use magic thats fine as melee or archery has equally effective tools. But magic is the soul of progression in this world."
+            "item": "elementus:remnant,elementus:atelis_scrap",
+            "text": "The remnant looks very similar to deepslate but slightly different texture.$(br2)You need this to make atelis scrap which is used to make Anthektite and Diarkrite armor and weapons."
         },
         {
             "type": "patchouli:entity",
-            "entity": "irons_spellbooks:necromancer",
-            "text": "The necromancer is a valuable mob to kill for arcane dust but is a tough fight."
+            "name": "Diarkrite Set",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'elementus:diarkrite_boots',Count:1},{id:'elementus:diarkrite_leggings',Count:1},{id:'elementus:diarkrite_chestplate',Count:1},{id:'elementus:diarkrite_helmet',Count:1}]}",
+            "text": "The diarkrite and anthekite sets are each made with remnants and echo shards"
+        },
+        {
+            "title": "Overworld:Arcane Debris",
+            "type": "patchouli:spotlight",
+            "item": "irons_spellbooks:arcane_debris,irons_spellbooks:arcane_salvage",
+            "text": "The arcane debris is like netherite in the overworld and is a very important way to make magic upgrade orbs."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irons_spellbooks:upgrade_orb",
+            "text": "The upgrade orb allows you to scale up your magic for each school, only possible by having arcane debris."
+        },
+        {
+            "title": "Overworld:??? Ore",
+            "type": "patchouli:spotlight",
+            "item": "luminite_and_sunilite:luminite_sunilite_ore,luminite_and_sunilite:sumilite_ore,luminite_and_sunilite:luminite_ore",
+            "text": "This ore is a two in one, you can either place the block at day to get sunilite ore or during the night to get luminite ore.$(br2)Each set gives buffs in each part of the day either day/night depending on the set you choose."
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Luminite Set",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'luminite_and_sunilite:luminite_boots',Count:1},{id:'luminite_and_sunilite:luminite_leggings',Count:1},{id:'luminite_and_sunilite:luminite_chestplate',Count:1},{id:'luminite_and_sunilite:luminite_helmet',Count:1}]}",
+            "text": "The luminite set makes you strong during the night and the sunilite during the day."
+        },
+        {
+            "title": "Overworld:Dark Metal",
+            "type": "patchouli:spotlight",
+            "item": "born_in_chaos_v1:dark_metal_deposit,born_in_chaos_v1:pieceofdarkmetal,born_in_chaos_v1:pileof_dark_metal",
+            "text": "Dark metal is a rare ore that is used to craft very powerful weapons and armor. The ore can be found below y level 10 and in dark metal deposits in caves.$(br2)The ore is extremely valuable as you need it to eventually get the best armor in the game."
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Dark Metal Set",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'born_in_chaos_v1:dark_metal_armor_boots',Count:1},{id:'born_in_chaos_v1:dark_metal_armor_leggings',Count:1},{id:'born_in_chaos_v1:dark_metal_armor_chestplate',Count:1},{id:'born_in_chaos_v1:dark_metal_armor_helmet',Count:1}]}",
+            "text": "The Dark Metal set gives you a rampage buff when you only have 3 hearts left. Extremely cool looking too."
+        },
+        {
+            "title": "Overworld:Sculk Heart",
+            "type": "patchouli:spotlight",
+            "item": "deep_dark_regrowth:sculk_heart,deep_dark_regrowth:heart_goo,deep_dark_regrowth:sculk_carapace_piece,deep_dark_regrowth:plasma_block",
+            "text": "The Sculk Heart can be heard beating underground in a sculk enclosure surrounded by plasma blocks.$(br2)The only way to break the heart block is to use a plasma or netherite hoe. The heart is usd to make the ancient set"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Ancient Set",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'deep_dark_regrowth:ancient_boots',Count:1},{id:'deep_dark_regrowth:ancient_leggings',Count:1},{id:'deep_dark_regrowth:ancient_chestplate',Count:1},{id:'deep_dark_regrowth:ancient_helmet',Count:1}]}",
+            "text": "The ancient set allows you to become the warden and unleash sonic booms as well as being really tough."
+        },
+        {
+            "title": "Overworld:Aquamarine",
+            "type": "patchouli:spotlight",
+            "item": "seadwellers:aquamarine_crystal",
+            "text": "The aquamarine crystal is found on the bottom of the ocean or in rivers and lakes. It is used to make the depths set as well as trade with sea dwellers."
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Depth Set",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'seadwellers:depth_boots',Count:1},{id:'seadwellers:depth_leggings',Count:1},{id:'seadwellers:depth_chestplate',Count:1},{id:'seadwellers:depth_helmet',Count:1}]}",
+            "text": "The depth set gives you infinite oxygen as well as infinite dolphins grace."
+        },
+        {
+            "title": "Overworld:Vibranium",
+            "type": "patchouli:spotlight",
+            "item": "immersiveores:vibranium_ore",
+            "text": "Vibranium is one of the top trio armor sets in the game. This ore is the rarest in the overworld and is needed to construct Vulpus armor."
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Vibranium Set",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'immersiveores:vibranium_boots',Count:1},{id:'immersiveores:vibranium_leggings',Count:1},{id:'immersiveores:vibranium_chestplate',Count:1},{id:'immersiveores:vibranium_helmet',Count:1}]}",
+            "text": "Vibranium armor and weapons and tools are the second best in the game only beat by Vulpus"
+        },
+        {
+            "title": "Overworld:Samurai Ores",
+            "type": "patchouli:spotlight",
+            "item": "epicsamurai:jade_ore",
+            "text": "There are various ores that all create samurai armor such as ruby and jade, but they come in different rarities and colors"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Vibranium Set",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'immersiveores:vibranium_boots',Count:1},{id:'immersiveores:vibranium_leggings',Count:1},{id:'immersiveores:vibranium_chestplate',Count:1},{id:'immersiveores:vibranium_helmet',Count:1}]}",
+            "text": "Vibranium armor and weapons and tools are the second best in the game only beat by Vulpus"
         }
     ]
 }
