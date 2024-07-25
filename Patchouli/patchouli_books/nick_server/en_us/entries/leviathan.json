@@ -1,0 +1,58 @@
+{
+    "name": "The Leviathan",
+    "icon": "cataclysm:abyssal_sacrifice",
+    "category": "patchouli:special_mobs",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Leviathan is a strong boss that is located in the sunken citadel in the ocean.$(br2)The Leviathan is a difficult water based boss with crazy AOE attacks and grab attacks! Not recommended until end game."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "cataclysm:the_leviathan",
+            "text": "The Leviathan is a water based boss with tough attacks to dodge." 
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cataclysm:abyss_eye",
+            "title": "Eye of Abyss",
+            "text": "You use this eye the same way you would use an eye of ender to find the sunken citadel.$(br2)When you find this citadel you will need to have the abyssal sacrifice to summon the boss."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cataclysm:abyssal_sacrifice",
+            "text": "The abyssal sacrifice is created using valuable resources so only create it when you are ready. Coral chunks are found in the citadel when killing coral golems." 
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "cataclysm:coralssus",
+            "text": "The Coralssus can only survive in water and will drop coral chunks used to craft the abyssal sacrifice."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "cataclysm:coral_golem",
+            "text": "The coral golem is also found in the citadel and will drop crysal coral which is also used to craft the abyssal sacrifice."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "cataclysm:altar_of_abyss,cataclysm:abyssal_sacrifice",
+            "text": "You will need to place the abyssal sacrifice inside of the altar of abyss in order to summon The Leviathan."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "cataclysm:tidal_claws",
+            "text": "The tidal claws are a very cool weapon to have. It acts as a grappling hook as well as a weapon that sucks the life out of every mob.$(br2)It shoots out a tentacle that harms every mob in the area. You can also pull mobs towards you with the grappling hook." 
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "cataclysm:abyssal_egg",
+            "text": "The Leviathan will drop the abyssal egg which you can hatch to get a baby leviathan. The baby leviathan is VERY strong and you can pick it up in a bucket to travel."
+        },
+        {
+            "type": "patchouli:entity",
+            "title": "Baby Leviathan",
+            "entity": "cataclysm:the_baby_leviathan",
+            "text": "The baby leviathan is VERY strong and swims very fast." 
+        }
+    ]
+}

@@ -9,7 +9,8 @@
         },
         {
             "type": "patchouli:entity",
-            "entity": "cataclysm:ignis" 
+            "entity": "cataclysm:ignis",
+            "text": "Ignis, one of the toughest bosses in the game."
         },
         {
             "type": "patchouli:crafting",

@@ -1,0 +1,59 @@
+{
+    "name": "Ancient Remnant",
+    "icon": "cataclysm:remnant_skull",
+    "category": "patchouli:special_mobs",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Ancient Remnant is a strong boss that is located in the cursed pyramid in a desert.$(br2)The ancient remnant is a tough boss that destroys many blocks with lots of minions."
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "cataclysm:ancient_remnant",
+            "text": "Ancient remnant, only activated by using a desert necklace." 
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cataclysm:desert_eye",
+            "title": "Eye of the Desert",
+            "text": "You use this eye the same way you would use an eye of ender to find the cursed pyramid.$(br2)When you find this pyramid you will need to find the necklace of the desert in order to activate the boss."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "cataclysm:necklace_of_the_desert,minecraft:suspicious_sand,minecraft:brush",
+            "text": "You must use a brush to sift away suspicious sand that is located inside of the pyramid.$(br2)Inside one of the sands will be the necklace of the desert which you need to activate the boss battle." 
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "cataclysm:kobolediator",
+            "text": "This behemoth is found roaming inside of the cursed pyramid. On death he drops his head!"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "cataclysm:wadjet",
+            "text": "The Wadjet is a snake like mob that will cast spells on you. On death it drops ancient metal used for armor."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "cataclysm:sandstorm_in_a_bottle",
+            "text": "This item will allow you to turn into a sandstorm and is dropped by the Ancient Remnant. You become invincible and you get to FLY!"
+        },
+        {
+            "type": "patchouli:entity",
+            "title": "Bone Reptile Set",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'minecraft:air',Count:1},{id:'minecraft:air',Count:1},{id:'cataclysm:bone_reptile_chestplate',Count:1},{id:'cataclysm:bone_reptile_helmet',Count:1}]}",
+            "text": "The bone reptile set is very bulky and will give you a decent bit of knockback res." 
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "cataclysm:remnant_skull",
+            "text": "The Ancient Remnant will also drop its head which allows you to summon a mini remnant called the Modern Remnant.$(br2)This remnant wil protect you and gaurd you forever as a pet."
+        },
+        {
+            "type": "patchouli:entity",
+            "title": "Modern Remnant",
+            "entity": "cataclysm:modern_remnant",
+            "text": "The modern remnant is suprisingly very strong." 
+        }
+    ]
+}
