@@ -1,0 +1,27 @@
+{
+    "name": "Lookup Tools",
+    "icon": "minecraft:spyglass",
+    "category": "patchouli:mod_help",
+    "pages": [
+        {
+            "title": "JEI",
+            "type": "patchouli:text",
+            "text": "JEI is the mod that lets you look up all of the items in the game to your right. Since there are a lot of items in the game it is important to know how to find what you are looking for.$(br2)This entry gives tips on how to utilize the mod to make everyhting easier."
+        },
+        {
+            "title": "Specific mod",
+            "type": "patchouli:text",
+            "text": "If you want to look up a specific mod's items you can type the $(n)@$() symbol following with the mod name:$(br2)$(li)@simplyswords$(li)@iceandfire$(li)@irons_spellbooks$(li)@born_in_chaos_v1$()"
+        },
+        {
+            "title": "Recipes",
+            "type": "patchouli:text",
+            "text": "To see all the uses of an item, hover over the item and press: $(3)$(n)$(k:jei.showUses)$()$(br2)If you want to see the recipe for an item, hover over it and press $(3)$(n)$(k:jei.showRecipe)$()$(br2)If you want to bookmark a recipe, hover over an item and press $(3)$(n)$(k:jei.bookmark)"
+        },
+        {
+            "title": "Crafting",
+            "type": "patchouli:text",
+            "text": "If you want to craft a bookmarked recipe, hover over the recipe and press $(3)$(n)$(k:jei.transferRecipeBookmark)$()$(br2)If you want to craft the max amount of a bookmarked recipe, hover over the recipe and press $(3)$(n)$(k:jei.maxTransferRecipeBookmark)"
+        }
+    ]
+}

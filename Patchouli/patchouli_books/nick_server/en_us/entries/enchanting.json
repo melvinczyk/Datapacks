@@ -1,0 +1,19 @@
+{
+    "name": "Enchanting",
+    "icon": "apotheosis:sightshelf_t2",
+    "category": "patchouli:player",
+    "pages": [
+        {
+            "title": "Enchanting",
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:book",
+            "text": "Enchanting works the exact same as the old server with a few changes to how you get some.$(br2)We are using the $(n)apotheosis mod$() for enchanting so you can make this guidebook to read how it works."
+        },
+        {
+            "title": "Main Changes",
+            "type": "patchouli:spotlight",
+            "item": "apotheosis:weapon_tome",
+            "text": "There is no more scrapping to get exact enchants but you can still split books to get enchants from individual books.$(br2)The max level for most vanilla enchants is 10 but you need a good enchantment table for this.$(br2)Experience level limit is removed like the last server so you can get to level 100+."
+        }
+    ]
+}

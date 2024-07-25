@@ -1,0 +1,12 @@
+{
+    "name": "Helpful Item Lookup",
+    "icon": "minecraft:spyglass",
+    "category": "patchouli:player",
+    "pages": [
+        {
+            "title": "JEI Side menu",
+            "type": "patchouli:text",
+            "text": "The side menu is the item lookup where you can find every single item in the game. Since there are a lot of items it is important to know how to find information.$(br2)This entry contains useful keys and words that will help you find items."
+        }
+    ]
+}

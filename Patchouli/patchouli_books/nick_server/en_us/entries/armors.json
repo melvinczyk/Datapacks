@@ -1,0 +1,20 @@
+{
+    "name": "All Armors",
+    "icon": "minecraft:diamond_chestplate",
+    "category": "patchouli:mod_help",
+    "pages": [
+        {
+            "title": "All Armors",
+            "type": "patchouli:spotlight",
+            "item": "fromtheshadows:crust_helmet",
+            "text": "As you can see there are a TON of armors in the game so it is almost impossible to see how good each are.$(br2)I may have forgotten pieces that are only hats or chestplates so there are more pieces in game."
+        },
+        {
+            "title": "Armor Link",
+            "type": "patchouli:link",
+            "link_text": "Armor Spreadsheet",
+            "url": "https://docs.google.com/spreadsheets/d/1S6ylvxAyWj-v8Ptvke7QAHWQE_wHJz7zg6NKIsKJOt8/edit?usp=sharing",
+            "text": "This link takes you to a spreadsheet that contains every armor in the game containing:$(li)Armor Points$(li)Armor Toughness$(li)Each piece info$(li)Special armor buffs$()$(br)You can access this anytime as a reference for each armor."
+        }
+    ]
+}

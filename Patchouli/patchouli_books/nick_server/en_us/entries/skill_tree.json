@@ -1,0 +1,41 @@
+{
+    "name": "Skill Tree",
+    "icon": "minecraft:iron_sword",
+    "category": "patchouli:player",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The skill tree is the way you will get stronger in this world. It is set up fairly so you do not need to grind levels in order to gain points.$(br2)You are not limited to one tree, you are able to progress through every tree!$(br2)To open the skill tree press $(n)$(k:puffish_skills.open)"
+        },
+        {
+            "title": "Gaining Points",
+            "type": "patchouli:spotlight",
+            "item": "minecraft:experience_bottle",
+            "text": "The more you do something, the better you get. This is how you get more points on the tree.$(br2)The more you $(n)kill$() mobs, the more points you get for combat. Similarly the magic and archery trees need you to kill mobs with magic/arrow damage.$(br2)The bigger the health, the bigger the points you get."
+        },
+        {
+            "title": "Combat Tree",
+            "type": "patchouli:spotlight",
+            "item": "simplyswords:awakened_lichblade",
+            "text": "The combat section improves on:$(li)Damage$(li)Max health$(li)Armor$(li)Critical hits$()$(br)There are global skills that are in every section:$(li)Movement speed$(li)Percent melee damage$()$(br)You can get these on the corner of every section."
+        },
+        {
+            "title": "Archery Tree",
+            "type": "patchouli:spotlight",
+            "item": "iceandfire:dragonbone_bow",
+            "text": "The archery tree only focusses on three skills:$(li)Arrow damage$(li)Draw speed$(li)Arrow speed$()$(br)The tree is very simple but is very powerful if you want to be an archer or a crossbowman with damage being multiplied by 2+ times when fully upgraded."
+        },
+        {
+            "title": "Mining Tree",
+            "type": "patchouli:spotlight",
+            "item": "immersiveores:vibranium_pickaxe",
+            "text": "The mining tree focusses on three different skills:$(li)Mining speed$(li)Block reach$(li)Fortune level$()$(br)Fortune multiplies with regular fortune and adds a base level to you while mining even without the enchant.$(br2)There is a total of +4 block reach and 300%+ mining speed in this tree!"
+        },
+        {
+            "title": "Magic Trees",
+            "type": "patchouli:spotlight",
+            "item": "irons_spellbooks:scroll",
+            "text": "Each magic tree deals with its own school and also base magic as well. Each tree has 40 nodes dealing with:$(li)Base magic power$(li)School magic power$(li)Magic resistance$(li)Max mana$(li)Spell cooldown$()$(br)Each tree gives a +100% school power along with base power and other buffs"
+        }
+    ]
+}

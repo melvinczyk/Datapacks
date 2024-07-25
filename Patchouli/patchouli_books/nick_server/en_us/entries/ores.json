@@ -107,7 +107,7 @@
             "title": "Overworld:Vibranium",
             "type": "patchouli:spotlight",
             "item": "immersiveores:vibranium_ore",
-            "text": "Vibranium is one of the top trio armor sets in the game. This ore is the rarest in the overworld and is needed to construct Vulpus armor."
+            "text": "Vibranium is one of the top trio armor sets in the game. This ore is the rarest in the overworld and is needed to construct Vulpus armor.$(br2)There is one vein per chunk in the overworld."
         },
         {
             "type": "patchouli:entity",
@@ -118,14 +118,86 @@
         {
             "title": "Overworld:Samurai Ores",
             "type": "patchouli:spotlight",
-            "item": "epicsamurai:jade_ore",
-            "text": "There are various ores that all create samurai armor such as ruby and jade, but they come in different rarities and colors"
+            "item": "epicsamurai:jade_ore,epicsamurai:ruby_ore,epicsamurai:aquamarine_ore,epicsamurai:onyx_ore,epicsamurai:silver_ore",
+            "text": "There are various ores that all create samurai armor such as ruby and jade, but they come in different rarities and colors."
         },
         {
             "type": "patchouli:entity",
-            "name": "Vibranium Set",
-            "entity": "minecraft:armor_stand{ArmorItems:[{id:'immersiveores:vibranium_boots',Count:1},{id:'immersiveores:vibranium_leggings',Count:1},{id:'immersiveores:vibranium_chestplate',Count:1},{id:'immersiveores:vibranium_helmet',Count:1}]}",
-            "text": "Vibranium armor and weapons and tools are the second best in the game only beat by Vulpus"
+            "name": "Master Ruby Set",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'epicsamurai:red_samurai_boots',Count:1},{id:'epicsamurai:red_samurai_leggings',Count:1},{id:'epicsamurai:red_samurai_chestplate',Count:1},{id:'epicsamurai:red_samurai_helmet',Count:1}]}",
+            "text": "Samurai armor sets come in two versions, light and master. "
+        },
+        {
+            "title": "Nether:Magmanum",
+            "type": "patchouli:spotlight",
+            "item": "iter_rpg:magmanum_ore",
+            "text": "Magmanum ore can be found deep in the nether in clunps close to each other. The ore explodes sometimes when you mine it so be careful."
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Magmanum Set",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'iter_rpg:magmanum_armor_boots',Count:1},{id:'iter_rpg:magmanum_armor_leggings',Count:1},{id:'iter_rpg:magmanum_armor_chestplate',Count:1},{id:'iter_rpg:magmanum_armor_helmet',Count:1}]}",
+            "text": "Magmanum armor explodes once an enemy touches you adding some knockback as well."
+        },
+        {
+            "title": "Nether:Vulpus",
+            "type": "patchouli:spotlight",
+            "item": "immersiveores:vulpus_ore",
+            "text": "Vulpus ore is THE rarest ore in the world but it also makes the STRONGEST armor set and tools in the game.$(br2)Intended to be after the end as you cannot make it without having Vibranium and Enderium$(br2)There is one vein per chunk in the nether."
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Vulpus Set",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'immersiveores:vulpus_boots',Count:1},{id:'immersiveores:vulpus_leggings',Count:1},{id:'immersiveores:vulpus_chestplate',Count:1},{id:'immersiveores:vulpus_helmet',Count:1}]}",
+            "text": "Vulpus armor is the best in the world and even allows you to fly!"
+        },
+        {
+            "title": "End:Thallasium",
+            "type": "patchouli:spotlight",
+            "item": "betterend:thallasium_ore",
+            "text": "Thallasium is a common ore in the end used to make the thallasium set"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Thallasium Set",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'betterend:thallasium_boots',Count:1},{id:'betterend:thallasium_leggings',Count:1},{id:'betterend:thallasium_chestplate',Count:1},{id:'betterend:thallasium_helmet',Count:1}]}",
+            "text": "This set is mid ngl."
+        },
+        {
+            "title": "End:Enderite",
+            "type": "patchouli:spotlight",
+            "item": "enderite:enderite_ore",
+            "text": "Enderite is one of the most important ores in the game. It is responsible for elevating your armor to the next level as it is needed to create enderium set up until the vulpus.$(br2)Enderite is found in fossils in the end islands as well as found normally in them."
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Enderite Set",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'enderite:gilded_enderite_boots',Count:1},{id:'enderite:gilded_enderite_leggings',Count:1},{id:'enderite:gilded_enderite_elytra_chestplate',Count:1},{id:'enderite:gilded_enderite_helmet',Count:1}]}",
+            "text": "This armor comes in two variants, gold and normal. You can even attach an elytra to it"
+        },
+        {
+            "title": "End:Adamantite/Bismuth",
+            "type": "patchouli:spotlight",
+            "item": "enlightened_end:adamantite_node,enlightened_end:bismuth_ore,enlightened_end:bismuth_ingot",
+            "text": "Adamantite is needded to make an enderite ingot and is usually found in a tricky spot to get to. It is found on the very bottom of end islands usually exposed to the void so be careful when mining!$(br2)Bismuth is a common ore used to create lamps but also needed for enderite ingots"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Adamantite Set",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'enlightened_end:adamantite_armor_boots',Count:1},{id:'enlightened_end:adamantite_armor_leggings',Count:1},{id:'enlightened_end:adamantite_armor_chestplate',Count:1},{id:'enlightened_end:adamantite_armor_helmet',Count:1}]}",
+            "text": "This armor might not be the best but it is still stronger than most ore sets from the overworld."
+        },
+        {
+            "title": "End:Enderium",
+            "type": "patchouli:spotlight",
+            "item": "immersiveores:enderium_ore",
+            "text": "Enderium is the one of the big three of the best armors in the world. It is very rare in the end but is needed to construct vibranium set and vulpus set.$(br2)There are two veins per chunk in the end of enderium."
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Enderium Set",
+            "entity": "minecraft:armor_stand{ArmorItems:[{id:'immersiveores:enderium_boots',Count:1},{id:'immersiveores:enderium_leggings',Count:1},{id:'immersiveores:enderium_chestplate',Count:1},{id:'immersiveores:enderium_helmet',Count:1}]}",
+            "text": "Idk why this armor is purple here because its the wrong armro. Its the greenish one that looks cool not this."
         }
     ]
 }

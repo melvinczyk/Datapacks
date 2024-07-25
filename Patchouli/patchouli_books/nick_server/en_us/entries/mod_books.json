@@ -1,0 +1,49 @@
+{
+    "name": "In-game mod help",
+    "icon": "patchouli:guide_book",
+    "category": "patchouli:mod_help",
+    "pages": [
+        {
+            "title": "Guidebooks",
+            "type": "patchouli:spotlight",
+            "item": "patchouli:guide_book",
+            "text": "There are more readings in the game that help with mods. Big mods such as Ice and Fire and Alex's Mobs have their own books that explain everything you need to know about them.$(br2)In this entry I'll share all the in-game books you can make to look up."
+        },
+        {
+            "title": "Alex's Mobs",
+            "type": "patchouli:crafting",
+            "recipe": "alexsmobs:animal_dictionary",
+            "text": "This guidebook can be made any time and provides information about how to tame ALL of the mobs in this mod and equipement."
+        },
+        {
+            "title": "Ice and Fire",
+            "type": "patchouli:crafting",
+            "recipe": "iceandfire:bestiary",
+            "text": "The bestiary is for the ice and fire mod.$(br2)This book is different as you need manuscripts and a bestiary lecturn to add information into the book."
+        },
+        {
+            "title": "Iron's Spellbooks",
+            "type": "patchouli:crafting",
+            "recipe": "irons_spellbooks:patchouli_book",
+            "text": "This book contains everything you need to know about the magic in this world and how spells and spellbooks work.$(br2)There is a lot of information in this book but it is not that complicated."
+        },
+        {
+            "title": "Apotheosis",
+            "type": "patchouli:crafting",
+            "recipe": "apotheosis:book",
+            "text": "This book explains how to enchant and level up the enchanting table. And also changes to the vanilla game that the mod did."
+        },
+        {
+            "title": "Betterend",
+            "type": "patchouli:crafting",
+            "recipe": "betterend:guide_book",
+            "text": "You will likely need this when you go to the end to learn about some structures. It doesn't contain a lot of information so you might not even need this book."
+        },
+        {
+            "title": "Luminous World",
+            "type": "patchouli:spotlight",
+            "item": "luminousworld:beastiary",
+            "text": "This book is not craftable but it is found in dungeons and contains information about the legendary beasts you will encounter from this mod."
+        }
+    ]
+}

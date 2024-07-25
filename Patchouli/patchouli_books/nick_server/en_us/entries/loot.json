@@ -1,0 +1,19 @@
+{
+    "name": "Loot",
+    "icon": "minecraft:enchanted_golden_apple",
+    "category": "patchouli:player",
+    "pages": [
+        {
+            "title": "Legendary Swords",
+            "type": "patchouli:spotlight",
+            "item": "simplyswords:enigma",
+            "text": "Similar to the other server there is legendary loot that you can find.$(br2)Legendary weapons have been HEAVILY buffed but also harder to find, so if you find one you better take care of it."
+        },
+        {
+            "title": "Other loot types",
+            "type": "patchouli:spotlight",
+            "item": "relics:holy_locket",
+            "text": "There are many other types of loot such as relics and artifacts, to learn more about these refer to the Relics and Artifacts entry.$(br2)There are also many other weapons and tools that cannot be crafted but can only be found in chests."
+        }
+    ]
+}
