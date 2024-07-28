@@ -1,0 +1,12 @@
+{
+  "type": "gnumus:gnumus_bonfire_feature",
+  "config": {
+    "structure": "gnumus:gnumus_bonfire",
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "gnumus:vintage_parts"
+  },
+  "base": {
+    "item": "gnumus:gnumus_cutlass"
+  },
+  "addition": {
+    "item": "gnumus:vintage_alloy_ingot"
+  },
+  "result": {
+    "item": "gnumus:vintage_gnumus_cutlass"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "gnumus:vintage_tools"
+    },
+    "title": {
+      "translate": "advancements.vintage_improvement.title"
+    },
+    "description": {
+      "translate": "advancements.vintage_improvement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "vintage_improvement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "gnumus:fragile_but_effective"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "gnumus:scion_weed",
+  "step": "vegetal_decoration"
+}

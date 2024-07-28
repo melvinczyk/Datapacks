@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 3,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "gnumus:juicy_meat"
+  },
+  "result": "gnumus:grilled_juicy_meat"
+}

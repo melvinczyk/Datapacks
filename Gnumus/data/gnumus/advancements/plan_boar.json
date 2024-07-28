@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "gnumus:juicy_meat"
+    },
+    "title": {
+      "translate": "advancements.plan_boar.title"
+    },
+    "description": {
+      "translate": "advancements.plan_boar.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "plan_boar": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 8
+  },
+  "parent": "gnumus:fatty_demon"
+}

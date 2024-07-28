@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "abc",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "gnumus:vintage_alloy_ingot"
+    },
+    "b": {
+      "item": "gnumus:vintage_parts"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gnumus:hammer_vintage_universal_tool",
+    "count": 1
+  }
+}

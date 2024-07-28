@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "gnumus:gnumus_doubloons"
+    },
+    "title": {
+      "translate": "advancements.business_approach.title"
+    },
+    "description": {
+      "translate": "advancements.business_approach.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "business_approach": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "gnumus:fatty_demon"
+}

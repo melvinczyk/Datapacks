@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gnumus:pileof_gnumus_doubloons"
+    }
+  ],
+  "result": {
+    "item": "gnumus:gnumus_doubloons",
+    "count": 9
+  }
+}

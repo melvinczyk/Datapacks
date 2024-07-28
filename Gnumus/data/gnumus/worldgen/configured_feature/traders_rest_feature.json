@@ -1,0 +1,12 @@
+{
+  "type": "gnumus:traders_rest_feature",
+  "config": {
+    "structure": "gnumus:traders_rest",
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

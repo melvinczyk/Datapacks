@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "gnumus:textures/screens/gnumglinabloczapkir.png",
+    "icon": {
+      "item": "gnumus:morda"
+    },
+    "title": {
+      "translate": "advancements.fatty_demon.title"
+    },
+    "description": {
+      "translate": "advancements.fatty_demon.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fatty_demon": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 6
+  }
+}

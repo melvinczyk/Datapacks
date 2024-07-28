@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "gnumus:hearty_dinner"
+    },
+    "title": {
+      "translate": "advancements.hearty_dish.title"
+    },
+    "description": {
+      "translate": "advancements.hearty_dish.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hearty_dish": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 16
+  },
+  "parent": "gnumus:plan_boar"
+}

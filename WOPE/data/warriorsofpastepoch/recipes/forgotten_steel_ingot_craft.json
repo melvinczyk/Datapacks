@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 4,
+  "cookingtime": 240,
+  "ingredient": {
+    "item": "warriorsofpastepoch:forgotten_steel"
+  },
+  "result": "warriorsofpastepoch:forgotten_steel_ingot"
+}

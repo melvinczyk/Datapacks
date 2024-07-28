@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "gnumus:vintage_metal"
+    },
+    "title": {
+      "translate": "advancements.antiquity_shard.title"
+    },
+    "description": {
+      "translate": "advancements.antiquity_shard.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "antiquity_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gnumus:vintage_metal"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 9
+  },
+  "parent": "gnumus:fatty_demon"
+}

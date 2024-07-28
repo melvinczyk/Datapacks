@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 12,
+  "cookingtime": 50,
+  "ingredient": {
+    "item": "gnumus:gnumus_doubloons"
+  },
+  "result": "minecraft:gold_nugget"
+}

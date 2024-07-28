@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "gnumus:hammer_vintage_universal_tool"
+    },
+    "title": {
+      "translate": "advancements.vintage_technology.title"
+    },
+    "description": {
+      "translate": "advancements.vintage_technology.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "vintage_technology": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "gnumus:vintage_blacksmith"
+}
