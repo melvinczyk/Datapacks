@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "gnumus:bags"
+    },
+    "title": {
+      "translate": "advancements.sack_collector.title"
+    },
+    "description": {
+      "translate": "advancements.sack_collector.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sack_collector": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "gnumus:fatty_demon"
+}

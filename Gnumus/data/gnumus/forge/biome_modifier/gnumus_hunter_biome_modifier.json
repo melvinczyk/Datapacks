@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "gnumus:gnumus_hunter",
+    "weight": 20,
+    "minCount": 3,
+    "maxCount": 4
+  }
+}

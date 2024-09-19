@@ -1,0 +1,12 @@
+{
+  "type": "gnumus:gnumus_farm_feature",
+  "config": {
+    "structure": "gnumus:gnumus_farm",
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

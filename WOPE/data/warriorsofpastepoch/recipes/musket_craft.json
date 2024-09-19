@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    " cc"
+  ],
+  "key": {
+    "a": {
+      "item": "warriorsofpastepoch:forgotten_steel_ingot"
+    },
+    "b": {
+      "item": "warriorsofpastepoch:forgotten_steel_nugget"
+    },
+    "c": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "warriorsofpastepoch:musket",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "gnumus:smallruins",
+  "config": {
+    "structure": "gnumus:small_ruins",
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

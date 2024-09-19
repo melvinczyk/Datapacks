@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gnumus:vintage_metal"
+    },
+    {
+      "item": "gnumus:gnumus_horn"
+    }
+  ],
+  "result": {
+    "item": "gnumus:gnumus_totem",
+    "count": 1
+  }
+}

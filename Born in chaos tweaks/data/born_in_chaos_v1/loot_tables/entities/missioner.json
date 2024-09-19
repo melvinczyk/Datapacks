@@ -132,7 +132,11 @@
             {
               "function": "set_count",
               "count": {
+<<<<<<< HEAD
                 "min": 0,
+=======
+                "min": 2,
+>>>>>>> 7e4e4bec8f73bb8621cea8f0f2d698d10ae7f6be
                 "max": 5
               }
             }

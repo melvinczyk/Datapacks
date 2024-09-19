@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "river",
+    "swamp",
+    "plains"
+  ],
+  "features": "gnumus:gnumus_clay_block",
+  "step": "underground_ores"
+}

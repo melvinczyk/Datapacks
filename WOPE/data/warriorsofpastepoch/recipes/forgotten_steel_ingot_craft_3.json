@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "warriorsofpastepoch:forgotten_steel_nugget"
+    }
+  },
+  "result": {
+    "item": "warriorsofpastepoch:forgotten_steel_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "gnumus:gnumus_horn"
+    },
+    "b": {
+      "item": "gnumus:vintage_alloy_ingot"
+    },
+    "c": {
+      "item": "gnumus:mouse_skin"
+    }
+  },
+  "result": {
+    "item": "gnumus:gnumus_helmet_helmet",
+    "count": 1
+  }
+}

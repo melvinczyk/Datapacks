@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gnumus:mouse_skin"
+    },
+    {
+      "item": "gnumus:mouse_skin"
+    },
+    {
+      "item": "gnumus:mouse_skin"
+    }
+  ],
+  "result": {
+    "item": "minecraft:leather",
+    "count": 2
+  }
+}

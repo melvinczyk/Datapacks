@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "gnumus:baked_gnumus_clay"
+    }
+  },
+  "result": {
+    "item": "gnumus:baked_gnumus_clay_wall",
+    "count": 6
+  }
+}

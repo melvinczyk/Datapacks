@@ -1,0 +1,12 @@
+{
+  "type": "gnumus:gnumus_settlement_feature",
+  "config": {
+    "structure": "gnumus:gnumus_settlement",
+    "ignored_blocks": "minecraft:structure_block",
+    "offset": [
+      0,
+      -1,
+      0
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "forest",
+    "meadow",
+    "plains"
+  ],
+  "features": "warriorsofpastepoch:cistus",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "gnumus:vintage_alloy_ingot"
+    },
+    "title": {
+      "translate": "advancements.vintage_blacksmith.title"
+    },
+    "description": {
+      "translate": "advancements.vintage_blacksmith.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "vintage_blacksmith": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 13
+  },
+  "parent": "gnumus:antiquity_shard"
+}

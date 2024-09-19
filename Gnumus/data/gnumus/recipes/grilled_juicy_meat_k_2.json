@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "experience": 3,
+  "cookingtime": 150,
+  "ingredient": {
+    "item": "gnumus:juicy_meat"
+  },
+  "result": "gnumus:grilled_juicy_meat"
+}

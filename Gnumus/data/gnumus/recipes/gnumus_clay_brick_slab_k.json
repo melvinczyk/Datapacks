@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "gnumus:gnumus_clay_brick"
+    }
+  },
+  "result": {
+    "item": "gnumus:gnumus_clay_brick_slap",
+    "count": 6
+  }
+}

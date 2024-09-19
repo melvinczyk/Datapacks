@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "gnumus:vintage_alloy_ingot"
+    }
+  },
+  "result": {
+    "item": "gnumus:vintage_alloy_block",
+    "count": 1
+  }
+}

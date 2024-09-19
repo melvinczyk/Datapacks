@@ -1,0 +1,7 @@
+{
+  "enhancedcelestials.notification.blood_moon.rise": "注意: \"血月\" 正在升起...",
+  "enhancedcelestials.notification.blood_moon.set": "注意: \"血月\" 正在落下...",
+  "enhancedcelestials.notification.harvest_moon.rise": "注意: \"丰收之月\" 正在升起...",
+  "enhancedcelestials.notification.harvest_moon.set": "注意: \"丰收之月\" 正在落下...",
+  "enhancedcelestials.sleep.fail": "你现在不能休息, 当前月相为 \"血月\""
+}

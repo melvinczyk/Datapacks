@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "gnumus:baked_gnumus_clay"
+    }
+  ],
+  "result": {
+    "item": "gnumus:baked_patterned_gnumus_clay",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "warriorsofpastepoch:forgotten_steel_nugget"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "warriorsofpastepoch:forgotten_steel_nugget"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "item": "warriorsofpastepoch:musket_ammo",
+    "count": 4
+  }
+}

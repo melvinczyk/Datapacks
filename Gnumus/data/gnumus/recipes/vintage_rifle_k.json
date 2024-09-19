@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    " cd"
+  ],
+  "key": {
+    "a": {
+      "item": "gnumus:vintage_alloy_ingot"
+    },
+    "b": {
+      "item": "gnumus:vintage_parts"
+    },
+    "c": {
+      "item": "gnumus:vintage_charger"
+    },
+    "d": {
+      "tag": "woodblock"
+    }
+  },
+  "result": {
+    "item": "gnumus:vintage_rifle",
+    "count": 1
+  }
+}

@@ -6,11 +6,10 @@
   "effects": {
     "minecraft:slowness": 2,
     "minecraft:resistance": 1,
-    "minecraft:regeneration": 1,
     "minecraft:fire_resistance": 1
   },
   "attributes": {
-    "generic.max_health": 1000,
+    "generic.max_health": 100,
     "generic.follow_range": 80,
     "generic.knockback_resistance": 1
   },

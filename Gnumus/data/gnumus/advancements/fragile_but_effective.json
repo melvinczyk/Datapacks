@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "gnumus:gnumus_tools"
+    },
+    "title": {
+      "translate": "advancements.fragile_but_effective.title"
+    },
+    "description": {
+      "translate": "advancements.fragile_but_effective.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fragile_but_effective": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 6
+  },
+  "parent": "gnumus:fatty_demon"
+}

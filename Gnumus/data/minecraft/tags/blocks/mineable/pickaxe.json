@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "gnumus:vintage_alloy_block",
+    "gnumus:baked_gnumus_clay",
+    "gnumus:baked_gnumus_clay_slab",
+    "gnumus:baked_gnumus_clay_stairs",
+    "gnumus:baked_gnumus_clay_wall",
+    "gnumus:baked_patterned_gnumus_clay",
+    "gnumus:gnumus_clay_brick",
+    "gnumus:gnumus_clay_brick_slap",
+    "gnumus:gnumus_clay_brick_stairs",
+    "gnumus:gnumus_clay_brick_wall",
+    "gnumus:gnumus_jug",
+    "gnumus:fragile_gnumus_jug"
+  ]
+}

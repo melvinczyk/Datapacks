@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "gnumus:gnumus_totem"
+    },
+    "title": {
+      "translate": "advancements.weight_loss_protection.title"
+    },
+    "description": {
+      "translate": "advancements.weight_loss_protection.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "weight_loss_protection": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gnumus:gnumus_totem"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "gnumus:fatty_demon"
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "warriorsofpastepoch:forgotten_shack",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 85,
+    "separation": 4,
+    "salt": 461877419
+  }
+}

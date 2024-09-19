@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "gnumus:gnumus_cheese"
+    },
+    "title": {
+      "translate": "advancements.cheese_treat.title"
+    },
+    "description": {
+      "translate": "advancements.cheese_treat.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cheese_treat": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 8
+  },
+  "parent": "gnumus:fatty_demon"
+}

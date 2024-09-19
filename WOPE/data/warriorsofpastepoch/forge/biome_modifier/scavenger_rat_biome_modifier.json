@@ -1,0 +1,17 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "plains",
+    "meadow",
+    "dark_forest",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "taiga"
+  ],
+  "spawners": {
+    "type": "warriorsofpastepoch:scavenger_rat",
+    "weight": 8,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

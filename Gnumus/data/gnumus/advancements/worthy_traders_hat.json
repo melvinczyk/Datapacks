@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "gnumus:business_hat_helmet"
+    },
+    "title": {
+      "translate": "advancements.worthy_traders_hat.title"
+    },
+    "description": {
+      "translate": "advancements.worthy_traders_hat.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "worthy_traders_hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gnumus:business_hat_helmet"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "gnumus:business_approach"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 9,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "gnumus:gnumus_doubloons"
+  },
+  "result": "minecraft:gold_nugget"
+}
