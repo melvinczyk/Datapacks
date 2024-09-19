@@ -1,0 +1,37 @@
+{
+    "potion_effects": [
+        {
+            "id": "minecraft:resistance",
+            "hide_particles": true,
+            "amplifier": 2
+        },
+        {
+            "id": "minecraft:speed",
+            "hide_particles": true,
+            "amplifier": 1
+        },
+        {
+            "id": "minecraft:strength",
+            "hide_particles": "true",
+            "amplifier": 2
+        }
+    ],
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "berserker health",
+            "amount": {
+                "min": 300,
+                "max": 450
+            },
+            "operation": "addition"
+        }
+    ],
+    "custom_name": {
+        "overrides": [ "Piglin Berserker" ]
+    },
+    "boss_bar": {
+        "color": "red",
+        "type": "notched_6"
+    }
+}

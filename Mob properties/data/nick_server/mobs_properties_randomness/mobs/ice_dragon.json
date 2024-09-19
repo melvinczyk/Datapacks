@@ -1,0 +1,18 @@
+{
+    "target": "iceandfire:ice_dragon",
+    "presets": {
+        "chance": 0.1,
+        "list": [
+            {
+                "weight": 1,
+                "id": "nick_server:frost_tyrant",
+                "world_whitelist": {
+                    "deepness": {
+                        "min": 64,
+                        "max": 320
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "target": "iceandfire:lightning_dragon",
+    "presets": {
+        "chance": 0.1,
+        "list": [
+            {
+                "weight": 1,
+                "id": "nick_server:stormcaller_drake",
+                "world_whitelist": {
+                    "deepness": {
+                        "min": 64,
+                        "max": 320
+                    }
+                }
+            }
+        ]
+    }
+}

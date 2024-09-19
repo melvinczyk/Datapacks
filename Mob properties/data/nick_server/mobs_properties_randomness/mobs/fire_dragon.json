@@ -1,0 +1,18 @@
+{
+    "target": "iceandfire:fire_dragon",
+    "presets": {
+        "chance": 0.1,
+        "list": [
+            {
+                "weight": 1,
+                "id": "nick_server:terror_peaks",
+                "world_whitelist": {
+                    "deepness": {
+                        "min": 64,
+                        "max": 320
+                    }
+                }
+            }
+        ]
+    }
+}

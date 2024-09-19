@@ -10,7 +10,7 @@
     ],
     "spawners":{
         "type": "aquamirae:anglerfish",
-        "weight": 10,
+        "weight": 80,
         "minCount": 1,
         "maxCount": 2
     }

@@ -1,0 +1,18 @@
+{
+    "target": "born_in_chaos_v1:dire_hound_leader",
+    "presets": {
+        "chance": 0.05,
+        "list": [
+            {
+                "weight": 1,
+                "id": "nick_server:feral_leader",
+                "world_whitelist": {
+                    "deepness": {
+                        "min": 64,
+                        "max": 320
+                    }
+                }
+            }
+        ]
+    }
+}

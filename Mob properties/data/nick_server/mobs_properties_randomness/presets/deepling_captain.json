@@ -1,0 +1,56 @@
+{
+    "potion_effects": [
+        {
+            "id": "minecraft:resistance",
+            "hide_particles": true,
+            "amplifier": 2
+        },
+        {
+            "id": "minecraft:speed",
+            "hide_particles": true,
+            "amplifier": 1
+        },
+        {
+            "id": "minecraft:strength",
+            "hide_particles": "true",
+            "amplifier": 2
+        }
+    ],
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "deepling_captain health",
+            "amount": {
+                "min": 300,
+                "max": 350
+            },
+            "operation": "addition"
+        }
+    ],
+    "custom_name": {
+        "overrides": [ "Deepling Captain" ]
+    },
+    "scale_pehkui": [
+        {
+            "scale": 1.5,
+            "scale_types": [
+                "pehkui:hitbox_width",
+                "pehkui:hitbox_height",
+                "pehkui:eye_height"
+            ],
+            "operation": "set"
+        },
+        {
+            "scale": 1.5,
+            "scale_types": [
+                "pehkui:model_width",
+                "pehkui:model_height"
+            ],
+            "operation": "set"
+        }
+    ],
+    "boss_bar": {
+        "color": "purple",
+        "type": "notched_20"
+    }
+}
