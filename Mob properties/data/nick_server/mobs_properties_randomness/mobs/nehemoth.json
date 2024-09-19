@@ -1,14 +1,14 @@
 {
-    "target": "born_in_chaos_v1:fallen_chaos_knight",
+    "target": "fromtheshadows:nehemoth",
     "presets": {
-        "chance": 0.05,
+        "chance": 0.1,
         "list": [
             {
                 "weight": 1,
-                "id": "nick_server:undead_soldier",
+                "id": "nick_server:hell_unleashed",
                 "world_whitelist": {
                     "deepness": {
-                        "min": 64,
+                        "min": -64,
                         "max": 320
                     }
                 }

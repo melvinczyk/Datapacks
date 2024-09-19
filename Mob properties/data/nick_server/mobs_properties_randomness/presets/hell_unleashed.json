@@ -1,0 +1,56 @@
+{
+    "potion_effects": [
+        {
+            "id": "minecraft:resistance",
+            "hide_particles": true,
+            "amplifier": 2
+        },
+        {
+            "id": "minecraft:speed",
+            "hide_particles": true,
+            "amplifier": 1
+        },
+        {
+            "id": "minecraft:strength",
+            "hide_particles": "true",
+            "amplifier": 2
+        }
+    ],
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "nehemoth health",
+            "amount": {
+                "min": 600,
+                "max": 700
+            },
+            "operation": "addition"
+        }
+    ],
+    "custom_name": {
+        "overrides": [ "Hell Unleashed" ]
+    },
+    "scale_pehkui": [
+        {
+            "scale": 1.0,
+            "scale_types": [
+                "pehkui:hitbox_width",
+                "pehkui:hitbox_height",
+                "pehkui:eye_height"
+            ],
+            "operation": "set"
+        },
+        {
+            "scale": 1.25,
+            "scale_types": [
+                "pehkui:model_width",
+                "pehkui:model_height"
+            ],
+            "operation": "set"
+        }
+    ],
+    "boss_bar": {
+        "color": "red",
+        "type": "notched_20"
+    }
+}

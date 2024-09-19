@@ -1,11 +1,11 @@
 {
-    "target": "born_in_chaos_v1:fallen_chaos_knight",
+    "target": "born_in_chaos_v1:skeleton_thrasher",
     "presets": {
         "chance": 0.05,
         "list": [
             {
                 "weight": 1,
-                "id": "nick_server:undead_soldier",
+                "id": "nick_server:undead_guard",
                 "world_whitelist": {
                     "deepness": {
                         "min": 64,
