@@ -21,7 +21,7 @@
             "id": "minecraft:generic.max_health",
             "modifier_name": "rabid_angler health",
             "amount": {
-                "min": 100,
+                "min": 200,
                 "max": 250
             },
             "operation": "addition"

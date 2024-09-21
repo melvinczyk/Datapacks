@@ -3,12 +3,12 @@
         {
             "id": "minecraft:resistance",
             "hide_particles": true,
-            "amplifier": 2
+            "amplifier": 3
         },
         {
             "id": "minecraft:speed",
             "hide_particles": true,
-            "amplifier": 3
+            "amplifier": 1
         },
         {
             "id": "minecraft:strength",
@@ -19,16 +19,16 @@
     "attributes": [
         {
             "id": "minecraft:generic.max_health",
-            "modifier_name": "glutton_worm health",
+            "modifier_name": "man_eater health",
             "amount": {
-                "min": 400,
-                "max": 500
+                "min": 600,
+                "max": 700
             },
             "operation": "addition"
         }
     ],
     "custom_name": {
-        "overrides": [ "Glutton Worm" ]
+        "overrides": [ "Man Eater" ]
     },
     "scale_pehkui": [
         {
@@ -50,7 +50,7 @@
         }
     ],
     "boss_bar": {
-        "color": "yellow",
+        "color": "green",
         "type": "notched_20"
     }
 }

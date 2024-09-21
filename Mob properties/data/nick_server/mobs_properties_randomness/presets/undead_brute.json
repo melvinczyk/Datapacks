@@ -8,7 +8,7 @@
         {
             "id": "minecraft:speed",
             "hide_particles": true,
-            "amplifier": 3
+            "amplifier": 1
         },
         {
             "id": "minecraft:strength",
@@ -21,18 +21,18 @@
             "id": "minecraft:generic.max_health",
             "modifier_name": "glutton_worm health",
             "amount": {
-                "min": 400,
-                "max": 500
+                "min": 800,
+                "max": 900
             },
             "operation": "addition"
         }
     ],
     "custom_name": {
-        "overrides": [ "Glutton Worm" ]
+        "overrides": [ "Undead Brute" ]
     },
     "scale_pehkui": [
         {
-            "scale": 3.0,
+            "scale": 1.5,
             "scale_types": [
                 "pehkui:hitbox_width",
                 "pehkui:hitbox_height",
@@ -41,7 +41,7 @@
             "operation": "set"
         },
         {
-            "scale": 3.0,
+            "scale": 1.5,
             "scale_types": [
                 "pehkui:model_width",
                 "pehkui:model_height"
@@ -50,7 +50,7 @@
         }
     ],
     "boss_bar": {
-        "color": "yellow",
+        "color": "green",
         "type": "notched_20"
     }
 }

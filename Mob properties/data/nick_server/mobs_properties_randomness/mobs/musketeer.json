@@ -1,0 +1,18 @@
+{
+    "target": "warriorsofpastepoch:skeleton_musketeer",
+    "presets": {
+        "chance": 0.05,
+        "list": [
+            {
+                "weight": 1,
+                "id": "nick_server:sharpshooter",
+                "world_whitelist": {
+                    "deepness": {
+                        "min": 64,
+                        "max": 320
+                    }
+                }
+            }
+        ]
+    }
+}
