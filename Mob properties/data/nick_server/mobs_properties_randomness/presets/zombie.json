@@ -1,18 +1,17 @@
 {
     "potion_effects": [
         {
-            "id": "minecraft:invisibility",
+            "id": "minecraft:resistance",
             "hide_particles": true,
             "amplifier": 2
         },
         {
-            "id": "minecraft:glowing",
+            "id": "minecraft:invisibility",
             "hide_particles": true,
-            "amplifier": 2
+            "amplifier": 1
         }
     ],
-    "loot_table": "nick_server:pig",
     "custom_name": {
-        "overrides": [ "Ghost Pig" ]
+        "overrides": [ "Zombie abberation" ]
     }
 }

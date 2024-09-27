@@ -13,26 +13,35 @@
         {
             "id": "minecraft:strength",
             "hide_particles": "true",
-            "amplifier": 1
+            "amplifier": 2
         }
     ],
     "attributes": [
         {
             "id": "minecraft:generic.max_health",
-            "modifier_name": "ender_hand health",
+            "modifier_name": "Necromancer health",
             "amount": {
                 "min": 800,
                 "max": 900
             },
             "operation": "addition"
+        },
+        {
+            "id": "irons_spellbooks:spell_power",
+            "modifier_name": "Necromancer power",
+            "amount": {
+                "min": 2,
+                "max": 4
+            },
+            "operation": "addition"
         }
     ],
     "custom_name": {
-        "overrides": [ "Ender's Hand" ]
+        "overrides": [ "Ancient Necromancer" ]
     },
     "scale_pehkui": [
         {
-            "scale": 1.5,
+            "scale": 2.0,
             "scale_types": [
                 "pehkui:hitbox_width",
                 "pehkui:hitbox_height",
@@ -41,16 +50,17 @@
             "operation": "set"
         },
         {
-            "scale": 1.5,
-            "scale_types": [ 
+            "scale": 2.0,
+            "scale_types": [
                 "pehkui:model_width",
                 "pehkui:model_height"
             ],
             "operation": "set"
         }
     ],
+    "loot_table": "nick_server:necromancer",
     "boss_bar": {
-        "color": "purple",
+        "color": "red",
         "type": "notched_20"
     }
 }

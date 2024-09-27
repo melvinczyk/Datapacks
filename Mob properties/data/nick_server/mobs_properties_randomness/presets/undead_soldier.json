@@ -49,6 +49,7 @@
             "operation": "set"
         }
     ],
+    "loot_table":"nick_server:chaos_knight",
     "boss_bar": {
         "color": "purple",
         "type": "notched_20"

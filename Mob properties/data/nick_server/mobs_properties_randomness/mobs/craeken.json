@@ -1,11 +1,11 @@
 {
-    "target": "minecraft:pig",
+    "target": "darkwaters:craeken",
     "presets": {
         "chance": 0.05,
         "list": [
             {
                 "weight": 1,
-                "id": "nick_server:pig",
+                "id": "nick_server:craeken",
                 "world_whitelist": {
                     "deepness": {
                         "min": -64,

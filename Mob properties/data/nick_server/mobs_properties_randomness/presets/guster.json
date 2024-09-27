@@ -28,11 +28,11 @@
         }
     ],
     "custom_name": {
-        "overrides": [ "Ender's Hand" ]
+        "overrides": [ "Desert's Curse" ]
     },
     "scale_pehkui": [
         {
-            "scale": 1.5,
+            "scale": 3.0,
             "scale_types": [
                 "pehkui:hitbox_width",
                 "pehkui:hitbox_height",
@@ -41,7 +41,7 @@
             "operation": "set"
         },
         {
-            "scale": 1.5,
+            "scale": 4.0,
             "scale_types": [ 
                 "pehkui:model_width",
                 "pehkui:model_height"

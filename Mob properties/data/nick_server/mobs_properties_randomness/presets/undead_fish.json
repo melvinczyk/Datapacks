@@ -49,6 +49,7 @@
             "operation": "set"
         }
     ],
+    "loot_table": "nick_server:glutton_fish",
     "boss_bar": {
         "color": "purple",
         "type": "notched_20"

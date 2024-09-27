@@ -19,16 +19,16 @@
     "attributes": [
         {
             "id": "minecraft:generic.max_health",
-            "modifier_name": "ender_hand health",
+            "modifier_name": "craeken health",
             "amount": {
-                "min": 800,
-                "max": 900
+                "min": 300,
+                "max": 400
             },
             "operation": "addition"
         }
     ],
     "custom_name": {
-        "overrides": [ "Ender's Hand" ]
+        "overrides": [ "Hallucination Abberation" ]
     },
     "scale_pehkui": [
         {
@@ -41,8 +41,8 @@
             "operation": "set"
         },
         {
-            "scale": 1.5,
-            "scale_types": [ 
+            "scale": 2.5,
+            "scale_types": [
                 "pehkui:model_width",
                 "pehkui:model_height"
             ],
@@ -50,7 +50,7 @@
         }
     ],
     "boss_bar": {
-        "color": "purple",
+        "color": "blue",
         "type": "notched_20"
     }
 }

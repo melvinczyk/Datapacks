@@ -1,11 +1,11 @@
 {
-    "target": "minecraft:pig",
+    "target": "born_in_chaos_v1:dark_vortex",
     "presets": {
-        "chance": 0.05,
+        "chance": 0.1,
         "list": [
             {
                 "weight": 1,
-                "id": "nick_server:pig",
+                "id": "nick_server:dark_vortex",
                 "world_whitelist": {
                     "deepness": {
                         "min": -64,

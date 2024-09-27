@@ -19,20 +19,20 @@
     "attributes": [
         {
             "id": "minecraft:generic.max_health",
-            "modifier_name": "ender_hand health",
+            "modifier_name": "dark summoner health",
             "amount": {
-                "min": 800,
-                "max": 900
+                "min": 600,
+                "max": 700
             },
             "operation": "addition"
         }
     ],
     "custom_name": {
-        "overrides": [ "Ender's Hand" ]
+        "overrides": [ "Dark Tornado" ]
     },
     "scale_pehkui": [
         {
-            "scale": 1.5,
+            "scale": 3.0,
             "scale_types": [
                 "pehkui:hitbox_width",
                 "pehkui:hitbox_height",
@@ -41,8 +41,8 @@
             "operation": "set"
         },
         {
-            "scale": 1.5,
-            "scale_types": [ 
+            "scale": 4.0,
+            "scale_types": [
                 "pehkui:model_width",
                 "pehkui:model_height"
             ],

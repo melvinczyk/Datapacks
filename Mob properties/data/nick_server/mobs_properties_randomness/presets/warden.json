@@ -8,7 +8,7 @@
         {
             "id": "minecraft:speed",
             "hide_particles": true,
-            "amplifier": 1
+            "amplifier": 2
         },
         {
             "id": "minecraft:strength",
@@ -19,20 +19,20 @@
     "attributes": [
         {
             "id": "minecraft:generic.max_health",
-            "modifier_name": "ender_hand health",
+            "modifier_name": "undead_guard health",
             "amount": {
-                "min": 800,
-                "max": 900
+                "min": 600,
+                "max": 700
             },
             "operation": "addition"
         }
     ],
     "custom_name": {
-        "overrides": [ "Ender's Hand" ]
+        "overrides": [ "City Keeper" ]
     },
     "scale_pehkui": [
         {
-            "scale": 1.5,
+            "scale": 1.0,
             "scale_types": [
                 "pehkui:hitbox_width",
                 "pehkui:hitbox_height",
@@ -42,7 +42,7 @@
         },
         {
             "scale": 1.5,
-            "scale_types": [ 
+            "scale_types": [
                 "pehkui:model_width",
                 "pehkui:model_height"
             ],
@@ -50,7 +50,7 @@
         }
     ],
     "boss_bar": {
-        "color": "purple",
+        "color": "blue",
         "type": "notched_20"
     }
 }

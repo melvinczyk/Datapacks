@@ -41,7 +41,7 @@
             "operation": "set"
         },
         {
-            "scale": 2.0,
+            "scale": 3.0,
             "scale_types": [
                 "pehkui:model_width",
                 "pehkui:model_height"

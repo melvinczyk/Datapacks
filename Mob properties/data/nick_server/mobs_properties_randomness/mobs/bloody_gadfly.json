@@ -1,14 +1,14 @@
 {
-    "target": "minecraft:pig",
+    "target": "born_in_chaos_v1:bloody_gadfly",
     "presets": {
         "chance": 0.05,
         "list": [
             {
                 "weight": 1,
-                "id": "nick_server:pig",
+                "id": "nick_server:gadfly",
                 "world_whitelist": {
                     "deepness": {
-                        "min": -64,
+                        "min": 64,
                         "max": 320
                     }
                 }

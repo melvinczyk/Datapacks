@@ -1,14 +1,14 @@
 {
-    "target": "minecraft:pig",
+    "target": "alexsmobs:guster",
     "presets": {
-        "chance": 0.05,
+        "chance": 0.1,
         "list": [
             {
                 "weight": 1,
-                "id": "nick_server:pig",
+                "id": "nick_server:guster",
                 "world_whitelist": {
                     "deepness": {
-                        "min": -64,
+                        "min": 64,
                         "max": 320
                     }
                 }
