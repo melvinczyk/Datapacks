@@ -1,0 +1,20 @@
+{
+    "type": "jeg:gunnite_workbench",
+    "result": {
+        "item": "mteg:flamer"
+    },
+    "materials": [
+        {
+            "item": "jeg:scrap",
+            "count": 120
+        },
+        {
+            "item": "jeg:gunnite_ingot",
+            "count": 40
+        },
+        {
+            "item": "minecraft:blaze_rod",
+            "count": 20
+        }
+    ]
+}

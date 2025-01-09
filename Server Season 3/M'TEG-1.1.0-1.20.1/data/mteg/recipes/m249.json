@@ -1,0 +1,36 @@
+{
+    "type": "jeg:gunnite_workbench",
+    "result": {
+        "item": "mteg:m249"
+    },
+    "materials": [
+        {
+            "item": "minecraft:repeater",
+            "count": 2
+        },
+        {
+            "item": "minecraft:lever",
+            "count": 1
+        },
+        {
+            "item": "minecraft:chest",
+            "count": 1
+        },
+        {
+            "item": "minecraft:black_dye",
+            "count": 4
+        },
+        {
+            "item": "jeg:scrap",
+            "count": 50
+        },
+        {
+            "item": "jeg:gunnite_ingot",
+            "count": 30
+        },
+        {
+            "item": "jeg:gunmetal_ingot",
+            "count": 20
+        }
+    ]
+}

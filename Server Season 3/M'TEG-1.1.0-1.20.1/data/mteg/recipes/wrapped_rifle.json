@@ -1,0 +1,32 @@
+{
+    "type": "jeg:gunnite_workbench",
+    "result": {
+        "item": "mteg:wrapped_rifle"
+    },
+    "materials": [
+        {
+            "item": "jeg:scrap",
+            "count": 40
+        },
+        {
+            "item": "jeg:gunnite_ingot",
+            "count": 15
+        },
+        {
+            "item": "jeg:gunmetal_ingot",
+            "count": 5
+        },
+        {
+            "item": "minecraft:red_wool",
+            "count": 12
+        },
+        {
+            "item": "minecraft:redstone",
+            "count": 2
+        },
+        {
+            "item": "minecraft:glass_pane",
+            "count": 10
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "type": "jeg:gunnite_workbench",
+    "result": {
+        "item": "mteg:akm"
+    },
+    "materials": [
+        {
+            "item": "jeg:scrap",
+            "count": 75
+        },
+        {
+            "item": "jeg:gunnite_ingot",
+            "count": 20
+        },
+        {
+            "item": "jeg:gunmetal_ingot",
+            "count": 10
+        },
+        {
+            "item": "minecraft:black_dye",
+            "count": 3
+        },
+        {
+            "item": "minecraft:spruce_planks",
+            "count": 10
+        }
+    ]
+}

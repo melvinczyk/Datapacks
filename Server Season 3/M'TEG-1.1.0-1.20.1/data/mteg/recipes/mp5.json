@@ -1,0 +1,24 @@
+{
+    "type": "jeg:gunnite_workbench",
+    "result": {
+        "item": "mteg:mp5"
+    },
+    "materials": [
+        {
+            "item": "jeg:scrap",
+            "count": 30
+        },
+        {
+            "item": "jeg:gunnite_ingot",
+            "count": 20
+        },
+        {
+            "item": "jeg:gunmetal_ingot",
+            "count": 3
+        },
+        {
+            "item": "minecraft:black_dye",
+            "count": 2
+        }
+    ]
+}

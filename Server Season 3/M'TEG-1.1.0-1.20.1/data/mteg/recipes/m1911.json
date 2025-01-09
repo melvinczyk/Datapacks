@@ -1,0 +1,20 @@
+{
+    "type": "jeg:gunmetal_workbench",
+    "result": {
+        "item": "mteg:m1911"
+    },
+    "materials": [
+        {
+            "item": "jeg:scrap",
+            "count": 20
+        },
+        {
+            "item": "jeg:gunmetal_ingot",
+            "count": 10
+        },
+        {
+            "item": "minecraft:oak_planks",
+            "count": 2
+        }
+    ]
+}

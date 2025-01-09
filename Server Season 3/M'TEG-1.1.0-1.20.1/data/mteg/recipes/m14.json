@@ -1,0 +1,24 @@
+{
+    "type": "jeg:gunmetal_workbench",
+    "result": {
+        "item": "mteg:m14"
+    },
+    "materials": [
+        {
+            "item": "minecraft:iron_ingot",
+            "count": 32
+        },
+        {
+            "item": "jeg:scrap",
+            "count": 70
+        },
+        {
+            "item": "jeg:gunmetal_ingot",
+            "count": 40
+        },
+        {
+            "item": "minecraft:oak_log",
+            "count": 8
+        }
+    ]
+}
