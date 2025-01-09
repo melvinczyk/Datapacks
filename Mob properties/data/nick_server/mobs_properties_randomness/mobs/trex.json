@@ -1,0 +1,18 @@
+{
+    "target": "dawnera:tyrannosaurus",
+    "presets": {
+        "chance": 0.05,
+        "list": [
+            {
+                "weight": 1,
+                "id": "nick_server:trex",
+                "world_whitelist": {
+                    "deepness": {
+                        "min": -64,
+                        "max": 320
+                    }
+                }
+            }
+        ]
+    }
+}

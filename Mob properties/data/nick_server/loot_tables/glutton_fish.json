@@ -1,0 +1,76 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "born_in_chaos_v1:sea_terror_stomach",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "born_in_chaos_v1:sea_terror_eye",
+            "weight": 100,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 2,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "born_in_chaos_v1:pieceofdarkmetal",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 5,
+                  "max": 10
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "born_in_chaos_v1:rotten_fish",
+            "weight": 100,
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 8,
+                  "max": 24
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

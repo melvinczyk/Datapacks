@@ -1,0 +1,18 @@
+{
+    "target": "mowziesmobs:foliaath",
+    "presets": {
+        "chance": 0.05,
+        "list": [
+            {
+                "weight": 1,
+                "id": "nick_server:man_eater",
+                "world_whitelist": {
+                    "deepness": {
+                        "min": -64,
+                        "max": 320
+                    }
+                }
+            }
+        ]
+    }
+}

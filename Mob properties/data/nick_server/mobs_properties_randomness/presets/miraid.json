@@ -13,22 +13,22 @@
         {
             "id": "minecraft:strength",
             "hide_particles": "true",
-            "amplifier": 2
+            "amplifier": 1
         }
     ],
     "attributes": [
         {
             "id": "minecraft:generic.max_health",
-            "modifier_name": "undead_soldier health",
+            "modifier_name": "craeken health",
             "amount": {
-                "min": 600,
-                "max": 700
+                "min": 300,
+                "max": 400
             },
             "operation": "addition"
         }
     ],
     "custom_name": {
-        "overrides": [ "Champion Chaos Knight" ]
+        "overrides": [ "Hallucination Abberation" ]
     },
     "scale_pehkui": [
         {
@@ -41,7 +41,7 @@
             "operation": "set"
         },
         {
-            "scale": 1.5,
+            "scale": 2.5,
             "scale_types": [
                 "pehkui:model_width",
                 "pehkui:model_height"
@@ -49,9 +49,8 @@
             "operation": "set"
         }
     ],
-    "loot_table":"nick_server:chaos_knight",
     "boss_bar": {
-        "color": "purple",
+        "color": "blue",
         "type": "notched_20"
     }
 }

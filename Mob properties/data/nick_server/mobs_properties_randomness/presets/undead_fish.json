@@ -8,31 +8,31 @@
         {
             "id": "minecraft:speed",
             "hide_particles": true,
-            "amplifier": 1
+            "amplifier": 2
         },
         {
             "id": "minecraft:strength",
             "hide_particles": "true",
-            "amplifier": 2
+            "amplifier": 1
         }
     ],
     "attributes": [
         {
             "id": "minecraft:generic.max_health",
-            "modifier_name": "undead_soldier health",
+            "modifier_name": "undead_fish health",
             "amount": {
-                "min": 600,
-                "max": 700
+                "min": 400,
+                "max": 550
             },
             "operation": "addition"
         }
     ],
     "custom_name": {
-        "overrides": [ "Champion Chaos Knight" ]
+        "overrides": [ "The Great Glutton" ]
     },
     "scale_pehkui": [
         {
-            "scale": 1.5,
+            "scale": 1.0,
             "scale_types": [
                 "pehkui:hitbox_width",
                 "pehkui:hitbox_height",
@@ -49,7 +49,7 @@
             "operation": "set"
         }
     ],
-    "loot_table":"nick_server:chaos_knight",
+    "loot_table": "nick_server:glutton_fish",
     "boss_bar": {
         "color": "purple",
         "type": "notched_20"

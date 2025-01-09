@@ -1,0 +1,18 @@
+{
+    "target": "upgrade_aquatic:great_thrasher",
+    "presets": {
+        "chance": 0.05,
+        "list": [
+            {
+                "weight": 1,
+                "id": "nick_server:biter",
+                "world_whitelist": {
+                    "deepness": {
+                        "min": -64,
+                        "max": 320
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -19,20 +19,20 @@
     "attributes": [
         {
             "id": "minecraft:generic.max_health",
-            "modifier_name": "undead_soldier health",
+            "modifier_name": "biter health",
             "amount": {
-                "min": 600,
-                "max": 700
+                "min": 500,
+                "max": 600
             },
             "operation": "addition"
         }
     ],
     "custom_name": {
-        "overrides": [ "Champion Chaos Knight" ]
+        "overrides": [ "Great Biter" ]
     },
     "scale_pehkui": [
         {
-            "scale": 1.5,
+            "scale": 2.0,
             "scale_types": [
                 "pehkui:hitbox_width",
                 "pehkui:hitbox_height",
@@ -41,7 +41,7 @@
             "operation": "set"
         },
         {
-            "scale": 1.5,
+            "scale": 2.0,
             "scale_types": [
                 "pehkui:model_width",
                 "pehkui:model_height"
@@ -49,9 +49,8 @@
             "operation": "set"
         }
     ],
-    "loot_table":"nick_server:chaos_knight",
     "boss_bar": {
-        "color": "purple",
+        "color": "blue",
         "type": "notched_20"
     }
 }

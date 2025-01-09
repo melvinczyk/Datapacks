@@ -21,8 +21,8 @@
             "id": "minecraft:generic.max_health",
             "modifier_name": "glutton_worm health",
             "amount": {
-                "min": 600,
-                "max": 800
+                "min": 400,
+                "max": 500
             },
             "operation": "addition"
         }

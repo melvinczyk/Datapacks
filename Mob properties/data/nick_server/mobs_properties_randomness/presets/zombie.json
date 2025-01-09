@@ -1,0 +1,17 @@
+{
+    "potion_effects": [
+        {
+            "id": "minecraft:resistance",
+            "hide_particles": true,
+            "amplifier": 2
+        },
+        {
+            "id": "minecraft:invisibility",
+            "hide_particles": true,
+            "amplifier": 1
+        }
+    ],
+    "custom_name": {
+        "overrides": [ "Zombie abberation" ]
+    }
+}

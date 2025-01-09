@@ -13,22 +13,22 @@
         {
             "id": "minecraft:strength",
             "hide_particles": "true",
-            "amplifier": 2
+            "amplifier": 1
         }
     ],
     "attributes": [
         {
             "id": "minecraft:generic.max_health",
-            "modifier_name": "undead_soldier health",
+            "modifier_name": "king_creeper health",
             "amount": {
-                "min": 600,
-                "max": 700
+                "min": 800,
+                "max": 900
             },
             "operation": "addition"
         }
     ],
     "custom_name": {
-        "overrides": [ "Champion Chaos Knight" ]
+        "overrides": [ "King Creeper" ]
     },
     "scale_pehkui": [
         {
@@ -49,9 +49,8 @@
             "operation": "set"
         }
     ],
-    "loot_table":"nick_server:chaos_knight",
     "boss_bar": {
-        "color": "purple",
+        "color": "green",
         "type": "notched_20"
     }
 }

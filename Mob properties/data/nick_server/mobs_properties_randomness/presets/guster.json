@@ -13,26 +13,26 @@
         {
             "id": "minecraft:strength",
             "hide_particles": "true",
-            "amplifier": 2
+            "amplifier": 1
         }
     ],
     "attributes": [
         {
             "id": "minecraft:generic.max_health",
-            "modifier_name": "undead_soldier health",
+            "modifier_name": "ender_hand health",
             "amount": {
-                "min": 600,
-                "max": 700
+                "min": 800,
+                "max": 900
             },
             "operation": "addition"
         }
     ],
     "custom_name": {
-        "overrides": [ "Champion Chaos Knight" ]
+        "overrides": [ "Desert's Curse" ]
     },
     "scale_pehkui": [
         {
-            "scale": 1.5,
+            "scale": 3.0,
             "scale_types": [
                 "pehkui:hitbox_width",
                 "pehkui:hitbox_height",
@@ -41,15 +41,14 @@
             "operation": "set"
         },
         {
-            "scale": 1.5,
-            "scale_types": [
+            "scale": 4.0,
+            "scale_types": [ 
                 "pehkui:model_width",
                 "pehkui:model_height"
             ],
             "operation": "set"
         }
     ],
-    "loot_table":"nick_server:chaos_knight",
     "boss_bar": {
         "color": "purple",
         "type": "notched_20"
