@@ -25,6 +25,12 @@
                 "max": 1200
             },
             "operation": "addition"
+        },
+        {
+            "id": "minecraft:generic.attack_damage",
+            "modifier_name": "terror_peaks damage",
+            "amount": 10,
+            "operation": "addition"
         }
     ],
     "custom_name": {
