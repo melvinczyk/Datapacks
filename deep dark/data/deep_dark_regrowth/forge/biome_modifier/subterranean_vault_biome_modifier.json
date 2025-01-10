@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "deep_dark",
-  "features": "deep_dark_regrowth:subterranean_vault",
-  "step": "underground_structures"
-}

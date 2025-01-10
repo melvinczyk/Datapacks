@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "deep_dark_regrowth:corrupted_deepslate",
-  "step": "underground_ores"
-}

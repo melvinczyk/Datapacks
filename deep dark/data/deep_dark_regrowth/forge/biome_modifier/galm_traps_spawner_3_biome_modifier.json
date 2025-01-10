@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "deep_dark_regrowth:galm_traps_spawner_3",
-  "step": "vegetal_decoration"
-}

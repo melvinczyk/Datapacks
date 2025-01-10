@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "deep_dark",
-  "features": "deep_dark_regrowth:ancient_vase_spawner",
-  "step": "vegetal_decoration"
-}

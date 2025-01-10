@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "deep_dark_regrowth:rotten_caverns",
-  "features": "deep_dark_regrowth:combusted_soul_crystal_block",
-  "step": "underground_ores"
-}

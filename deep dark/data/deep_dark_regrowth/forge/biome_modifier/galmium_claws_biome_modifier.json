@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "deep_dark_regrowth:galmium_claws",
-  "step": "vegetal_decoration"
-}

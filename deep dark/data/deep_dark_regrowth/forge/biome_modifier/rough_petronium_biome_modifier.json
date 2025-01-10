@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "deep_dark_regrowth:rotten_caverns",
-  "features": "deep_dark_regrowth:rough_petronium",
-  "step": "underground_ores"
-}
