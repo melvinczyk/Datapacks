@@ -1,24 +1,23 @@
 {
-  "type": "celestisynth:shaped_celestial_crafting",
-  "category": "equipment",
-  "key": {
-    "i": {
-      "item": "celestisynth:celestial_core_heated"
-    },
-    "n": {
-      "item": "celestisynth:supernal_netherite_ingot"
-    },
-    "z": {
-      "item": "celestisynth:zephyr_deposit"
-    }
+  "type": "celestisynth:starlit_factory",
+  "core_material": {
+    "item": "celestisynth:zephyr_deposit"
   },
-  "pattern": [
-    " nz",
-    "znn",
-    "iz "
-  ],
-  "result": {
-    "item": "celestisynth:breezebreaker"
+  "extra_core_material": {
+    "item": "celestisynth:supernal_netherite_ingot"
   },
-  "show_notification": true
+  "forging_time": 700,
+  "result": "celestisynth:breezebreaker",
+  "supporting_core_material": {
+    "item": "celestisynth:zephyr_deposit"
+  },
+  "supporting_material_bottom": {
+    "item": "minecraft:iron_ingot"
+  },
+  "supporting_material_middle": {
+    "item": "minecraft:gold_ingot"
+  },
+  "supporting_material_top": {
+    "item": "minecraft:ghast_tear"
+  }
 }

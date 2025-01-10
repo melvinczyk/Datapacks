@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "deep_dark_regrowth:petronium"
+    },
+    "4": {
+      "item": "deep_dark_regrowth:petronium"
+    },
+    "5": {
+      "item": "deep_dark_regrowth:petronium"
+    },
+    "6": {
+      "item": "deep_dark_regrowth:petronium"
+    },
+    "7": {
+      "item": "deep_dark_regrowth:petronium"
+    },
+    "8": {
+      "item": "deep_dark_regrowth:petronium"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:petronium_stairs",
+    "count": 4
+  }
+}

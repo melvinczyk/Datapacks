@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "deep_dark_regrowth:sculk_starlamp"
+    }
+  ],
+  "result": {
+    "item": "deep_dark_regrowth:sculk_starlamp_2",
+    "count": 1
+  }
+}

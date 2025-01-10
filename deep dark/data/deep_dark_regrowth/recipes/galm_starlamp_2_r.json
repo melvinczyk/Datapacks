@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:galm_starlamp"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:galm_starlamp_2",
+    "count": 1
+  }
+}

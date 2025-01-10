@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:polished_grimstone"
+    },
+    "3": {
+      "item": "deep_dark_regrowth:polished_grimstone"
+    },
+    "4": {
+      "item": "deep_dark_regrowth:polished_grimstone"
+    },
+    "6": {
+      "item": "deep_dark_regrowth:polished_grimstone"
+    },
+    "7": {
+      "item": "deep_dark_regrowth:polished_grimstone"
+    },
+    "8": {
+      "item": "deep_dark_regrowth:polished_grimstone"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:polished_grimstone_stairs",
+    "count": 4
+  }
+}

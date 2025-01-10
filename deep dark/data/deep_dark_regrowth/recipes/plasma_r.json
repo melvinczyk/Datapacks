@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:plasma_chunk"
+    },
+    "1": {
+      "item": "deep_dark_regrowth:plasma_chunk"
+    },
+    "2": {
+      "item": "deep_dark_regrowth:plasma_chunk"
+    },
+    "3": {
+      "item": "deep_dark_regrowth:plasma_chunk"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:plasma",
+    "count": 1
+  }
+}

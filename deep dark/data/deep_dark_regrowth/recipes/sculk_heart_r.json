@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:heart_goo"
+    },
+    "1": {
+      "item": "deep_dark_regrowth:sculk_carapace_piece"
+    },
+    "2": {
+      "item": "deep_dark_regrowth:heart_goo"
+    },
+    "3": {
+      "item": "deep_dark_regrowth:sculk_carapace_piece"
+    },
+    "4": {
+      "item": "deep_dark_regrowth:heart_goo"
+    },
+    "5": {
+      "item": "deep_dark_regrowth:sculk_carapace_piece"
+    },
+    "6": {
+      "item": "deep_dark_regrowth:heart_goo"
+    },
+    "7": {
+      "item": "deep_dark_regrowth:sculk_carapace_piece"
+    },
+    "8": {
+      "item": "deep_dark_regrowth:heart_goo"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:sculk_heart",
+    "count": 1
+  }
+}

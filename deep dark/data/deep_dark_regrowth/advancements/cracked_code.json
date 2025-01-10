@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "deep_dark_regrowth:castle"
+    },
+    "title": {
+      "translate": "advancements.cracked_code.title"
+    },
+    "description": {
+      "translate": "advancements.cracked_code.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cracked_code": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "deep_dark_regrowth:the_forgotten_story"
+}

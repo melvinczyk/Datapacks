@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "deep_dark_regrowth:combusted_soul_crystal"
+    }
+  ],
+  "result": {
+    "item": "deep_dark_regrowth:combusted_soul",
+    "count": 1
+  }
+}

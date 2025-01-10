@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "deep_dark_regrowth:apatine"
+    }
+  ],
+  "result": {
+    "item": "deep_dark_regrowth:apatine_seeds",
+    "count": 2
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bone"
+    },
+    "b": {
+      "item": "born_in_chaos_v1:fused_bone"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:bone_heart",
+    "count": 1
+  }
+}

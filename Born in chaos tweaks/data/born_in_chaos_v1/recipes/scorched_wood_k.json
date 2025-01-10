@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "born_in_chaos_v1:scorched_log"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:scorched_wood",
+    "count": 3
+  }
+}

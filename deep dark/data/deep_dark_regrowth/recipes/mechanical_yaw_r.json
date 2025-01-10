@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    },
+    "2": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    },
+    "3": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "4": {
+      "item": "minecraft:redstone"
+    },
+    "5": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "6": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "7": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "8": {
+      "item": "minecraft:cobbled_deepslate"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:mechanical_yaw",
+    "count": 1
+  }
+}

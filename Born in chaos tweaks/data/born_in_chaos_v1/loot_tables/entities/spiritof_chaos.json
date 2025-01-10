@@ -26,7 +26,7 @@
         {
           "type": "minecraft:item",
           "name": "born_in_chaos_v1:seedof_chaos",
-          "weight": 10,
+          "weight": 100,
           "functions": [
             {
               "function": "set_count",

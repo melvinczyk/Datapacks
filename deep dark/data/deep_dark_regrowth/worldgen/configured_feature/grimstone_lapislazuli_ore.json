@@ -1,0 +1,31 @@
+{
+  "type": "deep_dark_regrowth:grimstone_lapislazuli_ore",
+  "config": {
+    "size": 64,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:lapis_ore"
+          }
+        },
+        "state": {
+          "Name": "deep_dark_regrowth:grimstone_lapislazuli_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate_lapis_ore"
+          }
+        },
+        "state": {
+          "Name": "deep_dark_regrowth:grimstone_lapislazuli_ore"
+        }
+      }
+    ]
+  }
+}

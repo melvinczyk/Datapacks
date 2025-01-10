@@ -25,28 +25,47 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "born_in_chaos_v1:seedof_chaos",
-          "weight": 10,
+          "name": "born_in_chaos_v1:pieceofdarkmetal",
+          "weight": 50,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 0,
-                "max": 1
+                "min": 2,
+                "max": 6
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
-          "weight": 20,
+          "name": "born_in_chaos_v1:pileof_dark_metal",
+          "weight": 5,
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 3
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:seedof_chaos",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
               }
             }
           ]
@@ -54,31 +73,13 @@
         {
           "type": "minecraft:item",
           "name": "born_in_chaos_v1:dark_upgrade",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 0,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "born_in_chaos_v1:pieceofdarkmetal",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-<<<<<<< HEAD
-                "min": 0,
-=======
                 "min": 1,
->>>>>>> 7e4e4bec8f73bb8621cea8f0f2d698d10ae7f6be
-                "max": 3
+                "max": 1
               }
             }
           ]

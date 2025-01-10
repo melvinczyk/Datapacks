@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "deep_dark_regrowth:galm"
+    },
+    "title": {
+      "translate": "advancements.bad_place.title"
+    },
+    "description": {
+      "translate": "advancements.bad_place.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bad_place": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "deep_dark_regrowth:rotten_caverns"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "deep_dark_regrowth:the_forgotten_story"
+}

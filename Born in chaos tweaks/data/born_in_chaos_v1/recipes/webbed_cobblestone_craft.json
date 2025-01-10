@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "born_in_chaos_v1:cobweb_cover"
+    }
+  ],
+  "result": {
+    "item": "born_in_chaos_v1:webbed_cobblestone",
+    "count": 1
+  }
+}

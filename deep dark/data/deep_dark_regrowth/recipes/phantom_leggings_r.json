@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "deep_dark_regrowth:plasma"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "deep_dark_regrowth:plasma"
+    },
+    "5": {
+      "item": "deep_dark_regrowth:plasma"
+    },
+    "6": {
+      "item": "minecraft:diamond"
+    },
+    "8": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:phantom_armor_leggings",
+    "count": 1
+  }
+}

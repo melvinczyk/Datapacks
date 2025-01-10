@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "deep_dark",
+  "features": "deep_dark_regrowth:the_sculk_heart",
+  "step": "underground_structures"
+}

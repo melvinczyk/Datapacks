@@ -16,7 +16,7 @@
                 "predicate": {
                   "enchantments": [
                     {
-                      "enchantment": "minecraft:frost_walker",
+                      "enchantment": "minecraft:silk_touch",
                       "levels": {
                         "min": 1
                       }
@@ -53,7 +53,7 @@
                 "predicate": {
                   "enchantments": [
                     {
-                      "enchantment": "minecraft:frost_walker",
+                      "enchantment": "minecraft:silk_touch",
                       "levels": {
                         "min": 1
                       }
@@ -88,7 +88,7 @@
               "predicate": {
                 "enchantments": [
                   {
-                    "enchantment": "minecraft:frost_walker",
+                    "enchantment": "minecraft:silk_touch",
                     "levels": {
                       "min": 1
                     }

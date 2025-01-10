@@ -20,6 +20,20 @@
         },
         {
           "type": "minecraft:item",
+          "name": "gnumus:vintage_parts",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "gnumus:gnumus_horn",
           "weight": 15,
           "functions": [

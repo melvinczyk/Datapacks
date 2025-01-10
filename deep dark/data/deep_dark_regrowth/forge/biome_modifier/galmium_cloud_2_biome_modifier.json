@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "deep_dark_regrowth:rotten_caverns",
+  "features": "deep_dark_regrowth:galmium_cloud_2",
+  "step": "underground_structures"
+}

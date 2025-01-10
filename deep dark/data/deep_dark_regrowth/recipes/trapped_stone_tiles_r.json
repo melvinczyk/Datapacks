@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_pressure_plate"
+    },
+    "1": {
+      "item": "deep_dark_regrowth:stone_tiles"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:trapped_stone_tiles",
+    "count": 1
+  }
+}

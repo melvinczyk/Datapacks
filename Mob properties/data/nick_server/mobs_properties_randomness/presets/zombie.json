@@ -9,6 +9,11 @@
             "id": "minecraft:invisibility",
             "hide_particles": true,
             "amplifier": 1
+        },
+        {
+            "id": "minecraft:glowing",
+            "hide_particles": true,
+            "amplifier": 1
         }
     ],
     "custom_name": {

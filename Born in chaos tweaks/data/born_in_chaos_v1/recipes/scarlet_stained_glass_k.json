@@ -2,37 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aba",
+    "cac",
+    "aba"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:red_stained_glass"
     },
-    "1": {
+    "b": {
       "item": "born_in_chaos_v1:fired_black_argillite"
     },
-    "2": {
-      "item": "minecraft:red_stained_glass"
-    },
-    "3": {
+    "c": {
       "item": "minecraft:black_stained_glass"
-    },
-    "4": {
-      "item": "minecraft:red_stained_glass"
-    },
-    "5": {
-      "item": "minecraft:black_stained_glass"
-    },
-    "6": {
-      "item": "minecraft:red_stained_glass"
-    },
-    "7": {
-      "item": "born_in_chaos_v1:fired_black_argillite"
-    },
-    "8": {
-      "item": "minecraft:red_stained_glass"
     }
   },
   "result": {

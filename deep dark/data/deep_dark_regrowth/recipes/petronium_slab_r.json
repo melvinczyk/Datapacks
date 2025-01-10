@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:petronium"
+    },
+    "1": {
+      "item": "deep_dark_regrowth:petronium"
+    },
+    "2": {
+      "item": "deep_dark_regrowth:petronium"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:petronium_slab",
+    "count": 6
+  }
+}

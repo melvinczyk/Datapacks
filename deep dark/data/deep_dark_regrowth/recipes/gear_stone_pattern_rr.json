@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:stone_pattern"
+    },
+    "1": {
+      "item": "minecraft:oxeye_daisy"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:gear_stone_pattern",
+    "count": 1
+  }
+}

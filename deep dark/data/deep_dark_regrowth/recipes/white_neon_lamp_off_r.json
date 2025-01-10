@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:fluorite_crystal"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "deep_dark_regrowth:fluorite_crystal"
+    },
+    "3": {
+      "item": "minecraft:redstone"
+    },
+    "4": {
+      "item": "minecraft:glowstone"
+    },
+    "5": {
+      "item": "minecraft:redstone"
+    },
+    "6": {
+      "item": "deep_dark_regrowth:fluorite_crystal"
+    },
+    "7": {
+      "item": "minecraft:redstone"
+    },
+    "8": {
+      "item": "deep_dark_regrowth:fluorite_crystal"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:white_neon_lamp_off",
+    "count": 1
+  }
+}

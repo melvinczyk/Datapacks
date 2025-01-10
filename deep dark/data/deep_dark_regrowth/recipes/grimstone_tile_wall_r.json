@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:grimstone_tiles"
+    },
+    "1": {
+      "item": "deep_dark_regrowth:grimstone_tiles"
+    },
+    "2": {
+      "item": "deep_dark_regrowth:grimstone_tiles"
+    },
+    "3": {
+      "item": "deep_dark_regrowth:grimstone_tiles"
+    },
+    "4": {
+      "item": "deep_dark_regrowth:grimstone_tiles"
+    },
+    "5": {
+      "item": "deep_dark_regrowth:grimstone_tiles"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:grimstone_tile_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "deep_dark_regrowth:pulse_flower_petal"
+    },
+    "3": {
+      "item": "deep_dark_regrowth:pulse_flower_petal"
+    },
+    "4": {
+      "item": "deep_dark_regrowth:plasma_chunk"
+    },
+    "5": {
+      "item": "deep_dark_regrowth:pulse_flower_petal"
+    },
+    "7": {
+      "item": "deep_dark_regrowth:pulse_flower_petal"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:pulse_flower",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:stone_pattern"
+    },
+    "1": {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:mojang_stone_pattern",
+    "count": 1
+  }
+}

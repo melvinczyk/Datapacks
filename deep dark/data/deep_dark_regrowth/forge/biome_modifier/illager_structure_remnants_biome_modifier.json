@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "deep_dark_regrowth:illager_structure_remnants",
+  "step": "underground_structures"
+}

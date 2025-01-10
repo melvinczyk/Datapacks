@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cobblestone"
+    },
+    "1": {
+      "item": "minecraft:globe_banner_pattern"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:planet_stone_pattern",
+    "count": 1
+  }
+}

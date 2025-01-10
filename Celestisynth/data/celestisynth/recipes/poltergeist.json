@@ -1,27 +1,23 @@
 {
-  "type": "celestisynth:shaped_celestial_crafting",
-  "category": "equipment",
-  "key": {
-    "a": {
-      "item": "minecraft:netherite_axe"
-    },
-    "e": {
-      "item": "celestisynth:eyebomination"
-    },
-    "i": {
-      "item": "celestisynth:celestial_core_heated"
-    },
-    "n": {
-      "item": "celestisynth:supernal_netherite_ingot"
-    }
+  "type": "celestisynth:starlit_factory",
+  "core_material": {
+    "item": "celestisynth:eyebomination"
   },
-  "pattern": [
-    "eee",
-    "ean",
-    " ni"
-  ],
-  "result": {
-    "item": "celestisynth:poltergeist"
+  "extra_core_material": {
+    "item": "celestisynth:supernal_netherite_ingot"
   },
-  "show_notification": true
+  "forging_time": 700,
+  "result": "celestisynth:poltergeist",
+  "supporting_core_material": {
+    "item": "celestisynth:eyebomination"
+  },
+  "supporting_material_bottom": {
+    "item": "minecraft:iron_axe"
+  },
+  "supporting_material_middle": {
+    "item": "minecraft:anvil"
+  },
+  "supporting_material_top": {
+    "item": "minecraft:anvil"
+  }
 }

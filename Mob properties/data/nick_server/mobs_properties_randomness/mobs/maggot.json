@@ -1,0 +1,18 @@
+{
+    "target": "born_in_chaos_v1:maggot",
+    "presets": {
+        "chance": 0.1,
+        "list": [
+            {
+                "weight": 1,
+                "id": "nick_server:maggot",
+                "world_whitelist": {
+                    "deepness": {
+                        "min": -64,
+                        "max": 320
+                    }
+                }
+            }
+        ]
+    }
+}

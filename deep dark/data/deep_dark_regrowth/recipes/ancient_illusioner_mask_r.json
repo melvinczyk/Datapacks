@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "deep_dark_regrowth:ancient_illusioner_mask_charge_helmet"
+    },
+    {
+      "item": "deep_dark_regrowth:plasmatic_sculk"
+    }
+  ],
+  "result": {
+    "item": "deep_dark_regrowth:ancient_illusioner_mask_helmet",
+    "count": 1
+  }
+}

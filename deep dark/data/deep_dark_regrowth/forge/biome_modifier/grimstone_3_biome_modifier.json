@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "deep_dark_regrowth:deep_light",
+  "features": "deep_dark_regrowth:grimstone_3",
+  "step": "underground_ores"
+}

@@ -98,8 +98,8 @@
             {
               "function": "irons_spellbooks:randomize_spell",
               "quality": {
-                "min": 0.3,
-                "max": 0.6
+                "min": 0.4,
+                "max": 0.8
               },
               "school": "irons_spellbooks:evocation"
             }
@@ -109,8 +109,8 @@
     },
     {
       "rolls": {
-        "min": 1,
-        "max": 7
+        "min": 2,
+        "max": 10
       },
       "entries": [
         {

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "deep_dark_regrowth:polished_petronium_tiles"
+  },
+  "result": "deep_dark_regrowth:polished_petronium_tiles_slab"
+}

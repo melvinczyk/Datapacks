@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " aa",
+    " ba",
+    "b  "
+  ],
+  "key": {
+    "a": {
+      "item": "born_in_chaos_v1:spiny_shell"
+    },
+    "b": {
+      "item": "born_in_chaos_v1:bone_handle"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:shell_mace",
+    "count": 1
+  }
+}

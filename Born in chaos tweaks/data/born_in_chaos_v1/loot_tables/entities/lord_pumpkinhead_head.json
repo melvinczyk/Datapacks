@@ -25,7 +25,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "born_in_chaos_v1:pumpkin_pistol",
+          "name": "born_in_chaos_v1:pumpkinhandgun",
           "weight": 100,
           "functions": [
             {

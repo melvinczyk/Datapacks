@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "deep_dark_regrowth:sculk_ribs_small",
+  "step": "underground_ores"
+}

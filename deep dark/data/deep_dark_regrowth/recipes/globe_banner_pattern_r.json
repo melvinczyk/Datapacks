@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:paper"
+    },
+    "1": {
+      "item": "minecraft:grass_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:globe_banner_pattern",
+    "count": 1
+  }
+}

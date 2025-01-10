@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "deep_dark_regrowth:rotten_caverns",
+  "features": "deep_dark_regrowth:spectating_galm_closed",
+  "step": "underground_ores"
+}

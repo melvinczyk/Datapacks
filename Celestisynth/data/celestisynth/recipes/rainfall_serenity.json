@@ -1,30 +1,23 @@
 {
-  "type": "celestisynth:shaped_celestial_crafting",
-  "category": "equipment",
-  "key": {
-    "b": {
-      "item": "minecraft:bow"
-    },
-    "f": {
-      "item": "celestisynth:starstruck_feather"
-    },
-    "i": {
-      "item": "celestisynth:celestial_core_heated"
-    },
-    "n": {
-      "item": "celestisynth:celestial_netherite_ingot"
-    },
-    "s": {
-      "item": "celestisynth:starstruck_scrap"
-    }
+  "type": "celestisynth:starlit_factory",
+  "core_material": {
+    "item": "celestisynth:starstruck_scrap"
   },
-  "pattern": [
-    "nfs",
-    "ibs",
-    "nfs"
-  ],
-  "result": {
-    "item": "celestisynth:rainfall_serenity"
+  "extra_core_material": {
+    "item": "celestisynth:celestial_netherite_ingot"
   },
-  "show_notification": true
+  "forging_time": 825,
+  "result": "celestisynth:rainfall_serenity",
+  "supporting_core_material": {
+    "item": "minecraft:bow"
+  },
+  "supporting_material_bottom": {
+    "item": "celestisynth:starstruck_scrap"
+  },
+  "supporting_material_middle": {
+    "item": "celestisynth:starstruck_feather"
+  },
+  "supporting_material_top": {
+    "item": "celestisynth:starstruck_feather"
+  }
 }

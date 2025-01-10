@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:arrow"
+    },
+    "1": {
+      "item": "minecraft:arrow"
+    },
+    "2": {
+      "item": "minecraft:arrow"
+    },
+    "3": {
+      "item": "minecraft:arrow"
+    },
+    "4": {
+      "item": "deep_dark_regrowth:fluorite_crystal"
+    },
+    "5": {
+      "item": "minecraft:arrow"
+    },
+    "6": {
+      "item": "minecraft:arrow"
+    },
+    "7": {
+      "item": "minecraft:arrow"
+    },
+    "8": {
+      "item": "minecraft:arrow"
+    }
+  },
+  "result": {
+    "item": "minecraft:spectral_arrow",
+    "count": 8
+  }
+}

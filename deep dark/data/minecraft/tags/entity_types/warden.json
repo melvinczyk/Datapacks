@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "deep_dark_regrowth:spreader",
+    "warden",
+    "deep_dark_regrowth:stalker",
+    "deep_dark_regrowth:tentacle_lamp",
+    "deep_dark_regrowth:sculk_parasite"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "celestisynth:celestial_core_heated"
+    "item": "minecraft:ghast_tear"
   },
   "base": {
     "item": "minecraft:netherite_ingot"

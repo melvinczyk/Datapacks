@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "deep_dark",
+  "features": "deep_dark_regrowth:sculk_moss_3",
+  "step": "vegetal_decoration"
+}

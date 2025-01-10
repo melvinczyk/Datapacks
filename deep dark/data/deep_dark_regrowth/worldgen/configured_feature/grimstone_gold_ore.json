@@ -1,0 +1,31 @@
+{
+  "type": "deep_dark_regrowth:grimstone_gold_ore",
+  "config": {
+    "size": 64,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:gold_ore"
+          }
+        },
+        "state": {
+          "Name": "deep_dark_regrowth:grimstone_gold_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate_gold_ore"
+          }
+        },
+        "state": {
+          "Name": "deep_dark_regrowth:grimstone_gold_ore"
+        }
+      }
+    ]
+  }
+}

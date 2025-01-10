@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "deep_dark_regrowth:polished_grimstone"
+  },
+  "result": "deep_dark_regrowth:grimstone_tile_slab"
+}

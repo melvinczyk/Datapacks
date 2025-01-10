@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "deep_dark_regrowth:deep_light",
+  "features": "deep_dark_regrowth:ghost_flowers",
+  "step": "vegetal_decoration"
+}

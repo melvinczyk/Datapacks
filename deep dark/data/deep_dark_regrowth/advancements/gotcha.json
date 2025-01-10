@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "deep_dark_regrowth:void_breaker"
+    },
+    "title": {
+      "translate": "advancements.gotcha.title"
+    },
+    "description": {
+      "translate": "advancements.gotcha.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gotcha": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "deep_dark_regrowth:ethereum_gem"
+}

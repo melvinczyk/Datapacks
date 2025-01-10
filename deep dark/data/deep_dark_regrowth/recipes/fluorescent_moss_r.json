@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:mossy_fluorite"
+    },
+    "1": {
+      "item": "deep_dark_regrowth:mossy_fluorite"
+    },
+    "2": {
+      "item": "deep_dark_regrowth:mossy_fluorite"
+    },
+    "3": {
+      "item": "deep_dark_regrowth:mossy_fluorite"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:fluorescent_moss",
+    "count": 1
+  }
+}

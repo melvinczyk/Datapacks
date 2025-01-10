@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "deep_dark_regrowth:soul_crystal",
+  "step": "vegetal_decoration"
+}

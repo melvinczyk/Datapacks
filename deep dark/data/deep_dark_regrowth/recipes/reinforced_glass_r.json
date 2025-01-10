@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    },
+    "3": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    },
+    "4": {
+      "item": "minecraft:glass"
+    },
+    "5": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    },
+    "7": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:reinforced_glass",
+    "count": 1
+  }
+}

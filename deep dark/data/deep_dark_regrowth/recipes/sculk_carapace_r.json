@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:sculk_carapace_piece"
+    },
+    "1": {
+      "item": "deep_dark_regrowth:sculk_carapace_piece"
+    },
+    "2": {
+      "item": "deep_dark_regrowth:sculk_carapace_piece"
+    },
+    "3": {
+      "item": "deep_dark_regrowth:sculk_carapace_piece"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:sculk_carapace",
+    "count": 1
+  }
+}

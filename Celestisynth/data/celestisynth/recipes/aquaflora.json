@@ -1,27 +1,23 @@
 {
-  "type": "celestisynth:shaped_celestial_crafting",
-  "category": "equipment",
-  "key": {
-    "e": {
-      "item": "minecraft:lily_pad"
-    },
-    "f": {
-      "tag": "minecraft:flowers"
-    },
-    "i": {
-      "item": "celestisynth:celestial_core_heated"
-    },
-    "n": {
-      "item": "celestisynth:celestial_netherite_ingot"
-    }
+  "type": "celestisynth:starlit_factory",
+  "core_material": {
+    "tag": "minecraft:flowers"
   },
-  "pattern": [
-    "efi",
-    "fif",
-    "nfe"
-  ],
-  "result": {
-    "item": "celestisynth:aquaflora"
+  "extra_core_material": {
+    "item": "celestisynth:supernal_netherite_ingot"
   },
-  "show_notification": true
+  "forging_time": 400,
+  "result": "celestisynth:aquaflora",
+  "supporting_core_material": {
+    "item": "minecraft:lily_pad"
+  },
+  "supporting_material_bottom": {
+    "item": "minecraft:verdant_froglight"
+  },
+  "supporting_material_middle": {
+    "item": "minecraft:ochre_froglight"
+  },
+  "supporting_material_top": {
+    "item": "minecraft:pearlescent_froglight"
+  }
 }

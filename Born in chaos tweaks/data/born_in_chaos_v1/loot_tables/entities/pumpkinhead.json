@@ -80,7 +80,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "born_in_chaos_v1:pumpkin_staff",
+          "name": "born_in_chaos_v1:pumpkinstaffa",
           "weight": 100,
           "functions": [
             {

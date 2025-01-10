@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:plasma"
+    },
+    "1": {
+      "item": "deep_dark_regrowth:unbreakability_seal"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:plasma_hoe",
+    "count": 1
+  }
+}

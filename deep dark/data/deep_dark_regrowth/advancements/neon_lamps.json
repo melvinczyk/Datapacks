@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "deep_dark_regrowth:white_neon_lamp"
+    },
+    "title": {
+      "translate": "advancements.neon_lamps.title"
+    },
+    "description": {
+      "translate": "advancements.neon_lamps.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "neon_lamps": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "deep_dark_regrowth:glowing_crystals"
+}

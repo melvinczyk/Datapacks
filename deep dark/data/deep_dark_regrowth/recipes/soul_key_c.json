@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:etherium_gem"
+    },
+    "1": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "2": {
+      "item": "deep_dark_regrowth:soul_of_the_depths"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:soul_key",
+    "count": 1
+  }
+}

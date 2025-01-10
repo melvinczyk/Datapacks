@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:grimstone_bricks"
+    },
+    "1": {
+      "item": "deep_dark_regrowth:grimstone_bricks"
+    },
+    "2": {
+      "item": "deep_dark_regrowth:grimstone_bricks"
+    },
+    "3": {
+      "item": "deep_dark_regrowth:grimstone_bricks"
+    },
+    "4": {
+      "item": "deep_dark_regrowth:grimstone_bricks"
+    },
+    "5": {
+      "item": "deep_dark_regrowth:grimstone_bricks"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:grimstone_brick_wall",
+    "count": 6
+  }
+}

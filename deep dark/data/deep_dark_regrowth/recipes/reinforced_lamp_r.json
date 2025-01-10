@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    },
+    "3": {
+      "item": "minecraft:redstone"
+    },
+    "4": {
+      "item": "minecraft:echo_shard"
+    },
+    "5": {
+      "item": "minecraft:redstone"
+    },
+    "6": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    },
+    "7": {
+      "item": "minecraft:redstone"
+    },
+    "8": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:reinforced_lamp",
+    "count": 1
+  }
+}

@@ -2,18 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "a",
+    "a",
+    "b"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "born_in_chaos_v1:dark_metal_block"
     },
-    "1": {
-      "item": "born_in_chaos_v1:dark_metal_block"
-    },
-    "2": {
+    "b": {
       "item": "born_in_chaos_v1:bone_handle"
     }
   },

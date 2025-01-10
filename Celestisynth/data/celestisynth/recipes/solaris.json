@@ -1,24 +1,23 @@
 {
-  "type": "celestisynth:shaped_celestial_crafting",
-  "category": "equipment",
-  "key": {
-    "i": {
-      "item": "celestisynth:celestial_core_heated"
-    },
-    "n": {
-      "item": "celestisynth:supernal_netherite_ingot"
-    },
-    "s": {
-      "item": "celestisynth:solar_crystal"
-    }
+  "type": "celestisynth:starlit_factory",
+  "core_material": {
+    "item": "celestisynth:solar_crystal"
   },
-  "pattern": [
-    "sns",
-    "sis",
-    " n "
-  ],
-  "result": {
-    "item": "celestisynth:solaris"
+  "extra_core_material": {
+    "item": "celestisynth:supernal_netherite_ingot"
   },
-  "show_notification": true
+  "forging_time": 500,
+  "result": "celestisynth:solaris",
+  "supporting_core_material": {
+    "item": "celestisynth:solar_crystal"
+  },
+  "supporting_material_bottom": {
+    "item": "minecraft:blaze_rod"
+  },
+  "supporting_material_middle": {
+    "item": "minecraft:fire_charge"
+  },
+  "supporting_material_top": {
+    "item": "minecraft:iron_sword"
+  }
 }

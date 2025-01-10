@@ -1,0 +1,20 @@
+{
+  "type": "deep_dark_regrowth:overloaded_sculk",
+  "config": {
+    "size": 9,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:sculk"
+          }
+        },
+        "state": {
+          "Name": "deep_dark_regrowth:overloaded_sculk"
+        }
+      }
+    ]
+  }
+}

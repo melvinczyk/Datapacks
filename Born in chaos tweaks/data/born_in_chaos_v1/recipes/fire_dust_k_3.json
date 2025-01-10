@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "born_in_chaos_v1:fire_dust"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    },
+    "c": {
+      "item": "minecraft:soul_soil"
+    }
+  },
+  "result": {
+    "item": "minecraft:soul_torch",
+    "count": 6
+  }
+}

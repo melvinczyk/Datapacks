@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    },
+    "1": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    },
+    "2": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    },
+    "3": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    },
+    "4": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    },
+    "5": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    },
+    "6": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    },
+    "7": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    },
+    "8": {
+      "item": "deep_dark_regrowth:sculk_bone"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:sculk_bone_block",
+    "count": 1
+  }
+}

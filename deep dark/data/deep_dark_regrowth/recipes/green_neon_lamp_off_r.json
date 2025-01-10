@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "deep_dark_regrowth:white_neon_lamp_off"
+    }
+  ],
+  "result": {
+    "item": "deep_dark_regrowth:green_neon_lamp_off",
+    "count": 1
+  }
+}

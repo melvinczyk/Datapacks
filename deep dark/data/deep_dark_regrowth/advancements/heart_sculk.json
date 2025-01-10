@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "deep_dark_regrowth:sculk_heart"
+    },
+    "title": {
+      "translate": "advancements.heart_sculk.title"
+    },
+    "description": {
+      "translate": "advancements.heart_sculk.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "heart_sculk": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "deep_dark_regrowth:the_forgotten_story"
+}

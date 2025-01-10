@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "deep_dark_regrowth:plasmatic_sculk"
+    },
+    "title": {
+      "translate": "advancements.stalker_fate.title"
+    },
+    "description": {
+      "translate": "advancements.stalker_fate.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stalker_fate": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "deep_dark_regrowth:the_forgotten_story"
+}

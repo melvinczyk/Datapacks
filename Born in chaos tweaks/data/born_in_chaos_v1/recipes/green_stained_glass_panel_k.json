@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "born_in_chaos_v1:green_stained_glass"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:green_stained_glass_panel",
+    "count": 16
+  }
+}

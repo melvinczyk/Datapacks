@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "deep_dark_regrowth:plasma"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "deep_dark_regrowth:plasma"
+    },
+    "5": {
+      "item": "deep_dark_regrowth:plasma"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:phantom_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "deep_dark_regrowth:polished_grimstone"
+    },
+    "1": {
+      "item": "deep_dark_regrowth:polished_grimstone"
+    },
+    "2": {
+      "item": "deep_dark_regrowth:polished_grimstone"
+    },
+    "3": {
+      "item": "deep_dark_regrowth:polished_grimstone"
+    }
+  },
+  "result": {
+    "item": "deep_dark_regrowth:grimstone_bricks",
+    "count": 4
+  }
+}

@@ -39,6 +39,20 @@
         },
         {
           "type": "minecraft:item",
+          "name": "born_in_chaos_v1:pieceofdarkmetal",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:bucket",
           "weight": 40,
           "functions": [

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "deep_dark_regrowth:life_fruit"
+    },
+    "title": {
+      "translate": "advancements.life_fruit_full.title"
+    },
+    "description": {
+      "translate": "advancements.life_fruit_full.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "life_fruit_full": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "deep_dark_regrowth:highway_inmortality"
+}

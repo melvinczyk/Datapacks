@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "deep_dark_regrowth:fluorite_crystal"
+    },
+    "title": {
+      "translate": "advancements.glowing_crystals.title"
+    },
+    "description": {
+      "translate": "advancements.glowing_crystals.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "glowing_crystals": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "deep_dark_regrowth:the_forgotten_story"
+}

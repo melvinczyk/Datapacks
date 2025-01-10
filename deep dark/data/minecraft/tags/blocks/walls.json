@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "deep_dark_regrowth:grimstone_brick_wall",
+    "deep_dark_regrowth:cobbled_grimstone_wall",
+    "deep_dark_regrowth:grimstone_tile_wall",
+    "deep_dark_regrowth:polished_grimstone_wall"
+  ]
+}

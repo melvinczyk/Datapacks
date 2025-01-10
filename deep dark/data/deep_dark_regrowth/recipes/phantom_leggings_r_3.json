@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "deep_dark_regrowth:plasma"
+    },
+    {
+      "item": "deep_dark_regrowth:phantom_armor_charge_leggings"
+    }
+  ],
+  "result": {
+    "item": "deep_dark_regrowth:phantom_armor_leggings",
+    "count": 1
+  }
+}

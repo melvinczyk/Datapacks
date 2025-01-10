@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "deep_dark_regrowth:void_collar_charge_chestplate"
+    },
+    {
+      "item": "deep_dark_regrowth:plasmatic_sculk"
+    }
+  ],
+  "result": {
+    "item": "deep_dark_regrowth:void_collar_chestplate",
+    "count": 1
+  }
+}

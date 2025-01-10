@@ -1,7 +1,7 @@
 {
   "has_precipitation": true,
-  "temperature": 0.8,
-  "downfall": 0.8,
+  "temperature": 0.5,
+  "downfall": 0.5,
   "effects": {
     "mood_sound": {
       "sound": "deep_dark_regrowth:rottencavernsmood",
