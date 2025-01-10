@@ -1,0 +1,20 @@
+{
+    "type": "jeg:gunnite_workbench",
+    "result": {
+        "item": "mteg:uzi"
+    },
+    "materials": [
+        {
+            "item": "jeg:scrap",
+            "count": 30
+        },
+        {
+            "item": "jeg:gunnite_ingot",
+            "count": 10
+        },
+        {
+            "item": "minecraft:tripwire_hook",
+            "count": 1
+        }
+    ]
+}

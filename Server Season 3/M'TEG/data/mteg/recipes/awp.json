@@ -1,0 +1,32 @@
+{
+    "type": "jeg:gunnite_workbench",
+    "result": {
+        "item": "mteg:awp"
+    },
+    "materials": [
+        {
+            "item": "jeg:scrap",
+            "count": 20
+        },
+        {
+            "item": "jeg:gunnite_ingot",
+            "count": 30
+        },
+        {
+            "item": "jeg:gunmetal_ingot",
+            "count": 20
+        },
+        {
+            "item": "minecraft:lever",
+            "count": 1
+        },
+        {
+            "item": "minecraft:sandstone",
+            "count": 10
+        },
+        {
+            "item": "threateningly_mobs:bettle_horn",
+            "count": 1
+        }
+    ]
+}

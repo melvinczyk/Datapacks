@@ -1,0 +1,19 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "minecraft:deep_ocean",
+<<<<<<< HEAD
+        "minecraft:deep_cold_ocean",
+        "minecraft:deep_lukewarm_ocean"
+    ],
+=======
+        "minecraft:deep_cold_ocean"
+        ],
+>>>>>>> 7e4e4bec8f73bb8621cea8f0f2d698d10ae7f6be
+    "spawners":{
+        "type": "aquamirae:eel",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+    }
+}

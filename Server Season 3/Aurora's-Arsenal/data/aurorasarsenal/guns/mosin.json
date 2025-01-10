@@ -1,0 +1,50 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.0,
+      "yOffset": 3.05,
+      "zOffset": -10.1
+    }
+  },
+  "general": {
+    "fireMode": "jeg:semi_automatic",
+    "gripType": "jeg:two_handed",
+    "rate": 32,
+    "recoilAngle": 5.0,
+    "recoilKick": 0.3,
+    "spread": 0.5
+  },
+  "modules": {
+    "attachments": {
+      "scope": {
+        "yOffset": 3.29,
+        "zOffset": -1.3
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 3.65,
+      "zOffset": -1.75
+    }
+  },
+  "projectile": {
+    "advantage": "jeg:none",
+    "damage": 23.5,
+    "headshotMultiplier": 1.5,
+    "item": "jeg:rifle_ammo",
+    "life": 100,
+    "size": 0.2,
+    "speed": 30.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 10,
+    "reloadTimer": 30,
+    "reloadType": "jeg:manual"
+  },
+  "sounds": {
+    "fire": "aurorasarsenal:item.mosin.fire",
+    "reload": "jeg:item.pistol.reload"
+  }
+}

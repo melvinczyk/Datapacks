@@ -1,0 +1,24 @@
+{
+    "type": "jeg:gunmetal_workbench",
+    "result": {
+        "item": "aurorasarsenal:vepr_12"
+    },
+    "materials": [
+        {
+            "item": "jeg:gunmetal_ingot",
+            "count": 24
+        },
+        {
+            "item": "jeg:scrap",
+            "count": 25
+        },
+        {
+            "item": "minecraft:lever",
+            "count": 1
+        },
+        {
+            "tag": "minecraft:planks",
+            "count": 14
+        }
+    ]
+}

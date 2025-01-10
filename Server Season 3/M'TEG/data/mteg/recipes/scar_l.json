@@ -1,0 +1,28 @@
+{
+    "type": "jeg:gunnite_workbench",
+    "result": {
+        "item": "mteg:scar_l"
+    },
+    "materials": [
+        {
+            "item": "jeg:scrap",
+            "count": 40
+        },
+        {
+            "item": "jeg:gunnite_ingot",
+            "count": 15
+        },
+        {
+            "item": "minecraft:yellow_dye",
+            "count": 2
+        },
+        {
+            "item": "minecraft:black_dye",
+            "count": 2
+        },
+        {
+            "item": "minecraft:cut_sandstone",
+            "count": 6
+        }
+    ]
+}

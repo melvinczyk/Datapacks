@@ -1,0 +1,20 @@
+{
+    "type": "mteg:mo_workbench",
+    "result": {
+        "item": "mteg:scar_h"
+    },
+    "materials": [
+        {
+            "item": "jeg:scrap",
+            "count": 50
+        },
+        {
+            "item": "jeg:gunnite_ingot",
+            "count": 12
+        },
+        {
+            "item": "minecraft:black_dye",
+            "count": 6
+        }
+    ]
+}

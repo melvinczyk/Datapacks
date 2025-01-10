@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Q": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "scguns:treated_iron_ingot"
+    }
+  },
+  "pattern": [
+    " Q ",
+    "X X",
+    "QXQ"
+  ],
+  "result": {
+    "item": "scguns:iron_gun_frame"
+  }
+}

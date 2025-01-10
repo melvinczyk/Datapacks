@@ -1,0 +1,24 @@
+{
+    "type": "jeg:gunmetal_workbench",
+    "result": {
+        "item": "mteg:benelli_m4"
+    },
+    "materials": [
+        {
+            "item": "jeg:scrap",
+            "count": 40
+        },
+        {
+            "item": "minecraft:gunpowder",
+            "count": 12
+        },
+        {
+            "item": "jeg:gunmetal_ingot",
+            "count": 14
+        },
+        {
+            "item": "minecraft:black_dye",
+            "count": 5
+        }
+    ]
+}

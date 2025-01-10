@@ -1,0 +1,24 @@
+{
+    "type": "jeg:gunnite_workbench",
+    "result": {
+        "item": "aurorasarsenal:vepr_hunter"
+    },
+    "materials": [
+        {
+            "item": "jeg:gunnite_ingot",
+            "count": 18
+        },
+        {
+            "item": "jeg:gunmetal_ingot",
+            "count": 16
+        },
+        {
+            "item": "jeg:scrap",
+            "count": 30
+        },
+        {
+            "item": "minecraft:lever",
+            "count": 1
+        }
+    ]
+}

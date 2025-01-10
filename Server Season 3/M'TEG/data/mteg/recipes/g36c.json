@@ -1,0 +1,20 @@
+{
+    "type": "jeg:gunmetal_workbench",
+    "result": {
+        "item": "mteg:g36c"
+    },
+    "materials": [
+        {
+            "item": "jeg:scrap",
+            "count": 50
+        },
+        {
+            "item": "jeg:gunmetal_ingot",
+            "count": 17
+        },
+        {
+            "item": "minecraft:ink_sac",
+            "count": 6
+        }
+    ]
+}

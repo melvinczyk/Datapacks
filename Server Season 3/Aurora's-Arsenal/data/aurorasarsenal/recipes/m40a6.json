@@ -1,0 +1,28 @@
+{
+    "type": "jeg:gunnite_workbench",
+    "result": {
+        "item": "aurorasarsenal:m40a6"
+    },
+    "materials": [
+        {
+            "item": "jeg:gunnite_ingot",
+            "count": 20
+        },
+        {
+            "item": "jeg:gunmetal_ingot",
+            "count": 8
+        },
+        {
+            "item": "jeg:scrap",
+            "count": 50
+        },
+        {
+            "item": "born_in_chaos_v1:dark_metal_ingot",
+            "count": 3
+        },
+        {
+            "item": "minecraft:lever",
+            "count": 1
+        }
+    ]
+}
