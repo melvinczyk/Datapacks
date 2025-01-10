@@ -1,0 +1,64 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.0,
+      "yOffset": 3.59,
+      "zOffset": -11.0
+    }
+  },
+  "general": {
+    "alwaysSpread": true,
+    "fireMode": "jeg:automatic",
+    "gripType": "jeg:two_handed",
+    "rate": 3,
+    "recoilAngle": 2.0,
+    "recoilKick": 0.15,
+    "spread": 3.0
+  },
+  "modules": {
+    "attachments": {
+      "barrel": {
+        "yOffset": 3.59,
+        "zOffset": -11.0
+      },
+      "magazine": {
+        "scale": 0.0
+      },
+      "scope": {
+        "yOffset": 4.56,
+        "zOffset": 5.0
+      },
+      "underBarrel": {
+        "yOffset": 2.28,
+        "zOffset": 0.5
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 4.935,
+      "zOffset": -1.75
+    }
+  },
+  "projectile": {
+    "advantage": "jeg:none",
+    "damage": 9.0,
+    "ejectsCasing": true,
+    "headshotMultiplier": 1.5,
+    "item": "jeg:rifle_ammo",
+    "life": 100,
+    "size": 0.2,
+    "speed": 30.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 10,
+    "maxAmmo": 20,
+    "reloadTimer": 30,
+    "reloadType": "jeg:mag_fed"
+  },
+  "sounds": {
+    "fire": "aurorasarsenal:item.g3a3.fire",
+    "reload": "jeg:item.pistol.reload",
+    "silencedFire": "aurorasarsenal:item.ak_74m.silenced_fire"
+  }
+}

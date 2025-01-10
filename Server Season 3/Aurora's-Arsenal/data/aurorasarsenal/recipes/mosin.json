@@ -1,0 +1,24 @@
+{
+    "type": "jeg:gunmetal_workbench",
+    "result": {
+        "item": "aurorasarsenal:mosin"
+    },
+    "materials": [
+        {
+            "item": "jeg:gunmetal_ingot",
+            "count": 25
+        },
+        {
+            "item": "jeg:scrap",
+            "count": 50
+        },
+        {
+            "item": "minecraft:lever",
+            "count": 1
+        },
+        {
+            "tag": "minecraft:planks",
+            "count": 14
+        }
+    ]
+}
