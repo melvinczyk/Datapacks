@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "scarh"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "670B66A17D45840A"
+	order_index: 66
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an FN SCAR-H using a Gunnite Workbench"]
+		id: "1C20E83935E15BA3"
+		rewards: [{
+			count: 30
+			id: "6878BCD4C0C75097"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an FN SCAR-H"
+		tasks: [{
+			id: "222026EFAB98F77F"
+			item: {
+				Count: 1
+				id: "mteg:scar_h"
+				tag: {
+					AmmoCount: 20
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an FN SCAR-H"
+		x: -3.0d
+		y: -2.0d
+	}]
+	title: "FN SCAR-H"
+}

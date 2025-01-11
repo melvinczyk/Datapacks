@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "akm_custom"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "5CF1516BF5D4685E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an AKM Custom using a Gunnite Workbench"]
+		id: "14844577AF93B08E"
+		rewards: [{
+			count: 30
+			id: "74733449517F6C92"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an AKM Custom"
+		tasks: [{
+			id: "1EE52DB970EAB5F8"
+			item: {
+				Count: 1
+				id: "mteg:akm_custom"
+				tag: {
+					AmmoCount: 30
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an AKM Custom"
+		x: 0.5d
+		y: -1.5d
+	}]
+	title: "AKM Custom"
+}

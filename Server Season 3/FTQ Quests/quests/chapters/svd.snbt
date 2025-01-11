@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "svd"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "5C17307AA1C7BFB0"
+	order_index: 39
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an SVD using a Gunmetal Workbench"]
+		id: "74551D0F162796FA"
+		rewards: [{
+			count: 10
+			id: "1D5D106C4A5D207D"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an SVD"
+		tasks: [{
+			id: "2C3FC76377E01EBB"
+			item: {
+				Count: 1
+				id: "aurorasarsenal:svd"
+				tag: {
+					AmmoCount: 10
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an SVD"
+		x: 0.0d
+		y: 0.5d
+	}]
+	title: "SVD"
+}

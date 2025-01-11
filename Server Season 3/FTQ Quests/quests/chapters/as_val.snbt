@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "as_val"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "6EEA85E9D0C49F6C"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an AS VAL using a Gunnite Workbench"]
+		id: "584B71DCCADFFC7B"
+		rewards: [{
+			count: 20
+			id: "1C298E388C6658F1"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an AS VAL"
+		tasks: [{
+			id: "04BD2D708E570E41"
+			item: {
+				Count: 1
+				id: "mteg:as_val"
+				tag: {
+					AmmoCount: 20
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an AS VAL"
+		x: 0.0d
+		y: -2.0d
+	}]
+	title: "AS VAL"
+}

@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "atlantean_spear"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "0A8F0125B77CBC4F"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an Atlantean Spear by finding its blueprint and using a Blueprint Workbench"]
+		id: "3DA953B1FAD83FAE"
+		rewards: [{
+			count: 16
+			id: "383607ACD601250F"
+			item: "jeg:water_bomb"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an Atlantean Spear"
+		tasks: [{
+			id: "4BC6D2E1245DBFD4"
+			item: {
+				Count: 1
+				id: "jeg:atlantean_spear"
+				tag: {
+					AmmoCount: 6
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an Atlantean Spear"
+		x: 0.0d
+		y: -1.0d
+	}]
+	title: "Atlantean Spear"
+}

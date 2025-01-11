@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "baker_rifle"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "14D2EB42A888C042"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft a Baker Rifle using a Scrap Workbench"]
+		id: "45000A534B99727B"
+		rewards: [{
+			count: 30
+			id: "75E629B32E3022AF"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Baker Rifle"
+		tasks: [{
+			id: "487332015AF0878F"
+			item: {
+				Count: 1
+				id: "mteg:baker_rifle"
+				tag: {
+					AmmoCount: 1
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Baker Rifle"
+		x: -1.0d
+		y: -0.5d
+	}]
+	title: "Baker Rifle"
+}

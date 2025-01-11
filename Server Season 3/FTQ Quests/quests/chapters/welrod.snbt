@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welrod"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "60B9CE889653BD82"
+	order_index: 72
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft a Welrod using a Scrap Workbench"]
+		id: "67E2D9A303A5EFB4"
+		rewards: [{
+			count: 20
+			id: "64B91F2C1F9FBA00"
+			item: "jeg:pistol_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Welrod"
+		tasks: [{
+			id: "5732B4C80705E741"
+			item: {
+				Count: 1
+				id: "mteg:welrod"
+				tag: {
+					AmmoCount: 5
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Welrod"
+		x: -1.0d
+		y: -0.5d
+	}]
+	title: "Welrod"
+}

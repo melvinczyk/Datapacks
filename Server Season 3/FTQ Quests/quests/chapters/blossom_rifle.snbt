@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blossom_rifle"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "0F315621FA0D569F"
+	order_index: 10
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft a Blossom Rifle by finding its blueprint and using a Blueprint Workbench"]
+		id: "1A0AE466E6750C83"
+		rewards: [{
+			count: 30
+			id: "0BBFABAB8289FCC0"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Blossom Rifle"
+		tasks: [{
+			id: "550FFF4EF8C70FC6"
+			item: {
+				Count: 1
+				id: "jeg:blossom_rifle"
+				tag: {
+					AmmoCount: 30
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Blossom Rifle"
+		x: 0.0d
+		y: -0.5d
+	}]
+	title: "Blossom Rifle"
+}

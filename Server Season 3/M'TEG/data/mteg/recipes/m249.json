@@ -5,6 +5,10 @@
     },
     "materials": [
         {
+            "item": "minecraft:netherite_ingot",
+            "count": 3
+          },
+        {
             "item": "minecraft:repeater",
             "count": 2
         },
@@ -26,7 +30,7 @@
         },
         {
             "item": "jeg:gunnite_ingot",
-            "count": 30
+            "count": 35
         },
         {
             "item": "jeg:gunmetal_ingot",

@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "infantry_rifle"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "66C83A4C27403C3E"
+	order_index: 21
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an Infantry Rifle using a Gunmetal Workbench"]
+		id: "105D600730BE4B19"
+		rewards: [{
+			count: 30
+			id: "0266D7F905D7C7E9"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an Infantry Rifle"
+		tasks: [{
+			id: "6CD808AE053C0544"
+			item: {
+				Count: 1
+				id: "jeg:infantry_rifle"
+				tag: {
+					AmmoCount: 8
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an Infantry Rifle"
+		x: -1.5d
+		y: -2.0d
+	}]
+	title: "Infantry Rifle"
+}

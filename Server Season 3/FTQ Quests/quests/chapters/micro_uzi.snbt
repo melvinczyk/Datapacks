@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "micro_uzi"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "2FC3082C562FC0EC"
+	order_index: 61
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an Micro Uzi using a Gunmetal Workbench"]
+		id: "6C6179B8FB302875"
+		rewards: [{
+			count: 40
+			id: "11340777D8A4F430"
+			item: "jeg:pistol_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Micro Uzi"
+		tasks: [{
+			id: "0B4C50262BD78981"
+			item: {
+				Count: 1
+				id: "mteg:micro_uzi"
+				tag: {
+					AmmoCount: 20
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Micro Uzi"
+		x: -1.5d
+		y: -1.5d
+	}]
+	title: "Micro Uzi"
+}

@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "grenade_launcher"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "2B8B8171BE333AA0"
+	order_index: 17
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft a Grenade Launcher by finding its blueprint and using a Blueprint Workbench"]
+		id: "6CB83C613959C425"
+		rewards: [{
+			count: 10
+			id: "1EB0A3A2CAB7FF53"
+			item: "jeg:grenade"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Grenade Launcher"
+		tasks: [{
+			id: "73132365FF911952"
+			item: {
+				Count: 1
+				id: "jeg:grenade_launcher"
+				tag: {
+					AmmoCount: 1
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Grenade Launcher"
+		x: 0.09999999999999998d
+		y: 0.0d
+	}]
+	title: "Grenade Launcher"
+}

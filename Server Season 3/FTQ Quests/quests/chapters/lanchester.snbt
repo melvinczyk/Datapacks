@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lanchester"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "4F4EB8DF7681EFC9"
+	order_index: 50
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft a Lanchester using a Gunmetal Workbench"]
+		id: "3B0636D3D08C0A14"
+		rewards: [{
+			count: 32
+			id: "2DEE98E20DDD4562"
+			item: "jeg:pistol_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain  Lanchester"
+		tasks: [{
+			id: "3BA221B7F28FE51A"
+			item: {
+				Count: 1
+				id: "mteg:lanchester"
+				tag: {
+					AmmoCount: 32
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Lanchester"
+		x: -2.5d
+		y: -2.0d
+	}]
+	title: "Lanchester"
+}

@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "revolver"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "0F5334490367A25C"
+	order_index: 29
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft a Revolver using a Scrap Workbench"]
+		id: "560A50523C3724B9"
+		rewards: [{
+			count: 32
+			id: "25947D96910012B4"
+			item: "jeg:pistol_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Revolver"
+		tasks: [{
+			id: "0C7B0901498E3969"
+			item: {
+				Count: 1
+				id: "jeg:revolver"
+				tag: {
+					AmmoCount: 8
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Revolver"
+		x: -0.5d
+		y: -1.0d
+	}]
+	title: "Revolver"
+}

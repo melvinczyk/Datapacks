@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rpd"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "55D13B7469BE2101"
+	order_index: 31
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an RPD using a Gunnite Workbench"]
+		id: "2CDEEF94C3E26BB9"
+		rewards: [{
+			count: 100
+			id: "7674AEF44AA1C059"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an RPD"
+		tasks: [{
+			id: "3E0045302FE26CF3"
+			item: {
+				Count: 1
+				id: "aurorasarsenal:rpd"
+				tag: {
+					AmmoCount: 100
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an RPD"
+		x: -0.5d
+		y: -1.0d
+	}]
+	title: "RPD"
+}

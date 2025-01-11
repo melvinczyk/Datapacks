@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "awp"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "225827BBCF09558A"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an AWP using a Gunnite Workbench"]
+		id: "1D62217ADB4C9F5D"
+		rewards: [{
+			count: 20
+			id: "6C40D591C08C1FCE"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an AWP"
+		tasks: [{
+			id: "1E94D255841F47D0"
+			item: {
+				Count: 1
+				id: "mteg:awp"
+				tag: {
+					AmmoCount: 10
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an AWP"
+		x: -2.5d
+		y: -2.0d
+	}]
+	title: "AWP"
+}

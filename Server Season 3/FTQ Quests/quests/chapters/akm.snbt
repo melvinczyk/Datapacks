@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "akm"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "1A93BA43D3BF8A0A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an AKM using a Gunnite Workbench"]
+		id: "22099337BEA2AADB"
+		rewards: [{
+			count: 40
+			id: "67FEADF8C96FE240"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an AKM"
+		tasks: [{
+			id: "5A4AB2CCA73C988A"
+			item: {
+				Count: 1
+				id: "mteg:akm"
+				tag: {
+					AmmoCount: 40
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an AKM"
+		x: 0.0d
+		y: -1.5d
+	}]
+	title: "AKM"
+}

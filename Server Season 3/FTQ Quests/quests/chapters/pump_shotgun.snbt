@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pump_shotgun"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "5279707C0637D5D4"
+	order_index: 27
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft a Pump Shotgun using a Gunmetal Workbench"]
+		id: "3DE95DE7A3B67821"
+		rewards: [{
+			count: 16
+			id: "6CDC30691D4EC8A6"
+			item: "jeg:shotgun_shell"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Pump Shotgun"
+		tasks: [{
+			id: "3EEA6724BAD7CEC2"
+			item: {
+				Count: 1
+				id: "jeg:pump_shotgun"
+				tag: {
+					AmmoCount: 6
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Pump Shotgun"
+		x: -2.0d
+		y: -1.5d
+	}]
+	title: "Pump Shotgun"
+}

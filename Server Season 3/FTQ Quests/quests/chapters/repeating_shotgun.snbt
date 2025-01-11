@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "repeating_shotgun"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "279C7CBE3AFD1961"
+	order_index: 28
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft a Repeating Shotgun by finding its blueprint and  using a Blueprint Workbench"]
+		id: "17BCB8B15D68793C"
+		rewards: [{
+			count: 16
+			id: "39E4A799C0F096BE"
+			item: "jeg:shotgun_shell"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Repeating Shotgun"
+		tasks: [{
+			id: "47DA5D00CD9E0E32"
+			item: {
+				Count: 1
+				id: "jeg:repeating_shotgun"
+				tag: {
+					AmmoCount: 8
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Repeating Shotgun"
+		x: -1.5d
+		y: -3.0d
+	}]
+	title: "Repeating Shotgun"
+}

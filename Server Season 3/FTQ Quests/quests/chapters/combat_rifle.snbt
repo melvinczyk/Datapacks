@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "combat_rifle"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "4F0B7ECFBC120002"
+	order_index: 13
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft a Combat Rifle using a Gunnite Workbench"]
+		id: "013B1A9FDF7A4D85"
+		rewards: [{
+			count: 30
+			id: "3B901AA83AB2FDA9"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Combat Rifle"
+		tasks: [{
+			id: "5893915CC3BE189C"
+			item: {
+				Count: 1
+				id: "jeg:combat_rifle"
+				tag: {
+					AmmoCount: 30
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Combat Rifle"
+		x: 0.5d
+		y: -1.0d
+	}]
+	title: "Combat Rifle"
+}

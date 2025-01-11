@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "assault_rifle"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "6664DBB60C56D105"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an Assault Rifle using a Gunmetal Workbench"]
+		id: "3B1D4FAAFB2CF862"
+		rewards: [{
+			count: 30
+			id: "080B086EE6A3EAAE"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an Assault Rifle"
+		tasks: [{
+			id: "7E2E0CD1D8D55B4A"
+			item: {
+				Count: 1
+				id: "jeg:assault_rifle"
+				tag: {
+					AmmoCount: 30
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an Assault Rifle"
+		x: -1.0d
+		y: -0.5d
+	}]
+	title: "Assault Rifle"
+}

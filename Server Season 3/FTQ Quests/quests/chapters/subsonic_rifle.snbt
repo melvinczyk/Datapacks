@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "subsonic_rifle"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "6E49043F31BBB689"
+	order_index: 37
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft a Sub-Sonic Rifle by finding its blueprint and using a Blueprint Workbench"]
+		id: "7DFB1BFA6CEC1728"
+		rewards: [{
+			count: 20
+			id: "512654AA8B0404E7"
+			item: "minecraft:echo_shard"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Sub-Sonic Rifle"
+		tasks: [{
+			id: "30B5365073D444E4"
+			item: {
+				Count: 1
+				id: "jeg:subsonic_rifle"
+				tag: {
+					AmmoCount: 20
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Sub-Sonic Rifle"
+		x: -1.5d
+		y: -0.5d
+	}]
+	title: "Sub-Sonic Rifle"
+}

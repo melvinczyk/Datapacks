@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "m107"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "18E2B7CFDB14AC8B"
+	order_index: 23
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an M107 using a Gunnite Workbench"]
+		id: "58EF0F0DD3FA7C3C"
+		rewards: [{
+			count: 30
+			id: "7A9AF82788544410"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an M107"
+		tasks: [{
+			id: "30E0B3FA8274AB5D"
+			item: {
+				Count: 1
+				id: "mteg:m107"
+				tag: {
+					AmmoCount: 10
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an M107"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "M107"
+}

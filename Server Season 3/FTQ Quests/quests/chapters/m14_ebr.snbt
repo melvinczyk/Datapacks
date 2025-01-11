@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "m14_ebr"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "5182976DE98D31FE"
+	order_index: 53
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an M14 EBR using a Gunnite Workbench"]
+		id: "737B35AAA74D8779"
+		rewards: [{
+			count: 40
+			id: "6CA46ACE42A15A72"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an M14 EBR"
+		tasks: [{
+			id: "1D7383217D7E32BF"
+			item: {
+				Count: 1
+				id: "mteg:m14_ebr"
+				tag: {
+					AmmoCount: 20
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an M14 EBR"
+		x: -2.5d
+		y: -1.0d
+	}]
+	title: "M14 EBR"
+}

@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "light_machine_gun"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "247F2323FED9ECB3"
+	order_index: 22
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an Light Machine Gun by finding its bluepring and using a Blueprint Workbench"]
+		id: "1492B22AEF0F5062"
+		rewards: [{
+			count: 60
+			id: "4E1262DA1F4E4831"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Light Machine Gun"
+		tasks: [{
+			id: "608DDEB15CC5CF20"
+			item: {
+				Count: 1
+				id: "jeg:light_machine_gun"
+				tag: {
+					AmmoCount: 60
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Light Machine Gun"
+		x: 0.0d
+		y: -2.0d
+	}]
+	title: "Light Machine Gun"
+}

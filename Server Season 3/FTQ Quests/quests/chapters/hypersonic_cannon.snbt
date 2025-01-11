@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hypersonic_cannon"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "7F462CB169558F17"
+	order_index: 20
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft a Hyper-Sonic Cannon by finding its blueprint and using a Blueprint Workbench"]
+		id: "3EF11AD811BCD71F"
+		rewards: [{
+			count: 60
+			id: "2ED03687C1A9DE07"
+			item: "minecraft:sculk_catalyst"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Hyper-Sonic Cannon"
+		tasks: [{
+			id: "4ADC89668555CCE9"
+			item: {
+				Count: 1
+				id: "jeg:hypersonic_cannon"
+				tag: {
+					AmmoCount: 15
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Hyper-Sonic Cannon"
+		x: -2.0d
+		y: -1.5d
+	}]
+	title: "Hyper-Sonic Cannon"
+}

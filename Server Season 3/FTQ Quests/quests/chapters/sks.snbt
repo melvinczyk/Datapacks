@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sks"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "2A2FDF716EB4AE81"
+	order_index: 34
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an SKS using a Gunmetal Workbench"]
+		id: "0A2D76001A1086A0"
+		rewards: [{
+			count: 10
+			id: "40B01F162ED8C99E"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an SKS"
+		tasks: [{
+			id: "4016AD919E3DBA65"
+			item: {
+				Count: 1
+				id: "aurorasarsenal:sks"
+				tag: {
+					AmmoCount: 10
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an SKS"
+		x: 0.0d
+		y: -0.5d
+	}]
+	title: "SKS"
+}

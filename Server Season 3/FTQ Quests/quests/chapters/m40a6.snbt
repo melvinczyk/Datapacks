@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "m40a6"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "4CC3857BE5D655CA"
+	order_index: 25
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an M40A6 using a Gunnite Workbench"]
+		id: "3F935A0BF0BF4BFA"
+		rewards: [{
+			count: 10
+			id: "567A2E5AE29A7D7C"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an M40A6"
+		tasks: [{
+			id: "2DA09DFF4013D9A2"
+			item: {
+				Count: 1
+				id: "aurorasarsenal:m40a6"
+				tag: {
+					AmmoCount: 10
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a M40A6"
+		x: -0.5d
+		y: 0.0d
+	}]
+	title: "M40A6"
+}

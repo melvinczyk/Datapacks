@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "holy_shotgun"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "0514D85E1BF996DB"
+	order_index: 19
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft a Holy Shotgun using a Gunnite Workbench"]
+		id: "3551EA8B7846B61C"
+		rewards: [{
+			count: 16
+			id: "2A9E274F7EE89478"
+			item: "jeg:shotgun_shell"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Holy Shotgun"
+		tasks: [{
+			id: "42406B76BFC07148"
+			item: {
+				Count: 1
+				id: "jeg:holy_shotgun"
+				tag: {
+					AmmoCount: 8
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Holy Shotgun"
+		x: 0.0d
+		y: -1.5d
+	}]
+	title: "Holy Shotgun"
+}

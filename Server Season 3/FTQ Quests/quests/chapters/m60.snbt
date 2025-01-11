@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "m60"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "6DE1F5729160778B"
+	order_index: 57
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an M60 using a Gunnite Workbench"]
+		id: "7402470E978DE95D"
+		rewards: [{
+			count: 100
+			id: "108333EECBD02C2A"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an M60"
+		tasks: [{
+			id: "56DC478AC9400745"
+			item: {
+				Count: 1
+				id: "mteg:m60"
+				tag: {
+					AmmoCount: 100
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an M60"
+		x: -1.5d
+		y: -1.5d
+	}]
+	title: "M60"
+}

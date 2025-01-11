@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hollenfire_mk2"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "29DE84A0C9641CCB"
+	order_index: 18
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft a Hollenfire MK2 by finding its blueprint and using a Blueprint Workbench"]
+		id: "6C74FF90A620F855"
+		rewards: [{
+			count: 40
+			id: "7F9DA897D199F65F"
+			item: "jeg:blaze_round"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Hollenfire MK2"
+		tasks: [{
+			id: "288F8A395E39C887"
+			item: {
+				Count: 1
+				id: "jeg:hollenfire_mk2"
+				tag: {
+					AmmoCount: 40
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Hollenfire MK2"
+		x: -1.0d
+		y: -0.5d
+	}]
+	title: "Hollenfire MK2"
+}

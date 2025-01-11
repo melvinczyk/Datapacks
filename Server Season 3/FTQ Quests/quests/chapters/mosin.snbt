@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mosin"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "228843D8D23E8046"
+	order_index: 26
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an Mosin using a Gunmetal Workbench"]
+		id: "6BC2D95A628F61CB"
+		rewards: [{
+			count: 10
+			id: "4FA6D796FA7AB5DD"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Mosin"
+		tasks: [{
+			id: "211A3E173D2745DA"
+			item: {
+				Count: 1
+				id: "aurorasarsenal:mosin"
+				tag: {
+					AmmoCount: 10
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Mosin"
+		x: -0.5d
+		y: -0.5d
+	}]
+	title: "Mosin"
+}

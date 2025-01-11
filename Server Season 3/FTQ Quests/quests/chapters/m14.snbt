@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "m14"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "790168A22A48AC73"
+	order_index: 54
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an M14 using a Gunmetal Workbench"]
+		id: "5A99AC7CE5172B22"
+		rewards: [{
+			count: 40
+			id: "0BB4A6E86A98D5BB"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an M14"
+		tasks: [{
+			id: "628655D07316C1B5"
+			item: {
+				Count: 1
+				id: "mteg:m14"
+				tag: {
+					AmmoCount: 20
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an M14"
+		x: -1.5d
+		y: -1.0d
+	}]
+	title: "M14"
+}

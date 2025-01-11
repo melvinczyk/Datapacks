@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "glock_17"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "28046BB8DA524D06"
+	order_index: 48
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an Glock 17 using a Gunnite Workbench"]
+		id: "1C3FB7747A88C107"
+		rewards: [{
+			count: 40
+			id: "18BC189F285BEA17"
+			item: "jeg:pistol_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Glock 17"
+		tasks: [{
+			id: "36B22A0E33A66788"
+			item: {
+				Count: 1
+				id: "mteg:glock_17"
+				tag: {
+					AmmoCount: 17
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Glock 17"
+		x: -1.5d
+		y: -3.5d
+	}]
+	title: "Glock 17"
+}

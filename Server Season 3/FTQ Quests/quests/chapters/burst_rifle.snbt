@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "burst_rifle"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "58BDD118646CD6E2"
+	order_index: 12
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an Burst Rifle using a Gunnite Workbench"]
+		id: "239CD287069D1031"
+		rewards: [{
+			count: 30
+			id: "63AD65B712E86D40"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Burst Rifle"
+		tasks: [{
+			id: "38DDA573548D9D4E"
+			item: {
+				Count: 1
+				id: "jeg:burst_rifle"
+				tag: {
+					AmmoCount: 30
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Burst Rifle"
+		x: 0.0d
+		y: -0.5d
+	}]
+	title: "Burst Rifle"
+}

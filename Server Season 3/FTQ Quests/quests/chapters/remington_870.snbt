@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "remington_870"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "2C057F5EA7086177"
+	order_index: 65
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft a Remington 870 using a Gunmetal Workbench"]
+		id: "5E40460E81907096"
+		rewards: [{
+			count: 16
+			id: "51127CA20B9B655D"
+			item: "jeg:shotgun_shell"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Remington 870"
+		tasks: [{
+			id: "611F03BC710113F9"
+			item: {
+				Count: 1
+				id: "mteg:remington_870"
+				tag: {
+					AmmoCount: 6
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Remington 870"
+		x: -1.5d
+		y: -1.0d
+	}]
+	title: "Remington 870"
+}

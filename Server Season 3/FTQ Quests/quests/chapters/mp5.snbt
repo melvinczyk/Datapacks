@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mp5"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "3599BF35C5784EE5"
+	order_index: 63
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an MP5 using a Gunnite Workbench"]
+		id: "5B95264A517EF83E"
+		rewards: [{
+			count: 30
+			id: "13AE697295E42884"
+			item: "jeg:pistol_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an MP5"
+		tasks: [{
+			id: "4B08110C5FC44530"
+			item: {
+				Count: 1
+				id: "mteg:mp5"
+				tag: {
+					AmmoCount: 30
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an MP5"
+		x: -3.5d
+		y: -2.0d
+	}]
+	title: "MP5"
+}

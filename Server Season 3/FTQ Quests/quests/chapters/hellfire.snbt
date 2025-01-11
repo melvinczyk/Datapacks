@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hellfire"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "6E03611405D7B3DE"
+	order_index: 49
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an Hellfire using a Gunnite Workbench"]
+		id: "0A071D4541EC2C22"
+		rewards: [{
+			count: 36
+			id: "210210DF38511830"
+			item: "mteg:taki"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Hellfire"
+		tasks: [{
+			id: "48CB5AA0E7059CA4"
+			item: {
+				Count: 1
+				id: "mteg:hellfire"
+				tag: {
+					AmmoCount: 18
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an Hellfire"
+		x: -1.0d
+		y: -2.0d
+	}]
+	title: "Hellfire"
+}

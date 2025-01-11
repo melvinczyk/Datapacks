@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "m2_flamethrower"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "10AFA2B8C1C71769"
+	order_index: 52
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an M2 Flamethrower using a Gunnite Workbench"]
+		id: "68E60A51C9623D94"
+		rewards: [{
+			count: 30
+			id: "5DB4248317C35449"
+			item: "minecraft:lava_bucket"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an M2 Flamethrower"
+		tasks: [{
+			id: "4DEC47A251126138"
+			item: {
+				Count: 1
+				id: "mteg:m2_flamethrower"
+				tag: {
+					AmmoCount: 75
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an M2 Flamethrower"
+		x: -1.0d
+		y: -1.5d
+	}]
+	title: "M2 Flamethrower"
+}

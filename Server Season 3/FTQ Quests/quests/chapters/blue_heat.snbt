@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blue_heat"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "6BB0C6060C79092D"
+	order_index: 43
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft a Blue Heat using a Gunnite Workbench"]
+		id: "29BABE3CB0C78AAF"
+		rewards: [{
+			count: 44
+			id: "0BE1F4EF038BCA26"
+			item: "mteg:taki"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Blue Heat"
+		tasks: [{
+			id: "27BF3CEEB8A0969E"
+			item: {
+				Count: 1
+				id: "mteg:blue_heat"
+				tag: {
+					AmmoCount: 22
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Blue Heat"
+		x: -2.0d
+		y: 0.0d
+	}]
+	title: "Blue Heat"
+}

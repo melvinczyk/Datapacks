@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "m249"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "5A3ACD036439B52E"
+	order_index: 24
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an M249 using a Gunnite Workbench"]
+		id: "0B314D994F098FCB"
+		rewards: [{
+			count: 150
+			id: "04904B88D273F48C"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain an M249"
+		tasks: [{
+			id: "4ECD72AFB9B88CA0"
+			item: {
+				Count: 1
+				id: "aurorasarsenal:m249"
+				tag: {
+					AmmoCount: 150
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire an M249"
+		x: -0.5d
+		y: -1.0d
+	}]
+	title: "M249"
+}

@@ -5,6 +5,10 @@
     },
     "materials": [
         {
+            "item": "minecraft:netherite_ingot",
+            "count": 3
+          },
+        {
             "item": "minecraft:iron_ingot",
             "count": 32
         },

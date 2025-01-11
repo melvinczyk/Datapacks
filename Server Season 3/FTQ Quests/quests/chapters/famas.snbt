@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "famas"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "1393E95E08C614C2"
+	order_index: 45
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft an Famas using a Gunnite Workbench"]
+		id: "0BEF666B79AA8B4F"
+		rewards: [{
+			count: 30
+			id: "30E17916C349B573"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a Famas"
+		tasks: [{
+			id: "61FA4D6E371F2F82"
+			item: {
+				Count: 1
+				id: "mteg:famas"
+				tag: {
+					AmmoCount: 25
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a Famas"
+		x: -1.5d
+		y: -2.0d
+	}]
+	title: "Famas"
+}
