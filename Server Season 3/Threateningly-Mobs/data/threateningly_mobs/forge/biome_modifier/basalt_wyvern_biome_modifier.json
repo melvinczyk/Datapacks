@@ -1,11 +1,8 @@
 {
   "type": "forge:add_spawns",
-  "biomes": [
-    "basalt_deltas",
-    "badlands",
-    "eroded_badlands",
-    "wooded_badlands"
-  ],
+  "biomes": {
+    "type": "forge:badlands"
+  },
   "spawners": {
     "type": "threateningly_mobs:basalt_wyvern",
     "weight": 8,

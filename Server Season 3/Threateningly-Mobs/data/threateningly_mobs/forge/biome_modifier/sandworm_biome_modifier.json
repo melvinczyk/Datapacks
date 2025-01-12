@@ -1,13 +1,8 @@
 {
   "type": "forge:add_spawns",
-  "biomes": [
-    "desert",
-    "badlands",
-    "eroded_badlands",
-    "wooded_badlands",
-    "stony_peaks",
-    "stony_shore"
-  ],
+  "biomes": {
+    "type": "forge:is_desert"
+  },
   "spawners": {
     "type": "threateningly_mobs:sandworm",
     "weight": 15,

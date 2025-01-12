@@ -29,7 +29,7 @@
   },
   "projectile": {
     "advantage": "scguns:none",
-    "damage": 9.0,
+    "damage": 9.5,
     "gravity": true,
     "ejectsCasing": false,
     "item": "scguns:blaze_fuel",

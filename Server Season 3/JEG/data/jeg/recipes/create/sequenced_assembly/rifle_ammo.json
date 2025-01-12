@@ -1,0 +1,66 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "jeg:gunmetal_nugget"
+    },
+    "loops": 1,
+    "results": [
+      {
+        "item": "scguns:shotgun_shell"
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "jeg:unfinished_rifle_ammo"
+          },
+          [
+            {
+              "item": "create:copper_nugget"
+            }
+          ]
+        ],
+        "results": [
+          {
+            "item": "jeg:unfinished_rifle_ammo"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "jeg:unfinished_rifle_ammo"
+          },
+          [
+            {
+                "tag": "scguns:gunpowder_dust"
+            }
+          ]
+        ],
+        "results": [
+          {
+            "item": "jeg:unfinished_rifle_ammo"
+          }
+        ]
+      },
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "jeg:unfinished_rifle_ammo"
+          }
+        ],
+        "results": [
+          {
+            "item": "jeg:unfinished_rifle_ammo"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "jeg:unfinished_rifle_ammo"
+    }
+  }

@@ -1,0 +1,18 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "minecraft:granite"
+      }
+    ],
+    "results": [
+      {
+        "count": 2,
+        "item": "jeg:gunmetal_grit"
+      },
+      {
+        "chance": 0.3,
+        "item": "jeg:gunmetal_grit"
+      }
+    ]
+  }
