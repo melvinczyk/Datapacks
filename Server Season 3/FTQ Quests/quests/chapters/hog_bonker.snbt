@@ -1,0 +1,978 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hog_bonker"
+	group: "2E8BF1A1F4DB9EE3"
+	icon: {
+		Count: 1
+		id: "mteg:hog_bonker"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "34404B378E0C9655"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Craft an Hog Bonker using a Gunnite Workbench"]
+			id: "1AD1EF90FBC4F8AE"
+			rewards: [{
+				count: 30
+				id: "665A91201ED4C1E0"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Hog Bonker"
+			tasks: [{
+				id: "00E8833FA9ED8B24"
+				item: {
+					Count: 1
+					id: "mteg:hog_bonker"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aquire an Hog Bonker"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "66EC119AFF408EF9"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hog_bonker_damage base set 26.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4B4D689FFC57DC47"
+					title: "+0.25 Hog Bonker Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "6300683E9FA6ACC7"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1F3CC1F1CAC97A5C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "5FF0C08C2394F979"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "7773DEE2EE5FAEFD"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Hog Bonker Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "2474436C6C9FFF76"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hog_bonker_damage base set 26.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "55F039279A210881"
+					title: "+0.25 Hog Bonker Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "2D8EA940C5A91963"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7D767A41729557CC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "1D4E219469339FE2"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "09D7578FC43B4A90"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Hog Bonker Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "79B6C4489863D783"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hog_bonker_damage base set 26.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "341B2CEE440286A9"
+					title: "+0.25 Hog Bonker Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "2F2E4538494CCD12"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "79D59FF7E90C40BB"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "3E92E79A240AC0A9"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "0F6C93C8EC854CA0"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "31AC5B0F7961E5FA"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Hog Bonker Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "5100ED20ABA6B10F"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hog_bonker_damage base set 27.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7610B48B83AEFEB1"
+					title: "+0.25 Hog Bonker Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "1AEC51EEF7D3E7FC"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "08584A9A2B4B7128"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "1D195E36650FC55C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "5C8C9751EB806E69"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "562B2EFAD0798729"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "7F87AEFF0770F68E"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Hog Bonker Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "1547FE7E6AE0A8B9"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hog_bonker_damage base set 27.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0CB18E597E1A1578"
+					title: "+0.25 Hog Bonker Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "5B673BEDCE077EE2"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2292DF9FD829D1B9"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "54DE642F9D29DBD7"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7579A9EC3BD387BC"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "35DAF1EC3AF580E9"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0AAA5EFE226A859C"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "4B2AD87FF50E1E79"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Hog Bonker Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "2AFC05F4C3454313"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hog_bonker_damage base set 27.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "608AD4CD7559E237"
+					title: "+0.25  Hog Bonker Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "2CCB6F12AC7AE5E1"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3F3256A40F850103"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "296BFB1FFCF75698"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "168AEEFAD064F2B7"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3CDA479002D549F9"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "694534B7571EEDF5"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Hog Bonker Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "44008171B0E9710A"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hog_bonker_damage base set 27.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3DC0EC6CCDEBFFE0"
+					title: "+0.25 Hog Bonker Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "27ECAAE0E88259E0"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "4B3C30BD776095B4"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "035734A6CFEF11B3"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4E101D3F8248653B"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "0CF9A043EDC7D3D8"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "36C3FB4130543000"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "79148D225C6916B1"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "0E2DCBD2D2C1884A"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Hog Bonker Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "2A1FCE0E87E4FEAD"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hog_bonker_damage base set 28.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "436F971413B0921A"
+					title: "+0.25 Hog Bonker Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "2C0043D49C46BD25"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "530FAD8E9BE96964"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "280CA12A7D7B0634"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "6DF9A92AD361D44E"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "687DF2621B763DDC"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "7F9F0B67375CE01C"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "237CFCA5B40FEA30"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "218E65B096A9B75D"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "1B53C3395BC2ED53"
+					item: {
+						Count: 1
+						id: "mteg:hog_bonker"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Hog Bonker Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "7B923B466242F352"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hog_bonker_damage base set 29.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5C43FED3D5639495"
+					title: "+1 Hog Bonker Damage"
+					type: "command"
+				}
+				{
+					id: "06565E2EBF9F5B83"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "503A617CEF1CEF33"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "0CC2F237EAC1F8DD"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7EAD26CDCAA939B0"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "15FC665AC498ACC0"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "49442B5774EAEE5E"
+				item: {
+					Count: 1
+					id: "mteg:hog_bonker"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Hog Bonker Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
+	title: "Hog Bonker"
+}

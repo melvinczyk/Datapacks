@@ -4,7 +4,7 @@
 	filename: "m1_garand"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "3CA27EB3A045447F"
-	order_index: 51
+	order_index: 61
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft an M1 Garand using a Gunmetal Workbench"]

@@ -10,7 +10,7 @@
     "alwaysSpread": true,
     "fireMode": "jeg:semi_automatic",
     "gripType": "jeg:two_handed",
-    "rate": 8,
+    "rate": 6,
     "recoilAngle": 4.0,
     "recoilKick": 0.2,
     "spread": 2.0

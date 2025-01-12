@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "custom_smg"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "6AC833B1CFDBFE0C"
-	order_index: 14
+	icon: {
+		Count: 1
+		id: "jeg:custom_smg"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "54E55C7B0DDCDC77"
+	order_index: 52
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft a Custom SMG using a Scrap Workbench"]
-		id: "4B3AB3936581386D"
-		rewards: [{
-			count: 48
-			id: "6DEE999066FB0FEC"
-			item: "jeg:pistol_ammo"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Custom SMG"
-		tasks: [{
-			id: "7F07BB8B4F17EAEB"
-			item: {
-				Count: 1
-				id: "jeg:custom_smg"
-				tag: {
-					AmmoCount: 24
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Custom Smg using a Gunnite Workbench"]
+			id: "6FC5331DA7C2A15B"
+			rewards: [{
+				count: 30
+				id: "5A4C9081F4DA2439"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Custom Smg"
+			tasks: [{
+				id: "7398AC74715593EF"
+				item: {
+					Count: 1
+					id: "jeg:custom_smg"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Custom SMG"
-		x: -0.5d
-		y: -0.5d
-	}]
-	title: "Custom SMG"
+				type: "item"
+			}]
+			title: "Aquire an Custom Smg"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "238F4AF214723587"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:custom_smg_damage base set 3.05"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1BEF9B9DF1DC213E"
+					title: "+0.25 Custom Smg Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "7A9C6ABE3169D242"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2752213A494CE37E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "03718FA58CC497EC"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "1DA8616373FD92D9"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Custom Smg Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "738C371917C1C590"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:custom_smg_damage base set 3.30"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "454065406CFE226E"
+					title: "+0.25 Custom Smg Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "5D385CA3CD870DC8"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1A1048D43BA42E6E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "57BE5B596C4A3ED8"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "3AFE64F8F49FD760"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Custom Smg Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "3F098881A0293D64"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:custom_smg_damage base set 3.55"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "12C9A17DAC07E8D6"
+					title: "+0.25 Custom Smg Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "4A1595C121518A90"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2086DFE26543E876"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "54730257049F79DD"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "09E4897EA5324B91"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "41AFCFDBDE9A7608"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Custom Smg Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "0C44009BA5C08EE5"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:custom_smg_damage base set 3.80"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1FB17B5EBF420AF0"
+					title: "+0.25 Custom Smg Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "71618B0755E50244"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "1CCD0D4F0ADAD271"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "7BD4472236B399E1"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "2225D811EFD5FE92"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "26D2A61B9173207C"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "013F857168E0AB5F"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Custom Smg Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "3A5EFB5C266FFA8F"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:custom_smg_damage base set 4.30"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "75B2B7CC22143FDA"
+					title: "+0.25 Custom Smg Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "11A212C37B7ABBCC"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0D1B9A1CDBDB97C9"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5AF995F8DB852378"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2DABD7771A08D393"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "332370DAE020D89F"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6D38CC3EFF82274D"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "7773157A09BEA42A"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Custom Smg Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "79D037E589F18AF6"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:custom_smg_damage base set 4.05"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3FB0A2B33D286CA2"
+					title: "+0.25  Custom Smg Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "50A1FD1F7124540D"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "19B5EA3A1D7A283B"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "3C35920FB8EA53D8"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "1D549AFCE75C4ED0"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "12A0DCE40FF81EE1"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "122FE1E1CEAC8A4F"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Custom Smg Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "0C9A5197F87221CE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:custom_smg_damage base set 4.55"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "50632A28736B8688"
+					title: "+0.25 Custom Smg Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "289CB709EE61FD04"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "35ABED82128F7A2D"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "689FC655BABF79E2"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7B2F926F8F9EE763"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "6295E7BB92D11E33"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "7813A46105E6E4A7"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "3178E370CD7ACC9B"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "54CF1A072682CC75"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Custom Smg Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "19765ACAD9DFAE8F"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:custom_smg_damage base set 4.80"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "29C9027FAE7333D7"
+					title: "+0.25 Custom Smg Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "794ADC637F5E29DC"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "4AA4F934C842E4D9"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "360D7CBE3C01E9EB"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "5B0505FB26E420A4"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "53E8B92B78C6EB8D"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "0DAE2748E3AC81F8"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "18E7FCFB4F6A82BE"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "2198910973CD087F"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "162CA0FF264BECEA"
+					item: {
+						Count: 1
+						id: "jeg:custom_smg"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Custom Smg Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "54A0DE16F8A5214D"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:custom_smg_damage base set 5.80"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6424596DB6F5D770"
+					title: "+1 Custom Smg Damage"
+					type: "command"
+				}
+				{
+					id: "464BFB8D96C5E4FC"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "5B6879830368DD26"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "7F57A87C6B6F84E0"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0422180EFB4626FF"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "049F5E4572D453AE"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "434AA961E7A7E613"
+				item: {
+					Count: 1
+					id: "jeg:custom_smg"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Custom Smg Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
+	title: "Custom Smg"
 }

@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "uzi"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "2C0DCC274B730B35"
-	order_index: 69
+	icon: {
+		Count: 1
+		id: "mteg:uzi"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "22330E16E0C66B2B"
+	order_index: 38
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft an Uzi using a Gunnite Workbench"]
-		id: "7A284800C576231C"
-		rewards: [{
-			count: 32
-			id: "36EE26A4F0F97E87"
-			item: "jeg:pistol_ammo"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain an Uzi"
-		tasks: [{
-			id: "5610F0BE69025B09"
-			item: {
-				Count: 1
-				id: "mteg:uzi"
-				tag: {
-					AmmoCount: 32
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Uzi using a Gunnite Workbench"]
+			id: "6835DB6B6C6C13BC"
+			rewards: [{
+				count: 30
+				id: "70E2AAA8D422D871"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Uzi"
+			tasks: [{
+				id: "5F70B0732E6346F8"
+				item: {
+					Count: 1
+					id: "mteg:uzi"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire an Uzi"
-		x: -2.5d
-		y: -2.5d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Uzi"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "4E4603509CA16759"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:uzi_damage base set 5.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0040BBACB34C0869"
+					title: "+0.25 Uzi Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "517EE9787525EE45"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "6AD9DF116ED4F5C6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "21AF988497C714AB"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "0D6048ECD4FFD315"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Uzi Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "533072B8B952C1D5"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:uzi_damage base set 5.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "02D3E25194C76F0E"
+					title: "+0.25 Uzi Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "2C9BC596AE4876A5"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0F1FD3305A82B329"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "67022CC0721F870A"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "3A77DB68630064DD"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Uzi Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "0CA4030695442B6B"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:uzi_damage base set 5.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7D12F86F7723FDDB"
+					title: "+0.25 Uzi Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "5E7F9178AE28DE01"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1C36D336DD54D121"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "16A3EEB2396BFF85"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "0151695A47F34AAB"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "260871F0651CF040"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Uzi Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "305165379008D5F0"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:uzi_damage base set 6.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "651C34D46C23191B"
+					title: "+0.25 Uzi Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "196B4B5E484C270E"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "749F5BC061CB29F5"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "49BC052EA2DA4439"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "23217FD88D2DEE52"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "415A203080B8F30D"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "1ABED373200501F9"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Uzi Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "168053028A569729"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:uzi_damage base set 6.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "184EA567D512FC3C"
+					title: "+0.25 Uzi Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "444F6843BA7A506B"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3DFD2FA7B1A6FB73"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1983928CDAD48F94"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "235D79ACB200B8BB"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "68FB89BDCB8E5C33"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0CDC6F5BF09EABE1"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "19EDECDDD11D25FE"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Uzi Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "0000BAE07B8CF0EB"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:uzi_damage base set 6.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "23AD66F7849CD14B"
+					title: "+0.25  Uzi Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "0219708B14676DBF"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7A346C16E60B1BEE"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "65F2662BA02A8EAF"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "41586ECCA33F8EE1"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "40569E35CF2902BA"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "119C9254FB71715D"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Uzi Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "1CEB621CE324EBF8"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:uzi_damage base set 6.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "31F1938746E51F13"
+					title: "+0.25 Uzi Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "7ECAE43BF579A84D"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "7898FC5C2D9377FB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0EFAA02CD7FBE035"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "78A576D70AA360AE"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "5C87D32A8C731E16"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "4ED692458F9BFB9F"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "294F1890F6271CFF"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "0E189629BB27EE3A"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Uzi Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "4469EAD843DEFB0F"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:uzi_damage base set 7.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4538B429D7F0F2E6"
+					title: "+0.25 Uzi Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "130818E6E2C19C99"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "4626A2457AC0A79F"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "11FAC1BB8CA57D70"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "0E1D9FAFAA05ABE8"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "064E8F20E6374AE3"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "147B42F6D6241D19"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "24F1C914098AC7C7"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "0BB8EAF51493B917"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "4586D0DFDCE9B28C"
+					item: {
+						Count: 1
+						id: "mteg:uzi"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Uzi Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "44C9541629C3338F"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:uzi_damage base set 8.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "758B1875E3E0EE3E"
+					title: "+1 Uzi Damage"
+					type: "command"
+				}
+				{
+					id: "14AC6E42FB655365"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "406B58C953AFD37B"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "4D4B9D32A345FDF0"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7E64E7486F0BF934"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "43B6E04481EA77F4"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "6A0D7121D9A9AE9C"
+				item: {
+					Count: 1
+					id: "mteg:uzi"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Uzi Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Uzi"
 }

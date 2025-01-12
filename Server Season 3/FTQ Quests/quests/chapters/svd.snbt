@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "svd"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "5C17307AA1C7BFB0"
-	order_index: 39
+	icon: {
+		Count: 1
+		id: "aurorasarsenal:svd"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "4A740A000765B7E7"
+	order_index: 43
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft an SVD using a Gunmetal Workbench"]
-		id: "74551D0F162796FA"
-		rewards: [{
-			count: 10
-			id: "1D5D106C4A5D207D"
-			item: "jeg:rifle_ammo"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain an SVD"
-		tasks: [{
-			id: "2C3FC76377E01EBB"
-			item: {
-				Count: 1
-				id: "aurorasarsenal:svd"
-				tag: {
-					AmmoCount: 10
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an SVD using a Gunnite Workbench"]
+			id: "0E6E735C1B16A44E"
+			rewards: [{
+				count: 30
+				id: "3FE2CC720EBFAA3E"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an SVD"
+			tasks: [{
+				id: "68A455792B6082ED"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:svd"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire an SVD"
-		x: 0.0d
-		y: 0.5d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an SVD"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "76218495900A4D7D"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 15.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5A7EB3D3774E928D"
+					title: "+0.25 SVD Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "3E63AB878AD87ABB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1B9596FFF3902E77"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "31D4FF150019C786"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "2BF58B639771AD21"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "SVD Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "5A6E35F19FBFB1AD"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 15.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "17D636BEE384C7ED"
+					title: "+0.25 SVD Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "22B35787BC39DF7E"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "01B97102E0C27F50"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "30F00CAA765F0C04"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "48EF861EB9FCE625"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "SVD Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "373481A4C0170B19"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 15.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3B327C923BF984B3"
+					title: "+0.25 SVD Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "72B0EC4C67137127"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "779EBEA319A024F9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "4751B4291379D79C"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "425508935CEFEFBE"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "5182F22C88B4146A"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "SVD Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "73B46B82D89A4607"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 16.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "52B023B081C17EE7"
+					title: "+0.25 SVD Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "791B761896398108"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "07086DFFD233FF72"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "490DA798C5F490CB"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "01CAFC3DCB00FD4C"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "16664EF629F935C4"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "75CADFF669FEA33E"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "SVD Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "2F42CBFCEF854770"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 16.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "63599CBF57E6A38B"
+					title: "+0.25 SVD Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "458035CF69EF1A9B"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "61B87279E377D132"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3B20002FCCDB581D"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "54235C1A51F980DB"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "55979A377CA1E50C"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "131CD1695E7EE71E"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "35E2502116F1395F"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "SVD Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "710DE77514C87879"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 16.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "212417D161ECCAEA"
+					title: "+0.25  SVD Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "6AC709CD0E9530CE"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0F32D7A962D00173"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "29B4BFFDB1ECE79F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "02BC9E8214B9FEC3"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "224B18BB0AE1C976"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "1D1463741BD12AB0"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "SVD Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "56702D431830A5A2"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 16.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0F3FB4831D50D7EC"
+					title: "+0.25 SVD Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "00EE963E898F0B97"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "51780F954EB37D73"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "05FE69FEC9E917D6"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0250453D9A33F2D8"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "138A544C1FBFE2F3"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "4DE73F2D0D3D84ED"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "2095B4F830226933"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "0FE0C6FFA68B47B7"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "SVD Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "4C029AB534BD2474"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 17.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1C1C7948767253CA"
+					title: "+0.25 SVD Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "397C97959DA8DB85"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "1B2DF95D6E2ABE58"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7AAB2C19AC6ABE8C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "76C27779C6C684E3"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "03886D1EF54FE589"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "6393EA8E442950F3"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "00744068E28CCE4B"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "301B15E841CF9605"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "3455511574E9CAE7"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:svd"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "SVD Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "70A830DC97CBA9D6"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 18.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3C76888B419A1DDD"
+					title: "+1 SVD Damage"
+					type: "command"
+				}
+				{
+					id: "76455B7ACC6918E7"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "6BB587E57DB185D3"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "419467C3F30CCC51"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "64EA833081668808"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "7601E72149FB6EAA"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "14C9BEFEE37571FB"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:svd"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "SVD Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "SVD"
 }

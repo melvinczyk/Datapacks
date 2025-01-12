@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "revolver"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "0F5334490367A25C"
-	order_index: 29
+	icon: {
+		Count: 1
+		id: "jeg:revolver"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "14DF5CE7BAC577B9"
+	order_index: 33
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft a Revolver using a Scrap Workbench"]
-		id: "560A50523C3724B9"
-		rewards: [{
-			count: 32
-			id: "25947D96910012B4"
-			item: "jeg:pistol_ammo"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Revolver"
-		tasks: [{
-			id: "0C7B0901498E3969"
-			item: {
-				Count: 1
-				id: "jeg:revolver"
-				tag: {
-					AmmoCount: 8
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Revolver using a Gunnite Workbench"]
+			id: "648FC968F0EF8EE0"
+			rewards: [{
+				count: 30
+				id: "73CAF59FBFFCDE1B"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Revolver"
+			tasks: [{
+				id: "66A1A72928458236"
+				item: {
+					Count: 1
+					id: "jeg:revolver"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Revolver"
-		x: -0.5d
-		y: -1.0d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Revolver"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "6D3E90E49C97379C"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:revolver_damage base set 5.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2C24EAABB74EC137"
+					title: "+0.25 Revolver Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "17C11F96669017E6"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1F89974C518D58AB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "4FD4A949A75BD353"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "47507AF2AF00ADE1"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Revolver Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "0914EFCE42E36032"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:revolver_damage base set 5.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7176F953300C943E"
+					title: "+0.25 Revolver Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "6AB5FDD6D7682CA5"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1EF98A64C073389E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "04D48E28481BD1E2"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "0CDA1D8B4A3003BC"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Revolver Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "68E5B3ADEE917E13"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:revolver_damage base set 5.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "129592C4AD31F081"
+					title: "+0.25 Revolver Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "1CE0DBD5AB21B186"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1F46CD2BCFED48CA"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "5D9CCD28677B3AA4"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "2553B410BD69B9A8"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "54A14D60E89E5BA0"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Revolver Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "0B4A5EC09947E626"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:revolver_damage base set 6.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0F7FF1595D026EF9"
+					title: "+0.25 Revolver Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "7151E4A8CDACD9F6"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "210875F3757135FE"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "2B563EE25BF98E76"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "324617B72D90D725"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "0AAA7E35F5EFA31D"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "13B958A88CCA5169"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Revolver Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "3156282C5E81B664"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:revolver_damage base set 6.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3B924EA757B89B02"
+					title: "+0.25 Revolver Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "25A68035F466378D"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "05D8EB88124E40F3"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "25987BBDB3F3E902"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "40243ADFC7D7AB72"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7E26A8EACCE2D7F1"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7C3EFFF34D0BD27F"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "3BD1DFBB4E5F9EBF"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Revolver Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "5F8AA585DF80E2C2"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:revolver_damage base set 6.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "798521D4743A3686"
+					title: "+0.25  Revolver Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "0E060628C10D6614"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4CD127E2D51FE339"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "61FCB8334F30AE06"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "3006FBF128262D29"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "46D168BEB4040627"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "65EA76633AE86A6E"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Revolver Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "73B9425BC08FD44A"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:revolver_damage base set 6.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7B25E973A49890C5"
+					title: "+0.25 Revolver Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "0C54BFD9388DD14B"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "08B493813E59177A"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "643F5BFC4652D1B0"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "47DD74D37E214482"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "6A220DEC6B24F40A"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "166CB3F2032BC07F"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "43641AC67F0A7A00"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "1826CB1B7C3B07D2"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Revolver Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "5853303030FEB3EB"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:revolver_damage base set 7.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "405B3E708162DA65"
+					title: "+0.25 Revolver Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "439B2CCFB60AEEF5"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "6E23C46D7C780796"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "416AD1CCC1E33053"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "4E10A572D0F6A29B"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "119B944D797CD10E"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "6E32C88D038B8D3E"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "32645FB2072144E7"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "0D31381FEDDF9DE7"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "155023B5DE754A7D"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Revolver Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "1D64D3041DCFF06E"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:revolver_damage base set 8.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "76D29A53BA90E7A4"
+					title: "+1 Revolver Damage"
+					type: "command"
+				}
+				{
+					id: "444620B1BB649A2B"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "6D79FB90553B6716"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "77DCD22FAB96D715"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "5D6913C15FC41A2A"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "19873310C0ABC33E"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "465310134CCDD1DC"
+				item: {
+					Count: 1
+					id: "jeg:revolver"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Revolver Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Revolver"
 }

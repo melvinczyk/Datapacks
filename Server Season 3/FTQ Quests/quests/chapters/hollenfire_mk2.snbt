@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "hollenfire_mk2"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "29DE84A0C9641CCB"
+	icon: {
+		Count: 1
+		id: "jeg:hollenfire_mk2"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "51C79CCDA64639AE"
 	order_index: 18
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft a Hollenfire MK2 by finding its blueprint and using a Blueprint Workbench"]
-		id: "6C74FF90A620F855"
-		rewards: [{
-			count: 40
-			id: "7F9DA897D199F65F"
-			item: "jeg:blaze_round"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Hollenfire MK2"
-		tasks: [{
-			id: "288F8A395E39C887"
-			item: {
-				Count: 1
-				id: "jeg:hollenfire_mk2"
-				tag: {
-					AmmoCount: 40
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Hollenfire MK2 using a Gunnite Workbench"]
+			id: "0CBDBC5B72FF95DD"
+			rewards: [{
+				count: 30
+				id: "7091E1B40A094448"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Hollenfire MK2"
+			tasks: [{
+				id: "4F2EECFF995DF577"
+				item: {
+					Count: 1
+					id: "jeg:hollenfire_mk2"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Hollenfire MK2"
-		x: -1.0d
-		y: -0.5d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Hollenfire MK2"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "34EE6338241D423A"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hollenfire_mk2_damage base set 8.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1282FCCC16131EDF"
+					title: "+0.25 Hollenfire MK2 Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "4DDE39C166856748"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "58CA5DF3A4162B52"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "3E8CB4136B3B98FA"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "76A91406704F5D40"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Hollenfire MK2 Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "4554E5528F97BB64"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hollenfire_mk2_damage base set 8.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "79830158F0BF563F"
+					title: "+0.25 Hollenfire MK2 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "7BEDFDB3EB39F484"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0A533002C13D6886"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "3712D9A1FC8A7D33"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "10DDC67634DE7DBB"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Hollenfire MK2 Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "74BEBFA5D4B922AE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hollenfire_mk2_damage base set 8.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "261CFDD66252C288"
+					title: "+0.25 Hollenfire MK2 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "3D8ED46FE38AAC49"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "776A74B3B76592FB"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "4B9E318ECC2E8485"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "18EA2B16C6729C02"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "79CF2DCF82EB5E8F"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Hollenfire MK2 Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "34BB9CB37D248825"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hollenfire_mk2_damage base set 9.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0FBEDDCA127E988D"
+					title: "+0.25 Hollenfire MK2 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "1F80B8A3DC19D61A"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "0F78400E76AF4A7D"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "14BF5990430F058C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "11BC88406AEF451D"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "64EBDF08142714E7"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "4AA60A76F9E67479"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Hollenfire MK2 Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "539050BE380C65CF"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hollenfire_mk2_damage base set 9.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "68D4E1D78FEF451A"
+					title: "+0.25 Hollenfire MK2 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "7F80983647965322"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "26F1107A7361E580"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2D440573EBE6645D"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2B289E540EE4966B"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "37A9B829E042736F"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "19607BEE55EA912D"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "5C0F34E16A30BE33"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Hollenfire MK2 Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "36B12ABE05EBC544"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hollenfire_mk2_damage base set 9.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5CD1255BD3F56BCA"
+					title: "+0.25  Hollenfire MK2 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "12341C1C2B4C7CB3"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "47F76271E47D7EEF"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "3BD50154363C1764"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "605F97084C13B909"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7CE06EFCBA8BE128"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "79AEDB07C12ED7E6"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Hollenfire MK2 Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "74C596A4E897A05D"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hollenfire_mk2_damage base set 9.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "62B0DF21AADE0BE0"
+					title: "+0.25 Hollenfire MK2 Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "414BDF929A998695"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "7B27B4AF1B1FB1EB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "6954F01BEA4071F5"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5998DB04A19F4806"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "3183F53807A407AF"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "4D6F3CDD2940F1A1"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "6451022C8B05E875"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "3F3225AB3343544A"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Hollenfire MK2 Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "0740635F2EC3F8C9"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hollenfire_mk2_damage base set 10.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3D5E5DBFB736F4EA"
+					title: "+0.25 Hollenfire MK2 Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "22A0FECC729C555A"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "0749DCF667169327"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "79B465E96258A77A"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "6CAC9CB59B57DFB6"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "025DA89817E81E1D"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "5CB469F760E8CC6A"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "253B66EA0269D9A6"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "0A1C5B7514943573"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "0191B8FF05321540"
+					item: {
+						Count: 1
+						id: "jeg:hollenfire_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Hollenfire MK2 Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "366C79FA1F6E020F"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hollenfire_mk2_damage base set 11.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6F46B8A817C04564"
+					title: "+1 Hollenfire MK2 Damage"
+					type: "command"
+				}
+				{
+					id: "1786319072A2678C"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "4787A48BC743C31B"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "2B94BFF46D7E0494"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "39C27A2A41F9F076"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "358100BDF0AD3425"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "231E4D89798820FA"
+				item: {
+					Count: 1
+					id: "jeg:hollenfire_mk2"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Hollenfire MK2 Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Hollenfire MK2"
 }

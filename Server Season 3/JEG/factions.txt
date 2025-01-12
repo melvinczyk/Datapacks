@@ -1,0 +1,69 @@
+Format: faction_name|ai_difficulty|mob1,mob2...|closeGun1,closeGun2...|longGun1,longGun2...|eliteGun1,eliteGun2...
+[
+    "night_of_the_undead|1|
+    minecraft:zombie,minecraft:zombie_villager,minecraft:husk|
+    jeg:custom_smg,jeg:waterpipe_shotgun|
+    jeg:revolver|
+    jeg:double_barrel_shotgun", 
+    
+    "the_rattlers|2|
+    minecraft:skeleton,minecraft:stray|
+    jeg:custom_smg|
+    jeg:semi_auto_rifle|
+    jeg:bolt_action_rifle,jeg:semi_auto_rifle", 
+    
+    "nosy_business|3|
+    minecraft:pillager,minecraft:vindicator, |
+    jeg:pump_shotgun|
+    jeg:semi_auto_rifle,jeg:assault_rifle|
+    jeg:repeating_shotgun,jeg:service_rifle", 
+    
+    "bad_piggies|2|
+    minecraft:piglin,minecraft:piglin_brute|
+    jeg:double_barrel_shotgun,jeg:waterpipe_shotgun|
+    jeg:assault_rifle,jeg:semi_auto_rifle|
+    jeg:hollenfire_mk2", 
+    
+    "hell_hogs|3
+    |minecraft:zombified_piglin,minecraft:wither_skeleton|
+    jeg:custom_smg,jeg:waterpipe_shotgun,jeg:double_barrel_shotgun|
+    jeg:assault_rifle,jeg:semi_auto_rifle|
+    jeg:soulhunter_mk2", 
+    
+    "lost_souls|3|
+    jeg:ghoul|
+    jeg:waterpipe_shotgun,jeg:revolver|
+    jeg:custom_smg|
+    jeg:holy_shotgun,jeg:blossom_rifle",
+
+    "chaos_forces|3|
+    born_in_chaos_v1:fallen_chaos_knight,born_in_chaos_v1:missionary,born_in_chaos_v1:decaying_zombie,born_in_chaos_v1:restless_spirit,born_in_chaos_v1:scarlet_persecutor,born_in_chaos_v1:spirit_guide,born_in_chaos_v1:zombie_clown, born_in_chaos_v1:lord_pumpkinhead,born_in_chaos_v1:bonescaller,born_in_chaos_v1:supreme_bonescaller|
+    mteg:benelli_m4,mteg:micro_uzi,mteg:double_barrel|
+    mteg:m1_garand,mteg:m14,aurorasarsenal:ar_15|
+    mteg:awp,mteg:akm_custom,mteg:m16a1",
+
+    "cultists|2|
+    ba_bt:bt_cultist|
+    jeg:custom_smg,jeg:assault_rifle,jeg:revolver|
+    jeg:bolt_action_rifle,mteg:m1_garand|
+    mteg:vss_vintorez,mteg:famas",
+
+    "mutant_upgrade|4|
+    mutant_monsters:mutant_skeleton,mutant_monsters:mutant_zombie,mutant_monsters:mutant_enderman|
+    aurorasarsenal:vepr_12,mteg:uzi,mteg:lanchester,mteg:mossberg_590|
+    mteg:awp,aurorasarsenal:sr_25,mteg:as_val|
+    mteg:m60,scguns:howler,scguns:howler_conversion|scguns:combat_shotgun",
+
+    "royalty|3|
+    royalvariations:royal_skeleton,royalvariations:royal_zombie|
+    scguns:greaser_smg,scguns:scrapper|
+    jeg:bolt_action_rifle,mteg:m1_garand,mteg:vss_vintorez|
+    mteg:awp,mteg:m16a1,mteg:m14",
+
+    "bronze_gears|2|
+    scguns:cog_knight,scguns:cog_minion,scguns:sky_carrier|
+    scguns:scrapper,scguns:boomstick,scguns:bruiser|
+    scguns:llr_director,scguns:makeshift_rifle|
+    scguns:mk43_rifle,scguns:auvtomag,scguns:callwell"
+
+]

@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "blossom_rifle"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "0F315621FA0D569F"
-	order_index: 10
+	icon: {
+		Count: 1
+		id: "jeg:blossom_rifle"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "3D68A4C0922170AB"
+	order_index: 7
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft a Blossom Rifle by finding its blueprint and using a Blueprint Workbench"]
-		id: "1A0AE466E6750C83"
-		rewards: [{
-			count: 30
-			id: "0BBFABAB8289FCC0"
-			item: "jeg:rifle_ammo"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Blossom Rifle"
-		tasks: [{
-			id: "550FFF4EF8C70FC6"
-			item: {
-				Count: 1
-				id: "jeg:blossom_rifle"
-				tag: {
-					AmmoCount: 30
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Blossom Rifle using a Gunnite Workbench"]
+			id: "00DAF19BF2B7721A"
+			rewards: [{
+				count: 30
+				id: "2356860563DAD989"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Blossom Rifle"
+			tasks: [{
+				id: "7C43F5E1FEDA3DF0"
+				item: {
+					Count: 1
+					id: "jeg:blossom_rifle"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Blossom Rifle"
-		x: 0.0d
-		y: -0.5d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Blossom Rifle"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "0C5FA391C3D982B6"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blossom_rifle_damage base set 7.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7CADFFC92475376C"
+					title: "+0.25 Blossom Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "3EC646E6B0016D73"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2DD5EE247E0CC6F6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "52A6C7FBE7A730F5"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "21990913B704DC34"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Blossom Rifle Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "4EA0BFE08D77572E"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blossom_rifle_damage base set 7.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3B05F35CAE4083A4"
+					title: "+0.25 Blossom Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "319B0796A1DEBBA3"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "01807EC5266A9C40"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "373890248A61E7C1"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "331B3605248F546B"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Blossom Rifle Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "09D5766D5D06A1C1"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blossom_rifle_damage base set 7.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5003300392967333"
+					title: "+0.25 Blossom Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "01C68FA0821D491E"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "01220484F8D4369D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "2D7A1F359763038B"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "143F861117C60D15"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "70CEDA82924BD79C"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Blossom Rifle Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "3C120E3349BDEAEC"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blossom_rifle_damage base set 7.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "426E91F8093ADD5C"
+					title: "+0.25 Blossom Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "27E66F7A232BB6FE"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "119F0F142F704800"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "383D703AD91AEAD2"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "62C65AAD18261C4A"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "23448A7D78785E4C"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "04B2BFC7973C5845"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Blossom Rifle Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "1FC6A33D7B1D02FA"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blossom_rifle_damage base set 8.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2852093ABD386B2F"
+					title: "+0.25 Blossom Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "672FD51A08B071D9"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "560B7547CE7E2771"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4E4AC612826B1B10"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "3E1A7A2737EE7631"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3FEB5D9EDEE8DC1D"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "722FE863E65E1660"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "6C50331F73E93505"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Blossom Rifle Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "7196A99845FFA318"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blossom_rifle_damage base set 8.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "41ABBD946061399C"
+					title: "+0.25  Blossom Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "23006251068CF2D4"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4C941E01FA63A505"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "5630D9FE5A09331B"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "21E32308D6B5E053"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1C3FB9F6E3670538"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "1864E5B01DC046D3"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Blossom Rifle Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "17D23600FEF99648"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blossom_rifle_damage base set 8.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2105DDB60A3CA133"
+					title: "+0.25 Blossom Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "4870E70E54F0DC82"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "51411E016D71D952"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "23688C57139FE4AF"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0A394FAEBF1A525B"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "5BFC0F9AEE8D5B46"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "56C438460B4C2118"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "2F1214712DA1EBF5"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "2590939DCB59616B"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Blossom Rifle Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "46F919B8BE51CB00"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blossom_rifle_damage base set 8.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7CF1F4790F51340B"
+					title: "+0.25 Blossom Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "2518CE763B541F49"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "76CD8398BC306C7F"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "557A555688DCE157"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "3421D193C20C9F7C"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "70C091A1729B81E4"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "462D262E17616359"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3CB3B7B69750CA16"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "303772E4A76B596D"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "1AAF30C6D9AFD536"
+					item: {
+						Count: 1
+						id: "jeg:blossom_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Blossom Rifle Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "105AE3B71D2CB868"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blossom_rifle_damage base set 9.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "726333AFE2659ADA"
+					title: "+1 Blossom Rifle Damage"
+					type: "command"
+				}
+				{
+					id: "168BAE3DAB39B272"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "5F7A375466432290"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "0E47B771A668656C"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "57554BD3C332876F"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "669DAB05DE3A85B0"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "4776FCC40626783B"
+				item: {
+					Count: 1
+					id: "jeg:blossom_rifle"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Blossom Rifle Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Blossom Rifle"
 }

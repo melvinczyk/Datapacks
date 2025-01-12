@@ -4,7 +4,7 @@
 	filename: "vepr12"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "3FA4E5CC617D2F80"
-	order_index: 40
+	order_index: 56
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft a VEPR-12 using a Gunmetal Workbench"]

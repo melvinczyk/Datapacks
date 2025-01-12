@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "subsonic_rifle"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "6E49043F31BBB689"
-	order_index: 37
+	icon: {
+		Count: 1
+		id: "jeg:subsonic_rifle"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "248DA9988B9828FA"
+	order_index: 35
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft a Sub-Sonic Rifle by finding its blueprint and using a Blueprint Workbench"]
-		id: "7DFB1BFA6CEC1728"
-		rewards: [{
-			count: 20
-			id: "512654AA8B0404E7"
-			item: "minecraft:echo_shard"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Sub-Sonic Rifle"
-		tasks: [{
-			id: "30B5365073D444E4"
-			item: {
-				Count: 1
-				id: "jeg:subsonic_rifle"
-				tag: {
-					AmmoCount: 20
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Subsonic Rifle using a Gunnite Workbench"]
+			id: "010DE9EFF983317C"
+			rewards: [{
+				count: 30
+				id: "6C72CFA266050BC5"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Subsonic Rifle"
+			tasks: [{
+				id: "77FD4409A8558CB4"
+				item: {
+					Count: 1
+					id: "jeg:subsonic_rifle"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Sub-Sonic Rifle"
-		x: -1.5d
-		y: -0.5d
-	}]
-	title: "Sub-Sonic Rifle"
+				type: "item"
+			}]
+			title: "Aquire an Subsonic Rifle"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "10BDC6302DB5E22A"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:subsonic_rifle_damage base set 6.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4F99336FE7165914"
+					title: "+0.25 Subsonic Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "792EB0C62C424B34"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1BEA35C148080BDA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "6A7AD47E8A9B3D1D"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "40A0D15AB5A56003"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Subsonic Rifle Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "6DEF2C59A01649E7"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:subsonic_rifle_damage base set 6.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "359565692D56D6EE"
+					title: "+0.25 Subsonic Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "3880B1FF12B2398A"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "10093548061E1D8B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "3C42AC37D7919FBC"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "7881A408D6346AA8"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Subsonic Rifle Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "7DE853538C1C9BCA"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:subsonic_rifle_damage base set 6.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "16B60863CD1FC2B9"
+					title: "+0.25 Subsonic Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "5D24A8A0D5C9F324"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "49CEFC154F3F77F1"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "46509E00A34CA827"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "2CB48E88B27784B5"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "788C75FDB4CD2F30"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Subsonic Rifle Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "55BD94599AB484E1"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:subsonic_rifle_damage base set 7.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2AD02B5AC198EE98"
+					title: "+0.25 Subsonic Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "747F3EFAB0273A34"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "3CE0158EC7C3EF0F"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "60D0C45D410D9604"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "71C2AEC7538D6760"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "577D753894068D80"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "1CA442DD48D462D7"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Subsonic Rifle Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "600221A1C520D8D2"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:subsonic_rifle_damage base set 7.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "42835C1EC6849F11"
+					title: "+0.25 Subsonic Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "03AE04B078F87A20"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "35B3CF9C47FC160F"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5B2D8989892024D2"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "6B5CE75E0DE44355"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "190D1D520BC1DDD1"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2D98CCC6CE1AC6E7"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "68A79F8D77D0EC8C"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Subsonic Rifle Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "52499CB93D7D2999"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:subsonic_rifle_damage base set 7.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3CC407EB9DF09738"
+					title: "+0.25  Subsonic Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "5E712D8BB441562A"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "196DE1932C351BAE"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "658EF90884F25EA4"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "0A9BED0F2B428B2E"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "44B41BBC3F97205B"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "5512D78EC370C813"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Subsonic Rifle Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "12155F9E80802A3E"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:subsonic_rifle_damage base set 7.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7D903653B4D517D8"
+					title: "+0.25 Subsonic Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "1C96BC9D9FD23AC8"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "0426A6E2B2A139C0"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "55B93AAB0A417A2C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1B5AAEFB09AD177A"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "7669916E7BCF0BB0"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "07CF20D828BE4414"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "599555445865DFAD"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "098EA80B141CF75C"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Subsonic Rifle Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "73761835625541FD"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:subsonic_rifle_damage base set 8.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "681F82CBF769BD67"
+					title: "+0.25 Subsonic Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "3BA18A845C30459A"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "3D8211BE548C658D"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "4E8BE2D02DA96F19"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "3190AF623436FD83"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "3CE99518A8AB160D"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "10047034F0BD1D78"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "737109B5FEF581EF"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "75755C667228A1CA"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "0C5826B2FF20E801"
+					item: {
+						Count: 1
+						id: "jeg:subsonic_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Subsonic Rifle Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "1964E58600769EC2"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:subsonic_rifle_damage base set 9.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "478DACAFEDD6C0AE"
+					title: "+1 Subsonic Rifle Damage"
+					type: "command"
+				}
+				{
+					id: "3C6E98DF275C3F1C"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "64ABCF75411513C2"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "42C04B06CB17BB57"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "11EDE0169DDF4522"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "54AF101CFAA8ED06"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "2181232317B5677A"
+				item: {
+					Count: 1
+					id: "jeg:subsonic_rifle"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Subsonic Rifle Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
+	title: "Subsonic Rifle"
 }

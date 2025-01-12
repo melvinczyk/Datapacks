@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "blue_heat"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "6BB0C6060C79092D"
-	order_index: 43
+	icon: {
+		Count: 1
+		id: "mteg:blue_heat"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "1303DE3A93686A6E"
+	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft a Blue Heat using a Gunnite Workbench"]
-		id: "29BABE3CB0C78AAF"
-		rewards: [{
-			count: 44
-			id: "0BE1F4EF038BCA26"
-			item: "mteg:taki"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Blue Heat"
-		tasks: [{
-			id: "27BF3CEEB8A0969E"
-			item: {
-				Count: 1
-				id: "mteg:blue_heat"
-				tag: {
-					AmmoCount: 22
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Blue Heat using a Gunnite Workbench"]
+			id: "0EC836F89BE5A9A6"
+			rewards: [{
+				count: 30
+				id: "16F104F1F35FB62B"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Blue Heat"
+			tasks: [{
+				id: "4099A977A7DAF85F"
+				item: {
+					Count: 1
+					id: "mteg:blue_heat"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Blue Heat"
-		x: -2.0d
-		y: 0.0d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Blue Heat"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "2FFDB341635F107A"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blue_heat_damage base set 5.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5CF95F8593115BEE"
+					title: "+0.25 Blue Heat Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "06AEE6FB2A2A7381"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "297D38A5E2172F7C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "7C4EB90BBA53FC8E"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "6B4158BAB80E1A60"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Blue Heat Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "4E314723A2E1CEA4"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blue_heat_damage base set 5.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "31A3DF639EE0CA1D"
+					title: "+0.25 Blue Heat Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "71347AA16E936409"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0D498A64A8FBDF6A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "50E6B8AED87E347D"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "48F94B0788E0CC79"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Blue Heat Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "23A5D6EBE2A1F70C"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blue_heat_damage base set 5.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "649E353B883A5948"
+					title: "+0.25 Blue Heat Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "1E7505F3EB735668"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "229759ED8964B671"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "1BB176AC24E1CC0A"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "5F22DC3C9EBD7E56"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "697A3147DC2328C6"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Blue Heat Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "121EC42264738498"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blue_heat_damage base set 6.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5A96057E5245FE14"
+					title: "+0.25 Blue Heat Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "4D454C3606B5F533"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "54ED92D0849C217D"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "5D664E615754D759"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "32C25AE2CFA3F22D"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "0B24FC90D329781D"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "58EF50659A7A71D9"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Blue Heat Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "68E73D1EF79D453D"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blue_heat_damage base set 6.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3DB3BB4D3451CC6F"
+					title: "+0.25 Blue Heat Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "11EF426EB441B2C9"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "07DF3C9836C7BF3B"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3E9A0A94CCB56342"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "454159553BD4FF8B"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2A550FAEF1FEB048"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0E569CD5A851EEC6"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "7F40674DDE749307"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Blue Heat Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "29346D705C7BF126"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blue_heat_damage base set 6.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "094553A9524F4C15"
+					title: "+0.25  Blue Heat Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "342FF59A62D70A18"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "03510FBA1F6864FA"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "42F5B7BA60445FB6"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "5BC1A4D4BD5B072A"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3F3158AF11C84028"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "002D9D0AD7AD6022"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Blue Heat Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "47EBF11B9103679D"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blue_heat_damage base set 6.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7B7414660ACD6210"
+					title: "+0.25 Blue Heat Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "40D9DFC899CD2C01"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "307FB383076DAF61"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2C2C59DAE86E6EEF"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "74F1E01DAFB36346"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "589927ADDB3A8905"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "7ED17498822B5D91"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "4D2B2596CAC10A4B"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "229D20484048C131"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Blue Heat Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "2C9975F5611FA8D0"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blue_heat_damage base set 7.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0634111BFBD78A42"
+					title: "+0.25 Blue Heat Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "18154F1076F7B147"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "1898B88564FDD667"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "50AC86DBBC865486"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "70C77493B019EF21"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "227A4736E52EBE17"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "658D6F743E049A5C"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3C8634C234D80953"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "0DF8F1D7E4F3890D"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "4A2DEF8B381D553D"
+					item: {
+						Count: 1
+						id: "mteg:blue_heat"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Blue Heat Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "1E15F0B359B76F31"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:blue_heat_damage base set 8.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "026085DF5276052C"
+					title: "+1 Blue Heat Damage"
+					type: "command"
+				}
+				{
+					id: "625EDBF4FD2BAED6"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "5988D209593ADBB0"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "0DB780A9C7E7D639"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "19F1C8B8FF114283"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "49C4D8BA31E81432"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "028A3A7B6F5DCC12"
+				item: {
+					Count: 1
+					id: "mteg:blue_heat"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Blue Heat Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Blue Heat"
 }

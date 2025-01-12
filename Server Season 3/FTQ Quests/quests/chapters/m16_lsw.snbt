@@ -4,7 +4,7 @@
 	filename: "m16_lsw"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "0413F582D1218008"
-	order_index: 55
+	order_index: 65
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft an M16 LSW using a Gunnite Workbench"]

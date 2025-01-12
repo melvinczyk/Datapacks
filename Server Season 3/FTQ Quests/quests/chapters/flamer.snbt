@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "flamer"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "3C1F029FAEAE305D"
-	order_index: 46
+	icon: {
+		Count: 1
+		id: "mteg:flamer"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "403E55A313064985"
+	order_index: 9
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft an Flamer using a Gunnite Workbench"]
-		id: "46A531C2AFD49B58"
-		rewards: [{
-			count: 30
-			id: "4860F4D1B9D298B3"
-			item: "minecraft:lava_bucket"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Flamer"
-		tasks: [{
-			id: "2D71F4AF52F9A853"
-			item: {
-				Count: 1
-				id: "mteg:flamer"
-				tag: {
-					AmmoCount: 75
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Flamer using a Gunnite Workbench"]
+			id: "3AFC8312E10C9C1D"
+			rewards: [{
+				count: 30
+				id: "58AF36B6172E9D97"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Flamer"
+			tasks: [{
+				id: "137F0EC1E8E3EB2C"
+				item: {
+					Count: 1
+					id: "mteg:flamer"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Flamer"
-		x: -0.5d
-		y: -0.5d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Flamer"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "7C426298C70725D0"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:flamer_damage base set 2.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2B645573075341D6"
+					title: "+0.25 Flamer Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "6FCF3F1C9A127E3C"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "76ACD24E083F8162"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "36EFEB36FAF93947"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "1A52AE5FBEACED41"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Flamer Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "146FF552D43B1DA0"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:flamer_damage base set 2.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "48161CB68D2699B1"
+					title: "+0.25 Flamer Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "2F34832C81F96FDC"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "49F52E6C2FB1D86F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "2E4AF49E4FD5A239"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "324D1B5575DABB3B"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Flamer Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "09600794A3F2A456"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:flamer_damage base set 2.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "182DF35ECB4BB808"
+					title: "+0.25 Flamer Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "5A8A7884BE6381D7"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1C1451031D190ADF"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "3ED2CFD5DD4B7DF7"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "6395B36D0853E303"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "60429D13B7ECFC4A"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Flamer Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "2688988670D455DF"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:flamer_damage base set 3.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2080390F9691FA1E"
+					title: "+0.25 Flamer Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "40998AA95AFC112D"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "35C170A8489576FD"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "61CE182D902D51A6"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "5C4F06BA780941BA"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "7B57062C77C5149F"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "6A7D2DB32BDA06BD"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Flamer Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "2BBA907BA8543720"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:flamer_damage base set 3.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "71057759D415B991"
+					title: "+0.25 Flamer Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "678D4EDBA149F845"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3E49AB29D3C9F8CE"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3EF66A6FFCF4AC8B"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "3EE0E0880F1DC272"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "05BF62C18F4C30DC"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "64592D35CADBFC7A"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "366E48784D51040B"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Flamer Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "6197DE16A5B441A1"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:flamer_damage base set 3.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0523B81A667AF517"
+					title: "+0.25  Flamer Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "262433FCC50D9937"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "69CD2A5A33D7507C"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "4D5315B340AC45CB"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "722E18FB443AD622"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0469BCF0665CB26E"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "4BB7000761B1E76A"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Flamer Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "3385A2920BE0AA5D"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:flamer_damage base set 3.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "468A01D1AF8ABAB5"
+					title: "+0.25 Flamer Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "3ECB4FB13E2FB278"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "700BAB40DE86D6E5"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "472A081C0E036F1D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1DBAF370852F9517"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "76356ED3BC93F1C6"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "10849A4F3188098D"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "774D964C51F8ECFF"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "5D5FDB9BDF1E7FAF"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Flamer Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "53BC61813DD44855"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:flamer_damage base set 4.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "21E56C8C981C48CD"
+					title: "+0.25 Flamer Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "2DC4A271762A6E0A"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "607CC3C17B900807"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "04EFF19143763873"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "6EDCB0A5FB4408E9"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "167B828B8F3BD949"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "775A5C9198A1FB63"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5FF81E23B36BC484"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "5730D5373AFBD077"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "129A2995045AEFDD"
+					item: {
+						Count: 1
+						id: "mteg:flamer"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Flamer Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "41512A28DD7B8543"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:flamer_damage base set 5.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "79C2294B4100E6E8"
+					title: "+1 Flamer Damage"
+					type: "command"
+				}
+				{
+					id: "6883E95C0EE72A02"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "50D5AB8DB514FFC9"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "26CF5EE0DC1636C1"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "5568F8E14B18921D"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "31D156475E335921"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "031C023B1399C2D9"
+				item: {
+					Count: 1
+					id: "mteg:flamer"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Flamer Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Flamer"
 }

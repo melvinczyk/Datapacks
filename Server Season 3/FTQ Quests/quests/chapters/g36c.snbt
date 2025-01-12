@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "g36c"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "39CAF68C92B6F1AE"
-	order_index: 47
+	icon: {
+		Count: 1
+		id: "mteg:g36c"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "4F3EDF923A555002"
+	order_index: 10
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft an G36C using a Gunnite Workbench"]
-		id: "724EBF737688378F"
-		rewards: [{
-			count: 30
-			id: "484DA200580EC080"
-			item: "jeg:rifle_ammo"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain an G36C"
-		tasks: [{
-			id: "7B862C31468E9066"
-			item: {
-				Count: 1
-				id: "mteg:g36c"
-				tag: {
-					AmmoCount: 30
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an G36C using a Gunnite Workbench"]
+			id: "40B51170E5C95091"
+			rewards: [{
+				count: 30
+				id: "3816E1B684A7A575"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an G36C"
+			tasks: [{
+				id: "14A89A3151C3472D"
+				item: {
+					Count: 1
+					id: "mteg:g36c"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire an G36C"
-		x: -2.5d
-		y: -2.0d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an G36C"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "57AB0877E2BAD261"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g36c_damage base set 6.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7AE131266960331D"
+					title: "+0.25 G36C Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "16EDCBD5807AE7FD"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "762664C1D1FC642D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "1917396F709FEB9D"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "69FEFCD410B6D8D6"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "G36C Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "35BE6E90E78DA31B"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g36c_damage base set 6.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "66DA0601A40E1E89"
+					title: "+0.25 G36C Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "2F8E658C45D0028D"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "772160E0DAD76E57"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "2385B1305758ED91"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "3FD50C577D161262"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "G36C Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "3C70DD1703B3AC80"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g36c_damage base set 6.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3F359C275E76332A"
+					title: "+0.25 G36C Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "76AD6FC2A4792CD6"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "4787F6A21EA0110F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "7E9F2830B9976CF3"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "3F5BE3C88FE3BDF4"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "54CD7BDD0B01F19A"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "G36C Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "48FC3DF6AF3BF899"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g36c_damage base set 7.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "470285CB3E63591B"
+					title: "+0.25 G36C Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "44A5233B51CB45EB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "11AB804213871269"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "00429DEC3A885A11"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "04A922F4AE1FE266"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "70CD8E7FAC2539EA"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "336921455D723A79"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "G36C Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "2239840CA18AB15D"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g36c_damage base set 7.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "18B630460BCABFDC"
+					title: "+0.25 G36C Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "28718C28E8600A16"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7F1A330BF5741315"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "340486C70BC466AF"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "33E3CF4FEEE4A7DD"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2987935B664B1E62"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7451FECCDF519627"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "47A2E526E1C0ECD5"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "G36C Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "78E3ABE422EF2AE4"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g36c_damage base set 7.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "62436F3A451E02A5"
+					title: "+0.25  G36C Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "66F61409BBDC14E8"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "412CC6E0581C5B10"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7ABFD2EC23809443"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "4A79AF730C3324B8"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1A2425F4406249A9"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "598736254CC7BA1A"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "G36C Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "3DCFD2E3A4F71AE5"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g36c_damage base set 7.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5099A83B39E502ED"
+					title: "+0.25 G36C Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "417698B1E6B87509"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "09F2EFB1E82D2C0A"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1B4417FE8E602481"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "700CE390D17B1C7D"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "66097A8E209CD029"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "7690A1A6A6F7E07E"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "780E0A263C8D6BAC"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "1D0501AB333C7D16"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "G36C Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "46EC5F59E0460781"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g36c_damage base set 8.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6C50825FCE555616"
+					title: "+0.25 G36C Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "1EA5A02BB06678FD"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "3E83397E36A163D4"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "22BC3BC619205075"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "26FD86CA02202539"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "45E5BF610E8280C6"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "0232113752AB6ACE"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7AE26DE6C85DB707"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "1F075A2296248CA3"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "7CF8C87B157CE7DC"
+					item: {
+						Count: 1
+						id: "mteg:g36c"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "G36C Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "2970D3844D0BBC1B"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g36c_damage base set 9.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4DB33E585D58162F"
+					title: "+1 G36C Damage"
+					type: "command"
+				}
+				{
+					id: "21A41D8A8D655C14"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "4B8A020CC5133639"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "2E87B97EE857A6FD"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "5DD166000BE253A4"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "2D2412701DCEF60F"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "474A41C2787FCD43"
+				item: {
+					Count: 1
+					id: "mteg:g36c"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "G36C Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "G36C"
 }

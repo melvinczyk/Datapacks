@@ -4,7 +4,7 @@
 	filename: "m2_flamethrower"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "10AFA2B8C1C71769"
-	order_index: 52
+	order_index: 62
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft an M2 Flamethrower using a Gunnite Workbench"]

@@ -4,7 +4,7 @@
 	filename: "ppsh_41"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "3B3C6F5E95608C42"
-	order_index: 64
+	order_index: 73
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft an PPSh-41 using a Gunmetal Workbench"]

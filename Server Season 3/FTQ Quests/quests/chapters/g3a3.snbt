@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "g3a3"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "13995D3360CE1D83"
-	order_index: 16
+	icon: {
+		Count: 1
+		id: "aurorasarsenal:g3a3"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "208D003F248F8B38"
+	order_index: 8
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft an AR-15 using a Gunmetal Workbench"]
-		id: "5595DD5900731550"
-		rewards: [{
-			count: 20
-			id: "628E881E88BB35F5"
-			item: "jeg:rifle_ammo"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain an AR-15"
-		tasks: [{
-			id: "0284623C9239BD74"
-			item: {
-				Count: 1
-				id: "aurorasarsenal:g3a3"
-				tag: {
-					AmmoCount: 20
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an G3A3 using a Gunnite Workbench"]
+			id: "369F67C1E98BADE4"
+			rewards: [{
+				count: 30
+				id: "3656ECEF3CABD82A"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an G3A3"
+			tasks: [{
+				id: "53B170A4F366E0C9"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:g3a3"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a G3A3"
-		x: -0.5d
-		y: -1.0d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an G3A3"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "1BAD84C3EA829F59"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g3a3_damage base set 9.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "50BFD795F1A66E81"
+					title: "+0.25 G3A3 Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "2D980BCF20643F3F"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "71C8BC84DAE7A943"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "0878EF16498C6460"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "3747566FDC1789AC"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "G3A3 Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "4B828AAD0F626499"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g3a3_damage base set 9.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0BB54F5998EA3B14"
+					title: "+0.25 G3A3 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "0A23ED7FBA900F4C"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7ECA0309B95756A8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "2FEE5CA953AB3DF0"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "15C7BDE7C28A91BF"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "G3A3 Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "52100022E9A2FE57"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g3a3_damage base set 9.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "19E3451ADDB26959"
+					title: "+0.25 G3A3 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "1D86D264971AA948"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "54AE05D6BA17E827"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "3C6D89946A1096FB"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "12DF24C6169E71C0"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "0178B932D1CA3F0F"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "G3A3 Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "676B6DA39952D004"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g3a3_damage base set 10.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "43893799786FA742"
+					title: "+0.25 G3A3 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "5E6432055E9F51FE"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "0D51BA649E261F01"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "61EB6F06DA2A87D3"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "6014943F1985B7AC"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "220D08B461B50DED"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "24C401813A7C4E8C"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "G3A3 Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "35FE0AED0A6B3173"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g3a3_damage base set 10.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4FC1887A7A42EBA7"
+					title: "+0.25 G3A3 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "08052D6488018FD2"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1C81665FF9376988"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "78910364F07375A8"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "38C29ED9DD35B655"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3CD8A46AECF5D33F"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "66539116ACB4E0C8"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "5540FC9042AF8252"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "G3A3 Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "1322F6A588A6E4DE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g3a3_damage base set 10.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1709D68A553E88DD"
+					title: "+0.25  G3A3 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "1253CDA4B56EEFCB"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "03DAD80187FABCBC"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "07508C36BD0DD119"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "33B3C387C31C99C0"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "186D6440827991DD"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "401A5966254335E3"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "G3A3 Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "01DDD5B28A27C2B8"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g3a3_damage base set 10.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "62D06CB2A44D5BE7"
+					title: "+0.25 G3A3 Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "31D97E8F5D5C6DEE"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "2E3C0B953E5B2214"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7C1C9906106FE9BC"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "23518CE689E018A3"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "71B4B4202B9AC634"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "1FAC519D4B1642D3"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "28A7498B6F0B948C"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "089036EEC37036F7"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "G3A3 Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "0DC39B052774435E"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g3a3_damage base set 11.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5C3C0CB6E6ADF943"
+					title: "+0.25 G3A3 Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "5C5DBCDF583AF6AE"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "65C0CA21695D6B03"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "50E6468CFD8782B1"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "20F3E868D3B34D48"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "60A5A63FD0CC70E8"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "50DFE1C2E822A5BF"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2F0B23F6A05E4A41"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "6CB2E5D43D161D3D"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "1912E90FB46797FA"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:g3a3"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "G3A3 Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "2F282F860BCA4632"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:g3a3_damage base set 12.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "33C8AC1B458BDF47"
+					title: "+1 G3A3 Damage"
+					type: "command"
+				}
+				{
+					id: "24768A58C690F6D1"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "1811B49E3D3CD9FE"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "59339F18244E6A23"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1B0DE9086A239314"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "25622E415BD6A31B"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "649CF4A7E507FF65"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:g3a3"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "G3A3 Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "G3A3"
 }

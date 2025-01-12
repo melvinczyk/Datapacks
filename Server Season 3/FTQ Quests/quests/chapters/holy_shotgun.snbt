@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "holy_shotgun"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "0514D85E1BF996DB"
-	order_index: 19
+	icon: {
+		Count: 1
+		id: "jeg:holy_shotgun"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "6EF4371B9628B18F"
+	order_index: 17
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft a Holy Shotgun using a Gunnite Workbench"]
-		id: "3551EA8B7846B61C"
-		rewards: [{
-			count: 16
-			id: "2A9E274F7EE89478"
-			item: "jeg:shotgun_shell"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Holy Shotgun"
-		tasks: [{
-			id: "42406B76BFC07148"
-			item: {
-				Count: 1
-				id: "jeg:holy_shotgun"
-				tag: {
-					AmmoCount: 8
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Holy Shotgun using a Gunnite Workbench"]
+			id: "3A323A10749EBD6B"
+			rewards: [{
+				count: 30
+				id: "3AFC591FB30BE7B5"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Holy Shotgun"
+			tasks: [{
+				id: "1C34EC92D54FE3F9"
+				item: {
+					Count: 1
+					id: "jeg:holy_shotgun"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Holy Shotgun"
-		x: 0.0d
-		y: -1.5d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Holy Shotgun"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "33A5EE5DEF59A488"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:holy_shotgun_damage base set 20.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5C24337A26C1AA84"
+					title: "+0.25 Holy Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "0F2DD832637A3C02"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2D038A886674E999"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "7C01DA405583188C"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "65D91E27056C6FB9"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Holy Shotgun Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "266894DFCAF3BF1D"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:holy_shotgun_damage base set 20.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "701D0026395F2ECB"
+					title: "+0.25 Holy Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "0DEBE10D7639C878"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "33A8A26EC31239D7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "512C96CE79D7B239"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "34860FA2F6ACBDDD"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Holy Shotgun Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "7E0F79910F3A686F"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:holy_shotgun_damage base set 20.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2B636BA37FED943D"
+					title: "+0.25 Holy Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "11D3E139BEB559D4"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "658EEB67B4C3CB7E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "1B70BFBC7CB53702"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "4FCA4790381B310B"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "32249DE219DB677B"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Holy Shotgun Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "0523B5479C57CDAA"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:holy_shotgun_damage base set 21.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0E35677B5097339B"
+					title: "+0.25 Holy Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "53CBEBF187AC7BD8"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "51623F21562B19CC"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "7F4E8B0641CAA8D8"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "0149C50CD504F267"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "4F6170D8B9B4C621"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "1537D0619D4D50F1"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Holy Shotgun Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "2FC11F190A94B714"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:holy_shotgun_damage base set 21.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2B6BE38A605EF530"
+					title: "+0.25 Holy Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "2F0E680E2089B4EC"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "537F55B87A1A0952"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "05A3F93C9929B23B"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "799B7DB5C96DBAED"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2618148E8667FDA8"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3911F87691FBF957"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "1CB14A3C1D7764B1"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Holy Shotgun Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "21E119B7A027458D"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:holy_shotgun_damage base set 21.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6225187255E04068"
+					title: "+0.25  Holy Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "39F4452911052057"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1FFBEDC8002F8ABB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "084C89AF98AE81CC"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "20C560DB92EEC218"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "639EFEC2F6685417"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "642B5322395F3C7D"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Holy Shotgun Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "0E5127DB8B8526A5"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:holy_shotgun_damage base set 21.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "579C823DEDEC67EB"
+					title: "+0.25 Holy Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "5DE9465AC6CA0807"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "325E4B3974422C9E"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "3D3F448DB200490C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "252CCC5F3A013126"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "26D67E04C4005CBD"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "12BCAB8125931A1D"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "441DE338C4899EFC"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "0288535286942028"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Holy Shotgun Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "7A0A7328F7FA2096"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:holy_shotgun_damage base set 22.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5090A2D8FD5340BE"
+					title: "+0.25 Holy Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "101A332CFF270B4E"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "0759B4D1D6E55C76"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "208E3A8224DDB01A"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "49A11B3C8BE99739"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "048D2C7B29FB9FA6"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "77E36CE57927FA93"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6A581985FAEA234A"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "4D6A31CA1C570DB5"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "2A3EC42A78057BCD"
+					item: {
+						Count: 1
+						id: "jeg:holy_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Holy Shotgun Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "312769DD0039BB73"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:holy_shotgun_damage base set 23.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "66808B2FA0777952"
+					title: "+1 Holy Shotgun Damage"
+					type: "command"
+				}
+				{
+					id: "5CEB8F3A7BDB7D61"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "15A0132640339983"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "0668CB4367534D89"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "64038E924B88D2B0"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "6B2A6ED187499036"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "20DC663D1BB00765"
+				item: {
+					Count: 1
+					id: "jeg:holy_shotgun"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Holy Shotgun Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Holy Shotgun"
 }

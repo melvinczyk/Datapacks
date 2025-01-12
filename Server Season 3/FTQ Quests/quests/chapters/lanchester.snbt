@@ -4,7 +4,7 @@
 	filename: "lanchester"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "4F4EB8DF7681EFC9"
-	order_index: 50
+	order_index: 60
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft a Lanchester using a Gunmetal Workbench"]

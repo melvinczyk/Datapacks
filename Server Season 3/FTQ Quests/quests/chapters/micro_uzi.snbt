@@ -4,7 +4,7 @@
 	filename: "micro_uzi"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "2FC3082C562FC0EC"
-	order_index: 61
+	order_index: 70
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft an Micro Uzi using a Gunmetal Workbench"]

@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "soulhunter_mk2"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "7F5BC806161AE2DB"
-	order_index: 35
+	icon: {
+		Count: 1
+		id: "jeg:soulhunter_mk2"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "23041C3795BA6A7D"
+	order_index: 44
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft an Soulhunter MK2 by finding its blueprint and using a Blueprint Workbench"]
-		id: "3BD0C799ED334394"
-		rewards: [{
-			count: 32
-			id: "268EE3D0A36961ED"
-			item: "jeg:blaze_round"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Soulhunter MK2"
-		tasks: [{
-			id: "636380B3AB1B49DB"
-			item: {
-				Count: 1
-				id: "jeg:soulhunter_mk2"
-				tag: {
-					AmmoCount: 30
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Soulhunter MK2 using a Gunnite Workbench"]
+			id: "6B65A87D821801A8"
+			rewards: [{
+				count: 30
+				id: "2045D5ADCB50E4DD"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Soulhunter MK2"
+			tasks: [{
+				id: "0E2CC17BEF8B47AF"
+				item: {
+					Count: 1
+					id: "jeg:soulhunter_mk2"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Soulhunter MK2"
-		x: -0.5d
-		y: -1.0d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Soulhunter MK2"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "135BF347846F6B8A"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:soulhunter_mk2_damage base set 9.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "54F50FAA864332AC"
+					title: "+0.25 Soulhunter MK2 Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "2101934D6388975E"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "5E01EE36CCB2EBA0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "238E0AE2BE70D235"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "05D198F5E6F0572A"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Soulhunter MK2 Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "46DFB4FF489619D8"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:soulhunter_mk2_damage base set 9.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "79E6EAE9970EF746"
+					title: "+0.25 Soulhunter MK2 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "32DDED280AE22C0A"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "3CBF9B027E3A0ECF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "47966F06CC275C6D"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "38C9E5C533393C44"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Soulhunter MK2 Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "23004DC132484F76"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:soulhunter_mk2_damage base set 9.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7FE36435D9F3A853"
+					title: "+0.25 Soulhunter MK2 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "31AF094DBB96C1D5"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0FC67AD0E5B97304"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "642A89C3B5BC76E0"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "17D6944B1779E15B"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "1286FA8BB2F6D077"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Soulhunter MK2 Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "6B32D6BA3167862D"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:soulhunter_mk2_damage base set 10.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2F9118F434CD2AEA"
+					title: "+0.25 Soulhunter MK2 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "54ACCE036890B4D1"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "42A0B315E82ECCC3"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "186D67E6902FB34A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "53E945CD01C14F3C"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "5BB5FFFBA08C3CEF"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "74EC50E91B965867"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Soulhunter MK2 Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "5E405D121FF2BE91"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:soulhunter_mk2_damage base set 10.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "45F9DD3C0E954475"
+					title: "+0.25 Soulhunter MK2 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "34AD606B44A8E78F"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0D2B67B24A7E4468"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "65DD03AA6718D9AF"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "48B245BC4D266FDE"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "414A807275C33AF5"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "690341709736BE63"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "6E68AADB5705DD15"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Soulhunter MK2 Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "5C6CB9F5516A5CA1"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:soulhunter_mk2_damage base set 10.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0171D4441CEFC67B"
+					title: "+0.25  Soulhunter MK2 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "1A2C79BC49C1D9E4"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4C8721E36417E4BB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "547675F794C499E0"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "57557687C9A2306D"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4A46CBF6E30F416A"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "6174655F1E627EA3"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Soulhunter MK2 Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "16D1ABB2A411C6F9"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:soulhunter_mk2_damage base set 10.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5DD4434211AF0544"
+					title: "+0.25 Soulhunter MK2 Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "01E8B972DB3EF09E"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "06FF4344E8698203"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2B9C4FBC24ADCABB"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "709A71DCA1D2F769"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "5A45A69DAE138D2A"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "5AB1BC83D66AD1AC"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "6122AD720DF39A13"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "6627C87C5303D7A6"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Soulhunter MK2 Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "08F1B9B8A1CC40DB"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:soulhunter_mk2_damage base set 11.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "590A2B6EFEF1C535"
+					title: "+0.25 Soulhunter MK2 Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "06A77DA63A822C6C"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "41860A619085414B"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "251CDE48AF8BDECF"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "2D666D300960625F"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "62D4B7C68BA68E57"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "06DADC23B9590D66"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "580650DB85F58C3F"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "30B4CC619F1BC37C"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "08D9CB5C6A8A3E7A"
+					item: {
+						Count: 1
+						id: "jeg:soulhunter_mk2"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Soulhunter MK2 Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "2C6E5058826A5964"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:soulhunter_mk2_damage base set 12.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "33226609B582155C"
+					title: "+1 Soulhunter MK2 Damage"
+					type: "command"
+				}
+				{
+					id: "25B820ABA8E41BE2"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "412045F7DC973BBE"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "587636B05F049050"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0F53DD4CF2C4E4E6"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "77AC76FB868BD340"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "64F79B3D5F633666"
+				item: {
+					Count: 1
+					id: "jeg:soulhunter_mk2"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Soulhunter MK2 Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Soulhunter MK2"
 }

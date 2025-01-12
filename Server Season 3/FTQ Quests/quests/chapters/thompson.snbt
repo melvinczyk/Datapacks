@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "thompson"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "29300608E795946B"
-	order_index: 68
+	icon: {
+		Count: 1
+		id: "mteg:thompson"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "08C70E28015F1749"
+	order_index: 41
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft an Thompson using a Gunmetal Workbench"]
-		id: "562CB522BB3A2D50"
-		rewards: [{
-			count: 40
-			id: "5F04E846B8E1125F"
-			item: "jeg:pistol_ammo"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Thompson"
-		tasks: [{
-			id: "4FB2BE6AEF649E0D"
-			item: {
-				Count: 1
-				id: "mteg:thompson"
-				tag: {
-					AmmoCount: 20
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Thompson using a Gunnite Workbench"]
+			id: "637876B0AE83C24E"
+			rewards: [{
+				count: 30
+				id: "2C94648B63550AF2"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Thompson"
+			tasks: [{
+				id: "5D7508CA6ADEE465"
+				item: {
+					Count: 1
+					id: "mteg:thompson"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Thompson"
-		x: -2.0d
-		y: -2.0d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Thompson"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "4901FCE311E7ADAA"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:thompson_damage base set 6.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0883BAFDB0B5D2B8"
+					title: "+0.25 Thompson Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "045690609C808559"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0801FAEA65E3442D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "76DC6795C8C20268"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "28C0649CC6DC2DBD"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Thompson Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "7BDF12263E3E32A3"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:thompson_damage base set 6.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "774E06C96A7E22C5"
+					title: "+0.25 Thompson Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "556E544FF0303668"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2B12307B5D0679F1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "56F12A5EB4059975"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "64F111792B42A24C"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Thompson Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "587A7771E0C4A0EF"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:thompson_damage base set 6.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5F7BA30EB94E2456"
+					title: "+0.25 Thompson Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "5BAD3D404780DB57"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "6133BD3AA26B2D26"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "05FD0FF7E42609CE"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "4F341A55550B20BB"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "55A48EF44C7F5CE6"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Thompson Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "2F90CCE4A527B95C"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:thompson_damage base set 7.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5466F7890D99AD86"
+					title: "+0.25 Thompson Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "6F1D625137120E98"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "1FFCA00ED35503C9"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "54C530453826954C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "2FA1C8F975C59062"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "30C9664AB6B08C71"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "337312ACF883F572"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Thompson Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "2C495F8A01C35C7B"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:thompson_damage base set 7.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "76199CDB567FB77E"
+					title: "+0.25 Thompson Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "71E47F5748F17260"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "22BFE1BDF3EC620A"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "45297716B2E50A6D"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "666C284AB7BBE4A1"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "330E4CAB8DF3DEF9"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "08D8CD62743E695A"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "1176B42496DDFE48"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Thompson Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "7821188D585C25BA"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:thompson_damage base set 7.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "56E66041BCF40FBD"
+					title: "+0.25  Thompson Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "140F4BB3916E9EC9"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "624F62A2186A7201"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "55B212C89242AF78"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "3EB8F190039DB771"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0BF69B673001BD9A"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "2084466B207B8817"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Thompson Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "37400A26AC7E3489"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:thompson_damage base set 7.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "11C3FC7FDF7FEE04"
+					title: "+0.25 Thompson Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "61C852CC8F615ED1"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "5CD5F2D790D55A83"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2DA3C3FB71BF300A"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6ED935D6F3F450FF"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "1A7D69CCAC3774AD"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "0A670ED7A02C6B71"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "7C474406B53734FF"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "3F208802C7AFCA19"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Thompson Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "4579FB38A41D3DC2"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:thompson_damage base set 8.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0ABCBC7DADD9DE59"
+					title: "+0.25 Thompson Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "336CC1CAAAF2E27B"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "347B6E7DA3D57A87"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "4D52A78310F981EC"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "09EBBF9627C0C58F"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "6859FFA43980BF35"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "26A5540AD76D8C01"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "639A11233DEF7ABB"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "01C3C76065419AD2"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "261E5492D2560AFA"
+					item: {
+						Count: 1
+						id: "mteg:thompson"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Thompson Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "465521EA970588D9"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:thompson_damage base set 9.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "27BCF40254DD13A2"
+					title: "+1 Thompson Damage"
+					type: "command"
+				}
+				{
+					id: "593D188F04AC2F80"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "5D92995C2ABE1A8D"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "46C537A24094D8FC"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "46051D0FB47CE626"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "4CF0BF31648DAD8B"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "553A34D632E7E95A"
+				item: {
+					Count: 1
+					id: "mteg:thompson"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Thompson Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Thompson"
 }

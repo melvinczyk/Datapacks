@@ -1,0 +1,978 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vepr_hunter"
+	group: "2E8BF1A1F4DB9EE3"
+	icon: {
+		Count: 1
+		id: "aurorasarsenal:vepr_hunter"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "27812AE1ABFB1FF5"
+	order_index: 37
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Craft an Vepr Hunter using a Gunnite Workbench"]
+			id: "2E210AD3ACB461E7"
+			rewards: [{
+				count: 30
+				id: "31FE56C445C3DEBC"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Vepr Hunter"
+			tasks: [{
+				id: "3A5B7BB3508AE029"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:vepr_hunter"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aquire an Vepr Hunter"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "507B78845F505AD4"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:vepr_hunter_damage base set 12.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "13365EF0B59DCA2B"
+					title: "+0.25 Vepr Hunter Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "4C8C2DCDE3103341"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7854FF68433D8BFB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "61343A850B5D1A8D"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "2F86AEC5045EB1FF"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Vepr Hunter Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "2D19870B7D62F16E"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:vepr_hunter_damage base set 12.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "349D1061E90EFDE8"
+					title: "+0.25 Vepr Hunter Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "3901C69F58751E6D"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0DA5393689BDB6F1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "3DB723801E71BA64"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "7128D22D3D55AC84"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Vepr Hunter Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "2C9CF81CB795E7ED"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:vepr_hunter_damage base set 12.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "44529565DA9A78BE"
+					title: "+0.25 Vepr Hunter Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "6DBD31936FDBD459"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "483E65D43C076C99"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "08716E83804D2D2E"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "664BCBB520767528"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "39C8D9957A585F62"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Vepr Hunter Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "23C6A500251D2BB1"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:vepr_hunter_damage base set 13.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "16DA151A99FF20A9"
+					title: "+0.25 Vepr Hunter Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "524594D1379E83CB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "148D4C40376CB2C7"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "699FF709C95E46E5"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "042F68A5FE9D00C5"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "489DE02BEC70E87F"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "536D25C1FE093050"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Vepr Hunter Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "3B2678967DF1C859"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:vepr_hunter_damage base set 13.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2A0B5E9B1C641098"
+					title: "+0.25 Vepr Hunter Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "747A1C0E385DB446"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6E3A81C82A999FF7"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7EFE77595F7C7449"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "12114CFA649AF969"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "10FB096FF41CF9B2"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "693024834C8582DF"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "507BE30E84F9B881"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Vepr Hunter Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "2C6DAB5D1BCBB74F"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:vepr_hunter_damage base set 13.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "53EAEBE5A2899FE6"
+					title: "+0.25  Vepr Hunter Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "2269DA909DD85215"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1B320CEF6BC72DC5"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "65C32C19653E29DB"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "1CD17EB4B3D28B1B"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "332BBDB1F9186E0E"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "2F5036F69F0894F0"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Vepr Hunter Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "20D508AFA2ABEDB0"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:vepr_hunter_damage base set 13.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2F4C97116866C539"
+					title: "+0.25 Vepr Hunter Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "64E9445B71E82F54"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "5B96E16DADE1C597"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "189C3DD340B63026"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2A36DFA698DC98F2"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "507B94F20547BC9A"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "5F715A24418B0EAD"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "351C9709F51ED7E7"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "53E7803FD6194B54"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Vepr Hunter Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "778A6F2EE4BB2430"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:vepr_hunter_damage base set 14.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "16299ECA433C0160"
+					title: "+0.25 Vepr Hunter Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "5C82D7F6E2E1102B"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "1400D2A14295ABAE"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "18BCE69544F05B0D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "256D8F0DA3C151DE"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "7B49DF063B3A9C69"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "116CF7C58F1C1A4B"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "41BB5F78F0CA467C"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "57446AE8DE2C420F"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "0DF73777A7CE9F2B"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:vepr_hunter"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Vepr Hunter Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "27202B23A4BDFD79"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:vepr_hunter_damage base set 15.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6F965FA7E8CAE99F"
+					title: "+1 Vepr Hunter Damage"
+					type: "command"
+				}
+				{
+					id: "5BFCBDF22AAFFCD4"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "72D345B9BF04B6C2"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "049278FDE5A593C3"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1AA1CD81F5BA1D99"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "476B35F5B75D0EA4"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "374B93D3E8D39235"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:vepr_hunter"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Vepr Hunter Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
+	title: "Vepr Hunter"
+}

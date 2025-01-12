@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "desert",
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands"
+  ],
+  "spawners": {
+    "type": "threateningly_mobs:armor_of_desert",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

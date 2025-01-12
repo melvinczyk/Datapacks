@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "pump_shotgun"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "5279707C0637D5D4"
-	order_index: 27
+	icon: {
+		Count: 1
+		id: "jeg:pump_shotgun"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "4C4D5F13BD2FAECF"
+	order_index: 31
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft a Pump Shotgun using a Gunmetal Workbench"]
-		id: "3DE95DE7A3B67821"
-		rewards: [{
-			count: 16
-			id: "6CDC30691D4EC8A6"
-			item: "jeg:shotgun_shell"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Pump Shotgun"
-		tasks: [{
-			id: "3EEA6724BAD7CEC2"
-			item: {
-				Count: 1
-				id: "jeg:pump_shotgun"
-				tag: {
-					AmmoCount: 6
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Pump Shotgun using a Gunnite Workbench"]
+			id: "7F4B9571075AC777"
+			rewards: [{
+				count: 30
+				id: "47B72A8ECD748CAE"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Pump Shotgun"
+			tasks: [{
+				id: "2FED03CA04F741AF"
+				item: {
+					Count: 1
+					id: "jeg:pump_shotgun"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Pump Shotgun"
-		x: -2.0d
-		y: -1.5d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Pump Shotgun"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "10406BC5DCC17F96"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:pump_shotgun_damage base set 20.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "29EDC2361E6158EE"
+					title: "+0.25 Pump Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "678202B2D6F5540B"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7A5CC10FDDB408B4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "5A622BDB75140849"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "4373D602E91CAAB7"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Pump Shotgun Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "7E5A274A2FF33038"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:pump_shotgun_damage base set 20.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2BDF5EAA2B111AAF"
+					title: "+0.25 Pump Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "23DB52B8CB5101D5"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "3E75A65E5101D41F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "38D581F93AFBAF76"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "29AE0F577E7EDA99"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Pump Shotgun Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "294109A4BA71AEB2"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:pump_shotgun_damage base set 20.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "437E51728FFFAB88"
+					title: "+0.25 Pump Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "6A26EAB8878AFA25"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1A5BB0B73F025072"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "39963463C462F7F2"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "0A581A12BCC78E69"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "748D85ABF061FBB4"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Pump Shotgun Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "1564A08D1D58EDC2"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:pump_shotgun_damage base set 21.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "60DA681C02CD0B39"
+					title: "+0.25 Pump Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "6364729A87EBD213"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "0FF1433F9A6880E4"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "0CCC9B1B12603F67"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "6586597816F01DA2"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "6106DA3A86A4D444"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "16D02DF630D3C519"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Pump Shotgun Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "7A80586B653A96EE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:pump_shotgun_damage base set 21.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6A131D00D14F71E9"
+					title: "+0.25 Pump Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "0518E91D616E47F1"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "78C2D5198E698694"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5B9E20804F032293"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "6E6ED6B0B09FEF2E"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "21FE2C9AC4F3C865"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "76205AB04A5051A7"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "58C03077B670DF23"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Pump Shotgun Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "17523F472BADA3B7"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:pump_shotgun_damage base set 21.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2D7B37CEA3AF4C44"
+					title: "+0.25  Pump Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "661BE99ADC1066A3"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7BF01232227E45BF"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "43B0EDCC0D894ADF"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "30C2C88115A8198C"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "140B49E59AB6BDF2"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "1F9B87485C805A9E"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Pump Shotgun Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "6B7C163C0E480150"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:pump_shotgun_damage base set 21.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "215D2EBDFCE378F3"
+					title: "+0.25 Pump Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "2056B0495F7B0D39"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "7FB852A0E0C977FE"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0BFF29F413F2A46D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3D2112B2DC93EB5F"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "0A4AEC3EA319733D"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "3B870D2DF6067D5E"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "152335A1A487BD38"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "3FC21F3820733C15"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Pump Shotgun Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "63D3C54E059898D2"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:pump_shotgun_damage base set 22.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "016537EF64201429"
+					title: "+0.25 Pump Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "7FB082555192A1D3"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "20AFBD1DE97298EE"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "63926AC6EDA8CE39"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "28F2A4257D5D492A"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "0F96075E3AB2E931"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "34574C656445AD4B"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5390F1F31A6CA07A"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "3179E7D911A37B85"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "0B9740124A4D479B"
+					item: {
+						Count: 1
+						id: "jeg:pump_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Pump Shotgun Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "05A2B976FB77ABE7"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:pump_shotgun_damage base set 23.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2EA48091045BA5D4"
+					title: "+1 Pump Shotgun Damage"
+					type: "command"
+				}
+				{
+					id: "1188B491C26DA7C2"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "15D67EFE1875BE9E"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "075BF2D7394608E4"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "3F7F08A60B301998"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "5EA1EBA031F705EC"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "54F164DB0AA944DC"
+				item: {
+					Count: 1
+					id: "jeg:pump_shotgun"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Pump Shotgun Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Pump Shotgun"
 }

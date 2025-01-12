@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "hypersonic_cannon"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "7F462CB169558F17"
-	order_index: 20
+	icon: {
+		Count: 1
+		id: "jeg:hypersonic_cannon"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "2A05AA64A0A0F2EB"
+	order_index: 16
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft a Hyper-Sonic Cannon by finding its blueprint and using a Blueprint Workbench"]
-		id: "3EF11AD811BCD71F"
-		rewards: [{
-			count: 60
-			id: "2ED03687C1A9DE07"
-			item: "minecraft:sculk_catalyst"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Hyper-Sonic Cannon"
-		tasks: [{
-			id: "4ADC89668555CCE9"
-			item: {
-				Count: 1
-				id: "jeg:hypersonic_cannon"
-				tag: {
-					AmmoCount: 15
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Hypersonic Cannon using a Gunnite Workbench"]
+			id: "69DCFBBCFA1AAAE3"
+			rewards: [{
+				count: 30
+				id: "2EB49380EF4AE7BD"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Hypersonic Cannon"
+			tasks: [{
+				id: "7CA797A22D529D43"
+				item: {
+					Count: 1
+					id: "jeg:hypersonic_cannon"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Hyper-Sonic Cannon"
-		x: -2.0d
-		y: -1.5d
-	}]
-	title: "Hyper-Sonic Cannon"
+				type: "item"
+			}]
+			title: "Aquire an Hypersonic Cannon"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "64957607C113C261"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hypersonic_cannon_damage base set 13.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "39997FDA3AE758A7"
+					title: "+0.25 Hypersonic Cannon Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "6CC9DAE4C2634B09"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "33E731C27CB9E62F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "617A878B63377B8C"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "166C7C0D71D875DD"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Hypersonic Cannon Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "18EF64BAA0A0AB0E"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hypersonic_cannon_damage base set 13.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "769C04AF460197B3"
+					title: "+0.25 Hypersonic Cannon Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "5C09A5727FD19FFB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "77B8E4249CFC1FB5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "140502EEFC1D7769"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "0D58B5DFB31D1860"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Hypersonic Cannon Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "5AE7D10A4518F99E"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hypersonic_cannon_damage base set 13.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0809F29EC07A84B9"
+					title: "+0.25 Hypersonic Cannon Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "5EC1DE6431C58265"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "65C454BFAC39DC61"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "4A8B912725A941DF"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "61777427AB6A28CA"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "2B5E8CB8CDAE6AAF"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Hypersonic Cannon Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "7B9D405F84F3705C"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hypersonic_cannon_damage base set 14.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5F76FB879EB217ED"
+					title: "+0.25 Hypersonic Cannon Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "3641B8E82B978ABC"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "4EF814A09ADFBB4D"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "07AB94C43D6D6130"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "122ECEF7EF51459E"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "1DAB09EA82FF56C7"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "072F6B0887DF3C18"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Hypersonic Cannon Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "5316FE70287BCC43"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hypersonic_cannon_damage base set 14.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "592541876FD76355"
+					title: "+0.25 Hypersonic Cannon Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "6D4629DDA0D4A897"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2D3119957BB74DEE"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4DCB461A335CC0AB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "19082004E81A22C6"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1A3AEE2F6F5C5B36"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3470EAA4FD5EF5F0"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "1E8FFC7EDC999CDE"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Hypersonic Cannon Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "17122D1950579C0E"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hypersonic_cannon_damage base set 14.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "39FCB803AB2D91CA"
+					title: "+0.25  Hypersonic Cannon Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "436441C3E9E17C58"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "28F79283C3F732B6"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0D37D0DB51F8858D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "5F8EC68EECB60CD4"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1780EA6F1EBCCAC4"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "660B57FF4D89420E"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Hypersonic Cannon Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "4C450F5207D5BF25"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hypersonic_cannon_damage base set 14.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "34C94716B9E01639"
+					title: "+0.25 Hypersonic Cannon Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "7227D22B97553CB7"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "2FBDB850CFE5273A"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0AA1D95320D3A129"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "79EE0F7AF925A7C9"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "263A357ACAF77D31"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "28EA273EAD60C8D6"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "50DA795D77D097B3"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "27161A39789DAE50"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Hypersonic Cannon Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "66D14D05A1C1134C"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hypersonic_cannon_damage base set 15.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4F29764DE472BADC"
+					title: "+0.25 Hypersonic Cannon Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "418DC0CCD22CFC05"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "1BDA6C3EF2CAF728"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "6B72154C1E14083B"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "33329E9DFA61A403"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "525A6F8469517B16"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "2D5DA3ED3935BA19"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5AEAB0629B7D66E5"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "22F7560BFC6329DE"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "734C9823F5D7CF68"
+					item: {
+						Count: 1
+						id: "jeg:hypersonic_cannon"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Hypersonic Cannon Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "78169C5E483B9ACD"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hypersonic_cannon_damage base set 16.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "65F452ED7F87156E"
+					title: "+1 Hypersonic Cannon Damage"
+					type: "command"
+				}
+				{
+					id: "6208DA9BDE4FEABE"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "10BFBC0B2397A6C1"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "3D44E8E59BDE4DE6"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "645770734350012C"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "5F357018657DD25B"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "4AE05DEA23F3F181"
+				item: {
+					Count: 1
+					id: "jeg:hypersonic_cannon"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Hypersonic Cannon Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
+	title: "Hypersonic Cannon"
 }

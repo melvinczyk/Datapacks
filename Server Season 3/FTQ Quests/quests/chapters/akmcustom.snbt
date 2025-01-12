@@ -1,0 +1,977 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "akmcustom"
+	group: "2E8BF1A1F4DB9EE3"
+	icon: {
+		Count: 1
+		id: "mteg:akm_custom"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "5A506964BA144239"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Craft an AKM Custom using a Gunnite Workbench"]
+			id: "2DC8B89931284B29"
+			rewards: [{
+				count: 30
+				id: "03455CFB7DF948F3"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an AKM Custom"
+			tasks: [{
+				id: "2CDA2EDD65ABFD02"
+				item: {
+					Count: 1
+					id: "mteg:akm_custom"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aquire an AKM Custom"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["6E15C7AD48404924"]
+			icon: "minecraft:dirt"
+			id: "72B5DA0A53A3A181"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:akm_custom_damage base set 8.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4FF683E031F4917D"
+					title: "+0.25 AKM Custom Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "65D290DCE9934013"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "14D441B9AB397E2B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "66B9EB2A6A0BAA80"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "0B976E983EEE0873"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "AKM Custom Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["6E15C7AD48404924"]
+			icon: "minecraft:copper_block"
+			id: "56922210ADF763BB"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:akm_custom_damage base set 8.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "541016569E7076A9"
+					title: "+0.25 AKM Custom Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "0907E57F52F319B0"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "6140BCA4F7D1C253"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "2D0A89873D695CCE"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "3C9C3E81574C45E3"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "AKM Custom Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["6E15C7AD48404924"]
+			icon: "minecraft:gold_block"
+			id: "2E7D45BA3F9ECFAF"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:akm_custom_damage base set 8.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6021D0BDCD187DD5"
+					title: "+0.25 AKM Custom Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "3C33602CF22A5353"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "310D61F75A28B1CA"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "6D0A958C52F1DE39"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "145C617B42906979"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "41A6EB9C936CFB18"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "AKM Custom Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["6E15C7AD48404924"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "20A89537F190401A"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:akm_custom_damage base set 9.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "61308709815682DA"
+					title: "+0.25 AKM Custom Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "384C298614B9730D"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "78AA064F9EECD7E1"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "1779641BC1E5D058"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "15D28EEB6958D786"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "0DBE2839B3EC969D"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "7A02A70712D3ED22"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "AKM Custom Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["6E15C7AD48404924"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "7E05EF9CC035CD07"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:akm_custom_damage base set 9.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "373E1708E6159B1C"
+					title: "+0.25 AKM Custom Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "71B26A06C33D374F"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6DE609C4A3ACCB2A"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4AC584B203F197E6"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "6D1E907E334234A2"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "079E18D2969B9242"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6A8220F519D2CB55"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "631C115BBB02C74D"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "AKM Custom Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["6E15C7AD48404924"]
+			icon: "minecraft:diamond_block"
+			id: "3F4EFAB1F4BA0827"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:akm_custom_damage base set 9.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5457419ED70DCE8D"
+					title: "+0.25  AKM Custom Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "65B999605F85075C"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7D237929B1B20956"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "419AF6D99840B20C"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "61CCC40D10B203CE"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "384C067EA8C010FE"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "518ADC519AA98878"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "AKM Custom Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["6E15C7AD48404924"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "199CC9EEC1E40988"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:akm_custom_damage base set 9.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "704E0A81F47B5EB4"
+					title: "+0.25 AKM Custom Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "0DB0869385BF62A5"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "78CFAA058D9440CB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1BE2D699DEF3D958"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "22D0D5355AF78F0A"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "19682F84F521B5C4"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "3266134D0BC0E29F"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "13C7970FC5EC1C94"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "18B19443DF7DB9E7"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "AKM Custom Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "6E15C7AD48404924"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:akm_custom_damage base set 10.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6D5CE434B3964CC6"
+					title: "+0.25 AKM Custom Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "182FC4E59075B3E0"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "05B347A9F1109040"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "645DA2924671F578"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "10870E1059831ADA"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "4E989EB95B9CE9F0"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "7FF54DB7B8E8AE28"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "271E18864063AE14"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "4F0C201C17ECF474"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "407ACA6D3359E4EB"
+					item: {
+						Count: 1
+						id: "mteg:akm_custom"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "AKM Custom Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6E15C7AD48404924"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "54703883D93544FA"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:akm_custom_damage base set 11.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6D2FCE8EBA24EC57"
+					title: "+1 AKM Custom Damage"
+					type: "command"
+				}
+				{
+					id: "180E87E90B47BB9D"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "5F716BCD71DA99B0"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "6C36CA35CDCBCC91"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2BA2BF825A5214E5"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "419A70C6A1E83B59"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "6359CE9299CC0DC6"
+				item: {
+					Count: 1
+					id: "mteg:akm_custom"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "AKM Custom Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
+	title: "AKM Custom"
+}

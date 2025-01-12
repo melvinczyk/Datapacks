@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "waterpipe_shotgun"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "14F7F12FAE6C8CBF"
-	order_index: 42
+	icon: {
+		Count: 1
+		id: "mteg:waterpipe_shotgun"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "48ECFD4D355C6A7B"
+	order_index: 40
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft a Waterpipe Shotgun using a Scrap Workbench"]
-		id: "3EB98940515A3256"
-		rewards: [{
-			count: 16
-			id: "72D67490EC1ECC30"
-			item: "jeg:shotgun_shell"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Waterpipe Shotgun"
-		tasks: [{
-			id: "3014D2021A5A78D7"
-			item: {
-				Count: 1
-				id: "jeg:waterpipe_shotgun"
-				tag: {
-					AmmoCount: 1
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Waterpipe Shotgun using a Gunnite Workbench"]
+			id: "60C594D458A97A20"
+			rewards: [{
+				count: 30
+				id: "03861A7B5C612FAC"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Waterpipe Shotgun"
+			tasks: [{
+				id: "032E1AAA31832D08"
+				item: {
+					Count: 1
+					id: "mteg:waterpipe_shotgun"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Waterpipe Shotgun"
-		x: 0.0d
-		y: -1.5d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Waterpipe Shotgun"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "68046BCF6AAB2540"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:waterpipe_shotgun_damage base set 20.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "125532F543E68BEA"
+					title: "+0.25 Waterpipe Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "10AD3C2FB5BCFF6A"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "3E887AE9DA58FF29"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "01008B7D0BDB886C"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "61D9A1D649D8B2E8"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Waterpipe Shotgun Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "2729B5F84A87BE8F"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:waterpipe_shotgun_damage base set 20.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3ACBEA09744ED466"
+					title: "+0.25 Waterpipe Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "4687473008685912"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "521B08163C44D07C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "546468A041170558"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "32E39AA393DB0BC7"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Waterpipe Shotgun Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "08F262B137FA5AFF"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:waterpipe_shotgun_damage base set 20.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "01113D374F61F066"
+					title: "+0.25 Waterpipe Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "4078FCE0F6C921F4"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "544DA165C38A4882"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "010D173A1FEEFEC8"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "0CD73249565EFB46"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "6E08124F8D44CA31"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Waterpipe Shotgun Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "2BF9F6CB678A4432"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:waterpipe_shotgun_damage base set 21.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "42265EE8C435115A"
+					title: "+0.25 Waterpipe Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "236FB1A433DD1B25"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "60108053032BCBDE"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "1EB6559E0818CE29"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "4C6F0229729822FA"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "756E886D44661AB7"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "0E5EC089ACB4C2CA"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Waterpipe Shotgun Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "036522354045AF88"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:waterpipe_shotgun_damage base set 21.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "32567A38F4CBC23F"
+					title: "+0.25 Waterpipe Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "67B49C290DC89019"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "51D92214B8878ED3"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1CA5D106F440563E"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "400A024678F73AEF"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "04D8B8B57EDAEAD8"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "283072CD60D4D68E"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "6B93F65B2F5AF3B0"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Waterpipe Shotgun Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "073B1ED13A20DC26"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:waterpipe_shotgun_damage base set 21.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4A8A418A27089522"
+					title: "+0.25  Waterpipe Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "4121FC77656A852A"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "362EDB4036D6D336"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "39EDCAD9A007C270"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "3FB629EEC759B419"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7E0A5B7CCCB3FB1E"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "567BD9B956C88442"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Waterpipe Shotgun Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "0A114331214C0CFD"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:waterpipe_shotgun_damage base set 21.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "25C17574A2CD909E"
+					title: "+0.25 Waterpipe Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "3C88809B24CBF1EC"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "20273CE7B15D5CFE"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0038F5C2EA0222FF"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "19D7C5A8122BAE2A"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "22C8EFC6BF91BF43"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "3F95FDA610C32C4A"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "2F065E32EAED559E"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "099310028194DF5E"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Waterpipe Shotgun Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "1D83288703F150EE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:waterpipe_shotgun_damage base set 22.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5FD40E4082BF0BAC"
+					title: "+0.25 Waterpipe Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "4B654AC5A671571B"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "7AD7FBC82F2715CE"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "5088E4B4835876B7"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "2F336D9E50F61F63"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "368FC83624B09A39"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "4B5B9622EAFCB46E"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1DF1977059FEEDB7"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "2B21E6FDF58FC2CB"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "490BEE026BD76F99"
+					item: {
+						Count: 1
+						id: "mteg:waterpipe_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Waterpipe Shotgun Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "459B4891AA6019CF"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:waterpipe_shotgun_damage base set 23.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5CD2EDF278B50895"
+					title: "+1 Waterpipe Shotgun Damage"
+					type: "command"
+				}
+				{
+					id: "14065DBE366F1D6B"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "062E1F5A17EBDC4D"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "5203F92493708A2E"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "396C23DD24371540"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "2384ACD078430672"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "59FFD43BF4688418"
+				item: {
+					Count: 1
+					id: "mteg:waterpipe_shotgun"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Waterpipe Shotgun Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Waterpipe Shotgun"
 }

@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "bolt_action_rifle"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "0C918EA5F7D7C556"
-	order_index: 11
+	icon: {
+		Count: 1
+		id: "jeg:bolt_action_rifle"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "1624AC063D435D5B"
+	order_index: 53
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft a Bolt Action Rifle using a Gunmetal Workbench"]
-		id: "5FFD240FD3BF267A"
-		rewards: [{
-			count: 32
-			id: "4934FA0581FCF580"
-			item: "jeg:rifle_ammo"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Bolt Action Rifle"
-		tasks: [{
-			id: "7EE14B3975782D47"
-			item: {
-				Count: 1
-				id: "jeg:bolt_action_rifle"
-				tag: {
-					AmmoCount: 4
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Bolt Action Rifle using a Gunnite Workbench"]
+			id: "6AAA254C48C9496C"
+			rewards: [{
+				count: 30
+				id: "520C60630EFDE5C4"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Bolt Action Rifle"
+			tasks: [{
+				id: "6652DA25192F5CE9"
+				item: {
+					Count: 1
+					id: "jeg:bolt_action_rifle"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Bolt Action Rifle"
-		x: 0.0d
-		y: -0.5d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Bolt Action Rifle"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "501ECB80A86EDB21"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:bolt_action_rifle_damage base set 21.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5302B106D08ED3E4"
+					title: "+0.25 Bolt Action Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "5B783F97FF968DFB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7F1C54EE0E43057E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "12C3A3CBD516EEF8"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "7EB3431837B36B52"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Bolt Action Rifle Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "731CAD2A12C17129"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:bolt_action_rifle_damage base set 21.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "66F07E012B0B8658"
+					title: "+0.25 Bolt Action Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "3871236D78283044"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "5619409D9883667D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "6426940BCEB06098"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "734E9F281C6EBE7E"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Bolt Action Rifle Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "6C3BBD2A560A2BEE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:bolt_action_rifle_damage base set 21.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2B6A5A6C5E5A7C45"
+					title: "+0.25 Bolt Action Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "5327AB8771EE568B"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "190C625F73ACD86E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "2D8620665CEAC10E"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "524982870E9D2DFF"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "082A26700A100CB8"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Bolt Action Rifle Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "470787D0943A59EF"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:bolt_action_rifle_damage base set 22.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "649B91941D2CE5F5"
+					title: "+0.25 Bolt Action Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "6203D2833A3DB8CB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "383FAEE68DC5F187"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "5243581E9A0B4ECA"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "04ED6B1C9396295D"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "27726B0B3FC94847"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "3B12D5E7B15D62EA"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Bolt Action Rifle Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "7A0B6B8A50B463E7"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:bolt_action_rifle_damage base set 22.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3F3516A1B0242EA5"
+					title: "+0.25 Bolt Action Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "1036FEA1CBC83EB6"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "743867BEE709B383"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "21A495ED9051DAC4"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "301B6AD08156859F"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7B538578EA958AA3"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2482A252F8AB0A93"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "7D78417EE3DB7086"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Bolt Action Rifle Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "23551010CF8582B0"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:bolt_action_rifle_damage base set 22.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6946807285A3801A"
+					title: "+0.25  Bolt Action Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "2FE423CB8E568FDE"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7C58F499823C640A"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "6D20A75F6B2069EF"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "52BBE4B934C11D53"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "43AF8AC62B683983"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "76F90A6262D825F1"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Bolt Action Rifle Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "2F2BB6F037D5D435"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:bolt_action_rifle_damage base set 22.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5DB4BB3ABE81FA39"
+					title: "+0.25 Bolt Action Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "44AFF8D6A0CF8856"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "68C0281B62DD3536"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "469EDF3AB7BF2A6A"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3D8279872FB9EED3"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "28F9EF92394102ED"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "46F28AB57506C4C5"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "57D14EB6BB2ED784"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "608EE3C97B80BC27"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Bolt Action Rifle Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "61ABFC6E00529C7C"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:bolt_action_rifle_damage base set 23.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6656645DFA1D7986"
+					title: "+0.25 Bolt Action Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "2EB4DD06CB09EFB0"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "0C334C7DC6E0164F"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0C88E075FC0E1C60"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "2E40132A928074EE"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "790CFB1BEBF42EDA"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "7FBF1A7E671156E0"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "04C36065F0E9F8C1"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "303D3F705E22B838"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "0078D8174136A06F"
+					item: {
+						Count: 1
+						id: "jeg:bolt_action_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Bolt Action Rifle Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "68B52386D853B2D1"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:bolt_action_rifle_damage base set 24.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "584759D6CB5AB801"
+					title: "+1 Bolt Action Rifle Damage"
+					type: "command"
+				}
+				{
+					id: "15830728A945D13A"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "407B2380B7E54ECC"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "2651307A622068A1"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "35812EAC993C5435"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "2BF673A6925FFE50"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "25DF29EF14FD7954"
+				item: {
+					Count: 1
+					id: "jeg:bolt_action_rifle"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Bolt Action Rifle Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Bolt Action Rifle"
 }

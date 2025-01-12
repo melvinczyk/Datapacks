@@ -4,7 +4,7 @@
 	filename: "m14_ebr"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "5182976DE98D31FE"
-	order_index: 53
+	order_index: 63
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft an M14 EBR using a Gunnite Workbench"]

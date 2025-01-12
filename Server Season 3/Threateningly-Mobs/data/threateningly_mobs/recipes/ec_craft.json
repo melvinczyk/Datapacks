@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "bfb"
+  ],
+  "key": {
+    "a": {
+      "item": "threateningly_mobs:basalt_wyvern_horn"
+    },
+    "b": {
+      "item": "threateningly_mobs:dracoscorpius_sting"
+    },
+    "c": {
+      "item": "threateningly_mobs:earthloong_skull"
+    },
+    "d": {
+      "item": "threateningly_mobs:inferno_jade"
+    },
+    "e": {
+      "item": "threateningly_mobs:nature_embryo"
+    },
+    "f": {
+      "item": "threateningly_mobs:skeleton_necklace"
+    }
+  },
+  "result": {
+    "item": "threateningly_mobs:emperor_core",
+    "count": 1
+  }
+}

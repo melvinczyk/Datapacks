@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "double_barrel_shotgun"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "36227CC40D6C26B4"
-	order_index: 15
+	icon: {
+		Count: 1
+		id: "jeg:double_barrel_shotgun"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "3E02F84BF1790C27"
+	order_index: 12
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft a Double Barrel Shotgun using a Scrap Workbench"]
-		id: "68CCC15B2883E2F6"
-		rewards: [{
-			count: 16
-			id: "088471B1DEC46D8F"
-			item: "jeg:shotgun_shell"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Double Barrel Shotgun"
-		tasks: [{
-			id: "79C0623CB3CCAD96"
-			item: {
-				Count: 1
-				id: "jeg:double_barrel_shotgun"
-				tag: {
-					AmmoCount: 2
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Double Barrel Shotgun using a Gunnite Workbench"]
+			id: "0748456122BF8614"
+			rewards: [{
+				count: 30
+				id: "16A91686D5A9A0E4"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Double Barrel Shotgun"
+			tasks: [{
+				id: "20948B10CEEF34BE"
+				item: {
+					Count: 1
+					id: "jeg:double_barrel_shotgun"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Double Barrel Shotgun"
-		x: -1.5d
-		y: -1.5d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Double Barrel Shotgun"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "3F6712FF0E9A3973"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:double_barrel_shotgun_damage base set 24.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5883FA17DF4B7200"
+					title: "+0.25 Double Barrel Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "3093355A32760CCD"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "752FDA634C8B9063"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "51EAA36A188699A7"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "16FD36EF28E48F1C"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Double Barrel Shotgun Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "06D3769FC1A4060F"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:double_barrel_shotgun_damage base set 24.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "16FEDCAA0235F448"
+					title: "+0.25 Double Barrel Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "4D8EE6734B26B50C"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "53C307442DEC431B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "24E21AA3C0D57C5A"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "0BCB549430BE622D"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Double Barrel Shotgun Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "1F8AECD237C1D916"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:double_barrel_shotgun_damage base set 24.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5E14618BC1F056CA"
+					title: "+0.25 Double Barrel Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "428F2794D2FD87C2"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "56C3138A4CA93571"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "3B70E7C46752BAFF"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "31B534AFDBCBA2FA"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "3D80A1409CC99FEA"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Double Barrel Shotgun Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "3B07D27A905F0A6B"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:double_barrel_shotgun_damage base set 25.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4F7E3AC156C577BD"
+					title: "+0.25 Double Barrel Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "7917F8C805950F74"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "7E0E6F15A42337A2"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "4CE3D5CEB54F0E7E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "151E43FFE782A862"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "0EF1EBA21B4C6083"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "20CA3FEC24EC7FE7"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Double Barrel Shotgun Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "788D7EB2E3F6F207"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:double_barrel_shotgun_damage base set 25.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "77CAA9B8B3983848"
+					title: "+0.25 Double Barrel Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "264F823CE23597F0"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "39968904343A8E8E"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "18ED4B8BCE07BBD5"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "09C124404771078B"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0F92A132621ADE39"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "44961E44ADD5FCB2"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "2DD5EEC0466D0287"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Double Barrel Shotgun Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "48D1DF50CF997E05"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:double_barrel_shotgun_damage base set 25.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "52908F9D58786CE0"
+					title: "+0.25  Double Barrel Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "49958D228B053DEB"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "14BAFE6809595ADB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "264D0D6AF9944F57"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "43E636062E279FAA"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "38D6C5962747AE69"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "63A98E491ACBE47D"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Double Barrel Shotgun Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "013A79FB82463549"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:double_barrel_shotgun_damage base set 25.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6ECAEDB243E3F13F"
+					title: "+0.25 Double Barrel Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "586085B06364CD68"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "2EDDB0232205BBFB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "197197F4488AD9A4"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "47C4664CC1262076"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "3EF139989EEB08DD"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "0776B64DA7ABC97C"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "7D0A13CCAE696565"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "06E3779E088612E1"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Double Barrel Shotgun Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "06CD60B5453D88F2"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:double_barrel_shotgun_damage base set 26.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "135B11435EDC3F91"
+					title: "+0.25 Double Barrel Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "5FC0A1930B7D8775"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "25127B9988A28688"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "4065D62C9543222F"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "1CBA099D259583E4"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "4A2F4199D9A09A21"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "2B4C561C965E8926"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5065B076DADD7E89"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "6239D032CEAA9661"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "5B8280579C61B44F"
+					item: {
+						Count: 1
+						id: "jeg:double_barrel_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Double Barrel Shotgun Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "4F38BA9F90BCFF7E"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:double_barrel_shotgun_damage base set 27.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6C80403D66BACB36"
+					title: "+1 Double Barrel Shotgun Damage"
+					type: "command"
+				}
+				{
+					id: "4FD08B4ECCE2A978"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "69B9BEC0692B5221"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "3EC363A08CFD2EF7"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "439F388BED784918"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "5BDD3D061C521746"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "406827267D89B6AC"
+				item: {
+					Count: 1
+					id: "jeg:double_barrel_shotgun"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Double Barrel Shotgun Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Double Barrel Shotgun"
 }

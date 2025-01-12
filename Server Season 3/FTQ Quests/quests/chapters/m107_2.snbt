@@ -4,7 +4,7 @@
 	filename: "m107_2"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "05876C0BC2E60C3D"
-	order_index: 58
+	order_index: 68
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft an M107 using a Gunnite Workbench"]

@@ -4,7 +4,7 @@
 	filename: "veprh"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "1F0626ED7203CFBC"
-	order_index: 41
+	order_index: 57
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft a VEPR Hunter using a Gunnite Workbench"]

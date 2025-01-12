@@ -4,7 +4,7 @@
 	filename: "hellfire"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "6E03611405D7B3DE"
-	order_index: 49
+	order_index: 59
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft an Hellfire using a Gunnite Workbench"]

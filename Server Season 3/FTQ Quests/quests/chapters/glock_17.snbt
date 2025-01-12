@@ -4,7 +4,7 @@
 	filename: "glock_17"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "28046BB8DA524D06"
-	order_index: 48
+	order_index: 58
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft an Glock 17 using a Gunnite Workbench"]

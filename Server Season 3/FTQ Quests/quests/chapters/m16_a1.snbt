@@ -4,7 +4,7 @@
 	filename: "m16_a1"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "0A5ECC50E3AD27A7"
-	order_index: 56
+	order_index: 66
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft an M16A1 using a Gunnite Workbench"]

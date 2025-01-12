@@ -1,0 +1,978 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fn_scar_l"
+	group: "2E8BF1A1F4DB9EE3"
+	icon: {
+		Count: 1
+		id: "mteg:scar_l"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "33D2BB2F39D6ED8E"
+	order_index: 47
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Craft an FN SCAR L using a Gunnite Workbench"]
+			id: "2A16FD572F1B6736"
+			rewards: [{
+				count: 30
+				id: "129E06E8D9018BE3"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an FN SCAR L"
+			tasks: [{
+				id: "3DCDD366E2F33D6C"
+				item: {
+					Count: 1
+					id: "mteg:scar_l"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aquire an FN SCAR L"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "2A1D72D6BE43429E"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:scar_l_damage base set 8.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "307337DAEAFF3398"
+					title: "+0.25 FN SCAR L Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "6EFEE9A067503E6B"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "71AE5078445C9B6A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "42A4FE97B7E50571"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "2BF5B1035A7D7989"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "FN SCAR L Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "10ADFD60ABFFCC78"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:scar_l_damage base set 8.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2727D0A56E4CDD0A"
+					title: "+0.25 FN SCAR L Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "17017E415ED4428E"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "3CE1EC25AAB3BE22"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "2829151DA851EC13"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "4F8F54464F287E61"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "FN SCAR L Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "47A8835EB2B41F85"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:scar_l_damage base set 8.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4A1F82296129AAD7"
+					title: "+0.25 FN SCAR L Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "79584A2C3C7574A3"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "5E4F909F0E13E97B"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "40833918FE0C80A7"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "7CAECF34CA3C2CAD"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "22691F6D2CAC94B4"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "FN SCAR L Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "28ABFA4ED0ABB6A8"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:scar_l_damage base set 9.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "524E27FA0F1E0DC5"
+					title: "+0.25 FN SCAR L Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "7E241E9AFFE39DC8"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "19B87B2012CE8E01"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "0CB5E1418AFF07DB"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "7DF18135D16A010B"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "23A1DC71F85505CF"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "689DBDE52248AE7B"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "FN SCAR L Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "66A7B9707F7576AE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:scar_l_damage base set 9.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2A014339F040AC8B"
+					title: "+0.25 FN SCAR L Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "02590BCF22D78233"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6C2016644756FD86"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4A5DE9F753FD81AE"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "51B1E468E1BE9A1A"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "19E1984D90EAD669"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4159A0D60673B047"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "640107D62FC01BB0"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "FN SCAR L Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "2FB3175C4CBD1658"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:scar_l_damage base set 9.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7A09BA7DF7D8B6BA"
+					title: "+0.25  FN SCAR L Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "2946BCE49DBCD8A1"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "575E231BA28953EB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "47E5CC5706596AAC"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "04A78D10B7B95078"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1C3403C235D670B4"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "0C0BB32B4390A814"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "FN SCAR L Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "2E1756802A7111C3"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:scar_l_damage base set 9.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "34F8BEE190FB1B19"
+					title: "+0.25 FN SCAR L Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "0CF354DBAFA6C906"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "1A6D2027DE9B71F5"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "46D9AF3C8EB4AA2B"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1403535DAD7B985C"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "6EE9B2E4467409B2"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "7DE1921AD109D317"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "28FAEA3B6E6B7602"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "4CDFD1D7279CA890"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "FN SCAR L Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "29EDDD7F8CE72A0B"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:scar_l_damage base set 10.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "021ECA98690057A0"
+					title: "+0.25 FN SCAR L Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "3B2D18E57376509E"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "78BD7CD59842CB18"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "337F804F27431341"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "2F38834A6E0F67B6"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "1DFEFAC679158B91"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "0832F6909105429F"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "09C1E40AC195E03A"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "3FBABAEF29E61219"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "2B6F162091F0EBEF"
+					item: {
+						Count: 1
+						id: "mteg:scar_l"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "FN SCAR L Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "1B7BBA6E05DC3F67"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:scar_l_damage base set 11.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0D946E0EDF9059B5"
+					title: "+1 FN SCAR L Damage"
+					type: "command"
+				}
+				{
+					id: "53F56EF414112059"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "7A4323DE1DD945B2"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "4730E184E023DE6B"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "5E3A6F120E534A9C"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "18CA24C052528822"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "2BEA22C5D73A954B"
+				item: {
+					Count: 1
+					id: "mteg:scar_l"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "FN SCAR L Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
+	title: "FN SCAR L"
+}

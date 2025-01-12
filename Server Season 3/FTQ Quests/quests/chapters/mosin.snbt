@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "mosin"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "228843D8D23E8046"
-	order_index: 26
+	icon: {
+		Count: 1
+		id: "aurorasarsenal:mosin"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "20AE165CF6F45624"
+	order_index: 28
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft an Mosin using a Gunmetal Workbench"]
-		id: "6BC2D95A628F61CB"
-		rewards: [{
-			count: 10
-			id: "4FA6D796FA7AB5DD"
-			item: "jeg:rifle_ammo"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Mosin"
-		tasks: [{
-			id: "211A3E173D2745DA"
-			item: {
-				Count: 1
-				id: "aurorasarsenal:mosin"
-				tag: {
-					AmmoCount: 10
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Mosin using a Gunnite Workbench"]
+			id: "3B1ADADBD481C373"
+			rewards: [{
+				count: 30
+				id: "3E8440BA557E4F52"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Mosin"
+			tasks: [{
+				id: "39A6CA0D928833EB"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:mosin"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Mosin"
-		x: -0.5d
-		y: -0.5d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Mosin"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "0AD6C142F679F172"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mosin_damage base set 23.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6E7BFDEEF222DB4C"
+					title: "+0.25 Mosin Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "6C315919145F8495"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "69CE106D49574E3F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "74111A98CA4C1D20"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "510A0E3233DB3FDA"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Mosin Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "613F9772335371CE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mosin_damage base set 24.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1E7D94CC73C8F0AA"
+					title: "+0.25 Mosin Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "7685A8BFBCC12645"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7CC349CAF8B4ABE8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "6DCE2B81CD9CFC9E"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "3E6BE3999232004A"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Mosin Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "310D8E6B02D8CFAF"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mosin_damage base set 24.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "07AB8A4427789103"
+					title: "+0.25 Mosin Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "601542DCC8839FAB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "49B2496D62059433"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "0E2C2D28EB15CEFD"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "626956FB02CFBF0E"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "464ED15371EC47F1"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Mosin Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "6EE57AA63E8E49DC"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mosin_damage base set 24.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "794669ACF71CECF2"
+					title: "+0.25 Mosin Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "6D32F27D61861B63"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "62380AED1AC1F70C"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "72ABA644DDC00C77"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "5D54691FD83D7E87"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "1B5FF7C7EE346376"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "3B6333B41C8F25F0"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Mosin Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "202D946237C8F2E2"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mosin_damage base set 25.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "422731E48FE831F5"
+					title: "+0.25 Mosin Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "06DA2F7005590712"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0123E55160BA5D96"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5D19BC11B4ABE43B"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "36ACD5E826CD5541"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "40519044F1B9783E"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7C01145B919E693B"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "5B191637DD3D1704"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Mosin Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "47ECA5A4C962B685"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mosin_damage base set 24.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "30198CE8555AC761"
+					title: "+0.25  Mosin Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "660CCDD25554B78E"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "45CFC576C25ABF54"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "5C62742FCF28DAA5"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "3D3A588F302C7C1C"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "725200937353E9B9"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "7D10FEAE9C337AE6"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Mosin Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "511120AFEF430CE7"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mosin_damage base set 25.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7737E931B108EA39"
+					title: "+0.25 Mosin Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "58C44B3FE00C6554"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "4E40F2D0D9F62902"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7722223D9AB4012C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "01ECA5343A1E3659"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "56FAF08DF3D921EE"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "3FC04A95F612D663"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "6BF525F83A21F568"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "63A4D5CBE6AD666C"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Mosin Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "2F2DA7A1F56F70FF"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mosin_damage base set 25.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1208D6D0EF2F43B9"
+					title: "+0.25 Mosin Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "42F63A9B6421A9E6"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "6293C870C871DDBA"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "6C21C314B84A4E47"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "6331A6BECF934F2E"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "6B4A0071ED899DFE"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "41EA5BB2CECBC001"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1837773F3972C1A3"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "1CB9B7A4EC9128C7"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "2E4812F63EC52788"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:mosin"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Mosin Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "0DCBBAC46513CFA2"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mosin_damage base set 26.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0B5E64F70F5BF393"
+					title: "+1 Mosin Damage"
+					type: "command"
+				}
+				{
+					id: "1FFFBFCA81472236"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "1BBF712ED9F6141D"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "26D31C3A1CD9CBE1"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "6DB2FB5555E63113"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "2BDD46B5161374F0"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "0DB44724E006BD73"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:mosin"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Mosin Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Mosin"
 }

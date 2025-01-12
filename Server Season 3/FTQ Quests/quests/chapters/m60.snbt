@@ -4,7 +4,7 @@
 	filename: "m60"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "6DE1F5729160778B"
-	order_index: 57
+	order_index: 67
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft an M60 using a Gunnite Workbench"]

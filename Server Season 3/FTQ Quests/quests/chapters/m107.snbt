@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "m107"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "18E2B7CFDB14AC8B"
-	order_index: 23
+	icon: {
+		Count: 1
+		id: "mteg:m107"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "424C7258D7B70666"
+	order_index: 19
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft an M107 using a Gunnite Workbench"]
-		id: "58EF0F0DD3FA7C3C"
-		rewards: [{
-			count: 30
-			id: "7A9AF82788544410"
-			item: "jeg:rifle_ammo"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain an M107"
-		tasks: [{
-			id: "30E0B3FA8274AB5D"
-			item: {
-				Count: 1
-				id: "mteg:m107"
-				tag: {
-					AmmoCount: 10
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an M107 using a Gunnite Workbench"]
+			id: "5E16857F732E1CED"
+			rewards: [{
+				count: 30
+				id: "630C56F29B1DE360"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an M107"
+			tasks: [{
+				id: "39CBE011E737750C"
+				item: {
+					Count: 1
+					id: "mteg:m107"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire an M107"
-		x: 0.0d
-		y: 0.0d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an M107"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "081C2E4C3F8484E8"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m107_damage base set 29.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "089ED38432843FB7"
+					title: "+0.25 M107 Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "2E6DE2203850C1C2"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "3DA600AB3E521054"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "53DCD8AD379C84D1"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "0C50A19C4D48F463"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "M107 Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "60EE65A449E05C62"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m107_damage base set 29.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6A8FBB7C71940FE4"
+					title: "+0.25 M107 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "555907F4C43FF916"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "3AB989BFE97209A4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "499E1E02429C39E8"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "5DB344BBF986AB55"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "M107 Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "5CDB5A690E3F155B"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m107_damage base set 29.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "091259C9F84C1315"
+					title: "+0.25 M107 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "05B2DB6CF1878C69"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "629A27985EA20D3A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "642D2BEECBDDBCC6"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "3D7FA22E9F990651"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "01E4EB478644201C"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "M107 Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "651F80FC45B175C8"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m107_damage base set 30.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "25C02672755E511E"
+					title: "+0.25 M107 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "4494F8E956E569D7"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "6D1DB20084256925"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "3C95DB010F91C30D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "278A9811AD744241"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "41B84F28BF58495A"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "4E5DDBE50C4D99E6"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "M107 Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "04E60A86695D4FEB"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m107_damage base set 30.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3CF1C9405B37FDDA"
+					title: "+0.25 M107 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "27D2606B32F7CC5E"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "432AE083AF3EAB5F"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4F0676454A178E8C"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "42029B15161117E8"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7F6B142733BE3807"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2DE69C8A3C4B2A95"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "7A0E0764F613F725"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "M107 Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "1C5EBC55181F0659"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m107_damage base set 30.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "173A1F23E2FA9826"
+					title: "+0.25  M107 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "25CD65204FDC52DD"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "78C04406338E1BDB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "48C68BF751E7A297"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "6AB6E332BB410891"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6A73D9D4AF516491"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "4D7D59F565A2FDF2"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "M107 Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "4EAA6FB196398313"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m107_damage base set 30.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3735B92515D8CCF9"
+					title: "+0.25 M107 Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "30BD08B79FFE87F1"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "526C5092658FAE7C"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2CB38B505828F43F"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "26516602F7A85D5B"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "0A1FBF30787E27A1"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "6122EFDB78E4F306"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "2E23FC791C3DECC6"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "3EC89E0EE9EB0F4E"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "M107 Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "3D9804FA834EFED0"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m107_damage base set 31.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "152AAE95E9A41BC3"
+					title: "+0.25 M107 Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "0867623A929A1665"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "415730FD36E818FC"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "61DD6F8A7B2019DF"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "65DBD1DF171205B5"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "084DC588912EC0D4"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "72F456CDCB5AD2EB"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "23C239F599732399"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "2ECB3E85D32E2B11"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "2C2F5DDFFC8A4452"
+					item: {
+						Count: 1
+						id: "mteg:m107"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "M107 Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "5EA9CBE5402F6FD4"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m107_damage base set 32.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3D2BC9CAA01C8A9A"
+					title: "+1 M107 Damage"
+					type: "command"
+				}
+				{
+					id: "0BCD1E702C470B47"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "6C5A3076C6C06B4E"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "6C6557B51284FFDE"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "12CFFF751103501D"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "4864A6EFF3E583B9"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "2D0829D247F1BFEE"
+				item: {
+					Count: 1
+					id: "mteg:m107"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "M107 Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "M107"
 }

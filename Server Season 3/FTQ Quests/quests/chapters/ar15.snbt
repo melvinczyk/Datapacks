@@ -11,16 +11,16 @@
 			Damage: 0
 		}
 	}
-	id: "1CADE0372DE8278A"
-	order_index: 3
+	id: "0BCC24FE07DB2D3B"
+	order_index: 42
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["Craft an AR-15 using a Gunnite Workbench"]
-			id: "5A5B6CF721DED1B0"
+			id: "62C62244B1A0B97A"
 			rewards: [{
 				count: 30
-				id: "2B92AA053BC6D94D"
+				id: "1926DF40340537E5"
 				item: "jeg:rifle_ammo"
 				type: "item"
 			}]
@@ -28,7 +28,7 @@
 			size: 2.0d
 			subtitle: "Craft or obtain an AR-15"
 			tasks: [{
-				id: "2516BAF247C587D6"
+				id: "79B7137867FF33E7"
 				item: {
 					Count: 1
 					id: "aurorasarsenal:ar_15"
@@ -40,13 +40,13 @@
 				type: "item"
 			}]
 			title: "Aquire an AR-15"
-			x: -0.09999999999999803d
-			y: -0.10000000000000003d
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
 		}
 		{
-			dependencies: ["5A5B6CF721DED1B0"]
+			dependencies: ["62FB20C0FDF46924"]
 			icon: "minecraft:dirt"
-			id: "23DEB68EAA7FA064"
+			id: "5FC49F8FBF69C160"
 			rewards: [
 				{
 					command: "/attribute @s hoths_jeg_attributes:ar_15_damage base set 6.75"
@@ -58,15 +58,20 @@
 							Damage: 0
 						}
 					}
-					id: "4FF683E031F4917D"
+					id: "4C7571741667F7DE"
 					title: "+0.25 AR-15 Damage"
 					type: "command"
 				}
 				{
 					count: 32
-					id: "021F8AC0023F400B"
+					id: "55C1DE1E1FA5C202"
 					item: "jeg:rifle_ammo"
 					type: "item"
+				}
+				{
+					id: "5FC00F3B2F09415B"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			subtitle: "Kill 100 Zombies and Skeletons"
@@ -75,7 +80,7 @@
 					checkItem: true
 					entity: "minecraft:zombie"
 					icon: "minecraft:zombie_head"
-					id: "1B55D33026359111"
+					id: "5CD62B45A3BA8BBB"
 					item: {
 						Count: 1
 						id: "aurorasarsenal:ar_15"
@@ -92,7 +97,7 @@
 					checkItem: true
 					entity: "minecraft:skeleton"
 					icon: "minecraft:skeleton_skull"
-					id: "2EA70E68C9547A7A"
+					id: "0073FD71EAFBCE4C"
 					item: {
 						Count: 1
 						id: "aurorasarsenal:ar_15"
@@ -107,13 +112,13 @@
 				}
 			]
 			title: "AR-15 Basics 1/4"
-			x: -0.09999999999999803d
-			y: -2.1000000000000005d
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
 		}
 		{
-			dependencies: ["23DEB68EAA7FA064"]
+			dependencies: ["788EB7C452C146A6"]
 			icon: "minecraft:copper_block"
-			id: "52884D13D1DA3F4B"
+			id: "44FAA07BA0D3D533"
 			rewards: [
 				{
 					command: "/attribute @s hoths_jeg_attributes:ar_15_damage base set 7"
@@ -125,15 +130,20 @@
 							Damage: 0
 						}
 					}
-					id: "541016569E7076A9"
+					id: "69ECC777A2053940"
 					title: "+0.25 AR-15 Damage"
 					type: "command"
 				}
 				{
 					count: 64
-					id: "102DC411893C2CE9"
+					id: "3C2EFF640261BF9C"
 					item: "jeg:rifle_ammo"
 					type: "item"
+				}
+				{
+					id: "6063CFE5151CE509"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			subtitle: "Kill 100 Spiders and Strays"
@@ -142,7 +152,7 @@
 					checkItem: true
 					entity: "minecraft:spider"
 					icon: "minecraft:spider_eye"
-					id: "618F2AA81E7A518F"
+					id: "3BC2AFA52281D5C6"
 					item: {
 						Count: 1
 						id: "aurorasarsenal:ar_15"
@@ -165,7 +175,7 @@
 							Potion: "minecraft:slowness"
 						}
 					}
-					id: "7F1362C696B80B49"
+					id: "55ABCEA54252C2E6"
 					item: {
 						Count: 1
 						id: "aurorasarsenal:ar_15"
@@ -180,13 +190,13 @@
 				}
 			]
 			title: "AR-15 Basics 2/4"
-			x: -0.09999999999999803d
-			y: -3.6000000000000005d
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
 		}
 		{
-			dependencies: ["52884D13D1DA3F4B"]
+			dependencies: ["20611BFB0CC4EC43"]
 			icon: "minecraft:gold_block"
-			id: "187CFFB4DA4F7C53"
+			id: "7F82C18C244297C3"
 			rewards: [
 				{
 					command: "/attribute @s hoths_jeg_attributes:ar_15_damage base set 7.25"
@@ -198,23 +208,28 @@
 							Damage: 0
 						}
 					}
-					id: "6021D0BDCD187DD5"
+					id: "48328CC4BAC79B0C"
 					title: "+0.25 AR-15 Damage"
 					type: "command"
 				}
 				{
 					count: 64
-					id: "08EED91E0D3E688A"
+					id: "4B4636986AECA78B"
 					item: "jeg:rifle_ammo"
 					type: "item"
 				}
+				{
+					id: "0AC75740140CCAA4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
 			]
-			subtitle: "Kill 100 pillagers and vindicators"
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
 			tasks: [
 				{
 					checkItem: true
 					entity: "minecraft:pillager"
-					id: "4C3166C7F9B05636"
+					id: "5D1B76B0FDB5FF98"
 					item: {
 						Count: 1
 						id: "aurorasarsenal:ar_15"
@@ -230,7 +245,7 @@
 				{
 					checkItem: true
 					entity: "minecraft:vindicator"
-					id: "7C725BAADFB1F2D5"
+					id: "40F4C64815F16A16"
 					item: {
 						Count: 1
 						id: "aurorasarsenal:ar_15"
@@ -243,20 +258,36 @@
 					type: "questsadditions:killnbt"
 					value: 100L
 				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "0D60952AE0CA4D30"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:ar_15"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
 			]
 			title: "AR-15 Basics 3/4"
-			x: -0.09999999999999803d
-			y: -5.099999999999998d
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
 		}
 		{
-			dependencies: ["187CFFB4DA4F7C53"]
+			dependencies: ["338A9182ECCA6C42"]
 			description: [
 				"&bGelids are zombies found in cold biomes"
 				""
 				"&aThickets are zombies found in swamp biomes"
 			]
 			icon: "minecraft:iron_block"
-			id: "6C470C3C164DB02F"
+			id: "343E8BCE0CCBC9B2"
 			rewards: [
 				{
 					command: "/attribute @s hoths_jeg_attributes:ar_15_damage base set 7.5"
@@ -268,21 +299,26 @@
 							Damage: 0
 						}
 					}
-					id: "61308709815682DA"
+					id: "16D22B1BAEFDCBC8"
 					title: "+0.25 AR-15 Damage"
 					type: "command"
 				}
 				{
 					count: 64
-					id: "5EB3633790DE3D4D"
+					id: "26B2A2EBA7335067"
 					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
 					count: 30
-					id: "6CD0AE32497CC2E6"
+					id: "22816D94FB3F6486"
 					item: "jeg:gunmetal_ingot"
 					type: "item"
+				}
+				{
+					id: "7DB43B2E5DE408FD"
+					type: "xp_levels"
+					xp_levels: 15
 				}
 			]
 			size: 1.0d
@@ -292,7 +328,7 @@
 					checkItem: true
 					entity: "variantsandventures:gelid"
 					icon: "minecraft:snowball"
-					id: "14A919E032AA48B5"
+					id: "4E54D1D0C898D151"
 					item: {
 						Count: 1
 						id: "aurorasarsenal:ar_15"
@@ -309,7 +345,7 @@
 					checkItem: true
 					entity: "variantsandventures:thicket"
 					icon: "minecraft:mangrove_propagule"
-					id: "72836A43DD852EA8"
+					id: "115528DBE1BA4F2D"
 					item: {
 						Count: 1
 						id: "aurorasarsenal:ar_15"
@@ -326,7 +362,7 @@
 					checkItem: true
 					entity: "minecraft:husk"
 					icon: "minecraft:dead_bush"
-					id: "79DD4E20E9050A7B"
+					id: "724694E84052080A"
 					item: {
 						Count: 1
 						id: "aurorasarsenal:ar_15"
@@ -341,21 +377,21 @@
 				}
 			]
 			title: "AR-15 Basics 4/4"
-			x: -0.09999999999999803d
-			y: -6.599999999999998d
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
 		}
 		{
-			dependencies: ["0837FA204830270F"]
+			dependencies: ["240248F977F160C1"]
 			description: [
 				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
 				""
 				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
 			]
 			icon: "minecraft:netherite_block"
-			id: "7DD17D4029542C18"
+			id: "780BE5E1678B8632"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:ar_15_damage base set 7.75"
+					command: "/attribute @s hoths_jeg_attributes:ar_15_damage base set 8"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -364,27 +400,32 @@
 							Damage: 0
 						}
 					}
-					id: "373E1708E6159B1C"
+					id: "16432BFC76CBD743"
 					title: "+0.25 AR-15 Damage"
 					type: "command"
 				}
 				{
 					count: 10
-					id: "46B020C57DF469A9"
+					id: "1434E76BD1CEE72B"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
 					count: 10
-					id: "1DADFC80F4EF7282"
+					id: "77F07357417ED4B0"
 					item: "scguns:treated_brass_ingot"
 					type: "item"
 				}
 				{
 					count: 64
-					id: "4364F904A3FDACAD"
+					id: "51D9307D223D44C9"
 					item: "jeg:rifle_ammo"
 					type: "item"
+				}
+				{
+					id: "49E771EB1F93074D"
+					type: "xp_levels"
+					xp_levels: 25
 				}
 			]
 			shape: "diamond"
@@ -401,7 +442,7 @@
 							Damage: 0
 						}
 					}
-					id: "3EAA1EB9E85D3AF1"
+					id: "49C7CBAA70D7592F"
 					item: {
 						Count: 1
 						id: "aurorasarsenal:ar_15"
@@ -424,7 +465,7 @@
 							Damage: 0
 						}
 					}
-					id: "5903EE509F82A0F8"
+					id: "54B4CE071530DB6A"
 					item: {
 						Count: 1
 						id: "aurorasarsenal:ar_15"
@@ -441,7 +482,7 @@
 					checkItem: true
 					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
 					icon: "mutantmonsters:mutant_skeleton_limb"
-					id: "25F990EDB12CDBC8"
+					id: "4C8B6A3828173681"
 					item: {
 						Count: 1
 						id: "aurorasarsenal:ar_15"
@@ -456,13 +497,13 @@
 				}
 			]
 			title: "AR-15 Advanced 2/4"
-			x: -0.09999999999999803d
-			y: -9.599999999999998d
+			x: 0.0d
+			y: -9.75d
 		}
 		{
-			dependencies: ["6C470C3C164DB02F"]
+			dependencies: ["34EA025885FAF363"]
 			icon: "minecraft:diamond_block"
-			id: "0837FA204830270F"
+			id: "37BA7061579C5168"
 			rewards: [
 				{
 					command: "/attribute @s hoths_jeg_attributes:ar_15_damage base set 7.75"
@@ -474,32 +515,37 @@
 							Damage: 0
 						}
 					}
-					id: "5457419ED70DCE8D"
+					id: "293EDF08FEE68EC5"
 					title: "+0.25  AR-15 Damage"
 					type: "command"
 				}
 				{
 					count: 10
-					id: "386D6D27D36D31CA"
+					id: "3259C72F8D594338"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
 					count: 64
-					id: "779B69A815A4E08F"
+					id: "7B950FB6A0731747"
 					item: "jeg:rifle_ammo"
 					type: "item"
 				}
+				{
+					id: "635486779E001D9F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
 			]
 			shape: "diamond"
-			size: 1.25d
+			size: 1.5d
 			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
 			tasks: [
 				{
 					checkItem: true
 					entity: "born_in_chaos_v1:zombie_bruiser"
 					icon: "minecraft:oak_log"
-					id: "0C8C73D56718F48B"
+					id: "35E2AC34A2FF4521"
 					item: {
 						Count: 1
 						id: "aurorasarsenal:ar_15"
@@ -522,7 +568,7 @@
 							Damage: 0
 						}
 					}
-					id: "155B4DE835F7B889"
+					id: "6A553FC951264B12"
 					item: {
 						Count: 1
 						id: "aurorasarsenal:ar_15"
@@ -539,7 +585,7 @@
 					checkItem: true
 					entity: "born_in_chaos_v1:nightmare_stalker"
 					icon: "born_in_chaos_v1:nightmare_stalker_skull"
-					id: "722E952EA9EB9552"
+					id: "6D2054D23D8A9B03"
 					item: {
 						Count: 1
 						id: "aurorasarsenal:ar_15"
@@ -554,8 +600,378 @@
 				}
 			]
 			title: "AR-15 Advanced 1/4"
-			x: -0.09999999999999803d
-			y: -8.099999999999998d
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "6C635175412E2942"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:ar_15_damage base set 8.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6D293D2B7B766341"
+					title: "+0.25 AR-15 Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "5422A975033C1686"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "04F632CA8DD93A64"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7B2B616DA37B4C42"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "624A65F5566CD16D"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:ar_15"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "654399EF6BD12F12"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:ar_15"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "4AF334A48C179B39"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:ar_15"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "4A9F46F671E8D932"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "0095B43BBE9D3074"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:ar_15"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "AR-15 Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "6C844842C3DD3065"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:ar_15_damage base set 8.5"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2BF3F07D092F8B13"
+					title: "+0.25 AR-15 Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "2C733CFA52D8727F"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "39FF9A64F015811C"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0BE0C7029385F95D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "212AF2CC2F871022"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:ar_15"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "78EE7261F51EC05D"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:ar_15"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "45268400868EFFFB"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:ar_15"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "01233599E8B5B03F"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:ar_15"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "53CD4237F3EF86B6"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:ar_15"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "4A0468FB76A069CB"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:ar_15"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "AR-15 Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "4171CB3F3D4F3FCB"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:ar_15_damage base set 9.5"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3BBC43557B5B7CC2"
+					title: "+1 AR-15 Damage"
+					type: "command"
+				}
+				{
+					id: "4702107989298A25"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "7AFEBB508EFD4E6B"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "263FFFA2F8CE52A2"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "3E4DBA83AFF956E2"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "20A10DE95BB59D69"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "7CC24634EF1DD80E"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:ar_15"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "AR-15 Mastery"
+			x: 0.0d
+			y: -15.0d
 		}
 	]
 	title: "AR-15"

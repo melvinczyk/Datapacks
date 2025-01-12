@@ -4,7 +4,7 @@
 	filename: "m14"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "790168A22A48AC73"
-	order_index: 54
+	order_index: 64
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft an M14 using a Gunmetal Workbench"]

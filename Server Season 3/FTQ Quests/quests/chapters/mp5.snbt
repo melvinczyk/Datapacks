@@ -4,7 +4,7 @@
 	filename: "mp5"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "3599BF35C5784EE5"
-	order_index: 63
+	order_index: 72
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft an MP5 using a Gunnite Workbench"]

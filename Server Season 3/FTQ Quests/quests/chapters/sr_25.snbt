@@ -1,0 +1,978 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sr_25"
+	group: "2E8BF1A1F4DB9EE3"
+	icon: {
+		Count: 1
+		id: "aurorasarsenal:sr_25"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "3B648D4E9372D191"
+	order_index: 36
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Craft an SR 25 using a Gunnite Workbench"]
+			id: "0E199CD67BC82B4C"
+			rewards: [{
+				count: 30
+				id: "254112E0E6C1F379"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an SR 25"
+			tasks: [{
+				id: "415A7F5FB18D66F5"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:sr_25"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aquire an SR 25"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "71B49C0A9E43ACFC"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:sr_25_damage base set 14.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7122A3B3D6A2733B"
+					title: "+0.25 SR 25 Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "1480185BE9B6B005"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "72728F6A244153AF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "7000BD283BC219C1"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "7734DA74C8E89A64"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "SR 25 Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "5100A9F07E2F1595"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:sr_25_damage base set 14.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "00930AEDD1C366D6"
+					title: "+0.25 SR 25 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "2EF21188930A676D"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "755B51B7F23BF378"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "69F0B02B2778AC4A"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "1CA6F0D5A2CD5538"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "SR 25 Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "1FEF9F57BD1867D8"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:sr_25_damage base set 14.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "62D863E7B0F488A5"
+					title: "+0.25 SR 25 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "78C7984E9BE0DC62"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "38EA1877976647E0"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "556BFCDB32319B20"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "48EBD1615A95C0D2"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "0F208382231C68B4"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "SR 25 Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "05D8DE712110AE40"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:sr_25_damage base set 15.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "06345CECCEF93595"
+					title: "+0.25 SR 25 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "4F34B83615EA7FD6"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "542665521C63BB12"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "4E6A226A3898059C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "5608B9FDE5998ABE"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "1C4B00AF13712434"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "5316E177082CFCB4"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "SR 25 Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "5E574221CF148BAE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:sr_25_damage base set 15.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0E985659BD90C7BA"
+					title: "+0.25 SR 25 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "4ED639F2FF3A7E6D"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "32102B896192E558"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6CA60393B129E3E0"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0EC6C48A9B5953B1"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4EF7381718CE41FC"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "74D8F3FB77C74F23"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "026B3CB52D996D03"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "SR 25 Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "244E142BC7FE0AC2"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:sr_25_damage base set 15.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0DCFED04FA30E71C"
+					title: "+0.25  SR 25 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "430B33CB9466BBE4"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4185D7D912271E06"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "28F0E94717FAF564"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "61BB69EBA85B5F54"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3A4BEC5D3A1C3545"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "7131054D832846C2"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "SR 25 Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "5BFBD49A0DDBEDCF"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:sr_25_damage base set 15.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "23B308B1695089DA"
+					title: "+0.25 SR 25 Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "0BF1D731949519EB"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "28F5A63A5D92383F"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "39DC98932B9FA8C0"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3007B2B109A3A68E"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "30B32F8D574D973F"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "19776A8EA4920490"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "2ED0A1CCBEDDA514"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "39BA59D1C31AD258"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "SR 25 Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "7BEA3045F60F8581"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:sr_25_damage base set 16.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "689C0E9D0583C398"
+					title: "+0.25 SR 25 Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "3A8DF84C046652BC"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "5E73534B3685B741"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "6B05E28F3DD89E71"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "0395BDDE063372BB"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "23413D708ACE1656"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "2C4BDA0495A1C7D5"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "73778154F3280867"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "791A526ED628755D"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "65C33F01811B4CEF"
+					item: {
+						Count: 1
+						id: "aurorasarsenal:sr_25"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "SR 25 Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "6C0D5A1A009E3A25"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:sr_25_damage base set 17.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6D6CE1807B2E660B"
+					title: "+1 SR 25 Damage"
+					type: "command"
+				}
+				{
+					id: "0056659D59F20A8F"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "0306E09BD7A31E87"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "488AFCA4F4F38399"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "62BF3F71267E4CDB"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "76B4A3A6CE70008F"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "7C39BCF667C79247"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:sr_25"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "SR 25 Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
+	title: "SR 25"
+}

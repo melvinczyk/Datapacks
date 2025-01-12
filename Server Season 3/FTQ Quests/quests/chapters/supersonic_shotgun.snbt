@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "supersonic_shotgun"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "1F9140B6A009C781"
-	order_index: 38
+	icon: {
+		Count: 1
+		id: "jeg:supersonic_shotgun"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "48E23FDC605997B9"
+	order_index: 34
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft a Super-Sonic Rifle by finding its blueprint and using a Blueprint Workbench"]
-		id: "0FDAC1119E793267"
-		rewards: [{
-			count: 18
-			id: "43E3E75DE25AAD6F"
-			item: "minecraft:echo_shard"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Super-Sonic Rifle"
-		tasks: [{
-			id: "0FB02796A4523581"
-			item: {
-				Count: 1
-				id: "jeg:supersonic_shotgun"
-				tag: {
-					AmmoCount: 6
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Supersonic Shotgun using a Gunnite Workbench"]
+			id: "6ADE26D7F20FD688"
+			rewards: [{
+				count: 30
+				id: "3564D1A073AD61DF"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Supersonic Shotgun"
+			tasks: [{
+				id: "436E4D03F17D0689"
+				item: {
+					Count: 1
+					id: "jeg:supersonic_shotgun"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Super-Sonic Rifle"
-		x: 0.0d
-		y: -2.0d
-	}]
-	title: "Super-Sonic Shotgun"
+				type: "item"
+			}]
+			title: "Aquire an Supersonic Shotgun"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "430D023F9400FC03"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:supersonic_shotgun_damage base set 22.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7F465F5CDB8D9103"
+					title: "+0.25 Supersonic Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "7A1DB3018969C116"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "6AA83ED405FD0B26"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "7899FA3707B27B4B"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "513582A561535B08"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Supersonic Shotgun Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "42BB8C0668E6991F"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:supersonic_shotgun_damage base set 22.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "22043A371C8405D2"
+					title: "+0.25 Supersonic Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "7A2610CFBA405B99"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "20D23BCFF3E2C281"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "62178569AD8B5DA6"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "5C8DB89C3034F8F2"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Supersonic Shotgun Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "2BD06FD289E723F7"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:supersonic_shotgun_damage base set 22.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "42063EFE54E5C9F2"
+					title: "+0.25 Supersonic Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "6BFD4129B08519D3"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "4667178F6AF1FA9F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "6005D31AD68962E2"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "57C9C04629231933"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "57B71BBBEC6D6B51"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Supersonic Shotgun Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "1217F15F640A1989"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:supersonic_shotgun_damage base set 23.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "250FB4FE8F017A6F"
+					title: "+0.25 Supersonic Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "72199D0DDA5BE3AA"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "17A49040F3C6E0BC"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "36575952C650ED69"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "483E6A14E5B60B24"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "71AE315052C3E7D1"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "66E54031ECD0624A"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Supersonic Shotgun Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "431B441E367372B1"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:supersonic_shotgun_damage base set 23.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0B4D9D9FD7E383B3"
+					title: "+0.25 Supersonic Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "535E6BE0D66A0DA0"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "478C9A30B4FCF7AA"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1BF12346D1195288"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "545C2F1D9D64E338"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6CE8117C07EB0EEA"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4F0CD8649F521F20"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "61422F4E6C864B2D"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Supersonic Shotgun Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "3DA20CE2B8561F7A"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:supersonic_shotgun_damage base set 23.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2D0A7ECF8895AB08"
+					title: "+0.25  Supersonic Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "2463A69FC66D4661"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5AFE5F1DC98F28AC"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "22B04C9E896C7E21"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "30A9D68A231A282D"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "654A399AF1EDCEDA"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "60ED2A365E81AC04"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Supersonic Shotgun Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "64DEE71D8C87046C"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:supersonic_shotgun_damage base set 23.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "144BF775197AF225"
+					title: "+0.25 Supersonic Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "7B7F5E8E1991B247"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "5E787CFD7F8CC7FE"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0BBB0E55C6822BBD"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2EB64023008A17D9"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "5C46F47C1598AA41"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "408EEE19A88E39B5"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "76276900289FC145"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "2ECDD48C6B0BBC27"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Supersonic Shotgun Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "45095E05B01F9140"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:supersonic_shotgun_damage base set 24.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "520453A50ABB5C0E"
+					title: "+0.25 Supersonic Shotgun Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "021365AF67FAC9CF"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "39CD5D5B2D4D693E"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "01E2FD8C5E05A4E7"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "6970E5DEE3B79639"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "1B3647C9A0FD56D3"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "773CDEAFD0BC7A24"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "12BCB8EC136EA2EF"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "46661360111C8B6E"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "537867776D89693F"
+					item: {
+						Count: 1
+						id: "jeg:supersonic_shotgun"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Supersonic Shotgun Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "0E11B0E65C8EAE98"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:supersonic_shotgun_damage base set 25.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "33056F0B6289558F"
+					title: "+1 Supersonic Shotgun Damage"
+					type: "command"
+				}
+				{
+					id: "0F4AE2ADD6AB0C62"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "22AE0627D08667E5"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "45A2425939D3FA5D"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "4F8D3FA1F20CA8B8"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "0775F5E2B7F572D2"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "1EFEDA925E5C85EF"
+				item: {
+					Count: 1
+					id: "jeg:supersonic_shotgun"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Supersonic Shotgun Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
+	title: "Supersonic Shotgun"
 }

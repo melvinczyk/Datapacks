@@ -4,7 +4,7 @@
 	filename: "mossberg_590"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "7AB89F2481D7D8DF"
-	order_index: 62
+	order_index: 71
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft an Mossberg 590 using a Gunmetal Workbench"]

@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "famas"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "1393E95E08C614C2"
-	order_index: 45
+	icon: {
+		Count: 1
+		id: "mteg:famas"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "21615BE2BBB6303D"
+	order_index: 11
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft an Famas using a Gunnite Workbench"]
-		id: "0BEF666B79AA8B4F"
-		rewards: [{
-			count: 30
-			id: "30E17916C349B573"
-			item: "jeg:rifle_ammo"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Famas"
-		tasks: [{
-			id: "61FA4D6E371F2F82"
-			item: {
-				Count: 1
-				id: "mteg:famas"
-				tag: {
-					AmmoCount: 25
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Famas using a Gunnite Workbench"]
+			id: "13CD0A1B2A8A454F"
+			rewards: [{
+				count: 30
+				id: "7AB985ECBF50C3F4"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Famas"
+			tasks: [{
+				id: "3F0AC3E583304F3B"
+				item: {
+					Count: 1
+					id: "mteg:famas"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Famas"
-		x: -1.5d
-		y: -2.0d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Famas"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "669CFCBB02ADE3DB"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:famas_damage base set 8.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "46C6C54EA5766B08"
+					title: "+0.25 Famas Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "2DF4377D63CB7D8E"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "45A450E5C7A7F446"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "39393C8D1BE469A0"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "07E1C91CD851241A"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Famas Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "6DF3E0D5DF8181CE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:famas_damage base set 8.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "191C80AE0AB6213C"
+					title: "+0.25 Famas Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "1F2CB4E2AD5FD497"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2ECF2620F8288F9E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "2CEED30C5786224B"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "0D01588409ADCEA8"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Famas Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "4291BB410D012BD1"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:famas_damage base set 8.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1D342247F0C370FB"
+					title: "+0.25 Famas Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "526D4C8851545A09"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "595AE89EC0973B9C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "5863A7946A92E0BF"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "2A0810C69234250F"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "58A78854285F6EFC"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Famas Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "4158148E60CAF9BE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:famas_damage base set 9.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1CA3DC215965F0AF"
+					title: "+0.25 Famas Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "2B779A4CF0936696"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "1AC193AB5C9854CD"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "10955CDCACB3DB32"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "421AF8C60084E24B"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "2F963AA4F67C4CDB"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "74642F3044D8CA1A"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Famas Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "08EDA16AAED61F44"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:famas_damage base set 9.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1F8FF8199536C3CB"
+					title: "+0.25 Famas Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "05921C6FC52E1CCD"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "132218F530C75E30"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "04E7B8957F55365E"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "5C0BCB073DB9234E"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "47C97F35C90BAE4A"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "573F53D7A1AB09B1"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "25BEC21731FA5690"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Famas Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "2DB8CD8F688459AE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:famas_damage base set 9.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0BD425B259848535"
+					title: "+0.25  Famas Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "6D86256231210B11"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "177CEB556BF74175"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "229F5C38B7AD1DA5"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "263B1347D5A06EE7"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "045D5DCEBF4EAF5C"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "0FE273A5E9844361"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Famas Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "77B73467349EEFB5"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:famas_damage base set 9.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7F1768E9596C3174"
+					title: "+0.25 Famas Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "387153C22C3D9A31"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "2AFF92940C9179DC"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "780DE2D46E8AB095"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3B1E49B0A87FCEF8"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "46FFB96EB2418178"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "0EDC7E8EA46B3CC1"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "22A61BFAD0524E69"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "05FAC952DB0019F2"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Famas Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "05CD0AE4E51E4A23"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:famas_damage base set 10.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7C5381F9CD4D704E"
+					title: "+0.25 Famas Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "2664846759C17F7D"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "04C10E643A27785F"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "55E5AB701049E112"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "700D199F99A9685C"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "2DD7408EA13C73F0"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "29B250B0307DA079"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3497724BDE763358"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "2BC27D8B1EA21E5C"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "22A571FD8CF2D794"
+					item: {
+						Count: 1
+						id: "mteg:famas"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Famas Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "57D879797CB04266"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:famas_damage base set 11.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2C2667982F673511"
+					title: "+1 Famas Damage"
+					type: "command"
+				}
+				{
+					id: "7DF3B3472A1C8922"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "2028EFD87BCFDACA"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "3AECD17A4BD025E3"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "01F960DAA054F746"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "1F9E849E52C11F2B"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "045C5B7DC2A8E5A5"
+				item: {
+					Count: 1
+					id: "mteg:famas"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Famas Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Famas"
 }

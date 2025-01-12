@@ -4,7 +4,7 @@
 	filename: "remington_870"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "2C057F5EA7086177"
-	order_index: 65
+	order_index: 74
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft a Remington 870 using a Gunmetal Workbench"]

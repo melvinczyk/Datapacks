@@ -4,7 +4,7 @@
 	filename: "m1911"
 	group: "2E8BF1A1F4DB9EE3"
 	id: "296CF56B91402792"
-	order_index: 60
+	order_index: 69
 	quest_links: [ ]
 	quests: [{
 		description: ["Craft an M1911 using a Gunmetal Workbench"]

@@ -1,0 +1,17 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "forest",
+    "old_growth_birch_forest",
+    "birch_forest",
+    "dark_forest",
+    "flower_forest",
+    "windswept_forest"
+  ],
+  "spawners": {
+    "type": "threateningly_mobs:rock_snail",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

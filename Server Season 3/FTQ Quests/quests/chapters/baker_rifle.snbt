@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "baker_rifle"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "14D2EB42A888C042"
-	order_index: 8
+	icon: {
+		Count: 1
+		id: "mteg:baker_rifle"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "11A1F713DC256065"
+	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft a Baker Rifle using a Scrap Workbench"]
-		id: "45000A534B99727B"
-		rewards: [{
-			count: 30
-			id: "75E629B32E3022AF"
-			item: "jeg:rifle_ammo"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Baker Rifle"
-		tasks: [{
-			id: "487332015AF0878F"
-			item: {
-				Count: 1
-				id: "mteg:baker_rifle"
-				tag: {
-					AmmoCount: 1
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an Baker Rifle using a Gunnite Workbench"]
+			id: "1130429F76D2B23A"
+			rewards: [{
+				count: 30
+				id: "55B838141EEBFA34"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Baker Rifle"
+			tasks: [{
+				id: "12409F3F033B9A85"
+				item: {
+					Count: 1
+					id: "mteg:baker_rifle"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Baker Rifle"
-		x: -1.0d
-		y: -0.5d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Baker Rifle"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["62FB20C0FDF46924"]
+			icon: "minecraft:dirt"
+			id: "2A36128C3C05CFA2"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:baker_rifle_damage base set 18.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0936FD53F220C5C5"
+					title: "+0.25 Baker Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "7D77DC00EAD68452"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "3AD40A7731A0089E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "38295BAF4628AD17"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "4EF25F7D84341208"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Baker Rifle Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["788EB7C452C146A6"]
+			icon: "minecraft:copper_block"
+			id: "6350A1D8688F3CBF"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:baker_rifle_damage base set 18.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "024E22491FD9ADE5"
+					title: "+0.25 Baker Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "0594389F1F737D2A"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1C3F1CC0FAA08572"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "7B040FCEF91B7526"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "2F53330280AABC39"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Baker Rifle Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["20611BFB0CC4EC43"]
+			icon: "minecraft:gold_block"
+			id: "0364DC4BFAA9E773"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:baker_rifle_damage base set 18.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "675AB37A44C7C213"
+					title: "+0.25 Baker Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "1BCDA80FD03E2E74"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7339BA1DA8DD54B6"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "4049EC1713E0379D"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "15DD12B9438B58CF"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "7A776C12DC80CCD7"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Baker Rifle Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["338A9182ECCA6C42"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "7061FE11FBB5A801"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:baker_rifle_damage base set 19.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "513AEDDA49EE0259"
+					title: "+0.25 Baker Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "2AC80A26B5718FB5"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "23685E672C000FCB"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "7DDE38E81DFFA5F9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "30A704805A430494"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "1EB67615F330A627"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "1E4FDDA369ED1E12"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Baker Rifle Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["240248F977F160C1"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "2458A245FB5C2597"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:baker_rifle_damage base set 19.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "37E05D73A7CF21C8"
+					title: "+0.25 Baker Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "6E843F959F8B7728"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2B7612B82CEFF2D8"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0CD1BC16F60DA94B"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "679CEF952E3B72E8"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "72BF7488A27BB0F9"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7B263EB0390ADB91"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "21DAE57CC97FF469"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Baker Rifle Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["34EA025885FAF363"]
+			icon: "minecraft:diamond_block"
+			id: "1897266E211DE934"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:baker_rifle_damage base set 19.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0C50666AA47AA14B"
+					title: "+0.25  Baker Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "2DC0617CD0AD7BB1"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "225919D0F5DD5366"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "3BE1143C1A9AD57D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "617F0451A0D8CDA4"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "065ED1D9070B267F"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "7B1916F56DA9D096"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Baker Rifle Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["54F5952F73D28668"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "173879F76A88C38A"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:baker_rifle_damage base set 19.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1AAFFB39430F1A32"
+					title: "+0.25 Baker Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "755876F4E0329C19"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "23E2BE63E9E16B61"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0CAD979538B5CE51"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3C57D19ABB30194B"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "7F1FB678F210505A"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "30492CA6C9A0AC5E"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "7B1494D00956AF1B"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "7CC228B085B0AF35"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Baker Rifle Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1BEE2C8D61EE08DB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "5315E21F6F23E23F"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:baker_rifle_damage base set 20.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "56564F5348B9131A"
+					title: "+0.25 Baker Rifle Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "601E39538C69BA3C"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "09140F8B11F45952"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "4CE5E3B16E479492"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "4BD87FA513481A76"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "59B7E4B48AED0C81"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "44C78EB02C8572BC"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "63D567CE470744AA"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "67CA181E18066DA5"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "55111936C5118E30"
+					item: {
+						Count: 1
+						id: "mteg:baker_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Baker Rifle Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6023F8A4315D9749"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "380F257BA5C382D4"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:baker_rifle_damage base set 21.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4565484E76781FF6"
+					title: "+1 Baker Rifle Damage"
+					type: "command"
+				}
+				{
+					id: "2574D0F9D6A8DBAD"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "40CF4CC7EA895B5B"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "4C18EF2AE3FDBEEF"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "77E5751D16F872D4"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "2CE33D0FDD753F9F"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "028918A0BC7953C7"
+				item: {
+					Count: 1
+					id: "mteg:baker_rifle"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Baker Rifle Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Baker Rifle"
 }
