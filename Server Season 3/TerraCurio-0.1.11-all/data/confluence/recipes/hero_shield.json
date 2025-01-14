@@ -1,0 +1,14 @@
+{
+    "type": "confluence:workshop",
+    "ingredients": [
+        {
+            "item": "confluence:paladins_shield"
+        },
+        {
+            "item": "confluence:flesh_knuckles"
+        }
+    ],
+    "result": {
+        "item": "confluence:hero_shield"
+    }
+}

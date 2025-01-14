@@ -1,0 +1,14 @@
+{
+    "type": "confluence:workshop",
+    "ingredients": [
+        {
+            "item": "confluence:sailfish_boots"
+        },
+        {
+            "item": "confluence:frog_leg"
+        }
+    ],
+    "result": {
+        "item": "confluence:ambhipian_boots"
+    }
+}

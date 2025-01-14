@@ -1,0 +1,14 @@
+{
+    "type": "confluence:workshop",
+    "ingredients": [
+        {
+            "item": "confluence:blindfold"
+        },
+        {
+            "item": "confluence:flashlight"
+        }
+    ],
+    "result": {
+        "item": "confluence:searchlight"
+    }
+}

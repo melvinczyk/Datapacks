@@ -1,0 +1,14 @@
+{
+    "type": "confluence:workshop",
+    "ingredients": [
+        {
+            "item": "confluence:lightning_boots"
+        },
+        {
+            "item": "confluence:ice_skates"
+        }
+    ],
+    "result": {
+        "item": "confluence:frostspark_boots"
+    }
+}

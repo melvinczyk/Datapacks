@@ -16,12 +16,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Custom Smg using a Gunnite Workbench"]
+			description: ["Craft an Custom Smg using a Scrap Workbench"]
 			id: "6FC5331DA7C2A15B"
 			rewards: [{
-				count: 30
+				count: 40
 				id: "5A4C9081F4DA2439"
-				item: "jeg:rifle_ammo"
+				item: "jeg:pistol_ammo"
 				type: "item"
 			}]
 			shape: "diamond"
@@ -44,7 +44,7 @@
 			y: -0.20000000000000004d
 		}
 		{
-			dependencies: ["62FB20C0FDF46924"]
+			dependencies: ["6FC5331DA7C2A15B"]
 			icon: "minecraft:dirt"
 			id: "238F4AF214723587"
 			rewards: [
@@ -116,7 +116,7 @@
 			y: -2.2000000000000006d
 		}
 		{
-			dependencies: ["788EB7C452C146A6"]
+			dependencies: ["238F4AF214723587"]
 			icon: "minecraft:copper_block"
 			id: "738C371917C1C590"
 			rewards: [
@@ -194,7 +194,7 @@
 			y: -3.7000000000000006d
 		}
 		{
-			dependencies: ["20611BFB0CC4EC43"]
+			dependencies: ["738C371917C1C590"]
 			icon: "minecraft:gold_block"
 			id: "3F098881A0293D64"
 			rewards: [
@@ -280,7 +280,7 @@
 			y: -5.1999999999999975d
 		}
 		{
-			dependencies: ["338A9182ECCA6C42"]
+			dependencies: ["3F098881A0293D64"]
 			description: [
 				"&bGelids are zombies found in cold biomes"
 				""
@@ -381,7 +381,7 @@
 			y: -6.6999999999999975d
 		}
 		{
-			dependencies: ["240248F977F160C1"]
+			dependencies: ["0C44009BA5C08EE5"]
 			description: [
 				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
 				""
@@ -501,7 +501,7 @@
 			y: -9.75d
 		}
 		{
-			dependencies: ["34EA025885FAF363"]
+			dependencies: ["3A5EFB5C266FFA8F"]
 			icon: "minecraft:diamond_block"
 			id: "79D037E589F18AF6"
 			rewards: [
@@ -604,7 +604,7 @@
 			y: -8.25d
 		}
 		{
-			dependencies: ["54F5952F73D28668"]
+			dependencies: ["79D037E589F18AF6"]
 			description: [
 				"The Lich has a small chance to spawn in the overworld at night."
 				""
@@ -740,7 +740,7 @@
 			y: -11.25d
 		}
 		{
-			dependencies: ["1BEE2C8D61EE08DB"]
+			dependencies: ["0C9A5197F87221CE"]
 			description: [
 				"The Spiritcaller can be fought during raids in the final wave"
 				""
@@ -903,7 +903,7 @@
 			y: -12.75d
 		}
 		{
-			dependencies: ["6023F8A4315D9749"]
+			dependencies: ["19765ACAD9DFAE8F"]
 			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
 			id: "54A0DE16F8A5214D"
 			rewards: [

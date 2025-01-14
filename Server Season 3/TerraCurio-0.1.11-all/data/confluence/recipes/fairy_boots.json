@@ -1,0 +1,14 @@
+{
+    "type": "confluence:workshop",
+    "ingredients": [
+        {
+            "item": "confluence:spectre_boots"
+        },
+        {
+            "item": "confluence:flower_boots"
+        }
+    ],
+    "result": {
+        "item": "confluence:fairy_boots"
+    }
+}

@@ -10,9 +10,9 @@
     "fireMode": "jeg:semi_automatic",
     "gripType": "jeg:two_handed",
     "rate": 32,
-    "recoilAngle": 7.0,
+    "recoilAngle": 15.0,
     "recoilKick": 0.5,
-    "spread": 0.3
+    "spread": 2.0
   },
   "modules": {
     "attachments": {

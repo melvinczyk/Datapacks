@@ -14,28 +14,22 @@ def zip_and_copy_datapacks(server_season_folder, datapacks_folder):
     os.makedirs(datapacks_folder, exist_ok=True)
     print(f"Ensured that datapacks folder exists at: {datapacks_folder}\n")
 
-    # Iterate through each subfolder in "Server Season 3"
     for folder in os.listdir(server_season_folder):
         folder_path = os.path.join(server_season_folder, folder)
 
-        # Check if it's a directory
         if os.path.isdir(folder_path):
             data_folder = os.path.join(folder_path, "data")
             pack_mcmeta_file = os.path.join(folder_path, "pack.mcmeta")
 
-            # Check if both the "data" folder and "pack.mcmeta" file exist
             if os.path.exists(data_folder) and os.path.exists(pack_mcmeta_file):
                 zip_file_name = f"{folder}.zip"
                 zip_file_path = os.path.join(folder_path, zip_file_name)
 
                 try:
-                    # Create the zip file
                     with zipfile.ZipFile(zip_file_path, "w", zipfile.ZIP_DEFLATED) as zipf:
-                        # Add the "data" folder
                         for root, _, files in os.walk(data_folder):
                             for file in files:
                                 file_path = os.path.join(root, file)
-                                # Preserve the folder structure relative to the current folder
                                 arcname = os.path.relpath(file_path, start=folder_path)
                                 zipf.write(file_path, arcname)
 
@@ -44,7 +38,6 @@ def zip_and_copy_datapacks(server_season_folder, datapacks_folder):
 
                     print(f"Created zip file: {zip_file_path}")
 
-                    # Copy the zip file to the "datapacks" folder
                     destination_path = os.path.join(datapacks_folder, zip_file_name)
                     shutil.copy(zip_file_path, destination_path)
                     print(f"Copied {zip_file_name} to {datapacks_folder}\n")
@@ -55,10 +48,6 @@ def zip_and_copy_datapacks(server_season_folder, datapacks_folder):
                 print(f"Skipping {folder_path}: 'data' folder or 'pack.mcmeta' file is missing.\n")
 
     print("All eligible folders have been processed.")
-
-# ============================
-# Usage Example
-# ============================
 
 if __name__ == "__main__":
     server_season_folder_path = r"/Users/nicholasburczyk/Desktop/Minecraft server stuff/Datapacks/Server Season 3"

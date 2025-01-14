@@ -381,7 +381,7 @@
 			y: -6.6999999999999975d
 		}
 		{
-			dependencies: ["0837FA204830270F"]
+			dependencies: ["6C470C3C164DB02F"]
 			description: [
 				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
 				""
@@ -501,7 +501,7 @@
 			y: -9.75d
 		}
 		{
-			dependencies: ["6C470C3C164DB02F"]
+			dependencies: ["7DD17D4029542C18"]
 			icon: "minecraft:diamond_block"
 			id: "0837FA204830270F"
 			rewards: [
@@ -604,7 +604,7 @@
 			y: -8.25d
 		}
 		{
-			dependencies: ["7DD17D4029542C18"]
+			dependencies: ["0837FA204830270F"]
 			description: [
 				"The Lich has a small chance to spawn in the overworld at night."
 				""

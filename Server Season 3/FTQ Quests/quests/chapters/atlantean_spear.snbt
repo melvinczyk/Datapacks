@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Atlantean Spear using a Gunnite Workbench"]
+			description: ["Craft an Atlantean Spear by finding its blueprint and using a Blueprint Workbench"]
 			id: "62FB20C0FDF46924"
 			rewards: [{
 				count: 30
@@ -31,7 +31,7 @@
 				id: "27CACA3A17AB95C9"
 				item: {
 					Count: 1
-					id: "jeg:atlantean_spear"
+					id: "jeg:water_bomb"
 					tag: {
 						AmmoCount: 30
 						Damage: 0

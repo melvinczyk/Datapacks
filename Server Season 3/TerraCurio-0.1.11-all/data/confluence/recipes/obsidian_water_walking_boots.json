@@ -1,0 +1,14 @@
+{
+    "type": "confluence:workshop",
+    "ingredients": [
+        {
+            "item": "confluence:water_walking_boots"
+        },
+        {
+            "item": "confluence:obsidian_skull"
+        }
+    ],
+    "result": {
+        "item": "confluence:obsidian_water_walking_boots"
+    }
+}

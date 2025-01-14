@@ -12,6 +12,12 @@
     "minecraft:stray",
     "minecraft:wither_skeleton",
     "jeg:ghoul",
-    "born_in_chaos_v1:fallen_chaos_knight"
+    "born_in_chaos_v1:fallen_chaos_knight",
+    "born_in_chaos_v1:missionary",
+    "mutantmonsters:mutant_zombie",
+    "mutantmonsters:mutant_skeleton",
+    "born_in_chaos_v1:decaying_zombie",
+    "born_in_chaos_v1:restless_spirit",
+    "mutant_monsters:mutant_enderman"
   ]
 }

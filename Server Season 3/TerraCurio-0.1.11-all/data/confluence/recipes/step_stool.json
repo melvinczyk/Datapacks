@@ -1,0 +1,16 @@
+{
+    "type": "confluence:workshop",
+    "ingredients": [
+        {
+            "item": "minecraft:stick",
+            "count": 2
+        },
+        {
+            "item": "minecraft:scaffolding",
+            "count": 5
+        }
+    ],
+    "result": {
+        "item": "confluence:step_stool"
+    }
+}

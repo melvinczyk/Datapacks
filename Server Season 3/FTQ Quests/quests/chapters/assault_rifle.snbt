@@ -36,7 +36,7 @@
 			y: -0.20000000000000004d
 		}
 		{
-			dependencies: ["5A5B6CF721DED1B0"]
+			dependencies: ["2D750FCC67DB10E8"]
 			icon: "minecraft:dirt"
 			id: "65604E7DB952A07C"
 			rewards: [
@@ -108,7 +108,7 @@
 			y: -2.2000000000000006d
 		}
 		{
-			dependencies: ["23DEB68EAA7FA064"]
+			dependencies: ["65604E7DB952A07C"]
 			icon: "minecraft:copper_block"
 			id: "79CA7C35155FF860"
 			rewards: [
@@ -186,7 +186,7 @@
 			y: -3.7000000000000006d
 		}
 		{
-			dependencies: ["52884D13D1DA3F4B"]
+			dependencies: ["79CA7C35155FF860"]
 			icon: "minecraft:gold_block"
 			id: "6D3846E855979B1D"
 			rewards: [
@@ -272,7 +272,7 @@
 			y: -5.1999999999999975d
 		}
 		{
-			dependencies: ["187CFFB4DA4F7C53"]
+			dependencies: ["6D3846E855979B1D"]
 			description: [
 				"&bGelids are zombies found in cold biomes"
 				""
@@ -373,7 +373,7 @@
 			y: -6.6999999999999975d
 		}
 		{
-			dependencies: ["0837FA204830270F"]
+			dependencies: ["2AD4116CC581309E"]
 			description: [
 				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
 				""
@@ -493,7 +493,7 @@
 			y: -9.75d
 		}
 		{
-			dependencies: ["6C470C3C164DB02F"]
+			dependencies: ["45AB631B09E9FC06"]
 			icon: "minecraft:diamond_block"
 			id: "3CB0A7BC1656E474"
 			rewards: [
@@ -596,7 +596,7 @@
 			y: -8.25d
 		}
 		{
-			dependencies: ["7DD17D4029542C18"]
+			dependencies: ["3CB0A7BC1656E474"]
 			description: [
 				"The Lich has a small chance to spawn in the overworld at night."
 				""
@@ -732,7 +732,7 @@
 			y: -11.25d
 		}
 		{
-			dependencies: ["4824D2D21BB82D09"]
+			dependencies: ["14F974DB30E57E73"]
 			description: [
 				"The Spiritcaller can be fought during raids in the final wave"
 				""
@@ -895,7 +895,7 @@
 			y: -12.75d
 		}
 		{
-			dependencies: ["52817E613DE67182"]
+			dependencies: ["1342DDDF386444D2"]
 			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
 			id: "0DD6957EF1A1C236"
 			rewards: [

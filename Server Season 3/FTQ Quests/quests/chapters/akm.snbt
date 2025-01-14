@@ -116,6 +116,7 @@
 			y: -2.2000000000000006d
 		}
 		{
+			dependencies: ["0DDE5A8CC7CEAD1A"]
 			icon: "minecraft:copper_block"
 			id: "1221DF0161B84094"
 			rewards: [
@@ -193,6 +194,7 @@
 			y: -3.7000000000000006d
 		}
 		{
+			dependencies: ["1221DF0161B84094"]
 			icon: "minecraft:gold_block"
 			id: "36C4B28A114A445F"
 			rewards: [
@@ -278,6 +280,7 @@
 			y: -5.1999999999999975d
 		}
 		{
+			dependencies: ["36C4B28A114A445F"]
 			description: [
 				"&bGelids are zombies found in cold biomes"
 				""
@@ -378,6 +381,7 @@
 			y: -6.6999999999999975d
 		}
 		{
+			dependencies: ["1D61E6DE05236E41"]
 			description: [
 				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
 				""
@@ -497,6 +501,7 @@
 			y: -9.75d
 		}
 		{
+			dependencies: ["24E6929A80FD549E"]
 			icon: "minecraft:diamond_block"
 			id: "3BD7409FFBBF940B"
 			rewards: [
@@ -599,6 +604,7 @@
 			y: -8.25d
 		}
 		{
+			dependencies: ["3BD7409FFBBF940B"]
 			description: [
 				"The Lich has a small chance to spawn in the overworld at night."
 				""
@@ -734,6 +740,7 @@
 			y: -11.25d
 		}
 		{
+			dependencies: ["6F76ED1269B02B62"]
 			description: [
 				"The Spiritcaller can be fought during raids in the final wave"
 				""

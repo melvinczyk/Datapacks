@@ -49,7 +49,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 10.0,
+          "value": 5.0,
           "operation": "ADDITION"
         },
         {
@@ -65,7 +65,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 15.0,
+          "value": 5.0,
           "operation": "ADDITION"
         },
         {
@@ -97,7 +97,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 10.0,
+          "value": 5.0,
           "operation": "ADDITION"
         },
         {
@@ -113,7 +113,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 10.0,
+          "value": 5.0,
           "operation": "ADDITION"
         },
         {
@@ -129,7 +129,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 10.0,
+          "value": 2.0,
           "operation": "ADDITION"
         },
         {
@@ -145,7 +145,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 20.0,
+          "value": 10.0,
           "operation": "ADDITION"
         },
         {
@@ -161,7 +161,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 3.0,
+          "value": 2.0,
           "operation": "ADDITION"
         },
         {
@@ -177,7 +177,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 3.0,
+          "value": 2.0,
           "operation": "ADDITION"
         },
         {
@@ -225,7 +225,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 8.0,
+          "value": 4.0,
           "operation": "ADDITION"
         },
         {
@@ -241,7 +241,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 10.0,
+          "value": 8.0,
           "operation": "ADDITION"
         },
         {
@@ -257,7 +257,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 10.0,
+          "value": 4.0,
           "operation": "ADDITION"
         },
         {
@@ -321,7 +321,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 10.0,
+          "value": 8.0,
           "operation": "ADDITION"
         },
         {
@@ -360,27 +360,6 @@
           "attribute": "minecraft:generic.max_health",
           "value": 150,
           "operation": "ADDITION"
-        }
-      ]
-    },
-    {
-      "entity_regex": "born_in_chaos_v1:dire_hound_leader",
-      "apply_chance": 100.0,
-      "attributes": [
-        {
-          "attribute": "minecraft:generic.armor",
-          "value": 10.0,
-          "operation": "ADDITION"
-        },
-        {
-          "attribute": "minecraft:generic.max_health",
-          "value": 150,
-          "operation": "ADDITION"
-        },
-        {
-          "attribute": "minecraft:generic.movement_speed",
-          "value": 0.2,
-          "operation": "MULTIPLY_BASE"
         }
       ]
     },
@@ -449,22 +428,6 @@
       ]
     },
     {
-      "entity_regex": "born_in_chaos_v1:dire_hound_leader",
-      "apply_chance": 100.0,
-      "attributes": [
-        {
-          "attribute": "minecraft:generic.armor",
-          "value": 10.0,
-          "operation": "ADDITION"
-        },
-        {
-          "attribute": "minecraft:generic.max_health",
-          "value": 150,
-          "operation": "ADDITION"
-        }
-      ]
-    },
-    {
       "entity_regex": "born_in_chaos_v1:krampus",
       "apply_chance": 100.0,
       "attributes": [
@@ -481,12 +444,12 @@
       ]
     },
     {
-      "entity_regex": "born_in_chaos_v1:lifesteamer",
+      "entity_regex": "born_in_chaos_v1:lifestealer",
       "apply_chance": 100.0,
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 20.0,
+          "value": 10.0,
           "operation": "ADDITION"
         },
         {
@@ -518,7 +481,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 10.0,
+          "value": 5.0,
           "operation": "ADDITION"
         },
         {
@@ -598,7 +561,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 10.0,
+          "value": 5.0,
           "operation": "ADDITION"
         },
         {

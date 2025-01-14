@@ -4,6 +4,9 @@
     "minecraft:ender_dragon",
     "minecraft:warden",
     "minecraft:wither",
-    "minecraft:giant"
+    "minecraft:giant",
+    "mutantmonsters:mutant_zombie",
+    "mutantmonsters:mutant_skeleton",
+    "born_in_chaos_v1:missioner"
   ]
 }

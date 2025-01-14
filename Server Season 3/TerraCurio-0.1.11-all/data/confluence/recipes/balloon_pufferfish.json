@@ -1,0 +1,14 @@
+{
+    "type": "confluence:workshop",
+    "ingredients": [
+        {
+            "item": "minecraft:pufferfish"
+        },
+        {
+            "item": "confluence:shiny_red_balloon"
+        }
+    ],
+    "result": {
+        "item": "confluence:balloon_pufferfish"
+    }
+}
