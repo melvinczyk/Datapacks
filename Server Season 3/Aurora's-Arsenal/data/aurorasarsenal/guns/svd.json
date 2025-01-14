@@ -37,7 +37,7 @@
   },
   "projectile": {
     "advantage": "jeg:none",
-    "damage": 18,
+    "damage": 17,
     "ejectsCasing": true,
     "headshotMultiplier": 1.5,
     "item": "jeg:rifle_ammo",

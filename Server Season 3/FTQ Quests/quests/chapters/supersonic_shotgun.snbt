@@ -16,12 +16,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Supersonic Shotgun using a Gunnite Workbench"]
+			description: ["Craft a Supersonic Shotgun by finding its blueprint and using a Blueprint Workbench"]
 			id: "6ADE26D7F20FD688"
 			rewards: [{
 				count: 30
 				id: "3564D1A073AD61DF"
-				item: "jeg:rifle_ammo"
+				item: "minecraft:sculk_catalyst"
 				type: "item"
 			}]
 			shape: "diamond"
@@ -44,7 +44,7 @@
 			y: -0.20000000000000004d
 		}
 		{
-			dependencies: ["62FB20C0FDF46924"]
+			dependencies: ["6ADE26D7F20FD688"]
 			icon: "minecraft:dirt"
 			id: "430D023F9400FC03"
 			rewards: [
@@ -116,7 +116,7 @@
 			y: -2.2000000000000006d
 		}
 		{
-			dependencies: ["788EB7C452C146A6"]
+			dependencies: ["430D023F9400FC03"]
 			icon: "minecraft:copper_block"
 			id: "42BB8C0668E6991F"
 			rewards: [
@@ -194,7 +194,7 @@
 			y: -3.7000000000000006d
 		}
 		{
-			dependencies: ["20611BFB0CC4EC43"]
+			dependencies: ["42BB8C0668E6991F"]
 			icon: "minecraft:gold_block"
 			id: "2BD06FD289E723F7"
 			rewards: [
@@ -280,7 +280,7 @@
 			y: -5.1999999999999975d
 		}
 		{
-			dependencies: ["338A9182ECCA6C42"]
+			dependencies: ["2BD06FD289E723F7"]
 			description: [
 				"&bGelids are zombies found in cold biomes"
 				""
@@ -381,7 +381,7 @@
 			y: -6.6999999999999975d
 		}
 		{
-			dependencies: ["240248F977F160C1"]
+			dependencies: ["1217F15F640A1989"]
 			description: [
 				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
 				""
@@ -501,7 +501,7 @@
 			y: -9.75d
 		}
 		{
-			dependencies: ["34EA025885FAF363"]
+			dependencies: ["431B441E367372B1"]
 			icon: "minecraft:diamond_block"
 			id: "3DA20CE2B8561F7A"
 			rewards: [
@@ -604,7 +604,7 @@
 			y: -8.25d
 		}
 		{
-			dependencies: ["54F5952F73D28668"]
+			dependencies: ["3DA20CE2B8561F7A"]
 			description: [
 				"The Lich has a small chance to spawn in the overworld at night."
 				""
@@ -740,7 +740,7 @@
 			y: -11.25d
 		}
 		{
-			dependencies: ["1BEE2C8D61EE08DB"]
+			dependencies: ["64DEE71D8C87046C"]
 			description: [
 				"The Spiritcaller can be fought during raids in the final wave"
 				""
@@ -903,7 +903,7 @@
 			y: -12.75d
 		}
 		{
-			dependencies: ["6023F8A4315D9749"]
+			dependencies: ["45095E05B01F9140"]
 			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
 			id: "0E11B0E65C8EAE98"
 			rewards: [

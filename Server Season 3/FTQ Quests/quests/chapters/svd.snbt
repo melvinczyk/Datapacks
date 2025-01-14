@@ -49,7 +49,7 @@
 			id: "76218495900A4D7D"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 15.25"
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 17.25"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -121,7 +121,7 @@
 			id: "5A6E35F19FBFB1AD"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 15.50"
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 17.50"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -199,7 +199,7 @@
 			id: "373481A4C0170B19"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 15.75"
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 17.75"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -290,7 +290,7 @@
 			id: "73B46B82D89A4607"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 16.00"
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 18.00"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -391,7 +391,7 @@
 			id: "2F42CBFCEF854770"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 16.50"
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 18.50"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -506,7 +506,7 @@
 			id: "710DE77514C87879"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 16.25"
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 18.25"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -616,7 +616,7 @@
 			id: "56702D431830A5A2"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 16.75"
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 18.75"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -754,7 +754,7 @@
 			id: "4C029AB534BD2474"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 17.00"
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 19.00"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -908,7 +908,7 @@
 			id: "70A830DC97CBA9D6"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 18.00"
+					command: "/attribute @s hoths_jeg_attributes:svd_damage base set 20.00"
 					elevate_perms: true
 					icon: {
 						Count: 1

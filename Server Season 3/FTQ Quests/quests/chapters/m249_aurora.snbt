@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "m249"
+	filename: "m249_aurora"
 	group: "2E8BF1A1F4DB9EE3"
 	icon: {
 		Count: 1
@@ -31,7 +31,7 @@
 				id: "7049761BF5E12DBE"
 				item: {
 					Count: 1
-					id: "aurorasarsenal:m249_aurora"
+					id: "aurorasarsenal:m249"
 					tag: {
 						AmmoCount: 30
 						Damage: 0
@@ -44,12 +44,12 @@
 			y: -0.20000000000000004d
 		}
 		{
-			dependencies: ["62FB20C0FDF46924"]
+			dependencies: ["616F2180D27C5F40"]
 			icon: "minecraft:dirt"
 			id: "03EE47F59F6C488A"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m249_aurora_damage base set 10.25"
+					command: "/attribute @s hoths_jeg_attributes:m249_damage base set 10.25"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -83,7 +83,7 @@
 					id: "2F34631C213B1BE7"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -100,7 +100,7 @@
 					id: "5AFCCB4E1B00F2EF"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -116,12 +116,12 @@
 			y: -2.2000000000000006d
 		}
 		{
-			dependencies: ["788EB7C452C146A6"]
+			dependencies: ["03EE47F59F6C488A"]
 			icon: "minecraft:copper_block"
 			id: "1DD8BE9A1999F08C"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m249_aurora_damage base set 10.50"
+					command: "/attribute @s hoths_jeg_attributes:m249_damage base set 10.50"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -155,7 +155,7 @@
 					id: "4704A3C01602D9FD"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -178,7 +178,7 @@
 					id: "5BEE10C44559BB23"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -194,12 +194,12 @@
 			y: -3.7000000000000006d
 		}
 		{
-			dependencies: ["20611BFB0CC4EC43"]
+			dependencies: ["1DD8BE9A1999F08C"]
 			icon: "minecraft:gold_block"
 			id: "0C8B4B3F814613B6"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m249_aurora_damage base set 10.75"
+					command: "/attribute @s hoths_jeg_attributes:m249_damage base set 10.75"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -232,7 +232,7 @@
 					id: "7291477070D389EC"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -248,7 +248,7 @@
 					id: "66BA885D00814229"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -264,7 +264,7 @@
 					id: "3750CDA5AA5BF66D"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -280,7 +280,7 @@
 			y: -5.1999999999999975d
 		}
 		{
-			dependencies: ["338A9182ECCA6C42"]
+			dependencies: ["0C8B4B3F814613B6"]
 			description: [
 				"&bGelids are zombies found in cold biomes"
 				""
@@ -290,7 +290,7 @@
 			id: "0372D4374C44D5D7"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m249_aurora_damage base set 11.00"
+					command: "/attribute @s hoths_jeg_attributes:m249_damage base set 11.00"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -331,7 +331,7 @@
 					id: "2628508D35CE19E1"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -348,7 +348,7 @@
 					id: "66B3A3EFC4AA984A"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -365,7 +365,7 @@
 					id: "029E5379DD6611E1"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -381,7 +381,7 @@
 			y: -6.6999999999999975d
 		}
 		{
-			dependencies: ["240248F977F160C1"]
+			dependencies: ["0372D4374C44D5D7"]
 			description: [
 				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
 				""
@@ -391,7 +391,7 @@
 			id: "0695AE2C7B20D2DC"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m249_aurora_damage base set 11.50"
+					command: "/attribute @s hoths_jeg_attributes:m249_damage base set 11.50"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -445,7 +445,7 @@
 					id: "3F977E0C461A7F26"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -468,7 +468,7 @@
 					id: "117957D807CE2F8B"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -485,7 +485,7 @@
 					id: "121E397CD8D5EEBF"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -501,12 +501,12 @@
 			y: -9.75d
 		}
 		{
-			dependencies: ["34EA025885FAF363"]
+			dependencies: ["0695AE2C7B20D2DC"]
 			icon: "minecraft:diamond_block"
 			id: "1EE42B06FE478F82"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m249_aurora_damage base set 11.25"
+					command: "/attribute @s hoths_jeg_attributes:m249_damage base set 11.25"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -548,7 +548,7 @@
 					id: "263FC603E18F2B8B"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -571,7 +571,7 @@
 					id: "7B8E2ECC760BC3F5"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -588,7 +588,7 @@
 					id: "50A901DC1DAA233C"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -604,7 +604,7 @@
 			y: -8.25d
 		}
 		{
-			dependencies: ["54F5952F73D28668"]
+			dependencies: ["1EE42B06FE478F82"]
 			description: [
 				"The Lich has a small chance to spawn in the overworld at night."
 				""
@@ -616,7 +616,7 @@
 			id: "40C023A25122682C"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m249_aurora_damage base set 11.75"
+					command: "/attribute @s hoths_jeg_attributes:m249_damage base set 11.75"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -664,7 +664,7 @@
 					id: "727C768E80DC6B94"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -681,7 +681,7 @@
 					id: "453801540B683EB2"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -698,7 +698,7 @@
 					id: "112C7F761EF90171"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -724,7 +724,7 @@
 					id: "0EA4D42DC5DD27CC"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -740,7 +740,7 @@
 			y: -11.25d
 		}
 		{
-			dependencies: ["1BEE2C8D61EE08DB"]
+			dependencies: ["40C023A25122682C"]
 			description: [
 				"The Spiritcaller can be fought during raids in the final wave"
 				""
@@ -754,7 +754,7 @@
 			id: "0A4B3CCF7613C5AF"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m249_aurora_damage base set 12.00"
+					command: "/attribute @s hoths_jeg_attributes:m249_damage base set 12.00"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -796,7 +796,7 @@
 					id: "01CFFB91FB4ED3CC"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -813,7 +813,7 @@
 					id: "0EBF00BDAF28EB0E"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -830,7 +830,7 @@
 					id: "6E4CD29A8B7BB8BE"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -853,7 +853,7 @@
 					id: "30002DB0775CE123"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -870,7 +870,7 @@
 					id: "227A377DEC97F375"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -887,7 +887,7 @@
 					id: "54B56AE899663792"
 					item: {
 						Count: 1
-						id: "aurorasarsenal:m249_aurora"
+						id: "aurorasarsenal:m249"
 						tag: {
 							AmmoCount: 30
 							Damage: 0
@@ -903,12 +903,12 @@
 			y: -12.75d
 		}
 		{
-			dependencies: ["6023F8A4315D9749"]
+			dependencies: ["0A4B3CCF7613C5AF"]
 			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
 			id: "56F831121A1E122F"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m249_aurora_damage base set 13.00"
+					command: "/attribute @s hoths_jeg_attributes:m249_damage base set 13.00"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -959,7 +959,7 @@
 				id: "4125A91669184A8B"
 				item: {
 					Count: 1
-					id: "aurorasarsenal:m249_aurora"
+					id: "aurorasarsenal:m249"
 					tag: {
 						AmmoCount: 30
 						Damage: 0
