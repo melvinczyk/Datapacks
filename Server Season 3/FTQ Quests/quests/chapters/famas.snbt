@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Famas using a Gunnite Workbench"]
+			description: ["Craft a Famas using a Gunnite Workbench"]
 			id: "13CD0A1B2A8A454F"
 			rewards: [{
 				count: 30
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Famas"
+			subtitle: "Craft or obtain a Famas"
 			tasks: [{
 				id: "3F0AC3E583304F3B"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Famas"
+			title: "Aquire a Famas"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

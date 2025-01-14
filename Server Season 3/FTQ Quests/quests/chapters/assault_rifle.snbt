@@ -3,6 +3,14 @@
 	default_quest_shape: ""
 	filename: "assault_rifle"
 	group: "2E8BF1A1F4DB9EE3"
+	icon: {
+		Count: 1
+		id: "jeg:assault_rifle"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
 	id: "4645C9B55F5C5729"
 	order_index: 0
 	quest_links: [ ]

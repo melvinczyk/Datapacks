@@ -33,7 +33,6 @@ def zip_and_copy_datapacks(server_season_folder, datapacks_folder):
                                 arcname = os.path.relpath(file_path, start=folder_path)
                                 zipf.write(file_path, arcname)
 
-                        # Add the "pack.mcmeta" file
                         zipf.write(pack_mcmeta_file, os.path.relpath(pack_mcmeta_file, start=folder_path))
 
                     print(f"Created zip file: {zip_file_path}")

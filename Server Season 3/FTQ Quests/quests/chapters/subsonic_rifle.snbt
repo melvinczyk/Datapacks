@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Subsonic Rifle by finding its blueprint and using a Blueprint Workbench"]
+			description: ["Craft a Subsonic Rifle by finding its blueprint and using a Blueprint Workbench"]
 			id: "010DE9EFF983317C"
 			rewards: [{
 				count: 32
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Subsonic Rifle"
+			subtitle: "Craft or obtain a Subsonic Rifle"
 			tasks: [{
 				id: "77FD4409A8558CB4"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Subsonic Rifle"
+			title: "Aquire a Subsonic Rifle"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

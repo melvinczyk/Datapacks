@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Rocket Launcher by finding its blueprint and using a Blueprint Workbench"]
+			description: ["Craft a Rocket Launcher by finding its blueprint and using a Blueprint Workbench"]
 			id: "21960EE5853A9ECD"
 			rewards: [{
 				count: 30
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Rocket Launcher"
+			subtitle: "Craft or obtain a Rocket Launcher"
 			tasks: [{
 				id: "370175637DFD6518"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Rocket Launcher"
+			title: "Aquire a Rocket Launcher"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

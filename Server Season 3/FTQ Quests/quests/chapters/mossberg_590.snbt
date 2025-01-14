@@ -7,7 +7,7 @@
 	order_index: 71
 	quest_links: [ ]
 	quests: [{
-		description: ["Craft an Mossberg 590 using a Gunmetal Workbench"]
+		description: ["Craft a Mossberg 590 using a Gunmetal Workbench"]
 		id: "7E56EF87865CAE6F"
 		rewards: [{
 			count: 16

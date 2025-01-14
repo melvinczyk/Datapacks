@@ -16,17 +16,17 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Flamer using a Gunnite Workbench"]
+			description: ["Craft a Flamer using a Gunnite Workbench"]
 			id: "3AFC8312E10C9C1D"
 			rewards: [{
-				count: 30
+				count: 3
 				id: "58AF36B6172E9D97"
-				item: "jeg:rifle_ammo"
+				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Flamer"
+			subtitle: "Craft or obtain a Flamer"
 			tasks: [{
 				id: "137F0EC1E8E3EB2C"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Flamer"
+			title: "Aquire a Flamer"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
@@ -63,9 +63,9 @@
 					type: "command"
 				}
 				{
-					count: 32
+					count: 3
 					id: "6FCF3F1C9A127E3C"
-					item: "jeg:rifle_ammo"
+					item: "minecraft:lava_bucket"
 					type: "item"
 				}
 				{
@@ -135,9 +135,9 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 3
 					id: "2F34832C81F96FDC"
-					item: "jeg:rifle_ammo"
+					item: "minecraft:lava_bucket"
 					type: "item"
 				}
 				{
@@ -213,9 +213,9 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 3
 					id: "5A8A7884BE6381D7"
-					item: "jeg:rifle_ammo"
+					item: "minecraft:lava_bucket"
 					type: "item"
 				}
 				{
@@ -304,9 +304,9 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 3
 					id: "40998AA95AFC112D"
-					item: "jeg:rifle_ammo"
+					item: "minecraft:lava_bucket"
 					type: "item"
 				}
 				{
@@ -417,9 +417,9 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 5
 					id: "3EF66A6FFCF4AC8B"
-					item: "jeg:rifle_ammo"
+					item: "minecraft:lava_bucket"
 					type: "item"
 				}
 				{
@@ -526,9 +526,9 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 5
 					id: "69CD2A5A33D7507C"
-					item: "jeg:rifle_ammo"
+					item: "minecraft:lava_bucket"
 					type: "item"
 				}
 				{
@@ -636,9 +636,9 @@
 					type: "item"
 				}
 				{
-					count: 128
+					count: 5
 					id: "700BAB40DE86D6E5"
-					item: "jeg:rifle_ammo"
+					item: "minecraft:lava_bucket"
 					type: "item"
 				}
 				{
@@ -776,7 +776,7 @@
 				{
 					count: 256
 					id: "607CC3C17B900807"
-					item: "jeg:rifle_ammo"
+					item: "minecraft:lava_bucket"
 					type: "item"
 				}
 				{
@@ -933,9 +933,9 @@
 					type: "item"
 				}
 				{
-					count: 256
+					count: 10
 					id: "26CF5EE0DC1636C1"
-					item: "jeg:rifle_ammo"
+					item: "minecraft:lava_bucket"
 					type: "item"
 				}
 				{

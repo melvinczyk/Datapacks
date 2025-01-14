@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an semi_auto_rifle using a Gunmetal Workbench"]
+			description: ["Craft a semi_auto_rifle using a Gunmetal Workbench"]
 			id: "74EA49DEF1AE3973"
 			rewards: [{
 				count: 30
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an semi_auto_rifle"
+			subtitle: "Craft or obtain a semi_auto_rifle"
 			tasks: [{
 				id: "6850676CB4B9A8AE"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an semi_auto_rifle"
+			title: "Aquire a semi_auto_rifle"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

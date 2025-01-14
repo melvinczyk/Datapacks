@@ -7,7 +7,7 @@
 	order_index: 72
 	quest_links: [ ]
 	quests: [{
-		description: ["Craft an MP5 using a Gunnite Workbench"]
+		description: ["Craft a MP5 using a Gunnite Workbench"]
 		id: "5B95264A517EF83E"
 		rewards: [{
 			count: 30
@@ -17,7 +17,7 @@
 		}]
 		shape: "diamond"
 		size: 2.0d
-		subtitle: "Craft or obtain an MP5"
+		subtitle: "Craft or obtain a MP5"
 		tasks: [{
 			id: "4B08110C5FC44530"
 			item: {
@@ -30,7 +30,7 @@
 			}
 			type: "item"
 		}]
-		title: "Aquire an MP5"
+		title: "Aquire a MP5"
 		x: -3.5d
 		y: -2.0d
 	}]

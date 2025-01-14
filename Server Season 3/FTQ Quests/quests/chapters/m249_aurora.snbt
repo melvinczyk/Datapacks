@@ -5,7 +5,7 @@
 	group: "2E8BF1A1F4DB9EE3"
 	icon: {
 		Count: 1
-		id: "aurorasarsenal:m249_aurora"
+		id: "aurorasarsenal:m249"
 		tag: {
 			AmmoCount: 30
 			Damage: 0

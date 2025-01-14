@@ -16,17 +16,17 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Blue Heat using a Gunnite Workbench"]
+			description: ["Craft a Blue Heat using a Gunnite Workbench"]
 			id: "0EC836F89BE5A9A6"
 			rewards: [{
 				count: 30
 				id: "16F104F1F35FB62B"
-				item: "jeg:rifle_ammo"
+				item: "mteg:taki"
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Blue Heat"
+			subtitle: "Craft or obtain a Blue Heat"
 			tasks: [{
 				id: "4099A977A7DAF85F"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Blue Heat"
+			title: "Aquire a Blue Heat"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
@@ -65,7 +65,7 @@
 				{
 					count: 32
 					id: "06AEE6FB2A2A7381"
-					item: "jeg:rifle_ammo"
+					item: "mteg:taki"
 					type: "item"
 				}
 				{
@@ -137,7 +137,7 @@
 				{
 					count: 64
 					id: "71347AA16E936409"
-					item: "jeg:rifle_ammo"
+					item: "mteg:taki"
 					type: "item"
 				}
 				{
@@ -215,7 +215,7 @@
 				{
 					count: 64
 					id: "1E7505F3EB735668"
-					item: "jeg:rifle_ammo"
+					item: "mteg:taki"
 					type: "item"
 				}
 				{
@@ -306,7 +306,7 @@
 				{
 					count: 64
 					id: "4D454C3606B5F533"
-					item: "jeg:rifle_ammo"
+					item: "mteg:taki"
 					type: "item"
 				}
 				{
@@ -419,7 +419,7 @@
 				{
 					count: 64
 					id: "3E9A0A94CCB56342"
-					item: "jeg:rifle_ammo"
+					item: "mteg:taki"
 					type: "item"
 				}
 				{
@@ -528,7 +528,7 @@
 				{
 					count: 64
 					id: "03510FBA1F6864FA"
-					item: "jeg:rifle_ammo"
+					item: "mteg:taki"
 					type: "item"
 				}
 				{
@@ -638,7 +638,7 @@
 				{
 					count: 128
 					id: "307FB383076DAF61"
-					item: "jeg:rifle_ammo"
+					item: "mteg:taki"
 					type: "item"
 				}
 				{
@@ -776,7 +776,7 @@
 				{
 					count: 256
 					id: "1898B88564FDD667"
-					item: "jeg:rifle_ammo"
+					item: "mteg:taki"
 					type: "item"
 				}
 				{
@@ -935,7 +935,7 @@
 				{
 					count: 256
 					id: "0DB780A9C7E7D639"
-					item: "jeg:rifle_ammo"
+					item: "mteg:taki"
 					type: "item"
 				}
 				{

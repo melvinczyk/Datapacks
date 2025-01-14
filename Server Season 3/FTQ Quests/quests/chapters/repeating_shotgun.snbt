@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Repeating Shotgun by finding its blueprint and using a Blueprint Workbench"]
+			description: ["Craft a Repeating Shotgun by finding its blueprint and using a Blueprint Workbench"]
 			id: "169D8A02D43E87D5"
 			rewards: [{
 				count: 30
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Repeating Shotgun"
+			subtitle: "Craft or obtain a Repeating Shotgun"
 			tasks: [{
 				id: "22D30813B8D839BB"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Repeating Shotgun"
+			title: "Aquire a Repeating Shotgun"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

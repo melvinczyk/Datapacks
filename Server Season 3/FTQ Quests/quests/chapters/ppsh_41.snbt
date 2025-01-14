@@ -7,7 +7,7 @@
 	order_index: 73
 	quest_links: [ ]
 	quests: [{
-		description: ["Craft an PPSh-41 using a Gunmetal Workbench"]
+		description: ["Craft a PPSh-41 using a Gunmetal Workbench"]
 		id: "680CEAC2BD7BEB4F"
 		rewards: [{
 			count: 71

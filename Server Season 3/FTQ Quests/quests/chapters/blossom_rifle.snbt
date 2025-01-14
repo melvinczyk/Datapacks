@@ -16,17 +16,17 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Blossom Rifle by finding its blueprint and using a Blueprint Workbench"]
+			description: ["Craft a Blossom Rifle by finding its blueprint and using a Blueprint Workbench"]
 			id: "00DAF19BF2B7721A"
 			rewards: [{
 				count: 30
 				id: "2356860563DAD989"
-				item: "jeg:rifle_ammo"
+				item: "jeg:spectre_round"
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Blossom Rifle"
+			subtitle: "Craft or obtain a Blossom Rifle"
 			tasks: [{
 				id: "7C43F5E1FEDA3DF0"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Blossom Rifle"
+			title: "Aquire a Blossom Rifle"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
@@ -65,7 +65,7 @@
 				{
 					count: 32
 					id: "3EC646E6B0016D73"
-					item: "jeg:rifle_ammo"
+					item: "jeg:spectre_round"
 					type: "item"
 				}
 				{
@@ -137,7 +137,7 @@
 				{
 					count: 64
 					id: "319B0796A1DEBBA3"
-					item: "jeg:rifle_ammo"
+					item: "jeg:spectre_round"
 					type: "item"
 				}
 				{
@@ -215,7 +215,7 @@
 				{
 					count: 64
 					id: "01C68FA0821D491E"
-					item: "jeg:rifle_ammo"
+					item: "jeg:spectre_round"
 					type: "item"
 				}
 				{
@@ -306,7 +306,7 @@
 				{
 					count: 64
 					id: "27E66F7A232BB6FE"
-					item: "jeg:rifle_ammo"
+					item: "jeg:spectre_round"
 					type: "item"
 				}
 				{
@@ -419,7 +419,7 @@
 				{
 					count: 64
 					id: "4E4AC612826B1B10"
-					item: "jeg:rifle_ammo"
+					item: "jeg:spectre_round"
 					type: "item"
 				}
 				{
@@ -528,7 +528,7 @@
 				{
 					count: 64
 					id: "4C941E01FA63A505"
-					item: "jeg:rifle_ammo"
+					item: "jeg:spectre_round"
 					type: "item"
 				}
 				{
@@ -638,7 +638,7 @@
 				{
 					count: 128
 					id: "51411E016D71D952"
-					item: "jeg:rifle_ammo"
+					item: "jeg:spectre_round"
 					type: "item"
 				}
 				{
@@ -776,7 +776,7 @@
 				{
 					count: 256
 					id: "76CD8398BC306C7F"
-					item: "jeg:rifle_ammo"
+					item: "jeg:spectre_round"
 					type: "item"
 				}
 				{
@@ -935,7 +935,7 @@
 				{
 					count: 256
 					id: "0E47B771A668656C"
-					item: "jeg:rifle_ammo"
+					item: "jeg:spectre_round"
 					type: "item"
 				}
 				{

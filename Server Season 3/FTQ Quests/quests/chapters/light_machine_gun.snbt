@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Light Machine Gun using a Gunnite Workbench"]
+			description: ["Craft a Light Machine Gun using a Gunnite Workbench"]
 			id: "232FB4EF8AE6A210"
 			rewards: [{
 				count: 30
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Light Machine Gun"
+			subtitle: "Craft or obtain a Light Machine Gun"
 			tasks: [{
 				id: "346051DC69CDA2A9"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Light Machine Gun"
+			title: "Aquire a Light Machine Gun"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

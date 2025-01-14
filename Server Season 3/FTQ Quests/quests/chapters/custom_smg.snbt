@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Custom Smg using a Scrap Workbench"]
+			description: ["Craft a Custom Smg using a Scrap Workbench"]
 			id: "6FC5331DA7C2A15B"
 			rewards: [{
 				count: 40
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Custom Smg"
+			subtitle: "Craft or obtain a Custom Smg"
 			tasks: [{
 				id: "7398AC74715593EF"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Custom Smg"
+			title: "Aquire a Custom Smg"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
@@ -65,7 +65,7 @@
 				{
 					count: 32
 					id: "7A9C6ABE3169D242"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -137,7 +137,7 @@
 				{
 					count: 64
 					id: "5D385CA3CD870DC8"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -215,7 +215,7 @@
 				{
 					count: 64
 					id: "4A1595C121518A90"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -306,7 +306,7 @@
 				{
 					count: 64
 					id: "71618B0755E50244"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -419,7 +419,7 @@
 				{
 					count: 64
 					id: "5AF995F8DB852378"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -528,7 +528,7 @@
 				{
 					count: 64
 					id: "19B5EA3A1D7A283B"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -638,7 +638,7 @@
 				{
 					count: 128
 					id: "35ABED82128F7A2D"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -776,7 +776,7 @@
 				{
 					count: 256
 					id: "4AA4F934C842E4D9"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -935,7 +935,7 @@
 				{
 					count: 256
 					id: "7F57A87C6B6F84E0"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{

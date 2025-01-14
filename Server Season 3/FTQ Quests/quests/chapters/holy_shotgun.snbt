@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Holy Shotgun by finding its blueprint and using a Blueprint Workbench"]
+			description: ["Craft a Holy Shotgun by finding its blueprint and using a Blueprint Workbench"]
 			id: "3A323A10749EBD6B"
 			rewards: [{
 				count: 30
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Holy Shotgun"
+			subtitle: "Craft or obtain a Holy Shotgun"
 			tasks: [{
 				id: "1C34EC92D54FE3F9"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Holy Shotgun"
+			title: "Aquire a Holy Shotgun"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

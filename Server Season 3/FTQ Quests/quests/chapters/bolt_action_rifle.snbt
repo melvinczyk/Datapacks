@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Bolt Action Rifle using a Gunmetal Workbench"]
+			description: ["Craft a Bolt Action Rifle using a Gunmetal Workbench"]
 			id: "6AAA254C48C9496C"
 			rewards: [{
 				count: 30
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Bolt Action Rifle"
+			subtitle: "Craft or obtain a Bolt Action Rifle"
 			tasks: [{
 				id: "6652DA25192F5CE9"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Bolt Action Rifle"
+			title: "Aquire a Bolt Action Rifle"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

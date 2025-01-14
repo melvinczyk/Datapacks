@@ -7,7 +7,7 @@
 	order_index: 70
 	quest_links: [ ]
 	quests: [{
-		description: ["Craft an Micro Uzi using a Gunmetal Workbench"]
+		description: ["Craft a Micro Uzi using a Gunmetal Workbench"]
 		id: "6C6179B8FB302875"
 		rewards: [{
 			count: 40

@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an FN SCAR L using a Gunnite Workbench"]
+			description: ["Craft a FN SCAR L using a Gunnite Workbench"]
 			id: "2A16FD572F1B6736"
 			rewards: [{
 				count: 30
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an FN SCAR L"
+			subtitle: "Craft or obtain a FN SCAR L"
 			tasks: [{
 				id: "3DCDD366E2F33D6C"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an FN SCAR L"
+			title: "Aquire a FN SCAR L"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
