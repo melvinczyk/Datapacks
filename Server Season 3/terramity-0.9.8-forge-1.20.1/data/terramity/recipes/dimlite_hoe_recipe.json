@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "terramity:dimlite_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "result": {
+    "item": "terramity:dimlite_hoe"
+  },
+  "template": {
+    "item": "terramity:dimlite_upgrade_smithing_template"
+  }
+}

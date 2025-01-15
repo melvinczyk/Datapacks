@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:topaz"
+    },
+    "b": {
+      "item": "terramity:spectral_soul"
+    },
+    "c": {
+      "item": "terramity:cloud_in_a_bottle"
+    },
+    "d": {
+      "item": "terramity:hurricane_belt"
+    }
+  },
+  "result": {
+    "item": "terramity:hurricane_in_a_jar",
+    "count": 1
+  }
+}

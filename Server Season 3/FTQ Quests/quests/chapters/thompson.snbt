@@ -12,11 +12,11 @@
 		}
 	}
 	id: "08C70E28015F1749"
-	order_index: 41
+	order_index: 62
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft a Thompson using a Gunmetal Workbench"]
+			description: ["Craft an Thompson using a Gunmetal Workbench"]
 			id: "637876B0AE83C24E"
 			rewards: [{
 				count: 60
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Thompson"
+			subtitle: "Craft or obtain an Thompson"
 			tasks: [{
 				id: "5D7508CA6ADEE465"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Thompson"
+			title: "Aquire an Thompson"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
@@ -65,7 +65,7 @@
 				{
 					count: 32
 					id: "045690609C808559"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -137,7 +137,7 @@
 				{
 					count: 64
 					id: "556E544FF0303668"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -215,7 +215,7 @@
 				{
 					count: 64
 					id: "5BAD3D404780DB57"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -306,7 +306,7 @@
 				{
 					count: 64
 					id: "6F1D625137120E98"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -419,7 +419,7 @@
 				{
 					count: 64
 					id: "45297716B2E50A6D"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -528,7 +528,7 @@
 				{
 					count: 64
 					id: "624F62A2186A7201"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -638,7 +638,7 @@
 				{
 					count: 128
 					id: "5CD5F2D790D55A83"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -776,7 +776,7 @@
 				{
 					count: 256
 					id: "347B6E7DA3D57A87"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -935,7 +935,7 @@
 				{
 					count: 256
 					id: "46C537A24094D8FC"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{

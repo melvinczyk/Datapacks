@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:fairy_dust"
+    },
+    "b": {
+      "item": "minecraft:cactus"
+    },
+    "c": {
+      "item": "terramity:ruby"
+    }
+  },
+  "result": {
+    "item": "terramity:sharpening_stone",
+    "count": 1
+  }
+}

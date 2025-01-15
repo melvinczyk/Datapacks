@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc",
+    "dad"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:iridium_chunk"
+    },
+    "b": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "c": {
+      "tag": "minecraft:wool"
+    },
+    "d": {
+      "item": "minecraft:rabbit_foot"
+    }
+  },
+  "result": {
+    "item": "terramity:focus_scarf",
+    "count": 1
+  }
+}

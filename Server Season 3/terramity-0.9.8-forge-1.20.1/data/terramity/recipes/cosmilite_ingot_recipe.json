@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "terramity:raw_cosmilite"
+    },
+    {
+      "item": "terramity:raw_cosmilite"
+    },
+    {
+      "item": "terramity:raw_cosmilite"
+    },
+    {
+      "item": "terramity:raw_cosmilite"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "terramity:cosmilite_ingot",
+    "count": 1
+  }
+}

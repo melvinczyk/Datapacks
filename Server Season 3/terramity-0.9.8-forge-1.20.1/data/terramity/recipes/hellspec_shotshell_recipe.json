@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:hellspec_alloy"
+    },
+    "b": {
+      "item": "minecraft:gold_nugget"
+    },
+    "c": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "terramity:hellspec_shotshells",
+    "count": 12
+  }
+}

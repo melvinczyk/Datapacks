@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:gilded_feather"
+    },
+    "b": {
+      "item": "terramity:reverium"
+    },
+    "c": {
+      "item": "terramity:archangel_halo"
+    },
+    "d": {
+      "item": "terramity:glass_ring"
+    }
+  },
+  "result": {
+    "item": "terramity:fragile_divinity",
+    "count": 1
+  }
+}

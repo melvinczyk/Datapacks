@@ -11,24 +11,24 @@
 			Damage: 0
 		}
 	}
-	id: "0BCC24FE07DB2D3B"
-	order_index: 42
+	id: "04BB9117CF4ED77A"
+	order_index: 69
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["Craft a Vss Vintorez using a Gunmetal Workbench"]
-			id: "62C62244B1A0B97A"
+			id: "610E0C9A7EA8A2CD"
 			rewards: [{
 				count: 30
-				id: "1926DF40340537E5"
+				id: "5E2D6D2446A4593B"
 				item: "jeg:rifle_ammo"
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Vss Vintorez"
+			subtitle: "Craft or obtain an Vss Vintorez"
 			tasks: [{
-				id: "79B7137867FF33E7"
+				id: "3F5094ED4C58143B"
 				item: {
 					Count: 1
 					id: "mteg:vss_vintorez"
@@ -39,14 +39,14 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Vss Vintorez"
+			title: "Aquire an Vss Vintorez"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
 		{
-			dependencies: ["62C62244B1A0B97A"]
+			dependencies: ["610E0C9A7EA8A2CD"]
 			icon: "minecraft:dirt"
-			id: "5FC49F8FBF69C160"
+			id: "5A008AA6277FAC6F"
 			rewards: [
 				{
 					command: "/attribute @s hoths_jeg_attributes:vss_vintorez_damage base set 10.25"
@@ -58,18 +58,18 @@
 							Damage: 0
 						}
 					}
-					id: "4C7571741667F7DE"
+					id: "0B8E3CD0AE076841"
 					title: "+0.25 Vss Vintorez Damage"
 					type: "command"
 				}
 				{
 					count: 32
-					id: "55C1DE1E1FA5C202"
+					id: "4AD78F0604B7A80C"
 					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
-					id: "5FC00F3B2F09415B"
+					id: "09AFFFEFDE58D471"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -80,7 +80,7 @@
 					checkItem: true
 					entity: "minecraft:zombie"
 					icon: "minecraft:zombie_head"
-					id: "5CD62B45A3BA8BBB"
+					id: "695C6DD4F94BF673"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -97,7 +97,7 @@
 					checkItem: true
 					entity: "minecraft:skeleton"
 					icon: "minecraft:skeleton_skull"
-					id: "0073FD71EAFBCE4C"
+					id: "75CD314BFC8D2DAA"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -116,9 +116,9 @@
 			y: -2.2000000000000006d
 		}
 		{
-			dependencies: ["5FC49F8FBF69C160"]
+			dependencies: ["5A008AA6277FAC6F"]
 			icon: "minecraft:copper_block"
-			id: "44FAA07BA0D3D533"
+			id: "285E7CAA5958472D"
 			rewards: [
 				{
 					command: "/attribute @s hoths_jeg_attributes:vss_vintorez_damage base set 10.50"
@@ -130,18 +130,18 @@
 							Damage: 0
 						}
 					}
-					id: "69ECC777A2053940"
+					id: "5F76F10DBE24C463"
 					title: "+0.25 Vss Vintorez Damage"
 					type: "command"
 				}
 				{
 					count: 64
-					id: "3C2EFF640261BF9C"
+					id: "4BE7DCA976DF22BA"
 					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
-					id: "6063CFE5151CE509"
+					id: "0D1727B5945F6162"
 					type: "xp_levels"
 					xp_levels: 10
 				}
@@ -152,7 +152,7 @@
 					checkItem: true
 					entity: "minecraft:spider"
 					icon: "minecraft:spider_eye"
-					id: "3BC2AFA52281D5C6"
+					id: "731B3B35D1E36713"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -175,7 +175,7 @@
 							Potion: "minecraft:slowness"
 						}
 					}
-					id: "55ABCEA54252C2E6"
+					id: "0BE21BABAD46444B"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -194,9 +194,9 @@
 			y: -3.7000000000000006d
 		}
 		{
-			dependencies: ["44FAA07BA0D3D533"]
+			dependencies: ["285E7CAA5958472D"]
 			icon: "minecraft:gold_block"
-			id: "7F82C18C244297C3"
+			id: "68FF5318539B7924"
 			rewards: [
 				{
 					command: "/attribute @s hoths_jeg_attributes:vss_vintorez_damage base set 10.75"
@@ -208,18 +208,18 @@
 							Damage: 0
 						}
 					}
-					id: "48328CC4BAC79B0C"
+					id: "22198559AEAD106D"
 					title: "+0.25 Vss Vintorez Damage"
 					type: "command"
 				}
 				{
 					count: 64
-					id: "4B4636986AECA78B"
+					id: "437AB98865871709"
 					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
-					id: "0AC75740140CCAA4"
+					id: "54B1088895A10F94"
 					type: "xp_levels"
 					xp_levels: 15
 				}
@@ -229,7 +229,7 @@
 				{
 					checkItem: true
 					entity: "minecraft:pillager"
-					id: "5D1B76B0FDB5FF98"
+					id: "646D3E69E3CE26FF"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -245,7 +245,7 @@
 				{
 					checkItem: true
 					entity: "minecraft:vindicator"
-					id: "40F4C64815F16A16"
+					id: "67347A49DFDF28DE"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -261,7 +261,7 @@
 				{
 					checkItem: true
 					entity: "minecraft:witch"
-					id: "0D60952AE0CA4D30"
+					id: "6D02D3CCC577AF8C"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -280,14 +280,14 @@
 			y: -5.1999999999999975d
 		}
 		{
-			dependencies: ["7F82C18C244297C3"]
+			dependencies: ["68FF5318539B7924"]
 			description: [
 				"&bGelids are zombies found in cold biomes"
 				""
 				"&aThickets are zombies found in swamp biomes"
 			]
 			icon: "minecraft:iron_block"
-			id: "343E8BCE0CCBC9B2"
+			id: "270393F7D203994C"
 			rewards: [
 				{
 					command: "/attribute @s hoths_jeg_attributes:vss_vintorez_damage base set 11.00"
@@ -299,24 +299,24 @@
 							Damage: 0
 						}
 					}
-					id: "16D22B1BAEFDCBC8"
+					id: "51B8F2560BD4EE10"
 					title: "+0.25 Vss Vintorez Damage"
 					type: "command"
 				}
 				{
 					count: 64
-					id: "26B2A2EBA7335067"
+					id: "76E72BE559214FF9"
 					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
 					count: 30
-					id: "22816D94FB3F6486"
+					id: "4BD1AC8378BA575D"
 					item: "jeg:gunmetal_ingot"
 					type: "item"
 				}
 				{
-					id: "7DB43B2E5DE408FD"
+					id: "40E54CE7CF0F2C18"
 					type: "xp_levels"
 					xp_levels: 15
 				}
@@ -328,7 +328,7 @@
 					checkItem: true
 					entity: "variantsandventures:gelid"
 					icon: "minecraft:snowball"
-					id: "4E54D1D0C898D151"
+					id: "3CDECB853A3425FC"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -345,7 +345,7 @@
 					checkItem: true
 					entity: "variantsandventures:thicket"
 					icon: "minecraft:mangrove_propagule"
-					id: "115528DBE1BA4F2D"
+					id: "70B2390AD5CCCE45"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -362,7 +362,7 @@
 					checkItem: true
 					entity: "minecraft:husk"
 					icon: "minecraft:dead_bush"
-					id: "724694E84052080A"
+					id: "657FF055D49444E7"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -381,14 +381,14 @@
 			y: -6.6999999999999975d
 		}
 		{
-			dependencies: ["343E8BCE0CCBC9B2"]
+			dependencies: ["270393F7D203994C"]
 			description: [
 				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
 				""
 				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
 			]
 			icon: "minecraft:netherite_block"
-			id: "780BE5E1678B8632"
+			id: "3B57D246EC9FE750"
 			rewards: [
 				{
 					command: "/attribute @s hoths_jeg_attributes:vss_vintorez_damage base set 11.50"
@@ -400,30 +400,30 @@
 							Damage: 0
 						}
 					}
-					id: "16432BFC76CBD743"
+					id: "131C077E5F688A47"
 					title: "+0.25 Vss Vintorez Damage"
 					type: "command"
 				}
 				{
 					count: 10
-					id: "1434E76BD1CEE72B"
+					id: "0A6300E30627416A"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
 					count: 10
-					id: "77F07357417ED4B0"
+					id: "23328786AD79E167"
 					item: "scguns:treated_brass_ingot"
 					type: "item"
 				}
 				{
 					count: 64
-					id: "51D9307D223D44C9"
+					id: "6753368091EF65E4"
 					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
-					id: "49E771EB1F93074D"
+					id: "418E8C83A95EDC74"
 					type: "xp_levels"
 					xp_levels: 25
 				}
@@ -442,7 +442,7 @@
 							Damage: 0
 						}
 					}
-					id: "49C7CBAA70D7592F"
+					id: "54496269C6FD1854"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -465,7 +465,7 @@
 							Damage: 0
 						}
 					}
-					id: "54B4CE071530DB6A"
+					id: "4D468016183EF248"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -482,7 +482,7 @@
 					checkItem: true
 					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
 					icon: "mutantmonsters:mutant_skeleton_limb"
-					id: "4C8B6A3828173681"
+					id: "0B88691E4C15582F"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -501,9 +501,9 @@
 			y: -9.75d
 		}
 		{
-			dependencies: ["780BE5E1678B8632"]
+			dependencies: ["3B57D246EC9FE750"]
 			icon: "minecraft:diamond_block"
-			id: "37BA7061579C5168"
+			id: "2E720BE1C160F5A6"
 			rewards: [
 				{
 					command: "/attribute @s hoths_jeg_attributes:vss_vintorez_damage base set 11.25"
@@ -515,24 +515,24 @@
 							Damage: 0
 						}
 					}
-					id: "293EDF08FEE68EC5"
+					id: "7AD0D418FB34E6D8"
 					title: "+0.25  Vss Vintorez Damage"
 					type: "command"
 				}
 				{
 					count: 10
-					id: "3259C72F8D594338"
+					id: "032C65295C9EC636"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
 					count: 64
-					id: "7B950FB6A0731747"
+					id: "5441F6CDD66A5058"
 					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
-					id: "635486779E001D9F"
+					id: "219A56C565C5AF3E"
 					type: "xp_levels"
 					xp_levels: 20
 				}
@@ -545,7 +545,7 @@
 					checkItem: true
 					entity: "born_in_chaos_v1:zombie_bruiser"
 					icon: "minecraft:oak_log"
-					id: "35E2AC34A2FF4521"
+					id: "7531F26F73026BAF"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -568,7 +568,7 @@
 							Damage: 0
 						}
 					}
-					id: "6A553FC951264B12"
+					id: "633E9B86F74E0036"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -585,7 +585,7 @@
 					checkItem: true
 					entity: "born_in_chaos_v1:nightmare_stalker"
 					icon: "born_in_chaos_v1:nightmare_stalker_skull"
-					id: "6D2054D23D8A9B03"
+					id: "3A13F6CCB6A2D7E5"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -604,7 +604,7 @@
 			y: -8.25d
 		}
 		{
-			dependencies: ["37BA7061579C5168"]
+			dependencies: ["2E720BE1C160F5A6"]
 			description: [
 				"The Lich has a small chance to spawn in the overworld at night."
 				""
@@ -613,7 +613,7 @@
 				"Steel Boar has a small chance to spawn in plains and oak forests."
 			]
 			icon: "terramity:cosmilite_block"
-			id: "6C635175412E2942"
+			id: "5AD6283BCC98459B"
 			rewards: [
 				{
 					command: "/attribute @s hoths_jeg_attributes:vss_vintorez_damage base set 11.75"
@@ -625,24 +625,24 @@
 							Damage: 0
 						}
 					}
-					id: "6D293D2B7B766341"
+					id: "401BEBF5A8FFEB6D"
 					title: "+0.25 Vss Vintorez Damage"
 					type: "command"
 				}
 				{
 					count: 30
-					id: "5422A975033C1686"
+					id: "463A33C6F899CF7F"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
 					count: 128
-					id: "04F632CA8DD93A64"
+					id: "496BDC4611706485"
 					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
-					id: "7B2B616DA37B4C42"
+					id: "039D81AD561C77FD"
 					type: "xp_levels"
 					xp_levels: 30
 				}
@@ -661,7 +661,7 @@
 							Damage: 0
 						}
 					}
-					id: "624A65F5566CD16D"
+					id: "540DEDB72CC88AE0"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -678,7 +678,7 @@
 					checkItem: true
 					entity: "threateningly_mobs:lich"
 					icon: "threateningly_mobs:skeleton_necklace"
-					id: "654399EF6BD12F12"
+					id: "6C0D3E4AA83FC341"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -695,7 +695,7 @@
 					checkItem: true
 					entity: "fromtheshadows:nehemoth"
 					icon: "fromtheshadows:crystallized_blood"
-					id: "4AF334A48C179B39"
+					id: "7E36429F986237B4"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -712,7 +712,7 @@
 					checkItem: false
 					entity: "threateningly_mobs:solscarab_maximus"
 					icon: "threateningly_mobs:desert_armor_shard"
-					id: "4A9F46F671E8D932"
+					id: "733F1362D97F2DF0"
 					nbt: { }
 					type: "questsadditions:killnbt"
 					value: 1L
@@ -721,7 +721,7 @@
 					checkItem: true
 					entity: "threateningly_mobs:steelboar"
 					icon: "threateningly_mobs:steel_tusk"
-					id: "0095B43BBE9D3074"
+					id: "268DDC713EAA0814"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -740,7 +740,7 @@
 			y: -11.25d
 		}
 		{
-			dependencies: ["6C635175412E2942"]
+			dependencies: ["5AD6283BCC98459B"]
 			description: [
 				"The Spiritcaller can be fought during raids in the final wave"
 				""
@@ -751,7 +751,7 @@
 				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
 			]
 			icon: "terramity:void_alloy_block"
-			id: "6C844842C3DD3065"
+			id: "723BE90E96E17FC9"
 			rewards: [
 				{
 					command: "/attribute @s hoths_jeg_attributes:vss_vintorez_damage base set 12.00"
@@ -763,24 +763,24 @@
 							Damage: 0
 						}
 					}
-					id: "2BF3F07D092F8B13"
+					id: "1050709AE6B00D01"
 					title: "+0.25 Vss Vintorez Damage"
 					type: "command"
 				}
 				{
 					count: 40
-					id: "2C733CFA52D8727F"
+					id: "185342382EDBBD97"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
 					count: 256
-					id: "39FF9A64F015811C"
+					id: "5A7BEC666B4335E5"
 					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
-					id: "0BE0C7029385F95D"
+					id: "72803ED11C6FEE19"
 					type: "xp_levels"
 					xp_levels: 30
 				}
@@ -793,7 +793,7 @@
 					checkItem: true
 					entity: "minecraft:wither"
 					icon: "majruszsdifficulty:wither_treasure_bag"
-					id: "212AF2CC2F871022"
+					id: "5E5524335877857C"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -810,7 +810,7 @@
 					checkItem: true
 					entity: "pigzilla:pigzilla"
 					icon: "minecraft:porkchop"
-					id: "78EE7261F51EC05D"
+					id: "728B5E482F70A2CB"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -827,7 +827,7 @@
 					checkItem: true
 					entity: "look:eye_of_cthulhu"
 					icon: "look:suspicious_looking_eye"
-					id: "45268400868EFFFB"
+					id: "35149DE82A8F3DB6"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -850,7 +850,7 @@
 							Damage: 0
 						}
 					}
-					id: "01233599E8B5B03F"
+					id: "3929E6CF4F669E8D"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -867,7 +867,7 @@
 					checkItem: true
 					entity: "the_spino:spino"
 					icon: "the_spino:tooth"
-					id: "53CD4237F3EF86B6"
+					id: "5FEC268D1EFE0C3C"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -884,7 +884,7 @@
 					checkItem: true
 					entity: "corundumguardian:corundum_guardian"
 					icon: "create:handheld_worldshaper"
-					id: "4A0468FB76A069CB"
+					id: "4C70614F54656688"
 					item: {
 						Count: 1
 						id: "mteg:vss_vintorez"
@@ -903,9 +903,9 @@
 			y: -12.75d
 		}
 		{
-			dependencies: ["6C844842C3DD3065"]
+			dependencies: ["723BE90E96E17FC9"]
 			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
-			id: "4171CB3F3D4F3FCB"
+			id: "387CC7B266F891CB"
 			rewards: [
 				{
 					command: "/attribute @s hoths_jeg_attributes:vss_vintorez_damage base set 13.00"
@@ -917,34 +917,34 @@
 							Damage: 0
 						}
 					}
-					id: "3BBC43557B5B7CC2"
+					id: "00A84681AB36A8BA"
 					title: "+1 Vss Vintorez Damage"
 					type: "command"
 				}
 				{
-					id: "4702107989298A25"
+					id: "75A7074ADD922FFD"
 					type: "xp_levels"
 					xp_levels: 50
 				}
 				{
 					count: 50
-					id: "7AFEBB508EFD4E6B"
+					id: "44DDE52FC905DC85"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
 					count: 256
-					id: "263FFFA2F8CE52A2"
+					id: "741C8EE97A4D8358"
 					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
-					id: "3E4DBA83AFF956E2"
+					id: "34F8C43F93BAC585"
 					item: "terramity:void_alloy"
 					type: "item"
 				}
 				{
-					id: "20A10DE95BB59D69"
+					id: "219AD7CA762B424A"
 					item: "terramity:profanum"
 					type: "item"
 				}
@@ -956,7 +956,7 @@
 				checkItem: true
 				entity: "terramity:super_sniffer"
 				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
-				id: "7CC24634EF1DD80E"
+				id: "0056BA01974BA468"
 				item: {
 					Count: 1
 					id: "mteg:vss_vintorez"

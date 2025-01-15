@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:cardboard"
+    },
+    "b": {
+      "item": "terramity:cardboard_block"
+    }
+  },
+  "result": {
+    "item": "terramity:cardboard_necklace",
+    "count": 1
+  }
+}

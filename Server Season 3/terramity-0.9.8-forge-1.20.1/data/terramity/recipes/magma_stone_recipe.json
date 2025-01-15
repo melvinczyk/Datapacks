@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:ruby"
+    },
+    "b": {
+      "item": "minecraft:fire_charge"
+    },
+    "c": {
+      "item": "terramity:hellspec_alloy"
+    },
+    "d": {
+      "item": "terramity:sharpening_stone"
+    }
+  },
+  "result": {
+    "item": "terramity:magma_stone",
+    "count": 1
+  }
+}

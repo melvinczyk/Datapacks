@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "terramity:cosmilite_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "result": {
+    "item": "terramity:cosmilite_armor_leggings"
+  },
+  "template": {
+    "item": "terramity:cosmilite_upgrade_smithing_template"
+  }
+}

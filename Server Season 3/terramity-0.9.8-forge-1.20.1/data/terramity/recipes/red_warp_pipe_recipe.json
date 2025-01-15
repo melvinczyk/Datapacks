@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:dimlite_ingot"
+    },
+    "b": {
+      "item": "terramity:dimlite_nugget"
+    },
+    "c": {
+      "item": "minecraft:ender_pearl"
+    },
+    "d": {
+      "item": "terramity:ruby"
+    }
+  },
+  "result": {
+    "item": "terramity:red_warp_pipe",
+    "count": 2
+  }
+}

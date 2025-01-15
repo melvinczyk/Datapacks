@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "b b",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:daemonium_chunk"
+    },
+    "b": {
+      "item": "terramity:exodium_superalloy"
+    },
+    "c": {
+      "item": "terramity:daemonium"
+    }
+  },
+  "result": {
+    "item": "terramity:blastguard_pendant",
+    "count": 1
+  }
+}

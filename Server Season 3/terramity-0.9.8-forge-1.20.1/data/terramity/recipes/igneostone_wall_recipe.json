@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:igneostone"
+    }
+  },
+  "result": {
+    "item": "terramity:igneostone_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:igneostone_slab"
+    }
+  },
+  "result": {
+    "item": "terramity:chiseled_igneostone",
+    "count": 1
+  }
+}

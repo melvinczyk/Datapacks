@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bab",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:iridescent_shard"
+    },
+    "b": {
+      "item": "terramity:iridium"
+    }
+  },
+  "result": {
+    "item": "terramity:crystal_heart",
+    "count": 1
+  }
+}

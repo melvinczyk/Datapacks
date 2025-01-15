@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:pink_fairy_bottle"
+    },
+    "b": {
+      "item": "minecraft:honeycomb"
+    },
+    "c": {
+      "item": "terramity:reverium"
+    },
+    "d": {
+      "item": "terramity:celestial_brew"
+    }
+  },
+  "result": {
+    "item": "terramity:ambrosia",
+    "count": 1
+  }
+}

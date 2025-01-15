@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "item": "terramity:chthonic_crystal"
+    },
+    "c": {
+      "item": "minecraft:feather"
+    },
+    "d": {
+      "item": "minecraft:ink_sac"
+    }
+  },
+  "result": {
+    "item": "terramity:blood_contract",
+    "count": 1
+  }
+}

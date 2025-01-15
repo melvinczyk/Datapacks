@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "terramity:polished_igneostone"
+  },
+  "result": "terramity:polished_igneostone_button"
+}

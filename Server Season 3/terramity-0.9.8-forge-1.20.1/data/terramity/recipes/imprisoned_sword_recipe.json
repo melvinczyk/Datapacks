@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "fgf"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:hellspec_alloy"
+    },
+    "b": {
+      "item": "terramity:simmeredge"
+    },
+    "c": {
+      "item": "terramity:guiding_moonlight"
+    },
+    "d": {
+      "item": "terramity:hero_sword"
+    },
+    "e": {
+      "item": "terramity:crescent_moonblade"
+    },
+    "f": {
+      "item": "terramity:exodium_superalloy"
+    },
+    "g": {
+      "item": "terramity:stratus_storm_ruler"
+    }
+  },
+  "result": {
+    "item": "terramity:sword_of_the_imprisoned",
+    "count": 1
+  }
+}

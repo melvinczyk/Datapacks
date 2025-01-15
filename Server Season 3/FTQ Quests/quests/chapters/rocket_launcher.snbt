@@ -12,21 +12,21 @@
 		}
 	}
 	id: "129EA84DC01286BD"
-	order_index: 46
+	order_index: 65
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft a Rocket Launcher by finding its blueprint and using a Blueprint Workbench"]
+			description: ["Craft an Rocket Launcher by finding its blueprint and using a Blueprint Workbench"]
 			id: "21960EE5853A9ECD"
 			rewards: [{
-				count: 30
+				count: 5
 				id: "7879267D0695CE0A"
-				item: "jeg:rifle_ammo"
+				item: "jeg:rocket"
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Rocket Launcher"
+			subtitle: "Craft or obtain an Rocket Launcher"
 			tasks: [{
 				id: "370175637DFD6518"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Rocket Launcher"
+			title: "Aquire an Rocket Launcher"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
@@ -65,7 +65,7 @@
 				{
 					count: 32
 					id: "6155EFBE719B3513"
-					item: "jeg:rifle_ammo"
+					item: "jeg:rocket"
 					type: "item"
 				}
 				{
@@ -135,9 +135,9 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 10
 					id: "3FFB727B36D9C1DB"
-					item: "jeg:rifle_ammo"
+					item: "jeg:rocket"
 					type: "item"
 				}
 				{
@@ -213,9 +213,9 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 10
 					id: "65698B89E089DDE9"
-					item: "jeg:rifle_ammo"
+					item: "jeg:rocket"
 					type: "item"
 				}
 				{
@@ -304,13 +304,13 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 10
 					id: "6C90F5ECCB87D5E1"
-					item: "jeg:rifle_ammo"
+					item: "jeg:rocket"
 					type: "item"
 				}
 				{
-					count: 30
+					count: 5
 					id: "56CFA1061B9ED64B"
 					item: "jeg:gunmetal_ingot"
 					type: "item"
@@ -417,9 +417,9 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 10
 					id: "0BB585C51813043F"
-					item: "jeg:rifle_ammo"
+					item: "jeg:rocket"
 					type: "item"
 				}
 				{
@@ -526,9 +526,9 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 10
 					id: "366956411E918381"
-					item: "jeg:rifle_ammo"
+					item: "jeg:rocket"
 					type: "item"
 				}
 				{
@@ -630,15 +630,15 @@
 					type: "command"
 				}
 				{
-					count: 30
+					count: 5
 					id: "325D00992AF80EE5"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
-					count: 128
+					count: 15
 					id: "4BF87F569EB62722"
-					item: "jeg:rifle_ammo"
+					item: "jeg:rocket"
 					type: "item"
 				}
 				{
@@ -774,9 +774,9 @@
 					type: "item"
 				}
 				{
-					count: 256
+					count: 20
 					id: "6559D3E5FEFC1CAE"
-					item: "jeg:rifle_ammo"
+					item: "jeg:rocket"
 					type: "item"
 				}
 				{
@@ -933,9 +933,9 @@
 					type: "item"
 				}
 				{
-					count: 256
+					count: 20
 					id: "097367AB641C64E6"
-					item: "jeg:rifle_ammo"
+					item: "jeg:rocket"
 					type: "item"
 				}
 				{

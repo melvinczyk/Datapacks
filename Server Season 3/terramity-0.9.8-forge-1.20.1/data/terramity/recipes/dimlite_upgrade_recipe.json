@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:daemonium"
+    },
+    "b": {
+      "item": "terramity:dimlite_upgrade_smithing_template"
+    },
+    "c": {
+      "item": "terramity:untapped_dimlite"
+    }
+  },
+  "result": {
+    "item": "terramity:dimlite_upgrade_smithing_template",
+    "count": 2
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "b b",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:gaianite_cluster"
+    },
+    "b": {
+      "item": "terramity:virentium_alloy_ingot"
+    }
+  },
+  "result": {
+    "item": "terramity:pearls_of_persephone",
+    "count": 1
+  }
+}

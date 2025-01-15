@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stone"
+    },
+    "b": {
+      "item": "terramity:fairy_dust"
+    }
+  },
+  "result": {
+    "item": "terramity:fairystone",
+    "count": 8
+  }
+}

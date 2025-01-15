@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "lanchester"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "4F4EB8DF7681EFC9"
-	order_index: 60
+	icon: {
+		Count: 1
+		id: "mteg:lanchester"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "2931D1A1780BBC59"
+	order_index: 32
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft a Lanchester using a Gunmetal Workbench"]
-		id: "3B0636D3D08C0A14"
-		rewards: [{
-			count: 32
-			id: "2DEE98E20DDD4562"
-			item: "jeg:pistol_ammo"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain  Lanchester"
-		tasks: [{
-			id: "3BA221B7F28FE51A"
-			item: {
-				Count: 1
-				id: "mteg:lanchester"
-				tag: {
-					AmmoCount: 32
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft a Lanchester using a Gunmetal Workbench"]
+			id: "7A4670DC88AC4D26"
+			rewards: [{
+				count: 30
+				id: "540BD543323647C2"
+				item: "jeg:pistol_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Lanchester"
+			tasks: [{
+				id: "12EAEF5655B24C4E"
+				item: {
+					Count: 1
+					id: "mteg:lanchester"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire a Lanchester"
-		x: -2.5d
-		y: -2.0d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Lanchester"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["7A4670DC88AC4D26"]
+			icon: "minecraft:dirt"
+			id: "62FAA648F91E343F"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:lanchester_damage base set 6.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "50BC2B573C5D0B05"
+					title: "+0.25 Lanchester Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "4C9460BB078E9062"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "5C99ED4AFC5E492A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "4BD92314295F4702"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "1113745584E64A4E"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Lanchester Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["62FAA648F91E343F"]
+			icon: "minecraft:copper_block"
+			id: "736B4DE9F7FE4B84"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:lanchester_damage base set 7.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4DFEE20A80664F0C"
+					title: "+0.25 Lanchester Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "7CFFF1119DD9B2C6"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "10B0AAC62BC3E281"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "682976FF5E1C4D34"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "522193AF39129BD4"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Lanchester Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["736B4DE9F7FE4B84"]
+			icon: "minecraft:gold_block"
+			id: "4C3B54930F678B21"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:lanchester_damage base set 7.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1698ED04B321E9E5"
+					title: "+0.25 Lanchester Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "2DBF7C07A1CE4888"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "3EF69E59B913ECE2"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "2FF177F0C4DA4F17"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "4AE911DDED454FCC"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "00CA279E8D42464F"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Lanchester Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["4C3B54930F678B21"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "0AEFE6E12228B68C"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:lanchester_damage base set 7.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4FD55695090C429B"
+					title: "+0.25 Lanchester Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "57A6AB446485FB74"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "5F42116455EE2F28"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "368D74E01972E388"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "67953CF345A05CE7"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "1F03D96672FB50E9"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "6131B5D3AE6A4BCA"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Lanchester Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["0AEFE6E12228B68C"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "67F65927F3504F78"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:lanchester_damage base set 8.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "20728F81D40C7B10"
+					title: "+0.25 Lanchester Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "2EBB5157AA2218A2"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "164B146D5B9D76A1"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4CAE9453EB764C37"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "6271D64A3C434119"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1EDEEC4F0E414F7F"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "33D7DFA4AB98A25B"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "38AFE2B69BCCDCDA"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Lanchester Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["67F65927F3504F78"]
+			icon: "minecraft:diamond_block"
+			id: "2A5E5B21C9864575"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:lanchester_damage base set 7.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7A404011884B4DB9"
+					title: "+0.25  Lanchester Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "5574CF790C54EA65"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1BD7CF24EF384D3E"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "75528746E4D65731"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "3F4EDDA6CE8945DB"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "09749711D73DEFC6"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "372DA5C7ADC64E29"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Lanchester Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["2A5E5B21C9864575"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "3B353B1D666A80C6"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:lanchester_damage base set 8.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3373347DC1F30794"
+					title: "+0.25 Lanchester Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "2D97AEF5B8CD408C"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "493497B9AAFF4109"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "73D6F7C899A24BBA"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "48A9EE05A8A69608"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "1367427A830D4F1C"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "5460EACEA1F74E94"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "1D8953951ADF4031"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "46EBA23821B026C3"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Lanchester Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["3B353B1D666A80C6"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "5ACCBEC7DF5B421F"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:lanchester_damage base set 8.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "452308F37AC64DF2"
+					title: "+0.25 Lanchester Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "4FAE2FD56436B8FA"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "575A336F64BA492C"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "2E2DD50B89F78A95"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "10DD6D5CB5E044A1"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "64F4A0FF18A5422F"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "1A15D4B24AB84007"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "58E0F7C1DD4B07BF"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "64D47E5875D54617"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "05D0D4B88EF3489A"
+					item: {
+						Count: 1
+						id: "mteg:lanchester"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Lanchester Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["5ACCBEC7DF5B421F"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "7A0FB0BF77774D0F"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:lanchester_damage base set 9.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "689B9A5D20AA4969"
+					title: "+1 Lanchester Damage"
+					type: "command"
+				}
+				{
+					id: "200B3D0F19DF087C"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "7E50759EF34A3E23"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "5334EB7E36DB435C"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "481294D3031F4D6C"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "361F1F41662F492B"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "263D7430D0EA3B06"
+				item: {
+					Count: 1
+					id: "mteg:lanchester"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Lanchester Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Lanchester"
 }

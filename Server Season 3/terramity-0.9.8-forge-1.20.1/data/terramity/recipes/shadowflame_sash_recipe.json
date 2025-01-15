@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "b": {
+      "item": "terramity:spectral_soul"
+    },
+    "c": {
+      "item": "terramity:nyxium"
+    },
+    "d": {
+      "item": "terramity:blink_belt"
+    }
+  },
+  "result": {
+    "item": "terramity:shadowflame_sash",
+    "count": 1
+  }
+}

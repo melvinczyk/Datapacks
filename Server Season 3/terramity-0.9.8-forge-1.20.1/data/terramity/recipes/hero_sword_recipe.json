@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:decayed_bedrock_dust"
+    },
+    "b": {
+      "item": "terramity:spectral_soul"
+    },
+    "c": {
+      "item": "terramity:reverium"
+    },
+    "d": {
+      "item": "terramity:excalibur"
+    },
+    "e": {
+      "item": "terramity:prismatic_jewel"
+    }
+  },
+  "result": {
+    "item": "terramity:hero_sword",
+    "count": 1
+  }
+}

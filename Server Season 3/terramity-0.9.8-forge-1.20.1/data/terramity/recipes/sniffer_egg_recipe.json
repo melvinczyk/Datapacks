@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:moss_block"
+    },
+    "b": {
+      "item": "terramity:iridescent_shard"
+    },
+    "c": {
+      "item": "minecraft:egg"
+    },
+    "d": {
+      "item": "terramity:daemonium"
+    }
+  },
+  "result": {
+    "item": "minecraft:sniffer_egg",
+    "count": 1
+  }
+}

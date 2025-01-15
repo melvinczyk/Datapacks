@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:dimlite_ingot"
+    },
+    "b": {
+      "item": "terramity:gold_round"
+    },
+    "c": {
+      "item": "terramity:dimlite_nugget"
+    },
+    "d": {
+      "item": "minecraft:spyglass"
+    }
+  },
+  "result": {
+    "item": "terramity:headhunter_talisman",
+    "count": 1
+  }
+}

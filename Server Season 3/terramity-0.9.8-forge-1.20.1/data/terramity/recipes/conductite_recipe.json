@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "terramity:iridium"
+    },
+    {
+      "item": "terramity:iridium"
+    },
+    {
+      "item": "terramity:iridium"
+    },
+    {
+      "item": "terramity:iridium"
+    },
+    {
+      "item": "terramity:black_matter"
+    },
+    {
+      "item": "terramity:circuit_board"
+    },
+    {
+      "item": "terramity:circuit_board"
+    },
+    {
+      "item": "terramity:circuit_board"
+    },
+    {
+      "item": "terramity:circuit_board"
+    }
+  ],
+  "result": {
+    "item": "terramity:conductite",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:void_alloy_bricks"
+    }
+  },
+  "result": {
+    "item": "terramity:void_brick_wall",
+    "count": 6
+  }
+}

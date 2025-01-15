@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:daemonium_plating"
+    }
+  },
+  "result": {
+    "item": "terramity:daemonium_plating_slab",
+    "count": 6
+  }
+}

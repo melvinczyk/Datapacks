@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:fairy_dust"
+    },
+    "b": {
+      "item": "terramity:ruby"
+    },
+    "c": {
+      "item": "terramity:nyxium"
+    },
+    "d": {
+      "item": "terramity:band_of_power"
+    },
+    "e": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "terramity:band_of_power_plus",
+    "count": 1
+  }
+}

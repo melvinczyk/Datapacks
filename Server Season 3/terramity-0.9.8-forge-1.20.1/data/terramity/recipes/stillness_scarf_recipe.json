@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "c": {
+      "tag": "minecraft:wool"
+    },
+    "d": {
+      "item": "minecraft:anvil"
+    }
+  },
+  "result": {
+    "item": "terramity:stillness_scarf",
+    "count": 1
+  }
+}

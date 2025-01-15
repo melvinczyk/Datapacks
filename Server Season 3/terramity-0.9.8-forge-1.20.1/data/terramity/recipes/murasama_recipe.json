@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "acd",
+    "edd"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:exodium_superalloy"
+    },
+    "b": {
+      "item": "terramity:hero_sword"
+    },
+    "c": {
+      "item": "terramity:simmeredge"
+    },
+    "d": {
+      "item": "terramity:hellspec_alloy"
+    },
+    "e": {
+      "item": "terramity:advanced_gun_parts"
+    }
+  },
+  "result": {
+    "item": "terramity:murasama",
+    "count": 1
+  }
+}

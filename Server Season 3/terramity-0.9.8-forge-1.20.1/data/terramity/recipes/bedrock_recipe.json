@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:decayed_bedrock"
+    },
+    "b": {
+      "item": "terramity:daemonium"
+    }
+  },
+  "result": {
+    "item": "minecraft:bedrock",
+    "count": 1
+  }
+}

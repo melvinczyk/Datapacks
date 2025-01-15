@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:iridescent_shard"
+    },
+    "b": {
+      "item": "terramity:daemonium"
+    },
+    "c": {
+      "item": "terramity:prismatic_jewel"
+    },
+    "d": {
+      "item": "terramity:diamond_gauntlet"
+    }
+  },
+  "result": {
+    "item": "terramity:prismatic_gauntlet",
+    "count": 1
+  }
+}

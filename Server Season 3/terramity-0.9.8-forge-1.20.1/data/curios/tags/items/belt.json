@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "terramity:leather_belt",
+    "terramity:slam_belt",
+    "terramity:anti_gravity_belt",
+    "terramity:asteroid_belt",
+    "terramity:sarashi",
+    "terramity:swordsmans_sarashi",
+    "terramity:prismatic_sarashi",
+    "terramity:kuiper_belt",
+    "terramity:shinobi_sash",
+    "terramity:blink_belt",
+    "terramity:shadowflame_sash",
+    "terramity:sacrificial_sash",
+    "terramity:hubris_of_icarus",
+    "terramity:belt_of_the_gnome_king",
+    "terramity:inverse_sarashi",
+    "terramity:diamond_studded_belt",
+    "terramity:fragile_divinity",
+    "terramity:super_sniffers_pelt",
+    "terramity:hurricane_belt",
+    "terramity:flameburst_belt",
+    "terramity:ultra_sniffers_pelt"
+  ]
+}

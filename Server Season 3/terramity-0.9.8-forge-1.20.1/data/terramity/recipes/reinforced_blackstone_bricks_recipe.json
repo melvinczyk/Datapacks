@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "ba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:polished_blackstone_bricks"
+    },
+    "b": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "result": {
+    "item": "terramity:reinforced_blackstone_bricks",
+    "count": 4
+  }
+}

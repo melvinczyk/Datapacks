@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "bb",
+    "cc"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:gold_round"
+    },
+    "b": {
+      "tag": "minecraft:planks"
+    },
+    "c": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "terramity:gunsmith_station",
+    "count": 1
+  }
+}

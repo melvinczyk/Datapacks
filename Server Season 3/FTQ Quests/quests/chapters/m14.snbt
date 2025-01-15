@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "m14"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "790168A22A48AC73"
-	order_index: 64
+	icon: {
+		Count: 1
+		id: "mteg:m14"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "10A93BD531794D75"
+	order_index: 36
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft an M14 using a Gunmetal Workbench"]
-		id: "5A99AC7CE5172B22"
-		rewards: [{
-			count: 40
-			id: "0BB4A6E86A98D5BB"
-			item: "jeg:rifle_ammo"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain an M14"
-		tasks: [{
-			id: "628655D07316C1B5"
-			item: {
-				Count: 1
-				id: "mteg:m14"
-				tag: {
-					AmmoCount: 20
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an M14 using a Gunmetal Workbench"]
+			id: "3D619AE8D7454563"
+			rewards: [{
+				count: 30
+				id: "7CF11B33327248DE"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an M14"
+			tasks: [{
+				id: "3E2B3DA6C0DB4F5B"
+				item: {
+					Count: 1
+					id: "mteg:m14"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire an M14"
-		x: -1.5d
-		y: -1.0d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an M14"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["3D619AE8D7454563"]
+			icon: "minecraft:dirt"
+			id: "326E3CA1DA3FD591"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m14_damage base set 14.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7DE7465D894B41C7"
+					title: "+0.25 M14 Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "5CCEFD4C9AAEE3C5"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2DE0CB9E85708B46"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "3B5F1A7ED8C8D342"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "346036A4022749F9"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "M14 Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["326E3CA1DA3FD591"]
+			icon: "minecraft:copper_block"
+			id: "3D91ACDAA4594BCE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m14_damage base set 14.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2C36EF5AE6AB6B23"
+					title: "+0.25 M14 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "010A465634E2D177"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1C32EC8E46FFC6F3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "3D79EF1EEF2D4DF4"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "6A14C27225B94EE6"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "M14 Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["3D91ACDAA4594BCE"]
+			icon: "minecraft:gold_block"
+			id: "4658A77DC2134511"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m14_damage base set 14.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "20E7347A49114166"
+					title: "+0.25 M14 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "350C12BAD45D7591"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2A7A154DEC1D9CD5"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "52208FCB300DDD9E"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "5C5D4070EA590DC2"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "6FA92500E58D3529"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "M14 Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["4658A77DC2134511"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "427AA668C3168355"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m14_damage base set 15.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "24F44FFB83C04190"
+					title: "+0.25 M14 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "6D7BC547093A4B53"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "474CEC32AF2CB4F5"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "502EE385CA0F6BD9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "5115398F02189450"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "224085A32105B675"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "4CD7FD2E925C494A"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "M14 Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["427AA668C3168355"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "57247D18C7914BEB"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m14_damage base set 15.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6CD8A999E8084679"
+					title: "+0.25 M14 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "513ABB101EBAC3F4"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0169D6E4AFD94700"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "237DC90098BB80D2"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "486E252819C44D5E"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "04D37E9B22E44F96"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4DFC2CD1B20E703E"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "5809B8A221E2473E"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "M14 Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["57247D18C7914BEB"]
+			icon: "minecraft:diamond_block"
+			id: "3C8928BA1A11468C"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m14_damage base set 15.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6808BF9C4AA1F2CC"
+					title: "+0.25  M14 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "40FB320EE6982D0E"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7D972098692C4BB1"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "42E2EFC103CBF523"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "32BD1177787DEB1F"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "614564C2DB3A4A60"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "35D7F5A2F425F44E"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "M14 Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["3C8928BA1A11468C"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "711C9A4605424D78"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m14_damage base set 15.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4004EC627F774FF7"
+					title: "+0.25 M14 Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "5570BFD974CB07B1"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "515BB8107E900039"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7088C70D292B4C9B"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3E3FE2532A8E9472"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "2C31F2AA03D0AC32"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "79D79E7ECEBF08B2"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "05AB4B7EA46D4E7F"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "5492D56C1A2A49F1"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "M14 Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["711C9A4605424D78"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "4FE9BF6918D14314"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m14_damage base set 16.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4712DFFFFFF50902"
+					title: "+0.25 M14 Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "73A4BA23C85244EF"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "1623DE2185BD442F"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "6A9BC130490F408C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "3D8DD1004A4DD551"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "4CC07A13C4504C05"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "62808345B02D456F"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4A409AE414CAD8FD"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "057F755023E6B666"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "097D4F1EBEF74762"
+					item: {
+						Count: 1
+						id: "mteg:m14"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "M14 Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["4FE9BF6918D14314"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "28FF5E18069F4D18"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m14_damage base set 17.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "21CBD724BC5D494D"
+					title: "+1 M14 Damage"
+					type: "command"
+				}
+				{
+					id: "3838F1BA94764501"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "56FC85DFCDAE2B01"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "02D587FF8D4E48CB"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "28B13FDB52C11383"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "331D4099BC522C18"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "66DF14CE544814C8"
+				item: {
+					Count: 1
+					id: "mteg:m14"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "M14 Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "M14"
 }

@@ -1,0 +1,24 @@
+{
+  "entries": [
+    "terramity:warden_soul_loot_mod",
+    "terramity:hamstick_loot_mod",
+    "terramity:power_mod",
+    "terramity:perception_mod",
+    "terramity:prosperity_mod",
+    "terramity:fortune_mod",
+    "terramity:resilience_mod",
+    "terramity:defense_mod",
+    "terramity:daedalus_mod",
+    "terramity:oceanus_mod",
+    "terramity:aegis_mod",
+    "terramity:weakness_mod_skeletons",
+    "terramity:weakness_mod_zombies",
+    "terramity:debilitation_mod",
+    "terramity:levitation_mod",
+    "terramity:everlasting_mod",
+    "terramity:cleansing_mod",
+    "terramity:storms_mod",
+    "terramity:deepslate_aegis_mod"
+  ],
+  "replace": false
+}

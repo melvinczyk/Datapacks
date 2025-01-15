@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:void_alloy"
+    },
+    "b": {
+      "item": "minecraft:string"
+    },
+    "c": {
+      "item": "terramity:sarashi"
+    }
+  },
+  "result": {
+    "item": "terramity:inverse_sarashi",
+    "count": 1
+  }
+}

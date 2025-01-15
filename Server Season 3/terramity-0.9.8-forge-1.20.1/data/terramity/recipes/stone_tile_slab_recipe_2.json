@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "terramity:stone_tiles"
+  },
+  "result": "terramity:stone_tile_slab"
+}

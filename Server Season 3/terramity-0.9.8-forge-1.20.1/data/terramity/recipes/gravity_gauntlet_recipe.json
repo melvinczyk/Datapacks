@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:dimlite_nugget"
+    },
+    "b": {
+      "item": "terramity:dimlite_ingot"
+    },
+    "c": {
+      "item": "terramity:raw_cosmilite"
+    },
+    "d": {
+      "item": "terramity:anti_gravity_belt"
+    }
+  },
+  "result": {
+    "item": "terramity:gravity_gauntlet",
+    "count": 1
+  }
+}

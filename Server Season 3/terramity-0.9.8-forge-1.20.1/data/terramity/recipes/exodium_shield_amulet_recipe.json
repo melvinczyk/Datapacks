@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:black_matter"
+    },
+    "b": {
+      "item": "terramity:anxiety_amulet"
+    },
+    "c": {
+      "item": "terramity:exodium_superalloy"
+    }
+  },
+  "result": {
+    "item": "terramity:exodium_shield_amulet",
+    "count": 1
+  }
+}

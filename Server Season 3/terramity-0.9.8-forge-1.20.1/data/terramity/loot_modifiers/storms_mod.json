@@ -1,0 +1,10 @@
+{
+  "type": "terramity:terramity_loot_modifier",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "chests/shipwreck_treasure"
+    }
+  ],
+  "lootTable": "terramity:storms_table"
+}

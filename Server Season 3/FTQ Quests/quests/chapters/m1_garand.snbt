@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "m1_garand"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "3CA27EB3A045447F"
-	order_index: 61
+	icon: {
+		Count: 1
+		id: "mteg:m1_garand"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "70259A327E9C38FD"
+	order_index: 34
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft an M1 Garand using a Gunmetal Workbench"]
-		id: "228369339858B7DF"
-		rewards: [{
-			count: 32
-			id: "76834FCC7EC5ACD8"
-			item: "jeg:rifle_ammo"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain an M1 Garand"
-		tasks: [{
-			id: "10A832B6990AE59C"
-			item: {
-				Count: 1
-				id: "mteg:m1_garand"
-				tag: {
-					AmmoCount: 8
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an M1 Garand using a Gunmetal Workbench"]
+			id: "51ED61D3A8E8434C"
+			rewards: [{
+				count: 30
+				id: "0A24B70637BC40FB"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an M1 Garand"
+			tasks: [{
+				id: "385B09BB317B418C"
+				item: {
+					Count: 1
+					id: "mteg:m1_garand"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire an M1 Garand"
-		x: -1.0d
-		y: -1.0d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an M1 Garand"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["51ED61D3A8E8434C"]
+			icon: "minecraft:dirt"
+			id: "33FD568930FB4420"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m1_garand_damage base set 13.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "61761188A0F54A2B"
+					title: "+0.25 M1 Garand Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "2FE562987E191225"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2878DDBA36854A72"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "0C821C2353910CA0"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "0EE2FDFF13314F8C"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "M1 Garand Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["33FD568930FB4420"]
+			icon: "minecraft:copper_block"
+			id: "2C9715B902B94B0E"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m1_garand_damage base set 13.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7321F9389665FC1E"
+					title: "+0.25 M1 Garand Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "726CA1CB68A445C0"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "37D347AC10C74401"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "0A2830090E6F916C"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "2369128A00E14735"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "M1 Garand Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["2C9715B902B94B0E"]
+			icon: "minecraft:gold_block"
+			id: "7231FA53A11F4A84"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m1_garand_damage base set 13.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1EE12E14B707425D"
+					title: "+0.25 M1 Garand Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "6B2D47BCB9FE3F14"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "67C10C9681994885"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "679B4D3AA5FDDC92"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "447805D055164ABF"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "1AE2FE589E4F46B4"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "M1 Garand Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["7231FA53A11F4A84"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "33C44BF51FAB4EB0"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m1_garand_damage base set 14.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7BF627DDFFA04621"
+					title: "+0.25 M1 Garand Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "6822DFCC2F81409D"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "4021C2C451ED4F28"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "173FF7337B45FE37"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "2867ACDC84B34587"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "2AC7CE35C43258F9"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "62E0CFACB3B9548F"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "M1 Garand Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["33C44BF51FAB4EB0"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "6D5EDCD2C13449B9"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m1_garand_damage base set 14.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "62C1D87F51254337"
+					title: "+0.25 M1 Garand Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "2E9F62B33A3F0017"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "10EFCD3AAAA9E37F"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5691B33FB7EEA25F"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0DEBEC3217C948A6"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3B8B3B6073184B03"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2FC1F3249CFF4FC8"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "02EA773BFA3086A4"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "M1 Garand Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["6D5EDCD2C13449B9"]
+			icon: "minecraft:diamond_block"
+			id: "3D05E58C002A1017"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m1_garand_damage base set 14.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7C33E02C5CD3F1FD"
+					title: "+0.25  M1 Garand Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "40F0E005558DECE9"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "46AD6CC846C04B1D"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "63EC4FFD52EF4B40"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "52B63348FAADCDBB"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2D5F64610BA44303"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "697C835AE2BC20E2"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "M1 Garand Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["3D05E58C002A1017"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "0ECC9F96880649A9"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m1_garand_damage base set 14.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "21B3F5387C054B0F"
+					title: "+0.25 M1 Garand Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "3C1FA24B666A4DB7"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "45AEB9D7A9964CAE"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "348F2B3694844414"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7E65839C5EFBA38F"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "724C26A1022D3E25"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "76BAEC2C1CC5770B"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "6FDB7A7F70D24441"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "28963499DCEB4207"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "M1 Garand Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["0ECC9F96880649A9"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "09B3E0CA078D4FD3"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m1_garand_damage base set 15.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "06F926758A3A41EF"
+					title: "+0.25 M1 Garand Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "54788E0099C64EB2"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "4E6A18C907F9011B"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "0AD3880D257372BD"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "561A6AB58BBCE075"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "72B9A29DA0177A9A"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "305D0696EBBC411A"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "268485CD3C6F9971"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "117C4667C88D4A21"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "719FD81769D296F3"
+					item: {
+						Count: 1
+						id: "mteg:m1_garand"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "M1 Garand Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["09B3E0CA078D4FD3"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "41235CB3C53AE6D5"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m1_garand_damage base set 16.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "45EA8B4834E9F39A"
+					title: "+1 M1 Garand Damage"
+					type: "command"
+				}
+				{
+					id: "6B0A5203F66A4484"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "6CD0A1F10C585235"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "2149014A4F86888C"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "7DF02672159B8487"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "25E48E791D09F9A9"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "486FCD961B673822"
+				item: {
+					Count: 1
+					id: "mteg:m1_garand"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "M1 Garand Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "M1 Garand"
 }

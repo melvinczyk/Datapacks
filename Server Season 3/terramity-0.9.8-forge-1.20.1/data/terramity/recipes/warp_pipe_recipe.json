@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:daemonium"
+    },
+    "b": {
+      "item": "terramity:daemonium_chunk"
+    },
+    "c": {
+      "item": "minecraft:ender_pearl"
+    },
+    "d": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "terramity:warp_pipe",
+    "count": 2
+  }
+}

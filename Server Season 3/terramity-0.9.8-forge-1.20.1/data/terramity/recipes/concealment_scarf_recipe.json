@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:antiprism"
+    },
+    "b": {
+      "item": "terramity:void_alloy"
+    },
+    "c": {
+      "tag": "minecraft:wool"
+    },
+    "d": {
+      "item": "terramity:prismatic_scarf"
+    },
+    "e": {
+      "item": "minecraft:golden_carrot"
+    }
+  },
+  "result": {
+    "item": "terramity:concealment_scarf",
+    "count": 1
+  }
+}

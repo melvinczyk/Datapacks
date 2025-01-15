@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:fairy_dust"
+    },
+    "b": {
+      "item": "terramity:sapphire"
+    },
+    "c": {
+      "item": "terramity:sapphire_ring"
+    }
+  },
+  "result": {
+    "item": "terramity:sapphire_ring_plus",
+    "count": 1
+  }
+}

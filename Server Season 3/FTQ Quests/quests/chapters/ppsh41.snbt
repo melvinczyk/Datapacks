@@ -1,0 +1,978 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ppsh41"
+	group: "2E8BF1A1F4DB9EE3"
+	icon: {
+		Count: 1
+		id: "mteg:ppsh_41"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "208320DEE17D4F0F"
+	order_index: 50
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Craft a PPSH 41 using a Gunmetal Workbench"]
+			id: "5ED13612B4646254"
+			rewards: [{
+				count: 30
+				id: "71EECCBA584DFC6C"
+				item: "jeg:pistol_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an PPSH 41"
+			tasks: [{
+				id: "54A1DB0620BB46F6"
+				item: {
+					Count: 1
+					id: "mteg:ppsh_41"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aquire an PPSH 41"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["5ED13612B4646254"]
+			icon: "minecraft:dirt"
+			id: "629C9C9505418BE8"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:ppsh_41_damage base set 4.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "58448855D5244B42"
+					title: "+0.25 PPSH 41 Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "191CDB4DA7AAE0E0"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "37F92B1A3CE948F9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "5A4989D9AA4C5507"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "416037281672404A"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "PPSH 41 Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["629C9C9505418BE8"]
+			icon: "minecraft:copper_block"
+			id: "6B09CAED03BE4F50"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:ppsh_41_damage base set 5.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3DAE0D77297E04EF"
+					title: "+0.25 PPSH 41 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "5B4FE7CCCE4843BA"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "2405A562F88C4562"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "1E1AF8EB64F04148"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "485A6F5641024F76"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "PPSH 41 Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["6B09CAED03BE4F50"]
+			icon: "minecraft:gold_block"
+			id: "4C92AB2E811B456A"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:ppsh_41_damage base set 5.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4459F8D1BB831FDD"
+					title: "+0.25 PPSH 41 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "1BCA4B0C029D81A6"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "041E86E906464E40"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "5CF590852184495C"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "4954867590973623"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "37F3FAC0751A8FF6"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "PPSH 41 Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["4C92AB2E811B456A"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "4BAAA2C91DF07EDD"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:ppsh_41_damage base set 5.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4A358D15AA464280"
+					title: "+0.25 PPSH 41 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "4E92257DF9AFB2AF"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "6253A68E055348F0"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "6C32FA8CE6874567"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "084A589563C24A73"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "2846FE4E40C84786"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "330F8D2B4F5444DA"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "PPSH 41 Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["4BAAA2C91DF07EDD"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "4B09098E265F9E53"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:ppsh_41_damage base set 6.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "603B51BC5B8FD95E"
+					title: "+0.25 PPSH 41 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "4D4F4F94CBECABC1"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6C563025662849AE"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2C1EF889BB954FFE"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "3F3DD387B2CE7BC9"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "11A287E497B1CE2A"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "28751D9F4371AF95"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "6E108FBEF15F08B8"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "PPSH 41 Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["4B09098E265F9E53"]
+			icon: "minecraft:diamond_block"
+			id: "094599DD16CA3637"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:ppsh_41_damage base set 5.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "50E2DD6DBA064DB9"
+					title: "+0.25  PPSH 41 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "4C005BD5E33AB255"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "77E9A3DD66AF6E8B"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "4A805D2E12474ABC"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "1B9937A003174B44"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6731505106FFE27F"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "6A5EA921700E455F"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "PPSH 41 Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["094599DD16CA3637"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "5F9326A4B9DC4D04"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:ppsh_41_damage base set 6.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "19FB5D73886E4BE9"
+					title: "+0.25 PPSH 41 Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "1FD89198FEDCF259"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "64B18C8F26C44A7F"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "3AA8818589CA4B43"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4C8F8DBEF0372E17"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "08D5342D2666426B"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "02C17323741F4640"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "6C27208756FF4D5C"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "5F8A2F7C81DF4CAB"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "PPSH 41 Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["5F9326A4B9DC4D04"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "6AC992A260692527"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:ppsh_41_damage base set 6.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "15589C83FD6C4CAA"
+					title: "+0.25 PPSH 41 Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "06DAE9A4ECC752D1"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "0EE97E5C3B7C4D59"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "0319463BD308406D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "7CB34B432A9F4008"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "0FD129BD576FDF5B"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "51FF283ECA4B4E85"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "25C4E0604C01D5FB"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "537EE2B8FE47C312"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "09C369CA760246ED"
+					item: {
+						Count: 1
+						id: "mteg:ppsh_41"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "PPSH 41 Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6AC992A260692527"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "5CBE30A4965C4AEF"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:ppsh_41_damage base set 7.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "488F2E3070B62F8E"
+					title: "+1 PPSH 41 Damage"
+					type: "command"
+				}
+				{
+					id: "33CEE2559E5599AC"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "4F69CE07E33E49B9"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "78EB152FAE397727"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "1DEF1402D53A4664"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "4A4A34BBA8114108"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "2E2B71A93D474832"
+				item: {
+					Count: 1
+					id: "mteg:ppsh_41"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "PPSH 41 Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
+	title: "PPSH 41"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "terramity:reinforced_blackstone_bricks"
+  },
+  "result": "terramity:reinforced_blackstone_brick_slab"
+}

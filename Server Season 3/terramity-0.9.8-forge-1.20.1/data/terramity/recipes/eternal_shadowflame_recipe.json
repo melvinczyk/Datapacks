@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "dbd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:fire_charge"
+    },
+    "b": {
+      "item": "terramity:nyxium"
+    },
+    "c": {
+      "item": "terramity:pot_of_hot_coals"
+    },
+    "d": {
+      "item": "terramity:chthonic_crystal"
+    }
+  },
+  "result": {
+    "item": "terramity:eternal_shadowflame",
+    "count": 1
+  }
+}

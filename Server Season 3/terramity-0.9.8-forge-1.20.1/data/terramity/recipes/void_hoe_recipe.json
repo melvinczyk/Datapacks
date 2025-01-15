@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "terramity:void_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "terramity:iridium_hoe"
+  },
+  "addition": {
+    "item": "terramity:void_alloy"
+  },
+  "result": {
+    "item": "terramity:void_hoe"
+  }
+}

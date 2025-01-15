@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glow_berries"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "terramity:carton_of_sweetberry_milk"
+    },
+    "d": {
+      "item": "terramity:iridium_chunk"
+    }
+  },
+  "result": {
+    "item": "terramity:carton_of_glowberry_milk",
+    "count": 1
+  }
+}

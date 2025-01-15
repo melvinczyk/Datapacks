@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:fairy_dust"
+    },
+    "b": {
+      "item": "terramity:ruby"
+    },
+    "c": {
+      "item": "terramity:ruby_ring"
+    }
+  },
+  "result": {
+    "item": "terramity:ruby_ring_plus",
+    "count": 1
+  }
+}

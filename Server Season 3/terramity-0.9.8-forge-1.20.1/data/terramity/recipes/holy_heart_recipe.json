@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "terramity:reverium"
+    },
+    "c": {
+      "item": "terramity:purity_pendant"
+    },
+    "d": {
+      "item": "terramity:spectral_soul"
+    }
+  },
+  "result": {
+    "item": "terramity:holy_heart_necklace",
+    "count": 1
+  }
+}

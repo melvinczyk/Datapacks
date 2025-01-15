@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "dbd"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:cosmilite_ingot"
+    },
+    "b": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "c": {
+      "item": "terramity:hover_charm_plus"
+    },
+    "d": {
+      "item": "terramity:dimlite_ingot"
+    }
+  },
+  "result": {
+    "item": "terramity:hover_charm_plus_plus",
+    "count": 1
+  }
+}

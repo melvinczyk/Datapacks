@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:iridescent_shard"
+    },
+    "b": {
+      "item": "terramity:accursed_soul"
+    },
+    "c": {
+      "item": "terramity:iridium"
+    },
+    "d": {
+      "item": "terramity:spiteful_soul"
+    },
+    "e": {
+      "item": "terramity:lost_soul"
+    }
+  },
+  "result": {
+    "item": "terramity:spectral_soul",
+    "count": 1
+  }
+}

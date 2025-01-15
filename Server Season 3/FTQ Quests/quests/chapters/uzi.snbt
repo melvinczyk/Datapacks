@@ -12,7 +12,7 @@
 		}
 	}
 	id: "22330E16E0C66B2B"
-	order_index: 38
+	order_index: 66
 	quest_links: [ ]
 	quests: [
 		{
@@ -21,7 +21,7 @@
 			rewards: [{
 				count: 30
 				id: "70E2AAA8D422D871"
-				item: "jeg:rifle_ammo"
+				item: "jeg:pistol_ammo"
 				type: "item"
 			}]
 			shape: "diamond"
@@ -65,7 +65,7 @@
 				{
 					count: 32
 					id: "517EE9787525EE45"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -137,7 +137,7 @@
 				{
 					count: 64
 					id: "2C9BC596AE4876A5"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -215,7 +215,7 @@
 				{
 					count: 64
 					id: "5E7F9178AE28DE01"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -306,7 +306,7 @@
 				{
 					count: 64
 					id: "196B4B5E484C270E"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -419,7 +419,7 @@
 				{
 					count: 64
 					id: "1983928CDAD48F94"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -528,7 +528,7 @@
 				{
 					count: 64
 					id: "7A346C16E60B1BEE"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -638,7 +638,7 @@
 				{
 					count: 128
 					id: "7898FC5C2D9377FB"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -776,7 +776,7 @@
 				{
 					count: 256
 					id: "4626A2457AC0A79F"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -935,7 +935,7 @@
 				{
 					count: 256
 					id: "4D4B9D32A345FDF0"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{

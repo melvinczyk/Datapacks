@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "terramity:daemonium_chunk"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "terramity:daemonium_chunk"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "terramity:daemonium_chunk"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "terramity:daemonium_chunk"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "terramity:daemonium_chunk"
+    }
+  ],
+  "result": {
+    "item": "terramity:advanced_gun_parts",
+    "count": 1
+  }
+}

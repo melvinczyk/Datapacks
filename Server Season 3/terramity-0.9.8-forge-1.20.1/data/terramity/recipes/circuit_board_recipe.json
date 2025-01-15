@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "terramity:electronic_scrap"
+    },
+    {
+      "item": "terramity:electronic_scrap"
+    },
+    {
+      "item": "terramity:electronic_scrap"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "terramity:daemonium"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "terramity:cardboard"
+    },
+    {
+      "item": "terramity:cardboard"
+    },
+    {
+      "item": "terramity:cardboard"
+    }
+  ],
+  "result": {
+    "item": "terramity:circuit_board",
+    "count": 1
+  }
+}

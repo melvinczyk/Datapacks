@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:exodium_superalloy"
+    },
+    "b": {
+      "item": "terramity:antimatter_bomb"
+    },
+    "c": {
+      "item": "terramity:black_hole_bomb"
+    }
+  },
+  "result": {
+    "item": "terramity:macro_black_hole_bomb",
+    "count": 1
+  }
+}

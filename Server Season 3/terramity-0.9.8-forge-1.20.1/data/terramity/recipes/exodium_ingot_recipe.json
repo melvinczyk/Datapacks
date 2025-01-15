@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "ccb"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:cracked_microcosm"
+    },
+    "b": {
+      "item": "terramity:antiprism"
+    },
+    "c": {
+      "item": "terramity:profanum"
+    }
+  },
+  "result": {
+    "item": "terramity:exodium_superalloy",
+    "count": 2
+  }
+}

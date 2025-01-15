@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:cosmilite_ingot"
+    },
+    "b": {
+      "item": "terramity:anti_gravity_belt"
+    },
+    "c": {
+      "item": "terramity:slam_belt"
+    }
+  },
+  "result": {
+    "item": "terramity:asteroid_belt",
+    "count": 1
+  }
+}

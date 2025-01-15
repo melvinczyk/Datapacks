@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:iridescent_shard"
+    },
+    "b": {
+      "item": "terramity:prismatic_jewel"
+    },
+    "c": {
+      "tag": "minecraft:wool"
+    },
+    "d": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "terramity:prismatic_scarf",
+    "count": 1
+  }
+}

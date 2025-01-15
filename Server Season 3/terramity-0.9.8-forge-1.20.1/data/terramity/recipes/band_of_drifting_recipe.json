@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:shulker_shell"
+    },
+    "b": {
+      "item": "terramity:raw_cosmilite"
+    },
+    "c": {
+      "item": "terramity:empty_ring"
+    }
+  },
+  "result": {
+    "item": "terramity:band_of_drifting",
+    "count": 1
+  }
+}

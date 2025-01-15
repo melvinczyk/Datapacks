@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:daemonium"
+    },
+    "b": {
+      "item": "terramity:iridium"
+    },
+    "c": {
+      "item": "terramity:chthonic_crystal"
+    },
+    "d": {
+      "item": "terramity:advanced_pistol"
+    }
+  },
+  "result": {
+    "item": "terramity:requiem",
+    "count": 1
+  }
+}

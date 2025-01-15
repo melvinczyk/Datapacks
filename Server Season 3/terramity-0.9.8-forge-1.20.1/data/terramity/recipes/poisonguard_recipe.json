@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "a a",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:spider_eye"
+    },
+    "c": {
+      "item": "terramity:gaianite_cluster"
+    }
+  },
+  "result": {
+    "item": "terramity:poisonguard_pendant",
+    "count": 1
+  }
+}

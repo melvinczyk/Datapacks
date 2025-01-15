@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:angel_feather"
+    },
+    "b": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "terramity:hubris_of_icarus",
+    "count": 1
+  }
+}

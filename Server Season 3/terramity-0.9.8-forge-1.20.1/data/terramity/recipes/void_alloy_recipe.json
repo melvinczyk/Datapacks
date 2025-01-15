@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "terramity:iridium"
+    },
+    {
+      "item": "terramity:iridium"
+    },
+    {
+      "item": "terramity:iridium"
+    },
+    {
+      "item": "terramity:iridium"
+    },
+    {
+      "item": "terramity:black_matter"
+    },
+    {
+      "item": "terramity:empty_essence"
+    },
+    {
+      "item": "terramity:empty_essence"
+    },
+    {
+      "item": "terramity:empty_essence"
+    },
+    {
+      "item": "terramity:empty_essence"
+    }
+  ],
+  "result": {
+    "item": "terramity:void_alloy",
+    "count": 1
+  }
+}

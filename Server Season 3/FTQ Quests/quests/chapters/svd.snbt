@@ -12,7 +12,7 @@
 		}
 	}
 	id: "4A740A000765B7E7"
-	order_index: 43
+	order_index: 61
 	quest_links: [ ]
 	quests: [
 		{
@@ -44,7 +44,7 @@
 			y: -0.20000000000000004d
 		}
 		{
-			dependencies: ["62FB20C0FDF46924"]
+			dependencies: ["0E6E735C1B16A44E"]
 			icon: "minecraft:dirt"
 			id: "76218495900A4D7D"
 			rewards: [
@@ -116,7 +116,7 @@
 			y: -2.2000000000000006d
 		}
 		{
-			dependencies: ["788EB7C452C146A6"]
+			dependencies: ["76218495900A4D7D"]
 			icon: "minecraft:copper_block"
 			id: "5A6E35F19FBFB1AD"
 			rewards: [
@@ -194,7 +194,7 @@
 			y: -3.7000000000000006d
 		}
 		{
-			dependencies: ["20611BFB0CC4EC43"]
+			dependencies: ["5A6E35F19FBFB1AD"]
 			icon: "minecraft:gold_block"
 			id: "373481A4C0170B19"
 			rewards: [
@@ -280,7 +280,7 @@
 			y: -5.1999999999999975d
 		}
 		{
-			dependencies: ["338A9182ECCA6C42"]
+			dependencies: ["373481A4C0170B19"]
 			description: [
 				"&bGelids are zombies found in cold biomes"
 				""
@@ -381,7 +381,7 @@
 			y: -6.6999999999999975d
 		}
 		{
-			dependencies: ["240248F977F160C1"]
+			dependencies: ["73B46B82D89A4607"]
 			description: [
 				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
 				""
@@ -501,7 +501,7 @@
 			y: -9.75d
 		}
 		{
-			dependencies: ["34EA025885FAF363"]
+			dependencies: ["2F42CBFCEF854770"]
 			icon: "minecraft:diamond_block"
 			id: "710DE77514C87879"
 			rewards: [
@@ -604,7 +604,7 @@
 			y: -8.25d
 		}
 		{
-			dependencies: ["54F5952F73D28668"]
+			dependencies: ["710DE77514C87879"]
 			description: [
 				"The Lich has a small chance to spawn in the overworld at night."
 				""
@@ -740,7 +740,7 @@
 			y: -11.25d
 		}
 		{
-			dependencies: ["1BEE2C8D61EE08DB"]
+			dependencies: ["56702D431830A5A2"]
 			description: [
 				"The Spiritcaller can be fought during raids in the final wave"
 				""
@@ -903,7 +903,7 @@
 			y: -12.75d
 		}
 		{
-			dependencies: ["6023F8A4315D9749"]
+			dependencies: ["4C029AB534BD2474"]
 			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
 			id: "70A830DC97CBA9D6"
 			rewards: [

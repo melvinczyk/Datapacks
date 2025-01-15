@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:reverium"
+    },
+    "b": {
+      "item": "terramity:angel_feather"
+    },
+    "c": {
+      "item": "minecraft:elytra"
+    }
+  },
+  "result": {
+    "item": "terramity:reverium_paladin_chestplate",
+    "count": 1
+  }
+}

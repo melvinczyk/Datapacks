@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:moonstone_rock"
+    },
+    "b": {
+      "item": "terramity:dimlite_ingot"
+    },
+    "c": {
+      "item": "terramity:excalibur"
+    }
+  },
+  "result": {
+    "item": "terramity:guiding_moonlight",
+    "count": 1
+  }
+}

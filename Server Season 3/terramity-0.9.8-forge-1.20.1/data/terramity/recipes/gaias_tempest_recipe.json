@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "b": {
+      "item": "minecraft:spore_blossom"
+    },
+    "c": {
+      "item": "terramity:virentium_alloy_ingot"
+    },
+    "d": {
+      "item": "terramity:advanced_pistol"
+    }
+  },
+  "result": {
+    "item": "terramity:gaias_tempest",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:circuit_board"
+    },
+    "b": {
+      "item": "terramity:conductite"
+    },
+    "c": {
+      "item": "terramity:rush_ring_plus"
+    },
+    "d": {
+      "item": "terramity:excavation_ring"
+    }
+  },
+  "result": {
+    "item": "terramity:supercharged_speed_ring",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "b": {
+      "item": "terramity:void_alloy"
+    },
+    "c": {
+      "item": "terramity:shinobi_sash"
+    }
+  },
+  "result": {
+    "item": "terramity:blink_belt",
+    "count": 1
+  }
+}

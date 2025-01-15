@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:throwing_bomb"
+    },
+    "b": {
+      "item": "minecraft:torchflower_seeds"
+    }
+  },
+  "result": {
+    "item": "terramity:bomb_flower_empty",
+    "count": 1
+  }
+}

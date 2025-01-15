@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:crystal_heart"
+    },
+    "b": {
+      "item": "terramity:void_alloy"
+    },
+    "c": {
+      "item": "terramity:life_ring"
+    },
+    "d": {
+      "item": "terramity:onyx"
+    }
+  },
+  "result": {
+    "item": "terramity:life_ring_plus",
+    "count": 1
+  }
+}

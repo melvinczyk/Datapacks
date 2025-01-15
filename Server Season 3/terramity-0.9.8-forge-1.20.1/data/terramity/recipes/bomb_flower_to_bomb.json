@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "terramity:bomb_flower_item"
+    }
+  },
+  "result": {
+    "item": "terramity:throwing_bomb",
+    "count": 1
+  }
+}

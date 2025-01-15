@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:iridium_chunk"
+    },
+    "b": {
+      "item": "terramity:hellspec_upgrade_smithing_template"
+    },
+    "c": {
+      "item": "terramity:chthonic_crystal"
+    }
+  },
+  "result": {
+    "item": "terramity:hellspec_upgrade_smithing_template",
+    "count": 2
+  }
+}

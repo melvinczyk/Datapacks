@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:moonstone_rock"
+    },
+    "b": {
+      "item": "terramity:black_matter"
+    }
+  },
+  "result": {
+    "item": "terramity:moonstone_lamp",
+    "count": 16
+  }
+}

@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "hellfire"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "6E03611405D7B3DE"
-	order_index: 59
+	icon: {
+		Count: 1
+		id: "mteg:hellfire"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "2A0F32C755424ED8"
+	order_index: 26
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft an Hellfire using a Gunnite Workbench"]
-		id: "0A071D4541EC2C22"
-		rewards: [{
-			count: 36
-			id: "210210DF38511830"
-			item: "mteg:taki"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain a Hellfire"
-		tasks: [{
-			id: "48CB5AA0E7059CA4"
-			item: {
-				Count: 1
-				id: "mteg:hellfire"
-				tag: {
-					AmmoCount: 18
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft a Hellfire using a Gunnite Workbench"]
+			id: "1E256E335CD467AF"
+			rewards: [{
+				count: 1
+				id: "146E367025B3430E"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Hellfire"
+			tasks: [{
+				id: "572DAEBFC7414378"
+				item: {
+					Count: 1
+					id: "mteg:hellfire"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire an Hellfire"
-		x: -1.0d
-		y: -2.0d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an Hellfire"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["1E256E335CD467AF"]
+			icon: "minecraft:dirt"
+			id: "2C47DDD698D24133"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hellfire_damage base set 3.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "65AF723D39E05979"
+					title: "+0.25 Hellfire Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "196393591D49450A"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "69114B71EFD045D8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "0FBEDD0F23F342E8"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "3500E6A3746E4672"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Hellfire Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["2C47DDD698D24133"]
+			icon: "minecraft:copper_block"
+			id: "03A7317D75BDEF3E"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hellfire_damage base set 3.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0DA458CDC5E4B309"
+					title: "+0.25 Hellfire Damage"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "685D92092ED2D09E"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "26FE3D776D794C28"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "251C4DC8A90D3379"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "5116AF89BFF64AA6"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Hellfire Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["03A7317D75BDEF3E"]
+			icon: "minecraft:gold_block"
+			id: "18ABBD8A7103824F"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hellfire_damage base set 3.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "783DD406C1E245E8"
+					title: "+0.25 Hellfire Damage"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "3D0F292B2DA5415F"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "0F52239A53B44F3E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "6CC81A6E2678AD5F"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "028508B45831DEB7"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "4A371B72B277480A"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Hellfire Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["18ABBD8A7103824F"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "72AD1504371F4320"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hellfire_damage base set 4.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "478ABCAA22D6ACFA"
+					title: "+0.25 Hellfire Damage"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "43B2B549BB9474CC"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "259D31A2076982FB"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "1D557C87653D410A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "37B1358E91B84758"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "74C883F44DBD4ACC"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "23F37731D092B385"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Hellfire Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["72AD1504371F4320"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "3A70A9B56FB24436"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hellfire_damage base set 4.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "426E8FBF54799AD1"
+					title: "+0.25 Hellfire Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "3DC70309A60B44B2"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5076E6084EF04D51"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7695DE4422B01FF4"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "3C957D6362644338"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "269660A9238A4729"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "06C9B276D9A5E4CD"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "2ED38F35B51402BD"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Hellfire Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["3A70A9B56FB24436"]
+			icon: "minecraft:diamond_block"
+			id: "26C60A7B90E646BE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hellfire_damage base set 4.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "75CCB1D4CEDFC103"
+					title: "+0.25  Hellfire Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "02CA3F3E58C8450F"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7C26AA0817044DF1"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "34DD75C0287546C8"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "3611F7AEC48068ED"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4928902FBF3406FC"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "01092A6452B2DB13"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Hellfire Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["26C60A7B90E646BE"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "22BDD4BD0FEF47CB"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hellfire_damage base set 4.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "11DE8560549E41C6"
+					title: "+0.25 Hellfire Damage"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "3833DD7BCE8445E0"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3B493DD88BBEAF14"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "69A0835115544E78"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "709E1671A4C2447C"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "14B016EB8BAA4966"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "73F5E3D745094F02"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "64FB48DC88F9C195"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "7EEF9AFC5753B59F"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Hellfire Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["22BDD4BD0FEF47CB"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "1883032420B1B5D4"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hellfire_damage base set 5.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "60179F785C7F4218"
+					title: "+0.25 Hellfire Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "36CA557C057B5682"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5E21A90747604378"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "3FAAC5AC89E7422D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "5D246405B674DB94"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "43165AA98D844ABF"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "2F4B8A12057649D6"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "097912F37C19EA7C"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "076D93E4A9791687"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "015DF7C67E6DB94F"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Hellfire Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["1883032420B1B5D4"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "591304424F282924"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:hellfire_damage base set 6.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "481AA4027FEF4405"
+					title: "+1 Hellfire Damage"
+					type: "command"
+				}
+				{
+					id: "2B4F07F25B0100A7"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "50AA171F7F96B85C"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "549EB5AE802347C1"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "2E5DE5A29CAF465D"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "1069709DDC11CC45"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "66FDDE5F86D806E7"
+				item: {
+					Count: 1
+					id: "mteg:hellfire"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Hellfire Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "Hellfire"
 }

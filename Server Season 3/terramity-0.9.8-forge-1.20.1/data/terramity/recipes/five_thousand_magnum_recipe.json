@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "cdc",
+    "ba "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:cracked_microcosm"
+    },
+    "b": {
+      "item": "terramity:advanced_gun_parts"
+    },
+    "c": {
+      "item": "terramity:exodium_superalloy"
+    },
+    "d": {
+      "item": "terramity:big_iron"
+    }
+  },
+  "result": {
+    "item": "terramity:five_thousand_magnum",
+    "count": 1
+  }
+}

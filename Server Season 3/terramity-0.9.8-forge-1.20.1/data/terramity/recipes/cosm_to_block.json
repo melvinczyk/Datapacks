@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:cosmilite_ingot"
+    }
+  },
+  "result": {
+    "item": "terramity:cosmilite_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "b": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "c": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "d": {
+      "item": "terramity:gold_round"
+    }
+  },
+  "result": {
+    "item": "terramity:ammo_box",
+    "count": 1
+  }
+}

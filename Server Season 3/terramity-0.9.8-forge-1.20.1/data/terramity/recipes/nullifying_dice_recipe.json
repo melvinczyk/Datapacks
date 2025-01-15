@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:decayed_bedrock_dust"
+    },
+    "b": {
+      "item": "terramity:black_matter"
+    },
+    "c": {
+      "item": "terramity:void_alloy"
+    },
+    "d": {
+      "item": "terramity:lucky_dice"
+    }
+  },
+  "result": {
+    "item": "terramity:nullifying_dice",
+    "count": 1
+  }
+}

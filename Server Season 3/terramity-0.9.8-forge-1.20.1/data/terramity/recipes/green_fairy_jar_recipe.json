@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:oak_wood"
+    },
+    "b": {
+      "item": "minecraft:glass"
+    },
+    "c": {
+      "item": "terramity:green_fairy_bottle"
+    }
+  },
+  "result": {
+    "item": "terramity:green_fairy_jar",
+    "count": 1
+  }
+}

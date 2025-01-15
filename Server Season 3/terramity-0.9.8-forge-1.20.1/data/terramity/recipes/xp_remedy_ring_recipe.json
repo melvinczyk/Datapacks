@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:sapphire"
+    },
+    "b": {
+      "item": "terramity:virentium_alloy_ingot"
+    },
+    "c": {
+      "item": "terramity:empty_ring"
+    },
+    "d": {
+      "item": "terramity:gaianite_cluster"
+    }
+  },
+  "result": {
+    "item": "terramity:xp_remedy_ring",
+    "count": 1
+  }
+}

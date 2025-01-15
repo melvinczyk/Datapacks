@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:raw_cosmilite"
+    },
+    "b": {
+      "item": "terramity:advanced_gun_parts"
+    },
+    "c": {
+      "item": "terramity:void_alloy"
+    },
+    "d": {
+      "item": "terramity:advanced_automatic_rifle"
+    }
+  },
+  "result": {
+    "item": "terramity:nihility",
+    "count": 1
+  }
+}

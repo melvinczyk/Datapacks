@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "b": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "c": {
+      "item": "terramity:daemonium"
+    },
+    "d": {
+      "item": "terramity:diamond_gauntlet"
+    }
+  },
+  "result": {
+    "item": "terramity:gauntlet_of_decay",
+    "count": 1
+  }
+}

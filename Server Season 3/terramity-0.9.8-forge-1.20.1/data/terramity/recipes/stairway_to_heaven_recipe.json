@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "bcb",
+    "bb "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:angel_feather"
+    },
+    "b": {
+      "item": "terramity:reverium"
+    },
+    "c": {
+      "item": "terramity:advanced_gun_parts"
+    }
+  },
+  "result": {
+    "item": "terramity:stairway_to_heaven",
+    "count": 1
+  }
+}

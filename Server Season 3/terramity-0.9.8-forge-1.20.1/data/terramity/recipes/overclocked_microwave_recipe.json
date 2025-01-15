@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcc",
+    "bdd"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:circuit_board"
+    },
+    "b": {
+      "item": "minecraft:iron_block"
+    },
+    "c": {
+      "item": "terramity:daemonium_glass"
+    },
+    "d": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "terramity:overclocked_microwave",
+    "count": 1
+  }
+}

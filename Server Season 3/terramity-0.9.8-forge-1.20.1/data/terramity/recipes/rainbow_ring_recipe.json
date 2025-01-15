@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_wool"
+    },
+    "b": {
+      "item": "minecraft:lime_wool"
+    },
+    "c": {
+      "item": "minecraft:blue_wool"
+    },
+    "d": {
+      "item": "terramity:reverium"
+    },
+    "e": {
+      "item": "terramity:prismatic_ring"
+    }
+  },
+  "result": {
+    "item": "terramity:rainbow_ring",
+    "count": 1
+  }
+}

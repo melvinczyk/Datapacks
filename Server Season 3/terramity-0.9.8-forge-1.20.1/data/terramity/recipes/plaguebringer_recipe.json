@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:spider_eye"
+    },
+    "b": {
+      "item": "terramity:gaianite_cluster"
+    },
+    "c": {
+      "item": "terramity:virentium_alloy_ingot"
+    },
+    "d": {
+      "item": "terramity:pump_action_shotgun"
+    },
+    "e": {
+      "item": "terramity:topaz"
+    }
+  },
+  "result": {
+    "item": "terramity:plaguebringer",
+    "count": 1
+  }
+}

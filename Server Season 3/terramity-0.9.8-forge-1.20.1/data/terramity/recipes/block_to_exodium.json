@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:exodium_block"
+    }
+  },
+  "result": {
+    "item": "terramity:exodium_superalloy",
+    "count": 9
+  }
+}

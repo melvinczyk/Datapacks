@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:prismatic_jewel"
+    },
+    "b": {
+      "item": "terramity:iridescent_shard"
+    },
+    "c": {
+      "item": "terramity:sarashi"
+    },
+    "d": {
+      "item": "terramity:fairy_dust"
+    }
+  },
+  "result": {
+    "item": "terramity:prismatic_sarashi",
+    "count": 1
+  }
+}

@@ -91,12 +91,13 @@ def create_weapon_quest(base_path: str, filename: str, weapon_name: str, weapon_
 
 if __name__ == "__main__":
     base_path = "/Users/nicholasburczyk/Documents/curseforge/minecraft/Instances/Server V3 (Guns)/config/ftbquests/quests/chapters"
+    #base_path = "/Users/nicholasburczyk/Desktop/Minecraft server stuff/Datapacks/Server Season 3/FTQ Quests/quests/chapters"
     result = create_weapon_quest(
         base_path=base_path,
-        filename="akm",
-        weapon_name="AKM",
-        weapon_id="mteg:akm",
-        attribute_name="akm_damage",
-        base_damage=9.5
+        filename="m16a1",
+        weapon_name="M16A1",
+        weapon_id="mteg:m16a1",
+        attribute_name="m16a1_damage",
+        base_damage=7.5
     )
     print(result)

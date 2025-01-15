@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:moonstone_rock"
+    }
+  },
+  "result": {
+    "item": "terramity:moonstone",
+    "count": 4
+  }
+}

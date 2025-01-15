@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:iridescent_shard"
+    }
+  },
+  "result": {
+    "item": "terramity:iridescent_shard_block",
+    "count": 1
+  }
+}

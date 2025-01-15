@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "terramity:hellspec_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "terramity:iridium_axe"
+  },
+  "addition": {
+    "item": "terramity:hellspec_alloy"
+  },
+  "result": {
+    "item": "terramity:hellspec_axe"
+  }
+}

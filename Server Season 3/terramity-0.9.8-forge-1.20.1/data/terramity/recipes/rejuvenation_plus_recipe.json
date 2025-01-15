@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:fairy_dust"
+    },
+    "b": {
+      "item": "terramity:iridescent_shard_block"
+    },
+    "c": {
+      "item": "minecraft:gold_ingot"
+    },
+    "d": {
+      "item": "terramity:ring_of_rejuvenation"
+    },
+    "e": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "terramity:ring_of_rejuvenation_plus",
+    "count": 1
+  }
+}

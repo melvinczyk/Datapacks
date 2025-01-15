@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:chthonic_crystal"
+    },
+    "b": {
+      "item": "terramity:black_matter"
+    },
+    "c": {
+      "item": "terramity:nyxium"
+    },
+    "d": {
+      "item": "terramity:magma_stone"
+    }
+  },
+  "result": {
+    "item": "terramity:shadowflame_stone",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:onyx"
+    },
+    "b": {
+      "item": "terramity:eyeglasses"
+    },
+    "c": {
+      "item": "terramity:void_glass"
+    }
+  },
+  "result": {
+    "item": "terramity:void_glasses",
+    "count": 1
+  }
+}

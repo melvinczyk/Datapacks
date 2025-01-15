@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:polished_igneostone"
+    }
+  },
+  "result": {
+    "item": "terramity:igneostone_bricks",
+    "count": 4
+  }
+}

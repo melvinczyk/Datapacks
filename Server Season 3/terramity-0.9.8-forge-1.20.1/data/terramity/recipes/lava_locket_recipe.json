@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:spiteful_soul"
+    },
+    "b": {
+      "item": "terramity:ruby"
+    },
+    "c": {
+      "item": "minecraft:fire_charge"
+    },
+    "d": {
+      "item": "terramity:honey_necklace"
+    },
+    "e": {
+      "item": "terramity:flameguard_pendant"
+    }
+  },
+  "result": {
+    "item": "terramity:lava_locket",
+    "count": 1
+  }
+}

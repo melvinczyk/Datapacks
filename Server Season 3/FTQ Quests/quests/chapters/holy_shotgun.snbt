@@ -12,21 +12,21 @@
 		}
 	}
 	id: "6EF4371B9628B18F"
-	order_index: 17
+	order_index: 29
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft a Holy Shotgun by finding its blueprint and using a Blueprint Workbench"]
+			description: ["Craft an Holy Shotgun by finding its blueprint and using a Blueprint Workbench"]
 			id: "3A323A10749EBD6B"
 			rewards: [{
-				count: 30
+				count: 16
 				id: "3AFC591FB30BE7B5"
-				item: "jeg:rifle_ammo"
+				item: "jeg:shotgun_shell"
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Holy Shotgun"
+			subtitle: "Craft or obtain an Holy Shotgun"
 			tasks: [{
 				id: "1C34EC92D54FE3F9"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Holy Shotgun"
+			title: "Aquire an Holy Shotgun"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
@@ -65,7 +65,7 @@
 				{
 					count: 32
 					id: "0F2DD832637A3C02"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -137,7 +137,7 @@
 				{
 					count: 64
 					id: "0DEBE10D7639C878"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -215,7 +215,7 @@
 				{
 					count: 64
 					id: "11D3E139BEB559D4"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -306,11 +306,11 @@
 				{
 					count: 64
 					id: "53CBEBF187AC7BD8"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
-					count: 30
+					count: 16
 					id: "51623F21562B19CC"
 					item: "jeg:gunmetal_ingot"
 					type: "item"
@@ -419,7 +419,7 @@
 				{
 					count: 64
 					id: "05A3F93C9929B23B"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -528,7 +528,7 @@
 				{
 					count: 64
 					id: "1FFBEDC8002F8ABB"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -630,15 +630,15 @@
 					type: "command"
 				}
 				{
-					count: 30
+					count: 16
 					id: "5DE9465AC6CA0807"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
-					count: 128
+					count: 32
 					id: "325E4B3974422C9E"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -774,9 +774,9 @@
 					type: "item"
 				}
 				{
-					count: 256
+					count: 64
 					id: "0759B4D1D6E55C76"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -933,9 +933,9 @@
 					type: "item"
 				}
 				{
-					count: 256
+					count: 64
 					id: "0668CB4367534D89"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{

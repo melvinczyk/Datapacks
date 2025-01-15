@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:honey_bottle"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "terramity:fairy_dust"
+    }
+  },
+  "result": {
+    "item": "terramity:dr_binty",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:daemonium_chunk"
+    },
+    "b": {
+      "item": "terramity:onyx"
+    },
+    "c": {
+      "item": "terramity:cosmilite_ingot"
+    },
+    "d": {
+      "item": "terramity:six_shooter"
+    }
+  },
+  "result": {
+    "item": "terramity:celestial_sixty",
+    "count": 1
+  }
+}

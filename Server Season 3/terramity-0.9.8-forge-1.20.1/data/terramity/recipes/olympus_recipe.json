@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "cba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:prismatic_jewel"
+    },
+    "b": {
+      "item": "terramity:reverium"
+    },
+    "c": {
+      "item": "terramity:advanced_gun_parts"
+    },
+    "d": {
+      "item": "terramity:plaguebringer"
+    },
+    "e": {
+      "item": "terramity:cosmic_storm"
+    },
+    "f": {
+      "item": "terramity:hellfire_flurry"
+    }
+  },
+  "result": {
+    "item": "terramity:olympus",
+    "count": 1
+  }
+}

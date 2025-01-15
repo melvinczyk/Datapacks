@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:conductite"
+    },
+    "b": {
+      "item": "terramity:warden_soul"
+    },
+    "c": {
+      "item": "terramity:conductite_scouter_helmet"
+    },
+    "d": {
+      "item": "terramity:headhunter_talisman_plus"
+    }
+  },
+  "result": {
+    "item": "terramity:cyber_glasses",
+    "count": 1
+  }
+}

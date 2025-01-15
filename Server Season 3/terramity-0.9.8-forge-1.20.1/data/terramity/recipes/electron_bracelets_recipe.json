@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "bcb",
+    " ba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:circuit_board"
+    },
+    "b": {
+      "item": "terramity:conductite"
+    },
+    "c": {
+      "item": "terramity:power_bracelets"
+    }
+  },
+  "result": {
+    "item": "terramity:electron_bracelets",
+    "count": 1
+  }
+}

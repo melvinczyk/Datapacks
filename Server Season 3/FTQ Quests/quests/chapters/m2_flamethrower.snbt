@@ -3,36 +3,976 @@
 	default_quest_shape: ""
 	filename: "m2_flamethrower"
 	group: "2E8BF1A1F4DB9EE3"
-	id: "10AFA2B8C1C71769"
-	order_index: 62
+	icon: {
+		Count: 1
+		id: "mteg:m2_flamethrower"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "48304F13D8EA47DB"
+	order_index: 41
 	quest_links: [ ]
-	quests: [{
-		description: ["Craft an M2 Flamethrower using a Gunnite Workbench"]
-		id: "68E60A51C9623D94"
-		rewards: [{
-			count: 30
-			id: "5DB4248317C35449"
-			item: "minecraft:lava_bucket"
-			type: "item"
-		}]
-		shape: "diamond"
-		size: 2.0d
-		subtitle: "Craft or obtain an M2 Flamethrower"
-		tasks: [{
-			id: "4DEC47A251126138"
-			item: {
-				Count: 1
-				id: "mteg:m2_flamethrower"
-				tag: {
-					AmmoCount: 75
-					Damage: 0
+	quests: [
+		{
+			description: ["Craft an M2 Flamethrower using a Gunnite Workbench"]
+			id: "5C0A7524C3704F81"
+			rewards: [{
+				count: 30
+				id: "7790DD2664624EA8"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an M2 Flamethrower"
+			tasks: [{
+				id: "5F29AA9CA6BA9668"
+				item: {
+					Count: 1
+					id: "mteg:m2_flamethrower"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
 				}
-			}
-			type: "item"
-		}]
-		title: "Aquire an M2 Flamethrower"
-		x: -1.0d
-		y: -1.5d
-	}]
+				type: "item"
+			}]
+			title: "Aquire an M2 Flamethrower"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["5C0A7524C3704F81"]
+			icon: "minecraft:dirt"
+			id: "76AD5AC8A9374316"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m2_flamethrower_damage base set 2.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "75FE006B742A4A6E"
+					title: "+0.25 M2 Flamethrower Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "69F72FF6D98ABF36"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1D5412CE51654735"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "2DD684F7BEF940E0"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "2D9880248C2D4838"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "M2 Flamethrower Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["76AD5AC8A9374316"]
+			icon: "minecraft:copper_block"
+			id: "3E8A454C3CAB4643"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m2_flamethrower_damage base set 2.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "04BD2BF725202DB8"
+					title: "+0.25 M2 Flamethrower Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "5C025ADF886F4683"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "38E93708CCD3CC6A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "468B1BE6BA2C71BD"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "28AEA46E595046EF"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "M2 Flamethrower Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["3E8A454C3CAB4643"]
+			icon: "minecraft:gold_block"
+			id: "67449B67F702C0A3"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m2_flamethrower_damage base set 2.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1325D2872BEC89D6"
+					title: "+0.25 M2 Flamethrower Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "3F9518935F4D983C"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "45BEA510AB2F46CC"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "2F5E616EF351DDED"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "06BAE7878F6FD19A"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "0E090A1F142A5AFC"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "M2 Flamethrower Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["67449B67F702C0A3"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "11240B291C0A42CA"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m2_flamethrower_damage base set 3.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "597420BB13584457"
+					title: "+0.25 M2 Flamethrower Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "61AE9D61ACB54B78"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "126DD7B0AE9A40DB"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "496BB57072BD4E86"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "694D4531FF394417"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "74778EC8409145DD"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "51E1D1FD972591E2"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "M2 Flamethrower Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["11240B291C0A42CA"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "030256CDE98E82F5"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m2_flamethrower_damage base set 3.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1B1CA8B301DF38F5"
+					title: "+0.25 M2 Flamethrower Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "2D2485D04DEB3ABE"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "29466DAD5E360C99"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6A8CE7706A9ED19C"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "517BEE7004A242AB"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5CFF2B5A406AF5C6"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5096C9B0230D14AC"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "2EFBB0CC6A1E468E"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "M2 Flamethrower Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["030256CDE98E82F5"]
+			icon: "minecraft:diamond_block"
+			id: "378B246F8A7A4E27"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m2_flamethrower_damage base set 3.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6FA8DDE516A74243"
+					title: "+0.25  M2 Flamethrower Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "305E6BCFF2768925"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "278EFFCCAE904B5C"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "484F938651674142"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "4EBF2DC543340E2C"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1B4F639AA0F84E96"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "008A7C67249F6786"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "M2 Flamethrower Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["378B246F8A7A4E27"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "1E214C48760EC744"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m2_flamethrower_damage base set 3.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2F4A3D95ED2CE0F9"
+					title: "+0.25 M2 Flamethrower Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "27388790F1B54ED9"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "4F6F3D4C18A54751"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "035562EE54A5B40D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4B4312E54F57FFC0"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "531632F9A1CD0C36"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "0FBE259CA4A3C86E"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "097EE7F9C891473B"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "45EC3539E06B9F97"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "M2 Flamethrower Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["1E214C48760EC744"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "7940B97FE9D54556"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m2_flamethrower_damage base set 4.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5E0A4E6AC33F3839"
+					title: "+0.25 M2 Flamethrower Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "0D4D6BFA905A41A6"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "2492BF36E0D67E8C"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "710052F6BD2A4F20"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "3E2238819A475A1D"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "1F59CC141076CB65"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "560AA697B30CFACC"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "45C55A76A0FD4E6D"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "418640DC1E4844C7"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "6C29B4B8ED9B466A"
+					item: {
+						Count: 1
+						id: "mteg:m2_flamethrower"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "M2 Flamethrower Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["7940B97FE9D54556"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "47D6C28EA847C2C0"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m2_flamethrower_damage base set 5.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2B97D98AE949472E"
+					title: "+1 M2 Flamethrower Damage"
+					type: "command"
+				}
+				{
+					id: "74B01CA9FE0106B8"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "3160C7858D98BFDD"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "58226B1F0AC145AF"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "14A577EF5036F8DC"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "0A8A4178B39445BF"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "69066467908CF40D"
+				item: {
+					Count: 1
+					id: "mteg:m2_flamethrower"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "M2 Flamethrower Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
 	title: "M2 Flamethrower"
 }

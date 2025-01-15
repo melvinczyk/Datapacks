@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:reverium"
+    },
+    "b": {
+      "item": "terramity:exodium_superalloy"
+    },
+    "c": {
+      "item": "terramity:exodium_waraxe"
+    }
+  },
+  "result": {
+    "item": "terramity:axe_of_unholy_divinity",
+    "count": 1
+  }
+}

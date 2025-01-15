@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:spiteful_soul"
+    },
+    "b": {
+      "item": "terramity:ruby"
+    },
+    "c": {
+      "item": "minecraft:fire_charge"
+    },
+    "d": {
+      "item": "terramity:diamond_gauntlet"
+    }
+  },
+  "result": {
+    "item": "terramity:lava_gauntlet",
+    "count": 1
+  }
+}

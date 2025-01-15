@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "cda",
+    "bc "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "tag": "minecraft:logs"
+    },
+    "d": {
+      "item": "terramity:blunderbuss"
+    }
+  },
+  "result": {
+    "item": "terramity:sawed_off_shotgun",
+    "count": 1
+  }
+}

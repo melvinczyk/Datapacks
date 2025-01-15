@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:reverium"
+    }
+  },
+  "result": {
+    "item": "terramity:reverium_paladin_helmet",
+    "count": 1
+  }
+}

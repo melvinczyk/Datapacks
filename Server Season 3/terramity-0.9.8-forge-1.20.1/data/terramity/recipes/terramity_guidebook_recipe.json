@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:cardboard"
+    },
+    "b": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "patchouli:guide_book",
+    "count": 1,
+    "nbt": {"patchouli:book": "terramity:terramity_guidebook"}
+  }
+}

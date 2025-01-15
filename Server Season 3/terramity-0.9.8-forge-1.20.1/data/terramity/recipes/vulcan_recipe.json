@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:decayed_bedrock_dust"
+    },
+    "b": {
+      "item": "terramity:nyxium"
+    },
+    "c": {
+      "item": "terramity:advanced_pistol"
+    },
+    "d": {
+      "item": "terramity:advanced_gun_parts"
+    }
+  },
+  "result": {
+    "item": "terramity:vulcan",
+    "count": 1
+  }
+}

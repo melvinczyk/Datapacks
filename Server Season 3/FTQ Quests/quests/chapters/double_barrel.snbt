@@ -12,7 +12,7 @@
 		}
 	}
 	id: "06886EEE3EBC3C33"
-	order_index: 51
+	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Double Barrel"
+			subtitle: "Craft or obtain an Double Barrel"
 			tasks: [{
 				id: "661E64F65BFB9780"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Double Barrel"
+			title: "Aquire an Double Barrel"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

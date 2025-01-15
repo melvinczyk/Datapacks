@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:lost_soul"
+    },
+    "b": {
+      "item": "terramity:spiteful_soul"
+    },
+    "c": {
+      "tag": "minecraft:wool"
+    },
+    "d": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "terramity:rebound_scarf",
+    "count": 1
+  }
+}

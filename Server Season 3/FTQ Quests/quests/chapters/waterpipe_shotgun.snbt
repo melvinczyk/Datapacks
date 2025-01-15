@@ -7,26 +7,26 @@
 		Count: 1
 		id: "jeg:waterpipe_shotgun"
 		tag: {
-			AmmoCount: 30
+			AmmoCount: 1
 			Damage: 0
 		}
 	}
 	id: "48ECFD4D355C6A7B"
-	order_index: 40
+	order_index: 71
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft a Waterpipe Shotgun using a Scrap Workbench"]
+			description: ["Craft an Waterpipe Shotgun using a Scrap Workbench"]
 			id: "60C594D458A97A20"
 			rewards: [{
-				count: 30
+				count: 16
 				id: "03861A7B5C612FAC"
 				item: "jeg:shotgun_shell"
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Waterpipe Shotgun"
+			subtitle: "Craft or obtain an Waterpipe Shotgun"
 			tasks: [{
 				id: "032E1AAA31832D08"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Waterpipe Shotgun"
+			title: "Aquire an Waterpipe Shotgun"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
@@ -135,7 +135,7 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 32
 					id: "4687473008685912"
 					item: "jeg:rifle_ammo"
 					type: "item"
@@ -213,7 +213,7 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 32
 					id: "4078FCE0F6C921F4"
 					item: "jeg:rifle_ammo"
 					type: "item"
@@ -304,13 +304,13 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 32
 					id: "236FB1A433DD1B25"
 					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
-					count: 30
+					count: 16
 					id: "60108053032BCBDE"
 					item: "jeg:gunmetal_ingot"
 					type: "item"
@@ -417,7 +417,7 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 32
 					id: "1CA5D106F440563E"
 					item: "jeg:rifle_ammo"
 					type: "item"
@@ -526,7 +526,7 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 32
 					id: "362EDB4036D6D336"
 					item: "jeg:rifle_ammo"
 					type: "item"
@@ -630,13 +630,13 @@
 					type: "command"
 				}
 				{
-					count: 30
+					count: 16
 					id: "3C88809B24CBF1EC"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
-					count: 128
+					count: 48
 					id: "20273CE7B15D5CFE"
 					item: "jeg:rifle_ammo"
 					type: "item"
@@ -774,7 +774,7 @@
 					type: "item"
 				}
 				{
-					count: 256
+					count: 32
 					id: "7AD7FBC82F2715CE"
 					item: "jeg:rifle_ammo"
 					type: "item"
@@ -933,7 +933,7 @@
 					type: "item"
 				}
 				{
-					count: 256
+					count: 32
 					id: "5203F92493708A2E"
 					item: "jeg:rifle_ammo"
 					type: "item"

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 32,
+  "ingredient": {
+    "item": "terramity:void_alloy"
+  },
+  "result": "terramity:void_panelling"
+}

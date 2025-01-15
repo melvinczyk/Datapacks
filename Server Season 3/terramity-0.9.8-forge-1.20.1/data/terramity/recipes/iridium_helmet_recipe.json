@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:iridium"
+    }
+  },
+  "result": {
+    "item": "terramity:iridium_armor_helmet",
+    "count": 1
+  }
+}

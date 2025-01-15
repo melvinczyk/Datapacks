@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:decayed_bedrock_dust"
+    },
+    "b": {
+      "item": "terramity:profanum"
+    },
+    "c": {
+      "item": "terramity:void_alloy"
+    },
+    "d": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "result": {
+    "item": "terramity:black_hole_bomb",
+    "count": 1
+  }
+}

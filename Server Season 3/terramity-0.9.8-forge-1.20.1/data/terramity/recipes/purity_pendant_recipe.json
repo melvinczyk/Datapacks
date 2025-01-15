@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:iridium"
+    },
+    "b": {
+      "item": "terramity:prismatic_jewel"
+    },
+    "c": {
+      "item": "terramity:iridescent_shard"
+    },
+    "d": {
+      "item": "terramity:honey_necklace"
+    },
+    "e": {
+      "item": "terramity:virentium_alloy_ingot"
+    },
+    "f": {
+      "item": "terramity:poisonguard_pendant"
+    }
+  },
+  "result": {
+    "item": "terramity:purity_pendant",
+    "count": 1
+  }
+}

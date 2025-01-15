@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:ruby"
+    },
+    "b": {
+      "item": "terramity:hellspec_alloy"
+    },
+    "c": {
+      "item": "minecraft:lodestone"
+    }
+  },
+  "result": {
+    "item": "terramity:flameburst_belt",
+    "count": 1
+  }
+}

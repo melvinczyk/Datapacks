@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:projectile_defense_talisman"
+    },
+    "b": {
+      "item": "terramity:void_alloy"
+    },
+    "c": {
+      "item": "minecraft:shield"
+    },
+    "d": {
+      "item": "terramity:spectral_soul"
+    }
+  },
+  "result": {
+    "item": "terramity:crest_of_the_void",
+    "count": 1
+  }
+}

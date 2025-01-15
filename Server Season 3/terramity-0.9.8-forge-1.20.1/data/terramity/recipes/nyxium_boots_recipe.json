@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:nyxium"
+    }
+  },
+  "result": {
+    "item": "terramity:nyxium_knight_boots",
+    "count": 1
+  }
+}

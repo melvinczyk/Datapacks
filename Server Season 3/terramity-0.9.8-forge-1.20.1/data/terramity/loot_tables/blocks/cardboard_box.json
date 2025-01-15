@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "terramity:blocks/cardboard_box",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "terramity:cardboard_box"
+        }
+      ]
+    }
+  ]
+}

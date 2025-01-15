@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:decayed_bedrock_dust"
+    },
+    "b": {
+      "item": "terramity:warden_soul"
+    },
+    "c": {
+      "item": "terramity:void_alloy"
+    },
+    "d": {
+      "item": "terramity:anti_material_rifle"
+    },
+    "e": {
+      "item": "terramity:black_matter"
+    }
+  },
+  "result": {
+    "item": "terramity:antimatter_rifle",
+    "count": 1
+  }
+}

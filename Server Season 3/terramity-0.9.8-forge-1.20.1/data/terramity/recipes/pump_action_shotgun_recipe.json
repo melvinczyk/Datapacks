@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "cdc",
+    "ba "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:advanced_gun_parts"
+    },
+    "b": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "c": {
+      "item": "terramity:daemonium"
+    },
+    "d": {
+      "item": "terramity:sawed_off_shotgun"
+    }
+  },
+  "result": {
+    "item": "terramity:pump_action_shotgun",
+    "count": 1
+  }
+}

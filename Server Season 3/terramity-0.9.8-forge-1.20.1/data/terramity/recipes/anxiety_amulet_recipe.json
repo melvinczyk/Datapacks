@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "b b",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:daemonium_chunk"
+    },
+    "b": {
+      "item": "terramity:daemonium"
+    },
+    "c": {
+      "item": "terramity:hellspec_alloy"
+    }
+  },
+  "result": {
+    "item": "terramity:anxiety_amulet",
+    "count": 1
+  }
+}

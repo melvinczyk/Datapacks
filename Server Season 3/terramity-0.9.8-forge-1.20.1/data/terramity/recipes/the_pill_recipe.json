@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:melatonin_gummies"
+    },
+    "b": {
+      "item": "terramity:adrenaline_tablets"
+    },
+    "c": {
+      "item": "terramity:fairy_dust"
+    },
+    "d": {
+      "item": "terramity:morphine_pills"
+    },
+    "e": {
+      "item": "terramity:ibuprofen_capsules"
+    }
+  },
+  "result": {
+    "item": "terramity:the_pill",
+    "count": 1
+  }
+}

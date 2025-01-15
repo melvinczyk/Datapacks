@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 16,
+  "ingredient": {
+    "item": "terramity:daemonium_block"
+  },
+  "result": "terramity:daemonium_plating_stairs"
+}

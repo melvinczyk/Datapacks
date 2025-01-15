@@ -1,0 +1,10 @@
+{
+  "type": "terramity:terramity_loot_modifier",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "chests/simple_dungeon"
+    }
+  ],
+  "lootTable": "terramity:defense_table"
+}

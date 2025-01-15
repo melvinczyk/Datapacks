@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:ruby"
+    },
+    "b": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "c": {
+      "item": "terramity:hellspec_alloy"
+    },
+    "d": {
+      "item": "terramity:blink_belt"
+    }
+  },
+  "result": {
+    "item": "terramity:sacrificial_sash",
+    "count": 1
+  }
+}

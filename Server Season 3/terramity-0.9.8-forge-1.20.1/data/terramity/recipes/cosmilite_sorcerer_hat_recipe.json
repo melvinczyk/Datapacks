@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "terramity:cosmilite_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "result": {
+    "item": "terramity:cosmilite_armor_helmet"
+  },
+  "template": {
+    "item": "terramity:cosmilite_upgrade_smithing_template"
+  }
+}

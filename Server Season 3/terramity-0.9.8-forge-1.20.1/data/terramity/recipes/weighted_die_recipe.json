@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:decayed_bedrock_dust"
+    },
+    "b": {
+      "item": "terramity:neutron_star"
+    },
+    "c": {
+      "item": "terramity:exodium_superalloy"
+    },
+    "d": {
+      "item": "terramity:lucky_dice"
+    }
+  },
+  "result": {
+    "item": "terramity:weighted_die",
+    "count": 1
+  }
+}

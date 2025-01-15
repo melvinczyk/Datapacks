@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:dragon_breath"
+    },
+    "b": {
+      "item": "terramity:spiteful_soul"
+    },
+    "c": {
+      "item": "terramity:hellspec_alloy"
+    },
+    "d": {
+      "item": "terramity:pump_action_shotgun"
+    }
+  },
+  "result": {
+    "item": "terramity:hellfire_flurry",
+    "count": 1
+  }
+}

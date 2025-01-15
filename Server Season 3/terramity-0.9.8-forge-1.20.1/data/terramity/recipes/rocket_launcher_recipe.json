@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:advanced_gun_parts"
+    },
+    "b": {
+      "item": "terramity:daemonium"
+    },
+    "c": {
+      "item": "terramity:handcannon"
+    },
+    "d": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "terramity:rocket_launcher",
+    "count": 1
+  }
+}

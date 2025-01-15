@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:decayed_bedrock_dust"
+    },
+    "b": {
+      "item": "terramity:void_alloy"
+    },
+    "c": {
+      "item": "terramity:profanum"
+    },
+    "d": {
+      "item": "terramity:life_ring_plus"
+    },
+    "e": {
+      "item": "terramity:super_sniffers_pelt"
+    }
+  },
+  "result": {
+    "item": "terramity:chaos_heart_ring",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:spiteful_soul"
+    },
+    "b": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "item": "terramity:omen_lamp",
+    "count": 1
+  }
+}

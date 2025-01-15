@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "eee"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:fairy_dust"
+    },
+    "b": {
+      "item": "minecraft:glow_berries"
+    },
+    "c": {
+      "item": "minecraft:honeycomb"
+    },
+    "d": {
+      "item": "minecraft:honey_bottle"
+    },
+    "e": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "terramity:radiant_honey",
+    "count": 1
+  }
+}

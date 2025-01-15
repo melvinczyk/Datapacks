@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ddd",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:scuba_gear"
+    },
+    "b": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "c": {
+      "item": "terramity:flippers"
+    },
+    "d": {
+      "tag": "minecraft:wool"
+    },
+    "e": {
+      "item": "minecraft:sand"
+    },
+    "f": {
+      "item": "terramity:sapphire"
+    }
+  },
+  "result": {
+    "item": "terramity:seafarer_scarf",
+    "count": 1
+  }
+}

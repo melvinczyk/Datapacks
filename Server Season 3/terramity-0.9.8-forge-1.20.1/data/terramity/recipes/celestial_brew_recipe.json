@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebe"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:fairy_dust"
+    },
+    "b": {
+      "item": "terramity:virentium_alloy_ingot"
+    },
+    "c": {
+      "item": "terramity:cosmilite_ingot"
+    },
+    "d": {
+      "item": "terramity:radiant_honey"
+    },
+    "e": {
+      "item": "terramity:iridescent_shard"
+    }
+  },
+  "result": {
+    "item": "terramity:celestial_brew",
+    "count": 1
+  }
+}

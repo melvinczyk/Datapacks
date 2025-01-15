@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:ruby"
+    },
+    "b": {
+      "item": "terramity:hellspec_alloy"
+    },
+    "c": {
+      "item": "terramity:excavation_ring"
+    }
+  },
+  "result": {
+    "item": "terramity:burning_spirit_ring",
+    "count": 1
+  }
+}

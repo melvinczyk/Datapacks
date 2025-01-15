@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "aca",
+    "ba "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "terramity:basic_pistol"
+    }
+  },
+  "result": {
+    "item": "terramity:basic_rifle",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:nyxium_panelling"
+    }
+  },
+  "result": {
+    "item": "terramity:nyxium_panelling_wall",
+    "count": 6
+  }
+}

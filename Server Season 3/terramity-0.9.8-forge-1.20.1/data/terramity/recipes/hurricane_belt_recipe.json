@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:fire_charge"
+    },
+    "b": {
+      "item": "terramity:topaz"
+    },
+    "c": {
+      "item": "terramity:leather_belt"
+    },
+    "d": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "terramity:hurricane_belt",
+    "count": 1
+  }
+}

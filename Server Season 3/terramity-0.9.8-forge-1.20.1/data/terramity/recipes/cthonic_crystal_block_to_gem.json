@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:chthonic_crystal_block"
+    }
+  },
+  "result": {
+    "item": "terramity:chthonic_crystal",
+    "count": 9
+  }
+}

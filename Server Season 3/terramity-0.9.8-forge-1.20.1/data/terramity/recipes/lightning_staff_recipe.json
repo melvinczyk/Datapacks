@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "cec"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:fairy_dust"
+    },
+    "b": {
+      "item": "terramity:topaz_block"
+    },
+    "c": {
+      "item": "terramity:daemonium_chunk"
+    },
+    "d": {
+      "item": "terramity:lightning_sceptre"
+    },
+    "e": {
+      "item": "terramity:daemonium"
+    }
+  },
+  "result": {
+    "item": "terramity:lightning_staff",
+    "count": 1
+  }
+}

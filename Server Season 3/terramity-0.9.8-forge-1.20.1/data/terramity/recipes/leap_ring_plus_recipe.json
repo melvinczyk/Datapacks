@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ece"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:fairy_dust"
+    },
+    "b": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "item": "terramity:leap_ring"
+    },
+    "e": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "terramity:leap_ring_plus",
+    "count": 1
+  }
+}

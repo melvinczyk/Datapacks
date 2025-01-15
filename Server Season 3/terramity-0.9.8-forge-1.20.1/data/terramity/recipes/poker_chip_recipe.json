@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "cbe"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:ruby_block"
+    },
+    "b": {
+      "item": "minecraft:white_concrete"
+    },
+    "c": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "d": {
+      "item": "terramity:power_bracelets"
+    },
+    "e": {
+      "item": "terramity:sapphire_block"
+    }
+  },
+  "result": {
+    "item": "terramity:poker_chip_bracelets",
+    "count": 1
+  }
+}

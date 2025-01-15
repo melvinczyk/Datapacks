@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:advanced_gun_parts"
+    },
+    "b": {
+      "item": "terramity:reverium"
+    },
+    "c": {
+      "item": "terramity:elite_rifle"
+    },
+    "d": {
+      "item": "terramity:angel_feather"
+    }
+  },
+  "result": {
+    "item": "terramity:divine_intervention",
+    "count": 1
+  }
+}

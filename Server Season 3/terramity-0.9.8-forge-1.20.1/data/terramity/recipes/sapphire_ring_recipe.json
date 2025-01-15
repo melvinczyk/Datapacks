@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:sapphire"
+    },
+    "b": {
+      "item": "terramity:empty_ring"
+    }
+  },
+  "result": {
+    "item": "terramity:sapphire_ring",
+    "count": 1
+  }
+}

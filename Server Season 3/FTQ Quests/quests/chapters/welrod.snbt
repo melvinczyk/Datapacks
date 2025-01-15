@@ -12,11 +12,11 @@
 		}
 	}
 	id: "0BCC24FE07DB2D3B"
-	order_index: 42
+	order_index: 72
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft a Welrod using a Scrap Workbench"]
+			description: ["Craft an Welrod using a Scrap Workbench"]
 			id: "62C62244B1A0B97A"
 			rewards: [{
 				count: 30
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Welrod"
+			subtitle: "Craft or obtain an Welrod"
 			tasks: [{
 				id: "79B7137867FF33E7"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Welrod"
+			title: "Aquire an Welrod"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
@@ -65,7 +65,7 @@
 				{
 					count: 32
 					id: "55C1DE1E1FA5C202"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -137,7 +137,7 @@
 				{
 					count: 64
 					id: "3C2EFF640261BF9C"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -215,7 +215,7 @@
 				{
 					count: 64
 					id: "4B4636986AECA78B"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -306,7 +306,7 @@
 				{
 					count: 64
 					id: "26B2A2EBA7335067"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -419,7 +419,7 @@
 				{
 					count: 64
 					id: "51D9307D223D44C9"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -528,7 +528,7 @@
 				{
 					count: 64
 					id: "7B950FB6A0731747"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -638,7 +638,7 @@
 				{
 					count: 128
 					id: "04F632CA8DD93A64"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -776,7 +776,7 @@
 				{
 					count: 256
 					id: "39FF9A64F015811C"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -935,7 +935,7 @@
 				{
 					count: 256
 					id: "263FFFA2F8CE52A2"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{

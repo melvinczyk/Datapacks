@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "fff"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:hellspec_alloy"
+    },
+    "b": {
+      "item": "terramity:davy_jones"
+    },
+    "c": {
+      "item": "terramity:antimatter_rifle"
+    },
+    "d": {
+      "item": "terramity:divine_intervention"
+    },
+    "e": {
+      "item": "terramity:fortunes_favor"
+    },
+    "f": {
+      "item": "terramity:reverium"
+    }
+  },
+  "result": {
+    "item": "terramity:blasphemic_rapture",
+    "count": 1
+  }
+}

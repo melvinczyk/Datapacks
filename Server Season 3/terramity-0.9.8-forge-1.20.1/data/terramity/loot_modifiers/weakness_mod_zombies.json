@@ -1,0 +1,10 @@
+{
+  "type": "terramity:terramity_loot_modifier",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "entities/zombie"
+    }
+  ],
+  "lootTable": "terramity:weakness_table"
+}

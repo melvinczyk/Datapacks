@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "terramity:cardboard_block"
+  },
+  "result": "terramity:cardboard_box_marked"
+}

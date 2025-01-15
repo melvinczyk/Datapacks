@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "terramity:nyxium_bricks"
+  },
+  "result": "terramity:nyxium_brick_slab"
+}

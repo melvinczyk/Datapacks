@@ -12,21 +12,21 @@
 		}
 	}
 	id: "0E14B2146A500337"
-	order_index: 39
+	order_index: 67
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["Craft a Vepr 12 using a Gunnite Workbench"]
 			id: "38E6989EA346394A"
 			rewards: [{
-				count: 30
+				count: 16
 				id: "28EC211B1DA3E6FF"
-				item: "jeg:rifle_ammo"
+				item: "jeg:shotgun_shell"
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Vepr 12"
+			subtitle: "Craft or obtain an Vepr 12"
 			tasks: [{
 				id: "0D370610AC1C6139"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Vepr 12"
+			title: "Aquire an Vepr 12"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
@@ -65,7 +65,7 @@
 				{
 					count: 32
 					id: "14346484DAEF44A8"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -135,9 +135,9 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 32
 					id: "6CE1B4DCE936C2CD"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -213,9 +213,9 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 32
 					id: "57D8421B1E66690F"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -304,13 +304,13 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 32
 					id: "07CC5E20D16E864A"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
-					count: 30
+					count: 16
 					id: "512DBE722151BB39"
 					item: "jeg:gunmetal_ingot"
 					type: "item"
@@ -417,9 +417,9 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 32
 					id: "49D0C0EE990F3C85"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -526,9 +526,9 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 32
 					id: "1C41479C24D3D00B"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -630,15 +630,15 @@
 					type: "command"
 				}
 				{
-					count: 30
+					count: 16
 					id: "2F1953563E1F2842"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
-					count: 128
+					count: 48
 					id: "6E0CA7D24BCFBEC1"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -774,9 +774,9 @@
 					type: "item"
 				}
 				{
-					count: 256
+					count: 64
 					id: "347AD59D24B39CFC"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -933,9 +933,9 @@
 					type: "item"
 				}
 				{
-					count: 256
+					count: 64
 					id: "406802308698977B"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{

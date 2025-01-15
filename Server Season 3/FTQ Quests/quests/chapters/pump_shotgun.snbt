@@ -12,11 +12,11 @@
 		}
 	}
 	id: "4C4D5F13BD2FAECF"
-	order_index: 31
+	order_index: 51
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft a Pump Shotgun using a Gunmetal Workbench"]
+			description: ["Craft an Pump Shotgun using a Gunmetal Workbench"]
 			id: "7F4B9571075AC777"
 			rewards: [{
 				count: 32
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Pump Shotgun"
+			subtitle: "Craft or obtain an Pump Shotgun"
 			tasks: [{
 				id: "2FED03CA04F741AF"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Pump Shotgun"
+			title: "Aquire an Pump Shotgun"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
@@ -65,7 +65,7 @@
 				{
 					count: 32
 					id: "678202B2D6F5540B"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -135,9 +135,9 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 32
 					id: "23DB52B8CB5101D5"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -213,9 +213,9 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 32
 					id: "6A26EAB8878AFA25"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -304,13 +304,13 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 32
 					id: "6364729A87EBD213"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
-					count: 30
+					count: 16
 					id: "0FF1433F9A6880E4"
 					item: "jeg:gunmetal_ingot"
 					type: "item"
@@ -417,9 +417,9 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 32
 					id: "5B9E20804F032293"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -526,9 +526,9 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 32
 					id: "7BF01232227E45BF"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -630,15 +630,15 @@
 					type: "command"
 				}
 				{
-					count: 30
+					count: 16
 					id: "2056B0495F7B0D39"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
-					count: 128
+					count: 48
 					id: "7FB852A0E0C977FE"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -774,9 +774,9 @@
 					type: "item"
 				}
 				{
-					count: 256
+					count: 64
 					id: "20AFBD1DE97298EE"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -933,9 +933,9 @@
 					type: "item"
 				}
 				{
-					count: 256
+					count: 64
 					id: "075BF2D7394608E4"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{

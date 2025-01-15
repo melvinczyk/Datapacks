@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    "cba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:circuit_board"
+    },
+    "b": {
+      "item": "terramity:void_alloy_block"
+    },
+    "c": {
+      "item": "terramity:profanum"
+    },
+    "d": {
+      "item": "terramity:conductite"
+    },
+    "e": {
+      "item": "terramity:antimatter_bomb"
+    }
+  },
+  "result": {
+    "item": "terramity:antimatter_pacemaker",
+    "count": 1
+  }
+}

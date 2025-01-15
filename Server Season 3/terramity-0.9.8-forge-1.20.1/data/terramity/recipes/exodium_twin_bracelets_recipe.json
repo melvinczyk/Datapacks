@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa ",
+    "abc",
+    " cc"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:exodium_superalloy"
+    },
+    "b": {
+      "item": "terramity:power_bracelets"
+    },
+    "c": {
+      "item": "terramity:empty_essence"
+    }
+  },
+  "result": {
+    "item": "terramity:exodium_twin_bracelets",
+    "count": 1
+  }
+}

@@ -1,0 +1,978 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "glock17"
+	group: "2E8BF1A1F4DB9EE3"
+	icon: {
+		Count: 1
+		id: "mteg:glock_17"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "6FAE346E7D8B451D"
+	order_index: 24
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Craft a Glock 17 using a Gunnite Workbench"]
+			id: "2409EED8418B2455"
+			rewards: [{
+				count: 30
+				id: "1E502069D212C772"
+				item: "jeg:pistol_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Glock 17"
+			tasks: [{
+				id: "1F5B058454C00A68"
+				item: {
+					Count: 1
+					id: "mteg:glock_17"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aquire an Glock 17"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["2409EED8418B2455"]
+			icon: "minecraft:dirt"
+			id: "58E38455C6D38B93"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:glock_17_damage base set 6.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "374498B833C1921B"
+					title: "+0.25 Glock 17 Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "2B5A4C8694A247C0"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "34ACA69105094134"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "35471657BD713DD5"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "2F206CD1027D792B"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Glock 17 Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["58E38455C6D38B93"]
+			icon: "minecraft:copper_block"
+			id: "33B14DE42EE804A7"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:glock_17_damage base set 6.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "641D32FF54744F79"
+					title: "+0.25 Glock 17 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "2B7F7F979C423770"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "0A8D3253D361F5DA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "3F1FC733369C7B0F"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "7E809EBD0D844179"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Glock 17 Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["33B14DE42EE804A7"]
+			icon: "minecraft:gold_block"
+			id: "507A6BF93BAB78FE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:glock_17_damage base set 6.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "70E08E1CA8D0942F"
+					title: "+0.25 Glock 17 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "37604FD4482E4FEC"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "56F86E2FD908440D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "3F28018B71774BEC"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "2E725B73C1EB470A"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "56207FF603C8464D"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Glock 17 Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["507A6BF93BAB78FE"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "5048EB05DE554D57"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:glock_17_damage base set 7.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3959CE6216E44CFA"
+					title: "+0.25 Glock 17 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "08E17270AC6EE641"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "2224BCA631AA4D3A"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "791CABBAFE5E3CC2"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "457E59DC07651C67"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "41A17BA44DC547DE"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "24FDF6C03CEF5A68"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Glock 17 Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["5048EB05DE554D57"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "264F52B583741146"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:glock_17_damage base set 7.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2585B6175AF63313"
+					title: "+0.25 Glock 17 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "73C630FB12D042A3"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "098FFF85F7A84ED4"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "406D1D52A03147E6"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "31A68AAA95DE8FE4"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0D65D939BB3F80C6"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "219647D4970D4527"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "7C10A6F800F94D79"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Glock 17 Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["264F52B583741146"]
+			icon: "minecraft:diamond_block"
+			id: "5A5ABC8AA6D34CEE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:glock_17_damage base set 7.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "33E3CB0F4FDB4E20"
+					title: "+0.25  Glock 17 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "24E20B4E13DD6FA4"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "43307FB1771C1F2A"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "653C5ABB62B54B1D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "232ED5F362B33FCB"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1B3D2B56CB784852"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "5246D4A569DA44A5"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Glock 17 Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["5A5ABC8AA6D34CEE"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "219459D722504A7B"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:glock_17_damage base set 7.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "56FF62C7B4E6445D"
+					title: "+0.25 Glock 17 Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "4E4C0DF0584BA593"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "02C0604420B94025"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "74559ACE9A9D4DF7"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "59F3A28016EBF358"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "26621978722046DE"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "3AB5728911EC40C1"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "6AA88CCB7C444168"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "5DFBBFCDC6D44F33"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Glock 17 Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["219459D722504A7B"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "6A347999AF8F4A2C"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:glock_17_damage base set 8.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "53D4E2D117956125"
+					title: "+0.25 Glock 17 Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "2CBF9D0F3DC553AA"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "2D94CA7150B24F01"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "1D4455A3DEB34262"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "5C6A4D75FF334E72"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "14D7C44F5FA278BF"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "6F59B6D314F0B3F1"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "65B5456C97A9420F"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "3C17EB53A5F5D4AD"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "1363ABFD2D109E76"
+					item: {
+						Count: 1
+						id: "mteg:glock_17"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Glock 17 Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6A347999AF8F4A2C"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "2F061AC15FD041AE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:glock_17_damage base set 9.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "05E54A0D150D2B13"
+					title: "+1 Glock 17 Damage"
+					type: "command"
+				}
+				{
+					id: "0E563ABB8246F021"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "46CC465761F141C8"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "2C21F05E17AF4A7C"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "3057FBE7A754DEA3"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "4DA326EF1FB95E8C"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "20C61506C17EAE7F"
+				item: {
+					Count: 1
+					id: "mteg:glock_17"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Glock 17 Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
+	title: "Glock 17"
+}

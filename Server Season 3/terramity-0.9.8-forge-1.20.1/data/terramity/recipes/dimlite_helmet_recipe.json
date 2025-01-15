@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "terramity:dimlite_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "result": {
+    "item": "terramity:dimlite_helmet"
+  },
+  "template": {
+    "item": "terramity:dimlite_upgrade_smithing_template"
+  }
+}

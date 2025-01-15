@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:tinted_glass"
+    },
+    "b": {
+      "item": "terramity:daemonium"
+    }
+  },
+  "result": {
+    "item": "terramity:daemonium_glass",
+    "count": 8
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:chthonian_void"
+    },
+    "b": {
+      "item": "terramity:chthonic_crystal"
+    },
+    "c": {
+      "item": "terramity:celestial_brew"
+    }
+  },
+  "result": {
+    "item": "terramity:chthonic_nectar",
+    "count": 1
+  }
+}

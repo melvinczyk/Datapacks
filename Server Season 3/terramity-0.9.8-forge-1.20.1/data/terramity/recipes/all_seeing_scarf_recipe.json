@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:decayed_bedrock_dust"
+    },
+    "b": {
+      "item": "terramity:phantom_amulet"
+    },
+    "c": {
+      "item": "minecraft:yellow_wool"
+    }
+  },
+  "result": {
+    "item": "terramity:all_seeing_scarf",
+    "count": 1
+  }
+}

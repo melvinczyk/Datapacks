@@ -12,7 +12,7 @@
 		}
 	}
 	id: "54E55C7B0DDCDC77"
-	order_index: 52
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Custom Smg"
+			subtitle: "Craft or obtain an Custom Smg"
 			tasks: [{
 				id: "7398AC74715593EF"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Custom Smg"
+			title: "Aquire an Custom Smg"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

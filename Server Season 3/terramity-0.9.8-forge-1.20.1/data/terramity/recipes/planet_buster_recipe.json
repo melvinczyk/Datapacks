@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:cracked_microcosm"
+    },
+    "b": {
+      "item": "terramity:moondrill_cannon"
+    },
+    "c": {
+      "item": "terramity:void_alloy"
+    },
+    "d": {
+      "item": "terramity:railgun"
+    }
+  },
+  "result": {
+    "item": "terramity:planet_buster",
+    "count": 1
+  }
+}

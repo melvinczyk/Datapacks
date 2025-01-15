@@ -1,0 +1,978 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mossberg590"
+	group: "2E8BF1A1F4DB9EE3"
+	icon: {
+		Count: 1
+		id: "mteg:mossberg_590"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "237E3A5106854B30"
+	order_index: 48
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Craft a Mossberg 590 using a Gunmetal Workbench"]
+			id: "481E26630526446E"
+			rewards: [{
+				count: 16
+				id: "6E7E3A82005F029F"
+				item: "jeg:shotgun_shell"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an Mossberg 590"
+			tasks: [{
+				id: "5A6BE7D3F2AA4812"
+				item: {
+					Count: 1
+					id: "mteg:mossberg_590"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aquire an Mossberg 590"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["481E26630526446E"]
+			icon: "minecraft:dirt"
+			id: "62D678D3DDE846B3"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mossberg_590_damage base set 22.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6CCEDACE2CA01FA1"
+					title: "+0.25 Mossberg 590 Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "3826E88D07FE6E6F"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "29CAB4F629D4CD9E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "5F23BC1E726D40DD"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "519B68BA66B42F40"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Mossberg 590 Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["62D678D3DDE846B3"]
+			icon: "minecraft:copper_block"
+			id: "568C36DA109C4223"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mossberg_590_damage base set 22.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "574AB1EC3F5F4F1B"
+					title: "+0.25 Mossberg 590 Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "497CAFF65CFD26D9"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "6ADF25FFA9734D4D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "2335916ECEB948FD"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "2C278078A5DD7FA6"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "Mossberg 590 Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["568C36DA109C4223"]
+			icon: "minecraft:gold_block"
+			id: "58F8BB20034B564C"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mossberg_590_damage base set 22.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3D5C701F209C42A2"
+					title: "+0.25 Mossberg 590 Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "2350554462BF1DB7"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "7B81E7A984A6FFFC"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "18DB89B0E1452264"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "3BE273DB90B8F0DB"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "7BCD46156786B596"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "Mossberg 590 Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["58F8BB20034B564C"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "20DA34E361304EB8"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mossberg_590_damage base set 23.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "55544316AC9252AF"
+					title: "+0.25 Mossberg 590 Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "3781FFC30F1870BC"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "02CC076E64764630"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "5B0E6CB5725EAF22"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "0FD249F6F56A132D"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "3B73E880AF8140A2"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "52DB17E8769A4075"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "Mossberg 590 Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["20DA34E361304EB8"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "6ECE37EAC25B4039"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mossberg_590_damage base set 23.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6C4FB247FFC35258"
+					title: "+0.25 Mossberg 590 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "177E9DE55E344D82"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1DFC9F00B5CED4DF"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "348A9DCE97544716"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "70035E183B56C07D"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2210467806DF1CBB"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1E235C5C0C93084A"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "0E52BF4144C540A0"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Mossberg 590 Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["6ECE37EAC25B4039"]
+			icon: "minecraft:diamond_block"
+			id: "0068A82185579056"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mossberg_590_damage base set 23.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1BB260186A704D2D"
+					title: "+0.25  Mossberg 590 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "64961830FD0D4378"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "609483FAC45A89C7"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "6A04372109F7AD6F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "54B9814343933A26"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "25C9066DC2990B4B"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "136E18CA1A113C37"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "Mossberg 590 Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["0068A82185579056"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "0F6CABA55804A357"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mossberg_590_damage base set 23.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "31BBAFE8C7A6DE63"
+					title: "+0.25 Mossberg 590 Damage"
+					type: "command"
+				}
+				{
+					count: 16
+					id: "245FDB49B450594E"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 48
+					id: "6ACF93B4934259CE"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "39DB744CE0877A86"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "482776CCCF3A54BF"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "18D7529ECF72405B"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "32A48B56EFB44779"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "359E41AC48AC9678"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "16C903F0B5CE8FC0"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Mossberg 590 Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["0F6CABA55804A357"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "2D5ADC2DC6526131"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mossberg_590_damage base set 24.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6705DE8D448D4646"
+					title: "+0.25 Mossberg 590 Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "62E0BB70FD7642AC"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "41ED172AE4AAEB15"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "03D3FDF8E43BE0A6"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "19BBCE13C46DA513"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "222661DF7385D55B"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "0F21747180C241AD"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "446BF3C0137C4B02"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "6AE0E0506464F0CE"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "495E659FD9719AA7"
+					item: {
+						Count: 1
+						id: "mteg:mossberg_590"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Mossberg 590 Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["2D5ADC2DC6526131"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "25B5E144C3AC310E"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:mossberg_590_damage base set 25.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1D544791F2164CA6"
+					title: "+1 Mossberg 590 Damage"
+					type: "command"
+				}
+				{
+					id: "64EFC01E43C0644F"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "152499FA05B145FB"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "111E0D01AED0F610"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "73444354A8CE6BD5"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "6D23D4DCB027F21D"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "5CFB2096DD4C43AD"
+				item: {
+					Count: 1
+					id: "mteg:mossberg_590"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Mossberg 590 Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
+	title: "Mossberg 590"
+}

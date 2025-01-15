@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:iridium_block"
+    }
+  },
+  "result": {
+    "item": "terramity:iridium",
+    "count": 9
+  }
+}

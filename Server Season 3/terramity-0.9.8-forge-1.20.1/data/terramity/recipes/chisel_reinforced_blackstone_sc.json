@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "terramity:reinforced_blackstone"
+  },
+  "result": "terramity:chiseled_reinforced_blackstone"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "a a",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "b": {
+      "item": "terramity:ruby"
+    }
+  },
+  "result": {
+    "item": "terramity:flameguard_pendant",
+    "count": 1
+  }
+}

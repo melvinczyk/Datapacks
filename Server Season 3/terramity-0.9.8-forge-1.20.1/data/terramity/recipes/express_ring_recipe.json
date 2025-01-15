@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "afa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:iridescent_shard"
+    },
+    "b": {
+      "item": "terramity:prismatic_jewel"
+    },
+    "c": {
+      "item": "terramity:rush_ring_plus"
+    },
+    "d": {
+      "item": "terramity:leap_ring_plus"
+    },
+    "e": {
+      "item": "terramity:excavation_ring"
+    },
+    "f": {
+      "item": "terramity:iridium"
+    }
+  },
+  "result": {
+    "item": "terramity:express_ring",
+    "count": 1
+  }
+}

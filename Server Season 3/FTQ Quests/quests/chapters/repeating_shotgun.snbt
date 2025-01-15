@@ -12,21 +12,21 @@
 		}
 	}
 	id: "1B571F4730246583"
-	order_index: 45
+	order_index: 64
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft a Repeating Shotgun by finding its blueprint and using a Blueprint Workbench"]
+			description: ["Craft an Repeating Shotgun by finding its blueprint and using a Blueprint Workbench"]
 			id: "169D8A02D43E87D5"
 			rewards: [{
-				count: 30
+				count: 16
 				id: "0549A745F71BC86F"
-				item: "jeg:rifle_ammo"
+				item: "jeg:shotgun_shell"
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Repeating Shotgun"
+			subtitle: "Craft or obtain an Repeating Shotgun"
 			tasks: [{
 				id: "22D30813B8D839BB"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Repeating Shotgun"
+			title: "Aquire an Repeating Shotgun"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
@@ -65,7 +65,7 @@
 				{
 					count: 32
 					id: "480420342E5AE3FF"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -135,9 +135,9 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 32
 					id: "19C9F69FAEE51900"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -213,9 +213,9 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 32
 					id: "294E7C229E5B2294"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -304,13 +304,13 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 32
 					id: "77E860763DAE8DE0"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
-					count: 30
+					count: 16
 					id: "1F56DF93E4ED20E9"
 					item: "jeg:gunmetal_ingot"
 					type: "item"
@@ -417,9 +417,9 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 32
 					id: "762D66143F74CB08"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -526,9 +526,9 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 32
 					id: "17C40C867D4BF50D"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -630,15 +630,15 @@
 					type: "command"
 				}
 				{
-					count: 30
+					count: 16
 					id: "22C1481918F50713"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
-					count: 128
+					count: 48
 					id: "625EABF9D7A06DFF"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -774,9 +774,9 @@
 					type: "item"
 				}
 				{
-					count: 256
+					count: 32
 					id: "5DD00DB18F7E37D1"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -933,9 +933,9 @@
 					type: "item"
 				}
 				{
-					count: 256
+					count: 32
 					id: "5AF01FCD8B2CBD95"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{

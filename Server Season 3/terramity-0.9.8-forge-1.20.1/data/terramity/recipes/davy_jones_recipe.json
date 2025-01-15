@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:decayed_bedrock_dust"
+    },
+    "b": {
+      "item": "terramity:sapphire_block"
+    },
+    "c": {
+      "item": "terramity:profanum"
+    },
+    "d": {
+      "item": "terramity:antimatter_rifle"
+    },
+    "e": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "item": "terramity:davy_jones",
+    "count": 1
+  }
+}

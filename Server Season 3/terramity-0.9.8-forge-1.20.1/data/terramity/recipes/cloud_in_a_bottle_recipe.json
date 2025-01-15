@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:prismatic_jewel"
+    },
+    "b": {
+      "item": "terramity:iridescent_shard"
+    },
+    "c": {
+      "item": "minecraft:glass_bottle"
+    },
+    "d": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "terramity:cloud_in_a_bottle",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "b": {
+      "item": "minecraft:leather"
+    },
+    "c": {
+      "item": "minecraft:iron_shovel"
+    },
+    "d": {
+      "item": "minecraft:iron_axe"
+    }
+  },
+  "result": {
+    "item": "terramity:builder_mitts",
+    "count": 1
+  }
+}

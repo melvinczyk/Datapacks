@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "b b",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:dimlite_ingot"
+    },
+    "b": {
+      "item": "terramity:dimlite_nugget"
+    },
+    "c": {
+      "item": "terramity:onyx"
+    }
+  },
+  "result": {
+    "item": "terramity:voidguard_pendant",
+    "count": 1
+  }
+}

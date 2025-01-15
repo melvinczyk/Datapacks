@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "terramity:advanced_gun_parts"
+  },
+  "base": {
+    "item": "terramity:advanced_pistol"
+  },
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": {
+    "item": "terramity:suppressed_advanced_pistol"
+  }
+}

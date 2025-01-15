@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a b",
+    "cde",
+    "a b"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:opaline_moonstone"
+    },
+    "b": {
+      "item": "terramity:black_matter"
+    },
+    "c": {
+      "item": "terramity:stratus_storm_ruler"
+    },
+    "d": {
+      "item": "terramity:void_sword"
+    },
+    "e": {
+      "item": "terramity:orders_end"
+    }
+  },
+  "result": {
+    "item": "terramity:crescent_moonblade",
+    "count": 1
+  }
+}

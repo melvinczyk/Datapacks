@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:dimlite_ingot"
+    }
+  },
+  "result": {
+    "item": "terramity:dimlite_block",
+    "count": 1
+  }
+}

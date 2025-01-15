@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:fairy_dust"
+    },
+    "b": {
+      "item": "minecraft:stone"
+    },
+    "c": {
+      "item": "terramity:stygian_blood_bucket"
+    }
+  },
+  "result": {
+    "item": "terramity:artificial_blood_display",
+    "count": 32
+  }
+}

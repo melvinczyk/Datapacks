@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:circuit_board"
+    },
+    "b": {
+      "item": "terramity:conductite"
+    },
+    "c": {
+      "item": "terramity:profanum"
+    }
+  },
+  "result": {
+    "item": "terramity:moondrill_cannon",
+    "count": 1
+  }
+}

@@ -12,7 +12,7 @@
 		}
 	}
 	id: "48E23FDC605997B9"
-	order_index: 34
+	order_index: 60
 	quest_links: [ ]
 	quests: [
 		{
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Supersonic Shotgun"
+			subtitle: "Craft or obtain an Supersonic Shotgun"
 			tasks: [{
 				id: "436E4D03F17D0689"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Supersonic Shotgun"
+			title: "Aquire an Supersonic Shotgun"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

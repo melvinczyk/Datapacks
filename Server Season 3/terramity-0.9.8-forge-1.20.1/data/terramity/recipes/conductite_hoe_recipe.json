@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "terramity:conductite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "terramity:iridium_hoe"
+  },
+  "addition": {
+    "item": "terramity:conductite"
+  },
+  "result": {
+    "item": "terramity:conductite_hoe"
+  }
+}

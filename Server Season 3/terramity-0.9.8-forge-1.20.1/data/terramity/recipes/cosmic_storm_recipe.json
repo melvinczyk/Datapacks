@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:onyx"
+    },
+    "b": {
+      "item": "terramity:cosmilite_ingot"
+    },
+    "c": {
+      "item": "terramity:onyx_storm"
+    }
+  },
+  "result": {
+    "item": "terramity:cosmic_storm",
+    "count": 1
+  }
+}

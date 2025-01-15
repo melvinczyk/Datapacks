@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:void_panelling"
+    }
+  },
+  "result": {
+    "item": "terramity:void_panelling_slab",
+    "count": 6
+  }
+}

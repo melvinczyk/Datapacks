@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:reverium"
+    },
+    "b": {
+      "item": "terramity:headhunter_talisman"
+    },
+    "c": {
+      "item": "terramity:iridescent_shard"
+    },
+    "d": {
+      "item": "terramity:iridium_round"
+    }
+  },
+  "result": {
+    "item": "terramity:headhunter_talisman_plus",
+    "count": 1
+  }
+}

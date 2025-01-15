@@ -12,7 +12,7 @@
 		}
 	}
 	id: "1303DE3A93686A6E"
-	order_index: 6
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Blue Heat"
+			subtitle: "Craft or obtain an Blue Heat"
 			tasks: [{
 				id: "4099A977A7DAF85F"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Blue Heat"
+			title: "Aquire an Blue Heat"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:accursed_soul"
+    },
+    "b": {
+      "item": "minecraft:spider_eye"
+    },
+    "c": {
+      "item": "terramity:radiant_honey"
+    },
+    "d": {
+      "item": "terramity:virentium_alloy_ingot"
+    }
+  },
+  "result": {
+    "item": "terramity:acidic_ampoule",
+    "count": 1
+  }
+}

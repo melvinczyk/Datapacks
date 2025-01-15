@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ece"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:fairy_dust"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "minecraft:gold_ingot"
+    },
+    "d": {
+      "item": "terramity:rush_ring"
+    },
+    "e": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "terramity:rush_ring_plus",
+    "count": 1
+  }
+}

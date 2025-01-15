@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    " ba",
+    "a  "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:hellspec_alloy"
+    },
+    "b": {
+      "item": "terramity:profanum"
+    }
+  },
+  "result": {
+    "item": "terramity:unholy_lance",
+    "count": 1
+  }
+}

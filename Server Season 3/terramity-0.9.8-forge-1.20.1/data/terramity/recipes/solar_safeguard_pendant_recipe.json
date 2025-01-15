@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:ruby"
+    },
+    "b": {
+      "item": "terramity:hellspec_alloy"
+    },
+    "c": {
+      "item": "terramity:voidguard_pendant"
+    },
+    "d": {
+      "item": "terramity:lava_locket"
+    },
+    "e": {
+      "item": "terramity:steady_pendant"
+    }
+  },
+  "result": {
+    "item": "terramity:solar_safeguard_pendant",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:raw_cosmilite"
+    },
+    "b": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "c": {
+      "item": "terramity:hover_charm"
+    }
+  },
+  "result": {
+    "item": "terramity:hover_charm_plus",
+    "count": 1
+  }
+}

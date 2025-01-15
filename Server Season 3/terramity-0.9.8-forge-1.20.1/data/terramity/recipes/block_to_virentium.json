@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "terramity:virentium_alloy_block"
+    }
+  ],
+  "result": {
+    "item": "terramity:virentium_alloy_ingot",
+    "count": 9
+  }
+}

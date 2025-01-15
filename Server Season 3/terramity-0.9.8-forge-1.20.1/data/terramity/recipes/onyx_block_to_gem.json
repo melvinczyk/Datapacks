@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:onyx"
+    }
+  },
+  "result": {
+    "item": "terramity:onyx_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "b": {
+      "item": "terramity:dimlite_ingot"
+    },
+    "c": {
+      "item": "terramity:diamond_gauntlet"
+    }
+  },
+  "result": {
+    "item": "terramity:divergency_gauntlet",
+    "count": 1
+  }
+}

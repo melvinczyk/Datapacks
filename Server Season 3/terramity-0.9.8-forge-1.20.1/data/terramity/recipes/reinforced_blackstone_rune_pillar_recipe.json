@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "terramity:reinforced_blackstone"
+  },
+  "result": "terramity:reinforced_blackstone_rune_pillar"
+}

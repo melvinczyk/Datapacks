@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcd",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:profanum"
+    },
+    "b": {
+      "item": "terramity:nyxium_pickaxe"
+    },
+    "c": {
+      "item": "terramity:exodium_pickaxe"
+    },
+    "d": {
+      "item": "terramity:reverium_pickaxe"
+    }
+  },
+  "result": {
+    "item": "terramity:devastation",
+    "count": 1
+  }
+}

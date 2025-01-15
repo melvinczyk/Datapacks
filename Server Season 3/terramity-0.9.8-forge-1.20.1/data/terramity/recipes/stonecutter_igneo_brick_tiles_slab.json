@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "terramity:igneostone_bricks"
+  },
+  "result": "terramity:igneostone_tile_slab"
+}

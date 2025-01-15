@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "terramity:dimlite_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "result": {
+    "item": "terramity:dimlite_boots"
+  },
+  "template": {
+    "item": "terramity:dimlite_upgrade_smithing_template"
+  }
+}

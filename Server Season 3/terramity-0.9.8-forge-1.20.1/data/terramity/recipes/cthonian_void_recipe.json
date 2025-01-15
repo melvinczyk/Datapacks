@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:chthonic_crystal"
+    },
+    "b": {
+      "item": "terramity:blank_void"
+    }
+  },
+  "result": {
+    "item": "terramity:chthonian_void",
+    "count": 16
+  }
+}

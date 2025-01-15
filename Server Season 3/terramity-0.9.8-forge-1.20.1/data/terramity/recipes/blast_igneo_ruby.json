@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "terramity:igneo_ruby_ore"
+  },
+  "result": "terramity:ruby"
+}

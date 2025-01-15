@@ -1,0 +1,978 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "m16a1"
+	group: "2E8BF1A1F4DB9EE3"
+	icon: {
+		Count: 1
+		id: "mteg:m16a1"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "6F8EF89724AE4756"
+	order_index: 39
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Craft an M16A1 using a Gunnite Workbench"]
+			id: "5E95DE9996BAEAFF"
+			rewards: [{
+				count: 30
+				id: "08B61460AB5B4020"
+				item: "jeg:rifle_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Craft or obtain an M16A1"
+			tasks: [{
+				id: "00E8A5900EDF4404"
+				item: {
+					Count: 1
+					id: "mteg:m16a1"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aquire an M16A1"
+			x: 1.970645868709653E-15d
+			y: -0.20000000000000004d
+		}
+		{
+			dependencies: ["5E95DE9996BAEAFF"]
+			icon: "minecraft:dirt"
+			id: "5BCABAE3DAE6491E"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m16a1_damage base set 7.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "641FBFA424CB3EF0"
+					title: "+0.25 M16A1 Damage"
+					type: "command"
+				}
+				{
+					count: 32
+					id: "241531EEC0DF5D87"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "37918F03F3184001"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Kill 100 Zombies and Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "4CF71750F67248B7"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "01F22E9606A141E3"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "M16A1 Basics 1/4"
+			x: 1.970645868709653E-15d
+			y: -2.2000000000000006d
+		}
+		{
+			dependencies: ["5BCABAE3DAE6491E"]
+			icon: "minecraft:copper_block"
+			id: "4641A020DDE84931"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m16a1_damage base set 8.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "441A8476F9A940E0"
+					title: "+0.25 M16A1 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "218CC82B9D454C00"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "5733968676BB8CA7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill 100 Spiders and Strays"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "7ACBE4C7140E4626"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:slowness"
+						}
+					}
+					id: "504118FC4137C150"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+			]
+			title: "M16A1 Basics 2/4"
+			x: 1.970645868709653E-15d
+			y: -3.7000000000000006d
+		}
+		{
+			dependencies: ["4641A020DDE84931"]
+			icon: "minecraft:gold_block"
+			id: "5D171F9CA54A4507"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m16a1_damage base set 8.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2F8EA27CC0404A16"
+					title: "+0.25 M16A1 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "20E09CD7FC13E6DF"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "70EB3533035223F8"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Kill 100 pillagers, vindicators, and 15 witches"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:pillager"
+					id: "00C9A6AB9521670C"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:vindicator"
+					id: "3B449F296D174253"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 100L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:witch"
+					id: "19F9DAEAAD10E692"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 15L
+				}
+			]
+			title: "M16A1 Basics 3/4"
+			x: 1.970645868709653E-15d
+			y: -5.1999999999999975d
+		}
+		{
+			dependencies: ["5D171F9CA54A4507"]
+			description: [
+				"&bGelids are zombies found in cold biomes"
+				""
+				"&aThickets are zombies found in swamp biomes"
+			]
+			icon: "minecraft:iron_block"
+			id: "101777432E36485D"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m16a1_damage base set 8.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6983CE8BA2164EE2"
+					title: "+0.25 M16A1 Damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "695FFFD6E0CB76D8"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "694CDA98BC644C83"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "4F9D3230FAD5CFAB"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Kill 75 Gelid, Thickets, and Husks"
+			tasks: [
+				{
+					checkItem: true
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "798B58173EDE44F9"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "variantsandventures:thicket"
+					icon: "minecraft:mangrove_propagule"
+					id: "2474556D99BC06B5"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+				{
+					checkItem: true
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "13AD70C6FFE7986A"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 75L
+				}
+			]
+			title: "M16A1 Basics 4/4"
+			x: 1.970645868709653E-15d
+			y: -6.6999999999999975d
+		}
+		{
+			dependencies: ["101777432E36485D"]
+			description: [
+				"Stunt Skeletons are the weaponless versions of Mutant skeletons. "
+				""
+				"&cThey are very quick and use martial arts. Even without the crossbow they are no joke."
+			]
+			icon: "minecraft:netherite_block"
+			id: "03BE97DCF008449B"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m16a1_damage base set 9.00"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "308926B4CAF94B34"
+					title: "+0.25 M16A1 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "70F982BC466EB8B4"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7F1387B832AA07F6"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6B0AB0F0041698C6"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "4E2DC251452333F1"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 10 Mutant Zombies, Skeletons, and Stunt Skeletons"
+			tasks: [
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5C40FA9BE4C7729E"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5B3DE6C66821001E"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+				{
+					checkItem: true
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_limb"
+					id: "419E1CFE3D39041E"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "M16A1 Advanced 2/4"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["03BE97DCF008449B"]
+			icon: "minecraft:diamond_block"
+			id: "4359233BE83E9DC4"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m16a1_damage base set 8.75"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3A2F91982824444A"
+					title: "+0.25  M16A1 Damage"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "07A6721A5D27476A"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5C1AED66E8514835"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "1DDDE23467134EF7"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 25 Zombie bruisers, Skeleton thrashers, and 10 Nightmare Stalkers"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "5B9C074917644586"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "53EB97509481E60B"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 25L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "139189C8E7AA4206"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 10L
+				}
+			]
+			title: "M16A1 Advanced 1/4"
+			x: 0.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["4359233BE83E9DC4"]
+			description: [
+				"The Lich has a small chance to spawn in the overworld at night."
+				""
+				"Solscarab Maximus has a small chance to spawn in deserts."
+				""
+				"Steel Boar has a small chance to spawn in plains and oak forests."
+			]
+			icon: "terramity:cosmilite_block"
+			id: "446B10D9748E9B51"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m16a1_damage base set 9.25"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "59EBFD7D65476A3C"
+					title: "+0.25 M16A1 Damage"
+					type: "command"
+				}
+				{
+					count: 30
+					id: "6FABDAC0CF144627"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "7BE5B17DB6AA4713"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "54EA8372431B2E00"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 5 Missioners, Nehemoths, One Lich, Solscarab Maximus, and Steel Boar"
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "56EEFEBB4B274B02"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:lich"
+					icon: "threateningly_mobs:skeleton_necklace"
+					id: "4ED55A612EE79D24"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "fromtheshadows:nehemoth"
+					icon: "fromtheshadows:crystallized_blood"
+					id: "53819AAEBB6647AB"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+				{
+					checkItem: false
+					entity: "threateningly_mobs:solscarab_maximus"
+					icon: "threateningly_mobs:desert_armor_shard"
+					id: "6C50AF3A7940B137"
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "threateningly_mobs:steelboar"
+					icon: "threateningly_mobs:steel_tusk"
+					id: "2B99E74C949946FC"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "M16A1 Advanced 3/4"
+			x: 0.0d
+			y: -11.25d
+		}
+		{
+			dependencies: ["446B10D9748E9B51"]
+			description: [
+				"The Spiritcaller can be fought during raids in the final wave"
+				""
+				"The Spinowane has a low chance of spawning at night."
+				""
+				"The Corundum Guardian can be summoned by using the Corundum Guardian Memory item."
+				""
+				"Pigzilla starts out as Biting Pig and slowing kills and gets larger into Pigzilla."
+			]
+			icon: "terramity:void_alloy_block"
+			id: "6534FD673AF640FB"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m16a1_damage base set 9.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:axe_of_unholy_divinity"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "251F552EE6E94011"
+					title: "+0.25 M16A1 Damage"
+					type: "command"
+				}
+				{
+					count: 40
+					id: "5BD8729A6C25186B"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "7760598AC36BDEDC"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "160B6F664EFE4B94"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Wither, Pigzilla, Eye of Cthulu, Spiritcaller, Spinowane, and Corundum Guardian"
+			tasks: [
+				{
+					checkItem: true
+					entity: "minecraft:wither"
+					icon: "majruszsdifficulty:wither_treasure_bag"
+					id: "2FB622F8E7C7427F"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "pigzilla:pigzilla"
+					icon: "minecraft:porkchop"
+					id: "622000A37CDF4FCB"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "look:eye_of_cthulhu"
+					icon: "look:suspicious_looking_eye"
+					id: "767A7979B4DBE51D"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "illageandspillage:spiritcaller"
+					icon: {
+						Count: 1
+						id: "illageandspillage:spellbound_book"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4D7FA680D7924BFD"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "the_spino:spino"
+					icon: "the_spino:tooth"
+					id: "78AA1ACD64CD45BE"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "corundumguardian:corundum_guardian"
+					icon: "create:handheld_worldshaper"
+					id: "01FD6A7EAB074B98"
+					item: {
+						Count: 1
+						id: "mteg:m16a1"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					nbt: { }
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "M16A1 Advanced 4/4"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["6534FD673AF640FB"]
+			description: ["The Super Sniffer can be summoned by striking a Sniffer with a lightning bolt."]
+			id: "75BB92F4E6EA4AAE"
+			rewards: [
+				{
+					command: "/attribute @s hoths_jeg_attributes:m16a1_damage base set 10.50"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "terramity:conductite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "310A63760E264798"
+					title: "+1 M16A1 Damage"
+					type: "command"
+				}
+				{
+					id: "16998E5B9EBADFAF"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "62B34C5B63ACE071"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "454400C7628E4536"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "735FCD6715E944D4"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					id: "6C56A6264AFC6534"
+					item: "terramity:profanum"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Kill 1 Super Sniffer"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "09672EE88801B260"
+				item: {
+					Count: 1
+					id: "mteg:m16a1"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "M16A1 Mastery"
+			x: 0.0d
+			y: -15.0d
+		}
+	]
+	title: "M16A1"
+}

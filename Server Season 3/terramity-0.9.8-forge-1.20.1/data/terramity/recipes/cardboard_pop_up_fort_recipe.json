@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:cardboard_box_marked"
+    },
+    "b": {
+      "item": "terramity:iridescent_shard"
+    }
+  },
+  "result": {
+    "item": "terramity:cardboard_pop_up_fort",
+    "count": 1
+  }
+}

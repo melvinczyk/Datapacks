@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:spiteful_soul"
+    },
+    "b": {
+      "item": "terramity:nyxium"
+    },
+    "c": {
+      "item": "terramity:hellfire_flurry"
+    }
+  },
+  "result": {
+    "item": "terramity:asphodel",
+    "count": 1
+  }
+}

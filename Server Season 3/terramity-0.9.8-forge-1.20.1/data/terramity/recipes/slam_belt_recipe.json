@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "b": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "c": {
+      "item": "terramity:leather_belt"
+    },
+    "d": {
+      "item": "minecraft:anvil"
+    }
+  },
+  "result": {
+    "item": "terramity:slam_belt",
+    "count": 1
+  }
+}

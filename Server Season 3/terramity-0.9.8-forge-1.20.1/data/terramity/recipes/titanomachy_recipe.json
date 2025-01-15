@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:cracked_microcosm"
+    },
+    "b": {
+      "item": "terramity:exodium_superalloy"
+    },
+    "c": {
+      "item": "terramity:nihility"
+    },
+    "d": {
+      "item": "terramity:advanced_gun_parts"
+    }
+  },
+  "result": {
+    "item": "terramity:titanomachy",
+    "count": 1
+  }
+}

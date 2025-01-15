@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "terramity:virentium_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "addition": {
+    "item": "terramity:virentium_alloy_ingot"
+  },
+  "result": {
+    "item": "terramity:virentium_pickaxe"
+  }
+}

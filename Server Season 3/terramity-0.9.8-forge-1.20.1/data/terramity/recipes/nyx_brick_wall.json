@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:nyxium_bricks"
+    }
+  },
+  "result": {
+    "item": "terramity:nyxium_brick_wall",
+    "count": 6
+  }
+}

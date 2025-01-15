@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebe"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:spectral_soul"
+    },
+    "b": {
+      "item": "terramity:angel_feather"
+    },
+    "c": {
+      "item": "terramity:reverium"
+    },
+    "d": {
+      "item": "terramity:electron_bracelets"
+    },
+    "e": {
+      "item": "terramity:antiprism"
+    }
+  },
+  "result": {
+    "item": "terramity:sacred_speed_bracelets",
+    "count": 1
+  }
+}

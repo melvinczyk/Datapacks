@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "eee"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:onyx"
+    },
+    "b": {
+      "item": "terramity:handcannon"
+    },
+    "c": {
+      "item": "terramity:cosmilite_ingot"
+    },
+    "d": {
+      "item": "terramity:flare_gun"
+    },
+    "e": {
+      "item": "terramity:daemonium"
+    }
+  },
+  "result": {
+    "item": "terramity:meteor_cannon",
+    "count": 1
+  }
+}

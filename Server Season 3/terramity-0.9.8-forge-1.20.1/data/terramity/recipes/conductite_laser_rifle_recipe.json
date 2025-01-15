@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cd "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:conductite"
+    },
+    "b": {
+      "item": "terramity:ruby"
+    },
+    "c": {
+      "item": "terramity:circuit_board"
+    },
+    "d": {
+      "item": "terramity:battery"
+    }
+  },
+  "result": {
+    "item": "terramity:conductite_laser_rifle",
+    "count": 1
+  }
+}

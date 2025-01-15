@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:gaianite_cluster"
+    },
+    "b": {
+      "item": "minecraft:experience_bottle"
+    },
+    "c": {
+      "item": "terramity:iridium"
+    }
+  },
+  "result": {
+    "item": "terramity:experience_sapping_gauntlet",
+    "count": 1
+  }
+}

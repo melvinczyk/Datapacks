@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:exodium_superalloy"
+    }
+  },
+  "result": {
+    "item": "terramity:exodium_warlock_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:moonstone"
+    }
+  },
+  "result": {
+    "item": "terramity:moonstone_slab",
+    "count": 6
+  }
+}

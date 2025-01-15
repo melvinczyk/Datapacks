@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:chthonic_crystal"
+    },
+    "b": {
+      "item": "terramity:dimlite_ingot"
+    },
+    "c": {
+      "item": "terramity:power_bracelets"
+    }
+  },
+  "result": {
+    "item": "terramity:chthonic_curse_bracelets",
+    "count": 1
+  }
+}

@@ -12,21 +12,21 @@
 		}
 	}
 	id: "14DF5CE7BAC577B9"
-	order_index: 33
+	order_index: 52
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft a Revolver using a Scrap Workbench"]
+			description: ["Craft an Revolver using a Scrap Workbench"]
 			id: "648FC968F0EF8EE0"
 			rewards: [{
 				count: 30
 				id: "73CAF59FBFFCDE1B"
-				item: "jeg:rifle_ammo"
+				item: "jeg:pistol_ammo"
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Revolver"
+			subtitle: "Craft or obtain an Revolver"
 			tasks: [{
 				id: "66A1A72928458236"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Revolver"
+			title: "Aquire an Revolver"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
@@ -65,7 +65,7 @@
 				{
 					count: 32
 					id: "17C11F96669017E6"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -137,7 +137,7 @@
 				{
 					count: 64
 					id: "6AB5FDD6D7682CA5"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -215,7 +215,7 @@
 				{
 					count: 64
 					id: "1CE0DBD5AB21B186"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -306,7 +306,7 @@
 				{
 					count: 64
 					id: "7151E4A8CDACD9F6"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -419,7 +419,7 @@
 				{
 					count: 64
 					id: "25987BBDB3F3E902"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -528,7 +528,7 @@
 				{
 					count: 64
 					id: "4CD127E2D51FE339"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -638,7 +638,7 @@
 				{
 					count: 128
 					id: "08B493813E59177A"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -776,7 +776,7 @@
 				{
 					count: 256
 					id: "6E23C46D7C780796"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{
@@ -935,7 +935,7 @@
 				{
 					count: 256
 					id: "77DCD22FAB96D715"
-					item: "jeg:rifle_ammo"
+					item: "jeg:pistol_ammo"
 					type: "item"
 				}
 				{

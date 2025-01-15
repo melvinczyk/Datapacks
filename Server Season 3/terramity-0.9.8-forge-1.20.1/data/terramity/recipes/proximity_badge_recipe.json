@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:fairy_dust"
+    },
+    "b": {
+      "item": "terramity:iridium"
+    },
+    "c": {
+      "item": "terramity:prismatic_jewel"
+    }
+  },
+  "result": {
+    "item": "terramity:proximity_badge",
+    "count": 1
+  }
+}

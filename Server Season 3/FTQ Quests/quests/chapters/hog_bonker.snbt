@@ -12,21 +12,21 @@
 		}
 	}
 	id: "34404B378E0C9655"
-	order_index: 15
+	order_index: 27
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["Find a Hog Bonker"]
 			id: "1AD1EF90FBC4F8AE"
 			rewards: [{
-				count: 30
+				count: 16
 				id: "665A91201ED4C1E0"
-				item: "jeg:rifle_ammo"
+				item: "jeg:shotgun_shell"
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Hog Bonker"
+			subtitle: "Craft or obtain an Hog Bonker"
 			tasks: [{
 				id: "00E8833FA9ED8B24"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Hog Bonker"
+			title: "Aquire an Hog Bonker"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
@@ -65,7 +65,7 @@
 				{
 					count: 32
 					id: "6300683E9FA6ACC7"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -135,9 +135,9 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 32
 					id: "2D8EA940C5A91963"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -213,9 +213,9 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 32
 					id: "2F2E4538494CCD12"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -304,13 +304,13 @@
 					type: "command"
 				}
 				{
-					count: 64
+					count: 32
 					id: "1AEC51EEF7D3E7FC"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
-					count: 30
+					count: 16
 					id: "08584A9A2B4B7128"
 					item: "jeg:gunmetal_ingot"
 					type: "item"
@@ -417,9 +417,9 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 32
 					id: "54DE642F9D29DBD7"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -526,9 +526,9 @@
 					type: "item"
 				}
 				{
-					count: 64
+					count: 32
 					id: "3F3256A40F850103"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -630,15 +630,15 @@
 					type: "command"
 				}
 				{
-					count: 30
+					count: 16
 					id: "27ECAAE0E88259E0"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
-					count: 128
+					count: 64
 					id: "4B3C30BD776095B4"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -774,9 +774,9 @@
 					type: "item"
 				}
 				{
-					count: 256
+					count: 64
 					id: "530FAD8E9BE96964"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{
@@ -933,9 +933,9 @@
 					type: "item"
 				}
 				{
-					count: 256
+					count: 64
 					id: "0CC2F237EAC1F8DD"
-					item: "jeg:rifle_ammo"
+					item: "jeg:shotgun_shell"
 					type: "item"
 				}
 				{

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:prismatic_jewel"
+    },
+    "b": {
+      "item": "terramity:ruby"
+    },
+    "c": {
+      "item": "terramity:gilded_feather"
+    },
+    "d": {
+      "item": "minecraft:emerald"
+    },
+    "e": {
+      "item": "terramity:sapphire"
+    }
+  },
+  "result": {
+    "item": "terramity:prismatic_feather",
+    "count": 1
+  }
+}

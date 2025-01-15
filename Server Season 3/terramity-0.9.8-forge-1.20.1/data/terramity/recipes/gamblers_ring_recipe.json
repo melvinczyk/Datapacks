@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "b": {
+      "item": "terramity:lucky_dice"
+    },
+    "c": {
+      "item": "terramity:angel_feather"
+    },
+    "d": {
+      "item": "terramity:ring_of_luck_plus"
+    },
+    "e": {
+      "item": "terramity:reverium"
+    }
+  },
+  "result": {
+    "item": "terramity:gamblers_ring",
+    "count": 1
+  }
+}

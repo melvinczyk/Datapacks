@@ -12,7 +12,7 @@
 		}
 	}
 	id: "13BFE4DC6F040DE7"
-	order_index: 3
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -31,7 +31,7 @@
 				id: "27CACA3A17AB95C9"
 				item: {
 					Count: 1
-					id: "jeg:atlantean_spear"
+					id: "jeg:water_bomb"
 					tag: {
 						AmmoCount: 30
 						Damage: 0
@@ -65,7 +65,7 @@
 				{
 					count: 32
 					id: "575027AEB04A7861"
-					item: "jeg:water_bomb"
+					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
@@ -137,7 +137,7 @@
 				{
 					count: 64
 					id: "00184352DED09DD9"
-					item: "jeg:water_bomb"
+					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
@@ -215,7 +215,7 @@
 				{
 					count: 64
 					id: "1D58EA07963D9626"
-					item: "jeg:water_bomb"
+					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
@@ -306,7 +306,7 @@
 				{
 					count: 64
 					id: "570B057239013109"
-					item: "jeg:water_bomb"
+					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
@@ -419,7 +419,7 @@
 				{
 					count: 64
 					id: "6F238BEA7830DA5B"
-					item: "jeg:water_bomb"
+					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
@@ -528,7 +528,7 @@
 				{
 					count: 64
 					id: "4A4F28C5B6049668"
-					item: "jeg:water_bomb"
+					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
@@ -638,7 +638,7 @@
 				{
 					count: 128
 					id: "67E5125C358742FA"
-					item: "jeg:water_bomb"
+					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
@@ -776,7 +776,7 @@
 				{
 					count: 256
 					id: "42643288C28C13FA"
-					item: "jeg:water_bomb"
+					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{
@@ -935,7 +935,7 @@
 				{
 					count: 256
 					id: "62BF3535355140A0"
-					item: "jeg:water_bomb"
+					item: "jeg:rifle_ammo"
 					type: "item"
 				}
 				{

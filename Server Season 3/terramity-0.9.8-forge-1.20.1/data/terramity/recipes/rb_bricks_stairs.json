@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:reinforced_blackstone_bricks"
+    }
+  },
+  "result": {
+    "item": "terramity:reinforced_blackstone_brick_stairs",
+    "count": 4
+  }
+}

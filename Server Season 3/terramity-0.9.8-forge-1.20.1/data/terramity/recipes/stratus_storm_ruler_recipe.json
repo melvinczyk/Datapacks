@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:topaz"
+    },
+    "b": {
+      "item": "terramity:iridium_sword"
+    }
+  },
+  "result": {
+    "item": "terramity:stratus_storm_ruler",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:antiprism"
+    },
+    "b": {
+      "item": "terramity:prismatic_jewel"
+    }
+  },
+  "result": {
+    "item": "terramity:antiprism",
+    "count": 6
+  }
+}

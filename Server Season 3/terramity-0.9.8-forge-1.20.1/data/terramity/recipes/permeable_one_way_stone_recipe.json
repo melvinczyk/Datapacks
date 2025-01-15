@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "bbb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:tinted_glass"
+    },
+    "b": {
+      "item": "terramity:accursed_soul"
+    }
+  },
+  "result": {
+    "item": "terramity:permeable_one_way_stone",
+    "count": 4
+  }
+}

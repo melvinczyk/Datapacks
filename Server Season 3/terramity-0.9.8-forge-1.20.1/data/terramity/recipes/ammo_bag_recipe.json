@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "c": {
+      "item": "terramity:copper_round"
+    }
+  },
+  "result": {
+    "item": "terramity:ammo_bag",
+    "count": 1
+  }
+}

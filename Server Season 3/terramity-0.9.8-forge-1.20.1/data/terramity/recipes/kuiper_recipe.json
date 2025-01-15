@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:prismatic_sarashi"
+    },
+    "b": {
+      "item": "terramity:void_alloy"
+    },
+    "c": {
+      "item": "terramity:asteroid_belt"
+    },
+    "d": {
+      "item": "terramity:black_matter"
+    }
+  },
+  "result": {
+    "item": "terramity:kuiper_belt",
+    "count": 1
+  }
+}

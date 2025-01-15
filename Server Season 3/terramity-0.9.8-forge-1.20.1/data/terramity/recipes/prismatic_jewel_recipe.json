@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "terramity:ruby"
+    },
+    {
+      "item": "terramity:topaz"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "terramity:sapphire"
+    },
+    {
+      "item": "terramity:onyx"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "terramity:iridescent_shard"
+    },
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "result": {
+    "item": "terramity:prismatic_jewel",
+    "count": 1
+  }
+}

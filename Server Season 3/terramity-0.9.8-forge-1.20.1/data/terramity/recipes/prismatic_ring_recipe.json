@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:prismatic_jewel"
+    },
+    "b": {
+      "item": "terramity:fairy_dust"
+    },
+    "c": {
+      "item": "terramity:empty_ring"
+    }
+  },
+  "result": {
+    "item": "terramity:prismatic_ring",
+    "count": 1
+  }
+}

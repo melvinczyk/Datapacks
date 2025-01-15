@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "terramity:focus_scarf"
+    },
+    "c": {
+      "item": "terramity:lucky_dice"
+    }
+  },
+  "result": {
+    "item": "terramity:die_of_revival",
+    "count": 1
+  }
+}

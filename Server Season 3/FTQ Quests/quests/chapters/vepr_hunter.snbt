@@ -12,7 +12,7 @@
 		}
 	}
 	id: "27812AE1ABFB1FF5"
-	order_index: 37
+	order_index: 68
 	quest_links: [ ]
 	quests: [
 		{
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Vepr Hunter"
+			subtitle: "Craft or obtain an Vepr Hunter"
 			tasks: [{
 				id: "3A5B7BB3508AE029"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Vepr Hunter"
+			title: "Aquire an Vepr Hunter"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

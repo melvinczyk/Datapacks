@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:iridium_chunk"
+    }
+  },
+  "result": {
+    "item": "terramity:iridium",
+    "count": 1
+  }
+}

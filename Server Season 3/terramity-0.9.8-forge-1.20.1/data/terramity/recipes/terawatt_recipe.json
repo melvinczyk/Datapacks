@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:accursed_soul"
+    },
+    "b": {
+      "item": "terramity:conductite"
+    },
+    "c": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "terramity:terawatt_bracers",
+    "count": 1
+  }
+}

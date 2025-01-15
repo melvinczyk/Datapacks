@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "terramity:polished_moonstone"
+  },
+  "result": "terramity:polished_moonstone_slab"
+}

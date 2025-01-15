@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "terramity:daemonium_block"
+    }
+  ],
+  "result": {
+    "item": "terramity:daemonium",
+    "count": 9
+  }
+}

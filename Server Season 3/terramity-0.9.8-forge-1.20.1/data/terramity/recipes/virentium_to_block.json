@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "terramity:virentium_alloy_ingot"
+    },
+    {
+      "item": "terramity:virentium_alloy_ingot"
+    },
+    {
+      "item": "terramity:virentium_alloy_ingot"
+    },
+    {
+      "item": "terramity:virentium_alloy_ingot"
+    },
+    {
+      "item": "terramity:virentium_alloy_ingot"
+    },
+    {
+      "item": "terramity:virentium_alloy_ingot"
+    },
+    {
+      "item": "terramity:virentium_alloy_ingot"
+    },
+    {
+      "item": "terramity:virentium_alloy_ingot"
+    },
+    {
+      "item": "terramity:virentium_alloy_ingot"
+    }
+  ],
+  "result": {
+    "item": "terramity:virentium_alloy_block",
+    "count": 1
+  }
+}

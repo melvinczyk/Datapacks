@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "ccb"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:angel_feather"
+    },
+    "b": {
+      "item": "terramity:antiprism"
+    },
+    "c": {
+      "item": "terramity:profanum"
+    }
+  },
+  "result": {
+    "item": "terramity:reverium",
+    "count": 2
+  }
+}

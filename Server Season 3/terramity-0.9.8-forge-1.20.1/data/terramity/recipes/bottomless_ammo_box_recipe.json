@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "dbd"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:spectral_soul"
+    },
+    "b": {
+      "item": "terramity:exodium_superalloy"
+    },
+    "c": {
+      "item": "terramity:ammo_box"
+    },
+    "d": {
+      "item": "terramity:cracked_microcosm"
+    }
+  },
+  "result": {
+    "item": "terramity:bottomless_ammo_box",
+    "count": 1
+  }
+}

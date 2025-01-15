@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "b": {
+      "item": "minecraft:spider_eye"
+    },
+    "c": {
+      "item": "terramity:diamond_gauntlet"
+    }
+  },
+  "result": {
+    "item": "terramity:famine_gauntlet",
+    "count": 1
+  }
+}

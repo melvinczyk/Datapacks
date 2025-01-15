@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "terramity:untapped_dimlite"
+    },
+    {
+      "item": "terramity:untapped_dimlite"
+    },
+    {
+      "item": "terramity:untapped_dimlite"
+    },
+    {
+      "item": "terramity:untapped_dimlite"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "result": {
+    "item": "terramity:dimlite_ingot",
+    "count": 1
+  }
+}

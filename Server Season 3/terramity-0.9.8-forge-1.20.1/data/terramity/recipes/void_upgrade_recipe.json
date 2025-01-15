@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "terramity:iridium_chunk"
+    },
+    "b": {
+      "item": "terramity:void_upgrade_smithing_template"
+    },
+    "c": {
+      "item": "terramity:empty_essence"
+    }
+  },
+  "result": {
+    "item": "terramity:void_upgrade_smithing_template",
+    "count": 2
+  }
+}
