@@ -33,12 +33,12 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 5.0,
+          "value": 16.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 100,
+          "value": 170,
           "operation": "ADDITION"
         }
       ]
@@ -49,12 +49,12 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 5.0,
+          "value": 10.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 100,
+          "value": 120,
           "operation": "ADDITION"
         }
       ]
@@ -65,12 +65,28 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 5.0,
+          "value": 7.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
           "value": 100,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "mutantmonsters:mutant_creeper",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 30.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 50,
           "operation": "ADDITION"
         }
       ]
@@ -609,7 +625,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 4.0,
+          "value": 20.0,
           "operation": "ADDITION"
         },
         {
@@ -625,7 +641,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 4.0,
+          "value": 18.0,
           "operation": "ADDITION"
         },
         {
@@ -748,7 +764,7 @@
       ]
     },
     {
-      "entity_regex": "ba_bt:cultist",
+      "entity_regex": "ba_bt:bt_cultist",
       "apply_chance": 100.0,
       "attributes": [
         {
@@ -1216,7 +1232,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 10.0,
+          "value": 20.0,
           "operation": "ADDITION"
         },
         {
@@ -1232,7 +1248,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 10.0,
+          "value": 20.0,
           "operation": "ADDITION"
         },
         {
@@ -1248,7 +1264,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 10.0,
+          "value": 20.0,
           "operation": "ADDITION"
         },
         {
@@ -1264,7 +1280,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 10.0,
+          "value": 20.0,
           "operation": "ADDITION"
         },
         {
@@ -1376,7 +1392,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 13.0,
+          "value": 4.0,
           "operation": "ADDITION"
         },
         {
@@ -1509,7 +1525,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 200.0,
+          "value": 150.0,
           "operation": "ADDITION"
         }
       ]
@@ -1525,7 +1541,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 200.0,
+          "value": 100.0,
           "operation": "ADDITION"
         }
       ]
@@ -1557,7 +1573,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 200.0,
+          "value": 100.0,
           "operation": "ADDITION"
         }
       ]
@@ -1573,7 +1589,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 300.0,
+          "value": 100.0,
           "operation": "ADDITION"
         }
       ]
@@ -1833,7 +1849,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 200.0,
+          "value": 110.0,
           "operation": "ADDITION"
         },
         {
@@ -1902,7 +1918,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 40.0,
+          "value": 20.0,
           "operation": "ADDITION"
         }
       ]
@@ -1918,7 +1934,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 400.0,
+          "value": 100.0,
           "operation": "ADDITION"
         }
       ]
@@ -2121,7 +2137,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 15.0,
+          "value": 5.0,
           "operation": "ADDITION"
         },
         {
@@ -2249,12 +2265,12 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 15.0,
+          "value": 12.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 300.0,
+          "value": 100.0,
           "operation": "ADDITION"
         }
       ]
@@ -2270,7 +2286,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 200.0,
+          "value": 70.0,
           "operation": "ADDITION"
         }
       ]
@@ -2772,6 +2788,81 @@
         {
           "attribute": "minecraft:generic.max_health",
           "value": 40.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "cataclysm:draugr",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 40.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "cataclysm:elite_draugr",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 15.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 50.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "terramity:virtue",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "terramity:megabite",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 15.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "terramity:elite_skeleton",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 3.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
           "operation": "ADDITION"
         }
       ]

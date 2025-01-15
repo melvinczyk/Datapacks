@@ -42,14 +42,14 @@ Format: faction_name|ai_difficulty|mob1,mob2...|closeGun1,closeGun2...|longGun1,
     mteg:m1_garand,mteg:m14,aurorasarsenal:ar_15|
     mteg:awp,mteg:akm_custom,mteg:m16a1",
 
-    "cultists|2|
+    "cultists|4|
     ba_bt:bt_cultist|
     jeg:custom_smg,jeg:assault_rifle,jeg:revolver|
     jeg:bolt_action_rifle,mteg:m1_garand|
     mteg:vss_vintorez,mteg:famas",
 
-    "mutant_upgrade|4|
-    mutant_monsters:mutant_skeleton,mutant_monsters:mutant_zombie,mutant_monsters:mutant_enderman|
+    "mutant_upgrade|5|
+    mutantmonsters:mutant_skeleton,mutantmonsters:mutant_zombie,mutantmonsters:mutant_enderman|
     aurorasarsenal:vepr_12,mteg:uzi,mteg:lanchester,mteg:mossberg_590|
     mteg:awp,aurorasarsenal:sr_25,mteg:as_val|
     mteg:m60,scguns:howler,scguns:howler_conversion|scguns:combat_shotgun",
@@ -64,6 +64,22 @@ Format: faction_name|ai_difficulty|mob1,mob2...|closeGun1,closeGun2...|longGun1,
     scguns:cog_knight,scguns:cog_minion,scguns:sky_carrier|
     scguns:scrapper,scguns:boomstick,scguns:bruiser|
     scguns:llr_director,scguns:makeshift_rifle|
-    scguns:mk43_rifle,scguns:auvtomag,scguns:callwell"
+    scguns:mk43_rifle,scguns:auvtomag,scguns:callwell",
+
+    "desert_dwellers|2|
+    minecraft:husk,variantsandventures:verdant|
+    jeg:custom_smg,mteg:double_barrel,jeg:combat_pistol|
+    jeg:bolt_action_rifle,mteg:m1_garand|
+    mteg:m14,jeg:semi_auto_rifle,mteg:sks",
+
+    "swamp_monsters|2|
+    variantsandventures:thicket,monsterplus:overgrown_skeleton,monsterplus:swamp_zombie|
+    jeg:custom_smg,mteg:double_barrel,jeg:combat_pistol|
+    jeg:bolt_action_rifle,mteg:m1_garand|
+    mteg:m14,jeg:semi_auto_rifle,mteg:sks",
+
+    "undead_vikings|3|
+    cataclysm:draugr,cataclysm:elite_draugr|
+    mteg:benelli_m4,mteg:uzi,mteg:double_barrel|
 
 ]
