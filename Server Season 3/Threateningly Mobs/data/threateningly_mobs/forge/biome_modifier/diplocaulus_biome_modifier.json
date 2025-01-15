@@ -3,7 +3,11 @@
   "biomes": [
     "mangrove_swamp",
     "swamp",
-    "river"
+    "river",
+    "biomesoplenty:bayou",
+    "biomesoplenty:floodplain",
+    "biomesoplenty:wetland",
+    "biomesoplenty:marsh"
   ],
   "spawners": {
     "type": "threateningly_mobs:diplocaulus",

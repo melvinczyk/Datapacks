@@ -6,7 +6,12 @@
     "sunflower_plains",
     "ice_spikes",
     "meadow",
-    "grove"
+    "grove",
+    "biomesoplenty:prairie",
+    "biomesoplenty:pasture",
+    "biomesoplenty:snowy_coniferous_forest",
+    "biomesoplenty:snowy_fir_clearing",
+    "biomesoplenty:woodland"
   ],
   "spawners": {
     "type": "threateningly_mobs:titan_rabbit",

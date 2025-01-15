@@ -6,7 +6,11 @@
     "eroded_badlands",
     "wooded_badlands",
     "stony_peaks",
-    "stony_shore"
+    "stony_shore",
+    "biomesoplenty:lush_desert",
+    "biomesoplenty:lush_savanna",
+    "biomesoplenty:wasteland",
+    "biomesoplenty:dryland"
   ],
   "spawners": {
     "type": "threateningly_mobs:sandworm",

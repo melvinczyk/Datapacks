@@ -7,7 +7,11 @@
     "desert",
     "windswept_gravelly_hills",
     "windswept_hills",
-    "stony_shore"
+    "stony_shore",
+    "biomesoplenty:wasteland",
+    "biomesoplenty:lush_desert",
+    "biomesoplenty:cold_desert",
+    "biomesoplenty:lush_savanna"
   ],
   "spawners": {
     "type": "threateningly_mobs:dracoscorpius",

@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Remington 870"
+			subtitle: "Craft or obtain a Remington 870"
 			tasks: [{
 				id: "0D1685C255C7C281"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Remington 870"
+			title: "Aquire a Remington 870"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

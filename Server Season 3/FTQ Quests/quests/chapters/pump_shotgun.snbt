@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Pump Shotgun using a Gunmetal Workbench"]
+			description: ["Craft a Pump Shotgun using a Gunmetal Workbench"]
 			id: "7F4B9571075AC777"
 			rewards: [{
 				count: 32
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Pump Shotgun"
+			subtitle: "Craft or obtain a Pump Shotgun"
 			tasks: [{
 				id: "2FED03CA04F741AF"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Pump Shotgun"
+			title: "Aquire a Pump Shotgun"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

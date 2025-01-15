@@ -8,7 +8,19 @@
     "dark_forest",
     "badlands",
     "eroded_badlands",
-    "wooded_badlands"
+    "wooded_badlands",
+    "biomesoplenty:woodland",
+    "biomesoplenty:old_growth_woodland",
+    "biomesoplenty:lush_savanna",
+    "biomesoplenty:snowy_maple_woods",
+    "biomesoplenty:snowy_fir_clearing",
+    "biomesoplenty:snowy_coniferous_forest",
+    "biomesoplenty:shrubland",
+    "biomesoplenty:rocky_shrubland",
+    "biomesoplenty:seasonal_forest",
+    "biomesoplenty:pumpkin_patch",
+    "biomesoplenty:prairie",
+    "biomesoplenty:marsh"
   ],
   "spawners": {
     "type": "threateningly_mobs:steelboar",

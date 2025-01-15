@@ -4,7 +4,10 @@
     "savanna",
     "savanna_plateau",
     "windswept_savanna",
-    "nether_wastes"
+    "nether_wastes",
+    "biomesoplenty:undergrowth",
+    "biomesoplenty:erupting_inferno",
+    "biomesoplenty:lush_savanna"
   ],
   "spawners": {
     "type": "threateningly_mobs:flame_horn",

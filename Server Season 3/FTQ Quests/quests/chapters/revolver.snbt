@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Revolver using a Scrap Workbench"]
+			description: ["Craft a Revolver using a Scrap Workbench"]
 			id: "648FC968F0EF8EE0"
 			rewards: [{
 				count: 30
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Revolver"
+			subtitle: "Craft or obtain a Revolver"
 			tasks: [{
 				id: "66A1A72928458236"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Revolver"
+			title: "Aquire a Revolver"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

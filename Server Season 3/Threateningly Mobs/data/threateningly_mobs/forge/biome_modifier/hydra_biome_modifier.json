@@ -11,7 +11,11 @@
     "ocean",
     "warm_ocean",
     "frozen_river",
-    "swamp"
+    "swamp",
+    "biomesoplenty:bayou",
+    "biomesoplenty:floodplain",
+    "biomesoplenty:wetland",
+    "biomesoplenty:marsh"
   ],
   "spawners": {
     "type": "threateningly_mobs:hydra",

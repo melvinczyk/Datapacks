@@ -6,7 +6,9 @@
     "bamboo_jungle",
     "cold_ocean",
     "dark_forest",
-    "jungle"
+    "jungle",
+    "biomesoplenty:jungle",
+    "biomesoplenty:bamboo_grove"
   ],
   "spawners": {
     "type": "threateningly_mobs:strong_zombie",

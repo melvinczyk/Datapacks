@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Vepr 12"
+			subtitle: "Craft or obtain a Vepr 12"
 			tasks: [{
 				id: "0D370610AC1C6139"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Vepr 12"
+			title: "Aquire a Vepr 12"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Double Barrel"
+			subtitle: "Craft or obtain a Double Barrel"
 			tasks: [{
 				id: "661E64F65BFB9780"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Double Barrel"
+			title: "Aquire a Double Barrel"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

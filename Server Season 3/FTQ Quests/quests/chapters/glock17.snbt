@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Glock 17"
+			subtitle: "Craft or obtain a Glock 17"
 			tasks: [{
 				id: "1F5B058454C00A68"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Glock 17"
+			title: "Aquire a Glock 17"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

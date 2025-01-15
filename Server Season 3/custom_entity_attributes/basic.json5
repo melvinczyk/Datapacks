@@ -182,7 +182,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 150,
+          "value": 170,
           "operation": "ADDITION"
         }
       ]
@@ -230,7 +230,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 80,
+          "value": 100,
           "operation": "ADDITION"
         }
       ]
@@ -246,7 +246,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 120,
+          "value": 150,
           "operation": "ADDITION"
         }
       ]
@@ -317,7 +317,7 @@
     },
     {
       "entity_regex": "threateningly_mobs:inferno",
-      "apply_chance": 100.0,
+      "apply_chance": 150.0,
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
@@ -326,14 +326,14 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 100,
+          "value": 200,
           "operation": "ADDITION"
         }
       ]
     },
     {
       "entity_regex": "threateningly_mobs:solscarab_maximus",
-      "apply_chance": 100.0,
+      "apply_chance": 150.0,
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
@@ -438,7 +438,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 150,
+          "value": 200,
           "operation": "ADDITION"
         }
       ]
@@ -486,7 +486,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 40,
+          "value": 60,
           "operation": "ADDITION"
         }
       ]
@@ -502,7 +502,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 60,
+          "value": 80,
           "operation": "ADDITION"
         }
       ]
@@ -582,7 +582,2196 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 10,
+          "value": 50,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "bosses_of_mass_destruction:gauntlet",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 250,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "bosses_of_mass_destruction:lich",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 250,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "bosses_of_mass_destruction:void_blossom",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 250,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "bosses_of_mass_destruction:obsidilith",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 250,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "arphex:scorpioid_bloodluster",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 80,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "ba_bt:end_golem",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 50,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "ba_bt:land_golem",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 50,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "ba_bt:ocean_golem",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 50,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "ba_bt:sky_golem",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 50,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "ba_bt:nether_golem",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 50,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "ba_bt:cultist",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 8.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "cannibal:cannibal",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 8.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 50,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "cannibal:cannibal_butcher",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 8.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 150,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "caverns_and_chasms:mime",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 8.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 50,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "cnc:chupacabra",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "cnc:wechuge",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 14.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "cnc:giant_boar",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 30,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "cnc:sasquatch",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 100,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "cnc:skinwalker",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 100,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "cnc:wendigo",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 100,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "corundumguardian:corundum_guardian",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 400,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "crimsonsteves_mutant_mobs:hopkeleton",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 30.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    {
+      "entity_regex": "crimsonsteves_mutant_mobs:withered_boxer",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 30.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "crimsonsteves_mutant_mobs:withered_hopkeleton",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 30.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    {
+      "entity_regex": "crimsonsteves_mutant_mobs:mutant_skeleton",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 150.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    {
+      "entity_regex": "enemyexpansion:slugger",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 30.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "enemyexpansion:sprinter",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 30.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "enemyexpansion:equestrian",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 30.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "enemyexpansion:huntsman",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 40.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "farlanders:titan",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 15.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "farlanders:ender_golem",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 50.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "farlanders:rebel",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 10.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "guardvillagers:guard",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 30.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "hs_bosses:sand_warrior",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 300.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "fromtheshadows:cleric",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 10.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "fromtheshadows:froglin",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 50.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "fromtheshadows:nehemoth",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "fromtheshadows:bulldrogioth",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "illageandspillage:freakager",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "illageandspillage:ragno",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "illageandspillage:magispeller",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "illageandspillage:spiritcaller",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "illageandspillage:absorber",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 1.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 50.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "theinkarena:blot",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 300.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "theinkarena:ink_brute",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "theinkarena:natural_ink_brute",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "theinkarena:ink_titan",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "theinkarena:natural_ink_titan",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "theinkarena:morphink",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 13.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 15.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "theinkarena:ink_worm",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 3.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "legendarycreatures:corpse_eater",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 30.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "legendarycreatures:hound",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "look:deerclops",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 120.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "look:eye_of_cthulu",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 15.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 120.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "look:retinazer",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "look:spazmatism",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:bone_stalker",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:crimson_spitter",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:horseless_headsman",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:mummy",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:phoenixbird",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 300.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:piglin_executioner",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 20.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:rare_bone_stalker",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 15.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 300.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:rare_crimson_spitter",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 300.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:rare_executioner",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:rare_mummy",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:rare_phoenix_bird",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:rare_tree_ent",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:rare_vile_gator",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.5,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:rare_yeti",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:soul_furnace",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:the_furnace",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:the_scarecrow",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:tree_ent",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:vile_gator",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.5,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_beasts:yeti",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    {
+      "entity_regex": "minecraft:wither",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 14.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "minecraft:warden",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "mokels_boss_mantyd:boss_mantyd",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 400.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "mokels_bossfight_saphyra:infested_witch",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 40.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "mokels_bossfight_saphyra:mothboss",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 400.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "mokels_bossfight_saphyra:nameless",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "mokels_bossfight_saphyra:puppet_of_yiva_nemor",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "mokels_bossfight_saphyra:witchboss",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 400.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "monsterplus:abyssologer",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 10.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "monsterplus:crystal_zombie",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 10.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "monsterplus:lava_squid",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "monsterplus:overgrown_skeleton",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 5.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "monsterplus:swamp_zombie",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 10.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "monsterplus:mother_lava_squid",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 7.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 60.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "mowziesmobs:ferrous_wroughtnaut",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 60.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "mowziesmobs:foliaath",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 50.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "mowziesmobs:frostmaw",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 20.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "mowziesmobs:umvuthi",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 15.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 300.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "mythsandlegends:black_charro",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "mythsandlegends:possessed_armor",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 100.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "netherexp:apparition",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 10.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "netherexp:banshee",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 30.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "netherexp:vessel",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 30.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "netherexp:stampede",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 500.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "pigzilla:biting_pig",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "pigzilla:pigzilla",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 15.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 300.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "razor_tyrant:razor_tyrant",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 7.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "rootoffear:wilted",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 20.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "royalvariations:royal_creeper",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "royalvariations:royal_zombie",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "royalvariations:royal_skeleton",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "savage_and_ravage:executioner",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "savage_and_ravage:griefer",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "savage_and_ravage:iceologer",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "savage_and_ravage:trickster",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "scguns:blunderer",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "scguns:cog_knight",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 40.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "scguns:dissident",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 70.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        }
+      ]
+    },
+    {
+      "entity_regex": "scguns:cog_minion",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 10.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "scguns:hornlin",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 40.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "scguns:redcoat",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 10.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "scguns:swarm",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 10.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "species:treeper",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 150.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "takesapillage:archer",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "takesapillage:clay_golem",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "takesapillage:legioner",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "takesapillage:skirmisher",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "the_spino:spino",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 13.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 50.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "variantsandventures:gelid",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 10.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "variantsandventures:murk",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 2.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 8.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "variantsandventures:thicket",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 10.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "variantsandventures:verdant",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 4.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 6.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "zombiesmore:crawler",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 1.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 5.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "zombiesmore:cursed_head",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 1.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 5.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "zombiesmore:cursed_zombie",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 10.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "zombiesmore:explosive_zombie",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 10.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "zombiesmore:boomer_zombie",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 20.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "zombiesmore:tank_zombie",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 15.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 40.0,
           "operation": "ADDITION"
         }
       ]

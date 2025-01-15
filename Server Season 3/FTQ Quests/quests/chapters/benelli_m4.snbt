@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Benelli M4"
+			subtitle: "Craft or obtain a Benelli M4"
 			tasks: [{
 				id: "6820B69E48D90BF6"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Benelli M4"
+			title: "Aquire a Benelli M4"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

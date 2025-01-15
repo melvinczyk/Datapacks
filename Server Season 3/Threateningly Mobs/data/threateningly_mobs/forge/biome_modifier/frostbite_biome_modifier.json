@@ -10,7 +10,12 @@
     "deep_cold_ocean",
     "old_growth_pine_taiga",
     "old_growth_spruce_taiga",
-    "taiga"
+    "taiga",
+    "biomesoplenty:cold_desert",
+    "biomesoplenty:auroral_garden",
+    "biomesoplenty:coniferous_forest",
+    "biomesoplenty:muskeg",
+    "biomesoplenty:snowy_maple_woods"
   ],
   "spawners": {
     "type": "threateningly_mobs:frostbite",

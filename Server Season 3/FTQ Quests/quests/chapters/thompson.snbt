@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Thompson using a Gunmetal Workbench"]
+			description: ["Craft a Thompson using a Gunmetal Workbench"]
 			id: "637876B0AE83C24E"
 			rewards: [{
 				count: 60
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Thompson"
+			subtitle: "Craft or obtain a Thompson"
 			tasks: [{
 				id: "5D7508CA6ADEE465"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Thompson"
+			title: "Aquire a Thompson"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

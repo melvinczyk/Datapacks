@@ -9,7 +9,14 @@
     "windswept_forest",
     "bamboo_jungle",
     "jungle",
-    "sparse_jungle"
+    "sparse_jungle",
+    "biomesoplenty:woodland",
+    "biomesoplenty:bamboo_grove",
+    "biomesoplenty:aspen_forest",
+    "biomesoplenty:jade_cliffs",
+    "biomesoplenty:old_growth_woodland",
+    "biomesoplenty:rainforest",
+    "biomesoplenty:redwood_forest"
   ],
   "spawners": {
     "type": "threateningly_mobs:earth_loong",

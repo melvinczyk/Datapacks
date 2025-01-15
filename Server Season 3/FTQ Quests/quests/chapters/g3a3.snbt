@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an G3A3 using a Gunnite Workbench"]
+			description: ["Craft a G3A3 using a Gunnite Workbench"]
 			id: "369F67C1E98BADE4"
 			rewards: [{
 				count: 30
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an G3A3"
+			subtitle: "Craft or obtain a G3A3"
 			tasks: [{
 				id: "53B170A4F366E0C9"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an G3A3"
+			title: "Aquire a G3A3"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

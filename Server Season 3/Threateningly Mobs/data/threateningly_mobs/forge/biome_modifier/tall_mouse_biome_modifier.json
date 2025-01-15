@@ -6,7 +6,12 @@
     "meadow",
     "savanna",
     "savanna_plateau",
-    "windswept_savanna"
+    "windswept_savanna",
+    "biomesoplenty:lush_savanna",
+    "biomesoplenty:prairie",
+    "biomesoplenty:pasture",
+    "biomesoplenty:pumpkin_patch",
+    "biomesoplenty:shrubland"
   ],
   "spawners": {
     "type": "threateningly_mobs:tall_mouse",

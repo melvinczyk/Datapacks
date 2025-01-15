@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Blossom Rifle"
+			subtitle: "Craft or obtain a Blossom Rifle"
 			tasks: [{
 				id: "7C43F5E1FEDA3DF0"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Blossom Rifle"
+			title: "Aquire a Blossom Rifle"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

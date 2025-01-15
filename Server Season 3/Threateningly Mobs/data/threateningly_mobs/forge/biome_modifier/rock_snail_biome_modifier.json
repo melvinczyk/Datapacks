@@ -6,7 +6,13 @@
     "birch_forest",
     "dark_forest",
     "flower_forest",
-    "windswept_forest"
+    "windswept_forest",
+    "biomesoplenty:woodland",
+    "biomesoplenty:old_growth_woodland",
+    "biomesoplenty:redwood_forest",
+    "biomesoplenty:rainforest",
+    "biomesoplenty:rocky_shrubland",
+    "biomesoplenty:snowy_coniferous_forest"
   ],
   "spawners": {
     "type": "threateningly_mobs:rock_snail",

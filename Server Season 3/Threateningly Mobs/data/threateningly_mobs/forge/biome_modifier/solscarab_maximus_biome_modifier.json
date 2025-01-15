@@ -7,7 +7,13 @@
     "badlands",
     "savanna",
     "savanna_plateau",
-    "windswept_savanna"
+    "windswept_savanna",
+    "biomesoplenty:wasteland",
+    "biomesoplenty:lush_desert",
+    "biomesoplenty:lush_savanna",
+    "biomesoplenty:dryland",
+    "biomesoplenty:volcano",
+    "biomesoplenty:volcanic_plains"
   ],
   "spawners": {
     "type": "threateningly_mobs:solscarab_maximus",

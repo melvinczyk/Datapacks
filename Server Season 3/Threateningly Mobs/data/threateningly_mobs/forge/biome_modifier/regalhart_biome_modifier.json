@@ -11,7 +11,18 @@
     "old_growth_pine_taiga",
     "old_growth_spruce_taiga",
     "snowy_taiga",
-    "taiga"
+    "taiga",
+    "biomesoplenty:old_growth_woodland",
+    "biomesoplenty:woodland",
+    "biomesoplenty:snowy_fir_clearing",
+    "biomesoplenty:snowy_maple_woods",
+    "biomesoplenty:muskeg",
+    "biomesoplenty:bog",
+    "biomesoplenty:field",
+    "biomesoplenty:fir_clearing",
+    "biomesoplenty:grassland",
+    "biomesoplenty:maple_woods",
+    "biomesoplenty:orchard"
   ],
   "spawners": {
     "type": "threateningly_mobs:regalhart",

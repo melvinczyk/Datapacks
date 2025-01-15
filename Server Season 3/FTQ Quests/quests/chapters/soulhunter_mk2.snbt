@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft an Soulhunter MK2 by finding its blueprint and using a Blueprint Workbench"]
+			description: ["Craft a Soulhunter MK2 by finding its blueprint and using a Blueprint Workbench"]
 			id: "6B65A87D821801A8"
 			rewards: [{
 				count: 60
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain an Soulhunter MK2"
+			subtitle: "Craft or obtain a Soulhunter MK2"
 			tasks: [{
 				id: "0E2CC17BEF8B47AF"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire an Soulhunter MK2"
+			title: "Aquire a Soulhunter MK2"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

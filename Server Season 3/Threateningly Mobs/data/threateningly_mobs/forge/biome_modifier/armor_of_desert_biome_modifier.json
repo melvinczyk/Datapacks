@@ -5,7 +5,9 @@
     "badlands",
     "eroded_badlands",
     "wooded_badlands",
-    "biomesoplenty:wasteland"
+    "biomesoplenty:wasteland",
+    "biomesoplenty:dryland",
+    "biomesoplenty:lush_desert"
   ],
   "spawners": {
     "type": "threateningly_mobs:armor_of_desert",
