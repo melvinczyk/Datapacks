@@ -49,7 +49,9 @@ def zip_and_copy_datapacks(server_season_folder, datapacks_folder):
     print("All eligible folders have been processed.")
 
 if __name__ == "__main__":
-    server_season_folder_path = r"/Users/nicholasburczyk/Desktop/Minecraft server stuff/Datapacks/Server Season 3"
-    datapacks_folder_path = r"/Users/nicholasburczyk/Documents/curseforge/minecraft/Instances/Server V3 (Guns)/saves/New World/datapacks"
+    datapacks_folder_path = "C:/Users/Nick/curseforge/minecraft/Instances/Guns/saves/New World/datapacks"
+    server_season_folder_path = "C:/Users/Nick/Documents/Datapacks/Server Season 3"
+    #server_season_folder_path = r"/Users/nicholasburczyk/Desktop/Minecraft server stuff/Datapacks/Server Season 3"
+    #datapacks_folder_path = r"/Users/nicholasburczyk/Documents/curseforge/minecraft/Instances/Server V3 (Guns)/saves/New World/datapacks"
 
     zip_and_copy_datapacks(server_season_folder_path, datapacks_folder_path)

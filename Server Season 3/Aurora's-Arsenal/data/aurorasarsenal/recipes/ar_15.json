@@ -6,11 +6,11 @@
     "materials": [
         {
             "item": "jeg:gunnite_ingot",
-            "count": 13
+            "count": 15
         },
         {
             "item": "jeg:gunmetal_ingot",
-            "count": 5
+            "count": 10
         },
         {
             "item": "jeg:scrap",

@@ -1,0 +1,17 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "desert",
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands",
+    "stony_peaks",
+    "stony_shore"
+  ],
+  "spawners": {
+    "type": "threateningly_mobs:sandworm",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "birch_forest",
+    "dark_forest",
+    "flower_forest",
+    "forest",
+    "old_growth_birch_forest",
+    "windswept_forest",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "snowy_taiga",
+    "taiga",
+    "cherry_grove",
+    "sunflower_plains",
+    "plains"
+  ],
+  "spawners": {
+    "type": "threateningly_mobs:nature_fairy",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

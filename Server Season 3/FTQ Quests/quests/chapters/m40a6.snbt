@@ -49,7 +49,7 @@
 			id: "2182F1C3B3E2F015"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m40a6_damage base set 26.25"
+					command: "/attribute @s hoths_jeg_attributes:m40a6_damage base set 30.25"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -121,7 +121,7 @@
 			id: "127BCD9ABCFC885B"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m40a6_damage base set 26.50"
+					command: "/attribute @s hoths_jeg_attributes:m40a6_damage base set 30.50"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -199,7 +199,7 @@
 			id: "27B5651F8AD89FE1"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m40a6_damage base set 26.75"
+					command: "/attribute @s hoths_jeg_attributes:m40a6_damage base set 30.75"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -290,7 +290,7 @@
 			id: "204F422215203D86"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m40a6_damage base set 27.00"
+					command: "/attribute @s hoths_jeg_attributes:m40a6_damage base set 29.00"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -391,7 +391,7 @@
 			id: "6CF9913CE211B6E6"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m40a6_damage base set 27.50"
+					command: "/attribute @s hoths_jeg_attributes:m40a6_damage base set 29.50"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -506,7 +506,7 @@
 			id: "64BB6DE8DD7F1AAF"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m40a6_damage base set 27.25"
+					command: "/attribute @s hoths_jeg_attributes:m40a6_damage base set 29.25"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -754,7 +754,7 @@
 			id: "76B91DB23FF221B7"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m40a6_damage base set 28.00"
+					command: "/attribute @s hoths_jeg_attributes:m40a6_damage base set 30.00"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -908,7 +908,7 @@
 			id: "16A1882518AC13C1"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:m40a6_damage base set 29.00"
+					command: "/attribute @s hoths_jeg_attributes:m40a6_damage base set 31.00"
 					elevate_perms: true
 					icon: {
 						Count: 1
