@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft a Mosin using a Gunmetal Workbench"]
+			description: ["Craft an Mosin using a Gunmetal Workbench"]
 			id: "3B1ADADBD481C373"
 			rewards: [{
 				count: 30
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Mosin"
+			subtitle: "Craft or obtain an Mosin"
 			tasks: [{
 				id: "39A6CA0D928833EB"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Mosin"
+			title: "Aquire an Mosin"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

@@ -1,0 +1,210 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "diamond_steel_teir"
+	group: "1078D0CCFA385DA2"
+	icon: "scguns:diamond_steel_blueprint"
+	id: "51DC9AE151AF7A61"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "4023ECA1056A9E91"
+		min_required_tasks: 1
+		rewards: [
+			{
+				count: 32
+				id: "44FBFBB426209139"
+				item: "scguns:compact_advanced_round"
+				type: "item"
+			}
+			{
+				count: 32
+				id: "1217B3BF9414FD85"
+				item: "scguns:beowulf_round"
+				type: "item"
+			}
+			{
+				count: 32
+				id: "540E30242EAE935C"
+				item: "scguns:gibbs_round"
+				type: "item"
+			}
+			{
+				count: 16
+				id: "514945A03D6A6998"
+				item: "scguns:bearpack_shell"
+				type: "item"
+			}
+			{
+				count: 32
+				id: "441174D65EF6A018"
+				item: "scguns:advanced_round"
+				type: "item"
+			}
+			{
+				count: 16
+				id: "59D9EEF1F5DE3A62"
+				item: "scguns:energy_cell"
+				type: "item"
+			}
+			{
+				count: 16
+				id: "364854CB1F54A579"
+				item: "scguns:microjet"
+				type: "item"
+			}
+			{
+				count: 16
+				id: "3555FB811BE6E162"
+				item: "scguns:energy_core"
+				type: "item"
+			}
+			{
+				id: "148567A9E048D7E1"
+				type: "xp_levels"
+				xp_levels: 15
+			}
+		]
+		shape: "hexagon"
+		size: 2.0d
+		subtitle: "Get a Diamond Steel Teir Weapon"
+		tasks: [
+			{
+				id: "3BC7F42AF1356BAA"
+				item: {
+					Count: 1
+					id: "scguns:krauser"
+					tag: {
+						AmmoCount: 12
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "064DE4D0B81D5399"
+				item: {
+					Count: 1
+					id: "scguns:soul_drummer"
+					tag: {
+						AmmoCount: 22
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "63C8C908B1C48FE2"
+				item: {
+					Count: 1
+					id: "scguns:valora"
+					tag: {
+						AmmoCount: 17
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "1122835ACEA0C312"
+				item: {
+					Count: 1
+					id: "scguns:uppercut"
+					tag: {
+						AmmoCount: 4
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "117B8C7493EEA959"
+				item: {
+					Count: 1
+					id: "scguns:prush_gun"
+					tag: {
+						AmmoCount: 21
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "3D67BBD2C2062E48"
+				item: {
+					Count: 1
+					id: "scguns:lockewood"
+					tag: {
+						AmmoCount: 21
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "16629CA588E694B3"
+				item: {
+					Count: 1
+					id: "scguns:inertial"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "555A6E636539993C"
+				item: {
+					Count: 1
+					id: "scguns:mas_55"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "3962154E32291A9F"
+				item: {
+					Count: 1
+					id: "scguns:plasgun"
+					tag: {
+						AmmoCount: 15
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "036B3FADE976E7AD"
+				item: {
+					Count: 1
+					id: "scguns:cyclone"
+					tag: {
+						AmmoCount: 18
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "6FFF0C6FFBAAB0E5"
+				item: {
+					Count: 1
+					id: "scguns:shard_culler"
+					tag: {
+						AmmoCount: 42
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+		]
+		title: "Get a Diamond Steel Teir Weapon"
+		x: 0.0d
+		y: 0.5d
+	}]
+	title: "Diamond Steel Teir"
+}

@@ -16,17 +16,16 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft a Flamer using a Gunnite Workbench"]
+			description: ["Craft an Flamer using a Gunnite Workbench"]
 			id: "3AFC8312E10C9C1D"
 			rewards: [{
-				count: 1
 				id: "58AF36B6172E9D97"
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Flamer"
+			subtitle: "Craft or obtain an Flamer"
 			tasks: [{
 				id: "137F0EC1E8E3EB2C"
 				item: {
@@ -39,7 +38,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Flamer"
+			title: "Aquire an Flamer"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
@@ -63,7 +62,6 @@
 					type: "command"
 				}
 				{
-					count: 1
 					id: "6FCF3F1C9A127E3C"
 					item: "minecraft:lava_bucket"
 					type: "item"
@@ -135,7 +133,6 @@
 					type: "command"
 				}
 				{
-					count: 1
 					id: "2F34832C81F96FDC"
 					item: "minecraft:lava_bucket"
 					type: "item"
@@ -213,7 +210,6 @@
 					type: "command"
 				}
 				{
-					count: 1
 					id: "5A8A7884BE6381D7"
 					item: "minecraft:lava_bucket"
 					type: "item"
@@ -304,7 +300,6 @@
 					type: "command"
 				}
 				{
-					count: 1
 					id: "40998AA95AFC112D"
 					item: "minecraft:lava_bucket"
 					type: "item"

@@ -1,0 +1,120 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "piglin_teir"
+	group: "1078D0CCFA385DA2"
+	icon: "scguns:piglin_blueprint"
+	id: "70295AC3559F1ADB"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "0F82263B6862C188"
+		min_required_tasks: 1
+		rewards: [
+			{
+				count: 16
+				id: "7468192899607374"
+				item: "scguns:blaze_fuel"
+				type: "item"
+			}
+			{
+				count: 32
+				id: "1DDDC022F4D1F874"
+				item: "scguns:hog_round"
+				type: "item"
+			}
+			{
+				count: 16
+				id: "02291AA82329B8BD"
+				item: "jeg:shotgun_shell"
+				type: "item"
+			}
+			{
+				id: "445282EF003F20C5"
+				type: "xp_levels"
+				xp_levels: 20
+			}
+		]
+		shape: "hexagon"
+		size: 2.0d
+		subtitle: "Get a Piglin Teir Weapon"
+		tasks: [
+			{
+				id: "66902504B85149B4"
+				item: {
+					Count: 1
+					id: "scguns:blasphemy"
+					tag: {
+						AmmoCount: 10
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "59CD2E1A6159C4F2"
+				item: {
+					Count: 1
+					id: "scguns:pyroclastic_flow"
+					tag: {
+						AmmoCount: 7
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "5742303781F367F0"
+				item: {
+					Count: 1
+					id: "scguns:freyr"
+					tag: {
+						AmmoCount: 24
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "55A7F7825CD2F070"
+				item: {
+					Count: 1
+					id: "scguns:mangalitsa"
+					tag: {
+						AmmoCount: 7
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "1192DD2FBD670137"
+				item: {
+					Count: 1
+					id: "scguns:vulcanic_repeater"
+					tag: {
+						AmmoCount: 15
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "787A69A2EE37EC1B"
+				item: {
+					Count: 1
+					id: "scguns:super_shotgun"
+					tag: {
+						AmmoCount: 2
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+		]
+		title: "Get a Piglin Teir Weapon"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Piglin Teir"
+}

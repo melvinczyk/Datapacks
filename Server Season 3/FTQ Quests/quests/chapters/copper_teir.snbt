@@ -1,0 +1,569 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "copper_teir"
+	group: "1078D0CCFA385DA2"
+	icon: "scguns:copper_blueprint"
+	id: "103FBF807D7609EE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "66CB6C58344009E2"
+			min_required_tasks: 1
+			rewards: [
+				{
+					count: 16
+					id: "584A53C85C456593"
+					item: "scguns:compact_copper_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "698029A42E563712"
+					item: "scguns:standard_bullet"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "68A2864DB4B871B7"
+					item: "scguns:standard_copper_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0179404149AD0DD7"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "223CD169A78F8A90"
+					item: "scguns:ramrod_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6DE2CF562E334823"
+					item: "scguns:shock_cell"
+					type: "item"
+				}
+				{
+					id: "07F0E1A699BA1EEF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Get a Copper Teir Weapon"
+			tasks: [
+				{
+					id: "6F2D27266BA0C402"
+					item: {
+						Count: 1
+						id: "scguns:scrapper"
+						tag: {
+							AmmoCount: 8
+							Damage: 0
+							MagazinePosition: 0.0f
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "472DC69FDD83F1F6"
+					item: {
+						Count: 1
+						id: "scguns:rusty_gnat"
+						tag: {
+							AmmoCount: 14
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DF00A25F3E9153A"
+					item: {
+						Count: 1
+						id: "scguns:umax_pistol"
+						tag: {
+							AmmoCount: 6
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "464C8BC58B889AA0"
+					item: {
+						Count: 1
+						id: "scguns:makeshift_rifle"
+						tag: {
+							AmmoCount: 15
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66B3E44FBB1969FD"
+					item: {
+						Count: 1
+						id: "scguns:boomstick"
+						tag: {
+							AmmoCount: 4
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "336213EF5790E7A9"
+					item: {
+						Count: 1
+						id: "scguns:bruiser"
+						tag: {
+							AmmoCount: 3
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21AF2A688323C103"
+					item: {
+						Count: 1
+						id: "scguns:llr_director"
+						tag: {
+							AmmoCount: 7
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "429BF71E2F164170"
+					item: {
+						Count: 1
+						id: "scguns:arc_worker"
+						tag: {
+							AmmoCount: 10
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Get a Copper Teir Weapon"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38D832572E2802C5"]
+			id: "58914CECA63F28D0"
+			rewards: [
+				{
+					count: 32
+					id: "628F44D681D5D041"
+					item: "scguns:compact_copper_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2B58D12C74AC1CCA"
+					item: "scguns:standard_copper_round"
+					type: "item"
+				}
+				{
+					id: "6BA5C11CB9E43FFC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "6D8DDF9FEB7BDFFC"
+					type: "kill"
+					value: 150L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "3F20B23FBF8EC99A"
+					type: "kill"
+					value: 150L
+				}
+			]
+			title: "Copper Basics 1/3"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"66CB6C58344009E2"
+				"08A08CA2CF7BEF71"
+			]
+			id: "38D832572E2802C5"
+			shape: "gear"
+			subtitle: "You must complete the Flint Teir first"
+			tasks: [{
+				id: "10E06BD0291CF065"
+				title: "Completed Flint Teir"
+				type: "checkmark"
+			}]
+			title: "Completed Flint Mastery"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58914CECA63F28D0"]
+			id: "10471E6FF9B8F727"
+			rewards: [
+				{
+					count: 32
+					id: "62E12C9810450E1A"
+					item: "scguns:compact_copper_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "07B0E70F42520134"
+					item: "scguns:standard_copper_round"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "0D899B7CC69629EA"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "4BAE5862D1F613C2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:husk"
+					id: "11DDFA149847B37D"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "monsterplus:swamp_zombie"
+					icon: "swampier_swamps:gas_bottle"
+					id: "7C6A5636D5F622A2"
+					type: "kill"
+					value: 100L
+				}
+			]
+			title: "Copper Basics 2/3"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58914CECA63F28D0"]
+			id: "0FEC292C5CE73B74"
+			rewards: [
+				{
+					count: 32
+					id: "1F3BD83F99EBEA64"
+					item: "scguns:compact_copper_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "604E68C3B6E636BE"
+					item: "scguns:standard_copper_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "404D64F31481FFCF"
+					item: "scguns:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "5EDBFDD63F71026E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					entity: "variantsandventures:verdant"
+					icon: "mysticsbiomes:desert_grass"
+					id: "0371FB46E546B106"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "monsterplus:overgrown_skeleton"
+					icon: "minecraft:vine"
+					id: "79B8E32BC6156766"
+					type: "kill"
+					value: 100L
+				}
+			]
+			title: "Copper Basics 3/3"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"10471E6FF9B8F727"
+				"0FEC292C5CE73B74"
+			]
+			description: ["This kill challenge needs you to kill a Mutant Zombie with a Scrapper gun."]
+			id: "6765F2A3EE94A7FE"
+			rewards: [
+				{
+					count: 64
+					id: "496574F0D0F0EBA4"
+					item: "scguns:compact_copper_round"
+					type: "item"
+				}
+				{
+					id: "7C4F8DAB16C870BE"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill a Mutant Zombie with a Scrapper"
+			tasks: [{
+				checkItem: true
+				entity: "mutantmonsters:mutant_zombie"
+				icon: {
+					Count: 1
+					id: "scguns:scrapper"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+						MagazinePosition: 0.0f
+					}
+				}
+				id: "7A3146C4BF87DB19"
+				item: {
+					Count: 1
+					id: "scguns:scrapper"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+						MagazinePosition: 0.0f
+					}
+				}
+				nbt: { }
+				title: "Kill a Mutant Zombie with a Scrapper"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Copper Major Challenge Kill"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6765F2A3EE94A7FE"]
+			id: "0818824D501A6D13"
+			rewards: [
+				{
+					count: 16
+					id: "3C4F64C071099ADB"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "2671E71EEE6FF57B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				checkItem: true
+				entity: "minecraft:pillager"
+				icon: {
+					Count: 1
+					id: "scguns:boomstick"
+					tag: {
+						AmmoCount: 4
+						Damage: 0
+					}
+				}
+				id: "71389B2E0FBE0294"
+				item: {
+					Count: 1
+					id: "scguns:boomstick"
+					tag: {
+						AmmoCount: 4
+						Damage: 0
+					}
+				}
+				nbt: { }
+				title: "Kill 50 Pillagers with a Boomstick"
+				type: "questsadditions:killnbt"
+				value: 50L
+			}]
+			title: "Copper Minor Challenge kill 1/2"
+			x: -1.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6765F2A3EE94A7FE"]
+			id: "0A4DA6F6F8052177"
+			rewards: [
+				{
+					count: 64
+					id: "0AEEA0FBA78E5AA3"
+					item: "scguns:compact_copper_round"
+					type: "item"
+				}
+				{
+					id: "280F4C9664BC03F3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				checkItem: true
+				entity: "minecraft:vindicator"
+				icon: {
+					Count: 1
+					id: "scguns:makeshift_rifle"
+					tag: {
+						AmmoCount: 15
+						Damage: 0
+					}
+				}
+				id: "6323BE3816E78D23"
+				item: {
+					Count: 1
+					id: "scguns:makeshift_rifle"
+					tag: {
+						AmmoCount: 15
+						Damage: 0
+					}
+				}
+				nbt: { }
+				title: "Kill 50 Vindicators with a Makeshift Rifle"
+				type: "questsadditions:killnbt"
+				value: 50L
+			}]
+			title: "Copper Minor Challenge kill 2/2"
+			x: 1.25d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0818824D501A6D13"
+				"0A4DA6F6F8052177"
+			]
+			icon: "minecraft:copper_ingot"
+			id: "68E51728BA486E39"
+			rewards: [
+				{
+					count: 64
+					id: "1EEF4C223362BCEB"
+					item: "scguns:standard_copper_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7C86082D7BBBC68D"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2B84D5B58B454B9D"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					id: "483054853A055199"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					command: "/attribute @s scguns:additional_weapon_damage base set 1.0"
+					icon: "itemfilters:damage"
+					id: "49DAA20003880BCA"
+					title: "1.0 base Scorched Guns added damage"
+					type: "command"
+				}
+				{
+					id: "6932E19CEF2DA7DB"
+					item: "scguns:gun_parts"
+					type: "item"
+				}
+				{
+					id: "17BB3C5D3CA7BEDA"
+					item: "scguns:treated_iron_ingot"
+					type: "item"
+				}
+				{
+					id: "3823F8AC07CD5BD3"
+					item: "scguns:gun_magazine"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "This damage applies to all Scorched Guns weapons"
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:supreme_bonescaller"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:bonescaller_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "00551F16F7ECB249"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "born_in_chaos_v1:fallen_chaos_knight"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "48CBB38006AC77C2"
+					type: "kill"
+					value: 25L
+				}
+				{
+					entity: "born_in_chaos_v1:zombie_lumberjack"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:wood_splitter_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "545F1C0B20589327"
+					type: "kill"
+					value: 25L
+				}
+			]
+			title: "Copper Teir Mastery"
+			x: 0.0d
+			y: 7.0d
+		}
+	]
+	title: "Copper Teir"
+}

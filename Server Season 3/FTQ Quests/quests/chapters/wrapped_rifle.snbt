@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Wrapped Rifle"
+			subtitle: "Craft or obtain an Wrapped Rifle"
 			tasks: [{
 				id: "5949BC5B0FD0FD97"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Wrapped Rifle"
+			title: "Aquire an Wrapped Rifle"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

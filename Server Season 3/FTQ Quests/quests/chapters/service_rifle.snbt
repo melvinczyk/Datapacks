@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft a Service Rifle using a Gunmetal Workbench"]
+			description: ["Craft an Service Rifle using a Gunmetal Workbench"]
 			id: "7108F7A0F61F49AA"
 			rewards: [{
 				count: 30
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Service Rifle"
+			subtitle: "Craft or obtain an Service Rifle"
 			tasks: [{
 				id: "77105D99F7C1E63D"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Service Rifle"
+			title: "Aquire an Service Rifle"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

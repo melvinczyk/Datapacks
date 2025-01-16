@@ -1,0 +1,306 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "treated_brass_teir"
+	group: "1078D0CCFA385DA2"
+	icon: "scguns:treated_brass_blueprint"
+	id: "6041C1A383508105"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "44A0B4D1B88D9170"
+		min_required_tasks: 1
+		rewards: [
+			{
+				count: 16
+				id: "0A157427EA2A8BE0"
+				item: "scguns:ramrod_round"
+				type: "item"
+			}
+			{
+				count: 16
+				id: "498D6A072B364C82"
+				item: "scguns:energy_core"
+				type: "item"
+			}
+			{
+				count: 16
+				id: "379355AD7ECDB469"
+				item: "scguns:beowulf_round"
+				type: "item"
+			}
+			{
+				count: 32
+				id: "159FA9B7734C9F14"
+				item: "scguns:compact_advanced_round"
+				type: "item"
+			}
+			{
+				count: 32
+				id: "7FC3E08D744F37B9"
+				item: "scguns:advanced_round"
+				type: "item"
+			}
+			{
+				count: 32
+				id: "709A5375EC4473FB"
+				item: "scguns:hardened_bullet"
+				type: "item"
+			}
+			{
+				count: 32
+				id: "28DB614D5F900DB2"
+				item: "jeg:shotgun_shell"
+				type: "item"
+			}
+			{
+				count: 16
+				id: "520A77F810CBECCF"
+				item: "scguns:krahg_round"
+				type: "item"
+			}
+			{
+				count: 16
+				id: "3687D5DCC3178FC9"
+				item: "scguns:energy_cell"
+				type: "item"
+			}
+			{
+				count: 16
+				id: "7AABEC1BAF6865B4"
+				item: "scguns:blaze_fuel"
+				type: "item"
+			}
+			{
+				count: 16
+				id: "4B552FDD786F1C68"
+				item: "scguns:nitro_buckshot"
+				type: "item"
+			}
+			{
+				count: 5
+				id: "0A139E867E231BD1"
+				item: "scguns:rocket"
+				type: "item"
+			}
+			{
+				id: "0A58239F18726979"
+				type: "xp_levels"
+				xp_levels: 15
+			}
+		]
+		shape: "hexagon"
+		size: 2.0d
+		subtitle: "Get a Treated Brass Teir Weapon"
+		tasks: [
+			{
+				id: "6583400AD6B35217"
+				item: {
+					Count: 1
+					id: "scguns:m22_waltz"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "2B526C4D7158617F"
+				item: {
+					Count: 1
+					id: "scguns:waltz_conversion"
+					tag: {
+						AmmoCount: 12
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "3A6A2460EE60EFD9"
+				item: {
+					Count: 1
+					id: "scguns:osgood_50"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "5F8394E3757D7A16"
+				item: {
+					Count: 1
+					id: "scguns:grandle"
+					tag: {
+						AmmoCount: 18
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "5C80FAE4442DC821"
+				item: {
+					Count: 1
+					id: "scguns:cogloader"
+					tag: {
+						AmmoCount: 46
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "5B7A0284F840C5A2"
+				item: {
+					Count: 1
+					id: "scguns:gale"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "1F7AE65BF892F01E"
+				item: {
+					Count: 1
+					id: "scguns:jackhammer"
+					tag: {
+						AmmoCount: 12
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "055E183B5F144BB0"
+				item: {
+					Count: 1
+					id: "scguns:howler"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "2710703B1ABBAD54"
+				item: {
+					Count: 1
+					id: "scguns:howler_conversion"
+					tag: {
+						AmmoCount: 9
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "41B73D20C9679B9E"
+				item: {
+					Count: 1
+					id: "scguns:gauss_rifle"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "3D3CFFA63B72E482"
+				item: {
+					Count: 1
+					id: "scguns:niami"
+					tag: {
+						AmmoCount: 7
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "2A33E24DEF09516B"
+				item: {
+					Count: 1
+					id: "scguns:spitfire"
+					tag: {
+						AmmoCount: 20
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "7A003131031E6F1E"
+				item: {
+					Count: 1
+					id: "scguns:gattaler"
+					tag: {
+						AmmoCount: 90
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "0410C2B7A92F8B4A"
+				item: {
+					Count: 1
+					id: "scguns:thunderhead"
+					tag: {
+						AmmoCount: 25
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "037E3B1F7E619E71"
+				item: {
+					Count: 1
+					id: "scguns:scratches"
+					tag: {
+						AmmoCount: 24
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "05449BE3401C8193"
+				item: {
+					Count: 1
+					id: "scguns:cr4k_mining_laser"
+					tag: {
+						AmmoCount: 100
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "776655B6B7DE42B6"
+				item: {
+					Count: 1
+					id: "scguns:dozier_rl"
+					tag: {
+						AmmoCount: 4
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+		]
+		title: "Get a Treated Brass Teir Weapon"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Treated Brass Teir"
+}

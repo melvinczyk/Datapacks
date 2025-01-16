@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Hog Bonker"
+			subtitle: "Craft or obtain an Hog Bonker"
 			tasks: [{
 				id: "00E8833FA9ED8B24"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Hog Bonker"
+			title: "Aquire an Hog Bonker"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

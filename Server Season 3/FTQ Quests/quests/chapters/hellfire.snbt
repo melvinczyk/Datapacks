@@ -19,14 +19,13 @@
 			description: ["Craft a Hellfire using a Gunnite Workbench"]
 			id: "1E256E335CD467AF"
 			rewards: [{
-				count: 1
 				id: "146E367025B3430E"
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Hellfire"
+			subtitle: "Craft or obtain an Hellfire"
 			tasks: [{
 				id: "572DAEBFC7414378"
 				item: {
@@ -39,7 +38,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Hellfire"
+			title: "Aquire an Hellfire"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

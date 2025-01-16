@@ -1,0 +1,535 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "flint_weapons"
+	group: "1078D0CCFA385DA2"
+	icon: "minecraft:flint"
+	id: "566E285B3573AB1E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "79B5C739B3C5E84B"
+			min_required_tasks: 1
+			rewards: [
+				{
+					count: 16
+					id: "2A93588C3AE82D0F"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "09C9D163B3537600"
+					item: "scguns:powder_and_ball"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1AB41DD64AA1BB4E"
+					item: "scguns:grapeshot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "23B24C2C5655DE0E"
+					item: "scguns:compact_copper_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4E0D111A966D2FCC"
+					item: "scguns:standard_copper_round"
+					type: "item"
+				}
+				{
+					id: "2CA73B8A7ED8E2D4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Get a flint teir weapon"
+			tasks: [
+				{
+					id: "2E7E1EE29CC3AAD6"
+					item: {
+						Count: 1
+						id: "scguns:flintlock_pistol"
+						tag: {
+							AmmoCount: 1
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "072911662C9D3CBC"
+					item: {
+						Count: 1
+						id: "scguns:handcannon"
+						tag: {
+							AmmoCount: 1
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C0181E15F1975BF"
+					item: {
+						Count: 1
+						id: "scguns:musket"
+						tag: {
+							AmmoCount: 1
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05F7C50FB0118200"
+					item: {
+						Count: 1
+						id: "scguns:blunderbuss"
+						tag: {
+							AmmoCount: 1
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "359A8BF66BDE34A8"
+					item: {
+						Count: 1
+						id: "scguns:repeating_musket"
+						tag: {
+							AmmoCount: 4
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A6C84C61156F9A4"
+					item: {
+						Count: 1
+						id: "scguns:pax"
+						tag: {
+							AmmoCount: 6
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F0CE0F62754A146"
+					item: {
+						Count: 1
+						id: "scguns:winnie"
+						tag: {
+							AmmoCount: 6
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B4624F5DE50F06D"
+					item: {
+						Count: 1
+						id: "scguns:callwell_conversion"
+						tag: {
+							AmmoCount: 6
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D38826B76EAD365"
+					item: {
+						Count: 1
+						id: "scguns:saketini"
+						tag: {
+							AmmoCount: 1
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F01A67BD9ED721C"
+					item: {
+						Count: 1
+						id: "scguns:big_bore"
+						tag: {
+							AmmoCount: 1
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55D0FF1980941BE1"
+					item: {
+						Count: 1
+						id: "scguns:laser_musket"
+						tag: {
+							AmmoCount: 12
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "037777F24E9D41C1"
+					item: {
+						Count: 1
+						id: "scguns:plasmabuss"
+						tag: {
+							AmmoCount: 5
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A848A1CF192F63D"
+					item: {
+						Count: 1
+						id: "scguns:floundergat"
+						tag: {
+							AmmoCount: 4
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Get a Flint Teir Weapon"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79B5C739B3C5E84B"]
+			id: "4ADEB0DBA52ED028"
+			rewards: [
+				{
+					count: 32
+					id: "06F8143C7D5B08AF"
+					item: "scguns:powder_and_ball"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "74D8BBEC7DBA2D06"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "4BA3BC77E43D30A4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "35A44274C00ED4E2"
+					item: "scguns:niter_dust"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "6941EB6CC2B68BEB"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "1C5BEF2BB54240C2"
+					type: "kill"
+					value: 100L
+				}
+			]
+			title: "Flint 2/3"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4ADEB0DBA52ED028"]
+			id: "7243033BF08CF618"
+			rewards: [
+				{
+					count: 64
+					id: "76FAF404E9B2E4F1"
+					item: "scguns:compact_copper_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "45EB1E2469B9CD36"
+					item: "scguns:grapeshot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "021490F9E4640AAE"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "08CF14A79E8E3C8C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "0F6685099865247C"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "variantsandventures:gelid"
+					icon: "minecraft:snowball"
+					id: "72D7299E4CF37258"
+					type: "kill"
+					value: 50L
+				}
+			]
+			title: "Flint 1/3"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4ADEB0DBA52ED028"]
+			id: "3D5EA01BD1D614FF"
+			rewards: [
+				{
+					count: 32
+					id: "3700F3E6CBE94297"
+					item: "scguns:compact_copper_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "11D1DEDF5851212B"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "170740F790554904"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					id: "68E577FED9E975BB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:long_slowness"
+						}
+					}
+					id: "4324329738E543CD"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "monsterplus:overgrown_skeleton"
+					icon: "minecraft:vine"
+					id: "00537421668EAD1B"
+					type: "kill"
+					value: 50L
+				}
+			]
+			title: "Flint 3/3"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67F64E8073228E79"]
+			icon: "minecraft:flint"
+			id: "08A08CA2CF7BEF71"
+			rewards: [
+				{
+					command: "/attribute @s scguns:additional_bullet_damage base set 0.5"
+					elevate_perms: true
+					icon: "itemfilters:damage"
+					id: "41C2CE44997EC7A0"
+					title: "0.5 base Scorched Guns added damage"
+					type: "command"
+				}
+				{
+					id: "085C5050DE2BA47D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "771B7C957BE4E233"
+					item: "scguns:gun_parts"
+					type: "item"
+				}
+				{
+					id: "7FEA40E13D84B40C"
+					item: "scguns:copper_blueprint"
+					type: "item"
+				}
+				{
+					id: "1A872EBD8D219F58"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "2357BDCE84B338DC"
+					item: "scguns:gun_magazine"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "This damage applies to all Scorched Guns weapons"
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "58BEA32AF7D6B3D3"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "491163BCD309FEEA"
+					type: "kill"
+					value: 30L
+				}
+				{
+					entity: "enemyexpansion:huntsman"
+					icon: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "77DAB170B94E7169"
+					type: "kill"
+					value: 20L
+				}
+			]
+			title: "Flint Teir Mastery"
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"7243033BF08CF618"
+				"4ADEB0DBA52ED028"
+				"3D5EA01BD1D614FF"
+			]
+			icon: {
+				Count: 1
+				id: "scguns:iron_bayonet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "67F64E8073228E79"
+			rewards: [
+				{
+					count: 32
+					id: "426142BF0FC952A1"
+					item: "scguns:compact_copper_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "55EB9ACA4689A20C"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5E15D198573B15D9"
+					item: "scguns:niter_dust"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "126CAD02239B34F1"
+					item: "scguns:standard_copper_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "347BB5B7C27CBFDB"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					id: "52A053866B8CB883"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "2AE35EE3A7A93385"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "minecraft:cave_spider"
+					icon: "minecraft:string"
+					id: "36E7D925DB0BDF1E"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "minecraft:vindicator"
+					icon: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "32F8FC6529F22B8D"
+					type: "kill"
+					value: 50L
+				}
+			]
+			title: "Flint Advanced"
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+	title: "Flint Teir"
+}

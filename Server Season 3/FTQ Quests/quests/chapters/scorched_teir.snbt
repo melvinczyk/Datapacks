@@ -1,0 +1,174 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "scorched_teir"
+	group: "1078D0CCFA385DA2"
+	icon: "scguns:scorched_blueprint"
+	id: "3C0DD4D537B7556E"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		id: "61F8967D0C8FFC2F"
+		min_required_tasks: 1
+		rewards: [
+			{
+				count: 128
+				id: "04AE30FAB55D168B"
+				item: "scguns:compact_advanced_round"
+				type: "item"
+			}
+			{
+				count: 64
+				id: "73C659CC20F6D5AD"
+				item: "scguns:ramrod_round"
+				type: "item"
+			}
+			{
+				count: 32
+				id: "6E03C875CB15C945"
+				item: "scguns:gibbs_round"
+				type: "item"
+			}
+			{
+				count: 32
+				id: "6C353AE515FD0D81"
+				item: "scguns:bearpack_shell"
+				type: "item"
+			}
+			{
+				count: 64
+				id: "40072767627DD7AC"
+				item: "scguns:advanced_round"
+				type: "item"
+			}
+			{
+				count: 32
+				id: "7F67E2AB4FB87F2C"
+				item: "scguns:energy_core"
+				type: "item"
+			}
+			{
+				count: 16
+				id: "73F8EE145F40D2CC"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}
+			{
+				count: 32
+				id: "7C39D14E8D107E19"
+				item: "scguns:krahg_round"
+				type: "item"
+			}
+			{
+				id: "141853516A354EE2"
+				type: "xp_levels"
+				xp_levels: 35
+			}
+		]
+		shape: "hexagon"
+		size: 2.0d
+		subtitle: "Get a Scorched Teir Weapon"
+		tasks: [
+			{
+				id: "77F4B8E5981A3B9C"
+				item: {
+					Count: 1
+					id: "scguns:prima_materia"
+					tag: {
+						AmmoCount: 14
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "680F211E457FEC12"
+				item: {
+					Count: 1
+					id: "scguns:rat_king_and_queen"
+					tag: {
+						AmmoCount: 18
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "176C7F9274ACE68E"
+				item: {
+					Count: 1
+					id: "scguns:locust"
+					tag: {
+						AmmoCount: 28
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "4D5C900479D1AAAF"
+				item: {
+					Count: 1
+					id: "scguns:newborn_cyst"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "419AA85349E2A5CA"
+				item: {
+					Count: 1
+					id: "scguns:earths_corpse"
+					tag: {
+						AmmoCount: 75
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "4C81ABF576CEAF6D"
+				item: {
+					Count: 1
+					id: "scguns:flayed_god"
+					tag: {
+						AmmoCount: 55
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "032BBEA0B89CF7E6"
+				item: {
+					Count: 1
+					id: "scguns:nervepinch"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "4AA29058CBE21C28"
+				item: {
+					Count: 1
+					id: "scguns:astella"
+					tag: {
+						AmmoCount: 7
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+		]
+		title: "Get a Scorched Teir Weapon"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Scorched Teir"
+}

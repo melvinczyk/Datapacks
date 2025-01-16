@@ -1,0 +1,114 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_teir"
+	group: "1078D0CCFA385DA2"
+	icon: "scguns:end_blueprint"
+	id: "6B2628167FC5B650"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "59A19AFAB406FF82"
+		min_required_tasks: 1
+		rewards: [
+			{
+				count: 16
+				id: "5699E33121477604"
+				item: "scguns:shulkshot"
+				type: "item"
+			}
+			{
+				count: 48
+				id: "6DA4BA7C92EC7C6C"
+				item: "scguns:advanced_round"
+				type: "item"
+			}
+			{
+				count: 32
+				id: "710827BB1D066889"
+				item: "scguns:shock_cell"
+				type: "item"
+			}
+			{
+				count: 32
+				id: "261820C8F1419762"
+				item: "scguns:energy_cell"
+				type: "item"
+			}
+			{
+				id: "0C9374377822B90B"
+				type: "xp_levels"
+				xp_levels: 30
+			}
+		]
+		shape: "hexagon"
+		size: 2.0d
+		subtitle: "Get an End Teir Weapon"
+		tasks: [
+			{
+				id: "6620E70FCA1D7C88"
+				item: {
+					Count: 1
+					id: "scguns:carapice"
+					tag: {
+						AmmoCount: 15
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "187B379E95D7307B"
+				item: {
+					Count: 1
+					id: "scguns:shellurker"
+					tag: {
+						AmmoCount: 14
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "5624DCF98F7B0318"
+				item: {
+					Count: 1
+					id: "scguns:dark_matter"
+					tag: {
+						AmmoCount: 48
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "370C85C476241D6D"
+				item: {
+					Count: 1
+					id: "scguns:lone_wonder"
+					tag: {
+						AmmoCount: 23
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "2E352D7C36CE4A32"
+				item: {
+					Count: 1
+					id: "scguns:raygun"
+					tag: {
+						AmmoCount: 17
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+		]
+		title: "Get an End Teir Weapon"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "End Teir"
+}

@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Mossberg 590"
+			subtitle: "Craft or obtain an Mossberg 590"
 			tasks: [{
 				id: "5A6BE7D3F2AA4812"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Mossberg 590"
+			title: "Aquire an Mossberg 590"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

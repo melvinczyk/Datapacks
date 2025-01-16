@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft a Waterpipe Shotgun using a Scrap Workbench"]
+			description: ["Craft an Waterpipe Shotgun using a Scrap Workbench"]
 			id: "60C594D458A97A20"
 			rewards: [{
 				count: 16
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Waterpipe Shotgun"
+			subtitle: "Craft or obtain an Waterpipe Shotgun"
 			tasks: [{
 				id: "032E1AAA31832D08"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Waterpipe Shotgun"
+			title: "Aquire an Waterpipe Shotgun"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

@@ -16,7 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Craft a Grenade Launcher by finding its blueprint and using a Blueprint Workbench"]
+			description: ["Craft an Grenade Launcher by finding its blueprint and using a Blueprint Workbench"]
 			id: "7FA09C577547EF82"
 			rewards: [{
 				count: 10
@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Grenade Launcher"
+			subtitle: "Craft or obtain an Grenade Launcher"
 			tasks: [{
 				id: "10068F923078E52F"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Grenade Launcher"
+			title: "Aquire an Grenade Launcher"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

@@ -1,0 +1,84 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deep_dark_teir"
+	group: "1078D0CCFA385DA2"
+	icon: "scguns:deep_dark_blueprint"
+	id: "686ADF71C23C4AF8"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "5AF70C4ABF5B37F1"
+		min_required_tasks: 1
+		rewards: [
+			{
+				count: 64
+				id: "6925B7A3EC0E3D84"
+				item: "scguns:sculk_cell"
+				type: "item"
+			}
+			{
+				id: "3E767F39042A6B12"
+				type: "xp_levels"
+				xp_levels: 25
+			}
+		]
+		shape: "hexagon"
+		size: 2.0d
+		subtitle: "Get a Sculk Teir Weapon"
+		tasks: [
+			{
+				id: "130C0C8039D4A7A1"
+				item: {
+					Count: 1
+					id: "scguns:whispers"
+					tag: {
+						AmmoCount: 12
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "34230ED145A46EC1"
+				item: {
+					Count: 1
+					id: "scguns:echoes_2"
+					tag: {
+						AmmoCount: 4
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "531CF371C806992C"
+				item: {
+					Count: 1
+					id: "scguns:sculk_resonator"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "63322CEF7A4E7C41"
+				item: {
+					Count: 1
+					id: "scguns:forlorn_hope"
+					tag: {
+						AmmoCount: 5
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+		]
+		title: "Get a Sculk Teir Weapon"
+		x: 1.0d
+		y: 0.0d
+	}]
+	title: "Deep Dark Teir"
+}

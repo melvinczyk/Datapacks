@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a Famas"
+			subtitle: "Craft or obtain an Famas"
 			tasks: [{
 				id: "3F0AC3E583304F3B"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a Famas"
+			title: "Aquire an Famas"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}

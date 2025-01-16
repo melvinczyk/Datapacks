@@ -1071,13 +1071,8 @@
       "apply_chance": 100.0,
       "attributes": [
         {
-          "attribute": "minecraft:generic.armor",
-          "value": 4.0,
-          "operation": "ADDITION"
-        },
-        {
           "attribute": "minecraft:generic.max_health",
-          "value": 40.0,
+          "value": 20.0,
           "operation": "ADDITION"
         }
       ]

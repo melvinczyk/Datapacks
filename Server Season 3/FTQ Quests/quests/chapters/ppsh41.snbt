@@ -26,7 +26,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Craft or obtain a PPSH 41"
+			subtitle: "Craft or obtain an PPSH 41"
 			tasks: [{
 				id: "54A1DB0620BB46F6"
 				item: {
@@ -39,7 +39,7 @@
 				}
 				type: "item"
 			}]
-			title: "Aquire a PPSH 41"
+			title: "Aquire an PPSH 41"
 			x: 1.970645868709653E-15d
 			y: -0.20000000000000004d
 		}
