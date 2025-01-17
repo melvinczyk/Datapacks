@@ -3,9 +3,603 @@
 	default_quest_shape: ""
 	filename: "miniboss"
 	group: "051880D4A141ED2F"
+	icon: {
+		Count: 1
+		id: "mutantmonsters:mutant_skeleton_skull"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "3CDF30E40CA79BDE"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
-	title: "Miniboss"
+	quests: [
+		{
+			can_repeat: true
+			id: "2CAFEB724C652019"
+			rewards: [
+				{
+					count: 45
+					id: "4D99ED3CB216AA65"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "67B19F6F188E8BDA"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:hulk_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3DCB0800FFCFDC20"
+				type: "kill"
+				value: 15L
+			}]
+			x: 0.75d
+			y: -0.75d
+		}
+		{
+			can_repeat: true
+			id: "18630433290CF108"
+			rewards: [
+				{
+					count: 45
+					id: "74A8ECB91524C821"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "68CDB88F64AD1D55"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:mutant_skeleton_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "19F26EAA8F1E1F2C"
+				type: "kill"
+				value: 15L
+			}]
+			x: 0.75d
+			y: 0.75d
+		}
+		{
+			can_repeat: true
+			id: "39C1690570450E26"
+			rewards: [
+				{
+					count: 45
+					id: "5CA8F7FD7FE2E732"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "6416C3F7D5D4043A"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:endersoul_hand"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "18FB89DDC804BEAD"
+				type: "kill"
+				value: 15L
+			}]
+			x: 0.75d
+			y: 2.25d
+		}
+		{
+			can_repeat: true
+			id: "3C9C44271358AE88"
+			rewards: [
+				{
+					count: 30
+					id: "06C5216CD697BB24"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "4F9E8F3140FBA35B"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:creeper_shard"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3EF8B8A40DE1E444"
+				type: "kill"
+				value: 15L
+			}]
+			x: 0.75d
+			y: 3.75d
+		}
+		{
+			can_repeat: true
+			id: "5CD38F75F7655CA0"
+			rewards: [
+				{
+					count: 45
+					id: "7A3AEB278854BBAB"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "2DAA7F78F0B6E098"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "terramity:hellrok"
+				icon: {
+					Count: 1
+					id: "terramity:hellrok_gigaton_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1D7F79F54E69F0B7"
+				type: "kill"
+				value: 15L
+			}]
+			x: 2.25d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "135A97735A9E063D"
+			rewards: [
+				{
+					count: 45
+					id: "6C744905F1D49382"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "50904D4DB4A3FA5D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "terramity:duskrok"
+				icon: {
+					Count: 1
+					id: "terramity:duskrok_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "12E25A5E3BF268BB"
+				type: "kill"
+				value: 15L
+			}]
+			x: -0.75d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "49EE000001780188"
+			rewards: [
+				{
+					count: 45
+					id: "33E15016B0ED72E0"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "253EC11539CFC715"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "threateningly_mobs:steelboar"
+				icon: "threateningly_mobs:steel_tusk"
+				id: "3DBE42B341C55475"
+				type: "kill"
+				value: 15L
+			}]
+			x: 2.25d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "574130C19378EBAC"
+			rewards: [
+				{
+					count: 45
+					id: "601FF8BF0054C8E5"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "623D183D4320B294"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "threateningly_mobs:hydra"
+				icon: "threateningly_mobs:sea_hydra_eyes"
+				id: "516ECDAFC6570918"
+				type: "kill"
+				value: 15L
+			}]
+			x: -0.75d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "0043CB77568FE800"
+			rewards: [
+				{
+					count: 45
+					id: "34BB6100D80E2944"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "100FEBB0BD12DC1C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "threateningly_mobs:titan_rabbit"
+				icon: "minecraft:rabbit_foot"
+				id: "43B28F53EEA73E3B"
+				type: "kill"
+				value: 15L
+			}]
+			x: -0.75d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			id: "3DD898B117D8752A"
+			rewards: [
+				{
+					count: 45
+					id: "2E7C44E87B5091C1"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "417B7888D79DED54"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "threateningly_mobs:rock_snail"
+				icon: "threateningly_mobs:grass_scarf"
+				id: "649851907DE8F361"
+				type: "kill"
+				value: 15L
+			}]
+			x: 2.25d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			id: "35E5E396D14A5D1B"
+			rewards: [
+				{
+					count: 45
+					id: "54BF723185289B17"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "7EE81B6E7B83604B"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "threateningly_mobs:basalt_wyvern"
+				icon: "threateningly_mobs:basalt_wyvern_horn"
+				id: "6CAE6C5D8E17D6C8"
+				type: "kill"
+				value: 15L
+			}]
+			x: 0.75d
+			y: 5.25d
+		}
+		{
+			can_repeat: true
+			id: "2926C7F05A36CD6F"
+			rewards: [
+				{
+					count: 45
+					id: "55C4AE4DA4984D89"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "37C4EC1F2EF2709B"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "threateningly_mobs:earth_loong"
+				icon: "threateningly_mobs:earthloong_skull"
+				id: "6006CF24828EFCFC"
+				type: "kill"
+				value: 15L
+			}]
+			x: -0.75d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "52E2170E9BE8D16C"
+			rewards: [
+				{
+					count: 45
+					id: "24CD6546E1468763"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "0FBEE9D7A7561603"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "threateningly_mobs:regalhart"
+				icon: "threateningly_mobs:nature_shell"
+				id: "1F5C963512F34A82"
+				type: "kill"
+				value: 15L
+			}]
+			x: 2.25d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "6C94FC8765A55DFA"
+			rewards: [
+				{
+					count: 45
+					id: "4563825BC85089AB"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "598F74903C84A253"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "terramity:megabite"
+				icon: "terramity:accursed_soul"
+				id: "35F193EE1477AB10"
+				type: "kill"
+				value: 15L
+			}]
+			x: -0.75d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "114E5FE2358A311B"
+			rewards: [
+				{
+					count: 45
+					id: "5213BA7564F88188"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "401969253041D451"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "luminous_beasts:vile_gator"
+				icon: {
+					Count: 1
+					id: "luminous_beasts:gator_tooth"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0AA3B73C7F7AC7EA"
+				type: "kill"
+				value: 15L
+			}]
+			x: -0.75d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "2E9F748340FA11BE"
+			rewards: [
+				{
+					count: 64
+					id: "4DA48C3C07119C99"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "5AE797576C835374"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "luminous_beasts:rare_vile_gator"
+				icon: "luminous_beasts:rare_vile_gator_trophy"
+				id: "22F5DA0A3D52E4AF"
+				type: "kill"
+				value: 15L
+			}]
+			x: 2.25d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "74D7AB99ECE8EAB6"
+			rewards: [
+				{
+					count: 45
+					id: "73F434A1012C236D"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "1D51AB85A7F776B3"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "just_in_nether:bullkindar"
+				icon: {
+					Count: 1
+					id: "just_in_nether:kindarx_heavy_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "33A0AE92245178DA"
+				type: "kill"
+				value: 15L
+			}]
+			x: 2.25d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "574F4DE7D314B8FE"
+			rewards: [
+				{
+					count: 45
+					id: "280F4CA91AC59BF7"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "434B7FBA37845BFC"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "just_in_nether:pigmar"
+				icon: {
+					Count: 1
+					id: "just_in_nether:pigar_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1C9F4C77CA4D926D"
+				type: "kill"
+				value: 15L
+			}]
+			x: 0.75d
+			y: 6.75d
+		}
+		{
+			can_repeat: true
+			id: "00614F30FEB3E243"
+			rewards: [
+				{
+					count: 45
+					id: "0E2420ABD8079399"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "2D8CED57054614D0"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "theinkarena:ink_titan"
+				icon: "theinkarena:ink_titan_skull"
+				id: "22761C1165EB7FA5"
+				type: "kill"
+				value: 15L
+			}]
+			x: 3.75d
+			y: 2.25d
+		}
+	]
+	title: "&cMiniboss"
 }

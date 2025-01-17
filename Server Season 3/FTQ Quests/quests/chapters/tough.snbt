@@ -3,9 +3,675 @@
 	default_quest_shape: ""
 	filename: "tough"
 	group: "051880D4A141ED2F"
+	icon: {
+		Count: 1
+		id: "born_in_chaos_v1:dark_metal_armor_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "629FAD55ED94CBDE"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
-	title: "Tough"
+	quests: [
+		{
+			can_repeat: true
+			id: "5F3D8AF59C9983FC"
+			rewards: [
+				{
+					count: 30
+					id: "3E543C02291D3D02"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "729A81A0B4AFCBE3"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:dark_metal_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0BD5F608CCF3C153"
+				type: "kill"
+				value: 75L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "584D957BF6B165F1"
+			rewards: [
+				{
+					count: 25
+					id: "245818E96D65ABF4"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "5C1EA0FC7E160375"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "threateningly_mobs:strong_zombie"
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5C012EA460BEDEE1"
+				type: "kill"
+				value: 75L
+			}]
+			x: 0.0d
+			y: 1.25d
+		}
+		{
+			can_repeat: true
+			id: "6C455003D36E85CF"
+			rewards: [
+				{
+					count: 30
+					id: "7220239AFF7D07D5"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "1783F2590CE43707"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "threateningly_mobs:strong_zombie_warrior"
+				icon: {
+					Count: 1
+					id: "minecraft:netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4D7DC3474BB5212A"
+				type: "kill"
+				value: 75L
+			}]
+			x: 2.5d
+			y: 1.25d
+		}
+		{
+			can_repeat: true
+			id: "2DF57647AC2034FE"
+			rewards: [
+				{
+					count: 30
+					id: "496574073486548F"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "2762F9C2AE37B801"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_bruiser"
+				icon: "minecraft:oak_log"
+				id: "500D53E71B96C2C2"
+				type: "kill"
+				value: 75L
+			}]
+			x: 1.25d
+			y: 1.25d
+		}
+		{
+			can_repeat: true
+			id: "69B7F3B70E07DE01"
+			rewards: [
+				{
+					count: 30
+					id: "296DD10836D4ED47"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "20F4184289576FB5"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "zombiesmore:tank_zombie"
+				icon: "zombiesmore:brain"
+				id: "1E297605795568BA"
+				type: "kill"
+				value: 75L
+			}]
+			x: -2.5d
+			y: 1.25d
+		}
+		{
+			can_repeat: true
+			id: "5A236D4310019C31"
+			rewards: [
+				{
+					count: 30
+					id: "0AEC619502579CB6"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "0E972A3DBFAC370C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "zombiesmore:boomer_zombie"
+				icon: "zombiesmore:veins"
+				id: "3C900F38F45B17D0"
+				type: "kill"
+				value: 75L
+			}]
+			x: -1.25d
+			y: 1.25d
+		}
+		{
+			can_repeat: true
+			id: "1F8864698702CD6D"
+			rewards: [
+				{
+					count: 30
+					id: "2D3B9F7FFF7C8A16"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "50A3F040FF4BA40C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "born_in_chaos_v1:bonescaller"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:staff_of_magic_arrows"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "768C81E763EC3C1A"
+				type: "kill"
+				value: 75L
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "1186D7EA8A475BC8"
+			rewards: [
+				{
+					count: 40
+					id: "09ED60C0463C6FF0"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "294A69929F45E6E7"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "born_in_chaos_v1:supreme_bonescaller"
+				icon: "born_in_chaos_v1:orbofthe_summoner"
+				id: "298831C0E467F5A8"
+				type: "kill"
+				value: 75L
+			}]
+			x: 3.75d
+			y: 1.25d
+		}
+		{
+			can_repeat: true
+			id: "446B1DF9C251A4C5"
+			rewards: [
+				{
+					count: 40
+					id: "54DB4810E7EDCD5B"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "63066EBBED4E8F93"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "born_in_chaos_v1:skeleton_thrasher"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:skullbreaker_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3007538451FF1D4C"
+				type: "kill"
+				value: 75L
+			}]
+			x: 5.0d
+			y: 1.25d
+		}
+		{
+			can_repeat: true
+			id: "361994A0197FA50B"
+			rewards: [
+				{
+					count: 30
+					id: "6DE49B3660213917"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "32707495EB47969A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:ravager"
+				icon: "minecraft:saddle"
+				id: "7E08DB9A39756F5C"
+				type: "kill"
+				value: 50L
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "3775D9C7A4432F14"
+			rewards: [
+				{
+					count: 30
+					id: "11B4D4B50AF36842"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "04D56108B707A28D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "minecraft:evoker"
+				icon: "minecraft:totem_of_undying"
+				id: "5BFFFD990F027F98"
+				type: "kill"
+				value: 50L
+			}]
+			x: 5.0d
+			y: -1.25d
+		}
+		{
+			can_repeat: true
+			id: "3D88969549C5E985"
+			rewards: [
+				{
+					count: 30
+					id: "24BF4CCA8443E073"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "630440A49F92A20E"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "arphex:centipede_stalker"
+				icon: "arphex:fly_appendage"
+				id: "6349A832637E1621"
+				type: "kill"
+				value: 25L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "66FD4B8FB49E213D"
+			rewards: [
+				{
+					count: 30
+					id: "5DCF0A732BC4997A"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "5E9DBF049A14187F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "arphex:spider_goliath"
+				icon: "biomesoplenty:spider_egg"
+				id: "3A98BEAE642C4C79"
+				type: "kill"
+				value: 25L
+			}]
+			x: 3.75d
+			y: -1.25d
+		}
+		{
+			can_repeat: true
+			id: "4438389C424905BB"
+			rewards: [
+				{
+					count: 30
+					id: "7D480C3FAFEEB2F5"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "48300E43B55B2288"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "arphex:spider_funnel"
+				icon: "biomesoplenty:spider_egg"
+				id: "1A774B9F09F480CD"
+				type: "kill"
+				value: 25L
+			}]
+			x: 2.5d
+			y: -1.25d
+		}
+		{
+			can_repeat: true
+			id: "767336229686343B"
+			rewards: [
+				{
+					count: 30
+					id: "4438D80AF806F219"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "05FCD6EEA545D92C"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "arphex:mantis_mutilator"
+				icon: {
+					Count: 1
+					id: "arphex:mantis_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4E2C8508BFBBC229"
+				type: "kill"
+				value: 25L
+			}]
+			x: 0.0d
+			y: -1.25d
+		}
+		{
+			can_repeat: true
+			id: "0A7D1640A69B772F"
+			rewards: [
+				{
+					count: 30
+					id: "6AB6BF92D3A5B831"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "0089A8B3547F1188"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "arphex:dragonfly_dreadnought"
+				icon: "arphex:dragonfly_dreadnought_spawn_egg"
+				id: "2D680A44F47BFB3D"
+				type: "kill"
+				value: 25L
+			}]
+			x: -3.75d
+			y: -1.25d
+		}
+		{
+			can_repeat: true
+			id: "6FF3B291B0235A4D"
+			rewards: [
+				{
+					count: 30
+					id: "1409369E08C22B2D"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "046B303E3E577C41"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "arphex:hornet_harbinger_giant"
+				icon: "enemyexpansion:wasp_thorax"
+				id: "0225A14F0F07DC5D"
+				type: "kill"
+				value: 25L
+			}]
+			x: -3.75d
+			y: 1.25d
+		}
+		{
+			can_repeat: true
+			id: "25A0382902C64DF8"
+			rewards: [
+				{
+					count: 30
+					id: "0A6B357C6865FD86"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "05CE4F66A4F952FC"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "arphex:spider_goliath"
+				icon: "biomesoplenty:spider_egg"
+				id: "690E816325E3E557"
+				type: "kill"
+				value: 25L
+			}]
+			x: 1.25d
+			y: -1.25d
+		}
+		{
+			can_repeat: true
+			id: "2778BFD21ADD7111"
+			rewards: [
+				{
+					count: 30
+					id: "52FBA98B02425B02"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "4B81E1D777AB25D8"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "threateningly_mobs:dracoscorpius"
+				icon: {
+					Count: 1
+					id: "threateningly_mobs:dracoscorpius_sting"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4E3316935EC4975D"
+				type: "kill"
+				value: 75L
+			}]
+			x: -1.25d
+			y: -1.25d
+		}
+		{
+			can_repeat: true
+			id: "72C0E5E391397BFB"
+			rewards: [
+				{
+					count: 30
+					id: "2E17FE8F8001DEE3"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "66B9BD20D37665D1"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "threateningly_mobs:tall_mouse"
+				icon: "threateningly_mobs:medicinal_powder"
+				id: "1B43F69FCD3FAE64"
+				type: "kill"
+				value: 50L
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "66F72B77CCF55921"
+			rewards: [
+				{
+					count: 30
+					id: "54A74E752EE9C526"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "6A4DD0594E9343F3"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "monsterplus:mother_lava_squid"
+				icon: "minecraft:lava_bucket"
+				id: "503DC2C4E508EDA4"
+				type: "kill"
+				value: 75L
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "622B68BFC32131DA"
+			rewards: [
+				{
+					count: 30
+					id: "2B198AF697DD053F"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "00C577510228CA80"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				entity: "born_in_chaos_v1:dire_hound_leader"
+				icon: "born_in_chaos_v1:fangofthe_hound_leader"
+				id: "4BC8365BE6C86F19"
+				type: "kill"
+				value: 75L
+			}]
+			x: -2.5d
+			y: -1.25d
+		}
+	]
+	title: "&6Tough"
 }

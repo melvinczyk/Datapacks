@@ -517,7 +517,7 @@
       ]
     },
     {
-      "entity_regex": "born_in_chaos_v1:bonecaller",
+      "entity_regex": "born_in_chaos_v1:bonescaller",
       "apply_chance": 100.0,
       "attributes": [
         {
@@ -559,7 +559,17 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 10,
+          "value": 30,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "value": 1,
           "operation": "ADDITION"
         }
       ]
@@ -2381,12 +2391,12 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 2.0,
+          "value": 10.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 20.0,
+          "value": 40.0,
           "operation": "ADDITION"
         }
       ]
@@ -2397,12 +2407,12 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 2.0,
+          "value": 10.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 20.0,
+          "value": 40.0,
           "operation": "ADDITION"
         }
       ]
@@ -2413,12 +2423,12 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 2.0,
+          "value": 10.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 20.0,
+          "value": 30.0,
           "operation": "ADDITION"
         }
       ]
@@ -2429,12 +2439,12 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 2.0,
+          "value": 10.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 20.0,
+          "value": 40.0,
           "operation": "ADDITION"
         }
       ]
@@ -2786,12 +2796,12 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 5.0,
+          "value": 12.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 20.0,
+          "value": 60.0,
           "operation": "ADDITION"
         }
       ]
@@ -2807,7 +2817,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 40.0,
+          "value": 60.0,
           "operation": "ADDITION"
         }
       ]
@@ -3404,6 +3414,162 @@
         {
           "attribute": "minecraft:generic.movement_speed",
           "value": 0.25,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "value": 1,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "minecraft:evoker",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 20.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 120.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "value": 1,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "minecraft:ravager",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 20.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "value": 1,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "minecraft:hoglin",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 20.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 100.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "value": 1,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "minecraft:ravager",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 20.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "value": 1,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "born_in_chaos_v1:seared_spirit",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 6.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 40.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "value": 1,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "born_in_chaos_v1:supreme_bonescaller",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 6.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 40.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
           "operation": "MULTIPLY_BASE"
         },
         {
