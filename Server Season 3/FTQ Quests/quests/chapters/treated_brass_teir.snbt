@@ -7,130 +7,427 @@
 	id: "6041C1A383508105"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		id: "44A0B4D1B88D9170"
-		min_required_tasks: 1
-		rewards: [
-			{
-				count: 16
-				id: "0A157427EA2A8BE0"
-				item: "scguns:ramrod_round"
-				type: "item"
-			}
-			{
-				count: 16
-				id: "498D6A072B364C82"
-				item: "scguns:energy_core"
-				type: "item"
-			}
-			{
-				count: 16
-				id: "379355AD7ECDB469"
-				item: "scguns:beowulf_round"
-				type: "item"
-			}
-			{
-				count: 32
-				id: "159FA9B7734C9F14"
-				item: "scguns:compact_advanced_round"
-				type: "item"
-			}
-			{
-				count: 32
-				id: "7FC3E08D744F37B9"
-				item: "scguns:advanced_round"
-				type: "item"
-			}
-			{
-				count: 32
-				id: "709A5375EC4473FB"
-				item: "scguns:hardened_bullet"
-				type: "item"
-			}
-			{
-				count: 32
-				id: "28DB614D5F900DB2"
-				item: "jeg:shotgun_shell"
-				type: "item"
-			}
-			{
-				count: 16
-				id: "520A77F810CBECCF"
-				item: "scguns:krahg_round"
-				type: "item"
-			}
-			{
-				count: 16
-				id: "3687D5DCC3178FC9"
-				item: "scguns:energy_cell"
-				type: "item"
-			}
-			{
-				count: 16
-				id: "7AABEC1BAF6865B4"
-				item: "scguns:blaze_fuel"
-				type: "item"
-			}
-			{
-				count: 16
-				id: "4B552FDD786F1C68"
-				item: "scguns:nitro_buckshot"
-				type: "item"
-			}
-			{
-				count: 5
-				id: "0A139E867E231BD1"
-				item: "scguns:rocket"
-				type: "item"
-			}
-			{
-				id: "0A58239F18726979"
-				type: "xp_levels"
-				xp_levels: 15
-			}
-		]
-		shape: "hexagon"
-		size: 2.0d
-		subtitle: "Get a Treated Brass Teir Weapon"
-		tasks: [
-			{
-				id: "6583400AD6B35217"
-				item: {
-					Count: 1
-					id: "scguns:m22_waltz"
-					tag: {
-						AmmoCount: 8
-						Damage: 0
-					}
+	quests: [
+		{
+			id: "44A0B4D1B88D9170"
+			min_required_tasks: 1
+			rewards: [
+				{
+					count: 16
+					id: "0A157427EA2A8BE0"
+					item: "scguns:ramrod_round"
+					type: "item"
 				}
-				type: "item"
-			}
-			{
-				id: "2B526C4D7158617F"
-				item: {
-					Count: 1
-					id: "scguns:waltz_conversion"
-					tag: {
-						AmmoCount: 12
-						Damage: 0
-					}
+				{
+					count: 16
+					id: "498D6A072B364C82"
+					item: "scguns:energy_core"
+					type: "item"
 				}
-				type: "item"
-			}
-			{
-				id: "3A6A2460EE60EFD9"
-				item: {
-					Count: 1
-					id: "scguns:osgood_50"
-					tag: {
-						AmmoCount: 6
-						Damage: 0
-					}
+				{
+					count: 16
+					id: "379355AD7ECDB469"
+					item: "scguns:beowulf_round"
+					type: "item"
 				}
-				type: "item"
+				{
+					count: 32
+					id: "159FA9B7734C9F14"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7FC3E08D744F37B9"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "709A5375EC4473FB"
+					item: "scguns:hardened_bullet"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "28DB614D5F900DB2"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "520A77F810CBECCF"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3687D5DCC3178FC9"
+					item: "scguns:energy_cell"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7AABEC1BAF6865B4"
+					item: "scguns:blaze_fuel"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4B552FDD786F1C68"
+					item: "scguns:nitro_buckshot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0A139E867E231BD1"
+					item: "scguns:rocket"
+					type: "item"
+				}
+				{
+					id: "0A58239F18726979"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Get a Treated Brass Teir Weapon"
+			tasks: [
+				{
+					id: "6583400AD6B35217"
+					item: {
+						Count: 1
+						id: "scguns:m22_waltz"
+						tag: {
+							AmmoCount: 8
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B526C4D7158617F"
+					item: {
+						Count: 1
+						id: "scguns:waltz_conversion"
+						tag: {
+							AmmoCount: 12
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A6A2460EE60EFD9"
+					item: {
+						Count: 1
+						id: "scguns:osgood_50"
+						tag: {
+							AmmoCount: 6
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F8394E3757D7A16"
+					item: {
+						Count: 1
+						id: "scguns:grandle"
+						tag: {
+							AmmoCount: 18
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C80FAE4442DC821"
+					item: {
+						Count: 1
+						id: "scguns:cogloader"
+						tag: {
+							AmmoCount: 46
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B7A0284F840C5A2"
+					item: {
+						Count: 1
+						id: "scguns:gale"
+						tag: {
+							AmmoCount: 8
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F7AE65BF892F01E"
+					item: {
+						Count: 1
+						id: "scguns:jackhammer"
+						tag: {
+							AmmoCount: 12
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "055E183B5F144BB0"
+					item: {
+						Count: 1
+						id: "scguns:howler"
+						tag: {
+							AmmoCount: 6
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2710703B1ABBAD54"
+					item: {
+						Count: 1
+						id: "scguns:howler_conversion"
+						tag: {
+							AmmoCount: 9
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41B73D20C9679B9E"
+					item: {
+						Count: 1
+						id: "scguns:gauss_rifle"
+						tag: {
+							AmmoCount: 8
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D3CFFA63B72E482"
+					item: {
+						Count: 1
+						id: "scguns:niami"
+						tag: {
+							AmmoCount: 7
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A33E24DEF09516B"
+					item: {
+						Count: 1
+						id: "scguns:spitfire"
+						tag: {
+							AmmoCount: 20
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A003131031E6F1E"
+					item: {
+						Count: 1
+						id: "scguns:gattaler"
+						tag: {
+							AmmoCount: 90
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0410C2B7A92F8B4A"
+					item: {
+						Count: 1
+						id: "scguns:thunderhead"
+						tag: {
+							AmmoCount: 25
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "037E3B1F7E619E71"
+					item: {
+						Count: 1
+						id: "scguns:scratches"
+						tag: {
+							AmmoCount: 24
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05449BE3401C8193"
+					item: {
+						Count: 1
+						id: "scguns:cr4k_mining_laser"
+						tag: {
+							AmmoCount: 100
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "776655B6B7DE42B6"
+					item: {
+						Count: 1
+						id: "scguns:dozier_rl"
+						tag: {
+							AmmoCount: 4
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Get a Treated Brass Teir Weapon"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"44A0B4D1B88D9170"
+				"5C7F16A5B01DD7A0"
+			]
+			id: "75F0BF2B91AA172E"
+			shape: "gear"
+			tasks: [{
+				id: "0BE71858F15DE40F"
+				title: "Iron Teir Completed"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75F0BF2B91AA172E"]
+			id: "3F57E0A956885EA0"
+			rewards: [
+				{
+					count: 32
+					id: "7ADCE9023714BA07"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A3A5CE55394DD4E"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "70758E9BAAB36BD9"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "4DD49045CCD0E0F7"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 20
+					id: "4E562692F80E1466"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "436A63A7CA43B2FA"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "4AEE8C0CCA989755"
+					type: "kill"
+					value: 150L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "27C74FA7C33790C9"
+					type: "kill"
+					value: 150L
+				}
+			]
+			title: "Brass Basics"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["75F0BF2B91AA172E"]
+			icon: {
+				Count: 1
+				id: "scguns:grandle"
+				tag: {
+					AmmoCount: 18
+					Damage: 0
+				}
 			}
-			{
-				id: "5F8394E3757D7A16"
+			id: "619A6836B0618944"
+			rewards: [
+				{
+					count: 32
+					id: "38FD5D809D5DA575"
+					item: "scguns:ramrod_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "705C708FEF7956B4"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2FEA904CDC61D85D"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "0DB557FBAEF145D6"
+					item: "scguns:beowulf_round"
+					type: "item"
+				}
+				{
+					id: "126E59E09A0752A6"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Kill 1 Freakager with a Grandle"
+			tasks: [{
+				checkItem: true
+				entity: "illageandspillage:freakager"
+				icon: "illageandspillage:bag_of_horrors"
+				id: "2AE5CBDC015E23B6"
 				item: {
 					Count: 1
 					id: "scguns:grandle"
@@ -139,46 +436,76 @@
 						Damage: 0
 					}
 				}
-				type: "item"
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Brass Challenge Kill 2/2"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75F0BF2B91AA172E"]
+			icon: {
+				Count: 1
+				id: "scguns:howler"
+				tag: {
+					AmmoCount: 6
+					Damage: 0
+				}
 			}
-			{
-				id: "5C80FAE4442DC821"
-				item: {
+			id: "7A019C4EC1329C9B"
+			rewards: [
+				{
+					count: 64
+					id: "741EDD339A39E4AD"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "731ECB174879BB84"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "567F5540133A1471"
+					item: "scguns:ramrod_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3A5F0791BE3AEC79"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "4404B9F9B2629FAC"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "58514F39FE535DFC"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Kill 1 Spiritcaller with a Howler"
+			tasks: [{
+				checkItem: true
+				entity: "illageandspillage:spiritcaller"
+				icon: {
 					Count: 1
-					id: "scguns:cogloader"
+					id: "illageandspillage:spellbound_book"
 					tag: {
-						AmmoCount: 46
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "5B7A0284F840C5A2"
-				item: {
-					Count: 1
-					id: "scguns:gale"
-					tag: {
-						AmmoCount: 8
-						Damage: 0
-					}
-				}
-				type: "item"
-			}
-			{
-				id: "1F7AE65BF892F01E"
-				item: {
-					Count: 1
-					id: "scguns:jackhammer"
-					tag: {
-						AmmoCount: 12
-						Damage: 0
-					}
-				}
-				type: "item"
-			}
-			{
-				id: "055E183B5F144BB0"
+				id: "19B51389188D8C70"
 				item: {
 					Count: 1
 					id: "scguns:howler"
@@ -187,120 +514,637 @@
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "2710703B1ABBAD54"
-				item: {
-					Count: 1
-					id: "scguns:howler_conversion"
-					tag: {
-						AmmoCount: 9
-						Damage: 0
-					}
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Brass Challenge Kill 1/2"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["619A6836B0618944"]
+			icon: "create:brass_ingot"
+			id: "126117ECFB43797C"
+			rewards: [
+				{
+					count: 32
+					id: "2B39F6B8719D8C23"
+					item: "scguns:ramrod_round"
+					type: "item"
 				}
-				type: "item"
+				{
+					count: 32
+					id: "43D2AFB0EDD72F68"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4CEE2BD2087AF1BF"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2BADCF54E1661652"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "097369DD227721BB"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "65DE5A4A08F0BE52"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					id: "7DE5E41CC0E69E10"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					command: "/attribute @s scguns:spread_multiplier base set 0.9"
+					elevate_perms: true
+					icon: "itemfilters:id_regex"
+					id: "41BD95552DDFBE64"
+					title: "-5% bullet spread"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:fallen_chaos_knight"
+					icon: {
+						Count: 1
+						id: "scguns:cogloader"
+						tag: {
+							AmmoCount: 46
+							Damage: 0
+						}
+					}
+					id: "2C4F789BF521F9FD"
+					item: {
+						Count: 1
+						id: "scguns:cogloader"
+						tag: {
+							AmmoCount: 46
+							Damage: 0
+						}
+					}
+					nbt: { }
+					title: "Kill 30 Chaos Knights with a Cogloader"
+					type: "questsadditions:killnbt"
+					value: 30L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:bonescaller"
+					icon: {
+						Count: 1
+						id: "scguns:waltz_conversion"
+						tag: {
+							AmmoCount: 12
+							Damage: 0
+						}
+					}
+					id: "6A964E60E4315010"
+					item: {
+						Count: 1
+						id: "scguns:waltz_conversion"
+						tag: {
+							AmmoCount: 12
+							Damage: 0
+						}
+					}
+					nbt: { }
+					title: "Kill 30 Bonescallers with a Waltz Conversion"
+					type: "questsadditions:killnbt"
+					value: 30L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: {
+						Count: 1
+						id: "scguns:jackhammer"
+						tag: {
+							AmmoCount: 12
+							Damage: 0
+						}
+					}
+					id: "7902CA62195A3D8F"
+					item: {
+						Count: 1
+						id: "scguns:jackhammer"
+						tag: {
+							AmmoCount: 12
+							Damage: 0
+						}
+					}
+					nbt: { }
+					title: "Kill 5 Nightmare Stalkers with a Jackhammer"
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+			]
+			title: "Brass Sub-Mastery 2/2"
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7A019C4EC1329C9B"]
+			icon: "create:brass_ingot"
+			id: "29BAA0375F80C0DA"
+			rewards: [
+				{
+					count: 64
+					id: "03C03C216B34A6D4"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "43E0E3AA6CE3A912"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "00A43294B260ED9F"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "74CDB96BC407CBF1"
+					item: "scguns:blaze_fuel"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "574DA9DFCB0D6D03"
+					item: "scguns:ramrod_round"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "085B31A6E30C9992"
+					item: "scguns:treated_brass_ingot"
+					type: "item"
+				}
+				{
+					id: "79B3644EF7C84126"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					command: "/attribute @s scguns:spread_multiplier base set 0.9"
+					elevate_perms: true
+					icon: "itemfilters:id_regex"
+					id: "0B64F29316B82E94"
+					title: "-5% Bullet Spread"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: {
+						Count: 1
+						id: "scguns:thunderhead"
+						tag: {
+							AmmoCount: 25
+							Damage: 0
+						}
+					}
+					id: "7BD6A3B006BB6D26"
+					item: {
+						Count: 1
+						id: "scguns:thunderhead"
+						tag: {
+							AmmoCount: 25
+							Damage: 0
+						}
+					}
+					nbt: { }
+					title: "Kill 30 Zombie Bruisers with a Thunderhead"
+					type: "questsadditions:killnbt"
+					value: 30L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:dire_hound_leader"
+					icon: {
+						Count: 1
+						id: "scguns:gattaler"
+						tag: {
+							AmmoCount: 90
+							Damage: 0
+						}
+					}
+					id: "64A40964A4C9B402"
+					item: {
+						Count: 1
+						id: "scguns:gattaler"
+						tag: {
+							AmmoCount: 90
+							Damage: 0
+						}
+					}
+					nbt: { }
+					title: "Kill 20 Dire Hound Leaders with a Gattaler"
+					type: "questsadditions:killnbt"
+					value: 20L
+				}
+				{
+					checkItem: true
+					entity: "born_in_chaos_v1:mother_spider"
+					icon: {
+						Count: 1
+						id: "scguns:spitfire"
+						tag: {
+							AmmoCount: 20
+							Damage: 0
+						}
+					}
+					id: "74623EA89AE72C54"
+					item: {
+						Count: 1
+						id: "scguns:spitfire"
+						tag: {
+							AmmoCount: 20
+							Damage: 0
+						}
+					}
+					nbt: { }
+					title: "Kill 3 Mother Spiders with a Spitfire"
+					type: "questsadditions:killnbt"
+					value: 5L
+				}
+			]
+			title: "Brass Sub Mastery 1/2"
+			x: -3.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["3F57E0A956885EA0"]
+			id: "18BFDD5957CB6047"
+			rewards: [
+				{
+					count: 50
+					id: "736596D2B0F4AC15"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 50
+					id: "6F0CA5D02C477F46"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2BE30C0F43E7F960"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3492D86871DB983B"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7C1F0B7C123318F9"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					id: "02B50329BE4480AB"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [
+				{
+					entity: "variantsandventures:thicket"
+					icon: "atmospheric:passion_vine"
+					id: "76B4C7E8C14442DC"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "minecraft:stray"
+					icon: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:long_slowness"
+						}
+					}
+					id: "3B188BF6162F150A"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "minecraft:husk"
+					icon: "minecraft:dead_bush"
+					id: "0FD396906812926A"
+					type: "kill"
+					value: 50L
+				}
+			]
+			title: "Brass Advanced 1/2"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F57E0A956885EA0"]
+			id: "0A3F7C3825E4B0A2"
+			rewards: [
+				{
+					count: 32
+					id: "748A056A4FACB4A3"
+					item: "scguns:ramrod_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6D139B20798DCDB6"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5B52D9860EE9CF78"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0CB3F745A204B2F3"
+					item: "scguns:beowulf_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "729817F29D12C6F8"
+					item: "scguns:plasma_core"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1417771FA95D60CB"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5B924C1C4CEA902A"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					id: "448FE1B7200FF9F4"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:piglin"
+					icon: "minecraft:piglin_head"
+					id: "7124A716E1584ABC"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "minecraft:wither_skeleton"
+					icon: "minecraft:wither_skeleton_skull"
+					id: "3C1A1DE2163B1B0E"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "minecraft:blaze"
+					icon: "minecraft:blaze_rod"
+					id: "1F7BDE81D4DB89BA"
+					type: "kill"
+					value: 50L
+				}
+			]
+			title: "Brass Advanced 2/2"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0A3F7C3825E4B0A2"
+				"18BFDD5957CB6047"
+			]
+			icon: {
+				Count: 1
+				id: "scguns:m22_waltz"
+				tag: {
+					AmmoCount: 8
+					Damage: 0
+				}
 			}
-			{
-				id: "41B73D20C9679B9E"
+			id: "68B36BC9B1EA605D"
+			rewards: [
+				{
+					count: 32
+					id: "1787FEA68B6D34C0"
+					item: "scguns:ramrod_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3A938CA4923D1DD0"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "297BC181612C2435"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4731A324BFB37637"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "0BC26CFF75334447"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "351E7BF257E67F42"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "35200290CE061E0A"
+					item: "scguns:sheol"
+					type: "item"
+				}
+				{
+					id: "21475FB80A44602E"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Eye of Cthulu with an M22 Waltz"
+			tasks: [{
+				checkItem: true
+				entity: "look:eye_of_cthulhu"
+				icon: "look:suspicious_looking_eye"
+				id: "1807F83456ABD513"
 				item: {
 					Count: 1
-					id: "scguns:gauss_rifle"
+					id: "scguns:m22_waltz"
 					tag: {
 						AmmoCount: 8
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "3D3CFFA63B72E482"
+				nbt: { }
+				title: "Kill 1 Eye of Cthulu with an M22 Waltz"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Brass Challenge Kill"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"29BAA0375F80C0DA"
+				"126117ECFB43797C"
+				"68B36BC9B1EA605D"
+			]
+			description: ["This damage applies to all Scorched Guns weapons"]
+			icon: "scguns:treated_brass_ingot"
+			id: "197B86D4A496DDD1"
+			rewards: [
+				{
+					id: "31340640501D2E38"
+					item: {
+						Count: 1
+						id: "scguns:dozier_rl"
+						tag: {
+							AmmoCount: 4
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 24
+					id: "7468F11D78EEBA5F"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "4A44E780178327DC"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "5A8983BBA6FEF173"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A0B502DACA37056"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "75E0BA489443425B"
+					item: "scguns:rocket"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "03A81E0F990273BD"
+					item: "scguns:ramrod_round"
+					type: "item"
+				}
+				{
+					id: "72753EFC0F09A141"
+					item: "scguns:diamond_steel_gun_frame"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "566BAF04AB1631B4"
+					item: "scguns:gibbs_round"
+					type: "item"
+				}
+				{
+					id: "782979EEB27DF40C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					command: "/attribute @s scguns:additional_bullet_damage base set 3.5"
+					icon: "itemfilters:damage"
+					id: "352BDFD97BD40131"
+					title: "3.5 base Scorched Guns damage"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Kill 3 Lich with a Cogloader"
+			tasks: [{
+				checkItem: true
+				entity: "threateningly_mobs:lich"
+				icon: "threateningly_mobs:skeleton_necklace"
+				id: "39A83F2C40DAB65C"
 				item: {
 					Count: 1
-					id: "scguns:niami"
+					id: "scguns:cogloader"
 					tag: {
-						AmmoCount: 7
+						AmmoCount: 46
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "2A33E24DEF09516B"
-				item: {
-					Count: 1
-					id: "scguns:spitfire"
-					tag: {
-						AmmoCount: 20
-						Damage: 0
-					}
-				}
-				type: "item"
-			}
-			{
-				id: "7A003131031E6F1E"
-				item: {
-					Count: 1
-					id: "scguns:gattaler"
-					tag: {
-						AmmoCount: 90
-						Damage: 0
-					}
-				}
-				type: "item"
-			}
-			{
-				id: "0410C2B7A92F8B4A"
-				item: {
-					Count: 1
-					id: "scguns:thunderhead"
-					tag: {
-						AmmoCount: 25
-						Damage: 0
-					}
-				}
-				type: "item"
-			}
-			{
-				id: "037E3B1F7E619E71"
-				item: {
-					Count: 1
-					id: "scguns:scratches"
-					tag: {
-						AmmoCount: 24
-						Damage: 0
-					}
-				}
-				type: "item"
-			}
-			{
-				id: "05449BE3401C8193"
-				item: {
-					Count: 1
-					id: "scguns:cr4k_mining_laser"
-					tag: {
-						AmmoCount: 100
-						Damage: 0
-					}
-				}
-				type: "item"
-			}
-			{
-				id: "776655B6B7DE42B6"
-				item: {
-					Count: 1
-					id: "scguns:dozier_rl"
-					tag: {
-						AmmoCount: 4
-						Damage: 0
-					}
-				}
-				type: "item"
-			}
-		]
-		title: "Get a Treated Brass Teir Weapon"
-		x: 0.0d
-		y: 0.0d
-	}]
+				nbt: { }
+				title: "Kill 3 Lich with a Cogloader"
+				type: "questsadditions:killnbt"
+				value: 3L
+			}]
+			title: "Brass Mastery"
+			x: 0.0d
+			y: 8.0d
+		}
+	]
 	title: "Treated Brass Teir"
 }

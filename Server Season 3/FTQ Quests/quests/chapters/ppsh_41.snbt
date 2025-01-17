@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ppsh_41"
+	group: "2E8BF1A1F4DB9EE3"
+	id: "3B3C6F5E95608C42"
+	order_index: 76
+	quest_links: [ ]
+	quests: [{
+		description: ["Craft a PPSh-41 using a Gunmetal Workbench"]
+		id: "680CEAC2BD7BEB4F"
+		rewards: [{
+			count: 71
+			id: "738164BD97AF25BD"
+			item: "jeg:rifle_ammo"
+			type: "item"
+		}]
+		shape: "diamond"
+		size: 2.0d
+		subtitle: "Craft or obtain a PPSh-41"
+		tasks: [{
+			id: "66305ABEE63A4F3F"
+			item: {
+				Count: 1
+				id: "mteg:ppsh_41"
+				tag: {
+					AmmoCount: 71
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		title: "Aquire a PPSh-41"
+		x: -2.5d
+		y: -2.0d
+	}]
+	title: "PPSh-41"
+}

@@ -266,6 +266,11 @@
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"4295EC46260D784F"
+				"45EA11FBE9C21D38"
+				"4F307E5D1BBBA728"
+			]
 			id: "3EE4BE672272198C"
 			rewards: [
 				{
@@ -307,6 +312,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["3EE4BE672272198C"]
 			id: "4FAF384010B7BBA3"
 			rewards: [
 				{
@@ -354,6 +360,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["3EE4BE672272198C"]
 			id: "3FCFA0B9ED1C81AC"
 			rewards: [
 				{
@@ -385,8 +392,440 @@
 					value: 50L
 				}
 			]
+			title: "Iron Basics 3/3"
 			x: -1.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["4295EC46260D784F"]
+			id: "45EA11FBE9C21D38"
+			rewards: [
+				{
+					count: 64
+					id: "69CE571265832F14"
+					item: "scguns:compact_copper_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "78C13BC386AAF13A"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "69D03FE5FE0C0CA6"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "193633C5737B40C5"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3D18ABA2029A6198"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "62002EF43E327FB2"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Kill 3 Mutant Zombies with a Defender Pistol"
+			tasks: [{
+				checkItem: true
+				entity: "mutantmonsters:mutant_zombie"
+				icon: {
+					Count: 1
+					id: "scguns:defender_pistol"
+					tag: {
+						AmmoCount: 9
+						Damage: 0
+					}
+				}
+				id: "6B9421D547ECC3D6"
+				item: {
+					Count: 1
+					id: "scguns:defender_pistol"
+					tag: {
+						AmmoCount: 9
+						Damage: 0
+					}
+				}
+				nbt: { }
+				title: "Kill 3 Mutant Zombies with Defender Pistol"
+				type: "questsadditions:killnbt"
+				value: 3L
+			}]
+			title: "Iron Challenge Kill 1/2"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4295EC46260D784F"]
+			id: "4F307E5D1BBBA728"
+			rewards: [
+				{
+					count: 64
+					id: "607E12801A6BA1E0"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "12553848B378FD59"
+					item: "scguns:compact_copper_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "366B5E1EE7F7F4B9"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "4CD69FFFA596AE17"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					id: "69DB912D26C593AF"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 16
+					id: "71945EEAB9785F99"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Kill 3 Mutant Skeletons with the Greaser SMG"
+			tasks: [{
+				checkItem: true
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: {
+					Count: 1
+					id: "scguns:greaser_smg"
+					tag: {
+						AmmoCount: 18
+						Damage: 0
+					}
+				}
+				id: "59CF42505AFF0C4D"
+				item: {
+					Count: 1
+					id: "scguns:greaser_smg"
+					tag: {
+						AmmoCount: 18
+						Damage: 0
+					}
+				}
+				nbt: { }
+				title: "Kill 3 Mutant Skeletons with the Greaser SMG"
+				type: "questsadditions:killnbt"
+				value: 3L
+			}]
+			title: "Iron Challenge Kill 2/2"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4FAF384010B7BBA3"
+				"3FCFA0B9ED1C81AC"
+			]
+			icon: {
+				Count: 1
+				id: "scguns:trenchur"
+				tag: {
+					AmmoCount: 6
+					Damage: 0
+				}
+			}
+			id: "3737BE5AA8215A1A"
+			rewards: [
+				{
+					count: 64
+					id: "35E68B5077985AE4"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1A6575D27CF7473F"
+					item: "scguns:compact_copper_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1128CDD391EAFA98"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "73C7EFC5487726D8"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "107A74E57A606DAC"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					id: "4262CE58ADBBF322"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Kill 1 Spino with a Trenchur"
+			tasks: [{
+				checkItem: true
+				entity: "the_spino:spino"
+				icon: {
+					Count: 1
+					id: "scguns:trenchur"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				id: "3563226EFCBF3159"
+				item: {
+					Count: 1
+					id: "scguns:trenchur"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				nbt: { }
+				title: "Kill 1 Spinowane with a Trenchur"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Iron Advanced Challenge Kill"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3737BE5AA8215A1A"]
+			id: "316845E52AF6BE48"
+			rewards: [
+				{
+					count: 64
+					id: "5AC30ABE189EAA1C"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "62F6F7173BA4B4DB"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "027A844714D9BE45"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "3B187A8EE068538A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:pillager"
+					icon: {
+						Count: 1
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "39EEEAB558DF649B"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "minecraft:evoker"
+					icon: "minecraft:totem_of_undying"
+					id: "4E33A126AA29F589"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Iron Advanced 1/2"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3737BE5AA8215A1A"]
+			id: "4972251E372B097D"
+			rewards: [
+				{
+					count: 64
+					id: "582ACDFA4D61CBCA"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "176232B072B806AC"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0407700DEC8182DB"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "76A97570479E65ED"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:skeleton_demoman"
+					icon: "zombiesmore:dynamite"
+					id: "5ABDE35F1571CF45"
+					type: "kill"
+					value: 25L
+				}
+				{
+					entity: "minecraft:zombie_villager"
+					icon: "minecraft:rotten_flesh"
+					id: "7E3E6675E62A62D4"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "zombiesmore:cursed_zombie"
+					icon: "zombiesmore:cursed_essence_potion"
+					id: "30AF9A62C44BB21C"
+					type: "kill"
+					value: 25L
+				}
+			]
+			title: "Iron Advanced 2/2"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"316845E52AF6BE48"
+				"4972251E372B097D"
+			]
+			icon: "scguns:treated_iron_ingot"
+			id: "5C7F16A5B01DD7A0"
+			rewards: [
+				{
+					count: 64
+					id: "5706C268DC3A5B90"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3A3F0F5411A94C81"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1C664DFC69597338"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "1E4BAAD9A219F18C"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "6FDE234D1ADD5F41"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "15B89B297FCCB41C"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					id: "206B0882B31E12FD"
+					item: "scguns:diamond_steel_gun_frame"
+					type: "item"
+				}
+				{
+					id: "5EE387D058222F5F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					command: "/attribute @s scguns:additional_bullet_damage base set 2.5"
+					elevate_perms: true
+					icon: "itemfilters:damage"
+					id: "18C9C908B00B4B8D"
+					title: "2.5 base Scorched Guns additional damage"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "This damage applies to all Scorched Guns weapons"
+			tasks: [{
+				checkItem: true
+				entity: "illageandspillage:freakager"
+				icon: {
+					Count: 1
+					id: "scguns:mk43_rifle"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				id: "18843EE0A60224D1"
+				item: {
+					Count: 1
+					id: "scguns:mk43_rifle"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				nbt: { }
+				title: "Kill 1 Freakager with an MK43 Rifle"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Iron Teir Mastery"
+			x: 0.0d
+			y: 8.0d
 		}
 	]
 	title: "Iron Teir"

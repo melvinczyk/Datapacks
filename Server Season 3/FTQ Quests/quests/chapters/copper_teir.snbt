@@ -215,7 +215,7 @@
 				title: "Completed Flint Teir"
 				type: "checkmark"
 			}]
-			title: "Completed Flint Mastery"
+			title: "Flint Teir Completed"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -494,10 +494,10 @@
 					xp_levels: 20
 				}
 				{
-					command: "/attribute @s scguns:additional_weapon_damage base set 1.0"
+					command: "/attribute @s scguns:additional_weapon_damage base set 1.5"
 					icon: "itemfilters:damage"
 					id: "49DAA20003880BCA"
-					title: "1.0 base Scorched Guns added damage"
+					title: "1.5 base Scorched Guns added damage"
 					type: "command"
 				}
 				{

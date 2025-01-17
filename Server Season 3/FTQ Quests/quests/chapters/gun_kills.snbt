@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gun_kills"
+	group: ""
+	id: "46E579AE948546C9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "35551BDBCD340350"
+		tasks: [{
+			checkItem: false
+			entity: "minecraft:zombie"
+			id: "16ECA611D8EE53ED"
+			nbt: { }
+			type: "questsadditions:killnbt"
+			value: 1L
+		}]
+		x: -1.5d
+		y: -2.0d
+	}]
+	title: "Gun Kills"
+}

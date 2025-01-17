@@ -2276,7 +2276,7 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 7.0,
+          "value": 3.0,
           "operation": "ADDITION"
         },
         {
