@@ -7,70 +7,239 @@
 	id: "3C0DD4D537B7556E"
 	order_index: 8
 	quest_links: [ ]
-	quests: [{
-		id: "61F8967D0C8FFC2F"
-		min_required_tasks: 1
-		rewards: [
-			{
-				count: 128
-				id: "04AE30FAB55D168B"
-				item: "scguns:compact_advanced_round"
-				type: "item"
-			}
-			{
-				count: 64
-				id: "73C659CC20F6D5AD"
-				item: "scguns:ramrod_round"
-				type: "item"
-			}
-			{
-				count: 32
-				id: "6E03C875CB15C945"
-				item: "scguns:gibbs_round"
-				type: "item"
-			}
-			{
-				count: 32
-				id: "6C353AE515FD0D81"
-				item: "scguns:bearpack_shell"
-				type: "item"
-			}
-			{
-				count: 64
-				id: "40072767627DD7AC"
-				item: "scguns:advanced_round"
-				type: "item"
-			}
-			{
-				count: 32
-				id: "7F67E2AB4FB87F2C"
-				item: "scguns:energy_core"
-				type: "item"
-			}
-			{
-				count: 16
-				id: "73F8EE145F40D2CC"
-				item: "minecraft:blaze_rod"
-				type: "item"
-			}
-			{
-				count: 32
-				id: "7C39D14E8D107E19"
-				item: "scguns:krahg_round"
-				type: "item"
-			}
-			{
-				id: "141853516A354EE2"
-				type: "xp_levels"
-				xp_levels: 35
-			}
-		]
-		shape: "hexagon"
-		size: 2.0d
-		subtitle: "Get a Scorched Teir Weapon"
-		tasks: [
-			{
-				id: "77F4B8E5981A3B9C"
+	quests: [
+		{
+			id: "61F8967D0C8FFC2F"
+			min_required_tasks: 1
+			rewards: [
+				{
+					count: 128
+					id: "04AE30FAB55D168B"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "73C659CC20F6D5AD"
+					item: "scguns:ramrod_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6E03C875CB15C945"
+					item: "scguns:gibbs_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6C353AE515FD0D81"
+					item: "scguns:bearpack_shell"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "40072767627DD7AC"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7F67E2AB4FB87F2C"
+					item: "scguns:energy_core"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "73F8EE145F40D2CC"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7C39D14E8D107E19"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					id: "141853516A354EE2"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Get a Scorched Teir Weapon"
+			tasks: [
+				{
+					id: "77F4B8E5981A3B9C"
+					item: {
+						Count: 1
+						id: "scguns:prima_materia"
+						tag: {
+							AmmoCount: 14
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "680F211E457FEC12"
+					item: {
+						Count: 1
+						id: "scguns:rat_king_and_queen"
+						tag: {
+							AmmoCount: 18
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "176C7F9274ACE68E"
+					item: {
+						Count: 1
+						id: "scguns:locust"
+						tag: {
+							AmmoCount: 28
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D5C900479D1AAAF"
+					item: {
+						Count: 1
+						id: "scguns:newborn_cyst"
+						tag: {
+							AmmoCount: 6
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "419AA85349E2A5CA"
+					item: {
+						Count: 1
+						id: "scguns:earths_corpse"
+						tag: {
+							AmmoCount: 75
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C81ABF576CEAF6D"
+					item: {
+						Count: 1
+						id: "scguns:flayed_god"
+						tag: {
+							AmmoCount: 55
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "032BBEA0B89CF7E6"
+					item: {
+						Count: 1
+						id: "scguns:nervepinch"
+						tag: {
+							AmmoCount: 8
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AA29058CBE21C28"
+					item: {
+						Count: 1
+						id: "scguns:astella"
+						tag: {
+							AmmoCount: 7
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Get a Scorched Teir Weapon"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"74302133023F7808"
+				"61F8967D0C8FFC2F"
+			]
+			id: "35B9F3A4B937E31D"
+			shape: "gear"
+			subtitle: "Complete the End Teir first"
+			tasks: [{
+				id: "511470F94D68A3A1"
+				title: "End Teir Completed"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["35B9F3A4B937E31D"]
+			id: "0067565FF10F7F71"
+			rewards: [
+				{
+					count: 64
+					id: "49B4B5DEFD711866"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3CA785E90833B1E3"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "48FD60CA506A5D08"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "2D2BBDAD8440E8A5"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "21DEE92575243569"
+					item: "scguns:beowulf_round"
+					type: "item"
+				}
+				{
+					id: "04CF4E30246B93FA"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			subtitle: "Kill 1 Razor Tyrant with a Prima Materia"
+			tasks: [{
+				checkItem: true
+				entity: "razor_tyrant:razor_tyrant"
+				icon: {
+					Count: 1
+					id: "scguns:prima_materia"
+					tag: {
+						AmmoCount: 14
+						Damage: 0
+					}
+				}
+				id: "7F82FEA1EF1412C9"
 				item: {
 					Count: 1
 					id: "scguns:prima_materia"
@@ -79,10 +248,212 @@
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "680F211E457FEC12"
+				nbt: { }
+				title: "Kill 1 Razor Tyrant with a Prima Materia"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Scorched Basics 1/3"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["35B9F3A4B937E31D"]
+			id: "079D772C7C57491B"
+			rewards: [
+				{
+					count: 64
+					id: "6AA5FA43163EDBB3"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "38E090579ED51FE9"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6AEAFCA0F4DB7500"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "568C57A42A36B9D3"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "382B85BBDD1E5108"
+					item: "scguns:beowulf_round"
+					type: "item"
+				}
+				{
+					id: "7141F7541179B839"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			subtitle: "Kill 1 Void Blossom with a Prima Materia"
+			tasks: [{
+				checkItem: true
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: {
+					Count: 1
+					id: "scguns:prima_materia"
+					tag: {
+						AmmoCount: 14
+						Damage: 0
+					}
+				}
+				id: "002439317192B0D2"
+				item: {
+					Count: 1
+					id: "scguns:prima_materia"
+					tag: {
+						AmmoCount: 14
+						Damage: 0
+					}
+				}
+				nbt: { }
+				title: "Kill 1 Void Blossom with a Prima Materia"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Scorched Basics 2/3"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["35B9F3A4B937E31D"]
+			id: "1CC1C88CB355AC39"
+			rewards: [
+				{
+					count: 64
+					id: "648E6E01A1990359"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "65056FE0D431709E"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "244AF56A02126A42"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "35E4781C9A89BB2A"
+					item: "scguns:beowulf_round"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "7CB29F1C275F6537"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "2E9BD067FF39247E"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			subtitle: "Kill 1 Night Lich with a Prima Materia"
+			tasks: [{
+				checkItem: true
+				entity: "bosses_of_mass_destruction:lich"
+				icon: {
+					Count: 1
+					id: "scguns:prima_materia"
+					tag: {
+						AmmoCount: 14
+						Damage: 0
+					}
+				}
+				id: "6BA5C8BC25B04DEA"
+				item: {
+					Count: 1
+					id: "scguns:prima_materia"
+					tag: {
+						AmmoCount: 14
+						Damage: 0
+					}
+				}
+				nbt: { }
+				title: "Kill 1 Night Lich with a Prima Materia"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Scorched Basics 3/3"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0067565FF10F7F71"
+				"1CC1C88CB355AC39"
+				"079D772C7C57491B"
+			]
+			id: "48115F2AE6C113EC"
+			rewards: [
+				{
+					count: 64
+					id: "5352F1346ED56027"
+					item: "scguns:ramrod_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "796586EC93994C35"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2E94C2032A0F5468"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "66A2540C4E9696FA"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "2AE0CFDFD05DF28D"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "71F148B44CF1372A"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			subtitle: "Kill 1 Inferno with The Rat King and Queen"
+			tasks: [{
+				checkItem: true
+				entity: "threateningly_mobs:inferno"
+				icon: {
+					Count: 1
+					id: "scguns:rat_king_and_queen"
+					tag: {
+						AmmoCount: 18
+						Damage: 0
+					}
+				}
+				id: "07FF7C4247F75BD1"
 				item: {
 					Count: 1
 					id: "scguns:rat_king_and_queen"
@@ -91,84 +462,294 @@
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "176C7F9274ACE68E"
-				item: {
+				nbt: { }
+				title: "Kill 1 Inferno with The Rat King and Queen"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Scorched Advanced 1/2"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0067565FF10F7F71"
+				"079D772C7C57491B"
+				"1CC1C88CB355AC39"
+			]
+			id: "667C9903D44609C1"
+			rewards: [
+				{
+					count: 64
+					id: "0F26DAC74BE4F2DB"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "74777E16DF73F6A3"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "78F33B192D8B995B"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1B2F47A85CED2DD4"
+					item: "scguns:beowulf_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "750FF04D28061C75"
+					item: "scguns:gibbs_round"
+					type: "item"
+				}
+				{
+					id: "29952ABADE71A8DF"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			subtitle: "Kill 1 Trial Guardian with The Rat King and Queen"
+			tasks: [{
+				checkItem: true
+				entity: "terramity:trial_guardian"
+				icon: {
 					Count: 1
-					id: "scguns:locust"
+					id: "scguns:rat_king_and_queen"
 					tag: {
-						AmmoCount: 28
+						AmmoCount: 18
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "4D5C900479D1AAAF"
+				id: "0C9209969B1A6A92"
 				item: {
 					Count: 1
-					id: "scguns:newborn_cyst"
+					id: "scguns:rat_king_and_queen"
 					tag: {
-						AmmoCount: 6
+						AmmoCount: 18
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "419AA85349E2A5CA"
-				item: {
+				nbt: { }
+				title: "Kill 1 Trial Guardian with the Rat King and Queen"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Scorched Advanced 2/2"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"48115F2AE6C113EC"
+				"667C9903D44609C1"
+			]
+			icon: "scguns:scorched_ingot"
+			id: "333E5D8BE88FCEC3"
+			rewards: [
+				{
+					count: 128
+					id: "54A36FA65DCEE6D6"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					id: "693F555094AE23AC"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Kill 1 Corundum Guardian with the Prima Materia"
+			tasks: [{
+				checkItem: true
+				entity: "corundumguardian:corundum_guardian"
+				icon: {
 					Count: 1
-					id: "scguns:earths_corpse"
+					id: "scguns:prima_materia"
 					tag: {
-						AmmoCount: 75
+						AmmoCount: 14
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "4C81ABF576CEAF6D"
+				id: "738F116D0ABDDCA8"
 				item: {
 					Count: 1
-					id: "scguns:flayed_god"
+					id: "scguns:prima_materia"
 					tag: {
-						AmmoCount: 55
+						AmmoCount: 14
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "032BBEA0B89CF7E6"
-				item: {
+				nbt: { }
+				title: "Kill 1 Corundum Guardian with the Prima Materia"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Scorched Sub Mastery 1/2"
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"667C9903D44609C1"
+				"48115F2AE6C113EC"
+			]
+			icon: "scguns:scorched_ingot"
+			id: "09A387D7C93F5543"
+			rewards: [
+				{
+					count: 128
+					id: "1D954D60EF10F8A6"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					id: "2265EC4233DD9C7D"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Kill 1 Pigzilla with a Prima Materia"
+			tasks: [{
+				checkItem: true
+				entity: "pigzilla:pigzilla"
+				icon: {
 					Count: 1
-					id: "scguns:nervepinch"
+					id: "scguns:prima_materia"
 					tag: {
-						AmmoCount: 8
+						AmmoCount: 14
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "4AA29058CBE21C28"
+				id: "64F7D99B3E755977"
 				item: {
 					Count: 1
-					id: "scguns:astella"
+					id: "scguns:prima_materia"
 					tag: {
-						AmmoCount: 7
+						AmmoCount: 14
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-		]
-		title: "Get a Scorched Teir Weapon"
-		x: 0.0d
-		y: 0.0d
-	}]
-	title: "Scorched Teir"
+				nbt: { }
+				title: "Kill 1 Pigzilla with a Prima Materia"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Scorched Sub Mastery 2/2"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"333E5D8BE88FCEC3"
+				"09A387D7C93F5543"
+			]
+			id: "15287BAB7A197217"
+			rewards: [
+				{
+					count: 6
+					id: "236CFDB0655CE0C6"
+					item: "terramity:black_matter"
+					type: "item"
+				}
+				{
+					count: 368
+					id: "593D8826ACCB78E8"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 368
+					id: "6F210B518549FF76"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 368
+					id: "48767506974881D5"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "16A892A8418382E6"
+					item: "scguns:scorched_blend"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5B0EFE4F4A5AAF26"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3315979D8F510FC5"
+					item: "terramity:iridescent_shard"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "34976D08BC32CCD1"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "361E00347344570D"
+					item: "terramity:conductite"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0476C33C5B01B696"
+					item: "terramity:hellspec_alloy"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "3ED13CB9D7220028"
+					item: "terramity:nyxium"
+					type: "item"
+				}
+				{
+					id: "4C702756ED899809"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					command: "/attribute @s scguns:additional_bullet_damage base set 10"
+					elevate_perms: true
+					icon: "itemfilters:damage"
+					id: "578EDFB03F84100A"
+					title: "10 base Scorched Guns additional damage"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "This damage applies to all Scorched Guns weapons"
+			tasks: [{
+				entity: "terramity:ultra_sniffer"
+				icon: "terramity:music_sheet_of_the_omnipotent_ultra_sniffer"
+				id: "43A0A6AF74EEE223"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Scorched Mastery"
+			x: 0.0d
+			y: 8.5d
+		}
+	]
+	title: "&4Scorched Teir"
 }

@@ -310,6 +310,7 @@
 			]
 			id: "75F0BF2B91AA172E"
 			shape: "gear"
+			subtitle: "Complete the Iron Teir first"
 			tasks: [{
 				id: "0BE71858F15DE40F"
 				title: "Iron Teir Completed"

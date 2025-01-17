@@ -7,46 +7,353 @@
 	id: "6B2628167FC5B650"
 	order_index: 7
 	quest_links: [ ]
-	quests: [{
-		id: "59A19AFAB406FF82"
-		min_required_tasks: 1
-		rewards: [
-			{
-				count: 16
-				id: "5699E33121477604"
-				item: "scguns:shulkshot"
-				type: "item"
-			}
-			{
-				count: 48
-				id: "6DA4BA7C92EC7C6C"
-				item: "scguns:advanced_round"
-				type: "item"
-			}
-			{
-				count: 32
-				id: "710827BB1D066889"
-				item: "scguns:shock_cell"
-				type: "item"
-			}
-			{
-				count: 32
-				id: "261820C8F1419762"
-				item: "scguns:energy_cell"
-				type: "item"
-			}
-			{
-				id: "0C9374377822B90B"
-				type: "xp_levels"
-				xp_levels: 30
-			}
-		]
-		shape: "hexagon"
-		size: 2.0d
-		subtitle: "Get an End Teir Weapon"
-		tasks: [
-			{
-				id: "6620E70FCA1D7C88"
+	quests: [
+		{
+			id: "59A19AFAB406FF82"
+			min_required_tasks: 1
+			rewards: [
+				{
+					count: 16
+					id: "5699E33121477604"
+					item: "scguns:shulkshot"
+					type: "item"
+				}
+				{
+					count: 48
+					id: "6DA4BA7C92EC7C6C"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "710827BB1D066889"
+					item: "scguns:shock_cell"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "261820C8F1419762"
+					item: "scguns:energy_cell"
+					type: "item"
+				}
+				{
+					id: "0C9374377822B90B"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Get an End Teir Weapon"
+			tasks: [
+				{
+					id: "6620E70FCA1D7C88"
+					item: {
+						Count: 1
+						id: "scguns:carapice"
+						tag: {
+							AmmoCount: 15
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "187B379E95D7307B"
+					item: {
+						Count: 1
+						id: "scguns:shellurker"
+						tag: {
+							AmmoCount: 14
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5624DCF98F7B0318"
+					item: {
+						Count: 1
+						id: "scguns:dark_matter"
+						tag: {
+							AmmoCount: 48
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "370C85C476241D6D"
+					item: {
+						Count: 1
+						id: "scguns:lone_wonder"
+						tag: {
+							AmmoCount: 23
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E352D7C36CE4A32"
+					item: {
+						Count: 1
+						id: "scguns:raygun"
+						tag: {
+							AmmoCount: 17
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Get an End Teir Weapon"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"59A19AFAB406FF82"
+				"797D9983DFFC9967"
+			]
+			id: "39B2DE16AC825A7E"
+			shape: "gear"
+			subtitle: "Complete the Sculk Teir First"
+			tasks: [{
+				id: "6E52A5CAA47E73C5"
+				title: "Sculk Teir Completed"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39B2DE16AC825A7E"]
+			id: "2D643ADD72D7E5C5"
+			rewards: [
+				{
+					count: 32
+					id: "42EABB31574F2BF4"
+					item: "scguns:shulkshot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "40DE57D027CA9B88"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2815EF061BB035F8"
+					item: "scguns:ramrod_round"
+					type: "item"
+				}
+				{
+					id: "2558D2ADDFF81F1A"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 16
+					id: "28BB317217C8C7BB"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "08661DF1A1EFBD5D"
+					type: "kill"
+					value: 150L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "66B1AED8D433F54F"
+					type: "kill"
+					value: 150L
+				}
+			]
+			title: "End Basics 1/3"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39B2DE16AC825A7E"]
+			id: "7C382C8EE0C56E32"
+			rewards: [
+				{
+					count: 32
+					id: "5494442823D72918"
+					item: "scguns:shulkshot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4750113572F8FA64"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4A560C846031B124"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "105755F1FF9C081E"
+					item: "scguns:shock_cell"
+					type: "item"
+				}
+				{
+					id: "4C06F9748CE6151D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					icon: "minecraft:ender_pearl"
+					id: "55B94FB54684CD52"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "farlanders:fanmade_enderman"
+					icon: "farlanders:fanmade_enderman_spawn_egg"
+					id: "3F966CA9452F9E1F"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "farlanders:rebel"
+					icon: {
+						Count: 1
+						id: "farlanders:rebel_farlander_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "476E1B829CAB585D"
+					type: "kill"
+					value: 50L
+				}
+			]
+			title: "End Basics 2/3"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39B2DE16AC825A7E"]
+			id: "52A1267E5FE2A6A0"
+			rewards: [
+				{
+					count: 64
+					id: "55C67ADD72A4A7C0"
+					item: "scguns:shulkshot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "162649BB99F67782"
+					item: "scguns:ramrod_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "402769ACAAE4E1EF"
+					item: "scguns:shock_cell"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1E3D8E83486880A3"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "0E15BB7FBA335183"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:missioner"
+					icon: "born_in_chaos_v1:krampuss_bag"
+					id: "50D8FD4DDBE19D5C"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "born_in_chaos_v1:lifestealer"
+					icon: "born_in_chaos_v1:lifestealer_skull"
+					id: "2B8C1891CFB5A951"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "born_in_chaos_v1:mother_spider"
+					icon: "born_in_chaos_v1:spider_mandible"
+					id: "6C8FEB0847027787"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "48BE6F6EB9EB6597"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "End Basics 3/3"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["52A1267E5FE2A6A0"]
+			icon: "minecraft:ender_pearl"
+			id: "481A2C406E686488"
+			rewards: [
+				{
+					count: 64
+					id: "3A88EF5377F6E4D2"
+					item: "scguns:shulkshot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2703ED78AD499C73"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					id: "6B72E8C7049E9F24"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Kill 1 Titan with a Carapice"
+			tasks: [{
+				checkItem: true
+				entity: "farlanders:titan"
+				icon: {
+					Count: 1
+					id: "scguns:carapice"
+					tag: {
+						AmmoCount: 15
+						Damage: 0
+					}
+				}
+				id: "1285D349B0DB02A2"
 				item: {
 					Count: 1
 					id: "scguns:carapice"
@@ -55,22 +362,68 @@
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "187B379E95D7307B"
-				item: {
+				nbt: { }
+				title: "Kill 1 Titan with a Carapice"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "End Sub Mastery 1/3"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7C382C8EE0C56E32"
+				"2D643ADD72D7E5C5"
+			]
+			icon: "minecraft:ender_pearl"
+			id: "3261C935F64D1D65"
+			rewards: [
+				{
+					count: 64
+					id: "1732AE79D012DE18"
+					item: "scguns:shulkshot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "074DB98F6AC5CC16"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7D20D16CA2954A6C"
+					item: "scguns:shock_cell"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1992C555EDA563E6"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "635DEC0769CCFD7E"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Kill 2 Ender Golems with a Dark Matter"
+			tasks: [{
+				checkItem: true
+				entity: "cataclysm:ender_golem"
+				icon: {
 					Count: 1
-					id: "scguns:shellurker"
+					id: "scguns:dark_matter"
 					tag: {
-						AmmoCount: 14
+						AmmoCount: 48
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "5624DCF98F7B0318"
+				id: "226CAC5BE0C12153"
 				item: {
 					Count: 1
 					id: "scguns:dark_matter"
@@ -79,22 +432,59 @@
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "370C85C476241D6D"
-				item: {
+				nbt: { }
+				title: "Kill 2 Ender Golems with a Dark Matter"
+				type: "questsadditions:killnbt"
+				value: 2L
+			}]
+			title: "End Sub Mastery 2/3"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["52A1267E5FE2A6A0"]
+			icon: "minecraft:ender_pearl"
+			id: "4027009F72D25399"
+			rewards: [
+				{
+					count: 64
+					id: "773279F9D429569B"
+					item: "scguns:shulkshot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "550E3DFA7DE33360"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "28E7771C1F4F4835"
+					item: "scguns:energy_cell"
+					type: "item"
+				}
+				{
+					id: "7015E27C8DE4215B"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Kill 1 Solscarab Maximus with a Raygun"
+			tasks: [{
+				checkItem: true
+				entity: "threateningly_mobs:solscarab_maximus"
+				icon: {
 					Count: 1
-					id: "scguns:lone_wonder"
+					id: "scguns:raygun"
 					tag: {
-						AmmoCount: 23
+						AmmoCount: 17
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "2E352D7C36CE4A32"
+				id: "658E24CC8BA72403"
 				item: {
 					Count: 1
 					id: "scguns:raygun"
@@ -103,12 +493,121 @@
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-		]
-		title: "Get an End Teir Weapon"
-		x: 0.0d
-		y: 0.0d
-	}]
+				nbt: { }
+				title: "Kill 1 Solscarab Maximus with a Raygun"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "End Sub Mastery 3/3"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"481A2C406E686488"
+				"3261C935F64D1D65"
+				"4027009F72D25399"
+			]
+			id: "74302133023F7808"
+			rewards: [
+				{
+					command: "/attribute @s scguns:additional_bullet_damage base set 7.5"
+					elevate_perms: true
+					icon: "itemfilters:damage"
+					id: "26593FAFB2E46221"
+					title: "7.5 base Scorched Guns additional damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "53F62BD6F70361CB"
+					item: "scguns:shulkshot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0D20F7E9467BC8CC"
+					item: "scguns:energy_cell"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1C25D24BE2E62344"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2969775C5B153C31"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "6261B6E98D690D4C"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					id: "6B1FBFDE7BEE1E13"
+					item: "scguns:scorched_blend"
+					type: "item"
+				}
+				{
+					id: "088BDFDF9B675E36"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:void_eye"
+				id: "26B6458C8FF16C7E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "End Mastery"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["74302133023F7808"]
+			id: "088DCF07C626BB02"
+			rewards: [{
+				command: "/attribute @s scguns:bullet_damage_multiplier base set 1.1"
+				elevate_perms: true
+				icon: "itemfilters:max_count"
+				id: "58EB4C8495E8C38D"
+				title: "+10% Scorched Guns weapon damage"
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 1.75d
+			subtitle: "Kill 1 Inferno with a Shellurker"
+			tasks: [{
+				checkItem: true
+				entity: "threateningly_mobs:inferno"
+				icon: "threateningly_mobs:inferno_jade"
+				id: "0A9C318218F24AC1"
+				item: {
+					Count: 1
+					id: "scguns:shellurker"
+					tag: {
+						AmmoCount: 14
+						Damage: 0
+					}
+				}
+				nbt: { }
+				title: "Kill 1 Inferno with a Shellurker"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "End Optional Boss"
+			x: 2.625d
+			y: 7.875d
+		}
+	]
 	title: "End Teir"
 }

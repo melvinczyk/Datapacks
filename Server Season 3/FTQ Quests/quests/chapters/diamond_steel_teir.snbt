@@ -7,70 +7,271 @@
 	id: "51DC9AE151AF7A61"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "4023ECA1056A9E91"
-		min_required_tasks: 1
-		rewards: [
-			{
-				count: 32
-				id: "44FBFBB426209139"
-				item: "scguns:compact_advanced_round"
-				type: "item"
-			}
-			{
-				count: 32
-				id: "1217B3BF9414FD85"
-				item: "scguns:beowulf_round"
-				type: "item"
-			}
-			{
-				count: 32
-				id: "540E30242EAE935C"
-				item: "scguns:gibbs_round"
-				type: "item"
-			}
-			{
-				count: 16
-				id: "514945A03D6A6998"
-				item: "scguns:bearpack_shell"
-				type: "item"
-			}
-			{
-				count: 32
-				id: "441174D65EF6A018"
-				item: "scguns:advanced_round"
-				type: "item"
-			}
-			{
-				count: 16
-				id: "59D9EEF1F5DE3A62"
-				item: "scguns:energy_cell"
-				type: "item"
-			}
-			{
-				count: 16
-				id: "364854CB1F54A579"
-				item: "scguns:microjet"
-				type: "item"
-			}
-			{
-				count: 16
-				id: "3555FB811BE6E162"
-				item: "scguns:energy_core"
-				type: "item"
-			}
-			{
-				id: "148567A9E048D7E1"
-				type: "xp_levels"
-				xp_levels: 15
-			}
-		]
-		shape: "hexagon"
-		size: 2.0d
-		subtitle: "Get a Diamond Steel Teir Weapon"
-		tasks: [
-			{
-				id: "3BC7F42AF1356BAA"
+	quests: [
+		{
+			id: "4023ECA1056A9E91"
+			min_required_tasks: 1
+			rewards: [
+				{
+					count: 32
+					id: "44FBFBB426209139"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1217B3BF9414FD85"
+					item: "scguns:beowulf_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "540E30242EAE935C"
+					item: "scguns:gibbs_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "514945A03D6A6998"
+					item: "scguns:bearpack_shell"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "441174D65EF6A018"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "59D9EEF1F5DE3A62"
+					item: "scguns:energy_cell"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "364854CB1F54A579"
+					item: "scguns:microjet"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3555FB811BE6E162"
+					item: "scguns:energy_core"
+					type: "item"
+				}
+				{
+					id: "148567A9E048D7E1"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Get a Diamond Steel Teir Weapon"
+			tasks: [
+				{
+					id: "3BC7F42AF1356BAA"
+					item: {
+						Count: 1
+						id: "scguns:krauser"
+						tag: {
+							AmmoCount: 12
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "064DE4D0B81D5399"
+					item: {
+						Count: 1
+						id: "scguns:soul_drummer"
+						tag: {
+							AmmoCount: 22
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63C8C908B1C48FE2"
+					item: {
+						Count: 1
+						id: "scguns:valora"
+						tag: {
+							AmmoCount: 17
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1122835ACEA0C312"
+					item: {
+						Count: 1
+						id: "scguns:uppercut"
+						tag: {
+							AmmoCount: 4
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "117B8C7493EEA959"
+					item: {
+						Count: 1
+						id: "scguns:prush_gun"
+						tag: {
+							AmmoCount: 21
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D67BBD2C2062E48"
+					item: {
+						Count: 1
+						id: "scguns:lockewood"
+						tag: {
+							AmmoCount: 21
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16629CA588E694B3"
+					item: {
+						Count: 1
+						id: "scguns:inertial"
+						tag: {
+							AmmoCount: 6
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "555A6E636539993C"
+					item: {
+						Count: 1
+						id: "scguns:mas_55"
+						tag: {
+							AmmoCount: 8
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3962154E32291A9F"
+					item: {
+						Count: 1
+						id: "scguns:plasgun"
+						tag: {
+							AmmoCount: 15
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "036B3FADE976E7AD"
+					item: {
+						Count: 1
+						id: "scguns:cyclone"
+						tag: {
+							AmmoCount: 18
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FFF0C6FFBAAB0E5"
+					item: {
+						Count: 1
+						id: "scguns:shard_culler"
+						tag: {
+							AmmoCount: 42
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Get a Diamond Steel Teir Weapon"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"197B86D4A496DDD1"
+				"4023ECA1056A9E91"
+			]
+			id: "63ADF90C54E00395"
+			shape: "gear"
+			subtitle: "Complete the Brass Teir first"
+			tasks: [{
+				id: "2B73EFA2E734DD8A"
+				title: "Brass Teir Completed"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["63ADF90C54E00395"]
+			id: "3D0E79E7A81DBA59"
+			rewards: [
+				{
+					count: 64
+					id: "46D146447CF41C8A"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "275A9A918199D50C"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "3CFE2AD053EC5209"
+					item: "scguns:beowulf_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "65605633B455F79C"
+					item: "scguns:energy_cell"
+					type: "item"
+				}
+				{
+					id: "7725BABD8FBB384C"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Kill 3 Eyes of Cthulu with a Krauser"
+			tasks: [{
+				checkItem: true
+				entity: "look:eye_of_cthulhu"
+				icon: {
+					Count: 1
+					id: "scguns:krauser"
+					tag: {
+						AmmoCount: 12
+						Damage: 0
+					}
+				}
+				id: "7977538727B76052"
 				item: {
 					Count: 1
 					id: "scguns:krauser"
@@ -79,22 +280,70 @@
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "064DE4D0B81D5399"
-				item: {
+				nbt: { }
+				title: "Kill 3 Eyes of Cthulu with a Krauser"
+				type: "questsadditions:killnbt"
+				value: 3L
+			}]
+			title: "Diamond Challenge Kill 2/2"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63ADF90C54E00395"]
+			id: "497DD0D99AE844BD"
+			rewards: [
+				{
+					count: 64
+					id: "1F8462A60FFF9A0E"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "34EA9BEC1E1E7292"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7A613125AEB06D70"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "01173619C4341CB8"
+					item: "scguns:beowulf_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7264BF16D5E820C4"
+					item: "scguns:gibbs_round"
+					type: "item"
+				}
+				{
+					id: "3A87D36A8AEBFCD3"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Kill 3 Armor of Deserts with a Valora"
+			tasks: [{
+				checkItem: true
+				entity: "threateningly_mobs:armor_of_desert"
+				icon: {
 					Count: 1
-					id: "scguns:soul_drummer"
+					id: "scguns:valora"
 					tag: {
-						AmmoCount: 22
+						AmmoCount: 17
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "63C8C908B1C48FE2"
+				id: "73F1ACF7D72E1EFE"
 				item: {
 					Count: 1
 					id: "scguns:valora"
@@ -103,58 +352,233 @@
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "1122835ACEA0C312"
-				item: {
-					Count: 1
-					id: "scguns:uppercut"
-					tag: {
-						AmmoCount: 4
-						Damage: 0
-					}
+				nbt: { }
+				title: "Kill 3 Armor of Deserts with a Valora"
+				type: "questsadditions:killnbt"
+				value: 3L
+			}]
+			title: "Diamond Challenge Kill 1/2"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63ADF90C54E00395"]
+			id: "0649180B3DCE94C5"
+			rewards: [
+				{
+					count: 64
+					id: "11673DC4698021E5"
+					item: "scguns:compact_advanced_round"
+					type: "item"
 				}
-				type: "item"
-			}
-			{
-				id: "117B8C7493EEA959"
-				item: {
-					Count: 1
-					id: "scguns:prush_gun"
-					tag: {
-						AmmoCount: 21
-						Damage: 0
-					}
+				{
+					count: 32
+					id: "59EC161C2137D9FA"
+					item: "scguns:advanced_round"
+					type: "item"
 				}
-				type: "item"
-			}
-			{
-				id: "3D67BBD2C2062E48"
-				item: {
-					Count: 1
-					id: "scguns:lockewood"
-					tag: {
-						AmmoCount: 21
-						Damage: 0
-					}
+				{
+					count: 32
+					id: "68A4BBF97949D809"
+					item: "scguns:beowulf_round"
+					type: "item"
 				}
-				type: "item"
-			}
-			{
-				id: "16629CA588E694B3"
-				item: {
-					Count: 1
-					id: "scguns:inertial"
-					tag: {
-						AmmoCount: 6
-						Damage: 0
-					}
+				{
+					count: 16
+					id: "2E35BEF97B1AD94F"
+					item: "jeg:shotgun_shell"
+					type: "item"
 				}
-				type: "item"
-			}
-			{
-				id: "555A6E636539993C"
+				{
+					count: 5
+					id: "7F2A32D758319399"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "716B8742457C89CD"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "19EB976EBCEB986F"
+					type: "kill"
+					value: 150L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "2B599AAC4D989953"
+					type: "kill"
+					value: 150L
+				}
+			]
+			title: "Diamond Basics 1/3"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63ADF90C54E00395"]
+			id: "6BDB704819CBB881"
+			rewards: [
+				{
+					count: 64
+					id: "3BEF479CED8ABC6B"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "29A6FB3816D6A26C"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "767EFAE32AE40D3A"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4F064D07C479B332"
+					item: "scguns:beowulf_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "037AD1B1E4366285"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3FE796F0E195347F"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "1A3E6449A720512E"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:decrepit_skeleton"
+					icon: "born_in_chaos_v1:shattered_skull"
+					id: "2FE10E84E94BFE39"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "born_in_chaos_v1:decaying_zombie"
+					icon: "minecraft:rotten_flesh"
+					id: "4257E4C6E190CB91"
+					type: "kill"
+					value: 100L
+				}
+			]
+			title: "Diamond Basics 2/3"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["63ADF90C54E00395"]
+			id: "5DA0F867ABB23E31"
+			rewards: [
+				{
+					count: 64
+					id: "79E56877B2A35191"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "30461A1258B42A28"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "603059E50425F790"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "10C7F15DB48BF383"
+					item: "scguns:beowulf_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "13C13CC08B83239B"
+					item: "scguns:gibbs_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2EB021456BE77904"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "1620AAD569327EE1"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:dread_hound"
+					icon: "born_in_chaos_v1:gnawed_bones"
+					id: "757DE3D97F222096"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "minecraft:cave_spider"
+					icon: "minecraft:spider_eye"
+					id: "0EA77B60E754140F"
+					type: "kill"
+					value: 100L
+				}
+			]
+			title: "Diamond Basics 3/3"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D0E79E7A81DBA59"]
+			icon: "minecraft:diamond"
+			id: "229CBCC15C1E2EE3"
+			rewards: [
+				{
+					command: "/attribute @s scguns:spread_multiplier base set 0.8"
+					elevate_perms: true
+					icon: "itemfilters:id_regex"
+					id: "1C995C73193FD653"
+					title: "-5% Bullet Spread"
+					type: "command"
+				}
+				{
+					id: "72965414D0A9CD94"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				checkItem: true
+				entity: "look:deerclops"
+				icon: "look:deer_thing"
+				id: "1C4002FAC04D2D51"
 				item: {
 					Count: 1
 					id: "scguns:mas_55"
@@ -163,48 +587,397 @@
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "3962154E32291A9F"
+				nbt: { }
+				title: "Kill 1 Deerclops with a Mas 55"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Diamond Sub Mastery 2/2"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["497DD0D99AE844BD"]
+			icon: "minecraft:diamond"
+			id: "297F475023327054"
+			rewards: [
+				{
+					command: "/attribute @s scguns:spread_multiplier base set 0.8"
+					elevate_perms: true
+					icon: "itemfilters:id_regex"
+					id: "77381618C33A34B0"
+					title: "-5% Bullet Spread"
+					type: "command"
+				}
+				{
+					id: "6E1E0319BD9F1FA4"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Kill 1 Spazmatism with a Lockewood"
+			tasks: [{
+				checkItem: true
+				entity: "look:spazmatism"
+				icon: "look:mechanical_eye"
+				id: "09A916BCDC98FB09"
 				item: {
 					Count: 1
-					id: "scguns:plasgun"
+					id: "scguns:lockewood"
 					tag: {
-						AmmoCount: 15
+						AmmoCount: 21
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "036B3FADE976E7AD"
-				item: {
+				nbt: { }
+				title: "Kill 1 Spazmatism with a Lockewood"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Diamond Sub Mastery 1/2"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"297F475023327054"
+				"0649180B3DCE94C5"
+			]
+			id: "5D19E86175E14E95"
+			rewards: [
+				{
+					count: 64
+					id: "5227B72A664AA710"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "54AB042AABF9C950"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1E4B8A517ED2C483"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "77CAC571415BA83E"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "59BA96614524FC34"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "704B371D5C218465"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					id: "79CA800CE4641896"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Kill 1 Lich with an Inertial"
+			tasks: [{
+				checkItem: true
+				entity: "threateningly_mobs:lich"
+				icon: {
 					Count: 1
-					id: "scguns:cyclone"
+					id: "scguns:inertial"
 					tag: {
-						AmmoCount: 18
+						AmmoCount: 6
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "6FFF0C6FFBAAB0E5"
+				id: "48F87507622C1FCC"
 				item: {
 					Count: 1
-					id: "scguns:shard_culler"
+					id: "scguns:inertial"
 					tag: {
-						AmmoCount: 42
+						AmmoCount: 6
 						Damage: 0
 					}
 				}
-				type: "item"
+				nbt: { }
+				title: "Kill 1 Lich with an Inertial"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Diamond Advanced 1/3"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5DA0F867ABB23E31"
+				"229CBCC15C1E2EE3"
+			]
+			icon: {
+				Count: 1
+				id: "scguns:soul_drummer"
+				tag: {
+					AmmoCount: 22
+					Damage: 0
+				}
 			}
-		]
-		title: "Get a Diamond Steel Teir Weapon"
-		x: 0.0d
-		y: 0.5d
-	}]
+			id: "6AFB59C6D680F79E"
+			rewards: [
+				{
+					count: 64
+					id: "04F1414CFDB36734"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7D3C8A8AAAD33460"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "41DC4828611DABD2"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7028A125FEB2CE8F"
+					item: "scguns:beowulf_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6374755CC36198EF"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "663A0E4F6CAD6C13"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					id: "361F4F99C3822C2A"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Kill 1 Sea Hydra with a Soul Drummer"
+			tasks: [{
+				checkItem: true
+				entity: "threateningly_mobs:hydra"
+				icon: {
+					Count: 1
+					id: "scguns:soul_drummer"
+					tag: {
+						AmmoCount: 22
+						Damage: 0
+					}
+				}
+				id: "548B2D4ABA4220A5"
+				item: {
+					Count: 1
+					id: "scguns:soul_drummer"
+					tag: {
+						AmmoCount: 22
+						Damage: 0
+					}
+				}
+				nbt: { }
+				title: "Kill 1 Sea Hydra with a Soul Drummer"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Diamond Advanced 3/3"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6BDB704819CBB881"]
+			id: "1100C24BF4B4ACB5"
+			rewards: [
+				{
+					count: 64
+					id: "6390314AF4B07CF8"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "22DED90B5384A5F5"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "70E7D673E48651FC"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0954E96640C78B1D"
+					item: "scguns:beowulf_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "43339B6AEAA7F623"
+					item: "scguns:gibbs_round"
+					type: "item"
+				}
+				{
+					id: "6F86587270931F93"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:lifestealer"
+					icon: "born_in_chaos_v1:lifestealer_skull"
+					id: "0CFBEA86090B81AD"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "148D87173B804A06"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "born_in_chaos_v1:mother_spider"
+					icon: "born_in_chaos_v1:spider_mandible"
+					id: "3BB1CCFD4AB77274"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Diamond Advanced 2/3"
+			x: 0.0d
+			y: 5.625d
+		}
+		{
+			dependencies: [
+				"5D19E86175E14E95"
+				"1100C24BF4B4ACB5"
+				"6AFB59C6D680F79E"
+			]
+			icon: "scguns:diamond_steel_ingot"
+			id: "1F0868E90D261EE2"
+			rewards: [
+				{
+					command: "/attribute @s scguns:additional_weapon_damage base set 4.5"
+					elevate_perms: true
+					icon: "itemfilters:damage"
+					id: "0DECEB671BD8F4C6"
+					title: "4.5 base additional Scorched Guns damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "13277158A1900D95"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "24A68484D257ED00"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5C9B8AE4A8CAEA8D"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3C6EC4B41869CA8E"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0DD80EC40314261D"
+					item: "scguns:sheol"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "319A188175BB20A3"
+					item: "scguns:hog_round"
+					type: "item"
+				}
+				{
+					id: "1E3F3DDAC14D3C17"
+					item: "scguns:gun_magazine"
+					type: "item"
+				}
+				{
+					id: "37C2AD9778C20979"
+					item: "scguns:basic_turret"
+					type: "item"
+				}
+				{
+					id: "5AA42D744B48FE79"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Kill 1 Spider Moth with a Prush Gun"
+			tasks: [{
+				checkItem: true
+				entity: "arphex:spider_moth"
+				icon: "arphex:spider_moth_summoner"
+				id: "7FC517214B590C7A"
+				item: {
+					Count: 1
+					id: "scguns:prush_gun"
+					tag: {
+						AmmoCount: 21
+						Damage: 0
+					}
+				}
+				nbt: { }
+				title: "Kill 1 Spider Moth with a Prush Gun"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Diamond Mastery"
+			x: 0.0d
+			y: 8.0d
+		}
+	]
 	title: "Diamond Steel Teir"
 }

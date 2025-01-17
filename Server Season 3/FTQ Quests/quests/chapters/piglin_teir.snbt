@@ -7,64 +7,341 @@
 	id: "70295AC3559F1ADB"
 	order_index: 5
 	quest_links: [ ]
-	quests: [{
-		id: "0F82263B6862C188"
-		min_required_tasks: 1
-		rewards: [
-			{
-				count: 16
-				id: "7468192899607374"
-				item: "scguns:blaze_fuel"
-				type: "item"
-			}
-			{
-				count: 32
-				id: "1DDDC022F4D1F874"
-				item: "scguns:hog_round"
-				type: "item"
-			}
-			{
-				count: 16
-				id: "02291AA82329B8BD"
-				item: "jeg:shotgun_shell"
-				type: "item"
-			}
-			{
-				id: "445282EF003F20C5"
-				type: "xp_levels"
-				xp_levels: 20
-			}
-		]
-		shape: "hexagon"
-		size: 2.0d
-		subtitle: "Get a Piglin Teir Weapon"
-		tasks: [
-			{
-				id: "66902504B85149B4"
-				item: {
+	quests: [
+		{
+			id: "0F82263B6862C188"
+			min_required_tasks: 1
+			rewards: [
+				{
+					count: 16
+					id: "7468192899607374"
+					item: "scguns:blaze_fuel"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1DDDC022F4D1F874"
+					item: "scguns:hog_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "02291AA82329B8BD"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "445282EF003F20C5"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Get a Piglin Teir Weapon"
+			tasks: [
+				{
+					id: "66902504B85149B4"
+					item: {
+						Count: 1
+						id: "scguns:blasphemy"
+						tag: {
+							AmmoCount: 10
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59CD2E1A6159C4F2"
+					item: {
+						Count: 1
+						id: "scguns:pyroclastic_flow"
+						tag: {
+							AmmoCount: 7
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5742303781F367F0"
+					item: {
+						Count: 1
+						id: "scguns:freyr"
+						tag: {
+							AmmoCount: 24
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55A7F7825CD2F070"
+					item: {
+						Count: 1
+						id: "scguns:mangalitsa"
+						tag: {
+							AmmoCount: 7
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1192DD2FBD670137"
+					item: {
+						Count: 1
+						id: "scguns:vulcanic_repeater"
+						tag: {
+							AmmoCount: 15
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "787A69A2EE37EC1B"
+					item: {
+						Count: 1
+						id: "scguns:super_shotgun"
+						tag: {
+							AmmoCount: 2
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Get a Piglin Teir Weapon"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0F82263B6862C188"
+				"1F0868E90D261EE2"
+			]
+			id: "7B47DD4D8065698E"
+			shape: "gear"
+			subtitle: "Complete the Diamond Teir first"
+			tasks: [{
+				id: "2C8BB28AC41EC459"
+				title: "Diamond Teir Completed"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"49CE27AA6275A7BB"
+				"2A032CCBDAB9D9E3"
+			]
+			id: "3BD753157C89AC2E"
+			rewards: [
+				{
+					count: 32
+					id: "5B06B8ACF487F226"
+					item: "scguns:hog_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "697AED4B295693B2"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4AFFB68ADF33FC23"
+					item: "scguns:blaze_fuel"
+					type: "item"
+				}
+				{
+					id: "2D6B91A5ED9E122C"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombified_piglin"
+					icon: "minecraft:porkchop"
+					id: "773CE3F052883642"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "minecraft:piglin"
+					icon: "minecraft:piglin_head"
+					id: "48A722B3CCF2A3FB"
+					type: "kill"
+					value: 100L
+				}
+			]
+			title: "Piglin Basics 1/3"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1BFE2C7F7726947A"]
+			id: "49CE27AA6275A7BB"
+			rewards: [
+				{
+					count: 32
+					id: "557B97A197102C6E"
+					item: "scguns:hog_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "73F3B3A475D1F1BF"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "224E3AB8EFB7EA21"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "442DA1A87E5789BC"
+					item: "scguns:bearpack_shell"
+					type: "item"
+				}
+				{
+					id: "6F9A97E76B155E22"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					entity: "netherskeletons:basalt_skeleton"
+					icon: "minecraft:basalt"
+					id: "2DF0B05A1A6B5F50"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "netherskeletons:crimson_skeleton"
+					icon: "minecraft:crimson_fungus"
+					id: "10B56F82B206CF7A"
+					type: "kill"
+					value: 50L
+				}
+			]
+			title: "Piglin Basics 2/3"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["31009D1D819CAFF3"]
+			id: "2A032CCBDAB9D9E3"
+			rewards: [
+				{
+					count: 32
+					id: "1EF4AA8A4D569BF2"
+					item: "scguns:hog_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7520E38A22F6E8AE"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "55EA59171B011578"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+				{
+					id: "134BFF1C64FDD1CC"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "6485C3235FA9D234"
+					item: "scguns:bearpack_shell"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "luminous_nether:piglin_ghost"
+					icon: "luminous_nether:ghostly_essence"
+					id: "01595C63353A8C28"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "luminous_nether:piglin_cultist"
+					icon: "luminous_nether:cult_flag_bottom"
+					id: "16EA9083407994CA"
+					type: "kill"
+					value: 50L
+				}
+			]
+			title: "Piglin Basics 3/3"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B47DD4D8065698E"]
+			icon: "minecraft:gold_ingot"
+			id: "1BFE2C7F7726947A"
+			rewards: [
+				{
+					count: 32
+					id: "386F170E3485E880"
+					item: "scguns:hog_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "729F2818B32920BD"
+					item: "scguns:blaze_fuel"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "02542D232DC87A76"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2308D5AF24F38DD1"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					id: "6D9D66D0BCCAB056"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Kill 2 Bullkindars with a Freyr"
+			tasks: [{
+				checkItem: true
+				entity: "just_in_nether:bullkindar"
+				icon: {
 					Count: 1
-					id: "scguns:blasphemy"
+					id: "scguns:freyr"
 					tag: {
-						AmmoCount: 10
+						AmmoCount: 24
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "59CD2E1A6159C4F2"
-				item: {
-					Count: 1
-					id: "scguns:pyroclastic_flow"
-					tag: {
-						AmmoCount: 7
-						Damage: 0
-					}
-				}
-				type: "item"
-			}
-			{
-				id: "5742303781F367F0"
+				id: "227ED8BFED3EA981"
 				item: {
 					Count: 1
 					id: "scguns:freyr"
@@ -73,22 +350,65 @@
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "55A7F7825CD2F070"
-				item: {
+				nbt: { }
+				title: "Kill 2 Bullkindars with a Freyr"
+				type: "questsadditions:killnbt"
+				value: 2L
+			}]
+			title: "Piglin Challenge Kill 2/2"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B47DD4D8065698E"]
+			icon: "minecraft:gold_ingot"
+			id: "31009D1D819CAFF3"
+			rewards: [
+				{
+					count: 32
+					id: "3B76FF57DCC19399"
+					item: "scguns:hog_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0318C0E2733C1CAF"
+					item: "scguns:blaze_fuel"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "540035BD1E3ED483"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4F8856643BE9418F"
+					item: "scguns:vehement_coal"
+					type: "item"
+				}
+				{
+					id: "10568C634BC57E1B"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Kill 2 Pigmars with a Vulcanic Repeater"
+			tasks: [{
+				checkItem: true
+				entity: "just_in_nether:pigmar"
+				icon: {
 					Count: 1
-					id: "scguns:mangalitsa"
+					id: "scguns:vulcanic_repeater"
 					tag: {
-						AmmoCount: 7
+						AmmoCount: 15
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "1192DD2FBD670137"
+				id: "111130DC27208975"
 				item: {
 					Count: 1
 					id: "scguns:vulcanic_repeater"
@@ -97,24 +417,287 @@
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "787A69A2EE37EC1B"
-				item: {
-					Count: 1
-					id: "scguns:super_shotgun"
-					tag: {
-						AmmoCount: 2
-						Damage: 0
-					}
+				nbt: { }
+				title: "Kill 2 Pigmars with a Vulcanic Repeater"
+				type: "questsadditions:killnbt"
+				value: 2L
+			}]
+			title: "Piglin Challenge Kill 1/2"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3BD753157C89AC2E"]
+			id: "4CE64353547CA6FB"
+			rewards: [
+				{
+					count: 40
+					id: "601B1E7E5FBB8DE1"
+					item: "scguns:hog_round"
+					type: "item"
 				}
-				type: "item"
-			}
-		]
-		title: "Get a Piglin Teir Weapon"
-		x: 0.0d
-		y: 0.0d
-	}]
+				{
+					count: 16
+					id: "50886550D8642412"
+					item: "scguns:blaze_fuel"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "571188003EC36430"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0897CDCA64CF13C7"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "5D4E8C40629B3CEB"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "luminous_nether:cultist_rider"
+					icon: "luminous_nether:cultist_armor_trim"
+					id: "3CD2FB9A3A61E624"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "luminous_nether:cultist_archer"
+					icon: "immersive_aircraft:heavy_crossbow"
+					id: "0BD7C890568EE67A"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "minecraft:piglin_brute"
+					icon: {
+						Count: 1
+						id: "minecraft:golden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "00B12F8EA3AC222F"
+					type: "kill"
+					value: 20L
+				}
+			]
+			title: "Piglin Advanced 1/3"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CE64353547CA6FB"]
+			id: "7281ABEC0E75E393"
+			rewards: [
+				{
+					count: 40
+					id: "2C9DE3289ECB5091"
+					item: "scguns:hog_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1E448296B87CFBB0"
+					item: "scguns:blaze_fuel"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6C35C648BCFD457B"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2DDC27899479E5C4"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "11CF1BFABC1B1E1B"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "luminous_nether:piglin_executioner"
+					icon: "luminous_nether:ghost_flag_bottom"
+					id: "735287884A139574"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "minecraft:ghast"
+					icon: "minecraft:ghast_tear"
+					id: "0C225DD667097D96"
+					type: "kill"
+					value: 30L
+				}
+				{
+					entity: "netherexp:stampede"
+					icon: "netherexp:wraithing_flesh"
+					id: "6928B32F9404E955"
+					type: "kill"
+					value: 30L
+				}
+			]
+			title: "Piglin Advanced 2/3"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7281ABEC0E75E393"]
+			id: "5732D6F11032CC8C"
+			rewards: [
+				{
+					count: 40
+					id: "6FBEA8F6EFED391E"
+					item: "scguns:hog_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6D2C4B2DF1735059"
+					item: "scguns:blaze_fuel"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7EE8F0C07906D3B9"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2480DCF03CD7A5B7"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "3A82B8D2691DA243"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [
+				{
+					checkItem: true
+					entity: "luminous_beasts:soul_furnace"
+					icon: "luminous_beasts:soul_furnace_trophy"
+					id: "10CE3DEE44D55DE8"
+					item: {
+						Count: 1
+						id: "scguns:mangalitsa"
+						tag: {
+							AmmoCount: 7
+							Damage: 0
+						}
+					}
+					nbt: { }
+					title: "Kill 1 Soul Furnace wuth a Mangalista"
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+				{
+					checkItem: true
+					entity: "luminous_beasts:the_furnace"
+					icon: "luminous_nether:furnace_trophy"
+					id: "7F5886EFE990B29A"
+					item: {
+						Count: 1
+						id: "scguns:mangalitsa"
+						tag: {
+							AmmoCount: 7
+							Damage: 0
+						}
+					}
+					nbt: { }
+					title: "Kill 1 The Furnace with a Mangalista"
+					type: "questsadditions:killnbt"
+					value: 1L
+				}
+			]
+			title: "Piglin Advanced 3/3"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5732D6F11032CC8C"]
+			icon: "scguns:vehement_coal"
+			id: "61453AC7B48161D6"
+			rewards: [
+				{
+					command: "/attribute @s scguns:additional_bullet_damage base set 5.5"
+					elevate_perms: true
+					icon: "itemfilters:damage"
+					id: "22050B7B58AC620B"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "0A30E3F76541EE25"
+					item: "scguns:hog_round"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "34E060D0FA903056"
+					item: "scguns:blaze_fuel"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "31F97CB8CA21813D"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "520759948FD1A6AB"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3687CC27F8926CB9"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "10CF29F4E1397708"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					id: "357AC4FA303CF6CF"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "This damage applies for all Scorched Guns weapons"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "netherexp:soul_burning_wither_skull_block"
+				id: "2CF4D0703AB5A446"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Piglin Mastery"
+			x: 0.0d
+			y: 7.0d
+		}
+	]
 	title: "Piglin Teir"
 }

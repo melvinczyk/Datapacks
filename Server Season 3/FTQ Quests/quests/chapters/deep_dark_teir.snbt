@@ -7,28 +7,292 @@
 	id: "686ADF71C23C4AF8"
 	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		id: "5AF70C4ABF5B37F1"
-		min_required_tasks: 1
-		rewards: [
-			{
-				count: 64
-				id: "6925B7A3EC0E3D84"
-				item: "scguns:sculk_cell"
-				type: "item"
-			}
-			{
-				id: "3E767F39042A6B12"
-				type: "xp_levels"
-				xp_levels: 25
-			}
-		]
-		shape: "hexagon"
-		size: 2.0d
-		subtitle: "Get a Sculk Teir Weapon"
-		tasks: [
-			{
-				id: "130C0C8039D4A7A1"
+	quests: [
+		{
+			id: "5AF70C4ABF5B37F1"
+			min_required_tasks: 1
+			rewards: [
+				{
+					count: 64
+					id: "6925B7A3EC0E3D84"
+					item: "scguns:sculk_cell"
+					type: "item"
+				}
+				{
+					id: "3E767F39042A6B12"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Get a Sculk Teir Weapon"
+			tasks: [
+				{
+					id: "130C0C8039D4A7A1"
+					item: {
+						Count: 1
+						id: "scguns:whispers"
+						tag: {
+							AmmoCount: 12
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34230ED145A46EC1"
+					item: {
+						Count: 1
+						id: "scguns:echoes_2"
+						tag: {
+							AmmoCount: 4
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "531CF371C806992C"
+					item: {
+						Count: 1
+						id: "scguns:sculk_resonator"
+						tag: {
+							AmmoCount: 6
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63322CEF7A4E7C41"
+					item: {
+						Count: 1
+						id: "scguns:forlorn_hope"
+						tag: {
+							AmmoCount: 5
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Get a Sculk Teir Weapon"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5AF70C4ABF5B37F1"
+				"61453AC7B48161D6"
+			]
+			id: "53C80A7129798B2B"
+			shape: "gear"
+			subtitle: "Complete the Piglin Teir first"
+			tasks: [{
+				id: "133D783742FC37BC"
+				title: "Piglin Teir Completed"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53C80A7129798B2B"]
+			id: "0A412FCD75AAE66F"
+			rewards: [
+				{
+					count: 16
+					id: "06D33CD03FAD2792"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "56E7D254C44B07DE"
+					item: "scguns:sculk_cell"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0FEA0B83B8DEE9DE"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "7F0B8207CAEE263B"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "3B98EFB836153FD9"
+					type: "kill"
+					value: 150L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "231BD9599FCF5A46"
+					type: "kill"
+					value: 150L
+				}
+			]
+			title: "Sculk Basics 1/3"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53C80A7129798B2B"]
+			id: "2E6BE2B08267D0B9"
+			rewards: [
+				{
+					count: 32
+					id: "3532A91CF85C1610"
+					item: "scguns:sculk_cell"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "16506E48B9588D07"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "09DA984398F52206"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "49537C80C626786E"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "6E06D1B16C1701AD"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "born_in_chaos_v1:zombie_bruiser"
+					icon: "minecraft:oak_log"
+					id: "53576511D9106CCC"
+					type: "kill"
+					value: 50L
+				}
+			]
+			title: "Sculk Basics 2/3"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53C80A7129798B2B"]
+			id: "415724E3251126F7"
+			rewards: [
+				{
+					count: 32
+					id: "446C4723B77264FA"
+					item: "scguns:sculk_cell"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0FBABB941FEBA6CF"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "686C3706E85431E5"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "432414BA5B6E0528"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [
+				{
+					entity: "monsterplus:crystal_zombie"
+					icon: "monsterplus:crystal_shard"
+					id: "7F04B7FCAEE57559"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "minecraft:creeper"
+					icon: "minecraft:creeper_head"
+					id: "0CF922B7ECC21AA7"
+					type: "kill"
+					value: 100L
+				}
+			]
+			title: "Sculk Basics 3/3"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0A412FCD75AAE66F"
+				"415724E3251126F7"
+			]
+			id: "11C10CABA498825F"
+			rewards: [
+				{
+					count: 32
+					id: "5AFBD7A731EAC602"
+					item: "scguns:sculk_cell"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3E71C960D543A704"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A6009959CFA0447"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+				{
+					id: "7EEC0F8F06A579CC"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Kill 1 Titan Rabbit with a Whispers"
+			tasks: [{
+				checkItem: true
+				entity: "threateningly_mobs:titan_rabbit"
+				icon: {
+					Count: 1
+					id: "scguns:whispers"
+					tag: {
+						AmmoCount: 12
+						Damage: 0
+					}
+				}
+				id: "6D5B4B5D6EBEC802"
 				item: {
 					Count: 1
 					id: "scguns:whispers"
@@ -37,34 +301,68 @@
 						Damage: 0
 					}
 				}
-				type: "item"
+				nbt: { }
+				title: "Kill 1 Titan Rabbit with a Whispers"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Sculk Advanced 1/3"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2E6BE2B08267D0B9"
+				"415724E3251126F7"
+			]
+			icon: {
+				Count: 1
+				id: "scguns:forlorn_hope"
+				tag: {
+					AmmoCount: 5
+					Damage: 0
+				}
 			}
-			{
-				id: "34230ED145A46EC1"
-				item: {
+			id: "471F677AAA9FA1F3"
+			rewards: [
+				{
+					count: 32
+					id: "3DEBA85241D56E56"
+					item: "scguns:sculk_cell"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "38A856497FF7AC74"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1957A42CD818FDA1"
+					item: "scguns:bearpack_shell"
+					type: "item"
+				}
+				{
+					id: "64485F8D05319CA0"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				checkItem: true
+				entity: "threateningly_mobs:steelboar"
+				icon: {
 					Count: 1
-					id: "scguns:echoes_2"
+					id: "scguns:forlorn_hope"
 					tag: {
-						AmmoCount: 4
+						AmmoCount: 5
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-			{
-				id: "531CF371C806992C"
-				item: {
-					Count: 1
-					id: "scguns:sculk_resonator"
-					tag: {
-						AmmoCount: 6
-						Damage: 0
-					}
-				}
-				type: "item"
-			}
-			{
-				id: "63322CEF7A4E7C41"
+				id: "6C5A4406E81261FE"
 				item: {
 					Count: 1
 					id: "scguns:forlorn_hope"
@@ -73,12 +371,271 @@
 						Damage: 0
 					}
 				}
-				type: "item"
-			}
-		]
-		title: "Get a Sculk Teir Weapon"
-		x: 1.0d
-		y: 0.0d
-	}]
-	title: "Deep Dark Teir"
+				nbt: { }
+				title: "Kill 1 Steelboar with a Forlorn Hope"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "Sculk Advanced 3/3"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["471F677AAA9FA1F3"]
+			icon: "minecraft:echo_shard"
+			id: "1FF217FE88A25F6C"
+			rewards: [
+				{
+					command: "/attribute @s scguns:spread_multiplier base set 0.7"
+					elevate_perms: true
+					icon: "itemfilters:id_regex"
+					id: "6A2FF9957C6A77AC"
+					title: "-5% Bullet Spread"
+					type: "command"
+				}
+				{
+					id: "1B3120FBA2FBE7A1"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				checkItem: true
+				entity: "mutantmonsters:mutant_enderman"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:endersoul_hand"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "120DD40BAAEF756C"
+				item: {
+					Count: 1
+					id: "scguns:whispers"
+					tag: {
+						AmmoCount: 12
+						Damage: 0
+					}
+				}
+				nbt: { }
+				title: "Kill 2 Mutant Enderman with Whispers"
+				type: "questsadditions:killnbt"
+				value: 2L
+			}]
+			title: "Sculk Sub Mastery 1/2"
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["11C10CABA498825F"]
+			icon: "minecraft:echo_shard"
+			id: "4A70824E7EE3213C"
+			rewards: [
+				{
+					command: "/attribute @s scguns:spread_multiplier base set 0.7"
+					elevate_perms: true
+					icon: "itemfilters:id_regex"
+					id: "24F6ADC28B0C27AE"
+					title: "-5% Bullet Spread"
+					type: "command"
+				}
+				{
+					id: "0F61C5044B81638A"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				checkItem: true
+				entity: "terramity:megabite"
+				icon: {
+					Count: 1
+					id: "scguns:sculk_resonator"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				id: "566B699B13A94FD8"
+				item: {
+					Count: 1
+					id: "scguns:sculk_resonator"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				nbt: { }
+				title: "Kill 2 Megabites with a Sculk Resonator"
+				type: "questsadditions:killnbt"
+				value: 2L
+			}]
+			title: "Sculk Sub Mastery 1/2"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["415724E3251126F7"]
+			id: "57622867AC42908D"
+			rewards: [
+				{
+					count: 64
+					id: "3630AD3307767FBF"
+					item: "scguns:sculk_cell"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "1832C3AB0848CA75"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "31CE8BEA8CF2A52E"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "3C236B94D0BB7138"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1503103D635531B0"
+					item: "scguns:plasma"
+					type: "item"
+				}
+				{
+					id: "6331B5DAA861A4B4"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_zombie"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:hulk_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3EECA050886B6389"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1381EAF99F1F1D2E"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "crimsonsteves_mutant_mobs:mutant_skeleton"
+					icon: "mutantmonsters:mutant_skeleton_rib"
+					id: "5A3553B8BFCCD728"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "Sculk Advanced 2/3"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4A70824E7EE3213C"
+				"1FF217FE88A25F6C"
+				"57622867AC42908D"
+			]
+			icon: "minecraft:sculk_sensor"
+			id: "797D9983DFFC9967"
+			rewards: [
+				{
+					command: "/attribute @s scguns:additional_bullet_damage base set 6.5"
+					elevate_perms: true
+					icon: "itemfilters:damage"
+					id: "08A8E2C460AAE36A"
+					title: "6.5 additional base Scorched Guns damage"
+					type: "command"
+				}
+				{
+					count: 64
+					id: "40E12605417A4B75"
+					item: "scguns:sculk_cell"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4D9E63DE60FB87B4"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0E7B8647372F92A1"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "1F76194A572D8E31"
+					item: "scguns:gun_magazine"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "54B4F0A44C58EBD7"
+					item: "scguns:microjet"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "32D91E0E09C8BDA1"
+					item: "scguns:osborne_slug"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "56796A3C29202C34"
+					item: "scguns:basic_poultice"
+					type: "item"
+				}
+				{
+					id: "1D238BBEA92FB49A"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "This damage applies to all Scorched Guns weapons"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:sculk_shrieker"
+				id: "658C29BAC3F10E42"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Sculk Mastery"
+			x: 1.0d
+			y: 8.5d
+		}
+	]
+	title: "Sculk Teir"
 }

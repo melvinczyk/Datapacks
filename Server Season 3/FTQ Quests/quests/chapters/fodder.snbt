@@ -1,0 +1,141 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fodder"
+	group: "051880D4A141ED2F"
+	id: "43A6C7117EECEAA0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "15C1E2D9B95BF7C6"
+			rewards: [
+				{
+					id: "22CFB71ADF2CFFBE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "7430994E69E7DE04"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "0DF3F4010195E680"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "39C336B377638A6E"
+			rewards: [
+				{
+					id: "042B07B440378B81"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 20
+					id: "4F233578E9DDC198"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "40D1DC7670FF80FF"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "693BA29A299A48B6"
+			rewards: [
+				{
+					id: "46C9ADFBF298E8A7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 15
+					id: "087A052E2A52569B"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "born_in_chaos_v1:decaying_zombie"
+				icon: "minecraft:rotten_flesh"
+				id: "120F36904AEDC866"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "144B86DCFE2F73B7"
+			rewards: [
+				{
+					id: "01FA5A9A470281BB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 20
+					id: "52EB19DBD65CAD84"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "monsterplus:crystal_zombie"
+				icon: "monsterplus:crystal_shard"
+				id: "14BA2B88655EA1FD"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "20F03207B20B88A2"
+			rewards: [
+				{
+					id: "7F177408C1E2BE45"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 15
+					id: "2060D0B4F981159F"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "variantsandventures:thicket"
+				icon: "atmospheric:passion_vine"
+				id: "68787B0AC47D1308"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+	]
+	title: "Fodder"
+}
