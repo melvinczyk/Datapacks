@@ -7,6 +7,33 @@
 	id: "2A5A4B28A1A74C84"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		can_repeat: true
+		id: "70C8F61444756A00"
+		rewards: [
+			{
+				count: 40
+				id: "2E34CB9EEF17ABFD"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}
+			{
+				id: "0C1968C50F8C135D"
+				type: "xp_levels"
+				xp_levels: 20
+			}
+		]
+		shape: "gear"
+		size: 1.5d
+		tasks: [{
+			entity: "cnc:sasquatch"
+			icon: "cnc:sasquatch_head"
+			id: "73B915C2EA1706E6"
+			type: "kill"
+			value: 5L
+		}]
+		x: 1.0d
+		y: 0.0d
+	}]
 	title: "&dExotic"
 }

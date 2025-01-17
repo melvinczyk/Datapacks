@@ -2741,6 +2741,32 @@
 			x: 5.0d
 			y: -1.0d
 		}
+		{
+			can_repeat: true
+			id: "12378605C411DCBF"
+			rewards: [
+				{
+					count: 15
+					id: "30FF34C50D1F2B55"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "0B9E1366BC92EA57"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				entity: "born_in_chaos_v1:door_knight"
+				icon: "minecraft:iron_door"
+				id: "530C823E5CE29D8F"
+				type: "kill"
+				value: 100L
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
 	]
 	title: "&aFodder"
 }

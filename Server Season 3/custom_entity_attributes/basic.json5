@@ -889,7 +889,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 200,
+          "value": 240,
           "operation": "ADDITION"
         }
       ]
@@ -1550,12 +1550,12 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 12.0,
+          "value": 15.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 150.0,
+          "value": 200.0,
           "operation": "ADDITION"
         }
       ]
@@ -1566,12 +1566,12 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 12.0,
+          "value": 17.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 100.0,
+          "value": 200.0,
           "operation": "ADDITION"
         }
       ]
@@ -1619,7 +1619,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 200.0,
+          "value": 300.0,
           "operation": "ADDITION"
         }
       ]
@@ -1651,13 +1651,29 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 300.0,
+          "value": 350.0,
           "operation": "ADDITION"
         }
       ]
     },
     {
       "entity_regex": "luminous_beasts:rare_crimson_spitter",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 10.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 300.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "luminous_nehter:mushlin_spitter",
       "apply_chance": 100.0,
       "attributes": [
         {
@@ -1715,7 +1731,7 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 200.0,
+          "value": 300.0,
           "operation": "ADDITION"
         }
       ]
