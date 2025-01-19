@@ -1,0 +1,48 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+      "  IS ",
+      "S IS ",
+      "HHHH ",
+      "HEE_P",
+      "HHHH ",
+      "S IS ",
+      "  IS "
+    ],
+    "key": {
+      "H": [
+        {
+          "item": "immersive_aircraft:hull"
+        }
+      ],
+      "I": [
+        {
+          "item": "minecraft:iron_block"
+        }
+      ],
+      "S": [
+        {
+          "item": "immersive_aircraft:sail"
+        }
+      ],
+      "E": [
+        {
+          "item": "immersive_aircraft:engine"
+        }
+      ],
+      "P": [
+        {
+          "item": "immersive_aircraft:propeller"
+        }
+      ],
+      "_": [
+        {
+          "tag": "create:seats"
+        }
+      ]
+    },
+    "result": {
+      "item": "aviator_dream:fokker_fviia"
+    },
+    "acceptMirrored": true
+  }

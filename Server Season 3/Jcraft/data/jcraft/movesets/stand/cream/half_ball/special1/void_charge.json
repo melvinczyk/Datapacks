@@ -1,0 +1,27 @@
+{
+  "anim_state": "BALL_CONSUME",
+  "class": "SPECIAL1",
+  "cooldown_type": "STAND_SP1",
+  "move": {
+    "type": "jcraft:cream_ball_charge_attack",
+    "cooldown": 300,
+    "downward": false,
+    "duration": 28,
+    "extras": {
+      "description": {
+        "text": "Cream quickly transforms into a black hole and charges in the pointed direction"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:creamballdash"
+        }
+      ],
+      "name": {
+        "text": "Void Charge"
+      }
+    },
+    "move_distance": 1.0,
+    "windup": 13
+  }
+}

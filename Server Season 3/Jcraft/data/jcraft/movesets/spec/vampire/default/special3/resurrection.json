@@ -1,0 +1,39 @@
+{
+  "anim_state": "RESURRECT",
+  "class": "SPECIAL3",
+  "cooldown_type": "SPECIAL3",
+  "crouching_variant": {
+    "class": "SPECIAL3",
+    "cooldown_type": "SPECIAL3",
+    "move": {
+      "type": "jcraft:vampire_night_vision_move",
+      "cooldown": 20,
+      "extras": {
+        "name": {
+          "text": "Toggle Night Vision"
+        }
+      }
+    }
+  },
+  "move": {
+    "type": "jcraft:vampire_revive_move",
+    "cooldown": 300,
+    "duration": 20,
+    "extras": {
+      "description": {
+        "text": "revives humanoid/undead enemies within 5 meters, that died within the last 1 minute"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:vampirereanimate"
+        }
+      ],
+      "name": {
+        "text": "Resurrection"
+      }
+    },
+    "move_distance": 5.0,
+    "windup": 16
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "anim_state": "BACKHAND",
+  "class": "SPECIAL2",
+  "cooldown_type": "STAND_SP2",
+  "move": {
+    "type": "jcraft:shared_simple_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 10,
+      "extra_hit_boxes": [
+        {
+          "size": 1.0
+        }
+      ],
+      "hit_animation": "HIGH",
+      "hit_spark": "HIT_SPARK_2"
+    },
+    "cooldown": 240,
+    "damage": 6.0,
+    "duration": 12,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "jcraft:impact1"
+        }
+      ],
+      "description": {
+        "text": "fast poke, great stun"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:sptwbackhand"
+        }
+      ],
+      "name": {
+        "translate": "jcraft.sptw.sp2"
+      }
+    },
+    "hitbox_size": 1.5,
+    "knockback": 0.25,
+    "move_distance": 0.75,
+    "offset": 0.0,
+    "stun": 20,
+    "windup": 7
+  }
+}

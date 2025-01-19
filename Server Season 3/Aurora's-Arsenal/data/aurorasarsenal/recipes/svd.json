@@ -1,24 +1,24 @@
 {
-    "type": "jeg:gunmetal_workbench",
-    "result": {
-        "item": "aurorasarsenal:svd"
+  "type": "jeg:gunmetal_workbench",
+  "result": {
+    "item": "aurorasarsenal:svd"
+  },
+  "materials": [
+    {
+      "item": "jeg:gunmetal_ingot",
+      "count": 28
     },
-    "materials": [
-        {
-            "item": "jeg:gunmetal_ingot",
-            "count": 28
-        },
-        {
-            "item": "jeg:scrap",
-            "count": 28
-        },
-        {
-            "item": "minecraft:lever",
-            "count": 1
-        },
-        {
-            "tag": "minecraft:planks",
-            "count": 30
-        }
-    ]
+    {
+      "item": "jeg:scrap",
+      "count": 28
+    },
+    {
+      "item": "minecraft:lever",
+      "count": 1
+    },
+    {
+      "tag": "minecraft:planks",
+      "count": 30
+    }
+  ]
 }

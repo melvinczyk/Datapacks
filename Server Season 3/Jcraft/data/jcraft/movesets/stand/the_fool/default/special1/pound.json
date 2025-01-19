@@ -1,0 +1,89 @@
+{
+  "anim_state": "POUND_UP",
+  "class": "SPECIAL1",
+  "cooldown_type": "STAND_SP1",
+  "followup": {
+    "anim_state": "POUND_UP",
+    "class": "SPECIAL1",
+    "cooldown_type": "STAND_SP1",
+    "move": {
+      "type": "jcraft:thefool_slam_attack",
+      "attack_extras": {
+        "backstab": true,
+        "block_stun": 5,
+        "hit_animation": "CRUSH",
+        "hit_spark": "HIT_SPARK_2"
+      },
+      "cooldown": 0,
+      "damage": 4.0,
+      "duration": 10,
+      "extras": {
+        "actions": [
+          {
+            "type": "jcraft:play_sound",
+            "on_impact": true,
+            "sound": "jcraft:impact2"
+          }
+        ],
+        "description": {
+          "text": ""
+        },
+        "init_actions": [
+          {
+            "type": "jcraft:play_sound",
+            "sound": "jcraft:foolbark1"
+          }
+        ],
+        "name": {
+          "text": "Slam"
+        }
+      },
+      "hitbox_size": 2.0,
+      "knockback": 0.2,
+      "move_distance": 1.25,
+      "offset": 0.1,
+      "stun": 24,
+      "windup": 4
+    }
+  },
+  "move": {
+    "type": "jcraft:thefool_pound_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 8,
+      "hit_animation": "LOW",
+      "hit_spark": "HIT_SPARK_2",
+      "lift": false
+    },
+    "cooldown": 220,
+    "damage": 4.0,
+    "duration": 22,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "jcraft:impact2"
+        }
+      ],
+      "description": {
+        "text": "has followups which create different sand patterns based on which key was pressed:\nSPECIAL 1 - no sand\nSPECIAL 2 - semicircle\nSPECIAL 3 - diagonal pattern (influenced by where the user is looking)"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:foolbark2"
+        }
+      ],
+      "name": {
+        "text": "Pound"
+      }
+    },
+    "hitbox_size": 1.5,
+    "knockback": 0.1,
+    "move_distance": 1.25,
+    "offset": -0.1,
+    "stun": 25,
+    "windup": 7
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:green_dye"
+    },
+    "L": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "YLY",
+    "Y Y"
+  ],
+  "result": {
+    "item": "jcraft:dio_pants"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,20 @@
+{
+  "anim_state": "COUNTER",
+  "class": "SPECIAL3",
+  "cooldown_type": "STAND_SP3",
+  "move": {
+    "type": "jcraft:silverchariot_sc_counter_attack",
+    "cooldown": 480,
+    "duration": 34,
+    "extras": {
+      "description": {
+        "text": "0.2s windup, 1.5s duration, stuns when hit"
+      },
+      "name": {
+        "text": "Counter"
+      }
+    },
+    "move_distance": 0.5,
+    "windup": 4
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "anim_state": "CLEAVE",
+  "class": "SPECIAL3",
+  "cooldown_type": "STAND_SP3",
+  "move": {
+    "type": "jcraft:silverchariot_cleave_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 13,
+      "hit_animation": "MID",
+      "hit_spark": "HIT_SPARK_2"
+    },
+    "cooldown": 260,
+    "damage": 9.0,
+    "duration": 21,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "minecraft:entity.player.attack.sweep"
+        }
+      ],
+      "armor": 2147483647,
+      "description": {
+        "text": "Silver Chariot detaches from the user, delivering an uninterruptible, combo-starting slice"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:sccleave"
+        }
+      ],
+      "name": {
+        "text": "Cleave"
+      }
+    },
+    "hitbox_size": 2.5,
+    "knockback": 0.8,
+    "move_distance": 0.75,
+    "offset": 0.0,
+    "stun": 20,
+    "windup": 12
+  }
+}

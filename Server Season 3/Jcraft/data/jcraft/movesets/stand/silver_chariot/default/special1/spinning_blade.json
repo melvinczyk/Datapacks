@@ -1,0 +1,82 @@
+{
+  "anim_state": "SPIN",
+  "class": "SPECIAL1",
+  "cooldown_type": "STAND_SP1",
+  "followup": {
+    "anim_state": "SPIN",
+    "class": "SPECIAL1",
+    "cooldown_type": "STAND_SP1",
+    "move": {
+      "type": "jcraft:silverchariot_spin_barrage_attack",
+      "attack_extras": {
+        "backstab": true,
+        "block_stun": 3,
+        "hit_animation": "MID",
+        "stun_type": "WINDED"
+      },
+      "cooldown": 0,
+      "damage": 1.0,
+      "duration": 24,
+      "extras": {
+        "conditions": [
+          {
+            "type": "jcraft:holding_anubis"
+          }
+        ],
+        "description": {
+          "text": "fast reliable combo starter/extender, low stun"
+        },
+        "init_actions": [
+          {
+            "type": "jcraft:play_sound",
+            "sound": "jcraft:scspin"
+          }
+        ],
+        "name": {
+          "text": "Divine Blade"
+        }
+      },
+      "hitbox_size": 2.0,
+      "interval": 2,
+      "knockback": 0.1,
+      "move_distance": 0.65,
+      "offset": -0.2,
+      "stun": 10,
+      "windup": 7
+    }
+  },
+  "move": {
+    "type": "jcraft:shared_barrage_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 3,
+      "hit_animation": "MID",
+      "stun_type": "WINDED"
+    },
+    "cooldown": 240,
+    "damage": 1.0,
+    "duration": 24,
+    "extras": {
+      "description": {
+        "text": "fast reliable combo starter/extender, low stun"
+      },
+      "followup_frame": 6,
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:scspin"
+        }
+      ],
+      "name": {
+        "text": "Spinning Blade"
+      }
+    },
+    "hitbox_size": 2.0,
+    "interval": 2,
+    "knockback": 0.1,
+    "move_distance": 0.65,
+    "offset": -0.2,
+    "stun": 10,
+    "windup": 7
+  }
+}

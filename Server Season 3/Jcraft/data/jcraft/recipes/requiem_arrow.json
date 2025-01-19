@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "jcraft:stand_arrow"
+    },
+    {
+      "item": "jcraft:requiem_ruby"
+    },
+    {
+      "item": "minecraft:tipped_arrow"
+    }
+  ],
+  "result": {
+    "item": "jcraft:requiem_arrow"
+  }
+}

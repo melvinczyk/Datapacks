@@ -1,0 +1,53 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+      "  AS ",
+      "S AS ",
+      "HAAH ",
+      "HEF_P",
+      "HAAH ",
+      "S AS ",
+      "  AS "
+    ],
+    "key": {
+      "H": [
+        {
+          "item": "immersive_aircraft:hull"
+        }
+      ],
+      "S": [
+        {
+          "item": "immersive_aircraft:sail"
+        }
+      ],
+      "E": [
+        {
+          "item": "immersive_aircraft:engine"
+        }
+      ],
+      "F": [
+        {
+          "item": "aviator_dream:fokker_fviia"
+        }
+      ],
+      "P": [
+        {
+          "item": "immersive_aircraft:propeller"
+        }
+      ],
+      "A": [
+        {
+          "item": "create:andesite_alloy_block"
+        }
+      ],
+      "_": [
+        {
+          "tag": "create:seats"
+        }
+      ]
+    },
+    "result": {
+      "item": "aviator_dream:fokker_fviib3m"
+    },
+    "acceptMirrored": true
+  }

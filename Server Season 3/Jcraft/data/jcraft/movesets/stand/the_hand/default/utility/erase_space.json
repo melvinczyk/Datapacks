@@ -1,0 +1,46 @@
+{
+  "anim_state": "ERASE_SPACE",
+  "class": "UTILITY",
+  "cooldown_type": "UTILITY",
+  "move": {
+    "type": "jcraft:thehand_erase_space_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 8,
+      "blockable_type": "NON_BLOCKABLE",
+      "hit_animation": "MID",
+      "hit_spark": "INVERTED_HIT_SPARK_3"
+    },
+    "cooldown": 300,
+    "damage": 4.0,
+    "duration": 20,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "jcraft:impact12"
+        }
+      ],
+      "description": {
+        "text": "Brings any looked at entity.\nIf not looking at anything, will bring you forward."
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:thswipequick"
+        }
+      ],
+      "mobility_type": "DASH",
+      "name": {
+        "text": "Erase Space"
+      }
+    },
+    "hitbox_size": 2.0,
+    "knockback": -0.5,
+    "move_distance": 0.75,
+    "offset": 0.0,
+    "stun": 6,
+    "windup": 12
+  }
+}

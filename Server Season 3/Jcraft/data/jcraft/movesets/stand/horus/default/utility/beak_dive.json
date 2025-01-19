@@ -1,0 +1,39 @@
+{
+  "anim_state": "DIVEKICK",
+  "class": "UTILITY",
+  "cooldown_type": "UTILITY",
+  "move": {
+    "type": "jcraft:horus_horus_divekick_attack",
+    "attack_extras": {
+      "block_stun": 10,
+      "hit_animation": "HIGH",
+      "hit_spark": "HIT_SPARK_2"
+    },
+    "cooldown": 280,
+    "damage": 6.0,
+    "duration": 25,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "jcraft:impact1"
+        }
+      ],
+      "description": {
+        "text": "Lasts longer the lower you aim while starting the move.\nStalls the user in the air when starting.\nRemoves fall damage."
+      },
+      "mobility_type": "FLIGHT",
+      "name": {
+        "text": "Beak Dive"
+      },
+      "ranged": true
+    },
+    "hitbox_size": 1.5,
+    "knockback": 0.23,
+    "move_distance": 8.0,
+    "offset": 0.3,
+    "stun": 19,
+    "windup": 8
+  }
+}

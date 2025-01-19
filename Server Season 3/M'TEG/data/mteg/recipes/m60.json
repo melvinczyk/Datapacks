@@ -1,43 +1,44 @@
 {
-    "type": "jeg:gunnite_workbench",
-    "result": {
-        "item": "mteg:m60"
+  "type": "jeg:gunnite_workbench",
+  "result": {
+    "item": "mteg:m60"
+  },
+  "materials": [
+    {
+      "item": "minecraft:netherite_ingot",
+      "count": 2
     },
-    "materials": [
-        {
-            "item": "minecraft:netherite_ingot",
-            "count": 2
-          },
-        {
-            "item": "minecraft:iron_ingot",
-            "count": 24
-        },
-        {
-            "item": "minecraft:rail",
-            "count": 3
-        },
-        {
-            "item": "minecraft:comparator",
-            "count": 1
-        },
-        {
-            "item": "minecraft:chest",
-            "count": 1
-        },
-        {
-            "item": "minecraft:black_dye",
-            "count": 4
-        },{
-            "item": "jeg:scrap",
-            "count": 70
-        },
-        {
-            "item": "jeg:gunnite_ingot",
-            "count": 35
-        },
-        {
-            "item": "jeg:gunmetal_ingot",
-            "count": 10
-        }
-    ]
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 24
+    },
+    {
+      "item": "minecraft:rail",
+      "count": 3
+    },
+    {
+      "item": "minecraft:comparator",
+      "count": 1
+    },
+    {
+      "item": "minecraft:chest",
+      "count": 1
+    },
+    {
+      "item": "minecraft:black_dye",
+      "count": 4
+    },
+    {
+      "item": "jeg:scrap",
+      "count": 70
+    },
+    {
+      "item": "jeg:gunnite_ingot",
+      "count": 36
+    },
+    {
+      "item": "jeg:gunmetal_ingot",
+      "count": 10
+    }
+  ]
 }

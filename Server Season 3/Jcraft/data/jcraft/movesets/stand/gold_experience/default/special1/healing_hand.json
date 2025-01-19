@@ -1,0 +1,71 @@
+{
+  "anim_state": "HEAL_SELF",
+  "class": "SPECIAL1",
+  "cooldown_type": "STAND_SP1",
+  "crouching_variant": {
+    "anim_state": "HEAL",
+    "class": "SPECIAL1",
+    "cooldown_type": "STAND_SP1",
+    "move": {
+      "type": "jcraft:shared_heal_move",
+      "attack_extras": {
+        "backstab": true,
+        "block_stun": 4,
+        "hit_animation": "MID",
+        "hit_spark": "HIT_SPARK_1"
+      },
+      "cooldown": 520,
+      "duration": 16,
+      "extras": {
+        "init_actions": [
+          {
+            "type": "jcraft:play_sound",
+            "sound": "jcraft:geheal"
+          }
+        ],
+        "name": {
+          "text": "Healing Hand (others)"
+        }
+      },
+      "health": 4.0,
+      "hitbox_size": 1.25,
+      "move_distance": 1.0,
+      "offset": 0.0,
+      "pacify_mobs": false,
+      "target": "TARGETS",
+      "windup": 10
+    }
+  },
+  "move": {
+    "type": "jcraft:shared_heal_move",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 4,
+      "hit_animation": "MID",
+      "hit_spark": "HIT_SPARK_1"
+    },
+    "cooldown": 520,
+    "duration": 14,
+    "extras": {
+      "description": {
+        "text": "standing: heals user for 2 hearts, crouching: heals others for 2 hearts, pacifies angered mobs"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:geheal"
+        }
+      ],
+      "name": {
+        "text": "Healing Hand"
+      }
+    },
+    "health": 4.0,
+    "hitbox_size": 0.0,
+    "move_distance": 1.0,
+    "offset": 0.0,
+    "pacify_mobs": false,
+    "target": "USER",
+    "windup": 10
+  }
+}

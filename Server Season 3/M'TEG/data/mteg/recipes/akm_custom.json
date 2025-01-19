@@ -1,24 +1,24 @@
 {
-    "type": "jeg:gunnite_workbench",
-    "result": {
-        "item": "mteg:akm_custom"
+  "type": "jeg:gunnite_workbench",
+  "result": {
+    "item": "mteg:akm_custom"
+  },
+  "materials": [
+    {
+      "item": "jeg:scrap",
+      "count": 50
     },
-    "materials": [
-        {
-            "item": "jeg:scrap",
-            "count": 50
-        },
-        {
-            "item": "jeg:gunnite_ingot",
-            "count": 21
-        },
-        {
-            "item": "jeg:gunmetal_ingot",
-            "count": 13
-        },
-        {
-            "item": "minecraft:black_dye",
-            "count": 5
-        }
-    ]
+    {
+      "item": "jeg:gunnite_ingot",
+      "count": 22
+    },
+    {
+      "item": "jeg:gunmetal_ingot",
+      "count": 13
+    },
+    {
+      "item": "minecraft:black_dye",
+      "count": 5
+    }
+  ]
 }

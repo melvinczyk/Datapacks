@@ -1,28 +1,28 @@
 {
-    "type": "jeg:gunmetal_workbench",
-    "result": {
-        "item": "mteg:lanchester"
+  "type": "jeg:gunmetal_workbench",
+  "result": {
+    "item": "mteg:lanchester"
+  },
+  "materials": [
+    {
+      "item": "minecraft:spruce_planks",
+      "count": 4
     },
-    "materials": [
-        {
-            "item": "minecraft:spruce_planks",
-            "count": 4
-        },
-        {
-            "item": "jeg:scrap",
-            "count": 20
-        },
-        {
-            "item": "jeg:gunmetal_ingot",
-            "count": 33
-        },
-        {
-            "item": "minecraft:iron_ingot",
-            "count": 5
-        },
-        {
-            "item": "minecraft:black_dye",
-            "count": 1
-        }
-    ]
+    {
+      "item": "jeg:scrap",
+      "count": 20
+    },
+    {
+      "item": "jeg:gunmetal_ingot",
+      "count": 33
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 5
+    },
+    {
+      "item": "minecraft:black_dye",
+      "count": 1
+    }
+  ]
 }

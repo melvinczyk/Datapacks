@@ -1,0 +1,26 @@
+{
+  "anim_state": "TIME_STOP",
+  "class": "ULTIMATE",
+  "cooldown_type": "STAND_ULTIMATE",
+  "move": {
+    "type": "jcraft:shared_time_stop_move",
+    "cooldown": 600,
+    "duration": 10,
+    "extras": {
+      "description": {
+        "text": "1.75 seconds, extremely low windup"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:sptw"
+        }
+      ],
+      "name": {
+        "translate": "jcraft.generic.ts"
+      }
+    },
+    "time_stop_duration": "sptwTimeStopDuration",
+    "windup": 5
+  }
+}

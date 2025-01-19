@@ -1,0 +1,20 @@
+{
+  "anim_state": "COUNTER",
+  "class": "SPECIAL3",
+  "cooldown_type": "STAND_SP3",
+  "move": {
+    "type": "jcraft:dirtydeedsdonedirtcheap_d_4c_counter_attack",
+    "cooldown": 400,
+    "duration": 35,
+    "extras": {
+      "description": {
+        "text": "0.25s startup, 1.5s duration, high damage, knocks back when hit"
+      },
+      "name": {
+        "text": "Counter"
+      }
+    },
+    "move_distance": 0.75,
+    "windup": 5
+  }
+}

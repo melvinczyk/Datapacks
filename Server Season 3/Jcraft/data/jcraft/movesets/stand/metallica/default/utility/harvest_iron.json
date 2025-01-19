@@ -1,0 +1,57 @@
+{
+  "anim_state": "HARVEST",
+  "class": "UTILITY",
+  "cooldown_type": "UTILITY",
+  "crouching_variant": {
+    "anim_state": "NONE",
+    "class": "UTILITY",
+    "cooldown_type": "UTILITY",
+    "move": {
+      "type": "jcraft:metallica_invisibility_move",
+      "cooldown": 20,
+      "duration": 15,
+      "extras": {
+        "conditions": [
+          {
+            "type": "jcraft:metallica_iron",
+            "min_iron": 10.0
+          }
+        ],
+        "description": {
+          "text": "Projects a field of iron particles that reflect light away from the user.\nUses 10 iron per second.\nCannot be queued."
+        },
+        "init_actions": [
+          {
+            "type": "jcraft:user_animation",
+            "animation": "mtl.ivs"
+          }
+        ],
+        "name": {
+          "text": "Invisibility"
+        }
+      },
+      "windup": 10
+    }
+  },
+  "move": {
+    "type": "jcraft:metallica_harvest_move",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 3,
+      "hit_animation": "MID",
+      "stun_type": "WINDED"
+    },
+    "duration": 1200,
+    "extras": {
+      "description": {
+        "text": "Harvests 1 iron with a 0.15s interval from the looked at block.\n3 times faster if harvesting from an iron block.\n5m max range.\nCannot be queued."
+      },
+      "is_holdable": true,
+      "name": {
+        "text": "Harvest Iron"
+      }
+    },
+    "interval": 3,
+    "move_distance": 0.75
+  }
+}

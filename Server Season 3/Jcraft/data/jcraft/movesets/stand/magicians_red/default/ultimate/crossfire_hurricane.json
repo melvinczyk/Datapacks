@@ -1,0 +1,26 @@
+{
+  "anim_state": "CROSSFIRE_HURRICANE",
+  "class": "ULTIMATE",
+  "cooldown_type": "STAND_ULTIMATE",
+  "move": {
+    "type": "jcraft:magiciansred_crossfire_hurricane_attack",
+    "cooldown": 800,
+    "duration": 22,
+    "extras": {
+      "description": {
+        "text": "summons slow, homing fire hurricane that knocks down, lasts for 3 seconds after hitting anything"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:mrult"
+        }
+      ],
+      "name": {
+        "text": "Crossfire Hurricane"
+      }
+    },
+    "move_distance": 0.75,
+    "windup": 18
+  }
+}

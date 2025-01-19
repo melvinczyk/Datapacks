@@ -1,16 +1,16 @@
 {
-    "type": "jeg:scrap_workbench",
-    "result": {
-        "item": "mteg:welrod"
+  "type": "jeg:scrap_workbench",
+  "result": {
+    "item": "mteg:welrod"
+  },
+  "materials": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 10
     },
-    "materials": [
-        {
-            "item": "minecraft:iron_ingot",
-            "count": 10
-        },
-        {
-            "item": "jeg:scrap",
-            "count": 5
-        }
-    ]
+    {
+      "item": "jeg:scrap",
+      "count": 5
+    }
+  ]
 }

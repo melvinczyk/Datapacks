@@ -1,24 +1,24 @@
 {
-    "type": "jeg:gunnite_workbench",
-    "result": {
-        "item": "aurorasarsenal:sr_25"
+  "type": "jeg:gunnite_workbench",
+  "result": {
+    "item": "aurorasarsenal:sr_25"
+  },
+  "materials": [
+    {
+      "item": "jeg:gunnite_ingot",
+      "count": 29
     },
-    "materials": [
-        {
-            "item": "jeg:gunnite_ingot",
-            "count": 28
-        },
-        {
-            "item": "jeg:gunmetal_ingot",
-            "count": 15
-        },
-        {
-            "item": "jeg:scrap",
-            "count": 25
-        },
-        {
-            "item": "minecraft:lever",
-            "count": 1
-        }
-    ]
+    {
+      "item": "jeg:gunmetal_ingot",
+      "count": 15
+    },
+    {
+      "item": "jeg:scrap",
+      "count": 25
+    },
+    {
+      "item": "minecraft:lever",
+      "count": 1
+    }
+  ]
 }

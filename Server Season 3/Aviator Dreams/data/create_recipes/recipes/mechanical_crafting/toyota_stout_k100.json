@@ -1,0 +1,51 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+      "   SSS ",
+      "   SWS ",
+      "SSSS_SS",
+      "SCSSSER",
+      " T   T "
+    ],
+    "key": {
+      "W": [
+        {
+          "item": "minecraft:glass"
+        }
+      ],
+      "S": [
+        {
+          "item": "minecraft:iron_ingot"
+        }
+      ],
+      "E": [
+        {
+          "item": "immersive_aircraft:engine"
+        }
+      ],
+      "C": [
+        {
+          "item": "minecraft:chest"
+        }
+      ],
+      "R": [
+        {
+          "item": "minecraft:redstone_lamp"
+        }
+      ],
+      "T": [
+        {
+          "item": "create:water_wheel"
+        }
+      ],
+      "_": [
+        {
+          "tag": "create:seats"
+        }
+      ]
+    },
+    "result": {
+      "item": "aviator_dream:toyota_stout_k100"
+    },
+    "acceptMirrored": true
+  }

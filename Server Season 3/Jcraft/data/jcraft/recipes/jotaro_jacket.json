@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "C": {
+      "item": "minecraft:netherite_chestplate"
+    }
+  },
+  "pattern": [
+    "B B",
+    "BCB",
+    "BBB"
+  ],
+  "result": {
+    "item": "jcraft:jotaro_jacket"
+  },
+  "show_notification": true
+}

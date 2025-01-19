@@ -1,0 +1,46 @@
+{
+  "anim_state": "POMMEL",
+  "class": "HEAVY",
+  "cooldown_type": "HEAVY",
+  "move": {
+    "type": "jcraft:anubis_simple_anubis_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 8,
+      "hit_animation": "MID",
+      "hit_spark": "HIT_SPARK_1"
+    },
+    "check_holding_anubis": false,
+    "cooldown": 180,
+    "damage": 4.0,
+    "duration": 8,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "jcraft:impact3"
+        }
+      ],
+      "description": {
+        "text": "fast jab"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:anubispommel"
+        }
+      ],
+      "name": {
+        "text": "Pommel Strike"
+      }
+    },
+    "hitbox_size": 1.25,
+    "increment_bloodlust": true,
+    "knockback": 0.2,
+    "move_distance": 1.0,
+    "offset": 0.0,
+    "stun": 7,
+    "windup": 5
+  }
+}

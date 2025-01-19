@@ -1,0 +1,27 @@
+{
+  "anim_state": "CROSSFIRE_VARIATION",
+  "class": "SPECIAL2",
+  "cooldown_type": "STAND_SP2",
+  "move": {
+    "type": "jcraft:magiciansred_crossfire_variation_attack",
+    "cooldown": 600,
+    "duration": 17,
+    "extras": {
+      "description": {
+        "text": "summons 6 ankhs that orbit around the user, crouch as they come out to increase orbit distance"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:mrcrossfire"
+        }
+      ],
+      "name": {
+        "text": "Crossfire Variation"
+      },
+      "ranged": true
+    },
+    "move_distance": 0.75,
+    "windup": 12
+  }
+}

@@ -1,28 +1,28 @@
 {
-    "type": "jeg:gunmetal_workbench",
-    "result": {
-        "item": "aurorasarsenal:g3a3"
+  "type": "jeg:gunmetal_workbench",
+  "result": {
+    "item": "aurorasarsenal:g3a3"
+  },
+  "materials": [
+    {
+      "item": "jeg:gunmetal_ingot",
+      "count": 30
     },
-    "materials": [
-        {
-            "item": "jeg:gunmetal_ingot",
-            "count": 30
-        },
-        {
-            "item": "jeg:scrap",
-            "count": 25
-        },
-        {
-            "item": "minecraft:repeater",
-            "count": 2
-        },
-        {
-            "item": "minecraft:lever",
-            "count": 1
-        },
-        {
-            "tag": "minecraft:planks",
-            "count": 16
-        }
-    ]
+    {
+      "item": "jeg:scrap",
+      "count": 25
+    },
+    {
+      "item": "minecraft:repeater",
+      "count": 2
+    },
+    {
+      "item": "minecraft:lever",
+      "count": 1
+    },
+    {
+      "tag": "minecraft:planks",
+      "count": 16
+    }
+  ]
 }

@@ -1,24 +1,24 @@
 {
-    "type": "jeg:gunmetal_workbench",
-    "result": {
-        "item": "mteg:thompson"
+  "type": "jeg:gunmetal_workbench",
+  "result": {
+    "item": "mteg:thompson"
+  },
+  "materials": [
+    {
+      "item": "jeg:scrap",
+      "count": 50
     },
-    "materials": [
-        {
-            "item": "jeg:scrap",
-            "count": 50
-        },
-        {
-            "item": "jeg:gunmetal_ingot",
-            "count": 35
-        },
-        {
-            "item": "minecraft:gray_dye",
-            "count": 2
-        },
-        {
-            "item": "minecraft:spruce_planks",
-            "count": 1
-        }
-    ]
+    {
+      "item": "jeg:gunmetal_ingot",
+      "count": 35
+    },
+    {
+      "item": "minecraft:gray_dye",
+      "count": 2
+    },
+    {
+      "item": "minecraft:spruce_planks",
+      "count": 1
+    }
+  ]
 }

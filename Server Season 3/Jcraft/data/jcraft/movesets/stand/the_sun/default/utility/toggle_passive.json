@@ -1,0 +1,37 @@
+{
+  "class": "UTILITY",
+  "cooldown_type": "UTILITY",
+  "crouching_variant": {
+    "class": "UTILITY",
+    "cooldown_type": "UTILITY",
+    "move": {
+      "type": "jcraft:shared_no_op_move",
+      "cooldown": 0,
+      "duration": 0,
+      "extras": {
+        "description": {
+          "text": "Moves The Sun to the looked location."
+        },
+        "is_holdable": true,
+        "name": {
+          "text": "Move"
+        }
+      },
+      "move_distance": 0.0
+    }
+  },
+  "move": {
+    "type": "jcraft:shared_no_op_move",
+    "cooldown": 0,
+    "duration": 0,
+    "extras": {
+      "description": {
+        "text": "Toggles The Sun between an Active and Passive mode.\nActive mode - the one it's in when summoned, allows usage of stand moves.\nPassive mode - allows usage of spec moves while keeping the Sun summoned."
+      },
+      "name": {
+        "text": "Toggle Passive"
+      }
+    },
+    "move_distance": 0.0
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "aerial_variant": {
+    "anim_state": "THROW",
+    "class": "SPECIAL2",
+    "cooldown_type": "STAND_SP2",
+    "move": {
+      "type": "jcraft:theworld_overheaven_aerial_divine_finisher_attack",
+      "attack_extras": {
+        "backstab": true,
+        "block_stun": 6,
+        "hit_animation": "MID",
+        "hit_spark": "HIT_SPARK_1"
+      },
+      "cooldown": 280,
+      "damage": 0.0,
+      "duration": 22,
+      "extras": {
+        "init_actions": [
+          {
+            "type": "jcraft:play_sound",
+            "sound": "jcraft:twohowarida"
+          }
+        ],
+        "name": {
+          "text": "Aerial Divine Finisher"
+        },
+        "ranged": true
+      },
+      "hitbox_size": 1.5,
+      "knockback": 0.0,
+      "move_distance": 0.75,
+      "offset": 0.0,
+      "stun": 20,
+      "windup": 16
+    }
+  },
+  "anim_state": "AIR_KNIVES",
+  "class": "SPECIAL2",
+  "cooldown_type": "STAND_SP2",
+  "move": {
+    "type": "jcraft:theworld_overheaven_divine_finisher_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 6,
+      "hit_animation": "MID",
+      "hit_spark": "HIT_SPARK_1"
+    },
+    "cooldown": 280,
+    "damage": 0.0,
+    "duration": 22,
+    "extras": {
+      "description": {
+        "text": "fires 4 stunning knives that launch at a delay/in air summons and launches 8 knives"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:twohairknives"
+        }
+      ],
+      "name": {
+        "text": "Divine Finisher"
+      },
+      "ranged": true
+    },
+    "hitbox_size": 1.5,
+    "knockback": 0.0,
+    "move_distance": 0.75,
+    "offset": 0.0,
+    "stun": 20,
+    "windup": 16
+  }
+}

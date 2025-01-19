@@ -1,0 +1,45 @@
+{
+  "anim_state": "BARRAGE",
+  "class": "BARRAGE",
+  "cooldown_type": "STAND_BARRAGE",
+  "move": {
+    "type": "jcraft:shared_barrage_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 3,
+      "hit_animation": "MID",
+      "stun_type": "WINDED"
+    },
+    "cooldown": 240,
+    "damage": 1.0,
+    "duration": 40,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "jcraft:impact4"
+        }
+      ],
+      "description": {
+        "text": "fast reliable combo starter/extender, medium stun"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:kqbarrage"
+        }
+      ],
+      "name": {
+        "text": "Barrage"
+      }
+    },
+    "hitbox_size": 1.5,
+    "interval": 3,
+    "knockback": 0.1,
+    "move_distance": 0.75,
+    "offset": 0.0,
+    "stun": 20,
+    "windup": 0
+  }
+}

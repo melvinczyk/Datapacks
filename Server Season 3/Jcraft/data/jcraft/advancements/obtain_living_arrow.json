@@ -1,0 +1,38 @@
+{
+  "parent": "jcraft:obtain_stand_arrow",
+  "criteria": {
+    "has_arrow": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jcraft:living_arrow"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Obtain a Living Arrow"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "jcraft:living_arrow"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "It's Alive!"
+    }
+  },
+  "requirements": [
+    [
+      "has_arrow"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

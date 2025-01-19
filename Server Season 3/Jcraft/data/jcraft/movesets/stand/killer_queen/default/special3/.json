@@ -1,0 +1,11 @@
+{
+  "class": "SPECIAL3",
+  "cooldown_type": "STAND_SP3",
+  "move": {
+    "type": "jcraft:killerqueen_coin_toss_move",
+    "cooldown": 240,
+    "extras": {
+      "ranged": true
+    }
+  }
+}

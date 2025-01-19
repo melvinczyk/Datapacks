@@ -1,40 +1,40 @@
 {
-    "type": "jeg:gunnite_workbench",
-    "result": {
-        "item": "mteg:m107"
+  "type": "jeg:gunnite_workbench",
+  "result": {
+    "item": "mteg:m107"
+  },
+  "materials": [
+    {
+      "item": "minecraft:netherite_ingot",
+      "count": 3
     },
-    "materials": [
-        {
-            "item": "minecraft:netherite_ingot",
-            "count": 3
-          },
-        {
-            "item": "minecraft:lever",
-            "count": 1
-        },
-        {
-            "item": "minecraft:redstone_block",
-            "count": 2
-        },
-        {
-            "item": "minecraft:tnt",
-            "count": 10
-        },
-        {
-            "item": "jeg:scrap",
-            "count": 50
-        },
-        {
-            "item": "jeg:gunnite_ingot",
-            "count": 45
-        },
-        {
-            "item": "jeg:gunmetal_ingot",
-            "count": 10
-        },
-        {
-            "item": "born_in_chaos_v1:dark_metal_ingot",
-            "count": 5
-        }
-    ]
+    {
+      "item": "minecraft:lever",
+      "count": 1
+    },
+    {
+      "item": "minecraft:redstone_block",
+      "count": 2
+    },
+    {
+      "item": "minecraft:tnt",
+      "count": 10
+    },
+    {
+      "item": "jeg:scrap",
+      "count": 50
+    },
+    {
+      "item": "jeg:gunnite_ingot",
+      "count": 46
+    },
+    {
+      "item": "jeg:gunmetal_ingot",
+      "count": 10
+    },
+    {
+      "item": "born_in_chaos_v1:dark_metal_ingot",
+      "count": 5
+    }
+  ]
 }

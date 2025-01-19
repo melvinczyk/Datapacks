@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:netherite_boots"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "YBY",
+    "Y Y"
+  ],
+  "result": {
+    "item": "jcraft:dio_boots"
+  },
+  "show_notification": true
+}

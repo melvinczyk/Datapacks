@@ -1,0 +1,44 @@
+{
+  "anim_state": "RED_BIND",
+  "class": "SPECIAL3",
+  "cooldown_type": "STAND_SP3",
+  "move": {
+    "type": "jcraft:magiciansred_red_bind_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 7,
+      "hit_animation": "MID",
+      "hit_spark": "HIT_SPARK_1"
+    },
+    "cooldown": 300,
+    "damage": 3.0,
+    "duration": 22,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "jcraft:impact3"
+        }
+      ],
+      "description": {
+        "text": "on hit, wraps opponent in fiery rings that launch them in the direction they are hit"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:mrredbind"
+        }
+      ],
+      "name": {
+        "text": "Red Bind"
+      }
+    },
+    "hitbox_size": 1.5,
+    "knockback": 0.0,
+    "move_distance": 0.75,
+    "offset": 0.0,
+    "stun": 15,
+    "windup": 12
+  }
+}

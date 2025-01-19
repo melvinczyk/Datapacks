@@ -1107,8 +1107,13 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 20.0,
+          "value": 60.0,
           "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     },

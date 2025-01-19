@@ -1,0 +1,101 @@
+{
+  "anim_state": "LOW_KICK",
+  "class": "SPECIAL1",
+  "cooldown_type": "STAND_SP1",
+  "crouching_variant": {
+    "anim_state": "LEG_CRUSHER",
+    "class": "SPECIAL1",
+    "cooldown_type": "STAND_SP1",
+    "move": {
+      "type": "jcraft:shared_knockdown_attack",
+      "attack_extras": {
+        "backstab": true,
+        "block_stun": 11,
+        "extra_hit_boxes": [
+          {
+            "size": 1.0,
+            "vertical_offset": -0.5
+          }
+        ],
+        "hit_animation": "LOW",
+        "hit_spark": "HIT_SPARK_2"
+      },
+      "cooldown": 80,
+      "damage": 7.0,
+      "duration": 19,
+      "extras": {
+        "actions": [
+          {
+            "type": "jcraft:play_sound",
+            "on_impact": true,
+            "sound": "jcraft:twkickhit"
+          }
+        ],
+        "description": {
+          "text": "knocks down (2s)"
+        },
+        "init_actions": [
+          {
+            "type": "jcraft:play_sound",
+            "sound": "jcraft:mihlegcrusher"
+          }
+        ],
+        "name": {
+          "text": "Leg Crusher"
+        }
+      },
+      "hitbox_size": 1.5,
+      "knockback": 0.35,
+      "knockdown_duration": 45,
+      "move_distance": 0.85,
+      "offset": 0.2,
+      "stun": 22,
+      "windup": 9
+    }
+  },
+  "move": {
+    "type": "jcraft:shared_simple_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 10,
+      "extra_hit_boxes": [
+        {
+          "size": 1.0,
+          "vertical_offset": -0.5
+        }
+      ],
+      "hit_animation": "LOW",
+      "hit_spark": "HIT_SPARK_2"
+    },
+    "cooldown": 80,
+    "damage": 6.0,
+    "duration": 17,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "jcraft:impact1"
+        }
+      ],
+      "description": {
+        "text": "combo starter/extender, mih hoofs the enemies legs in a quick, stunning attack"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:mihlegcrusher"
+        }
+      ],
+      "name": {
+        "text": "Low Kick"
+      }
+    },
+    "hitbox_size": 1.5,
+    "knockback": 0.25,
+    "move_distance": 0.85,
+    "offset": 0.2,
+    "stun": 26,
+    "windup": 8
+  }
+}

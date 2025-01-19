@@ -1,0 +1,54 @@
+{
+  "anim_state": "LAUNCH",
+  "class": "SPECIAL1",
+  "cooldown_type": "STAND_SP1",
+  "crouching_variant": {
+    "anim_state": "LAUNCH2",
+    "class": "SPECIAL1",
+    "cooldown_type": "STAND_SP1",
+    "move": {
+      "type": "jcraft:purplehaze_launch_capsules_attack",
+      "cooldown": 160,
+      "duration": 18,
+      "extras": {
+        "description": {
+          "text": "launches 3 capsules close by"
+        },
+        "init_actions": [
+          {
+            "type": "jcraft:play_sound",
+            "sound": "jcraft:phcapsule2"
+          }
+        ],
+        "name": {
+          "text": "Triple Capsule Launch"
+        },
+        "ranged": true
+      },
+      "move_distance": 0.75,
+      "windup": 9
+    }
+  },
+  "move": {
+    "type": "jcraft:purplehaze_launch_capsule_attack",
+    "cooldown": 160,
+    "duration": 14,
+    "extras": {
+      "description": {
+        "text": "launches a single, fast capsule at the aimed location"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:phcapsule1"
+        }
+      ],
+      "name": {
+        "text": "Capsule Launch"
+      },
+      "ranged": true
+    },
+    "move_distance": 0.75,
+    "windup": 7
+  }
+}

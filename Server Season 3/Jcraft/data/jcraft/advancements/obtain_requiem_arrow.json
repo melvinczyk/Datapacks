@@ -1,0 +1,38 @@
+{
+  "parent": "jcraft:obtain_stand_arrow",
+  "criteria": {
+    "has_arrow": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jcraft:requiem_arrow"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Obtain a Requiem Arrow"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "jcraft:requiem_arrow"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Requiem"
+    }
+  },
+  "requirements": [
+    [
+      "has_arrow"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

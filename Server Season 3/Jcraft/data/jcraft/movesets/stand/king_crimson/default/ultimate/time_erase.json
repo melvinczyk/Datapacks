@@ -1,0 +1,21 @@
+{
+  "anim_state": "TIME_ERASE",
+  "class": "ULTIMATE",
+  "cooldown_type": "STAND_ULTIMATE",
+  "move": {
+    "type": "jcraft:kingcrimson_time_erase_move",
+    "cooldown": 1000,
+    "duration": 15,
+    "erasure_duration": 120,
+    "extras": {
+      "description": {
+        "text": "6 seconds duration, cancellable by doing anything with King Crimson"
+      },
+      "name": {
+        "text": "Time Erase"
+      }
+    },
+    "move_distance": 1.0,
+    "windup": 5
+  }
+}

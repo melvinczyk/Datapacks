@@ -1,0 +1,27 @@
+{
+  "anim_state": "DIM_HOP",
+  "class": "SPECIAL1",
+  "cooldown_type": "STAND_SP1",
+  "move": {
+    "type": "jcraft:dirtydeedsdonedirtcheap_clone_spawn_move",
+    "cooldown": 400,
+    "duration": 50,
+    "extras": {
+      "description": {
+        "text": "summons an unlimited number of servants, crouch and interact to give/take items, press a special button to change their weapon\nServant types:\nDEFAULT - Iron Sword\nSPECIAL 1 - Wooden Axe\nSPECIAL 2 - Bow\nSPECIAL 3 - None"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:d4cdimhop"
+        }
+      ],
+      "name": {
+        "text": "Dimensional Clone"
+      },
+      "ranged": true
+    },
+    "move_distance": 1.0,
+    "windup": 40
+  }
+}

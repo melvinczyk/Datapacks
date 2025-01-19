@@ -1,0 +1,47 @@
+{
+  "anim_state": "HEAVY",
+  "class": "HEAVY",
+  "cooldown_type": "STAND_HEAVY",
+  "move": {
+    "type": "jcraft:killerqueen_bitesthedust_elbow_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 11,
+      "hit_animation": "LAUNCH",
+      "hit_spark": "HIT_SPARK_2",
+      "override_stun": true,
+      "shockwaves": true,
+      "stun_type": "LAUNCH"
+    },
+    "cooldown": 60,
+    "damage": 7.5,
+    "duration": 9,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "jcraft:impact4"
+        }
+      ],
+      "description": {
+        "text": "fast, short-range knockback"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:kqbtdelbow"
+        }
+      ],
+      "name": {
+        "text": "Elbow"
+      }
+    },
+    "hitbox_size": 1.0,
+    "knockback": 1.1,
+    "move_distance": 0.75,
+    "offset": 0.0,
+    "stun": 10,
+    "windup": 5
+  }
+}

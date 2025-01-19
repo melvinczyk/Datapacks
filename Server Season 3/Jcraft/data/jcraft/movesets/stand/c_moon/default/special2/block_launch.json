@@ -1,0 +1,51 @@
+{
+  "anim_state": "GROUND_SHOOT",
+  "class": "SPECIAL2",
+  "cooldown_type": "STAND_SP2",
+  "move": {
+    "type": "jcraft:cmoon_launch_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 9,
+      "hit_animation": "LOW",
+      "hit_spark": "HIT_SPARK_2"
+    },
+    "cooldown": 260,
+    "damage": 5.0,
+    "duration": 21,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "jcraft:impact5"
+        },
+        {
+          "type": "jcraft:cmoon_inversion",
+          "damage": 0.5,
+          "slow": false,
+          "time": 40
+        }
+      ],
+      "description": {
+        "text": "lifts a block from the ground and launches it at a delay/crouching and using this button resets the delay on nearby blocks"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:cmoongroundshoot"
+        }
+      ],
+      "name": {
+        "text": "Block Launch"
+      },
+      "ranged": true
+    },
+    "hitbox_size": 1.75,
+    "knockback": 0.9,
+    "move_distance": 0.75,
+    "offset": 0.3,
+    "stun": 19,
+    "windup": 14
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "parent": "jcraft:find_stone_mask",
+  "criteria": {
+    "has_kars_headwrap": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jcraft:kars_headwrap"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_puccis_hat": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jcraft:puccis_hat"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_red_hat": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jcraft:red_hat"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Obtain all sun protection items"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "jcraft:kars_headwrap",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Rise and Shine"
+    }
+  },
+  "requirements": [
+    [
+      "has_kars_headwrap"
+    ],
+    [
+      "has_red_hat"
+    ],
+    [
+      "has_puccis_hat"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,47 @@
+{
+  "class": "HEAVY",
+  "cooldown_type": "STAND_HEAVY",
+  "crouching_variant": {
+    "class": "HEAVY",
+    "cooldown_type": "STAND_HEAVY",
+    "move": {
+      "type": "jcraft:thesun_fire_sun_beam_attack",
+      "beams": 1,
+      "cooldown": 20,
+      "divergence": 0.0,
+      "duration": 10,
+      "extras": {
+        "description": {
+          "text": "Fires a sunbeam with perfect precision."
+        },
+        "name": {
+          "text": "Fire Sunbeam"
+        },
+        "ranged": true
+      },
+      "windup": 5
+    }
+  },
+  "move": {
+    "type": "jcraft:thesun_fire_meteor_attack",
+    "cooldown": 20,
+    "duration": 10,
+    "explosive_if_max": true,
+    "extras": {
+      "description": {
+        "text": "Fires a high-velocity meteor with perfect precision.\nAt max size, the meteor is explosive."
+      },
+      "name": {
+        "text": "Fire Meteor"
+      },
+      "ranged": true
+    },
+    "hit_moments": [
+      5
+    ],
+    "meteor_divergence": 0.0,
+    "meteor_speed": 2.5,
+    "meteor_velocity": 1.0,
+    "meteors": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "H": {
+      "item": "minecraft:netherite_helmet"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "BYB",
+    "BHB"
+  ],
+  "result": {
+    "item": "jcraft:jotaro_cap"
+  },
+  "show_notification": true
+}

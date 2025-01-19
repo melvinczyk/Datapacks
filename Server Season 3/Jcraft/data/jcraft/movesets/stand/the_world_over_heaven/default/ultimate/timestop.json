@@ -1,0 +1,26 @@
+{
+  "anim_state": "TIME_STOP",
+  "class": "ULTIMATE",
+  "cooldown_type": "STAND_ULTIMATE",
+  "move": {
+    "type": "jcraft:shared_time_stop_move",
+    "cooldown": 1400,
+    "duration": 50,
+    "extras": {
+      "description": {
+        "text": "5 seconds"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:twohtimestop"
+        }
+      ],
+      "name": {
+        "text": "Timestop"
+      }
+    },
+    "time_stop_duration": "twohTimeStopDuration",
+    "windup": 45
+  }
+}

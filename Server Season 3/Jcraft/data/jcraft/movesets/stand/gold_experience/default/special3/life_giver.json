@@ -1,0 +1,27 @@
+{
+  "anim_state": "LIFE_GIVER",
+  "class": "SPECIAL3",
+  "cooldown_type": "STAND_SP3",
+  "move": {
+    "type": "jcraft:goldexperience_life_giver_attack",
+    "cooldown": 400,
+    "duration": 25,
+    "extras": {
+      "description": {
+        "text": "STANDING: turns any stackable item into a snake, lasts for 25s and stuns for 0.5s on hit\nCROUCHING: turns any stackable item into a frog, lasts for 15s and reflects damage, follows user\nAERIAL: turns any item into a butterfly, lasts forever"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:geheal"
+        }
+      ],
+      "name": {
+        "text": "Life Giver"
+      },
+      "ranged": true
+    },
+    "move_distance": 1.0,
+    "windup": 16
+  }
+}

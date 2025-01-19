@@ -1,0 +1,27 @@
+{
+  "anim_state": "CREATE",
+  "class": "SPECIAL3",
+  "cooldown_type": "STAND_SP3",
+  "move": {
+    "type": "jcraft:thefool_sand_clone_move",
+    "cooldown": 300,
+    "duration": 11,
+    "extras": {
+      "description": {
+        "text": "creates a blinding sand cloud, then a clone or (if crouching) circles of sand"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "minecraft:block.sand.place"
+        }
+      ],
+      "name": {
+        "text": "Sand Manipulation"
+      },
+      "ranged": true
+    },
+    "move_distance": 1.0,
+    "windup": 7
+  }
+}

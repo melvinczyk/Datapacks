@@ -1,0 +1,50 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "   II    ",
+    "   IP    ",
+    "I  II    ",
+    "BEEIIIII ",
+    "IH_____II",
+    "BEEIIIII ",
+    "I  II    ",
+    "   IP    ",
+    "   II    "
+  ],
+  "key": {
+    "H": [
+      {
+        "item": "immersive_aircraft:hull"
+      }
+    ],
+    "I": [
+      {
+        "item": "minecraft:iron_block"
+      }
+    ],
+    "E": [
+      {
+        "item": "immersive_aircraft:engine"
+      }
+    ],
+    "P": [
+      {
+        "item": "immersive_aircraft:propeller"
+      }
+    ],
+    "B": [
+      {
+        "item": "create:blaze_burner"
+      }
+    ],
+    "_": [
+      {
+        "tag": "create:seats"
+      }
+    ]
+  },
+  "result": {
+    "item": "aviator_dream:dehavilland_dh106"
+  },
+  "acceptMirrored": true
+}

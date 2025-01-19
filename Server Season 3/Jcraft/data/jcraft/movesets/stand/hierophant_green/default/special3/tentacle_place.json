@@ -1,0 +1,26 @@
+{
+  "anim_state": "NET_SET",
+  "class": "SPECIAL3",
+  "cooldown_type": "STAND_SP3",
+  "move": {
+    "type": "jcraft:hierophantgreen_net_set_move",
+    "cooldown": 200,
+    "duration": 15,
+    "extras": {
+      "description": {
+        "text": "Places a Hierophant Tentacle at Hierophant's feet.\nTentacles automatically grasp anything that touches them that isn't the user (10s cooldown).\nUse crouching Emerald Splash to fire from the Tentacles remotely.\nTentacles cannot fire if grabbing.\n"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:hgnetset"
+        }
+      ],
+      "name": {
+        "text": "Tentacle Place"
+      }
+    },
+    "move_distance": 1.0,
+    "windup": 9
+  }
+}

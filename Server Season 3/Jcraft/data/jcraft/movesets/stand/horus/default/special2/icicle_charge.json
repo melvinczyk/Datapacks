@@ -1,0 +1,41 @@
+{
+  "anim_state": "CHARGE_ICICLE",
+  "class": "SPECIAL2",
+  "cooldown_type": "STAND_SP2",
+  "followup": {
+    "anim_state": "CHARGE_FIRE",
+    "class": "SPECIAL2",
+    "cooldown_type": "STAND_SP2",
+    "move": {
+      "type": "jcraft:horus_icicle_fire_attack",
+      "cooldown": 0,
+      "duration": 11,
+      "extras": {
+        "name": {
+          "text": "Icicle Fire"
+        }
+      },
+      "move_distance": 0.75,
+      "windup": 1
+    }
+  },
+  "move": {
+    "type": "jcraft:shared_simple_holdable_move",
+    "cooldown": 100,
+    "duration": 30,
+    "extras": {
+      "armor": 3,
+      "description": {
+        "text": "3 armor points while charging\nCan be held, and released 0.45s in.\nIf charged fully, attack becomes unblockable and launches far."
+      },
+      "is_holdable": true,
+      "name": {
+        "text": "Icicle Charge"
+      }
+    },
+    "minimum_charge": 9,
+    "move_distance": 0.75,
+    "set_move_stun": false,
+    "windup": 31
+  }
+}

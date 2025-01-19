@@ -1,0 +1,48 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+      "  IP ",
+      "P II ",
+      "HIIH ",
+      "EED_I",
+      "HIIH ",
+      "P II ",
+      "  IP "
+    ],
+    "key": {
+      "H": [
+        {
+          "item": "immersive_aircraft:hull"
+        }
+      ],
+      "I": [
+        {
+          "item": "minecraft:iron_block"
+        }
+      ],
+      "E": [
+        {
+          "item": "immersive_aircraft:engine"
+        }
+      ],
+      "P": [
+        {
+          "item": "immersive_aircraft:propeller"
+        }
+      ],
+      "D": [
+        {
+          "item": "aviator_dream:douglas_dc1"
+        }
+      ],
+      "_": [
+        {
+          "tag": "create:seats"
+        }
+      ]
+    },
+    "result": {
+      "item": "aviator_dream:douglas_dc2"
+    },
+    "acceptMirrored": true
+  }

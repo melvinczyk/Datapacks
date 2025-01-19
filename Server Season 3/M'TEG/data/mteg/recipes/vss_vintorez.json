@@ -1,36 +1,36 @@
 {
-    "type": "jeg:gunmetal_workbench",
-    "result": {
-        "item": "mteg:vss_vintorez"
+  "type": "jeg:gunmetal_workbench",
+  "result": {
+    "item": "mteg:vss_vintorez"
+  },
+  "materials": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 15
     },
-    "materials": [
-        {
-            "item": "minecraft:iron_ingot",
-            "count": 15
-        },
-        {
-            "item": "minecraft:iron_nugget",
-            "count": 6
-        },
-        {
-            "item": "jeg:scrap",
-            "count": 50
-        },
-        {
-            "item": "jeg:gunmetal_ingot",
-            "count": 30
-        },
-        {
-            "item": "minecraft:black_dye",
-            "count": 2
-        },
-        {
-            "item": "minecraft:sponge",
-            "count": 1
-        },
-        {
-            "item": "minecraft:oak_log",
-            "count": 2
-        }
-    ]
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 6
+    },
+    {
+      "item": "jeg:scrap",
+      "count": 50
+    },
+    {
+      "item": "jeg:gunmetal_ingot",
+      "count": 30
+    },
+    {
+      "item": "minecraft:black_dye",
+      "count": 2
+    },
+    {
+      "item": "minecraft:sponge",
+      "count": 1
+    },
+    {
+      "item": "minecraft:oak_log",
+      "count": 2
+    }
+  ]
 }

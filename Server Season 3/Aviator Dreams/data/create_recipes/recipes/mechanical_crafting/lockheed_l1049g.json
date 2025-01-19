@@ -1,0 +1,50 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+      "   II    ",
+      "   IP    ",
+      "I  II    ",
+      "BIIIIIII ",
+      "IEE____IT",
+      "BIIIIIII ",
+      "I  II    ",
+      "   IP    ",
+      "   II    "
+    ],
+    "key": {
+      "I": [
+        {
+          "item": "minecraft:iron_block"
+        }
+      ],
+      "E": [
+        {
+          "item": "immersive_aircraft:engine"
+        }
+      ],
+      "P": [
+        {
+          "item": "immersive_aircraft:propeller"
+        }
+      ],
+      "B": [
+        {
+          "item": "create:blaze_burner"
+        }
+      ],
+      "T": [
+        {
+          "item": "scguns:treated_iron_block"
+        }
+      ],
+      "_": [
+        {
+          "tag": "create:seats"
+        }
+      ]
+    },
+    "result": {
+      "item": "aviator_dream:lockheed_l1049g"
+    },
+    "acceptMirrored": true
+  }

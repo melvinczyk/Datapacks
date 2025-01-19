@@ -1,4 +1,0 @@
-	filename: "assault_rifle"
-	group: "2E8BF1A1F4DB9EE3"
-	id: "375EB93E7FEF71B5"
-	order_index: 4

@@ -1,0 +1,46 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+      "    S ",
+      "P   S ",
+      "GHHFEP",
+      "P   S ",
+      "    S "
+    ],
+    "key": {
+      "H": [
+        {
+          "item": "immersive_aircraft:hull"
+        }
+      ],
+      "E": [
+        {
+          "item": "immersive_aircraft:engine"
+        }
+      ],
+      "G": [
+        {
+          "item": "immersive_aircraft:industrial_gears"
+        }
+      ],
+      "P": [
+        {
+          "item": "immersive_aircraft:propeller"
+        }
+      ],
+      "S": [
+        {
+          "item": "immersive_aircraft:sail"
+        }
+      ],
+      "F": [
+        {
+          "item": "create:smart_fluid_pipe"
+        }
+      ]
+    },
+    "result": {
+      "item": "man_of_many_planes:economy_plane"
+    },
+    "acceptMirrored": true
+  }

@@ -4,7 +4,7 @@
     "item": "jeg:pistol_ammo"
   },
   "result": {
-    "item": "minecraft:gunpowder",
+    "item": "scguns:gunpowder_dust",
     "count": 1
   },
   "experience": 15,

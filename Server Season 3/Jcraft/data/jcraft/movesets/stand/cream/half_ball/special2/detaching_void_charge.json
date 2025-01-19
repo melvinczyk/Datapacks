@@ -1,0 +1,26 @@
+{
+  "anim_state": "BALL_CONSUME",
+  "class": "SPECIAL2",
+  "cooldown_type": "STAND_SP2",
+  "move": {
+    "type": "jcraft:cream_detach_charge_move",
+    "cooldown": 300,
+    "duration": 28,
+    "extras": {
+      "description": {
+        "text": "Cream quickly transforms into a black hole and charges in the pointed direction.\nThe user exits cream upon performing this move."
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:creamballdash"
+        }
+      ],
+      "name": {
+        "text": "Detaching Void Charge"
+      }
+    },
+    "move_distance": 1.0,
+    "windup": 13
+  }
+}

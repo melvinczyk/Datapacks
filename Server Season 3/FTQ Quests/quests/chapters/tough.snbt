@@ -700,6 +700,39 @@
 			x: -4.5d
 			y: 0.0d
 		}
+		{
+			id: "124B982035F27BF0"
+			rewards: [
+				{
+					count: 30
+					id: "125096112C029C40"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "2CEA0BE4E9A709EB"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "enemyexpansion:huntsman"
+				icon: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5275CE574BFD9C07"
+				type: "kill"
+				value: 25L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
 	]
 	title: "&6Tough"
 }

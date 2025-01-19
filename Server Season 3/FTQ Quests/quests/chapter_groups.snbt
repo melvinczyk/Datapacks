@@ -2,6 +2,6 @@
 	chapter_groups: [
 		{ id: "2E8BF1A1F4DB9EE3", title: "&2Basic Weapon Mastery" }
 		{ id: "1078D0CCFA385DA2", title: "&6Advanced Weapons Mastery" }
-		{ id: "051880D4A141ED2F", title: "Bounty Board" }
+		{ id: "051880D4A141ED2F", title: "&7Bounty Board" }
 	]
 }

@@ -1,0 +1,52 @@
+{
+  "anim_state": "DIRECTIONAL_SHIFT",
+  "class": "ULTIMATE",
+  "cooldown_type": "STAND_ULTIMATE",
+  "crouching_variant": {
+    "anim_state": "GRAV_SHIFT",
+    "class": "ULTIMATE",
+    "cooldown_type": "STAND_ULTIMATE",
+    "move": {
+      "type": "jcraft:cmoon_gravity_shift_move",
+      "cooldown": 1400,
+      "duration": 32,
+      "extras": {
+        "description": {
+          "text": "repulses or attracts entities within 64m\nlasts 10 seconds\nswap between attraction/repulsion by pressing ultimate again"
+        },
+        "init_actions": [
+          {
+            "type": "jcraft:play_sound",
+            "sound": "jcraft:cmoongravshift"
+          }
+        ],
+        "name": {
+          "text": "Gravity Shift Radial"
+        }
+      },
+      "move_distance": 1.0,
+      "windup": 20
+    }
+  },
+  "move": {
+    "type": "jcraft:cmoon_gravity_shift_pulse_move",
+    "cooldown": 1400,
+    "duration": 32,
+    "extras": {
+      "description": {
+        "text": "changes the gravitational direction of entities within 16m to the direction the user is looking in\nlasts 30 seconds\nall affected entities cannot take fall damage\naffected entities lose the gravity shift if they move 100m away from the user\n"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:cmoondirectionalshift"
+        }
+      ],
+      "name": {
+        "text": "Gravity Shift Directional"
+      }
+    },
+    "move_distance": 1.0,
+    "windup": 20
+  }
+}

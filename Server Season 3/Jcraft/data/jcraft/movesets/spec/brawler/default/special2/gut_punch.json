@@ -1,0 +1,38 @@
+{
+  "anim_state": "GUT",
+  "class": "SPECIAL2",
+  "cooldown_type": "SPECIAL2",
+  "move": {
+    "type": "jcraft:shared_simple_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 10,
+      "hit_animation": "CRUSH",
+      "hit_spark": "HIT_SPARK_2"
+    },
+    "cooldown": 120,
+    "damage": 6.0,
+    "duration": 18,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "jcraft:impact3"
+        }
+      ],
+      "description": {
+        "text": "good stun"
+      },
+      "name": {
+        "text": "Gut Punch"
+      }
+    },
+    "hitbox_size": 1.5,
+    "knockback": 0.4,
+    "move_distance": 1.0,
+    "offset": 0.0,
+    "stun": 16,
+    "windup": 11
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "jcraft:stand_arrow"
+    },
+    "F": {
+      "item": "minecraft:disc_fragment_5"
+    }
+  },
+  "pattern": [
+    "FFF",
+    "FAF",
+    "FFF"
+  ],
+  "result": {
+    "item": "jcraft:stand_disc"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,81 @@
+{
+  "aerial_variant": {
+    "anim_state": "AIR_BARRAGE",
+    "class": "BARRAGE",
+    "cooldown_type": "STAND_BARRAGE",
+    "move": {
+      "type": "jcraft:thefool_air_barrage_attack",
+      "attack_extras": {
+        "backstab": true,
+        "block_stun": 3,
+        "hit_animation": "HIGH",
+        "stun_type": "WINDED"
+      },
+      "cooldown": 240,
+      "damage": 1.0,
+      "duration": 30,
+      "extras": {
+        "description": {
+          "text": "slows down all movement, combo starter/extender"
+        },
+        "name": {
+          "text": "Burn Rubber"
+        }
+      },
+      "hitbox_size": 2.0,
+      "interval": 3,
+      "knockback": 0.1,
+      "move_distance": 1.0,
+      "offset": 0.0,
+      "stun": 10,
+      "windup": 0
+    }
+  },
+  "anim_state": "COMBO",
+  "class": "BARRAGE",
+  "cooldown_type": "STAND_BARRAGE",
+  "move": {
+    "type": "jcraft:thefool_combo_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 8,
+      "extra_hit_boxes": [
+        {
+          "forward_offset": 0.5,
+          "size": 1.25
+        }
+      ],
+      "hit_animation": "MID",
+      "hit_spark": "HIT_SPARK_2"
+    },
+    "cooldown": 200,
+    "damage": 4.5,
+    "duration": 29,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "jcraft:impact2"
+        }
+      ],
+      "description": {
+        "text": "fast knockdown provider"
+      },
+      "name": {
+        "text": "3-hit Combo"
+      }
+    },
+    "hit_moments": [
+      6,
+      14,
+      18,
+      19
+    ],
+    "hitbox_size": 1.75,
+    "knockback": 0.1,
+    "move_distance": 1.5,
+    "offset": -0.1,
+    "stun": 20
+  }
+}

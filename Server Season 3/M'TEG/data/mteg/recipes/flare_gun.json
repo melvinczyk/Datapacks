@@ -1,24 +1,24 @@
 {
-    "type": "jeg:gunmetal_workbench",
-    "result": {
-        "item": "mteg:flare_gun"
+  "type": "jeg:gunmetal_workbench",
+  "result": {
+    "item": "mteg:flare_gun"
+  },
+  "materials": [
+    {
+      "item": "jeg:scrap",
+      "count": 3
     },
-    "materials": [
-        {
-            "item": "jeg:scrap",
-            "count": 3
-        },
-        {
-            "item": "jeg:gunmetal_ingot",
-            "count": 5
-        },
-        {
-            "item": "minecraft:orange_dye",
-            "count": 1
-        },
-        {
-            "item": "minecraft:black_dye",
-            "count": 1
-        }
-    ]
+    {
+      "item": "jeg:gunmetal_ingot",
+      "count": 5
+    },
+    {
+      "item": "minecraft:orange_dye",
+      "count": 1
+    },
+    {
+      "item": "minecraft:black_dye",
+      "count": 1
+    }
+  ]
 }

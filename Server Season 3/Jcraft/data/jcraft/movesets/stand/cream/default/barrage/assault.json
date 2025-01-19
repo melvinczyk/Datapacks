@@ -1,0 +1,48 @@
+{
+  "anim_state": "COMBO",
+  "class": "BARRAGE",
+  "cooldown_type": "STAND_BARRAGE",
+  "move": {
+    "type": "jcraft:cream_cream_combo_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 9,
+      "hit_animation": "MID",
+      "hit_spark": "HIT_SPARK_2"
+    },
+    "cooldown": 280,
+    "damage": 5.0,
+    "duration": 36,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "jcraft:impact3"
+        }
+      ],
+      "description": {
+        "text": "medium windup, good stun"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:creamcombo"
+        }
+      ],
+      "name": {
+        "text": "Assault"
+      }
+    },
+    "hit_moments": [
+      10,
+      17,
+      25
+    ],
+    "hitbox_size": 2.0,
+    "knockback": 0.2,
+    "move_distance": 0.75,
+    "offset": 0.0,
+    "stun": 20
+  }
+}

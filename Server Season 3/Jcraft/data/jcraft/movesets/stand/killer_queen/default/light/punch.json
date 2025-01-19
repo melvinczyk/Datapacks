@@ -1,0 +1,133 @@
+{
+  "anim_state": "LIGHT",
+  "class": "LIGHT",
+  "cooldown_type": "STAND_LIGHT",
+  "crouching_variant": {
+    "class": "LIGHT",
+    "cooldown_type": "STAND_LIGHT",
+    "move": {
+      "type": "jcraft:killerqueen_detonate_attack",
+      "cooldown": 20,
+      "duration": 6,
+      "extras": {
+        "description": {
+          "text": "tiny windup, move queueing is disabled while Detonate is active"
+        },
+        "name": {
+          "text": "Detonate"
+        }
+      },
+      "move_distance": 1.0,
+      "windup": 5
+    }
+  },
+  "followup": {
+    "anim_state": "LIGHT_FOLLOWUP",
+    "class": "LIGHT",
+    "cooldown_type": "STAND_LIGHT",
+    "followup": {
+      "anim_state": "LOW",
+      "class": "LIGHT",
+      "cooldown_type": "STAND_LIGHT",
+      "move": {
+        "type": "jcraft:shared_simple_attack",
+        "attack_extras": {
+          "backstab": true,
+          "block_stun": 8,
+          "hit_animation": "MID",
+          "hit_spark": "HIT_SPARK_1"
+        },
+        "cooldown": 0,
+        "damage": 4.0,
+        "duration": 13,
+        "extras": {
+          "actions": [
+            {
+              "type": "jcraft:play_sound",
+              "on_impact": true,
+              "sound": "jcraft:impact1"
+            }
+          ],
+          "description": {
+            "text": "frametrap tool, low stun"
+          },
+          "name": {
+            "text": "Low Punch"
+          }
+        },
+        "hitbox_size": 1.5,
+        "knockback": 0.25,
+        "move_distance": 0.85,
+        "offset": 0.1,
+        "stun": 10,
+        "windup": 8
+      }
+    },
+    "move": {
+      "type": "jcraft:shared_simple_attack",
+      "attack_extras": {
+        "backstab": true,
+        "block_stun": 7,
+        "hit_animation": "MID",
+        "hit_spark": "HIT_SPARK_2"
+      },
+      "cooldown": 0,
+      "damage": 3.0,
+      "duration": 13,
+      "extras": {
+        "actions": [
+          {
+            "type": "jcraft:play_sound",
+            "on_impact": true,
+            "sound": "jcraft:impact1"
+          }
+        ],
+        "description": {
+          "text": "frametrap tool"
+        },
+        "name": {
+          "text": "Second Punch"
+        }
+      },
+      "hitbox_size": 1.5,
+      "knockback": 0.5,
+      "move_distance": 0.8,
+      "offset": 0.1,
+      "stun": 20,
+      "windup": 6
+    }
+  },
+  "move": {
+    "type": "jcraft:shared_simple_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 7,
+      "hit_animation": "MID",
+      "hit_spark": "HIT_SPARK_1"
+    },
+    "cooldown": 30,
+    "damage": 3.0,
+    "duration": 10,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "jcraft:impact6"
+        }
+      ],
+      "description": {
+        "text": "combo starter, decent speed, has two followups"
+      },
+      "name": {
+        "text": "Punch"
+      }
+    },
+    "hitbox_size": 1.5,
+    "knockback": 0.25,
+    "move_distance": 0.75,
+    "offset": 0.1,
+    "stun": 10,
+    "windup": 6
+  }
+}

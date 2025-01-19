@@ -1,0 +1,32 @@
+{
+  "class": "SPECIAL2",
+  "cooldown_type": "STAND_SP2",
+  "move": {
+    "type": "jcraft:thesun_meteor_shower_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 3,
+      "hit_animation": "MID",
+      "stun_type": "WINDED"
+    },
+    "cooldown": 100,
+    "duration": 110,
+    "extras": {
+      "description": {
+        "text": "Fires a hail of meteors in all directions for 5 seconds.\nAmount of meteors changes proportional to the size of The Sun."
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:sunshower"
+        }
+      ],
+      "name": {
+        "text": "Meteor Shower"
+      },
+      "ranged": true
+    },
+    "interval": 2,
+    "windup": 10
+  }
+}

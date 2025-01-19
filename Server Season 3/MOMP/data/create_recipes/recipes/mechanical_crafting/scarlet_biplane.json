@@ -1,0 +1,41 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+      "    S ",
+      "P   S ",
+      "HHHHEF",
+      "P   S ",
+      "    S "
+    ],
+    "key": {
+      "H": [
+        {
+          "item": "immersive_aircraft:hull"
+        }
+      ],
+      "E": [
+        {
+          "item": "immersive_aircraft:engine"
+        }
+      ],
+      "P": [
+        {
+          "item": "immersive_aircraft:propeller"
+        }
+      ],
+      "S": [
+        {
+          "item": "immersive_aircraft:sail"
+        }
+      ],
+      "F": [
+        {
+          "item": "create:flywheel"
+        }
+      ]
+    },
+    "result": {
+      "item": "man_of_many_planes:scarlet_biplane"
+    },
+    "acceptMirrored": true
+  }

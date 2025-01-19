@@ -1,0 +1,96 @@
+{
+  "anim_state": "LUNGE",
+  "class": "HEAVY",
+  "cooldown_type": "STAND_HEAVY",
+  "crouching_variant": {
+    "anim_state": "GUARD_CANCEL",
+    "class": "HEAVY",
+    "cooldown_type": "STAND_HEAVY",
+    "move": {
+      "type": "jcraft:shared_knockdown_attack",
+      "attack_extras": {
+        "backstab": true,
+        "block_stun": 11,
+        "hit_animation": "LAUNCH",
+        "hit_spark": "HIT_SPARK_3",
+        "override_stun": true,
+        "shockwaves": true,
+        "stun_type": "LAUNCH"
+      },
+      "cooldown": 140,
+      "damage": 7.0,
+      "duration": 16,
+      "extras": {
+        "actions": [
+          {
+            "type": "jcraft:play_sound",
+            "on_impact": true,
+            "sound": "jcraft:twkickhit"
+          }
+        ],
+        "armor": 2147483647,
+        "description": {
+          "text": "uninterruptible get-off-me tool, brief knockdown"
+        },
+        "init_actions": [
+          {
+            "type": "jcraft:play_sound",
+            "sound": "jcraft:stwwarble"
+          }
+        ],
+        "name": {
+          "text": "Shoulder Bash"
+        }
+      },
+      "hitbox_size": 1.75,
+      "knockback": 2.0,
+      "knockdown_duration": 25,
+      "move_distance": 0.75,
+      "offset": 0.0,
+      "stun": 12,
+      "windup": 10
+    }
+  },
+  "move": {
+    "type": "jcraft:theworld_overheaven_lunge_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 12,
+      "hit_animation": "CRUSH",
+      "hit_spark": "HIT_SPARK_2"
+    },
+    "begin_move_stun": 10,
+    "cooldown": 40,
+    "damage": 8.0,
+    "duration": 20,
+    "end_move_stun": 6,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "jcraft:twkickhit"
+        }
+      ],
+      "description": {
+        "text": "medium speed launcher"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:stwwarble"
+        }
+      ],
+      "name": {
+        "text": "Lunge"
+      },
+      "ranged": true
+    },
+    "hitbox_size": 1.6,
+    "knockback": 2.0,
+    "move_distance": 0.75,
+    "offset": 0.0,
+    "stun": 19,
+    "windup": 14
+  }
+}

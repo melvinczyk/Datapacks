@@ -1,28 +1,28 @@
 {
-    "type": "jeg:gunmetal_workbench",
-    "result": {
-        "item": "mteg:remington_870"
+  "type": "jeg:gunmetal_workbench",
+  "result": {
+    "item": "mteg:remington_870"
+  },
+  "materials": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 24
     },
-    "materials": [
-        {
-            "item": "minecraft:iron_ingot",
-            "count": 24
-        },
-        {
-            "item": "jeg:scrap",
-            "count": 50
-        },
-        {
-            "item": "minecraft:gunpowder",
-            "count": 12
-        },
-        {
-            "item": "jeg:gunmetal_ingot",
-            "count": 20
-        },
-        {
-            "item": "minecraft:oak_log",
-            "count": 6
-        }
-    ]
+    {
+      "item": "jeg:scrap",
+      "count": 50
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "count": 12
+    },
+    {
+      "item": "jeg:gunmetal_ingot",
+      "count": 20
+    },
+    {
+      "item": "minecraft:oak_log",
+      "count": 6
+    }
+  ]
 }

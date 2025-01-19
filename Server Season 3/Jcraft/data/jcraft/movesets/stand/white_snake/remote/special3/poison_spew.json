@@ -1,0 +1,66 @@
+{
+  "anim_state": "ACID_SPEW",
+  "class": "SPECIAL3",
+  "cooldown_type": "STAND_SP3",
+  "crouching_variant": {
+    "anim_state": "ACID_SPEW_CHARGED",
+    "class": "SPECIAL3",
+    "cooldown_type": "STAND_SP3",
+    "move": {
+      "type": "jcraft:whitesnake_charged_spew_attack",
+      "attack_extras": {
+        "backstab": true,
+        "block_stun": 4,
+        "blockable_type": "NON_BLOCKABLE_EFFECTS_ONLY",
+        "hit_animation": "MID",
+        "hit_spark": "HIT_SPARK_1"
+      },
+      "cooldown": 200,
+      "damage": 0.0,
+      "duration": 26,
+      "extras": {
+        "description": {
+          "text": "fires a spread of 5 acid projectiles that slow enemies and persist on the surface they hits for 5s"
+        },
+        "name": {
+          "text": "Poison Spew"
+        },
+        "ranged": true
+      },
+      "hitbox_size": 2.0,
+      "knockback": 0.0,
+      "move_distance": 0.75,
+      "offset": 0.0,
+      "stun": 0,
+      "windup": 20
+    }
+  },
+  "move": {
+    "type": "jcraft:whitesnake_poison_spew_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 4,
+      "blockable_type": "NON_BLOCKABLE_EFFECTS_ONLY",
+      "hit_animation": "MID",
+      "hit_spark": "HIT_SPARK_1"
+    },
+    "cooldown": 200,
+    "damage": 0.0,
+    "duration": 14,
+    "extras": {
+      "description": {
+        "text": "fires an acid projectile that slows enemies and persists on the surface it hits for 5s"
+      },
+      "name": {
+        "text": "Poison Spew"
+      },
+      "ranged": true
+    },
+    "hitbox_size": 2.0,
+    "knockback": 0.0,
+    "move_distance": 0.75,
+    "offset": 0.0,
+    "stun": 0,
+    "windup": 10
+  }
+}

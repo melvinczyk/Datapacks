@@ -18,27 +18,33 @@
 					xp_levels: 10
 				}
 				{
-					count: 5
+					count: 15
 					id: "29E77615505FAEDD"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
-					count: 10
+					count: 30
 					id: "5C985002C5AA8CE6"
 					item: "minecraft:gunpowder"
 					type: "item"
 				}
 				{
-					count: 10
+					count: 20
 					id: "04BA328976EEE696"
 					item: "scguns:sulfur_chunk"
 					type: "item"
 				}
 				{
-					count: 5
+					count: 20
 					id: "3512A176B20A409D"
 					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "7C428BA8533F8504"
+					item: "jeg:gunmetal_ingot"
 					type: "item"
 				}
 			]
@@ -69,19 +75,124 @@
 			rewards: [
 				{
 					count: 5
-					id: "6D0DA195A642B004"
+					id: "779BB70ACA11CBE4"
 					item: "paraglider:heart_container"
 					type: "item"
 				}
 				{
 					count: 5
-					id: "4AA87FCB935E45E6"
+					id: "6C11F2C4F337BC64"
 					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+				{
+					id: "6E22CE899BF9720B"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					count: 64
+					id: "04F3CD4A20884771"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 70
+					id: "4A750C771884EE3A"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "42FA0E43B160EB97"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "15CFD7629DB90B5E"
+					item: "terramity:virentium_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6F8E65F018CECB0A"
+					item: "terramity:deepslate_iridium_ore"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "2B3013149743CD1C"
+					item: "terramity:iridium_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "74E211411D951E27"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4EEFB65B1C8C632F"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4B104F2B7B1FED52"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6F671021CFD4FDE8"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7F9826E14CA8064A"
+					item: "scguns:anthralite_ingot"
+					type: "item"
+				}
+				{
+					id: "240D8C1547CFE259"
+					item: "confluence:shield_of_cthulhu"
+					type: "item"
+				}
+				{
+					id: "4EC9FE4DB1B7D86D"
+					item: {
+						Count: 1
+						id: "terramity:unholy_lance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EB7E56F9956EC46"
+					item: {
+						Count: 1
+						id: "scguns:diamond_steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6F6CB10F73E62F33"
+					item: "terramity:virentium_upgrade_smithing_template"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "Killed all of the Dangerous Beasts"
 			tasks: [{
 				id: "307B1B1FD8042BA4"
 				title: "The Beasts"
@@ -92,7 +203,75 @@
 			y: 5.0d
 		}
 		{
+			description: ["Umvuthi can be found in its chair in &edesert and savanah biomes&r. He is neutral until you fight him."]
 			id: "370876D51B4A5C8B"
+			rewards: [
+				{
+					id: "274DF4B0833A082A"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 25
+					id: "318774E56925331F"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "292AEAC4D2826360"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "70299BB1F7D35200"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0A0E5F7930A5C63E"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_misery"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6DAAF99B8F89D81D"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_bliss"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4F1EE0CDDEBBDCFA"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_rage"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35A721201490970A"
+					item: "mowziesmobs:grant_suns_blessing"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Umvuthi, the Sunbird"
 			tasks: [{
 				entity: "mowziesmobs:umvuthi"
 				icon: "mowziesmobs:sol_visage"
@@ -104,7 +283,88 @@
 			y: 4.0d
 		}
 		{
+			description: ["The Hirschgeist can be found in &9dark forests&r at night."]
 			id: "15116C8416AED3FF"
+			rewards: [
+				{
+					id: "28111A6B4B6ED0B6"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 20
+					id: "0342252E7B94DA0A"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 25
+					id: "52158850DCEEE372"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 35
+					id: "70751E77779B69E3"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "394F070DEBC3967D"
+					item: "whisperwoods:ghost_light_electric_blue"
+					type: "item"
+				}
+				{
+					id: "014B4507DFB82F56"
+					item: "whisperwoods:ghost_light_fiery_orange"
+					type: "item"
+				}
+				{
+					id: "026E045530FE28DD"
+					item: "whisperwoods:ghost_light_gold"
+					type: "item"
+				}
+				{
+					id: "0246FB1DE4747F2F"
+					item: "whisperwoods:ghost_light_toxic_green"
+					type: "item"
+				}
+				{
+					id: "27919EB00A0C38DE"
+					item: "whisperwoods:ghost_light_magic_purple"
+					type: "item"
+				}
+				{
+					id: "4CE87A9FA5BF8B81"
+					item: {
+						Count: 1
+						id: "whisperwoods:hirschgeist_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33D37F2008D4040C"
+					item: {
+						Count: 1
+						id: "scguns:llr_director"
+						tag: {
+							AmmoCount: 7
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "458FB9F751B37047"
+					item: "scguns:standard_copper_round"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Hirschgeist"
 			tasks: [{
 				entity: "whisperwoods:hirschgeist"
 				icon: {
@@ -122,7 +382,79 @@
 			y: 6.0d
 		}
 		{
+			description: ["The &bFrostmaw is found in cold biomes laying on the ground."]
 			id: "22AF45B1F09C4AC2"
+			rewards: [
+				{
+					id: "1C4E4652EDA3EB9C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 15
+					id: "6A98BFC41DFEA3B2"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 25
+					id: "37CE2875EAD1BD12"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "7B5E58E8DD0CA848"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "2688385A7A3989D2"
+					item: "mowziesmobs:music_disc_petiole"
+					type: "item"
+				}
+				{
+					id: "3F1F4E76C523DA79"
+					item: {
+						Count: 1
+						id: "mowziesmobs:ice_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "286EA488746BA09E"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "7EDE31C50C984B83"
+					item: {
+						Count: 1
+						id: "scguns:combat_shotgun"
+						tag: {
+							AmmoCount: 8
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "191CCE6816FDE4A4"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "2E755C5ADCE1CE23"
+					item: "confluence:fast_clock"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Frostmaw"
 			tasks: [{
 				entity: "mowziesmobs:frostmaw"
 				icon: {
@@ -140,7 +472,75 @@
 			y: 6.5d
 		}
 		{
+			description: ["When a &dBiting Pig&r eats enough, it will turn into a &4Pigzilla.&r"]
 			id: "09D2AEAE16E048D8"
+			rewards: [
+				{
+					id: "16C3E2A6DED7757F"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 20
+					id: "43E88F285B5B1DAC"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "2DF809ACFAC581AD"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "73533A9A8E68C666"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6291BBB3B970C244"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+				{
+					id: "0A397D39E2F157B7"
+					item: {
+						Count: 1
+						id: "scguns:iron_spear"
+						tag: {
+							AmmoCount: 5
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6FF9A24E95160D7E"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					id: "043FD02E33A7BB4C"
+					item: {
+						Count: 1
+						id: "terramity:overclocked_microwave"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 30
+					id: "4BE2E4D9CB75074A"
+					item: "jeg:scrap"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Pigzilla"
 			tasks: [{
 				entity: "pigzilla:pigzilla"
 				icon: "minecraft:porkchop"
@@ -153,6 +553,7 @@
 		}
 		{
 			id: "7E38CFC032BEF431"
+			subtitle: "Kill 1 Cruncher"
 			tasks: [{
 				entity: "species:cruncher"
 				icon: "species:cruncher_egg"
@@ -213,7 +614,74 @@
 			y: 0.0d
 		}
 		{
+			description: ["The Razor Tyrant has a chance to spawn near the player every night."]
 			id: "622CA064DEEC20C0"
+			rewards: [
+				{
+					id: "7004E202219866A5"
+					type: "xp_levels"
+					xp_levels: 60
+				}
+				{
+					count: 35
+					id: "153822A49E55D55D"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "6343FA52B17200DA"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 84
+					id: "667AF04A8E294623"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "179A433B2927526F"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "618B2D828758A1C8"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4EB63BC3D6100D07"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					id: "38E9E9EA36DF9614"
+					item: "scguns:iron_blueprint"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "74D79B982400F7A5"
+					item: "scguns:treated_iron_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "346BDD81D999B454"
+					item: "scguns:advanced_round"
+					type: "item"
+				}
+				{
+					id: "3BF33DD0F40A8CDB"
+					item: "confluence:cobalt_shield"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Razor Tyrant"
 			tasks: [{
 				entity: "razor_tyrant:razor_tyrant"
 				icon: "minecraft:iron_block"
@@ -225,7 +693,80 @@
 			y: 1.5d
 		}
 		{
+			description: ["The Nameless Guardian is located in the &bGuling&r. You can find it by using an &bEye of Guling.&r"]
 			id: "24E50D96BB2E255A"
+			rewards: [
+				{
+					id: "2DF1C3D37333BAEA"
+					type: "xp_levels"
+					xp_levels: 60
+				}
+				{
+					count: 30
+					id: "638D20E90D2DDD9A"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "20CBD33807A18A00"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 45
+					id: "0ED5E9C17909D024"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "294AA751E145FC47"
+					item: {
+						Count: 1
+						id: "eeeabsmobs:netherworld_katana"
+						tag: {
+							CodeAddFlag: 1b
+							Damage: 0
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F17EDC773D84BA9"
+					item: "eeeabsmobs:ancient_drive_crystal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00E17787E3335610"
+					item: "eeeabsmobs:ghost_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "07435F6CDFD3C419"
+					item: "mythsandlegends:bound_soul_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "480A31D1EB41EA3A"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2D5DF39D43ACA85E"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					id: "2B8E2923520AEF22"
+					item: "confluence:lucky_horseshoe"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Nameless Guardian"
 			tasks: [{
 				entity: "eeeabsmobs:nameless_guardian"
 				icon: {
@@ -272,19 +813,118 @@
 			rewards: [
 				{
 					count: 5
-					id: "22516C268480470C"
+					id: "7885597274450045"
 					item: "paraglider:heart_container"
 					type: "item"
 				}
 				{
 					count: 5
-					id: "4946AED8FD1D19B1"
+					id: "321239B5B555E424"
 					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+				{
+					id: "4DB81D7A70FE0AB0"
+					type: "xp_levels"
+					xp_levels: 150
+				}
+				{
+					count: 64
+					id: "4C73E9B19CBBB503"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 70
+					id: "06B7CD72D6472CD3"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "433F892EC8B9BD40"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "0D4DB95F6CFF3706"
+					item: "terramity:dimlite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4E402D32A25D9322"
+					item: "terramity:deepslate_iridium_ore"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "39F1B513E4D95CD2"
+					item: "terramity:iridium_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1A6B79788B30EF90"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "39FE0801D99A823A"
+					item: "scguns:plasma"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3700662AA854B54B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1D747EB5892DBF1D"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					id: "4BF867B5354E1C24"
+					item: "confluence:brain_of_confusion"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3CF96A8829CF5DD0"
+					item: "caverns_and_chasms:necromium_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "59BC4C6442A26B8B"
+					item: "scguns:anthralite_ingot"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "075A7EBDAC41B1D4"
+					item: "scguns:diamond_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "45A5F2A5B507CFC4"
+					item: "scguns:diamond_steel_blueprint"
+					type: "item"
+				}
+				{
+					id: "2AA93C7EDF05072C"
+					item: "terramity:chthonic_cursemark"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "Killed all of Nature's Calamities"
 			tasks: [{
 				id: "1061D6A1CA1B6279"
 				title: "Nature's Calamity"
@@ -296,6 +936,48 @@
 		{
 			description: ["The Lich has a chance to spawn in the &aOverworld&r every night. You will hear him by his chants."]
 			id: "5765FB818BA140B3"
+			rewards: [
+				{
+					count: 30
+					id: "4774A866761B7D11"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 45
+					id: "25C3275E122991C7"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "3226035B8F8475BB"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					count: 30
+					id: "23DDBAD2EE963E7C"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1677ADB8251C6E4D"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2A29C77C6AE804E9"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					id: "77BB56B355DAFBFE"
+					item: "confluence:feral_claws"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Lich"
 			tasks: [{
 				entity: "threateningly_mobs:lich"
@@ -310,6 +992,60 @@
 		{
 			description: ["Solscarab Maximus has a chance to spawn in desert and savanah biomes."]
 			id: "7AD6319A27A9DB5B"
+			rewards: [
+				{
+					id: "66B9CD9D10F3671F"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					count: 30
+					id: "06C6D67E0ECDECCF"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "243E8AB7146513A6"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 50
+					id: "0B5438BFE0E8454A"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "29F70C29D6576B3B"
+					item: "threateningly_mobs:desert_armor_shard"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "199CBFC6108D8868"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "028A30CA90B47BEB"
+					item: "scguns:treated_brass_blueprint"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3478581E70B23AE8"
+					item: "scguns:ancient_brass"
+					type: "item"
+				}
+				{
+					count: 80
+					id: "01F3F9AE2752126C"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Solscarab Maximus"
 			tasks: [{
 				entity: "threateningly_mobs:solscarab_maximus"
@@ -324,6 +1060,63 @@
 		{
 			description: ["Inferno has a chance to spawn in cold and frozen biomes."]
 			id: "7A73973CB022065A"
+			rewards: [
+				{
+					id: "23C59DAC103D6E87"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 30
+					id: "70D54D41865B4C48"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "698D336F6CAD0CE9"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 45
+					id: "3435C1F12CCB7A58"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "6A1599773163E08B"
+					item: "scguns:ocean_blueprint"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "46E02EF383D54E89"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7D760241460D7398"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					id: "01BF18433A9FCD29"
+					item: "threateningly_mobs:inferno_jade"
+					type: "item"
+				}
+				{
+					id: "1764FB5F87A0980C"
+					item: "terramity:voidguard_pendant"
+					type: "item"
+				}
+				{
+					id: "704189C632461D1B"
+					item: "immersive_aircraft:biplane"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Inferno"
 			tasks: [{
 				entity: "threateningly_mobs:inferno"
@@ -336,7 +1129,6 @@
 			y: 5.0d
 		}
 		{
-			can_repeat: true
 			id: "206FDA476B313FB5"
 			tasks: [{
 				entity: "arphex:spider_moth"
@@ -364,95 +1156,107 @@
 			rewards: [
 				{
 					count: 5
-					id: "779BB70ACA11CBE4"
+					id: "0872CD93549994DB"
 					item: "paraglider:heart_container"
 					type: "item"
 				}
 				{
 					count: 5
-					id: "6C11F2C4F337BC64"
+					id: "7729E2466AFDB79E"
 					item: "paraglider:stamina_vessel"
 					type: "item"
 				}
 				{
-					id: "6E22CE899BF9720B"
+					id: "625FE4F06A2551D4"
 					type: "xp_levels"
 					xp_levels: 150
 				}
 				{
 					count: 64
-					id: "04F3CD4A20884771"
+					id: "3167C990D7279E5A"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
 					count: 70
-					id: "4A750C771884EE3A"
+					id: "4618192A35D45ABE"
 					item: "jeg:gunmetal_ingot"
 					type: "item"
 				}
 				{
 					count: 128
-					id: "42FA0E43B160EB97"
+					id: "4BCC8D3400886145"
 					item: "minecraft:gunpowder"
 					type: "item"
 				}
 				{
 					count: 20
-					id: "15CFD7629DB90B5E"
-					item: "terramity:virentium_alloy_ingot"
+					id: "40045B711CF8CD7B"
+					item: "terramity:hellspec_alloy"
 					type: "item"
 				}
 				{
 					count: 64
-					id: "6F8E65F018CECB0A"
+					id: "7FDF03F27583C9DF"
 					item: "terramity:deepslate_iridium_ore"
 					type: "item"
 				}
 				{
 					count: 64
-					id: "2B3013149743CD1C"
+					id: "1285CF21B60ECFF0"
 					item: "terramity:iridium_round"
 					type: "item"
 				}
 				{
 					count: 64
-					id: "74E211411D951E27"
+					id: "43302B198C55578A"
 					item: "scguns:sulfur_chunk"
 					type: "item"
 				}
 				{
-					count: 24
-					id: "4AF92EB259231C07"
+					count: 16
+					id: "1B645EFEFCF352F3"
 					item: "minecraft:netherite_ingot"
 					type: "item"
 				}
 				{
 					count: 2
-					id: "2DB4FFBB9E18B949"
+					id: "020ACDF47217680F"
 					item: "cataclysm:ignitium_ingot"
 					type: "item"
 				}
 				{
 					count: 2
-					id: "44E33CE02CDA5C27"
+					id: "101DDF6A48629D81"
 					item: "cataclysm:cursium_ingot"
 					type: "item"
 				}
 				{
-					id: "508B179D539B1B15"
+					id: "6D773292B76DAB21"
 					item: "terramity:ring_of_rejuvenation_plus"
 					type: "item"
 				}
 				{
-					id: "6768FA21E8A265EE"
+					id: "6D4FAB866CC0A435"
 					item: "confluence:magma_skull"
 					type: "item"
 				}
 				{
 					count: 5
-					id: "4EEFB65B1C8C632F"
+					id: "23C197049A0EE786"
 					item: "born_in_chaos_v1:pileof_dark_metal"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "35A8027ABA812BCB"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1088416E05CA162D"
+					item: "create:polished_rose_quartz"
 					type: "item"
 				}
 			]
@@ -477,6 +1281,83 @@
 				}
 			}
 			id: "7D2F0EB437DEBAC2"
+			rewards: [
+				{
+					id: "176EEA816B59D27F"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 25
+					id: "191FE14C307AADB0"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "4C7C91880B1BB031"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "31F0B599620AD334"
+					item: {
+						Count: 1
+						id: "create:red_sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 30
+					id: "50A93DC998B28277"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					id: "72159092A6FE2D46"
+					item: {
+						Count: 1
+						id: "scguns:mk43_rifle"
+						tag: {
+							AmmoCount: 8
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6DC9BBF1A8B5888F"
+					item: "scguns:microjet"
+					type: "item"
+				}
+				{
+					id: "1B5B35E16C8FA7CE"
+					item: {
+						Count: 1
+						id: "terramity:requiem"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "39EC9DB75058B884"
+					item: "terramity:gold_round"
+					type: "item"
+				}
+				{
+					id: "6173C8AA6731E400"
+					item: "confluence:nutrient_solution"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Sand Warrior"
 			tasks: [{
 				entity: "hs_bosses:sand_warrior"
@@ -748,6 +1629,11 @@
 					item: "cataclysm:witherite_ingot"
 					type: "item"
 				}
+				{
+					id: "0D8B68FB21C4D6B7"
+					item: "cataclysm:music_disc_maledictus"
+					type: "item"
+				}
 			]
 			subtitle: "Kill 1 Maledictus"
 			tasks: [{
@@ -830,7 +1716,106 @@
 			y: -6.5d
 		}
 		{
+			description: [
+				"Ignis can be found in the &6Blazing Arena&r in the Nether."
+				""
+				"Locate his arena using the &bEye of Flame&r. Kill Ignited Revenants to get &8Burning Ashes&r to summon Ignis on the altar."
+			]
 			id: "34C62A57BEE1862C"
+			rewards: [
+				{
+					id: "64C3CBDE87CC10E7"
+					type: "xp_levels"
+					xp_levels: 70
+				}
+				{
+					count: 45
+					id: "54AF734088ECC3F2"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 100
+					id: "5E4F6B4F823DB74A"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "53F0485A93081FDC"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					id: "015FCC31BDA78C64"
+					item: "cataclysm:ignitium_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "36C9C1FC5909D513"
+					item: "cataclysm:music_disc_ignis"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6F3D2DFDCC2ABCDA"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "24C16ABF49B53CA7"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "49DF085A9AC74A0D"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "29D0E0026728A1CE"
+					item: "scguns:vehement_coal"
+					type: "item"
+				}
+				{
+					id: "07397116AF41FB6C"
+					item: "scguns:scorched_blueprint"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "153A91C078FEEED1"
+					item: "scguns:sheol"
+					type: "item"
+				}
+				{
+					id: "5BBAC70400EB5C06"
+					item: "confluence:molten_skull_rose"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "37DC5DF164470FA6"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "20B211BBE2836600"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "592C64BB38DB7AB4"
+					item: "scguns:nether_star_fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Ignis"
 			tasks: [{
 				entity: "cataclysm:ignis"
 				icon: "cataclysm:flame_eye"
@@ -842,7 +1827,104 @@
 			y: -4.5d
 		}
 		{
+			description: ["You can summon the Corundum Guardian using the &dCorundum Rememberance&r item."]
 			id: "1B4B51E98FF43138"
+			rewards: [
+				{
+					id: "53DAF275872F6936"
+					type: "xp_levels"
+					xp_levels: 60
+				}
+				{
+					count: 30
+					id: "277A70B45833ABAC"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "00615A96857F19D5"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "66524948419F1A0F"
+					item: "jeg:scrap"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "27018AFD59331C87"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "70707D994DD3E42F"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5A4149343DEDE393"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7033DEAFD5D71EE6"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "35288347AE3AD033"
+					item: "terramity:conductite"
+					type: "item"
+				}
+				{
+					id: "3055CFC29893B2AC"
+					item: "confluence:anklet_of_the_wind"
+					type: "item"
+				}
+				{
+					id: "65DF7D51227132C3"
+					item: {
+						Count: 1
+						id: "terramity:advanced_automatic_rifle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "73A28AED63C1864A"
+					item: "terramity:gold_round"
+					type: "item"
+				}
+				{
+					id: "652ED575822222AC"
+					item: {
+						Count: 1
+						id: "scguns:dozier_rl"
+						tag: {
+							AmmoCount: 4
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "01AD9B0280879D3F"
+					item: "scguns:rocket"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Corundum Guardian"
 			tasks: [{
 				entity: "corundumguardian:corundum_guardian"
 				icon: "create:handheld_worldshaper"
@@ -856,6 +1938,71 @@
 		{
 			description: ["The Void Blossom is found underground in an arena. You can find it by using a &dVoid Lily&r to show you the way."]
 			id: "5791F2FC818AEC9E"
+			rewards: [
+				{
+					id: "08B7367C08F92593"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 35
+					id: "4422E79CF8AC3CCA"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "341A48D782EA1931"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5BCBF28CBA42C655"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "0223889E3868FD73"
+					item: "bosses_of_mass_destruction:void_lily"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "64B8CA121FEF2A95"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "05A9B94986741C0F"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					id: "1C84A663E24AAA9F"
+					item: {
+						Count: 1
+						id: "scguns:waltz_conversion"
+						tag: {
+							AmmoCount: 12
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "69FE46BF0F8E18DA"
+					item: "scguns:energy_core"
+					type: "item"
+				}
+				{
+					id: "1942813C8F36DEF7"
+					item: "confluence:putrid_scent"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Void Blossom"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:void_blossom"
@@ -868,7 +2015,72 @@
 			y: 1.0d
 		}
 		{
+			description: ["You can find Kinora in an arena in &dCherry Blossom&r forests."]
 			id: "3E22C9EC7D6359B8"
+			rewards: [
+				{
+					id: "000BFED2E1B0182A"
+					type: "xp_levels"
+					xp_levels: 65
+				}
+				{
+					count: 45
+					id: "110115CACC4BEFDA"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0D62921FE018A4D4"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "3C349B427DB75712"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "5E617518D9B40303"
+					item: "mokels_boss_mantyd:mantyd_medicine"
+					type: "item"
+				}
+				{
+					id: "16A8F06D2853953D"
+					item: "mokels_boss_mantyd:mantyd_flute"
+					type: "item"
+				}
+				{
+					id: "7B8B3EFD9EAE7BAE"
+					item: "scguns:diamond_steel_blueprint"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "7F0F02A000277A78"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "3AEF98DC89193DD0"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6455132D5FE73529"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					id: "13AD3AC1DB8662B8"
+					item: "terramity:experience_sapping_gauntlet"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Saphyra's loyal blade, Kinora"
 			tasks: [{
 				entity: "mokels_boss_mantyd:boss_mantyd"
 				icon: "mokels_boss_mantyd:mantydhelmet_helmet"
@@ -880,7 +2092,107 @@
 			y: -4.5d
 		}
 		{
+			description: ["The Netherite Monstrosity is located in the &bSoul Blacksmith&r located in the Nether. You can find it with the &4Eye of Monstrous&r."]
 			id: "4528629565CF573D"
+			rewards: [
+				{
+					id: "2EA8859C92C6D74C"
+					type: "xp_levels"
+					xp_levels: 65
+				}
+				{
+					count: 40
+					id: "27B2D141E7B47505"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 35
+					id: "487F6182BE6A4226"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "4ABBF788ED6D9108"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "64EEED4473F7FEA7"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+				{
+					id: "39AF81BEA95DA85C"
+					item: "cataclysm:mechanical_fusion_anvil"
+					type: "item"
+				}
+				{
+					id: "01E0B145C2D5EE8F"
+					item: "cataclysm:music_disc_netherite_monstrosity"
+					type: "item"
+				}
+				{
+					count: 100
+					id: "61C5DFFBA8E91530"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "4B66821F7F91A220"
+					item: {
+						Count: 1
+						id: "terramity:murasama"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30C6A1EB6EAA5B5E"
+					item: {
+						Count: 1
+						id: "jeg:flamethrower"
+						tag: {
+							AmmoCount: 200
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6820789333B9ABF2"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "26F832F821B16C9B"
+					item: "cataclysm:monstrous_horn"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "10F4DB2DBCC23841"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "0085A274227E1A74"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "19F04A4DBAEB72D8"
+					item: "cataclysm:netherite_ministrosity_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Netherite Monstrosity"
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				icon: "cataclysm:monstrous_eye"
@@ -894,6 +2206,58 @@
 		{
 			description: ["Summon Eye of Cthulu by using a &bSuspiscious Looking Eye&r during night time."]
 			id: "35CF07A6B63699DC"
+			rewards: [
+				{
+					id: "7EA13FD1527D6D11"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 30
+					id: "36F22228D4E466E1"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "55D9144D98FCD06D"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 35
+					id: "6B51F6942F9E215A"
+					item: "jeg:scrap"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "74FF88DB7D926736"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 45
+					id: "515317FF64172864"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "01B5B5413450F8AD"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					id: "06F857BE77590998"
+					item: {
+						Count: 1
+						id: "tarotcards:the_tower"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Eye Of Cthulu"
 			tasks: [{
 				entity: "look:eye_of_cthulhu"
@@ -908,6 +2272,47 @@
 		{
 			description: ["Summon Deerclops by using a &bDeer Thing&r item."]
 			id: "2FE05095147A3523"
+			rewards: [
+				{
+					id: "74AAB48AA39B6AD2"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					count: 35
+					id: "39C052FEFF562D4E"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "20E3771EE6535FFA"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "777178929B199139"
+					item: "look:deer_thing"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "269995398C15868B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1F1DC869D1C395F0"
+					item: "scguns:niter_dust"
+					type: "item"
+				}
+				{
+					id: "7A89FB6994714C24"
+					item: "confluence:energy_bar"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Deerclops"
 			tasks: [{
 				entity: "look:deerclops"
@@ -922,6 +2327,54 @@
 		{
 			description: ["Summon the Twins by using a &6Mechanical Eye&r during the night."]
 			id: "1B82DA3680C337A1"
+			rewards: [
+				{
+					id: "5768CD6CFF7BB96A"
+					type: "xp_levels"
+					xp_levels: 60
+				}
+				{
+					count: 40
+					id: "13E41315F908B17C"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "691E9B7E964FB311"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 45
+					id: "094E773976C875BE"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "32DA2CFBE3715390"
+					item: "look:lens"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2EA8A7944A237A4F"
+					item: "terramity:ruby"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "358C7AFDAC32BA8C"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "42AC8533A377D4FC"
+					item: "confluence:obsidian_rose"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Twins"
 			tasks: [
 				{
@@ -946,6 +2399,77 @@
 		{
 			description: ["Find the Warden in the &bDeep Dark&r underground."]
 			id: "02A88BE88BC930CC"
+			rewards: [
+				{
+					id: "4729D9ACECC5860A"
+					type: "xp_levels"
+					xp_levels: 65
+				}
+				{
+					count: 45
+					id: "3F112D143D9B0CF3"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "1D5EBBDF732DF3AA"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "521A1B926DCCF656"
+					item: "terramity:warden_soul"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "020F60C7CE1E863E"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "3A1D57AF0A3E990E"
+					item: "terramity:dimlite_round"
+					type: "item"
+				}
+				{
+					id: "5CE5F5B1E6220365"
+					item: "minecraft:sculk_shrieker"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "77227B01F183289C"
+					item: "scguns:sculk_cell"
+					type: "item"
+				}
+				{
+					id: "3D188D56374AC1AC"
+					item: {
+						Count: 1
+						id: "scguns:sculk_resonator"
+						tag: {
+							AmmoCount: 6
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3C77F7D97DD243A0"
+					item: "minecraft:sculk_catalyst"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4276C52F8D99D7BB"
+					item: "scguns:peal"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Warden"
 			tasks: [{
 				entity: "minecraft:warden"
@@ -960,6 +2484,89 @@
 		{
 			description: ["You know how to summon this guy"]
 			id: "4D6CF094A2B70EE0"
+			rewards: [
+				{
+					id: "2925442A68F66F16"
+					type: "xp_levels"
+					xp_levels: 60
+				}
+				{
+					count: 35
+					id: "636666E8DD7FBFED"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 45
+					id: "7B040E891A3517E7"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7251FD5AF4DCDE78"
+					item: "scguns:nether_star_fragment"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2E19546D11AC0E9B"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "22F7061B8F48576B"
+					item: {
+						Count: 1
+						id: "land_of_goblins:wither_fungus_magma_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E9BE64762DFE158"
+					item: {
+						Count: 1
+						id: "scguns:freyr"
+						tag: {
+							AmmoCount: 24
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "50065E21B75EB116"
+					item: "scguns:hog_round"
+					type: "item"
+				}
+				{
+					count: 45
+					id: "5B7DB47D8E95EF8F"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1CFB1BAE0D04EDB4"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1CE9D845A68FADFA"
+					item: "scguns:diamond_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "2253D169EF8BE64D"
+					item: "confluence:rifle_scope"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Wither"
 			tasks: [{
 				entity: "minecraft:wither"
@@ -986,7 +2593,109 @@
 			y: -3.5d
 		}
 		{
+			description: ["The Ender Guardian can be found in the &5Ruined Citadel&r located in the End. You can find this structure by using an &dEye of Void&r."]
 			id: "39DEEB04530E1099"
+			rewards: [
+				{
+					id: "5C4F81C28F5B3F76"
+					type: "xp_levels"
+					xp_levels: 65
+				}
+				{
+					count: 40
+					id: "32660A80F9CEFB71"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "47A7AC79EB4FFAA1"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "359C86ADB45C0F59"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "5DA59107E6346874"
+					item: "cataclysm:music_disc_ender_guardian"
+					type: "item"
+				}
+				{
+					id: "2A1DC783B54DE025"
+					item: "cataclysm:tidal_claws"
+					type: "item"
+				}
+				{
+					id: "6099E66642407A54"
+					item: "cataclysm:void_core"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "39603B780EB2C537"
+					item: "scguns:end_blueprint"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "6BB61F21946C8B4F"
+					item: "scguns:shulkshot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "718D65A903D13810"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+				{
+					id: "4A7EA4DA2D430FDB"
+					item: {
+						Count: 1
+						id: "scguns:raygun"
+						tag: {
+							AmmoCount: 17
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "76323DD179CDF6CA"
+					item: "scguns:energy_cell"
+					type: "item"
+				}
+				{
+					id: "47F97C10F47A0D26"
+					item: {
+						Count: 1
+						id: "scguns:carapice"
+						tag: {
+							AmmoCount: 15
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "45BEB89D24BF08E1"
+					item: "terramity:cosmilite_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "78F72749A8B8180B"
+					item: "terramity:cosmilite_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Ender Guardian"
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
 				icon: "cataclysm:void_eye"
@@ -1414,12 +3123,6 @@
 					type: "item"
 				}
 				{
-					count: 20
-					id: "6D05A9853FC8DF5B"
-					item: "terramity:exodium_superalloy"
-					type: "item"
-				}
-				{
 					count: 128
 					id: "1FA91D08B21FF16C"
 					item: "terramity:copper_round"
@@ -1673,7 +3376,6 @@
 			y: -3.0d
 		}
 		{
-			can_repeat: true
 			id: "542367A5F3D22798"
 			tasks: [{
 				entity: "arphex:scorpioid_bloodluster"
@@ -1686,7 +3388,6 @@
 			y: -3.5d
 		}
 		{
-			can_repeat: true
 			id: "59B6404E288E36C9"
 			tasks: [{
 				entity: "arphex:draconic_clone"
@@ -1701,6 +3402,52 @@
 		{
 			description: ["Find an &bInk Arena&r and go through the waves until you get to the last wave."]
 			id: "7ACE21C65228484A"
+			rewards: [
+				{
+					id: "2103C1984DFE59D1"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					id: "5B8204C15E94257F"
+					item: "theinkarena:soul_core"
+					type: "item"
+				}
+				{
+					id: "645558C4C5B51E6F"
+					item: "theinkarena:soul_power_scroll"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "1AC53424DC0F4939"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 50
+					id: "16D93B41110E1D5E"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "7A498A593F2EEA3B"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "5142EF3A875297A7"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "5E33A2BD83082272"
+					item: "terramity:extremely_thick_oil"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Blot"
 			tasks: [{
 				entity: "theinkarena:blot"
@@ -1853,7 +3600,69 @@
 			y: 1.0d
 		}
 		{
+			description: ["Summon The Destructor by making a &4Furious Light&r. Use the item and click on the block to start the fight."]
 			id: "18D3FA039CF36CA1"
+			rewards: [
+				{
+					count: 35
+					id: "1A49A36FCF89E3C1"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 45
+					id: "1C7A67B7FB39F4A1"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "31B4B41BA101BB10"
+					item: {
+						Count: 1
+						id: "scguns:mas_55"
+						tag: {
+							AmmoCount: 8
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1731F7B23727DC40"
+					item: "scguns:gibbs_round"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "00B28FCCA00B5033"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "29A442015E8E8EE7"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					id: "4B8E4F1BB6933991"
+					item: "cartoon_soul:furious_light"
+					type: "item"
+				}
+				{
+					count: 100
+					id: "383D243EEF20BE1E"
+					item: "scguns:energy_core"
+					type: "item"
+				}
+				{
+					id: "253CFBF52766BD78"
+					item: "confluence:toolbox"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 The Destructor, Furens"
 			tasks: [{
 				entity: "cartoon_soul:furious"
 				icon: "cartoon_soul:furious_light"

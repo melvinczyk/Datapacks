@@ -1,0 +1,27 @@
+{
+  "class": "UTILITY",
+  "cooldown_type": "UTILITY",
+  "move": {
+    "type": "jcraft:goldexperience_requiem_flight_move",
+    "cooldown": 320,
+    "duration": 0,
+    "extras": {
+      "description": {
+        "text": "1 second of flight"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:gerfly"
+        }
+      ],
+      "mobility_type": "FLIGHT",
+      "name": {
+        "text": "Flight"
+      }
+    },
+    "flight_time": 20,
+    "move_distance": 0.0,
+    "windup": 1
+  }
+}

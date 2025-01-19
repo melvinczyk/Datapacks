@@ -1,20 +1,20 @@
 {
-    "type": "jeg:gunnite_workbench",
-    "result": {
-        "item": "mteg:m2_flamethrower"
+  "type": "jeg:gunnite_workbench",
+  "result": {
+    "item": "mteg:m2_flamethrower"
+  },
+  "materials": [
+    {
+      "item": "jeg:scrap",
+      "count": 90
     },
-    "materials": [
-        {
-            "item": "jeg:scrap",
-            "count": 90
-        },
-        {
-            "item": "jeg:gunnite_ingot",
-            "count": 50
-        },
-        {
-            "item": "jeg:gunmetal_ingot",
-            "count": 20
-        }
-    ]
+    {
+      "item": "jeg:gunnite_ingot",
+      "count": 51
+    },
+    {
+      "item": "jeg:gunmetal_ingot",
+      "count": 20
+    }
+  ]
 }

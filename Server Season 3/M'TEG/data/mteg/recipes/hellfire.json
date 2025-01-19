@@ -1,43 +1,44 @@
 {
-    "type": "jeg:gunnite_workbench",
-    "result": {
-        "item": "mteg:hellfire"
+  "type": "jeg:gunnite_workbench",
+  "result": {
+    "item": "mteg:hellfire"
+  },
+  "materials": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 13
     },
-    "materials": [
-        {
-            "item": "minecraft:iron_ingot",
-            "count": 13
-        },
-        {
-            "item": "minecraft:gold_ingot",
-            "count": 8
-        },{
-            "item": "jeg:scrap",
-            "count": 20
-        },
-        {
-            "item": "jeg:gunnite_ingot",
-            "count": 25
-        },
-        {
-            "item": "jeg:gunmetal_ingot",
-            "count": 15
-        },
-        {
-            "item": "minecraft:nether_brick",
-            "count": 8
-        },
-        {
-            "item": "minecraft:magma_block",
-            "count": 3
-        },
-        {
-            "item": "minecraft:nether_wart_block",
-            "count": 6
-        },
-        {
-            "item": "minecraft:blaze_rod",
-            "count": 10
-        }
-    ]
+    {
+      "item": "minecraft:gold_ingot",
+      "count": 8
+    },
+    {
+      "item": "jeg:scrap",
+      "count": 20
+    },
+    {
+      "item": "jeg:gunnite_ingot",
+      "count": 26
+    },
+    {
+      "item": "jeg:gunmetal_ingot",
+      "count": 15
+    },
+    {
+      "item": "minecraft:nether_brick",
+      "count": 8
+    },
+    {
+      "item": "minecraft:magma_block",
+      "count": 3
+    },
+    {
+      "item": "minecraft:nether_wart_block",
+      "count": 6
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "count": 10
+    }
+  ]
 }

@@ -3,8 +3,7 @@
   "ingredient": {
     "item": "minecraft:granite"
   },
-  "result": 
-  {
+  "result": {
     "chance": 0.3,
     "item": "jeg:gunmetal_grit"
   },

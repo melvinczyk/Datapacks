@@ -1,0 +1,104 @@
+{
+  "aerial_variant": {
+    "anim_state": "AIR_HEAVY",
+    "class": "HEAVY",
+    "cooldown_type": "STAND_HEAVY",
+    "move": {
+      "type": "jcraft:goldexperience_requiem_overhead_kick_attack",
+      "attack_extras": {
+        "backstab": true,
+        "block_stun": 13,
+        "extra_hit_boxes": [
+          {
+            "size": 1.0,
+            "vertical_offset": -1.0
+          }
+        ],
+        "hit_animation": "CRUSH",
+        "hit_spark": "HIT_SPARK_3"
+      },
+      "cooldown": 140,
+      "damage": 9.0,
+      "duration": 24,
+      "extras": {
+        "actions": [
+          {
+            "type": "jcraft:play_sound",
+            "on_impact": true,
+            "sound": "jcraft:impact1"
+          }
+        ],
+        "description": {
+          "text": "slow, high stun combo starter"
+        },
+        "init_actions": [
+          {
+            "type": "jcraft:play_sound",
+            "sound": "jcraft:gerheavy"
+          }
+        ],
+        "name": {
+          "text": "Overhead Kick"
+        }
+      },
+      "hitbox_size": 1.5,
+      "knockback": 0.8,
+      "move_distance": 1.0,
+      "offset": 0.25,
+      "stun": 40,
+      "windup": 14
+    }
+  },
+  "anim_state": "HEAVY",
+  "class": "HEAVY",
+  "cooldown_type": "STAND_HEAVY",
+  "move": {
+    "type": "jcraft:shared_knockdown_attack",
+    "attack_extras": {
+      "backstab": true,
+      "block_stun": 13,
+      "extra_hit_boxes": [
+        {
+          "size": 1.5
+        }
+      ],
+      "hit_animation": "LAUNCH",
+      "hit_spark": "HIT_SPARK_3",
+      "override_stun": true,
+      "shockwaves": true,
+      "stun_type": "LAUNCH"
+    },
+    "cooldown": 220,
+    "damage": 9.0,
+    "duration": 19,
+    "extras": {
+      "actions": [
+        {
+          "type": "jcraft:play_sound",
+          "on_impact": true,
+          "sound": "jcraft:impact2"
+        }
+      ],
+      "armor": 2147483647,
+      "description": {
+        "text": "slow, uninterruptible knockdown"
+      },
+      "init_actions": [
+        {
+          "type": "jcraft:play_sound",
+          "sound": "jcraft:gerheavy"
+        }
+      ],
+      "name": {
+        "text": "Overhead Smash"
+      }
+    },
+    "hitbox_size": 1.5,
+    "knockback": 1.1,
+    "knockdown_duration": 30,
+    "move_distance": 1.0,
+    "offset": 0.0,
+    "stun": 10,
+    "windup": 10
+  }
+}
