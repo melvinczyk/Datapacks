@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "boss_checklist"
 	group: ""
+	icon: "terramity:music_sheet_of_the_omnipotent_ultra_sniffer"
 	id: "6B7CC1B3667AFCF5"
 	order_index: 0
 	quest_links: [ ]
@@ -29,6 +30,18 @@
 					item: "minecraft:gunpowder"
 					type: "item"
 				}
+				{
+					count: 10
+					id: "04BA328976EEE696"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3512A176B20A409D"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
 			]
 			subtitle: "Kill one spinowane"
 			tasks: [{
@@ -39,79 +52,893 @@
 				value: 1L
 			}]
 			x: 0.0d
-			y: 12.0d
+			y: 3.5d
 		}
 		{
-			id: "5DA356D3D81442E2"
-			rewards: [
-				{
-					id: "13877FAD46868216"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-				{
-					count: 5
-					id: "5B412BC27EFE948D"
-					item: "jeg:gunnite_ingot"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "21CA4326B296958F"
-					item: "minecraft:diamond"
-					type: "item"
-				}
+			dependencies: [
+				"370876D51B4A5C8B"
+				"15116C8416AED3FF"
+				"7B8F6EACE4F1C344"
+				"7E38CFC032BEF431"
+				"22AF45B1F09C4AC2"
+				"09D2AEAE16E048D8"
+				"7A73973CB022065A"
+				"7AD6319A27A9DB5B"
 			]
+			icon: "born_in_chaos_v1:nightmare_stalker_skull"
+			id: "5457C2521DA36061"
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
-				entity: "born_in_chaos_v1:lord_pumpkinhead"
-				icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
-				id: "6E3738F79ED37EE8"
+				id: "307B1B1FD8042BA4"
+				title: "The Beasts"
+				type: "checkmark"
+			}]
+			title: "Dangerous Beasts"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "370876D51B4A5C8B"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:sol_visage"
+				id: "03A03B0028505D2F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "15116C8416AED3FF"
+			tasks: [{
+				entity: "whisperwoods:hirschgeist"
+				icon: {
+					Count: 1
+					id: "whisperwoods:hirschgeist_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "79868B8A6CAE26BB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "22AF45B1F09C4AC2"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "43C6FE75AFA2BFA7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "09D2AEAE16E048D8"
+			tasks: [{
+				entity: "pigzilla:pigzilla"
+				icon: "minecraft:porkchop"
+				id: "5E58CA9FF8A28596"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			id: "7E38CFC032BEF431"
+			tasks: [{
+				entity: "species:cruncher"
+				icon: "species:cruncher_egg"
+				id: "6EEC5B862F33D198"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"24E50D96BB2E255A"
+				"1DF9A6229D53011A"
+				"42D7413F77181D18"
+				"622CA064DEEC20C0"
+				"3F404B7B87ABE0C2"
+				"4528629565CF573D"
+				"1B4B51E98FF43138"
+				"39DEEB04530E1099"
+			]
+			icon: "eeeabsmobs:guling_eye"
+			id: "5575550D756F4A58"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "41028F50763BF7E3"
+				title: "Constructed Guardians"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "42D7413F77181D18"
+			tasks: [{
+				entity: "ba_bt:land_golem"
+				icon: "ba_bt:land_monolith_key"
+				id: "282B510F6DF00EC2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "622CA064DEEC20C0"
+			tasks: [{
+				entity: "razor_tyrant:razor_tyrant"
+				icon: "minecraft:iron_block"
+				id: "1EE2ECB773694F34"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "24E50D96BB2E255A"
+			tasks: [{
+				entity: "eeeabsmobs:nameless_guardian"
+				icon: {
+					Count: 1
+					id: "eeeabsmobs:guardian_axe"
+					tag: {
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				id: "5A95114A8898D1A7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "1DF9A6229D53011A"
+			tasks: [{
+				entity: "terramity:trial_guardian"
+				icon: "terramity:guardians_hand"
+				id: "75B7694228A5E232"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5765FB818BA140B3"
+				"02A88BE88BC930CC"
+				"4D6CF094A2B70EE0"
+				"1B82DA3680C337A1"
+				"2FE05095147A3523"
+				"35CF07A6B63699DC"
+				"5791F2FC818AEC9E"
+				"7ACE21C65228484A"
+			]
+			icon: "confluence:brain_of_confusion"
+			id: "4DB9AB307ACEB4DB"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1061D6A1CA1B6279"
+				title: "Nature's Calamity"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "5765FB818BA140B3"
+			tasks: [{
+				entity: "threateningly_mobs:lich"
+				icon: "threateningly_mobs:skeleton_necklace"
+				id: "5890E68BA3B6A0DB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "7AD6319A27A9DB5B"
+			tasks: [{
+				entity: "threateningly_mobs:solscarab_maximus"
+				icon: "threateningly_mobs:desert_armor_shard"
+				id: "0679BFB4B82CC9E7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "7A73973CB022065A"
+			tasks: [{
+				entity: "threateningly_mobs:inferno"
+				icon: "threateningly_mobs:inferno_jade"
+				id: "354FCE198C850E6D"
 				type: "kill"
 				value: 1L
 			}]
 			x: -1.5d
-			y: 12.0d
+			y: 5.0d
 		}
 		{
-			id: "46F934D38BEEF42C"
-			rewards: [
+			can_repeat: true
+			id: "206FDA476B313FB5"
+			tasks: [{
+				entity: "arphex:spider_moth"
+				icon: "arphex:spider_moth_summoner"
+				id: "05ADD155FB56C3F4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"34C62A57BEE1862C"
+				"5ABEE3ED04DA2FB0"
+				"3E22C9EC7D6359B8"
+				"7D2F0EB437DEBAC2"
+				"633467F29503E472"
+				"1A4565C46375B2D6"
+				"6F5A85D276AE3BD6"
+				"7EBF24A5BC8F700E"
+			]
+			icon: "threateningly_mobs:emperor_core"
+			id: "682E36F656BDD350"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6FB3F0081CBBD2FC"
+				title: "Seasoned Warriors"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "hs_bosses:sand_sword_test"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D2F0EB437DEBAC2"
+			tasks: [{
+				entity: "hs_bosses:sand_warrior"
+				id: "0CEC4A10F4F27E08"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			id: "6F5A85D276AE3BD6"
+			tasks: [{
+				entity: "terramity:gob"
+				icon: {
+					Count: 1
+					id: "terramity:gobs_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5E9EED2EA3AD9F66"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "1A4565C46375B2D6"
+			tasks: [{
+				entity: "mythsandlegends:black_charro"
+				icon: {
+					Count: 1
+					id: "mythsandlegends:umbras_whisper"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "47866C7C9CBEE9A5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			id: "633467F29503E472"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				id: "61486E0FAF8B65F0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			id: "5ABEE3ED04DA2FB0"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:cursed_eye"
+				id: "3C50650D53890B80"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			id: "7EBF24A5BC8F700E"
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead"
+				icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
+				id: "4C53BCA014CBC7FD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			id: "34C62A57BEE1862C"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:flame_eye"
+				id: "41981D600A96DB18"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "1B4B51E98FF43138"
+			tasks: [{
+				entity: "corundumguardian:corundum_guardian"
+				icon: "create:handheld_worldshaper"
+				id: "452632B41FEB592C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "5791F2FC818AEC9E"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_lily"
+				id: "70E79CF8337A42B4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "3E22C9EC7D6359B8"
+			tasks: [{
+				entity: "mokels_boss_mantyd:boss_mantyd"
+				icon: "mokels_boss_mantyd:mantydhelmet_helmet"
+				id: "0E6FEEFFD6B270E4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "4528629565CF573D"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:monstrous_eye"
+				id: "4D88EAE466B3C456"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			id: "35CF07A6B63699DC"
+			tasks: [{
+				entity: "look:eye_of_cthulhu"
+				icon: "look:suspicious_looking_eye"
+				id: "2E115A56BEE05445"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "2FE05095147A3523"
+			tasks: [{
+				entity: "look:deerclops"
+				icon: "look:deer_thing"
+				id: "738E63C5D6C06500"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "1B82DA3680C337A1"
+			tasks: [
 				{
-					id: "79D798A2307A99BD"
-					type: "xp_levels"
-					xp_levels: 15
+					entity: "look:spazmatism"
+					icon: "look:mechanical_eye"
+					id: "1CEF5744BC46796C"
+					type: "kill"
+					value: 1L
 				}
 				{
-					count: 10
-					id: "02F827EB4C876B44"
-					item: "scguns:treated_iron_ingot"
-					type: "item"
-				}
-				{
-					id: "385D7327F629B02F"
-					item: "scguns:treated_brass_blueprint"
-					type: "item"
+					entity: "look:retinazer"
+					icon: "look:mechanical_eye"
+					id: "559307B0CA7A9FE2"
+					type: "kill"
+					value: 1L
 				}
 			]
+			title: "Kill: 1x Twins"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			id: "02A88BE88BC930CC"
 			tasks: [{
-				entity: "theinkarena:blot"
-				icon: "theinkarena:soul_core"
-				id: "1DF5C46B616C5A8E"
+				entity: "minecraft:warden"
+				icon: "terramity:warden_soul"
+				id: "52389C4C9929448D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "4D6CF094A2B70EE0"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "0310D94C2F82E1C2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "3F404B7B87ABE0C2"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "64D3722CDF86ACC6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "39DEEB04530E1099"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:void_eye"
+				id: "13BBF4686F38DBAE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7C65CEC0F60E63FA"
+				"6C2CDD73458D05EC"
+				"6CDA2802CE150B31"
+				"2229CF930268FA21"
+			]
+			icon: {
+				Count: 1
+				id: "takesapillage:ravager_horn"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "79670FA282218ED5"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "4BEF6F493B716922"
+				title: "Raid Leaders"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 4.375d
+		}
+		{
+			id: "6CDA2802CE150B31"
+			tasks: [{
+				entity: "illageandspillage:freakager"
+				icon: "illageandspillage:bag_of_horrors"
+				id: "599D7868D4B6F9C7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "7C65CEC0F60E63FA"
+			tasks: [{
+				entity: "illageandspillage:spiritcaller"
+				icon: {
+					Count: 1
+					id: "illageandspillage:spellbound_book"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1359CB1A6EEA3AAD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			id: "6C2CDD73458D05EC"
+			tasks: [{
+				entity: "illageandspillage:magispeller"
+				icon: "illageandspillage:totem_of_banishment"
+				id: "17B9B78E179DC88E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "2229CF930268FA21"
+			tasks: [{
+				entity: "illageandspillage:old_ragno"
+				icon: "biomesoplenty:hanging_cobweb"
+				id: "3D85F4AD98C657EF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"11247EE2A7F5BA8D"
+				"4E85E004A42AEBF7"
+				"518D0B2B5C95BC88"
+				"08F5A663DD5C9261"
+			]
+			icon: "minecraft:ancient_debris"
+			id: "7F71BDA659E1CAF2"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "5E98040FB7523032"
+				title: "Ancient Evils"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "4E85E004A42AEBF7"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "526D07AFB3C81DED"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "518D0B2B5C95BC88"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "4C5D32FF9955F570"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "11247EE2A7F5BA8D"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:remnant_skull"
+				id: "020553B14AB219D6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			id: "08F5A663DD5C9261"
+			tasks: [{
+				entity: "threateningly_mobs:saint"
+				icon: "threateningly_mobs:emperor_blade"
+				id: "73BC22349DFFD34F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "6C1E317AD293397F"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				entity: "terramity:ultra_sniffer"
+				icon: "terramity:music_sheet_of_the_omnipotent_ultra_sniffer"
+				id: "7DA9C199C4F1C1F6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "4E4856F9F8E2552D"
+			shape: "gear"
+			size: 1.75d
+			tasks: [{
+				entity: "terramity:super_sniffer"
+				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
+				id: "65790DBAD9302049"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.75d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"360A939075CD4D47"
+				"57B4FBC651750C1D"
+				"75F08974BEBDF463"
+			]
+			id: "1952F849CFE2F5DC"
+			shape: "gear"
+			size: 1.75d
+			tasks: [{
+				entity: "terramity:gundalf"
+				icon: {
+					Count: 1
+					id: "terramity:fortunes_favor"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "490C7D9B2C0245EB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.75d
+			y: 1.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"206FDA476B313FB5"
+				"542367A5F3D22798"
+				"59B6404E288E36C9"
+			]
+			id: "41B564EA8E93F533"
+			min_required_tasks: 1
+			rewards: [{
+				id: "3E81899F314FFF34"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.75d
+			tasks: [{
+				entity: "arphex:tormentor"
+				icon: "arphex:core_of_eternal_suffering"
+				id: "047F5F7640BF8D38"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.75d
+			y: -1.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"052FD41BE228AA72"
+				"4DC511175DBFBDB5"
+				"4AF0D0628D30EB80"
+			]
+			id: "67038F34FA71724D"
+			shape: "gear"
+			size: 1.75d
+			tasks: [{
+				entity: "mokels_bossfight_saphyra:mothboss"
+				icon: "mokels_bossfight_saphyra:bottomless_bag"
+				id: "4CCE1B7387DC5B91"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.75d
+			y: -1.75d
+		}
+		{
+			can_repeat: true
+			id: "052FD41BE228AA72"
+			size: 1.0d
+			tasks: [{
+				entity: "mokels_bossfight_saphyra:witchboss"
+				icon: "mokels_bossfight_saphyra:saphyra_remembrance"
+				id: "22F2907F403B530A"
 				type: "kill"
 				value: 1L
 			}]
 			x: -3.0d
-			y: 12.0d
+			y: -3.0d
 		}
 		{
-			id: "695329A2D260977D"
+			can_repeat: true
+			id: "542367A5F3D22798"
 			tasks: [{
-				entity: "minecraft:zombie"
-				id: "383B1AF74B97E6E1"
+				entity: "arphex:scorpioid_bloodluster"
+				icon: "arphex:fire_opal"
+				id: "767F18B36E8E5279"
 				type: "kill"
-				value: 100L
+				value: 1L
 			}]
-			x: -4.5d
-			y: 12.0d
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "59B6404E288E36C9"
+			tasks: [{
+				entity: "arphex:draconic_clone"
+				icon: "arphex:void_geode"
+				id: "7BF79FCC5D6C63A1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "7ACE21C65228484A"
+			tasks: [{
+				entity: "theinkarena:blot"
+				icon: "theinkarena:soul_core"
+				id: "55FB6633E0281918"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			id: "360A939075CD4D47"
+			tasks: [{
+				entity: "terramity:sorceress_circe"
+				icon: {
+					Count: 1
+					id: "terramity:fireball_sceptre"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7BC6BEDF33080FE7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			id: "57B4FBC651750C1D"
+			tasks: [{
+				entity: "terramity:enchanter_merlin"
+				icon: {
+					Count: 1
+					id: "terramity:fireball_sceptre"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "72879AF08F7251C9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "4AF0D0628D30EB80"
+			tasks: [{
+				entity: "mokels_bossfight_saphyra:nameless"
+				icon: "mokels_bossfight_saphyra:nameless_gatekeeper_remembrance"
+				id: "35F57420EFB8B54C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "4DC511175DBFBDB5"
+			tasks: [{
+				entity: "mokels_bossfight_saphyra:puppet_of_yiva_nemor"
+				icon: "mokels_bossfight_saphyra:puppet_of_yiva_remembrance"
+				id: "33C858F41FFD9402"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			id: "75F08974BEBDF463"
+			tasks: [{
+				entity: "terramity:virtue"
+				icon: "terramity:angel_feather"
+				id: "1AC1E2E61C0FE44A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 3.0d
 		}
 	]
 	title: "Boss Checklist"

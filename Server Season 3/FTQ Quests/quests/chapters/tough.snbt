@@ -43,7 +43,7 @@
 				}
 				id: "0BD5F608CCF3C153"
 				type: "kill"
-				value: 75L
+				value: 30L
 			}]
 			x: 3.0d
 			y: 0.0d
@@ -77,7 +77,7 @@
 				}
 				id: "5C012EA460BEDEE1"
 				type: "kill"
-				value: 75L
+				value: 30L
 			}]
 			x: 0.0d
 			y: 1.25d
@@ -111,7 +111,7 @@
 				}
 				id: "4D7DC3474BB5212A"
 				type: "kill"
-				value: 75L
+				value: 30L
 			}]
 			x: 2.5d
 			y: 1.25d
@@ -139,7 +139,7 @@
 				icon: "minecraft:oak_log"
 				id: "500D53E71B96C2C2"
 				type: "kill"
-				value: 75L
+				value: 30L
 			}]
 			x: 1.25d
 			y: 1.25d
@@ -167,7 +167,7 @@
 				icon: "zombiesmore:brain"
 				id: "1E297605795568BA"
 				type: "kill"
-				value: 75L
+				value: 25L
 			}]
 			x: -2.5d
 			y: 1.25d
@@ -195,7 +195,7 @@
 				icon: "zombiesmore:veins"
 				id: "3C900F38F45B17D0"
 				type: "kill"
-				value: 75L
+				value: 25L
 			}]
 			x: -1.25d
 			y: 1.25d
@@ -229,7 +229,7 @@
 				}
 				id: "768C81E763EC3C1A"
 				type: "kill"
-				value: 75L
+				value: 30L
 			}]
 			x: 4.5d
 			y: 0.0d
@@ -257,7 +257,7 @@
 				icon: "born_in_chaos_v1:orbofthe_summoner"
 				id: "298831C0E467F5A8"
 				type: "kill"
-				value: 75L
+				value: 20L
 			}]
 			x: 3.75d
 			y: 1.25d
@@ -267,7 +267,7 @@
 			id: "446B1DF9C251A4C5"
 			rewards: [
 				{
-					count: 40
+					count: 30
 					id: "54DB4810E7EDCD5B"
 					item: "minecraft:gunpowder"
 					type: "item"
@@ -291,7 +291,7 @@
 				}
 				id: "3007538451FF1D4C"
 				type: "kill"
-				value: 75L
+				value: 25L
 			}]
 			x: 5.0d
 			y: 1.25d
@@ -319,7 +319,7 @@
 				icon: "minecraft:saddle"
 				id: "7E08DB9A39756F5C"
 				type: "kill"
-				value: 50L
+				value: 25L
 			}]
 			x: 1.5d
 			y: 0.0d
@@ -347,7 +347,7 @@
 				icon: "minecraft:totem_of_undying"
 				id: "5BFFFD990F027F98"
 				type: "kill"
-				value: 50L
+				value: 25L
 			}]
 			x: 5.0d
 			y: -1.25d
@@ -583,7 +583,7 @@
 				}
 				id: "4E3316935EC4975D"
 				type: "kill"
-				value: 75L
+				value: 25L
 			}]
 			x: -1.25d
 			y: -1.25d
@@ -611,7 +611,7 @@
 				icon: "threateningly_mobs:medicinal_powder"
 				id: "1B43F69FCD3FAE64"
 				type: "kill"
-				value: 50L
+				value: 25L
 			}]
 			x: -1.5d
 			y: 0.0d
@@ -639,7 +639,7 @@
 				icon: "minecraft:lava_bucket"
 				id: "503DC2C4E508EDA4"
 				type: "kill"
-				value: 75L
+				value: 25L
 			}]
 			x: -3.0d
 			y: 0.0d
@@ -667,10 +667,38 @@
 				icon: "born_in_chaos_v1:fangofthe_hound_leader"
 				id: "4BC8365BE6C86F19"
 				type: "kill"
-				value: 75L
+				value: 25L
 			}]
 			x: -2.5d
 			y: -1.25d
+		}
+		{
+			can_repeat: true
+			id: "602856AD502E1539"
+			rewards: [
+				{
+					count: 30
+					id: "48F7078CC8F8DE0F"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "4AD2769F9611EB6C"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "pigzilla:biting_pig"
+				icon: "minecraft:porkchop"
+				id: "150B900F01176AF1"
+				type: "kill"
+				value: 25L
+			}]
+			x: -4.5d
+			y: 0.0d
 		}
 	]
 	title: "&6Tough"

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "EFE",
+    "P P"
+  ],
+  "key": {
+    "E": [
+      {
+        "item": "immersive_aircraft:engine"
+      }
+    ],
+    "P": [
+      {
+        "item": "immersive_aircraft:propeller"
+      }
+    ],
+    "F": [
+      {
+        "item": "aviator_dream:fokker_fviia"
+      }
+    ]
+  },
+  "result": {
+    "item": "aviator_dream:fokker_fviib3m"
+  }
+}

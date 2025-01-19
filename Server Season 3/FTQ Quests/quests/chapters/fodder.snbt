@@ -2767,6 +2767,38 @@
 			x: -5.0d
 			y: 8.0d
 		}
+		{
+			can_repeat: true
+			id: "15A1475472C24B36"
+			rewards: [
+				{
+					count: 15
+					id: "47D9CC851DA80D87"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "0488D6B894A04802"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				entity: "caverns_and_chasms:peeper"
+				icon: {
+					Count: 1
+					id: "caverns_and_chasms:necromium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "66970AF2D2A7CC6D"
+				type: "kill"
+				value: 100L
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
 	]
 	title: "&aFodder"
 }

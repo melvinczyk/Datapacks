@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IBI",
+    "IBI",
+    "IEI"
+  ],
+  "key": {
+    "E": [
+      {
+        "item": "immersive_aircraft:engine"
+      }
+    ],
+    "B": [
+      {
+        "item": "minecraft:iron_block"
+      }
+    ],
+    "I": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ]
+  },
+  "result": {
+    "item": "aviator_dream:toyota_stout_k100"
+  }
+}

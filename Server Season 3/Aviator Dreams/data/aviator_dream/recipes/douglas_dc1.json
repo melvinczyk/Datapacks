@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "EBE",
+    "PBP"
+  ],
+  "key": {
+    "E": [
+      {
+        "item": "immersive_aircraft:engine"
+      }
+    ],
+    "P": [
+      {
+        "item": "immersive_aircraft:propeller"
+      }
+    ],
+    "B": [
+      {
+        "item": "minecraft:iron_block"
+      }
+    ]
+  },
+  "result": {
+    "item": "aviator_dream:douglas_dc1"
+  }
+}

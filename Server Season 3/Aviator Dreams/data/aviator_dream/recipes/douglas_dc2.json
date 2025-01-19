@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "BDB",
+    "   "
+  ],
+  "key": {
+    "D": [
+      {
+        "item": "aviator_dream:douglas_dc1"
+      }
+    ],
+    "B": [
+      {
+        "item": "minecraft:iron_block"
+      }
+    ]
+  },
+  "result": {
+    "item": "aviator_dream:douglas_dc2"
+  }
+}

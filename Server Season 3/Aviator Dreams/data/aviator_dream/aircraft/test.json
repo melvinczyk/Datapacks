@@ -1,0 +1,58 @@
+{
+  "properties": {
+    "stabilizer": 0.0,
+    "yawSpeed": 0.0,
+    "engineSpeed": 0.3,
+    "verticalSpeed": 0.0,
+    "glideFactor": 0.0,
+    "driftDrag": 0.0,
+    "lift": 0.0,
+    "rollFactor": 2.0,
+    "wind": 0.0,
+    "mass": 5.0,
+    "groundFriction": 0.005,
+    "horizontalDecay": 0.925,
+    "verticalDecay": 1.2
+  },
+  "inventorySlots": [
+    {"type": "boiler", "x": 12, "y": 37},
+    {"type": "upgrade", "x": 84, "y": 32},
+    {"type": "upgrade", "x": 106, "y": 32},
+    {"type": "upgrade", "x": 128, "y": 32},
+    {"type": "upgrade", "x": 150, "y": 32},
+    {"type": "inventory", "x": 8, "y": 68, "cols": 9, "rows": 4},
+	{"type": "inventory", "x": -80, "y": 18, "cols": 4, "rows": 4, "boxed": true},
+    {"type": "inventory", "x": 186, "y": 18, "cols": 4, "rows": 4, "boxed": true},
+    {"type": "inventory", "x": -80, "y": 106, "cols": 4, "rows": 4, "boxed": true},
+    {"type": "inventory", "x": 186, "y": 106, "cols": 4, "rows": 4, "boxed": true}
+  ],
+  "weaponMounts": [],
+  "passengerPositions": [
+    [
+      {"x": 0.0, "y": 1.5, "z": 0.96}
+    ]
+  ],
+  "boundingBoxes": [
+    {"width": 1.1, "height": 1.1, "x": 0.0, "y": 2.779, "z": 5.23},
+    {"width": 2.66, "height": 2.66, "x": 0.0, "y": 3.186, "z": 16.13},
+	{"width": 3.0, "height": 2.66, "x": 0.0, "y": 3.482, "z": 12.49},
+	{"width": 2.66, "height": 2.66, "x": 0.0, "y": 2.779, "z": 0.5127},
+	{"width": 2.66, "height": 2.66, "x": 0.0, "y": 2.779, "z": -2.261},
+	{"width": 2.66, "height": 2.66, "x": 0.0, "y": 2.779, "z": -5.058},
+	{"width": 2.51, "height": 2.51, "x": 0.0, "y": 3.025, "z": -7.788},
+	{"width": 1.93, "height": 1.93, "x": 0.0, "y": 3.157, "z": -10.09},
+	{"width": 1.39, "height": 1.39, "x": 0.0, "y": 3.267, "z": -11.81},
+	{"width": 1.11, "height": 1.11, "x": 0.0, "y": 3.311, "z": -13.29},
+	{"width": 3.27, "height": 3.27, "x": 2.77, "y": 2.487, "z": -12.36},
+	{"width": 3.27, "height": 3.27, "x": -2.77, "y": 2.487, "z": -12.36},
+	{"width": 0.8, "height": 1.66, "x": 0.0, "y": 4.854, "z": -11.29},
+	{"width": 0.8, "height": 3.3, "x": 0.0, "y": 5.576, "z": -12.24},
+	{"width": 0.8, "height": 3.42, "x": 0.0, "y": 5.501, "z": -13.37},
+	{"width": 4.19, "height": 0.62, "x": 3.477, "y": 1.941, "z": -1.516},
+	{"width": 4.19, "height": 0.62, "x": -3.477, "y": 1.941, "z": -1.516},
+	{"width": 3.7, "height": 0.55, "x": 7.606, "y": 2.203, "z": -1.796},
+	{"width": 3.7, "height": 0.55, "x": -7.606, "y": 2.203, "z": -1.796},
+	{"width": 3.27, "height": 0.48, "x": 11.25, "y": 2.487, "z": -1.951},
+	{"width": 3.27, "height": 0.48, "x": -11.25, "y": 2.487, "z": -1.951}
+  ]
+}

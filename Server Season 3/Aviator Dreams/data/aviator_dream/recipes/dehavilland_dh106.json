@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IBI",
+    "EBE",
+    "EBE"
+  ],
+  "key": {
+	  "I": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "E": [
+      {
+        "item": "immersive_aircraft:engine"
+      }
+    ],
+    "B": [
+      {
+        "item": "minecraft:iron_block"
+      }
+    ]
+  },
+  "result": {
+    "item": "aviator_dream:dehavilland_dh106"
+  }
+}

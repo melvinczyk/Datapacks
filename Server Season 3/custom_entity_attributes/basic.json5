@@ -1927,12 +1927,12 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 4.0,
+          "value": 2.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 500.0,
+          "value": 300.0,
           "operation": "ADDITION"
         }
       ]
@@ -3581,6 +3581,32 @@
         {
           "attribute": "minecraft:generic.max_health",
           "value": 40.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "value": 1,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "threateningly_mobs:cave_hunter",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 6.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 140.0,
           "operation": "ADDITION"
         },
         {
