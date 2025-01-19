@@ -9,7 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			can_repeat: true
 			description: ["Spinowane is a zombie Spinosaurus that spawns randomly at night."]
 			id: "7B8F6EACE4F1C344"
 			rewards: [
@@ -67,6 +66,20 @@
 			]
 			icon: "born_in_chaos_v1:nightmare_stalker_skull"
 			id: "5457C2521DA36061"
+			rewards: [
+				{
+					count: 5
+					id: "6D0DA195A642B004"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4AA87FCB935E45E6"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -153,16 +166,30 @@
 		{
 			dependencies: [
 				"24E50D96BB2E255A"
-				"1DF9A6229D53011A"
 				"42D7413F77181D18"
 				"622CA064DEEC20C0"
-				"3F404B7B87ABE0C2"
 				"4528629565CF573D"
 				"1B4B51E98FF43138"
 				"39DEEB04530E1099"
+				"6625209A32BC788C"
+				"316C2A97F8C19763"
 			]
 			icon: "eeeabsmobs:guling_eye"
 			id: "5575550D756F4A58"
+			rewards: [
+				{
+					count: 5
+					id: "4B73F3ACE833498E"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "56A4AEA20AB258B6"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -226,8 +253,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: -3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -242,6 +269,20 @@
 			]
 			icon: "confluence:brain_of_confusion"
 			id: "4DB9AB307ACEB4DB"
+			rewards: [
+				{
+					count: 5
+					id: "22516C268480470C"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4946AED8FD1D19B1"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -253,7 +294,9 @@
 			y: 0.0d
 		}
 		{
+			description: ["The Lich has a chance to spawn in the &aOverworld&r every night. You will hear him by his chants."]
 			id: "5765FB818BA140B3"
+			subtitle: "Kill 1 Lich"
 			tasks: [{
 				entity: "threateningly_mobs:lich"
 				icon: "threateningly_mobs:skeleton_necklace"
@@ -265,7 +308,9 @@
 			y: 0.0d
 		}
 		{
+			description: ["Solscarab Maximus has a chance to spawn in desert and savanah biomes."]
 			id: "7AD6319A27A9DB5B"
+			subtitle: "Kill 1 Solscarab Maximus"
 			tasks: [{
 				entity: "threateningly_mobs:solscarab_maximus"
 				icon: "threateningly_mobs:desert_armor_shard"
@@ -277,7 +322,9 @@
 			y: 5.0d
 		}
 		{
+			description: ["Inferno has a chance to spawn in cold and frozen biomes."]
 			id: "7A73973CB022065A"
+			subtitle: "Kill 1 Inferno"
 			tasks: [{
 				entity: "threateningly_mobs:inferno"
 				icon: "threateningly_mobs:inferno_jade"
@@ -308,14 +355,110 @@
 				"3E22C9EC7D6359B8"
 				"7D2F0EB437DEBAC2"
 				"633467F29503E472"
-				"1A4565C46375B2D6"
-				"6F5A85D276AE3BD6"
 				"7EBF24A5BC8F700E"
+				"1A4565C46375B2D6"
+				"18D3FA039CF36CA1"
 			]
 			icon: "threateningly_mobs:emperor_core"
 			id: "682E36F656BDD350"
+			rewards: [
+				{
+					count: 5
+					id: "779BB70ACA11CBE4"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6C11F2C4F337BC64"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+				{
+					id: "6E22CE899BF9720B"
+					type: "xp_levels"
+					xp_levels: 150
+				}
+				{
+					count: 64
+					id: "04F3CD4A20884771"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 70
+					id: "4A750C771884EE3A"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "42FA0E43B160EB97"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "15CFD7629DB90B5E"
+					item: "terramity:virentium_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6F8E65F018CECB0A"
+					item: "terramity:deepslate_iridium_ore"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2B3013149743CD1C"
+					item: "terramity:iridium_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "74E211411D951E27"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "4AF92EB259231C07"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2DB4FFBB9E18B949"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "44E33CE02CDA5C27"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+				{
+					id: "508B179D539B1B15"
+					item: "terramity:ring_of_rejuvenation_plus"
+					type: "item"
+				}
+				{
+					id: "6768FA21E8A265EE"
+					item: "confluence:magma_skull"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4EEFB65B1C8C632F"
+					item: "born_in_chaos_v1:pileof_dark_metal"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "Kill all of the Seasoned Warrior Bosses"
 			tasks: [{
 				id: "6FB3F0081CBBD2FC"
 				title: "Seasoned Warriors"
@@ -325,6 +468,7 @@
 			y: -5.5d
 		}
 		{
+			description: ["The Sand Warrior is found in the &eSand Warrior Arena&r in deserts."]
 			icon: {
 				Count: 1
 				id: "hs_bosses:sand_sword_test"
@@ -333,8 +477,16 @@
 				}
 			}
 			id: "7D2F0EB437DEBAC2"
+			subtitle: "Kill 1 Sand Warrior"
 			tasks: [{
 				entity: "hs_bosses:sand_warrior"
+				icon: {
+					Count: 1
+					id: "hs_bosses:sand_sword_test"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "0CEC4A10F4F27E08"
 				type: "kill"
 				value: 1L
@@ -343,7 +495,9 @@
 			y: -5.5d
 		}
 		{
+			description: ["Gob can be summoned by finding the &eCourt of Gnomes&r structure. Kill nearby gnomes and get a &bGnome Hat&r. Then use one on the &eGolden Gnome Statue&r to start the fight."]
 			id: "6F5A85D276AE3BD6"
+			subtitle: "Kill 1 Gob, King of Gnomes"
 			tasks: [{
 				entity: "terramity:gob"
 				icon: {
@@ -357,11 +511,84 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
+			description: ["Find an &cAltar of the Dead&r structure in badlands biomes. Make a &eSoulbinder Amulet&r and interact with the Altar of the Dead Block at night."]
 			id: "1A4565C46375B2D6"
+			rewards: [
+				{
+					id: "41FA840CEB820E9C"
+					type: "xp_levels"
+					xp_levels: 60
+				}
+				{
+					count: 40
+					id: "71DD1828C09375BF"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 100
+					id: "18550048B8AE6BDA"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 60
+					id: "123A22608E22C5C0"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "7A8F3A5FC9ED69BC"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0C013866DBDF8C69"
+					item: "terramity:deepslate_iridium_ore"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "45C8092DA24B5A7D"
+					item: "terramity:virentium_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "5EADCD5F307E8567"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "5DE97DF8688195AB"
+					item: "scguns:diamond_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "5F11F104971ABAA3"
+					item: "scguns:diamond_steel_blueprint"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "36E8AB54287BF680"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					id: "4AB689EA95391E9C"
+					item: "confluence:searchlight"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 The Black Charro"
 			tasks: [{
 				entity: "mythsandlegends:black_charro"
 				icon: {
@@ -379,7 +606,50 @@
 			y: -5.5d
 		}
 		{
+			description: [
+				"The Ferrous Wroughtnaught can be found underground in a small dungeon."
+				""
+				"You need to wait for him to do a slam attack to damage the sword on his back."
+			]
 			id: "633467F29503E472"
+			rewards: [
+				{
+					id: "008342EAC819572C"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					count: 25
+					id: "3E566E1C31270A0B"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "19958A605F052CB0"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "1A9105CD92DD55B3"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "1B292091FEE00CEB"
+					item: "jeg:scrap"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "7A5A05D4806F1238"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Ferrous Wroughtnaut"
 			tasks: [{
 				entity: "mowziesmobs:ferrous_wroughtnaut"
 				icon: "mowziesmobs:wrought_helmet"
@@ -391,7 +661,95 @@
 			y: -7.0d
 		}
 		{
+			description: ["Maledictus can be found in the &bFrosted Prison&r which can be located with the &aEye of Curse&r."]
 			id: "5ABEE3ED04DA2FB0"
+			rewards: [
+				{
+					id: "0D44F0D778D712FF"
+					type: "xp_levels"
+					xp_levels: 70
+				}
+				{
+					count: 45
+					id: "3B858ED863735C91"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7A4BFE8981A858D3"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+				{
+					count: 100
+					id: "4CD9B5C8F1DF30DE"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "0C4CB5FA45A1F276"
+					item: "confluence:tsunami_in_a_bottle"
+					type: "item"
+				}
+				{
+					id: "089080FF60F01E81"
+					item: "terramity:holy_chalice"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "15C683E516840008"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "274B0098255D870F"
+					item: "scguns:scorched_blend"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "54CDECB8432AD0DC"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7631E876B1CEA254"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					count: 45
+					id: "5982316876F4DAED"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "242E8F54061FB00B"
+					item: "terramity:conductite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "24213661CF14D47F"
+					item: "scguns:auto_turret"
+					type: "item"
+				}
+				{
+					id: "2B417EC4A9D6C334"
+					item: "cataclysm:cursium_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "074BF78125629BB3"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Maledictus"
 			tasks: [{
 				entity: "cataclysm:maledictus"
 				icon: "cataclysm:cursed_eye"
@@ -403,7 +761,64 @@
 			y: -6.5d
 		}
 		{
+			description: ["Lord Pumpkinhead can be summoned by finding an &ainfernal pumpkin&r and breaking it."]
 			id: "7EBF24A5BC8F700E"
+			rewards: [
+				{
+					id: "0B929D5653E4957D"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 35
+					id: "13C9299494A33AB2"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "6C44FD5F9D83D368"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "38BA12ED319BB31A"
+					item: "terramity:iridescent_shard"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "44AD9D97A46DA98B"
+					item: "terramity:iridium_round"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0B4B7DE67ED95959"
+					item: "born_in_chaos_v1:pileof_dark_metal"
+					type: "item"
+				}
+				{
+					count: 50
+					id: "50D74C07BA769D63"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "310A70C220BAEC3B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "015E9B7857DC1A9B"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Lord Pumpkinhead"
 			tasks: [{
 				entity: "born_in_chaos_v1:lord_pumpkinhead"
 				icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
@@ -439,7 +854,9 @@
 			y: 1.0d
 		}
 		{
+			description: ["The Void Blossom is found underground in an arena. You can find it by using a &dVoid Lily&r to show you the way."]
 			id: "5791F2FC818AEC9E"
+			subtitle: "Kill 1 Void Blossom"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:void_blossom"
 				icon: "bosses_of_mass_destruction:void_lily"
@@ -475,7 +892,9 @@
 			y: -1.0d
 		}
 		{
+			description: ["Summon Eye of Cthulu by using a &bSuspiscious Looking Eye&r during night time."]
 			id: "35CF07A6B63699DC"
+			subtitle: "Kill 1 Eye Of Cthulu"
 			tasks: [{
 				entity: "look:eye_of_cthulhu"
 				icon: "look:suspicious_looking_eye"
@@ -487,7 +906,9 @@
 			y: -1.0d
 		}
 		{
+			description: ["Summon Deerclops by using a &bDeer Thing&r item."]
 			id: "2FE05095147A3523"
+			subtitle: "Kill 1 Deerclops"
 			tasks: [{
 				entity: "look:deerclops"
 				icon: "look:deer_thing"
@@ -499,7 +920,9 @@
 			y: -1.5d
 		}
 		{
+			description: ["Summon the Twins by using a &6Mechanical Eye&r during the night."]
 			id: "1B82DA3680C337A1"
+			subtitle: "Kill 1 Twins"
 			tasks: [
 				{
 					entity: "look:spazmatism"
@@ -521,7 +944,9 @@
 			y: 1.5d
 		}
 		{
+			description: ["Find the Warden in the &bDeep Dark&r underground."]
 			id: "02A88BE88BC930CC"
+			subtitle: "Kill 1 Warden"
 			tasks: [{
 				entity: "minecraft:warden"
 				icon: "terramity:warden_soul"
@@ -533,7 +958,9 @@
 			y: 1.0d
 		}
 		{
+			description: ["You know how to summon this guy"]
 			id: "4D6CF094A2B70EE0"
+			subtitle: "Kill 1 Wither"
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: "minecraft:wither_skeleton_skull"
@@ -545,7 +972,9 @@
 			y: -1.0d
 		}
 		{
+			description: ["The Nether Gauntlet can be found in an arena in the &4Nether&r. You must interact with the statue in the middle to start the fight."]
 			id: "3F404B7B87ABE0C2"
+			subtitle: "Kill 1 Nether Gauntlet"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
 				icon: "bosses_of_mass_destruction:blazing_eye"
@@ -553,8 +982,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
-			y: 1.0d
+			x: 5.0d
+			y: -3.5d
 		}
 		{
 			id: "39DEEB04530E1099"
@@ -590,11 +1019,13 @@
 				title: "Raid Leaders"
 				type: "checkmark"
 			}]
-			x: 5.0d
-			y: 4.375d
+			x: 3.75d
+			y: 3.75d
 		}
 		{
+			description: ["The Freakager has a chance to spawn at the end of raids"]
 			id: "6CDA2802CE150B31"
+			subtitle: "Kill 1 Freakager"
 			tasks: [{
 				entity: "illageandspillage:freakager"
 				icon: "illageandspillage:bag_of_horrors"
@@ -602,11 +1033,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
+			description: ["The Spiritcaller has a chance to spawn at the end of raids"]
 			id: "7C65CEC0F60E63FA"
+			subtitle: "Kill 1 Spiritcaller"
 			tasks: [{
 				entity: "illageandspillage:spiritcaller"
 				icon: {
@@ -620,11 +1053,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
-			y: 5.5d
+			x: 5.0d
+			y: 5.0d
 		}
 		{
+			description: ["The Magispeller has a chance to spawn at the end of raids"]
 			id: "6C2CDD73458D05EC"
+			subtitle: "Kill 1 Magispeller"
 			tasks: [{
 				entity: "illageandspillage:magispeller"
 				icon: "illageandspillage:totem_of_banishment"
@@ -632,11 +1067,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.5d
+			x: 5.0d
 			y: 4.0d
 		}
 		{
+			description: ["The Ragno has a chance to spawn at the end of raids with the Freakager."]
 			id: "2229CF930268FA21"
+			subtitle: "Kill 1 Ragno"
 			tasks: [{
 				entity: "illageandspillage:old_ragno"
 				icon: "biomesoplenty:hanging_cobweb"
@@ -644,15 +1081,14 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.5d
-			y: 4.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
 				"11247EE2A7F5BA8D"
 				"4E85E004A42AEBF7"
 				"518D0B2B5C95BC88"
-				"08F5A663DD5C9261"
 			]
 			icon: "minecraft:ancient_debris"
 			id: "7F71BDA659E1CAF2"
@@ -663,8 +1099,8 @@
 				title: "Ancient Evils"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 3.0d
+			x: -3.75d
+			y: 3.75d
 		}
 		{
 			id: "4E85E004A42AEBF7"
@@ -676,7 +1112,7 @@
 				value: 1L
 			}]
 			x: -4.0d
-			y: 2.5d
+			y: 5.0d
 		}
 		{
 			id: "518D0B2B5C95BC88"
@@ -687,8 +1123,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.5d
-			y: 4.0d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			id: "11247EE2A7F5BA8D"
@@ -699,7 +1135,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -4.5d
+			x: -5.0d
 			y: 3.5d
 		}
 		{
@@ -711,14 +1147,177 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -3.5d
-			y: 4.0d
+			x: 5.0d
+			y: -4.5d
 		}
 		{
-			can_repeat: true
+			dependencies: [
+				"1952F849CFE2F5DC"
+				"4E4856F9F8E2552D"
+			]
+			description: [
+				"To summon the Ultra Sniffer, you must fight the Super Sniffer in phase 2. "
+				""
+				"When its health is close to empty, you must strike it with lightning to activate the Ultra Sniffer."
+			]
 			id: "6C1E317AD293397F"
+			rewards: [
+				{
+					id: "0ACFBAC4C7EFEBB5"
+					type: "xp_levels"
+					xp_levels: 250
+				}
+				{
+					count: 40
+					id: "28E5B53D1B6CC890"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "7C89CBB341CB32CA"
+					item: "terramity:reverium"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "54748E95EE50F04D"
+					item: "terramity:profanum"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "4FDD9CE991EBCFAC"
+					item: "terramity:nyxium"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "4BA816D6C45473DE"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "40A7E3F9C95128D7"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4D66F3DDA6B1C613"
+					item: "terramity:void_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "785D6C74A5882AC9"
+					item: {
+						Count: 1
+						id: "terramity:blasphemic_rapture"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "696F3500312CE1AA"
+					item: {
+						Count: 1
+						id: "scguns:earths_corpse"
+						tag: {
+							AmmoCount: 75
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 256
+					id: "6C8EF4B4AB8BBF8E"
+					item: "terramity:copper_round"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "2C52E1F8F34AFA3A"
+					item: "terramity:gold_round"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "6FD045F66EFAE6C1"
+					item: "terramity:iridium_round"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "29A4D5E540442D2C"
+					item: "terramity:dimlite_round"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "24F271E8A8865E4B"
+					item: "terramity:antimatter_round"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "37CA1F2A7A1257C3"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "044FAF24B707A61D"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "04F6C14DAB5D4D1F"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2CC6BE406F89603D"
+					item: "scguns:scorched_ingot"
+					type: "item"
+				}
+				{
+					id: "4B64595278F4F03E"
+					item: "confluence:demon_heart"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "28E678D6507A2E55"
+					item: "terramity:cosmilite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6F49F30DBF1D4CC4"
+					item: "terramity:conductite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "5B4ADB884BCD3AE8"
+					item: "terramity:bottomless_ammo_box"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "4811ADBC6D99CAF8"
+					item: "terramity:conductite"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "The Ultra Sniffer is the Final Boss"
 			tasks: [{
 				entity: "terramity:ultra_sniffer"
 				icon: "terramity:music_sheet_of_the_omnipotent_ultra_sniffer"
@@ -730,10 +1329,16 @@
 			y: 0.0d
 		}
 		{
-			can_repeat: true
+			dependencies: [
+				"1DF9A6229D53011A"
+				"6F5A85D276AE3BD6"
+				"75F08974BEBDF463"
+			]
+			description: ["Summon the Super Sniffer by striking a &asniffer&r with &blightning&r."]
 			id: "4E4856F9F8E2552D"
 			shape: "gear"
 			size: 1.75d
+			subtitle: "Kill 1 Super Sniffer"
 			tasks: [{
 				entity: "terramity:super_sniffer"
 				icon: "terramity:music_sheet_of_the_legendary_super_sniffer"
@@ -745,15 +1350,152 @@
 			y: 1.75d
 		}
 		{
-			can_repeat: true
 			dependencies: [
 				"360A939075CD4D47"
 				"57B4FBC651750C1D"
-				"75F08974BEBDF463"
+			]
+			description: [
+				"Archmage Gundalf is found in the &4Chthonic Cathedral&r located on the Nether Roof."
+				""
+				"Use &bOccult Fabric&r on the Offering Table in the cathedral to start the fight."
 			]
 			id: "1952F849CFE2F5DC"
+			rewards: [
+				{
+					id: "5BFCA79BF17785B3"
+					type: "xp_levels"
+					xp_levels: 200
+				}
+				{
+					count: 64
+					id: "7E38E27E481EA301"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "3341BC3D1EA00DBA"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "54F8757F7CD183A1"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "1A626F83B177A4C9"
+					item: "terramity:virentium_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "08DCC6D8853E19C5"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3489E45903227548"
+					item: "terramity:hellspec_alloy"
+					type: "item"
+				}
+				{
+					id: "7B57E41F30394B80"
+					item: "terramity:void_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "0612ECA7F7CEC7EF"
+					item: "terramity:nyxium"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "6D05A9853FC8DF5B"
+					item: "terramity:exodium_superalloy"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "1FA91D08B21FF16C"
+					item: "terramity:copper_round"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "2F2387724ADFF9E2"
+					item: "terramity:gold_round"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "496BC24F4AA3A193"
+					item: "terramity:iridium_round"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "03B4D4909FAE4305"
+					item: "terramity:dimlite_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "61F86539259C31B8"
+					item: "terramity:antimatter_round"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "77A85BBE57096634"
+					item: "scguns:scorched_blend"
+					type: "item"
+				}
+				{
+					id: "214661BCB634006E"
+					item: {
+						Count: 1
+						id: "terramity:fortunes_favor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68DC2FEDD732791C"
+					item: "confluence:warrior_emblem"
+					type: "item"
+				}
+				{
+					id: "7B7ACAC6EAA0508E"
+					item: {
+						Count: 1
+						id: "confluence:frostspark_boots"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "62D81C7C8A7FF42A"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5ACD4DB035478D06"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.75d
+			subtitle: "Kill 1 Archmage Gundalf"
 			tasks: [{
 				entity: "terramity:gundalf"
 				icon: {
@@ -771,21 +1513,123 @@
 			y: 1.75d
 		}
 		{
-			can_repeat: true
 			dependencies: [
 				"206FDA476B313FB5"
 				"542367A5F3D22798"
 				"59B6404E288E36C9"
 			]
+			description: [
+				"The Tormentor is an interdimensional threat."
+				""
+				"An \"initial\" version can rarely spawn in the overworld after you kill the first three bosses (Spider Moth, Scorpioid Bloodluster, and Draconic Voidlasher) - this version can trigger the full Tormentor invasion if looked at directly. The Tormentor can be summoned from a quartz altar, found rarely on the bottom layer of &4The Crawling Dimension&r, by throwing an &dAbyssal Crystal&r down the hole into the void."
+			]
 			id: "41B564EA8E93F533"
 			min_required_tasks: 1
-			rewards: [{
-				id: "3E81899F314FFF34"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4F937985F908A6B5"
+					type: "xp_levels"
+					xp_levels: 200
+				}
+				{
+					id: "63499A9B5738306C"
+					item: "arphex:bane_of_the_darkness"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "259854CC43040B5C"
+					item: "terramity:void_alloy"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "2072B8BDD0997CCA"
+					item: "terramity:nyxium"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3A44059A956AB6CE"
+					item: "terramity:conductite"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7A085A7804136940"
+					item: "terramity:iridescent_shard"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "2C86BED928FAEB1B"
+					item: "terramity:virentium_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "48BA2090C126E729"
+					item: "terramity:exodium_superalloy"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3E49EA9DA70921EA"
+					item: "terramity:hellspec_alloy"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "582F88C1142B45F2"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "04BD474DB6491631"
+					item: "terramity:copper_round"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "7FD358D4F27CE7BE"
+					item: "terramity:gold_round"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "5A6CDE12EC0E6F4C"
+					item: "terramity:iridium_round"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "78EFAFF49B570A03"
+					item: "terramity:dimlite_round"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "456CC3E329136F6F"
+					item: "terramity:antimatter_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "747E1064DB135096"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "3649188E641BC501"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.75d
+			subtitle: "Kill 1 TORMENTOR"
 			tasks: [{
 				entity: "arphex:tormentor"
 				icon: "arphex:core_of_eternal_suffering"
@@ -797,7 +1641,6 @@
 			y: -1.75d
 		}
 		{
-			can_repeat: true
 			dependencies: [
 				"052FD41BE228AA72"
 				"4DC511175DBFBDB5"
@@ -817,7 +1660,6 @@
 			y: -1.75d
 		}
 		{
-			can_repeat: true
 			id: "052FD41BE228AA72"
 			size: 1.0d
 			tasks: [{
@@ -857,7 +1699,9 @@
 			y: -2.0d
 		}
 		{
+			description: ["Find an &bInk Arena&r and go through the waves until you get to the last wave."]
 			id: "7ACE21C65228484A"
+			subtitle: "Kill 1 Blot"
 			tasks: [{
 				entity: "theinkarena:blot"
 				icon: "theinkarena:soul_core"
@@ -869,7 +1713,13 @@
 			y: 0.0d
 		}
 		{
+			description: [
+				"Sorceress Circe is found in the &4Chthonic Cathedral&r located on the Nether Roof."
+				""
+				"Use &bOccult Fabric&r on the Offering Table to start the fight."
+			]
 			id: "360A939075CD4D47"
+			subtitle: "Kill 1 Sorceress Circe"
 			tasks: [{
 				entity: "terramity:sorceress_circe"
 				icon: {
@@ -887,7 +1737,13 @@
 			y: 3.5d
 		}
 		{
+			description: [
+				"Enchanter Merlin is found in the &4Chthonic Cathedral&r located on the Nether Roof."
+				""
+				"Use &bOccult Fabric&r on the Offering Table to start the fight."
+			]
 			id: "57B4FBC651750C1D"
+			subtitle: "Kill 1 Enchanter Merlin"
 			tasks: [{
 				entity: "terramity:enchanter_merlin"
 				icon: {
@@ -929,7 +1785,9 @@
 			y: -2.0d
 		}
 		{
+			description: ["Summon Virtue by throwing an &4Unholy Lance&r in the sky."]
 			id: "75F08974BEBDF463"
+			subtitle: "Kill 1 Virtue"
 			tasks: [{
 				entity: "terramity:virtue"
 				icon: "terramity:angel_feather"
@@ -937,8 +1795,74 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.0d
+			x: -3.0d
 			y: 3.0d
+		}
+		{
+			dependencies: [
+				"08F5A663DD5C9261"
+				"2E2285F921A5D99F"
+				"3F404B7B87ABE0C2"
+			]
+			icon: "confluence:cross_necklace"
+			id: "7CB90E6BCE8BEBF6"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "12D47D168C5354F1"
+				title: "Angelic Beings"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: -3.75d
+		}
+		{
+			id: "2E2285F921A5D99F"
+			tasks: [{
+				entity: "cartoon_soul:hand"
+				icon: "threateningly_mobs:emperor_handle"
+				id: "68A522E1A48F5C12"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			id: "316C2A97F8C19763"
+			tasks: [{
+				entity: "cartoon_soul:observer"
+				icon: "cartoon_soul:theobserver"
+				id: "5368B90AD074FE02"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "6625209A32BC788C"
+			tasks: [{
+				entity: "cartoon_soul:dwarfgolem"
+				icon: "terramity:mossy_dungeon_bricks"
+				id: "74A74E831B7B4900"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "18D3FA039CF36CA1"
+			tasks: [{
+				entity: "cartoon_soul:furious"
+				icon: "cartoon_soul:furious_light"
+				id: "057CF0CE7B0124EB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.0d
 		}
 	]
 	title: "Boss Checklist"
