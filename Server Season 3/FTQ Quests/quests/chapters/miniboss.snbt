@@ -1702,34 +1702,6 @@
 		}
 		{
 			can_repeat: true
-			id: "3FE5DEAF60253071"
-			rewards: [
-				{
-					count: 45
-					id: "79B0BD42C365E965"
-					item: "minecraft:gunpowder"
-					type: "item"
-				}
-				{
-					id: "5F7B458B58A500DE"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-			]
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				entity: "threateningly_mobs:terra_dragon"
-				icon: "threateningly_mobs:flame_shell"
-				id: "4A87132307253379"
-				type: "kill"
-				value: 5L
-			}]
-			x: 8.25d
-			y: -1.5d
-		}
-		{
-			can_repeat: true
 			id: "534E89747C230803"
 			rewards: [
 				{
@@ -1753,8 +1725,8 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: 6.75d
-			y: -2.25d
+			x: 8.25d
+			y: -1.5d
 		}
 	]
 	title: "&cMiniboss"

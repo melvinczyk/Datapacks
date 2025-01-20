@@ -287,22 +287,22 @@
 					auto: "no_toast"
 					id: "28111A6B4B6ED0B6"
 					type: "xp_levels"
-					xp_levels: 25
+					xp_levels: 15
 				}
 				{
-					count: 20
+					count: 10
 					id: "0342252E7B94DA0A"
 					item: "jeg:gunnite_ingot"
 					type: "item"
 				}
 				{
-					count: 25
+					count: 15
 					id: "52158850DCEEE372"
 					item: "jeg:gunmetal_ingot"
 					type: "item"
 				}
 				{
-					count: 35
+					count: 20
 					id: "70751E77779B69E3"
 					item: "minecraft:gunpowder"
 					type: "item"
@@ -923,7 +923,84 @@
 			y: -1.5d
 		}
 		{
+			description: [
+				"The Trial Guardian is found in the &bTrial Spire&r. The Guardian must be defeated if you want to get dark matter."
+				""
+				"&n&0Dark Matter&r&r spawns in bedrock at &4Nether Roof&r which can be accessed through tunnels."
+			]
 			id: "1DF9A6229D53011A"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2B8B716C926BA751"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 20
+					id: "63426B0DBEB41264"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "412228189D8E50CC"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 45
+					id: "28DD21A6208EA54F"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "119986DAEA0ADD23"
+					item: "terramity:virentium_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6EB85318948E8E3E"
+					item: "terramity:raw_profanum"
+					type: "item"
+				}
+				{
+					id: "31A51F931F0AC893"
+					item: "terramity:virentium_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "18C7EB052CB50C3A"
+					item: {
+						Count: 1
+						id: "terramity:perish_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "21F6CA87504C48E5"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "78831760901BD3D0"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					id: "0156C08EE47BAF9E"
+					item: "confluence:treasure_magnet"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Trial Guardian"
 			tasks: [{
 				entity: "terramity:trial_guardian"
 				icon: "terramity:guardians_hand"
@@ -1302,16 +1379,84 @@
 			y: 5.0d
 		}
 		{
+			description: [
+				"&aOverworld-exclusive&r spawns during thunderstorms. Avoids spawning near players that have killed it at full power. Like the warden, this entity is something to run from, not try to kill until you become very strong."
+				""
+				"Also summonable by placing a &bsoul sand block&r on top of a &4mangled spider flesh block&r, then lighting it on &6fire&r."
+				""
+				"Until it is \"warded off\" twice, it naturally spawns with a weakness 2 potion effect, making it easier to survive in the early game. The next time it spawns, it will have weakness 1, and if warded off again, then it will spawn with full strength from then on, and instead of despawning after 60hp of damage (warding off), it will remain until killed, dropping the invaluable Abyssal Crystal."
+			]
 			id: "206FDA476B313FB5"
+			rewards: [
+				{
+					count: 2
+					id: "2BB79E84A7AE18EE"
+					item: "arphex:abyssal_crystal"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "51BFB93E1DB6738B"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 35
+					id: "21E12189DDC577DB"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5CA737F255B0D1FB"
+					item: "arphex:mangled_spider_flesh"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "0D1C0F871EFD9BE2"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "667C22CEEAAD42C7"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "06015958414863DE"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "0C92A873A37B7E9D"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					id: "4A8F29E4A79C33E2"
+					item: "arphex:spectral_helmet"
+					type: "item"
+				}
+				{
+					id: "453D1C92E20A9EA3"
+					item: "arphex:spider_moth_summoner"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Spider Moth"
 			tasks: [{
 				entity: "arphex:spider_moth"
-				icon: "arphex:spider_moth_summoner"
+				icon: "arphex:abyssal_crystal"
 				id: "05ADD155FB56C3F4"
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -1447,7 +1592,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Kill all of the Seasoned Warrior Bosses"
+			subtitle: "Killed all of the Seasoned Warriors"
 			tasks: [{
 				id: "6FB3F0081CBBD2FC"
 				title: "Seasoned Warriors"
@@ -1564,6 +1709,70 @@
 		{
 			description: ["Gob can be summoned by finding the &eCourt of Gnomes&r structure. Kill nearby gnomes and get a &bGnome Hat&r. Then use one on the &eGolden Gnome Statue&r to start the fight."]
 			id: "6F5A85D276AE3BD6"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "319AB48101DEEC3C"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 15
+					id: "01A7DD55E17707EF"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "5CA9D24429546E39"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "781F819CEDEB23C9"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "60ADBDFDA0DCB566"
+					item: {
+						Count: 1
+						id: "terramity:gobs_gilded_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "40803E521908567A"
+					item: "terramity:spiteful_soul"
+					type: "item"
+				}
+				{
+					id: "4A929F8B58DB3AF1"
+					item: "terramity:golden_gnome_statue"
+					type: "item"
+				}
+				{
+					id: "712D1468046857B6"
+					item: "terramity:gnome_ring"
+					type: "item"
+				}
+				{
+					id: "1834EB1BB916E2D0"
+					item: "terramity:tome_of_commotion"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "40C484A2E72D3952"
+					item: "terramity:copper_round"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Gob, King of Gnomes"
 			tasks: [{
 				entity: "terramity:gob"
@@ -2775,6 +2984,64 @@
 		{
 			description: ["The Nether Gauntlet can be found in an arena in the &4Nether&r. You must interact with the statue in the middle to start the fight."]
 			id: "3F404B7B87ABE0C2"
+			rewards: [
+				{
+					id: "3292E45EDBB2175F"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 20
+					id: "025BF7BF2C2B3057"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "3444577DD7022A31"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "36FD92ADAA2B2C72"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "030510A260195439"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "556417672267158B"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					id: "01B30C247EABE8B9"
+					item: "scguns:piglin_blueprint"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "696EBA4F38C798DC"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "04B24D31B5FD8AC4"
+					item: "bosses_of_mass_destruction:brimstone_nectar"
+					type: "item"
+				}
+				{
+					id: "22FAC2D1E4AA3986"
+					item: "confluence:band_of_regeneration"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Nether Gauntlet"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:gauntlet"
@@ -2783,8 +3050,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.0d
-			y: -3.5d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			description: ["The Ender Guardian can be found in the &5Ruined Citadel&r located in the End. You can find this structure by using an &dEye of Void&r."]
@@ -3011,7 +3278,7 @@
 			]
 			shape: "gear"
 			size: 1.25d
-			subtitle: "Killed all of the Raid Leaders"
+			subtitle: "Killed the Raid Leaders"
 			tasks: [{
 				id: "4BEF6F493B716922"
 				title: "Raid Leaders"
@@ -3248,12 +3515,110 @@
 			dependencies: [
 				"11247EE2A7F5BA8D"
 				"4E85E004A42AEBF7"
-				"518D0B2B5C95BC88"
+				"3F404B7B87ABE0C2"
 			]
 			icon: "minecraft:ancient_debris"
 			id: "7F71BDA659E1CAF2"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2ED421D68B9D1BDB"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "5234E8C75BD0397D"
+					item: "terramity:ancient_stone_mask"
+					type: "item"
+				}
+				{
+					id: "4C03EC9000B7E6A3"
+					item: {
+						Count: 1
+						id: "cataclysm:ancient_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "3DE14ABDC41A5C24"
+					item: "terramity:gold_round"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "15D9DB0B37E70D31"
+					item: "terramity:copper_round"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "394C326CFA432260"
+					item: "terramity:iridium_round"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "048F8D1BA49C63F5"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2E2277C5B7497C60"
+					item: "jcraft:stand_arrow"
+					type: "item"
+				}
+				{
+					id: "69AE02A5BB532646"
+					item: {
+						Count: 1
+						id: "protection_pixel:bloodprisoneras_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E39CC6EB4DB95B1"
+					item: {
+						Count: 1
+						id: "protection_pixel:wingsofprismas_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F9234B20B91845D"
+					item: {
+						Count: 1
+						id: "protection_pixel:anchorpointas_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DDA392835D2D739"
+					item: {
+						Count: 1
+						id: "protection_pixel:socks_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.25d
+			subtitle: "Killed the Ancient Evils"
 			tasks: [{
 				id: "5E98040FB7523032"
 				title: "Ancient Evils"
@@ -3263,7 +3628,72 @@
 			y: 3.75d
 		}
 		{
+			description: [
+				"The Night Lich can be found in the &bLich Tower&r in cold biomes."
+				""
+				"You can locate it by finding &bSoul Stars&r by killing undead. Use these souls like eyes to find the tower."
+			]
 			id: "4E85E004A42AEBF7"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "6F1465EDCA88E1AA"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 25
+					id: "08FEE72EED4D6C8E"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "57EFB570A8D239BD"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "0DF80D7546E1020D"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "003C8B67A020F532"
+					item: "scguns:ocean_blueprint"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0D367883007E454F"
+					item: "jeg:ectoplasm"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1CF6CBE4030AC233"
+					item: "scguns:diamond_steel_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "343F3A9769284671"
+					item: "scguns:energy_cell"
+					type: "item"
+				}
+				{
+					id: "66B630FDE58E0F01"
+					item: "confluence:hand_warmer"
+					type: "item"
+				}
+				{
+					id: "3F22255C06A245AD"
+					item: "terramity:rush_ring_plus"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Night Lich"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:lich"
 				icon: "bosses_of_mass_destruction:ancient_anima"
@@ -3275,7 +3705,80 @@
 			y: 5.0d
 		}
 		{
+			description: ["The Obsidilith can be found in the &5End&r on top of a huge onsidian pillar."]
 			id: "518D0B2B5C95BC88"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "21FBC8889E7ABB22"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 25
+					id: "27CAAF679A81643B"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "5377FAE426AC87A8"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "08DB05DFBCB47D2D"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "54857CA7CC4C4754"
+					item: "bosses_of_mass_destruction:obsidian_heart"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7F3177E0753D4BB5"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "328B9B8D0EE34A32"
+					item: "scguns:end_blueprint"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2E0E3DA438D63B67"
+					item: "terramity:end_iridium_ore"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "027612A2BFBBA980"
+					item: "apotheosis:pearl_endshelf"
+					type: "item"
+				}
+				{
+					id: "5E4C45CA5BE37DB5"
+					item: "cataclysm:enderite_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3D0C881B88DCD11F"
+					item: "scguns:shulkshot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5D7D2E706C37D6EC"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Obsidilith"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				icon: "bosses_of_mass_destruction:obsidian_heart"
@@ -3283,11 +3786,93 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -5.0d
-			y: 4.5d
+			x: -4.5d
+			y: -5.0d
 		}
 		{
+			description: [
+				"The Ancient Remnant is found in the &eCursed Pyramid&r in the desert. And can be found with the &eEye of Desert&r."
+				""
+				"Brush away the suspiscious sand in the pyramid to find a &eNecklace of the Desert&r. You need to place this on its neck to activate it."
+			]
 			id: "11247EE2A7F5BA8D"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "56033643B4CB9B3C"
+					type: "xp_levels"
+					xp_levels: 60
+				}
+				{
+					count: 35
+					id: "0D19D43F68659E6C"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "142B73B66EF7140F"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 45
+					id: "4A1646C2B58417CF"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1F1F25F384CC513A"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+				{
+					id: "17EDA1C687A7CAA5"
+					item: "cataclysm:remnant_skull"
+					type: "item"
+				}
+				{
+					id: "521F33E2F2A367E0"
+					item: "cataclysm:sandstorm_in_a_bottle"
+					type: "item"
+				}
+				{
+					id: "1CA73627062AE02D"
+					item: "scguns:ocean_blueprint"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4A086C6FD404F469"
+					item: "scguns:enchanted_bandage"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "74A9CA3CB583C478"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "64820000107CFB14"
+					item: "scguns:osborne_slug"
+					type: "item"
+				}
+				{
+					id: "7CBCFDFA3CB5777C"
+					item: "confluence:sandstorm_in_a_bottle"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1238C6BD277C4F5A"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Ancient Remnant"
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
 				icon: "cataclysm:remnant_skull"
@@ -3299,7 +3884,9 @@
 			y: 3.5d
 		}
 		{
+			description: ["This fight is still a WIP"]
 			id: "08F5A663DD5C9261"
+			subtitle: "Kill 1 Hypocritical Saint"
 			tasks: [{
 				entity: "threateningly_mobs:saint"
 				icon: "threateningly_mobs:emperor_blade"
@@ -3492,7 +4079,9 @@
 			dependencies: [
 				"1DF9A6229D53011A"
 				"6F5A85D276AE3BD6"
-				"75F08974BEBDF463"
+				"714AAB61AE1F7293"
+				"5457C2521DA36061"
+				"4DB9AB307ACEB4DB"
 			]
 			description: ["Summon the Super Sniffer by striking a &asniffer&r with &blightning&r."]
 			id: "4E4856F9F8E2552D"
@@ -3668,8 +4257,44 @@
 					item: "terramity:gold_round"
 					type: "item"
 				}
+				{
+					count: 128
+					id: "21AB0C54A9429CF4"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "5DAA76D91D3F1F8C"
+					item: {
+						Count: 1
+						id: "terramity:antimatter_rifle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D3DB41E0CE9B4C0"
+					item: "terramity:warp_whistle"
+					type: "item"
+				}
+				{
+					id: "362D12942FF2A017"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "scguns:reclaimed"
+								lvl: 6s
+							}]
+						}
+					}
+					type: "item"
+				}
 			]
-			shape: "gear"
+			shape: "octagon"
 			size: 1.75d
 			subtitle: "Kill 1 Super Sniffer"
 			tasks: [{
@@ -3686,6 +4311,8 @@
 			dependencies: [
 				"360A939075CD4D47"
 				"57B4FBC651750C1D"
+				"5457C2521DA36061"
+				"5575550D756F4A58"
 			]
 			description: [
 				"Archmage Gundalf is found in the &4Chthonic Cathedral&r located on the Nether Roof."
@@ -3777,7 +4404,7 @@
 					type: "item"
 				}
 				{
-					count: 3
+					count: 5
 					id: "77A85BBE57096634"
 					item: "scguns:scorched_blend"
 					type: "item"
@@ -3819,8 +4446,34 @@
 					item: "create:brass_ingot"
 					type: "item"
 				}
+				{
+					count: 128
+					id: "5D7ACD66714354D4"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "1D18D7BADF3A7F78"
+					item: "jeg:blaze_round"
+					type: "item"
+				}
+				{
+					id: "3FDE11159B4CF96D"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "jeg:infinity"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
 			]
-			shape: "gear"
+			shape: "octagon"
 			size: 1.75d
 			subtitle: "Kill 1 Archmage Gundalf"
 			tasks: [{
@@ -3844,6 +4497,8 @@
 				"206FDA476B313FB5"
 				"542367A5F3D22798"
 				"59B6404E288E36C9"
+				"5575550D756F4A58"
+				"682E36F656BDD350"
 			]
 			description: [
 				"The Tormentor is an interdimensional threat."
@@ -3882,33 +4537,9 @@
 					type: "item"
 				}
 				{
-					count: 64
-					id: "7A085A7804136940"
-					item: "terramity:iridescent_shard"
-					type: "item"
-				}
-				{
-					count: 20
-					id: "2C86BED928FAEB1B"
-					item: "terramity:virentium_alloy_ingot"
-					type: "item"
-				}
-				{
-					count: 20
-					id: "48BA2090C126E729"
-					item: "terramity:exodium_superalloy"
-					type: "item"
-				}
-				{
 					count: 20
 					id: "3E49EA9DA70921EA"
 					item: "terramity:hellspec_alloy"
-					type: "item"
-				}
-				{
-					count: 20
-					id: "582F88C1142B45F2"
-					item: "minecraft:netherite_ingot"
 					type: "item"
 				}
 				{
@@ -3953,8 +4584,33 @@
 					item: "minecraft:gunpowder"
 					type: "item"
 				}
+				{
+					id: "52B1EC98C06D7988"
+					item: "arphex:eternal_helmet"
+					type: "item"
+				}
+				{
+					id: "4DF72407B03F1DAD"
+					item: "arphex:eternal_chestplate"
+					type: "item"
+				}
+				{
+					id: "593A2AEDEB64CD8C"
+					item: "arphex:eternal_leggings"
+					type: "item"
+				}
+				{
+					id: "51A809B847DBC717"
+					item: "arphex:eternal_boots"
+					type: "item"
+				}
+				{
+					id: "1BAE1339670C2907"
+					item: "arphex:tormentor_summoner"
+					type: "item"
+				}
 			]
-			shape: "gear"
+			shape: "octagon"
 			size: 1.75d
 			subtitle: "Kill 1 TORMENTOR"
 			tasks: [{
@@ -3970,11 +4626,12 @@
 		{
 			dependencies: [
 				"052FD41BE228AA72"
-				"4DC511175DBFBDB5"
 				"4AF0D0628D30EB80"
+				"4DB9AB307ACEB4DB"
+				"682E36F656BDD350"
 			]
 			id: "67038F34FA71724D"
-			shape: "gear"
+			shape: "octagon"
 			size: 1.75d
 			tasks: [{
 				entity: "mokels_bossfight_saphyra:mothboss"
@@ -3996,11 +4653,79 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -3.0d
-			y: -3.0d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
+			description: [
+				"&4Nether-exclusive&r spawns during rain+thunderstorm cycles. Avoids spawning near players that have killed it, or haven't warded off the Spider Moth twice."
+				""
+				"Also summonable by placing a &bsoul sand block&r on top of a &dmangled scorpion flesh block&r, then lighting it on &6fire&r."
+				""
+				"&4&lIt doesn't spawn naturally unless there is a player nearby who has warded off the Spider Moth 2+ times.&r&r"
+			]
 			id: "542367A5F3D22798"
+			rewards: [
+				{
+					count: 2
+					id: "44A78F337A7A343D"
+					item: "arphex:fire_opal"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "1D0F4C8D9EEBEB81"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 45
+					id: "4E85C58725D774B7"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "432301111757A7EB"
+					item: "arphex:mangled_scorpion_flesh"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "0158EE9048C4976A"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "3BF5672D9CA89D69"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "30D75286381A3435"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6A87B8BD90DF3443"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					id: "1F06DEF30967D316"
+					item: "arphex:infernal_helmet"
+					type: "item"
+				}
+				{
+					id: "371EA62011F708CB"
+					item: "arphex:crawling_container"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Scorpiod Bloodluster"
 			tasks: [{
 				entity: "arphex:scorpioid_bloodluster"
 				icon: "arphex:fire_opal"
@@ -4008,11 +4733,80 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
-			y: -3.5d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
+			description: [
+				"&5End-exclusive&r spawns during rain+thunderstorm cycles. Avoids spawning near players that have killed it, or haven't warded off the Spider Moth twice."
+				""
+				"Also summonable by placing a &bsoul sand block&r on top of a &4mangled fly flesh block&r, then lighting it on &6fire&r."
+				""
+				""
+				"It appears in multiple versions. It can appear as an original version or an enormous shadow clone. Both versions can stalk, teleporting closer and closer to their target."
+			]
 			id: "59B6404E288E36C9"
+			rewards: [
+				{
+					count: 2
+					id: "2C78A2A448028449"
+					item: "arphex:void_geode"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "10681ABE92F2D471"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 50
+					id: "6391E2B2027A840F"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D3C2F314DFAA95C"
+					item: "arphex:mangled_fly_flesh"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "734468992DF85F54"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "430ED4B681DE01FA"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "3767AB1C17007A3B"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "3715B957D8FB7A02"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					id: "2FEBF72484C60107"
+					item: "arphex:umbral_helmet"
+					type: "item"
+				}
+				{
+					id: "190F2EB2B3606C32"
+					item: "arphex:vortex_devastator"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Draconic Voidlasher"
 			tasks: [{
 				entity: "arphex:draconic_clone"
 				icon: "arphex:void_geode"
@@ -4091,6 +4885,25 @@
 				"Use &bOccult Fabric&r on the Offering Table to start the fight."
 			]
 			id: "360A939075CD4D47"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "02AFA50C2082FC29"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 20
+					id: "637FC519E38FEADF"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "231E3226F7D26DED"
+					item: "terramity:occult_fabric"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Sorceress Circe"
 			tasks: [{
 				entity: "terramity:sorceress_circe"
@@ -4115,6 +4928,25 @@
 				"Use &bOccult Fabric&r on the Offering Table to start the fight."
 			]
 			id: "57B4FBC651750C1D"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "5FA0D7CBBA821F0C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 20
+					id: "1EBB4F4F75FBD034"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "6CCDFCE93A932051"
+					item: "terramity:occult_fabric"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Enchanter Merlin"
 			tasks: [{
 				entity: "terramity:enchanter_merlin"
@@ -4145,20 +4977,80 @@
 			y: -3.5d
 		}
 		{
-			id: "4DC511175DBFBDB5"
-			tasks: [{
-				entity: "mokels_bossfight_saphyra:puppet_of_yiva_nemor"
-				icon: "mokels_bossfight_saphyra:puppet_of_yiva_remembrance"
-				id: "33C858F41FFD9402"
-				type: "kill"
-				value: 1L
-			}]
-			x: -3.5d
-			y: -2.0d
-		}
-		{
 			description: ["Summon Virtue by throwing an &4Unholy Lance&r in the sky."]
 			id: "75F08974BEBDF463"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "1FB88327DF83CFA2"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					count: 20
+					id: "32F0071A5CA295C2"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "4ABFBF772875AA7C"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "43562C5F4398A68C"
+					item: "terramity:iridium_round"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "11182E6B36835751"
+					item: "terramity:angel_feather"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2163D7B479188899"
+					item: "terramity:profanum"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "4BAA8569D0D7DF90"
+					item: "terramity:gold_round"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "0C4ABF5B8BC85154"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "11279D2D1516C6F3"
+					item: {
+						Count: 1
+						id: "terramity:vulcan"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A76B98A9245CEEC"
+					item: {
+						Count: 1
+						id: "terramity:unholy_lance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Virtue"
 			tasks: [{
 				entity: "terramity:virtue"
@@ -4167,32 +5059,107 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -3.0d
-			y: 3.0d
+			x: 5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
 				"08F5A663DD5C9261"
 				"2E2285F921A5D99F"
-				"3F404B7B87ABE0C2"
+				"75F08974BEBDF463"
 			]
 			icon: "confluence:cross_necklace"
 			id: "7CB90E6BCE8BEBF6"
+			rewards: [{
+				auto: "no_toast"
+				id: "1E0062A65CAAA1A4"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
 			shape: "gear"
 			size: 1.25d
+			subtitle: "Killed the Holy Beings"
 			tasks: [{
 				id: "12D47D168C5354F1"
 				title: "Angelic Beings"
 				type: "checkmark"
 			}]
+			title: "Holy Beings"
 			x: 3.75d
 			y: -3.75d
 		}
 		{
+			description: ["Summon the Hand of Creator by crafting its spawn egg."]
 			id: "2E2285F921A5D99F"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "29A07173051B1719"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 20
+					id: "394D68732F84AAB1"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "7EBB214BA4BD6C98"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 45
+					id: "50B50660CE59A2B7"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "4AA3281C4D20BF0B"
+					item: "terramity:archangel_halo"
+					type: "item"
+				}
+				{
+					id: "56AC06F0C7B3579D"
+					item: "scguns:ocean_blueprint"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "67600AC63B28E987"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					id: "3FBEE2FA790646A7"
+					item: {
+						Count: 1
+						id: "scguns:super_shotgun"
+						tag: {
+							AmmoCount: 2
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4427E149DC34AB86"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "22A27D215BA462DF"
+					item: "confluence:obsidian_horseshoe"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Hand of Creator"
 			tasks: [{
 				entity: "cartoon_soul:hand"
-				icon: "threateningly_mobs:emperor_handle"
+				icon: "confluence:hand_of_creation"
 				id: "68A522E1A48F5C12"
 				type: "kill"
 				value: 1L
@@ -4398,6 +5365,18 @@
 					type: "xp_levels"
 					xp_levels: 45
 				}
+				{
+					count: 40
+					id: "7B1AFEBF486B8245"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "7CFAD183ADAA633C"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
 			]
 			subtitle: "Kill 1 The Destructor, Furens"
 			tasks: [{
@@ -4414,9 +5393,103 @@
 			dependencies: [
 				"27BB666479FB438A"
 				"6102D47970756843"
+				"518D0B2B5C95BC88"
 			]
 			icon: "minecraft:ender_eye"
 			id: "0E39E546492463F3"
+			rewards: [
+				{
+					id: "7E74CE5ABD47D993"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					count: 40
+					id: "6A968DB16B3398A0"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "32ABF610C301E394"
+					item: "terramity:solar_safeguard_pendant"
+					type: "item"
+				}
+				{
+					id: "6D9BFE622ABE0C7E"
+					item: "scguns:end_blueprint"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "330EFF757A2DB6EF"
+					item: "scguns:osborne_slug"
+					type: "item"
+				}
+				{
+					id: "568C9FB399A78409"
+					item: {
+						Count: 1
+						id: "protection_pixel:tosaki_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11AC9150E6A9B0DB"
+					item: {
+						Count: 1
+						id: "protection_pixel:tosaki_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74DCA7744A71C5BB"
+					item: {
+						Count: 1
+						id: "protection_pixel:tosaki_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5911622D85D47808"
+					item: {
+						Count: 1
+						id: "protection_pixel:socks_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3DA68B66BC77467E"
+					item: "terramity:void_alloy_block"
+					type: "item"
+				}
+				{
+					id: "0005137EB3F54D5E"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "jeg:infinity"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.25d
 			subtitle: "Killed the End Tyrants"
@@ -4429,7 +5502,76 @@
 			y: -3.75d
 		}
 		{
+			description: ["You know how to fight him"]
 			id: "27BB666479FB438A"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "27710B91C4A31F9A"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 20
+					id: "1B629785B84D751C"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "29371CE20C1655A3"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 45
+					id: "65CD63FFEF4C6DCE"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "3DAA285F90A3ADEC"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3D9DDE7BC7AFC76D"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A81A8535528DDE6"
+					item: "apotheosis:endshelf"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7229AB1AB775142A"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "1B1EF92A1F334156"
+					item: {
+						Count: 1
+						id: "scguns:carapice"
+						tag: {
+							AmmoCount: 15
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "77823D4A5549610A"
+					item: "scguns:shulkshot"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Ender Dragon"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
@@ -4441,7 +5583,68 @@
 			y: -5.0d
 		}
 		{
+			description: ["The Ender King spawns rarely in the &5End&r dimension."]
 			id: "6102D47970756843"
+			rewards: [
+				{
+					id: "78DA89CF99931241"
+					item: {
+						Count: 1
+						id: "animatedmobsmod:ender_spectre"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C81948F4B9C6EC6"
+					item: "animatedmobsmod:ender_fiend_egg"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "07119F3C697E9489"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "162D22012BD513EC"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "20A64F43AA7F6F94"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 40
+					id: "2A1B90E775786B22"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "1CCAF5A0AFE60464"
+					item: "scguns:end_blueprint"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1ED1B28B18A3E976"
+					item: "scguns:shulkshot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4307319C42A51062"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Ender King"
 			tasks: [{
 				entity: "animatedmobsmod:ender_king"
 				icon: {
@@ -4537,6 +5740,90 @@
 			}]
 			x: 1.0d
 			y: -4.0d
+		}
+		{
+			description: ["The Terradragon has a rare chance to spawn in the &4Nether&r."]
+			id: "714AAB61AE1F7293"
+			rewards: [
+				{
+					id: "1674FC6CA3B8AF9B"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 25
+					id: "00BA56BA79973E45"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "38A8A2A34C1661C2"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "455F32D19A4A13AB"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "43D5E53ADDDCFDE6"
+					item: {
+						Count: 1
+						id: "mteg:hellfire"
+						tag: {
+							AmmoCount: 18
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "342698600F505036"
+					item: "mteg:taki"
+					type: "item"
+				}
+				{
+					id: "75E7D11537D7B0EA"
+					item: "scguns:fire_rate_turret_module"
+					type: "item"
+				}
+				{
+					id: "4B3C7E6BE453D585"
+					item: {
+						Count: 1
+						id: "terramity:hellfire_flurry"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "71E9110243163953"
+					item: "terramity:hellspec_shotshells"
+					type: "item"
+				}
+				{
+					id: "48B0F31EA0BB1C8B"
+					item: "scguns:auto_turret"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Terradragon"
+			tasks: [{
+				entity: "threateningly_mobs:terra_dragon"
+				icon: "threateningly_mobs:flame_shell"
+				id: "60D0965899046DAC"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 3.0d
 		}
 	]
 	title: "Boss Checklist"
