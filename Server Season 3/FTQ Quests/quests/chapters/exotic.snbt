@@ -13,7 +13,7 @@
 			id: "70C8F61444756A00"
 			rewards: [
 				{
-					count: 30
+					count: 20
 					id: "2E34CB9EEF17ABFD"
 					item: "minecraft:gunpowder"
 					type: "item"
@@ -21,7 +21,7 @@
 				{
 					id: "0C1968C50F8C135D"
 					type: "xp_levels"
-					xp_levels: 20
+					xp_levels: 15
 				}
 			]
 			shape: "gear"
@@ -37,6 +37,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			id: "276685C1B59B051C"
 			rewards: [
 				{
@@ -61,6 +62,34 @@
 				value: 5L
 			}]
 			x: 2.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "752EE6A1D219C12F"
+			rewards: [
+				{
+					count: 20
+					id: "36F38FB32EC45827"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "17E7A2779953B215"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "cnc:squonk"
+				icon: "cnc:squonk_head"
+				id: "4A906F2A33083476"
+				type: "kill"
+				value: 5L
+			}]
+			x: -0.5d
 			y: 0.0d
 		}
 	]

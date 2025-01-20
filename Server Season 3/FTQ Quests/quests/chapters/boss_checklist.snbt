@@ -13,6 +13,7 @@
 			id: "7B8F6EACE4F1C344"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "45E98AF5A436781A"
 					type: "xp_levels"
 					xp_levels: 10
@@ -42,7 +43,7 @@
 					type: "item"
 				}
 				{
-					count: 30
+					count: 20
 					id: "7C428BA8533F8504"
 					item: "jeg:gunmetal_ingot"
 					type: "item"
@@ -64,11 +65,11 @@
 				"370876D51B4A5C8B"
 				"15116C8416AED3FF"
 				"7B8F6EACE4F1C344"
-				"7E38CFC032BEF431"
 				"22AF45B1F09C4AC2"
 				"09D2AEAE16E048D8"
 				"7A73973CB022065A"
 				"7AD6319A27A9DB5B"
+				"3E22C9EC7D6359B8"
 			]
 			icon: "born_in_chaos_v1:nightmare_stalker_skull"
 			id: "5457C2521DA36061"
@@ -86,6 +87,7 @@
 					type: "item"
 				}
 				{
+					auto: "no_toast"
 					id: "6E22CE899BF9720B"
 					type: "xp_levels"
 					xp_levels: 100
@@ -176,17 +178,11 @@
 					id: "3EB7E56F9956EC46"
 					item: {
 						Count: 1
-						id: "scguns:diamond_steel_chestplate"
+						id: "protection_pixel:tacticaloxygensupplydevice"
 						tag: {
 							Damage: 0
 						}
 					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "6F6CB10F73E62F33"
-					item: "terramity:virentium_upgrade_smithing_template"
 					type: "item"
 				}
 			]
@@ -207,6 +203,7 @@
 			id: "370876D51B4A5C8B"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "274DF4B0833A082A"
 					type: "xp_levels"
 					xp_levels: 30
@@ -287,9 +284,10 @@
 			id: "15116C8416AED3FF"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "28111A6B4B6ED0B6"
 					type: "xp_levels"
-					xp_levels: 35
+					xp_levels: 25
 				}
 				{
 					count: 20
@@ -386,6 +384,7 @@
 			id: "22AF45B1F09C4AC2"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "1C4E4652EDA3EB9C"
 					type: "xp_levels"
 					xp_levels: 30
@@ -476,6 +475,7 @@
 			id: "09D2AEAE16E048D8"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "16C3E2A6DED7757F"
 					type: "xp_levels"
 					xp_levels: 30
@@ -552,19 +552,6 @@
 			y: 6.0d
 		}
 		{
-			id: "7E38CFC032BEF431"
-			subtitle: "Kill 1 Cruncher"
-			tasks: [{
-				entity: "species:cruncher"
-				icon: "species:cruncher_egg"
-				id: "6EEC5B862F33D198"
-				type: "kill"
-				value: 1L
-			}]
-			x: -1.0d
-			y: 4.0d
-		}
-		{
 			dependencies: [
 				"24E50D96BB2E255A"
 				"42D7413F77181D18"
@@ -580,29 +567,177 @@
 			rewards: [
 				{
 					count: 5
-					id: "4B73F3ACE833498E"
+					id: "590893E8F7686BC8"
 					item: "paraglider:heart_container"
 					type: "item"
 				}
 				{
 					count: 5
-					id: "56A4AEA20AB258B6"
+					id: "49408028A557E90D"
 					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "2980C7DEC5C11CBD"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					count: 64
+					id: "43652D151993BBA1"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 70
+					id: "293ECEC36A937D1F"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "777042DA93A47A8B"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "60B71D3D29DC09A7"
+					item: "terramity:cosmilite_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4790493C9F2E899C"
+					item: "terramity:deepslate_iridium_ore"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "186538D9FD222CAE"
+					item: "terramity:iridium_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "55A547EC67298334"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "62AA762C1EE2D648"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5EEC8CB466C03B85"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "484EAF22EE0D0F2D"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "57AEB16C4431ED68"
+					item: "apotheosis:infused_seashelf"
+					type: "item"
+				}
+				{
+					id: "57899548547A529A"
+					item: "confluence:worm_scarf"
+					type: "item"
+				}
+				{
+					id: "51FCDEE537E78BEC"
+					item: {
+						Count: 1
+						id: "terramity:anti_material_rifle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BC36754AF10EB18"
+					item: {
+						Count: 1
+						id: "protection_pixel:maneuveringwing"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "Killed all the Constructed Guardians"
 			tasks: [{
 				id: "41028F50763BF7E3"
 				title: "Constructed Guardians"
 				type: "checkmark"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
+			description: ["The Entombed Watcher can be fought in the Land Battle Tower. Go to the top and insert the land key to start the battle."]
 			id: "42D7413F77181D18"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "261F1910ECC8C4E3"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 25
+					id: "3D208EE801E08241"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "3E0A594BDA1AA068"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "0DF479971172A527"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "6A747B6C6641F6DA"
+					item: "ba_bt:guardian_eye_land"
+					type: "item"
+				}
+				{
+					id: "005576D679CA7E09"
+					item: "scguns:iron_blueprint"
+					type: "item"
+				}
+				{
+					id: "681BA6535E91978A"
+					item: "scguns:basic_turret"
+					type: "item"
+				}
+				{
+					id: "405A4DC7DFD43A04"
+					item: "confluence:tabi"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Entombed Watcher"
 			tasks: [{
 				entity: "ba_bt:land_golem"
 				icon: "ba_bt:land_monolith_key"
@@ -610,7 +745,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -618,9 +753,10 @@
 			id: "622CA064DEEC20C0"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "7004E202219866A5"
 					type: "xp_levels"
-					xp_levels: 60
+					xp_levels: 50
 				}
 				{
 					count: 35
@@ -689,7 +825,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: 1.5d
 		}
 		{
@@ -697,6 +833,7 @@
 			id: "24E50D96BB2E255A"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "2DF1C3D37333BAEA"
 					type: "xp_levels"
 					xp_levels: 60
@@ -782,7 +919,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: -1.5d
 		}
 		{
@@ -824,9 +961,10 @@
 					type: "item"
 				}
 				{
+					auto: "no_toast"
 					id: "4DB81D7A70FE0AB0"
 					type: "xp_levels"
-					xp_levels: 150
+					xp_levels: 100
 				}
 				{
 					count: 64
@@ -871,12 +1009,6 @@
 					type: "item"
 				}
 				{
-					count: 5
-					id: "39FE0801D99A823A"
-					item: "scguns:plasma"
-					type: "item"
-				}
-				{
 					count: 64
 					id: "3700662AA854B54B"
 					item: "minecraft:diamond"
@@ -894,18 +1026,6 @@
 					type: "item"
 				}
 				{
-					count: 16
-					id: "3CF96A8829CF5DD0"
-					item: "caverns_and_chasms:necromium_ingot"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "59BC4C6442A26B8B"
-					item: "scguns:anthralite_ingot"
-					type: "item"
-				}
-				{
 					count: 24
 					id: "075A7EBDAC41B1D4"
 					item: "scguns:diamond_steel_ingot"
@@ -919,6 +1039,11 @@
 				{
 					id: "2AA93C7EDF05072C"
 					item: "terramity:chthonic_cursemark"
+					type: "item"
+				}
+				{
+					id: "5A07AD74E0FA0EAF"
+					item: "protection_pixel:pneumaticgrenadelauncharm"
 					type: "item"
 				}
 			]
@@ -950,9 +1075,10 @@
 					type: "item"
 				}
 				{
+					auto: "no_toast"
 					id: "3226035B8F8475BB"
 					type: "xp_levels"
-					xp_levels: 45
+					xp_levels: 35
 				}
 				{
 					count: 30
@@ -994,6 +1120,7 @@
 			id: "7AD6319A27A9DB5B"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "66B9CD9D10F3671F"
 					type: "xp_levels"
 					xp_levels: 45
@@ -1045,6 +1172,27 @@
 					item: "scguns:compact_advanced_round"
 					type: "item"
 				}
+				{
+					id: "47FD9BB21F102D80"
+					item: {
+						Count: 1
+						id: "create_sa:brass_jetpack_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "04B6ECDB6A1BE989"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0C8EFD9711C7709D"
+					item: "terramity:topaz"
+					type: "item"
+				}
 			]
 			subtitle: "Kill 1 Solscarab Maximus"
 			tasks: [{
@@ -1062,6 +1210,7 @@
 			id: "7A73973CB022065A"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "23C59DAC103D6E87"
 					type: "xp_levels"
 					xp_levels: 40
@@ -1116,6 +1265,30 @@
 					item: "immersive_aircraft:biplane"
 					type: "item"
 				}
+				{
+					count: 16
+					id: "4A3C9BB570CCC9D8"
+					item: "terramity:sapphire"
+					type: "item"
+				}
+				{
+					id: "17C4E0201FC97AD5"
+					item: {
+						Count: 1
+						id: "scguns:prush_gun"
+						tag: {
+							AmmoCount: 21
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2273DFDD2F3A2A3D"
+					item: "scguns:compact_advanced_round"
+					type: "item"
+				}
 			]
 			subtitle: "Kill 1 Inferno"
 			tasks: [{
@@ -1144,12 +1317,12 @@
 			dependencies: [
 				"34C62A57BEE1862C"
 				"5ABEE3ED04DA2FB0"
-				"3E22C9EC7D6359B8"
 				"7D2F0EB437DEBAC2"
 				"633467F29503E472"
 				"7EBF24A5BC8F700E"
 				"1A4565C46375B2D6"
 				"18D3FA039CF36CA1"
+				"1516358D67FDF917"
 			]
 			icon: "threateningly_mobs:emperor_core"
 			id: "682E36F656BDD350"
@@ -1167,9 +1340,10 @@
 					type: "item"
 				}
 				{
+					auto: "no_toast"
 					id: "625FE4F06A2551D4"
 					type: "xp_levels"
-					xp_levels: 150
+					xp_levels: 100
 				}
 				{
 					count: 64
@@ -1259,6 +1433,17 @@
 					item: "create:polished_rose_quartz"
 					type: "item"
 				}
+				{
+					id: "6DB4F2F043E07755"
+					item: {
+						Count: 1
+						id: "protection_pixel:hookcannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			shape: "gear"
 			size: 1.5d
@@ -1269,7 +1454,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			description: ["The Sand Warrior is found in the &eSand Warrior Arena&r in deserts."]
@@ -1283,6 +1468,7 @@
 			id: "7D2F0EB437DEBAC2"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "176EEA816B59D27F"
 					type: "xp_levels"
 					xp_levels: 35
@@ -1373,7 +1559,7 @@
 				value: 1L
 			}]
 			x: 1.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			description: ["Gob can be summoned by finding the &eCourt of Gnomes&r structure. Kill nearby gnomes and get a &bGnome Hat&r. Then use one on the &eGolden Gnome Statue&r to start the fight."]
@@ -1400,6 +1586,7 @@
 			id: "1A4565C46375B2D6"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "41FA840CEB820E9C"
 					type: "xp_levels"
 					xp_levels: 60
@@ -1484,7 +1671,7 @@
 				value: 1L
 			}]
 			x: -1.5d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -1495,6 +1682,7 @@
 			id: "633467F29503E472"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "008342EAC819572C"
 					type: "xp_levels"
 					xp_levels: 45
@@ -1539,13 +1727,14 @@
 				value: 1L
 			}]
 			x: 0.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			description: ["Maledictus can be found in the &bFrosted Prison&r which can be located with the &aEye of Curse&r."]
 			id: "5ABEE3ED04DA2FB0"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "0D44F0D778D712FF"
 					type: "xp_levels"
 					xp_levels: 70
@@ -1644,16 +1833,17 @@
 				value: 1L
 			}]
 			x: 1.0d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			description: ["Lord Pumpkinhead can be summoned by finding an &ainfernal pumpkin&r and breaking it."]
 			id: "7EBF24A5BC8F700E"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "0B929D5653E4957D"
 					type: "xp_levels"
-					xp_levels: 50
+					xp_levels: 40
 				}
 				{
 					count: 35
@@ -1713,7 +1903,7 @@
 				value: 1L
 			}]
 			x: -1.0d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			description: [
@@ -1724,6 +1914,7 @@
 			id: "34C62A57BEE1862C"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "64C3CBDE87CC10E7"
 					type: "xp_levels"
 					xp_levels: 70
@@ -1824,13 +2015,14 @@
 				value: 1L
 			}]
 			x: -1.0d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			description: ["You can summon the Corundum Guardian using the &dCorundum Rememberance&r item."]
 			id: "1B4B51E98FF43138"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "53DAF275872F6936"
 					type: "xp_levels"
 					xp_levels: 60
@@ -1932,7 +2124,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
@@ -1940,9 +2132,10 @@
 			id: "5791F2FC818AEC9E"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "08B7367C08F92593"
 					type: "xp_levels"
-					xp_levels: 50
+					xp_levels: 45
 				}
 				{
 					count: 35
@@ -2019,6 +2212,7 @@
 			id: "3E22C9EC7D6359B8"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "000BFED2E1B0182A"
 					type: "xp_levels"
 					xp_levels: 65
@@ -2088,14 +2282,15 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			description: ["The Netherite Monstrosity is located in the &bSoul Blacksmith&r located in the Nether. You can find it with the &4Eye of Monstrous&r."]
 			id: "4528629565CF573D"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "2EA8859C92C6D74C"
 					type: "xp_levels"
 					xp_levels: 65
@@ -2200,7 +2395,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
@@ -2208,9 +2403,10 @@
 			id: "35CF07A6B63699DC"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "7EA13FD1527D6D11"
 					type: "xp_levels"
-					xp_levels: 40
+					xp_levels: 30
 				}
 				{
 					count: 30
@@ -2274,9 +2470,10 @@
 			id: "2FE05095147A3523"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "74AAB48AA39B6AD2"
 					type: "xp_levels"
-					xp_levels: 45
+					xp_levels: 35
 				}
 				{
 					count: 35
@@ -2329,9 +2526,10 @@
 			id: "1B82DA3680C337A1"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "5768CD6CFF7BB96A"
 					type: "xp_levels"
-					xp_levels: 60
+					xp_levels: 45
 				}
 				{
 					count: 40
@@ -2401,6 +2599,7 @@
 			id: "02A88BE88BC930CC"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "4729D9ACECC5860A"
 					type: "xp_levels"
 					xp_levels: 65
@@ -2486,6 +2685,7 @@
 			id: "4D6CF094A2B70EE0"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "2925442A68F66F16"
 					type: "xp_levels"
 					xp_levels: 60
@@ -2516,13 +2716,7 @@
 				}
 				{
 					id: "22F7061B8F48576B"
-					item: {
-						Count: 1
-						id: "land_of_goblins:wither_fungus_magma_sword"
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "minecraft:netherite_upgrade_smithing_template"
 					type: "item"
 				}
 				{
@@ -2597,6 +2791,7 @@
 			id: "39DEEB04530E1099"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "5C4F81C28F5B3F76"
 					type: "xp_levels"
 					xp_levels: 65
@@ -2703,7 +2898,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: -1.0d
 		}
 		{
@@ -2721,8 +2916,102 @@
 				}
 			}
 			id: "79670FA282218ED5"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "21B649DCE8C838C9"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 54
+					id: "3E09B56D8797CBD4"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "12459B55AA36E2C1"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2DD0FD9DE3C3A474"
+					item: {
+						Count: 1
+						id: "jeg:assault_rifle"
+						tag: {
+							AmmoCount: 30
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C50B75F0836C0F3"
+					item: {
+						Count: 1
+						id: "protection_pixel:lancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "584E32DF548DE48A"
+					item: {
+						Count: 1
+						id: "protection_pixel:wingsofprism_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A363D5F31F7D6A8"
+					item: {
+						Count: 1
+						id: "protection_pixel:slingshot_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CE365B70638573C"
+					item: {
+						Count: 1
+						id: "protection_pixel:socks_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "13C105931B647200"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "591A57537D65D89E"
+					item: {
+						Count: 1
+						id: "takesapillage:ravager_horn"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.25d
+			subtitle: "Killed all of the Raid Leaders"
 			tasks: [{
 				id: "4BEF6F493B716922"
 				title: "Raid Leaders"
@@ -2734,6 +3023,43 @@
 		{
 			description: ["The Freakager has a chance to spawn at the end of raids"]
 			id: "6CDA2802CE150B31"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "25ECBB9D7F45AD69"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 15
+					id: "57B777738B2CCFAA"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "5DD002A4E82FE63F"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "7858CF38292AC8A4"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "4A080480AC6DE9C9"
+					item: "scguns:iron_blueprint"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "73D6C29BE597A747"
+					item: "scguns:nitro_powder"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Freakager"
 			tasks: [{
 				entity: "illageandspillage:freakager"
@@ -2748,6 +3074,43 @@
 		{
 			description: ["The Spiritcaller has a chance to spawn at the end of raids"]
 			id: "7C65CEC0F60E63FA"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "2F9FC7C01E0A0627"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 18
+					id: "367D6675B7DD49DE"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3ED1F4ECAED004EB"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "3FD4F81C583198FB"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "4254286E9CB5F963"
+					item: "scguns:iron_blueprint"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "32442C2D11C41D2C"
+					item: "scguns:sheol"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Spiritcaller"
 			tasks: [{
 				entity: "illageandspillage:spiritcaller"
@@ -2768,6 +3131,56 @@
 		{
 			description: ["The Magispeller has a chance to spawn at the end of raids"]
 			id: "6C2CDD73458D05EC"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "186E477406280FD4"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 20
+					id: "4E24E92201DB649B"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "25CC8C11B2721F68"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 35
+					id: "4002FE71CD706A25"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "048D681300069A87"
+					item: {
+						Count: 1
+						id: "scguns:iron_spear"
+						tag: {
+							AmmoCount: 5
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "640D113F725CCB41"
+					item: "scguns:krahg_round"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7E9F62C560599E6C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Magispeller"
 			tasks: [{
 				entity: "illageandspillage:magispeller"
@@ -2782,6 +3195,44 @@
 		{
 			description: ["The Ragno has a chance to spawn at the end of raids with the Freakager."]
 			id: "2229CF930268FA21"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "091A7233CBB7717D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "2A4C5E4632F06898"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "018CC2BA42B04834"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "11B189B115EF313C"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5A1C482EE40B5735"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3DFD254B8CFC254F"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+			]
 			subtitle: "Kill 1 Ragno"
 			tasks: [{
 				entity: "illageandspillage:old_ragno"
@@ -3045,6 +3496,179 @@
 			]
 			description: ["Summon the Super Sniffer by striking a &asniffer&r with &blightning&r."]
 			id: "4E4856F9F8E2552D"
+			rewards: [
+				{
+					id: "3BD7E6D0D5DA9297"
+					type: "xp_levels"
+					xp_levels: 150
+				}
+				{
+					count: 50
+					id: "19529B8D2EE2771B"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 80
+					id: "1E6B6A343DA8BDC0"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "199F237521A80E7A"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "7DBEDAF59C03AC14"
+					item: "terramity:bottomless_ammo_box"
+					type: "item"
+				}
+				{
+					id: "50C9A2D041F14BE2"
+					item: "terramity:headhunter_talisman"
+					type: "item"
+				}
+				{
+					id: "2231F5E096CE7CCE"
+					item: "terramity:analeptic_amphora"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "24E878AEECF0F50E"
+					item: "terramity:black_matter"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3B29782CB8017527"
+					item: "terramity:nyxium"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "53FFB3149607D463"
+					item: "terramity:exodium_superalloy"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2A44CF27EE53B2ED"
+					item: "terramity:profanum"
+					type: "item"
+				}
+				{
+					id: "16B5A26A88DC3DE4"
+					item: "terramity:hellspec_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "458F7CE5441D8166"
+					item: {
+						Count: 1
+						id: "terramity:evil_king_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "356D9BDCE63C6FFB"
+					item: {
+						Count: 1
+						id: "terramity:evil_king_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55E9B39802D848E4"
+					item: {
+						Count: 1
+						id: "terramity:evil_king_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "761CF8D995E6040C"
+					item: {
+						Count: 1
+						id: "terramity:evil_king_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "091FA8001639EF6B"
+					item: {
+						Count: 1
+						id: "tarotcards:the_sun"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "484502A688E856E8"
+					item: {
+						Count: 1
+						id: "terramity:hero_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51FFA940DDEE0560"
+					item: "minecraft:sniffer_egg"
+					type: "item"
+				}
+				{
+					id: "4D6FA61667AA6E38"
+					item: {
+						Count: 1
+						id: "terramity:railgun"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "6B3BB4B627641C77"
+					item: "terramity:iridium_round"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "0220886FE833947B"
+					item: "terramity:dimlite_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0CCDB6208BDC7CE9"
+					item: "terramity:antimatter_round"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "3BA71937A30BEEDA"
+					item: "terramity:gold_round"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.75d
 			subtitle: "Kill 1 Super Sniffer"
@@ -3073,10 +3697,10 @@
 				{
 					id: "5BFCA79BF17785B3"
 					type: "xp_levels"
-					xp_levels: 200
+					xp_levels: 150
 				}
 				{
-					count: 64
+					count: 200
 					id: "7E38E27E481EA301"
 					item: "jeg:gunnite_ingot"
 					type: "item"
@@ -3404,9 +4028,10 @@
 			id: "7ACE21C65228484A"
 			rewards: [
 				{
+					auto: "no_toast"
 					id: "2103C1984DFE59D1"
 					type: "xp_levels"
-					xp_levels: 45
+					xp_levels: 35
 				}
 				{
 					id: "5B8204C15E94257F"
@@ -3576,7 +4201,57 @@
 			y: -5.0d
 		}
 		{
+			description: ["Summon the observer by crafting and using the &2Observer Spawn Egg&r item."]
 			id: "316C2A97F8C19763"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "6C352AA736E24872"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					count: 25
+					id: "2E8591C44462A686"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "4FBF413BC37C7843"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 45
+					id: "7332A5D3D6096EA4"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "6F3C18CDA4E3175F"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7D9E3A33CF6C6632"
+					item: "scguns:peal"
+					type: "item"
+				}
+				{
+					id: "70CEB90E48C37D49"
+					item: "cartoon_soul:theobserver"
+					type: "item"
+				}
+				{
+					id: "6A704789484DE87F"
+					item: "confluence:eye_of_the_golem"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Observer"
 			tasks: [{
 				entity: "cartoon_soul:observer"
 				icon: "cartoon_soul:theobserver"
@@ -3584,19 +4259,75 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
+			description: ["You can summon the Dwarf Golem by using the &aTotem of Freak&r item."]
 			id: "6625209A32BC788C"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "5F55B3F4A2F9B438"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 15
+					id: "376CB40A43827FD5"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "20F426E9557C2D1A"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "5B06163A0951578E"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "015F24EA543FC96D"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7F7FF19782329C13"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "370A0C348435C56F"
+					item: "scguns:iron_blueprint"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "41896E65CEC47F24"
+					item: "scguns:treated_iron_ingot"
+					type: "item"
+				}
+				{
+					id: "10F270C07AE6FD23"
+					item: "terramity:steady_pendant"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Dwarf Golem"
 			tasks: [{
 				entity: "cartoon_soul:dwarfgolem"
-				icon: "terramity:mossy_dungeon_bricks"
+				icon: "cartoon_soul:totemofmech"
 				id: "74A74E831B7B4900"
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -3661,6 +4392,12 @@
 					item: "confluence:toolbox"
 					type: "item"
 				}
+				{
+					auto: "no_toast"
+					id: "4B9DEDD7A3BD01DC"
+					type: "xp_levels"
+					xp_levels: 45
+				}
 			]
 			subtitle: "Kill 1 The Destructor, Furens"
 			tasks: [{
@@ -3671,6 +4408,134 @@
 				value: 1L
 			}]
 			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"27BB666479FB438A"
+				"6102D47970756843"
+			]
+			icon: "minecraft:ender_eye"
+			id: "0E39E546492463F3"
+			shape: "gear"
+			size: 1.25d
+			subtitle: "Killed the End Tyrants"
+			tasks: [{
+				id: "41BE215BD2F3C4BE"
+				title: "End Tyrants"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: -3.75d
+		}
+		{
+			id: "27BB666479FB438A"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "135CFD01D3804BE0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			id: "6102D47970756843"
+			tasks: [{
+				entity: "animatedmobsmod:ender_king"
+				icon: {
+					Count: 1
+					id: "animatedmobsmod:ender_spectre"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "344EF95C79F8849B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			description: ["You can summon The Adjuster by crafting a &5Totem of Freak&r and using the item."]
+			id: "1516358D67FDF917"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "48E0EAAF4D6D15F9"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 30
+					id: "7282ABDD109A7BF0"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "1C29288277586186"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 45
+					id: "0958B65FA60AB76E"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "231A95EEB2DC71C1"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "35BF3721F765C1EE"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					id: "2D0CDF7EFA7AE759"
+					item: {
+						Count: 1
+						id: "scguns:jackhammer"
+						tag: {
+							AmmoCount: 12
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5EFEB0DA377D83F0"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+				{
+					id: "1BD78FD8F769636A"
+					item: "cartoon_soul:totem_of_freak"
+					type: "item"
+				}
+				{
+					id: "0EF7EBC4D713E1D2"
+					item: "confluence:magic_mirror"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 The Adjuster, Gycklare"
+			tasks: [{
+				entity: "cartoon_soul:jesterknight"
+				icon: "cartoon_soul:totem_of_freak"
+				id: "5194DB56647EDF5D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
 			y: -4.0d
 		}
 	]

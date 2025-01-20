@@ -56,6 +56,16 @@
           "attribute": "minecraft:generic.max_health",
           "value": 120,
           "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 1,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     },
@@ -150,8 +160,13 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 70,
+          "value": 80,
           "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     },
@@ -166,8 +181,13 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 80,
+          "value": 90,
           "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     },
@@ -193,12 +213,17 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 2.0,
+          "value": 4.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 180,
+          "value": 230,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 1,
           "operation": "ADDITION"
         }
       ]
@@ -216,6 +241,16 @@
           "attribute": "minecraft:generic.max_health",
           "value": 80,
           "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 1,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     },
@@ -248,6 +283,16 @@
           "attribute": "minecraft:generic.max_health",
           "value": 150,
           "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 1,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     },
@@ -257,12 +302,22 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 8.0,
+          "value": 20.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 200,
+          "value": 400,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 1,
           "operation": "ADDITION"
         },
         {
@@ -301,6 +356,11 @@
           "attribute": "minecraft:generic.max_health",
           "value": 60,
           "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 1,
+          "operation": "ADDITION"
         }
       ]
     },
@@ -315,13 +375,23 @@
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 100,
+          "value": 140,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.attack_knockback",
           "value": 2,
           "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 1,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
         }
       ]
     },
@@ -347,16 +417,26 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 8.0,
+          "value": 20.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 270,
+          "value": 40,
           "operation": "ADDITION"
         },
         {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
           "attribute": "minecraft:generic.attack_knockback",
+          "value": 2,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
           "value": 1,
           "operation": "ADDITION"
         }
@@ -368,16 +448,21 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 10.0,
+          "value": 20.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 300,
+          "value": 500,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.attack_knockback",
+          "value": 2,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
           "value": 1,
           "operation": "ADDITION"
         },
@@ -666,6 +751,16 @@
         {
           "attribute": "minecraft:generic.max_health",
           "value": 350,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.25,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 1,
           "operation": "ADDITION"
         }
       ]
@@ -964,12 +1059,12 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 5.0,
+          "value": 8.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 400,
+          "value": 500,
           "operation": "ADDITION"
         }
       ]
@@ -2332,12 +2427,12 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 3.0,
+          "value": 5.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 70.0,
+          "value": 180.0,
           "operation": "ADDITION"
         }
       ]
@@ -2673,12 +2768,12 @@
       "attributes": [
         {
           "attribute": "minecraft:generic.armor",
-          "value": 13.0,
+          "value": 15.0,
           "operation": "ADDITION"
         },
         {
           "attribute": "minecraft:generic.max_health",
-          "value": 50.0,
+          "value": 70.0,
           "operation": "ADDITION"
         }
       ]
@@ -3617,6 +3712,162 @@
         {
           "attribute": "minecraft:generic.movement_speed",
           "value": 0.2,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "value": 1,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "cartoon_soul:dwarfgolem",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 6.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 150.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.1,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "value": 1,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "cartoon_soul:observer",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 6.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 150.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.1,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "value": 1,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "cartoon_soul:hand",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 6.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.1,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "value": 1,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "cartoon_soul:furious",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 7.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 100.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.1,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "value": 1,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "cartoon_soul:jesterknight",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 5.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 100.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.1,
+          "operation": "MULTIPLY_BASE"
+        },
+        {
+          "attribute": "minecraft:generic.attack_knockback",
+          "value": 1,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    {
+      "entity_regex": "ba_bt:land_golem",
+      "apply_chance": 100.0,
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "value": 25.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.max_health",
+          "value": 200.0,
+          "operation": "ADDITION"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.1,
           "operation": "MULTIPLY_BASE"
         },
         {
