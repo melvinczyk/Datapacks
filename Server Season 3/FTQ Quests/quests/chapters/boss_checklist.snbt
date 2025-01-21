@@ -4630,9 +4630,109 @@
 				"4DB9AB307ACEB4DB"
 				"682E36F656BDD350"
 			]
+			description: ["This is the final boss in its questline. &bSaphyra&r turns into this after defeating her."]
 			id: "67038F34FA71724D"
+			rewards: [
+				{
+					id: "0817BB6F494148CB"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					count: 30
+					id: "133D472F094495C0"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "7921686D8B534AEF"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 100
+					id: "11E3E9ADDEB2BF38"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "08202D25F7AAFAB7"
+					item: "terramity:amp_shield"
+					type: "item"
+				}
+				{
+					id: "092D24DADBC92AFC"
+					item: {
+						Count: 1
+						id: "terramity:davy_jones"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "23832F23C014C8F4"
+					item: "terramity:dimlite_round"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "43231F07409C9FFD"
+					item: "terramity:gold_round"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "6DACDE5F3C683291"
+					item: "terramity:copper_round"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "62641BB05A584598"
+					item: "terramity:antimatter_round"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "05AB469707528BF0"
+					item: "terramity:iridium_round"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "0F44B3EBE756CB70"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "799D97DDBDE8B91E"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "1D8B9004F25C7EFD"
+					item: "scguns:auto_turret"
+					type: "item"
+				}
+				{
+					id: "5FCB3358A09FB547"
+					item: "confluence:celestial_stone"
+					type: "item"
+				}
+				{
+					id: "764482206F6FA204"
+					item: "terramity:lava_gauntlet"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			size: 1.75d
+			subtitle: "Kill 1 Ivory Devil"
 			tasks: [{
 				entity: "mokels_bossfight_saphyra:mothboss"
 				icon: "mokels_bossfight_saphyra:bottomless_bag"
@@ -4644,8 +4744,57 @@
 			y: -1.75d
 		}
 		{
+			description: ["Follow the questline, you fight her after the nameless guardian."]
 			id: "052FD41BE228AA72"
+			rewards: [
+				{
+					id: "3885A91A9F4473AE"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 15
+					id: "61D5DE2E21481BD7"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "1ADCCFBFC023FB05"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "02D77722EC969FD5"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "55553F83B34D2FE4"
+					item: "mokels_bossfight_saphyra:rule_of_the_p_lagued"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "35106679F43FFBCA"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					count: 14
+					id: "12F06CA5C37A81F0"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					id: "7E9FD4D76D63791D"
+					item: "confluence:flower_boots"
+					type: "item"
+				}
+			]
 			size: 1.0d
+			subtitle: "Kill 1 Saphyra"
 			tasks: [{
 				entity: "mokels_bossfight_saphyra:witchboss"
 				icon: "mokels_bossfight_saphyra:saphyra_remembrance"
@@ -4965,7 +5114,68 @@
 			y: 2.0d
 		}
 		{
+			description: [
+				"Found in the Church of Oath Pus, you must complete the wuestline before heading there."
+				""
+				"Here is a link to the guide:"
+				" &bhttps://www.curseforge.com/minecraft/mc-mods/the-shattered-goddess-mokels-bossfight-saphyra&r"
+				"{image: width:100 height:100 align:center}"
+			]
 			id: "4AF0D0628D30EB80"
+			rewards: [
+				{
+					id: "5B678599A26F64F0"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 15
+					id: "094D59A256E98E21"
+					item: "jeg:gunnite_ingot"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "678EA7CED6117A11"
+					item: "jeg:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "0E36803E26FCC103"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "1DC5165AE3901FAA"
+					item: "mokels_bossfight_saphyra:rule_of_exudation"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "5CE54ADFA8FA9EC1"
+					item: "scguns:sulfur_dust"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "0AD640E27A6086F8"
+					item: "scguns:phosphor_dust"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6A14528AF6C3087A"
+					item: "scguns:enchanted_bandage"
+					type: "item"
+				}
+				{
+					id: "705B55591B3196EA"
+					item: "confluence:recon_scope"
+					type: "item"
+				}
+			]
+			subtitle: "Kill 1 Nameless Gatekeeper"
 			tasks: [{
 				entity: "mokels_bossfight_saphyra:nameless"
 				icon: "mokels_bossfight_saphyra:nameless_gatekeeper_remembrance"
@@ -5824,6 +6034,41 @@
 			}]
 			x: -3.0d
 			y: 3.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"After first starting the world you automatically obtain the &aSigil of the Red Sun&r (don't loose it as there is no way to get it back) Head to the &2Fractured Clock Tower&r and rightclick the ominous looking hand with it. After doing so you encounter Linara. She will give you an &aInvitation&r and a &aHallowed Sigil Key (Worship)&r. Wait for her dialog to finish and head to the Three Hallowed Towers. Once you got there, rightclick the white fog wall with the Hallowed Sigil Key (Worship). Now you can speak with Saphyra. Wait for her dialog to finish and give her the &aInvitation&r you got from Linara. You might have noticed that the &aSigil of the Red Sun&r is now broken. To repair it you need to rightclick a statue of Lyior with it. One of these statues is located right at the &amain entrance&r of the &aChurch of the Oath Pus&r"
+				""
+				"After doing so you become a part of her group and she gives you a &aPus Sigil Key (Hatred)&r"
+				"With this key you'll be able to enter the &aChurch of the Oath Pus&r. Now go to the church i just mentioned and fight your way to the room at the very top. There you will find the &aSinister Gate Key&r inside a chest. With it you can open the big gate in the main entrance"
+				""
+				"Behind this gate is a blue glowing fog wall, you can just just walk through it. After phasing through the blue fog, you see the first boss in the middle of the room, the N&aameless Gatekeeper.&r I'd recommend that you wear at least diamond tier armor."
+				""
+				"Once defeated he drops his &amemory&r. Take it back to the three hallowed towers and rightclick Saphyra with it."
+				"She will tell you to visit her student marlene. To get to her, enter the lowest tower and make your way to the fog wall on the upper level. Use the &aHallowed Sigil Key (Chain)&r you obtained from saphyra and the fog will shatter. Take the path to the right that leads into the main tower. You will notice that there is an invisible floor. To enter the room under you, take the &aladder&r right beside the &abarrels&r. Marlene will then ask you to do her a favor before converting the Memory you obtained. She wants a book she hasn't read yet. In order to get it, head to the highest and thinnest of the three towers and make your way to the top. Once you got there use the repaired &aSigil of the Red Sun&r on the &aOddment&r right before you. Linara will now instruct you to fetch the &aManic Eye&r for her. She will give you the &aPus Sigil Key (Lovers)&r use this key on the middle left churchtower located at the &aChurch of the Oath Pus&r. Once you broke the fog wall you are able to get all the good stuff in there. Take the &aTale of the Artificial God&r with you and the &aManic Eye.&r You will notice that the Manic Eye slowly curses you with manic. To prevent becoming insane, drop the Item and take a break till your manic bar lowers itself again. Repeat this process until you &aget back to Linara and give it to her.&r "
+				""
+				"Note: Giving Linara the Manic Eye is completely optional but will unlock Linaras sidequest in later chapters. However you need the Tale of the Artificial God to progress in the main story. "
+				""
+				"Now head back to Marlene and give her the &aTale of the Artificial God&r. After waiting for her dialog to finish you are now able to convert the &aMemory of the Nameless Gatekeeper.&r Give it to her and she will give you two goodies and a key to the &aObservatory&r. Once you arrived there, open the door with the key Marlene gave you. "
+				""
+				"After her defeat you've completed &achapter 1&r (keep in mind that this was the tutorial. After chapter 1, fights are gonna be harder and will introduce you to a leveling system)"
+			]
+			icon: "mokels_bossfight_saphyra:sigil_of_the_red_sun"
+			id: "13B9F39FA7C1155E"
+			rewards: [{
+				id: "293E8F68CB37883F"
+				item: "mokels_bossfight_saphyra:sigil_of_the_red_sun"
+				type: "item"
+			}]
+			subtitle: "Use this to get the quest item for the Ivory Devil questline"
+			tasks: [{
+				id: "6A606DADC915F8A6"
+				title: "Give Blood Sigil"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -3.0d
 		}
 	]
 	title: "Boss Checklist"
