@@ -6,7 +6,7 @@
   "materials": [
     {
       "item": "minecraft:netherite_ingot",
-      "count": 3
+      "count": 4
     },
     {
       "item": "jeg:gunnite_ingot",
@@ -22,7 +22,7 @@
     },
     {
       "item": "born_in_chaos_v1:dark_metal_ingot",
-      "count": 3
+      "count": 4
     },
     {
       "item": "minecraft:lever",

@@ -3,7 +3,7 @@ import os
 
 def update_gunnite_count(json_data):
     for material in json_data.get("materials", []):
-        if material.get("item") == "jeg:gunnite_ingot":
+        if material.get("item") == "born_in_chaos_v1:dark_metal_ingot":
             material["count"] += 1
     return json_data
 
@@ -20,5 +20,5 @@ def process_json_files(folder_path):
             with open(file_path, "w") as file:
                 json.dump(updated_json, file, indent=2)
 
-folder_path = "/Users/nicholasburczyk/Desktop/Minecraft server stuff/Datapacks/Server Season 3/Aurora's-Arsenal/data/aurorasarsenal/recipes"
+folder_path = "/Users/nicholasburczyk/Desktop/Minecraft server stuff/Datapacks/Server Season 3/M'TEG/data/mteg/recipes"
 process_json_files(folder_path)

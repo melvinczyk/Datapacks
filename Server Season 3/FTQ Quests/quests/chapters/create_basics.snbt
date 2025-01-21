@@ -3,9 +3,329 @@
 	default_quest_shape: ""
 	filename: "create_basics"
 	group: ""
+	icon: "biomesoplenty:origin_grass_block"
 	id: "2AB3CFA46AE8C25A"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
-	title: "Create Basics"
+	quests: [
+		{
+			description: [
+				"Welcome to the &aModpack&r, as you may have seen this is &every different&r that ordinary worlds. "
+				""
+				"This chapter shows all of the features that are different in the world that you &e&nneed&r&r to know about."
+			]
+			icon: "minecraft:grass_block"
+			id: "64E107A0C83B8061"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Welcome to the Modpack"
+			tasks: [{
+				id: "0BFE6670285A0485"
+				title: "Welcome"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64E107A0C83B8061"]
+			description: [
+				"The world is very vertical and movement is &aKEY!!!!&r Most of the bosses and some enemies you will encounter will be &aHARD!!!!!!&r Armor and gear helps, but ultimately its a &6skill issue&r in combat."
+				""
+				"Use &bmovement&r and &bverticality&r to your advantage and you will make it very far. Having &bgood aim&r and &bbeing aware&r of your suroundings will be important for survival."
+			]
+			icon: {
+				Count: 1
+				id: "grapplemod:grapplinghook"
+				tag: {
+					Damage: 0
+					custom: {
+						angle: 20.0d
+						attract: 0b
+						attractradius: 3.0d
+						crc32: 2252267022L
+						detachonkeyrelease: 0b
+						doublehook: 0b
+						enderstaff: 0b
+						hookgravity: 1.0d
+						maxlen: 30.0d
+						motor: 0b
+						motoracceleration: 0.2d
+						motordampener: 0b
+						motormaxspeed: 4.0d
+						motorwhencrouching: 0b
+						motorwhennotcrouching: 1b
+						oneropepull: 0b
+						phaserope: 0b
+						playermovementmult: 1.0d
+						pullbackwards: 1b
+						reelin: 1b
+						repel: 0b
+						repelforce: 1.0d
+						rocket: 0b
+						rocket_active_time: 0.5d
+						rocket_force: 1.0d
+						rocket_refuel_ratio: 15.0d
+						rocket_vertical_angle: 0.0d
+						smartdoublemotor: 1b
+						smartmotor: 0b
+						sneakingangle: 10.0d
+						sneakingverticalthrowangle: 0.0d
+						sticky: 0b
+						throwspeed: 2.0d
+						verticalthrowangle: 0.0d
+					}
+				}
+			}
+			id: "00FE6A75A4D506D7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5ED81C4B641AB012"
+					item: {
+						Count: 1
+						id: "grapplemod:grapplinghook"
+						tag: {
+							Damage: 0
+							custom: {
+								angle: 20.0d
+								attract: 0b
+								attractradius: 3.0d
+								crc32: 2252267022L
+								detachonkeyrelease: 0b
+								doublehook: 0b
+								enderstaff: 0b
+								hookgravity: 1.0d
+								maxlen: 30.0d
+								motor: 0b
+								motoracceleration: 0.2d
+								motordampener: 0b
+								motormaxspeed: 4.0d
+								motorwhencrouching: 0b
+								motorwhennotcrouching: 1b
+								oneropepull: 0b
+								phaserope: 0b
+								playermovementmult: 1.0d
+								pullbackwards: 1b
+								reelin: 1b
+								repel: 0b
+								repelforce: 1.0d
+								rocket: 0b
+								rocket_active_time: 0.5d
+								rocket_force: 1.0d
+								rocket_refuel_ratio: 15.0d
+								rocket_vertical_angle: 0.0d
+								smartdoublemotor: 1b
+								smartmotor: 0b
+								sneakingangle: 10.0d
+								sneakingverticalthrowangle: 0.0d
+								sticky: 0b
+								throwspeed: 2.0d
+								verticalthrowangle: 0.0d
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F10982D69F56A1A"
+					item: {
+						Count: 1
+						id: "jeg:revolver"
+						tag: {
+							AmmoCount: 8
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					exclude_from_claim_all: true
+					id: "6D6E1AC06B5F9AB4"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Main key in combat"
+			tasks: [{
+				id: "288D13A1F1633C95"
+				title: "World Changes"
+				type: "checkmark"
+			}]
+			title: "Movement and Combat"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "19BC0ABC01FFBBE0"
+			tasks: [{
+				id: "15BD0F2C9D1E3E3F"
+				title: "Technology"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "2611DFBB1AEF32F4"
+			tasks: [{
+				id: "74BFEB6CFA6A149F"
+				title: "Resources"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64E107A0C83B8061"]
+			description: [
+				"Most of all humanoid fodder enemies &eweild guns&r. Enemies with &aTurtle Helmets&r are beefy gunners and are &etougher to defeat.&r"
+				""
+				"Mobs with guns are in &afactions&r, each having a specific loadout, there are around &e12 factions&r in the world, each covering a different type of mob group."
+				""
+				"Snipers will target you with a&c red laser beam&r, move or take them out before they fire."
+			]
+			icon: {
+				Count: 1
+				id: "jeg:double_barrel_shotgun"
+				tag: {
+					AmmoCount: 2
+					Damage: 0
+				}
+			}
+			id: "1CAFE50318971604"
+			rewards: [{
+				count: 16
+				id: "34E2A7488CB462CE"
+				item: "jeg:pistol_ammo"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "How enemies have changed and how they will attack"
+			tasks: [{
+				id: "4DD1E2C0B3F66A18"
+				title: "Mechanics"
+				type: "checkmark"
+			}]
+			title: "Enemies and Mechanics"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00FE6A75A4D506D7"]
+			description: [
+				"You will &4not&r have a typical world map. Since this is a gun-based and tactical movement world, you will have &dlimited information&r about your enemies and their tactics. &n(Trust me its a lot more fun)"
+				"&r"
+				"Your map will not display &4enemies&r, &astructures&r, or &8caves&r. But it is still really useful!!!"
+				""
+				"Your have a slot for your map in your &6Curios&r slot (The circle button by your character) and it will automatically chart down new territory. You can still add &amarkers&r and even expand maps. You need a constant supply of &npapper&r to add more maps."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						maps: [I; ]
+					}
+				}
+				id: "map_atlases:atlas"
+			}
+			id: "7A5C836DC5796DE5"
+			rewards: [
+				{
+					id: "790AE56BCDF3EAC0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								maps: [I; ]
+							}
+						}
+						id: "map_atlases:atlas"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "56AC591E94E561EE"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Learn how to use your map"
+			tasks: [{
+				id: "6FE71A0C5280AC2C"
+				title: "Cartography"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00FE6A75A4D506D7"]
+			description: [
+				"There are no Oceans so plan accordingly on how you will get some of these resources. "
+				""
+				"&aSUGARCANE IS VERY RARE!!!!&r&n&l"
+				""
+				"I will give you some here, &aUSE IT WISELY!!!&r"
+			]
+			icon: "minecraft:heart_of_the_sea"
+			id: "0D714E6505022B97"
+			rewards: [
+				{
+					count: 3
+					id: "2AC4384AD23F2315"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "25566460FCCA6AE8"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+			]
+			subtitle: "There are no Oceans"
+			tasks: [{
+				id: "04E4BFDD5BB02AC4"
+				title: "No Oceans"
+				type: "checkmark"
+			}]
+			title: "No Oceans"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Gunner factions will periodically start raids every &c15 days&r or by using a &craid flare&r."
+				""
+				"When a raid is defeated they will drop a gun &bblueprint&r that can be used to craft unique guns."
+			]
+			icon: {
+				Count: 1
+				id: "jeg:flare"
+				tag: {
+					HasRaid: 1b
+					display: {
+						Name: "{\"italic\":false,\"color\":\"red\",\"translate\":\"item.jeg.raid_flare\"}"
+					}
+				}
+			}
+			id: "7891BA85B5F6E5F5"
+			subtitle: "How gunners will start raids"
+			tasks: [{
+				id: "507C60B3C66B2561"
+				title: "Raids"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+	]
+	title: "Getting Started"
 }

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "born_in_chaos_v1:dark_metal_nugget"
+    },
+    "b": {
+      "item": "born_in_chaos_v1:monster_skin"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:nightmare_mantleofthe_night_boots",
+    "count": 1
+  }
+}

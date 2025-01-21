@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "born_in_chaos_v1:ethereal_spirit"
+    },
+    "b": {
+      "item": "born_in_chaos_v1:empty_fel_lamp"
+    },
+    "c": {
+      "item": "born_in_chaos_v1:orbofthe_summoner"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:fel_lamp",
+    "count": 1
+  }
+}

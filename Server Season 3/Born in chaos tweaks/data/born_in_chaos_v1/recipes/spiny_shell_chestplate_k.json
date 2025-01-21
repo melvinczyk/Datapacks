@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "born_in_chaos_v1:spiny_shell"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:spiny_shell_armor_chestplate",
+    "count": 1
+  }
+}

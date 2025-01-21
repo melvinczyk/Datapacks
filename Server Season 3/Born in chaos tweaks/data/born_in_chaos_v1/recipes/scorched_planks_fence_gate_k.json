@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "born_in_chaos_v1:scorched_planks"
+    }
+  },
+  "result": {
+    "item": "born_in_chaos_v1:scorched_planks_fence_gate",
+    "count": 2
+  }
+}
