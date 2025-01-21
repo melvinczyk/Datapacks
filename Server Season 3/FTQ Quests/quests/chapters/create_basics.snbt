@@ -10,7 +10,7 @@
 	quests: [
 		{
 			description: [
-				"Welcome to the &aModpack&r, as you may have seen this is &every different&r that ordinary worlds. "
+				"Welcome to the &aModpack&r, as you may have seen this is &every different&r than ordinary worlds. "
 				""
 				"This chapter shows all of the features that are different in the world that you &e&nneed&r&r to know about."
 			]
@@ -156,7 +156,7 @@
 				title: "World Changes"
 				type: "checkmark"
 			}]
-			title: "Movement and Combat"
+			title: "Movement, Combat, and the World"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -507,7 +507,7 @@
 				title: "Stands"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 4.0d
 		}
 		{
@@ -534,6 +534,16 @@
 					item: "create:water_wheel"
 					type: "item"
 				}
+				{
+					id: "7063B68445CD5D26"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "7905F6DE35CF4299"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			subtitle: "How to generate power with Create"
@@ -546,7 +556,45 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["19BC0ABC01FFBBE0"]
+			description: [
+				"You have a rotating wheel now, lets connect it to some power and beginner appliances. You use &aShafts&r and &aGears&r to connect to different appliances."
+				""
+				"The first appliance you need is the &6Mechanical Press&r, which presses items into new ones. You &cNEED THIS APPLIANCE&r to start out and make iron sheets."
+				""
+				"Just provide it power and drop an iron ingot below it."
+			]
+			icon: "create:large_cogwheel"
 			id: "55D84AD64BA77BDF"
+			rewards: [
+				{
+					count: 16
+					id: "18860E60DB999C26"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "0326B234C22B99D5"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "7A14C29C4D53B34E"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "74619DF714A20877"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "7DDD97E117255A69"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
 			subtitle: "How to connect power to appliances"
 			tasks: [{
 				id: "06E838DB99457E1D"
@@ -555,6 +603,144 @@
 			}]
 			x: 1.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["1CAFE50318971604"]
+			description: [
+				"Since the world is already so &cunforgiving&r, I decided to make dying &aless of a pain&r, you're welcome...."
+				""
+				"When you die all of your belongings will be stored in a &agravestone.&r All you have to do is &cbreak it&r and you'll get your stuff back."
+				""
+				"If you die from a &czombie&r or from &cinfection&r, there will instead be a zombie version of you with your loot on it."
+			]
+			icon: "born_in_chaos_v1:shattered_skull"
+			id: "27F833CBB9A2394B"
+			rewards: [{
+				id: "6FA4615A00BE5C7E"
+				item: "gravestone:gravestone"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "How death works"
+			tasks: [{
+				id: "54A63599347EAC6E"
+				title: "Death"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["19BC0ABC01FFBBE0"]
+			description: [
+				"Since Create is a semi-large mod, it can be overwhelming at first to know what to do. But &atrust me&r it is a lot &6easier&r than you think."
+				""
+				"You do not have to dive deep into &aCreate&r to do amazing things, or anything at all. But with this mod you will have an abundance of resources for bullets that &cYOU WILL NEED!!!!&r"
+				""
+				"There are lots of YouTube videos covering the basics of Create. I don't even know that much about the mod as well. I sugest watching &6\"Dejojotheawesome\"&r as he does a pretty good job at explaining Create."
+			]
+			icon: "create:goggles"
+			id: "5F4711E8D5704802"
+			rewards: [
+				{
+					id: "38FE34B3AFF2BB75"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "293292BD99B2E792"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "4F514C255DBC8C50"
+					item: "create:clutch"
+					type: "item"
+				}
+				{
+					id: "3BD35009E95552DF"
+					item: "create:gearshift"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "How to learn more about create and how to use it"
+			tasks: [{
+				id: "44C5D2C6BAF20A21"
+				title: "How to learn more"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19BC0ABC01FFBBE0"]
+			description: [
+				"&aAndesite casing&r is tricky to make at first. There is no crafting recipe to make it because you need to make it &cin the world.&r"
+				""
+				"Take a &6stripped log&r on the ground, have &6andesite alloy&r in your hand, and then &aclick the log&r."
+			]
+			icon: "create:andesite_casing"
+			id: "6C35E7BC217A6399"
+			rewards: [
+				{
+					id: "5B302C9B0433AE29"
+					item: "minecraft:stripped_oak_log"
+					type: "item"
+				}
+				{
+					id: "53AF4C6250BBA6D2"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "How to make andesite casing"
+			tasks: [{
+				id: "11D5E5612B2EA453"
+				title: "Andesite Casing"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["19BC0ABC01FFBBE0"]
+			description: [
+				"Lets say you wanted to make a windmill, you set up the spinning part and even placed your wool or sails around it. &cBut it wont move!!!!!!&r"
+				""
+				"This is because you need to &aglue the parts together&r. Its like telling it \"hey these are the parts I want to move with it\". You use &asuperglue&r to do this."
+			]
+			icon: {
+				Count: 1
+				id: "create:super_glue"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "737170BD0B08CDAA"
+			rewards: [{
+				count: 5
+				id: "3E6B220027D9882A"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Superglue is NECESSARY for all moving contraptions"
+			tasks: [{
+				id: "25C7C012BEA5BF5A"
+				title: "Superglue"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.0d
 		}
 	]
 	title: "Getting Started"
