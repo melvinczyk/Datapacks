@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#is_overworld",
-  "features": "born_in_chaos_v1:dark_metal_deposit",
-  "step": "underground_ores"
-}

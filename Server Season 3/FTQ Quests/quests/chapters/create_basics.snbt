@@ -161,7 +161,31 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["64E107A0C83B8061"]
+			description: [
+				"Technology is a &cBIG&r part in this world. You will need it to &ecraft items faster, craft bullets and tools, generate resources, and create powerful gear and vehicles.&r "
+				""
+				"&aOverall it is a net benefit&r you learn about it as it is the only way you will have abundant resources in this world. "
+				""
+				"&bThe Create&r mod is not too complex as &cyou do not need to go deep at all&r to start doing things. If you do not know what a block does, you can &bhold \"w\"&r  on it."
+			]
+			icon: "create:wrench"
 			id: "19BC0ABC01FFBBE0"
+			rewards: [
+				{
+					id: "28E9C22713CA8262"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "3C0B712510B1421F"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "The Create mod and how to learn more"
 			tasks: [{
 				id: "15BD0F2C9D1E3E3F"
 				title: "Technology"
@@ -171,7 +195,51 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["64E107A0C83B8061"]
+			description: [
+				"There are a lot of &aresources&r in the world that you need for guns and ammo. Gunpowder can be made in many different ways with sulfur, phosphorus, niter dust, etc."
+				""
+				"&6Scrap&r is used for crafting guns for &6JEG&r as well as attachments."
+				""
+				"&6Scorched guns&r adds a lot of rocks in the game that require some grinding to make useful. &6Anthralite&r is an important ore for creating guns."
+			]
+			icon: "scguns:raw_phosphor"
 			id: "2611DFBB1AEF32F4"
+			rewards: [
+				{
+					count: 5
+					id: "0E0E9DCADDF1B214"
+					item: "jeg:scrap"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5D7319FFD2E9EB0B"
+					item: "scguns:sulfur_chunk"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2E10AD040FCFEFD1"
+					item: "scguns:raw_phosphor"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "260FE1EB6C8E92D6"
+					item: "scguns:phosphorite"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1BF3704AD7C7C88E"
+					item: "scguns:raw_anthralite"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Quick guide on world resources"
 			tasks: [{
 				id: "74BFEB6CFA6A149F"
 				title: "Resources"
@@ -290,6 +358,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			subtitle: "There are no Oceans"
 			tasks: [{
 				id: "04E4BFDD5BB02AC4"
@@ -301,6 +370,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["1CAFE50318971604"]
 			description: [
 				"Gunner factions will periodically start raids every &c15 days&r or by using a &craid flare&r."
 				""
@@ -317,6 +387,22 @@
 				}
 			}
 			id: "7891BA85B5F6E5F5"
+			rewards: [{
+				id: "10A8FD529280AB10"
+				item: {
+					Count: 1
+					id: "jeg:flare"
+					tag: {
+						HasRaid: 1b
+						display: {
+							Name: "{\"italic\":false,\"color\":\"red\",\"translate\":\"item.jeg.raid_flare\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
 			subtitle: "How gunners will start raids"
 			tasks: [{
 				id: "507C60B3C66B2561"
@@ -325,6 +411,150 @@
 			}]
 			x: 1.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["00FE6A75A4D506D7"]
+			description: ["Since there are no information maps, &cflares&r are great ways to keep track of friends. The world is vertical oriented so the flares will show up if your render distance is further enough."]
+			icon: {
+				Count: 1
+				id: "jeg:flare_gun"
+				tag: {
+					AmmoCount: 1
+					Damage: 0
+				}
+			}
+			id: "1D37FEDB4727170D"
+			rewards: [
+				{
+					id: "2903A8D650C91682"
+					item: {
+						Count: 1
+						id: "jeg:flare_gun"
+						tag: {
+							AmmoCount: 1
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "551B28C5EF792237"
+					item: {
+						Count: 1
+						id: "jeg:flare"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "Here is how to keep track"
+			tasks: [{
+				id: "0F92FEA47C5B5953"
+				title: "Keeping Track of Friends"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CAFE50318971604"]
+			description: [
+				"Hordes are started &drandomly&r and a bunch of &azombies&r will attack your base. "
+				""
+				"If you are infected, when the time is up you will become a zombie and die. To cure this, you need to eat a &egolden apple&r."
+			]
+			icon: "terramity:stygian_blood_bucket"
+			id: "59DB9A2650DA96CC"
+			rewards: [{
+				count: 3
+				id: "00CABF61F29C08E5"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "How hordes work and what happens"
+			tasks: [{
+				id: "6D1AB6F1CDAD9CDE"
+				title: "Hordes"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CAFE50318971604"]
+			description: [
+				"Stands are your &bspirit companions&r, a part of yourself that can only be hurt by &bother stands&r. You can get a stand by making a &eStand Arrow&r with gold from a &6meteorite&r, usually found in &6deserts&r."
+				""
+				"To learn about your stand and its abilities, type &a\"/stand about\"&r in the chat. Some stands can be upgraded such as &e\"Shadow The World\", \"The World\", \"Star Platinum\", \"Golden Experience\", \"Killer Queen\", \"Whitesnake\", and \"C-moon\"&r. To do this you need to make or find their &aitem&r that they need to upgrade."
+				""
+				"Enemies will also have stands, these are &cVERY DIFFICULT&r to beat. Just find one that makes you think \"He might be the stand user\""
+			]
+			icon: "jcraft:stand_arrow"
+			id: "692B2D9162590644"
+			rewards: [{
+				id: "1F1E14C6F8BB5F76"
+				item: "jcraft:meteorite_block"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Stands and how they work"
+			tasks: [{
+				id: "748075FC915BE116"
+				title: "Stands"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["19BC0ABC01FFBBE0"]
+			description: [
+				"You can generate power through water, wind, or steam. Water and wind are a lot easier to set up than steam."
+				""
+				"For &bwater&r, get a water wheel and place it on top of flowing water. For &dwind&r, make sails and put them on a rotating block."
+				""
+				"&cReminder that you can see how to use these blocks by holding \"w\" to ponder them.&r"
+			]
+			icon: "create:stressometer"
+			id: "5DC3773DF75C988D"
+			rewards: [
+				{
+					count: 8
+					id: "3C1B9F720033538C"
+					item: "create:white_sail"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7F993FAE23FA96B9"
+					item: "create:water_wheel"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "How to generate power with Create"
+			tasks: [{
+				id: "18C495A1B9C946C8"
+				title: "Generating Power"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "55D84AD64BA77BDF"
+			subtitle: "How to connect power to appliances"
+			tasks: [{
+				id: "06E838DB99457E1D"
+				title: "Connecting Power"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.5d
 		}
 	]
 	title: "Getting Started"
