@@ -1,0 +1,47 @@
+#If debug mode is active, the mod will log when items are dropped
+debugMode = false
+#Items to add, in the form modid:itemName:[nbtfile]:minStackSize:maxStackSize:universalChance:[monsterChance]:[bossChance]:[group1Chance]:[group2Chance]...
+#Chances are %
+#NBT File is a json file in the "editmobdrops" folder here in config (leave blank for none)
+itemsToAdd = []
+#Mob groups, in the form [EntityModid]:[EntityName]:[EntityModid]:[EntityName]...
+mobGroups = []
+#Mobs to clear existing drops from
+mobsToClear = []
+#Single mob items, in the form EntityModid:EntityName:modid:itemName:[nbtfile]:minStackSize:maxStackSize:chance
+singleMobItems = [
+    "corundumguardian:corundum_guardian:minecraft:gunpowder::8:15:100",
+    "corundumguardian:corundum_guardian:scguns:phosphor_dust::10:20:100",
+    "corundumguardian:corundum_guardian:born_in_chaos_v1:dark_metal_ingot::2:4:100",
+    "corundumguardian:corundum_guardian:jeg:gunnite_ingot::3:5:50",
+    "corundumguardian:corundum_guardian:conflunce:ankh_charm::1:1:10",
+
+    "cartoon_soul:observer:minecraft:gunpowder::8:15:100",
+    "cartoon_soul:observer:scguns:phosphor_dust::10:20:100",
+    "cartoon_soul:observer:scguns:niter_dust::8:15:100",
+    "cartoon_soul:observer:scguns:treated_brass_blueprint::1:1:100",
+    "cartoon_soul:observer:create:brass_ingot::8:15:100",
+    "cartoon_soul:observer:confluence:detoxification_capsule::1:1:10",
+
+    "cartoon_soul:dwarfgolem:create:andesite_alloy::8:15:100",
+    "cartoon_soul:dwarfgolem:minecraft:gunpowder::8:15:100",
+    "cartoon_soul:dwarfgolem:create:zinc_ingot::5:10:100",
+    "cartoon_soul:dwarfgolem:minecraft:iron_ingot::8:15:100",
+    "cartoon_soul:dwarfgolem:confluence:paladins_sheild::1:1:10",
+
+    "cartoon_soul:hand:minecraft:gunpowder::10:20:100",
+    "cartoon_soul:hand:minecraft:iron_ingot::8:15:100",
+    "cartoon_soul:hand:minecraft:diamond::8:15:100",
+    "cartoon_soul:hand:create:brass_ingot::5:10:100",
+    "cartoon_soul:hand:confluence:hand_of_creation::1:1:10",
+    "cartoon_soul:hand:terramity:angel_feather::3:6:100",
+    "cartoon_soul:hand:scguns:lockewood::1:1:25",
+
+    "cartoon_soul:furious:minecraft:gunpowder::8:15:100",
+    "cartoon_soul:furious:minecraft:netherite_ingot::0:1:50",
+    "cartoon_soul:furious:terramity:chthonic_crystal::3:6:100",
+    "cartoon_soul:furious:terramity:raw_profanum::2:3:100",
+    "cartoon_soul:furious:terramity:chthonic_crystal::3:6:100",
+    "cartoon_soul:furious:terramity:murasama::1:1:10",
+]
+

@@ -7,10 +7,10 @@
     ],
     "key": {
         "g": {
-            "item": "minecraft:gold_ingot"
+            "item": "create:brass_sheet"
         },
         "G": {
-            "item": "minecraft:glass"
+            "item": "create_sa:heap_of_experience"
         },
         "D": {
             "item": "minecraft:diamond"

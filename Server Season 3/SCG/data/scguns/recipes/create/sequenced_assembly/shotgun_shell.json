@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:paper"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "scguns:shotgun_shell"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "scguns:unfinished_shotgun_shell"
+        },
+        [
+          {
+            "item": "scguns:small_copper_casing"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "scguns:unfinished_shotgun_shell"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "scguns:unfinished_shotgun_shell"
+        },
+        [
+          {
+            "item": "scguns:buckshot"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "scguns:unfinished_shotgun_shell"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "scguns:unfinished_shotgun_shell"
+        }
+      ],
+      "results": [
+        {
+          "item": "scguns:unfinished_shotgun_shell"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "scguns:unfinished_shotgun_shell"
+  }
+}

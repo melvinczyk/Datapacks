@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "412",
+    "112",
     "345",
-    "674"
+    "671"
   ],
   "key": {
     "1": {

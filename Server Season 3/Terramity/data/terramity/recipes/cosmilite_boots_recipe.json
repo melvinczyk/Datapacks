@@ -4,7 +4,7 @@
     "item": "terramity:cosmilite_ingot"
   },
   "base": {
-    "item": "minecraft:netherite_boots"
+    "item": "born_in_chaos_v1:dark_metal_armor_boots"
   },
   "result": {
     "item": "terramity:cosmilite_armor_boots"

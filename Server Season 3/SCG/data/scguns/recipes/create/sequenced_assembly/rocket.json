@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "scguns:sheol"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "scguns:rocket"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "scguns:unfinished_rocket"
+        },
+        [
+          {
+            "item": "scguns:large_iron_casing"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "scguns:unfinished_rocket"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "scguns:unfinished_rocket"
+        },
+        [
+          {
+            "tag": "scguns:advanced_bullet_tips"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "item": "scguns:unfinished_rocket"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "scguns:unfinished_rocket"
+        }
+      ],
+      "results": [
+        {
+          "item": "scguns:unfinished_rocket"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "scguns:unfinished_rocket"
+  }
+}
