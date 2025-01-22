@@ -43,5 +43,28 @@ singleMobItems = [
     "cartoon_soul:furious:terramity:raw_profanum::2:3:100",
     "cartoon_soul:furious:terramity:chthonic_crystal::3:6:100",
     "cartoon_soul:furious:terramity:murasama::1:1:10",
+
+    "pigzilla:pigzilla:minecraft:porkchop::10:20:100",
+    "pigzilla:pigzilla:minecraft:rotten_flesh::10:15:100",
+    "pigzilla:pigzilla:minecraft:gunpowder::10:15:100",
+    "pigzilla:pigzilla:minecraft:diamond::7:15:100",
+    "pigzilla:pigzilla:confluence:flesh_knuckles::1:1:10",
+
+    "razor_tyrant:razor_tyrant:minecraft:iron_block::3:6:100",
+    "razor_tyrant:razor_tyrant:terramity:circuit_board::1:2:100",
+    "razor_tyrant:razor_tyrant:terramity:electronic_scrap::3:6:100",
+    "razor_tyrant:razor_tyrant:terramity:battery::2:2:100",
+    "razor_tyrant:razor_tyrant:confluence:radar::1:1:100",
+    "razor_tyrant:razor_tyrant:confluence:rek_3000::1:1:10",
+
+    "ba_bt:land_golem:minecraft:gunpowder::10:15:100",
+    "ba_bt:land_golem:confluence:sun_stone::1:1:10",
+    "ba_bt:land_golem:minecraft:flint::5:10:100",
+    "ba_bt:land_golem:scguns:anthralite_ore::1:5:100",
+    "ba_bt:land_golem:scguns:deepslate_sulfur_ore::6:10:100",
+    "ba_bt:land_golem:minecraft:diamond_ore::1:5:100",
+    "ba_bt:land_golem:minecraft:coal_ore::1:5:100",
+    "ba_bt:land_golem:terramity:deepslate_iridium_ore::1:5:100",
+    "ba_bt:land_golem:terramity:profaned_ore::1:1:50",
 ]
 

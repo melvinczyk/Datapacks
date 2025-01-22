@@ -79,14 +79,70 @@
         },
         {
           "type": "minecraft:item",
-          "name": "create:brass_ingot",
-          "weight": 12,
+          "name": "terramity:topaz",
+          "weight": 5,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 3,
-                "max": 10
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "terramity:iridium_chunk",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:treated_brass_ingot",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:brass_ingot",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
               }
             }
           ]
@@ -106,6 +162,34 @@
               "count": {
                 "min": 4,
                 "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "terramity:raw_profanum",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:obsidian_horseshoe",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
               }
             }
           ]
