@@ -16,6 +16,11 @@
 			]
 			icon: "minecraft:grass_block"
 			id: "64E107A0C83B8061"
+			rewards: [{
+				id: "6FFE48344EB840CA"
+				item: "ftbquests:book"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Welcome to the Modpack"
@@ -78,76 +83,54 @@
 				}
 			}
 			id: "00FE6A75A4D506D7"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5ED81C4B641AB012"
-					item: {
-						Count: 1
-						id: "grapplemod:grapplinghook"
-						tag: {
-							Damage: 0
-							custom: {
-								angle: 20.0d
-								attract: 0b
-								attractradius: 3.0d
-								crc32: 2252267022L
-								detachonkeyrelease: 0b
-								doublehook: 0b
-								enderstaff: 0b
-								hookgravity: 1.0d
-								maxlen: 30.0d
-								motor: 0b
-								motoracceleration: 0.2d
-								motordampener: 0b
-								motormaxspeed: 4.0d
-								motorwhencrouching: 0b
-								motorwhennotcrouching: 1b
-								oneropepull: 0b
-								phaserope: 0b
-								playermovementmult: 1.0d
-								pullbackwards: 1b
-								reelin: 1b
-								repel: 0b
-								repelforce: 1.0d
-								rocket: 0b
-								rocket_active_time: 0.5d
-								rocket_force: 1.0d
-								rocket_refuel_ratio: 15.0d
-								rocket_vertical_angle: 0.0d
-								smartdoublemotor: 1b
-								smartmotor: 0b
-								sneakingangle: 10.0d
-								sneakingverticalthrowangle: 0.0d
-								sticky: 0b
-								throwspeed: 2.0d
-								verticalthrowangle: 0.0d
-							}
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5ED81C4B641AB012"
+				item: {
+					Count: 1
+					id: "grapplemod:grapplinghook"
+					tag: {
+						Damage: 0
+						custom: {
+							angle: 20.0d
+							attract: 0b
+							attractradius: 3.0d
+							crc32: 2252267022L
+							detachonkeyrelease: 0b
+							doublehook: 0b
+							enderstaff: 0b
+							hookgravity: 1.0d
+							maxlen: 30.0d
+							motor: 0b
+							motoracceleration: 0.2d
+							motordampener: 0b
+							motormaxspeed: 4.0d
+							motorwhencrouching: 0b
+							motorwhennotcrouching: 1b
+							oneropepull: 0b
+							phaserope: 0b
+							playermovementmult: 1.0d
+							pullbackwards: 1b
+							reelin: 1b
+							repel: 0b
+							repelforce: 1.0d
+							rocket: 0b
+							rocket_active_time: 0.5d
+							rocket_force: 1.0d
+							rocket_refuel_ratio: 15.0d
+							rocket_vertical_angle: 0.0d
+							smartdoublemotor: 1b
+							smartmotor: 0b
+							sneakingangle: 10.0d
+							sneakingverticalthrowangle: 0.0d
+							sticky: 0b
+							throwspeed: 2.0d
+							verticalthrowangle: 0.0d
 						}
 					}
-					type: "item"
 				}
-				{
-					exclude_from_claim_all: true
-					id: "5F10982D69F56A1A"
-					item: {
-						Count: 1
-						id: "jeg:revolver"
-						tag: {
-							AmmoCount: 8
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					exclude_from_claim_all: true
-					id: "6D6E1AC06B5F9AB4"
-					item: "jeg:pistol_ammo"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "Main key in combat"
@@ -183,7 +166,7 @@
 					type: "item"
 				}
 			]
-			shape: "hexagon"
+			shape: "octagon"
 			size: 1.5d
 			subtitle: "The Create mod and how to learn more"
 			tasks: [{
@@ -197,52 +180,25 @@
 		{
 			dependencies: ["64E107A0C83B8061"]
 			description: [
-				"There are a lot of &aresources&r in the world that you need for guns and ammo. Gunpowder can be made in many different ways with sulfur, phosphorus, niter dust, etc."
+				"There are lots of guns in this world, &a253&r if we are being exact. This can be overwhelming since there are &63 gun mods each with their own weapons.&r"
 				""
-				"&6Scrap&r is used for crafting guns for &6JEG&r as well as attachments."
-				""
-				"&6Scorched guns&r adds a lot of rocks in the game that require some grinding to make useful. &6Anthralite&r is an important ore for creating guns."
+				"In this section &awe will go over&r the 3 gun mods and what they bring to the table so you won't be confused."
 			]
-			icon: "scguns:raw_phosphor"
+			icon: {
+				Count: 1
+				id: "scguns:llr_director"
+				tag: {
+					AmmoCount: 7
+					Damage: 0
+				}
+			}
 			id: "2611DFBB1AEF32F4"
-			rewards: [
-				{
-					count: 5
-					id: "0E0E9DCADDF1B214"
-					item: "jeg:scrap"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "5D7319FFD2E9EB0B"
-					item: "scguns:sulfur_chunk"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "2E10AD040FCFEFD1"
-					item: "scguns:raw_phosphor"
-					type: "item"
-				}
-				{
-					count: 20
-					id: "260FE1EB6C8E92D6"
-					item: "scguns:phosphorite"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "1BF3704AD7C7C88E"
-					item: "scguns:raw_anthralite"
-					type: "item"
-				}
-			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Quick guide on world resources"
+			subtitle: "Quick guide on world guns"
 			tasks: [{
 				id: "74BFEB6CFA6A149F"
-				title: "Resources"
+				title: "Guns and Reseources"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -257,14 +213,7 @@
 				""
 				"Snipers will target you with a&c red laser beam&r, move or take them out before they fire."
 			]
-			icon: {
-				Count: 1
-				id: "jeg:double_barrel_shotgun"
-				tag: {
-					AmmoCount: 2
-					Damage: 0
-				}
-			}
+			icon: "minecraft:zombie_head"
 			id: "1CAFE50318971604"
 			rewards: [{
 				count: 16
@@ -457,7 +406,7 @@
 				type: "checkmark"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1CAFE50318971604"]
@@ -627,7 +576,7 @@
 				title: "Death"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 4.0d
 		}
 		{
@@ -741,6 +690,254 @@
 			}]
 			x: 1.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["2611DFBB1AEF32F4"]
+			description: [
+				"&6Scorched Guns&r adds non-real life guns to the game that can be heavily modified. &aWhen you level them up with quests, they are overall stronger than all of the other guns.&r"
+				""
+				"With this strength comes a drawback, &6they are non-unified&r. Different guns take different types of ammo, just &6hover over the gun&r and it will tell you what ammo it takes."
+				""
+				"They are also more &6reliable&r weapons and &6you can automate their crafting&r. As in you can make a little factory creating their &6bullets automatically.&r"
+			]
+			icon: "scguns:scorched_ingot"
+			id: "7FBFD30F201A69E5"
+			rewards: [{
+				id: "6A50A4C482618B4D"
+				item: {
+					Count: 1
+					id: "scguns:flintlock_pistol"
+					tag: {
+						AmmoCount: 1
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "What the Scorched Guns mod is and how to use it"
+			tasks: [{
+				id: "7983FE74AC6DBB0D"
+				title: "Scorched Guns"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FBFD30F201A69E5"]
+			description: [
+				"Scorched Guns has a &6teir-based progression&r for guns. Each new teir requires a new blueprint to craft."
+				""
+				"Weapons are made on the &6Gunbench&r."
+			]
+			icon: "scguns:treated_brass_blueprint"
+			id: "0C90AB3E46EE53D5"
+			rewards: [{
+				count: 10
+				id: "4DEEF99FE45410E0"
+				item: "scguns:powder_and_ball"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Scorched Guns crafting"
+			tasks: [{
+				id: "605B67393CDA6D45"
+				title: "Crafting"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2611DFBB1AEF32F4"]
+			description: [
+				"&6Just Enough Guns (JEG)&r adds real-life and some minecraft related guns in the world. These guns have their &6individual quest lines&r and can be upgraded."
+				""
+				"The JEG guns are &6mostly all uniform&r, as in most rifles take rifle ammo and shotguns take shogun ammo."
+				""
+				"These weapons can be repaired with &6Repair Kits&r as these weapons do not have the best durability. These weapons are &6strong and reliable though.&r"
+			]
+			icon: "jeg:gunmetal_ingot"
+			id: "37C3BB36606A4C2C"
+			rewards: [{
+				id: "626175AB93F54175"
+				item: {
+					Count: 1
+					id: "jeg:revolver"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Guide on the Just Enough Guns Mod"
+			tasks: [{
+				id: "1DBC773E18FE1E57"
+				title: "Just Enough Guns"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00FE6A75A4D506D7"]
+			description: ["To make &6jetpacks&r, you first need to have a &aMechanical Press&r. Each jetpack that takes water needs a &6water tank,&r these are super easy to make. To fill them up all you need to do is &6click on water.&r"]
+			icon: {
+				Count: 1
+				id: "create_sa:brass_jetpack_chestplate"
+				tag: { }
+			}
+			id: "5B80FE31CF61887F"
+			rewards: [{
+				id: "33D501B8E50F8B7D"
+				item: {
+					Count: 1
+					id: "create_sa:small_filling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "How to use and make jetpacks"
+			tasks: [{
+				id: "001A3E6C7A6E9A16"
+				title: "Jetpacks"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00FE6A75A4D506D7"]
+			description: [
+				"Now planes are really cool, they can be&c HUGE&r but they take a lot of resources to make. "
+				""
+				"You need to set up &6Mechanical Crafting&r in order to make them."
+				""
+				"Be ready to have a lot of resources to fly them because t&6hey take lots of coal to use.&r"
+			]
+			icon: "immersive_aircraft:biplane"
+			id: "5F36572CF4E5EE78"
+			rewards: [{
+				id: "578218EE0A67502B"
+				item: "immersive_aircraft:hull"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "How to make planes and use them"
+			tasks: [{
+				id: "1200322C18CCF90B"
+				title: "Planes"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FBFD30F201A69E5"]
+			description: [
+				"&cDO NOT USE THE POWERED VERSIONS!!!!&r"
+				""
+				"The &6Macerator&r is used to make combined resources for guns. Like treated iron and diamond steel."
+				""
+				"The &6Stamping Press&r is used to make shells and bullets. Most of the time it requires molds."
+				""
+				"The &6Gunbench&r is used to create guns.... okay."
+			]
+			icon: "scguns:mechanical_press"
+			id: "1D8AD5477149D3E3"
+			rewards: [{
+				count: 3
+				id: "42146FF8617B6103"
+				item: "scguns:blank_mold"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Scorched Guns crafting stations"
+			tasks: [{
+				id: "4CD5510121144129"
+				title: "Crafting Stations"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2611DFBB1AEF32F4"]
+			icon: "terramity:conductite"
+			id: "2C8FDF0A6469FFB1"
+			shape: "hexagon"
+			subtitle: "Guide on the Terramity mod"
+			tasks: [{
+				id: "7459F42D3DBFDAAF"
+				title: "Terramity"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["37C3BB36606A4C2C"]
+			description: [
+				"Crafting JEG guns is &6fairly straightforward&r and simple. There are teirs of guns in this mod as well."
+				""
+				"The &6Scrap Bench&r is used to make scrap weapons and ammo. "
+				""
+				"The &6Gunmetal Bench&r is used to make gunmetal weapons and ammo."
+				""
+				"The &6Gunnite Bench&r is used to make gunnite weapons and ammo."
+				""
+				"The &6Blueprint Workbench&r is used to make special weapons from blueprints."
+			]
+			icon: "jeg:gunmetal_workbench"
+			id: "52BCBFCF2465ABBE"
+			rewards: [{
+				count: 5
+				id: "449FEFA33DA698B4"
+				item: "jeg:scrap"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Crafting in JEG"
+			tasks: [{
+				id: "62BD9463567AC268"
+				title: "Crafting Stations"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["37C3BB36606A4C2C"]
+			description: [
+				"JEG uses three metals that are important to crafting guns."
+				""
+				"&6Scrap&r is the lowest and is used for making weapons and ammo."
+				""
+				"&6Gunmetal&r is the next teir which is important for guns and ammo."
+				""
+				"&6Gunnite&r is the highest teir and is used to make the highest teir weapons."
+			]
+			icon: "jeg:scrap"
+			id: "6B835FB22147F29F"
+			rewards: [{
+				count: 32
+				id: "288039B37231694D"
+				item: "jeg:pistol_ammo"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Crafting in JEG"
+			tasks: [{
+				id: "50FB449F9F7E39FE"
+				title: "Crafting"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -0.5d
 		}
 	]
 	title: "Getting Started"

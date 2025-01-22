@@ -139,7 +139,7 @@
 				icon: "minecraft:oak_log"
 				id: "500D53E71B96C2C2"
 				type: "kill"
-				value: 30L
+				value: 25L
 			}]
 			x: 1.25d
 			y: 1.25d
@@ -167,7 +167,7 @@
 				icon: "zombiesmore:brain"
 				id: "1E297605795568BA"
 				type: "kill"
-				value: 25L
+				value: 15L
 			}]
 			x: -2.5d
 			y: 1.25d
@@ -465,7 +465,7 @@
 				}
 				id: "4E2C8508BFBBC229"
 				type: "kill"
-				value: 25L
+				value: 15L
 			}]
 			x: 0.0d
 			y: -1.25d
@@ -493,7 +493,7 @@
 				icon: "arphex:dragonfly_dreadnought_spawn_egg"
 				id: "2D680A44F47BFB3D"
 				type: "kill"
-				value: 25L
+				value: 15L
 			}]
 			x: -3.75d
 			y: -1.25d
@@ -521,7 +521,7 @@
 				icon: "enemyexpansion:wasp_thorax"
 				id: "0225A14F0F07DC5D"
 				type: "kill"
-				value: 25L
+				value: 10L
 			}]
 			x: -3.75d
 			y: 1.25d
@@ -583,7 +583,7 @@
 				}
 				id: "4E3316935EC4975D"
 				type: "kill"
-				value: 25L
+				value: 15L
 			}]
 			x: -1.25d
 			y: -1.25d
@@ -639,7 +639,7 @@
 				icon: "minecraft:lava_bucket"
 				id: "503DC2C4E508EDA4"
 				type: "kill"
-				value: 25L
+				value: 15L
 			}]
 			x: -3.0d
 			y: 0.0d
@@ -695,7 +695,7 @@
 				icon: "minecraft:porkchop"
 				id: "150B900F01176AF1"
 				type: "kill"
-				value: 25L
+				value: 15L
 			}]
 			x: -4.5d
 			y: 0.0d
