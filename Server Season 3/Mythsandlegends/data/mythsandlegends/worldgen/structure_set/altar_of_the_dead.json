@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mythsandlegends:altar_of_the_dead",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1694767081,
+    "spacing": 64,
+    "separation": 50
+  }
+}

@@ -168,14 +168,14 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:gunpowder",
+          "name": "minecraft:basalt",
           "weight": 8,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 4,
-                "max": 8
+                "min": 10,
+                "max": 15
               }
             }
           ]

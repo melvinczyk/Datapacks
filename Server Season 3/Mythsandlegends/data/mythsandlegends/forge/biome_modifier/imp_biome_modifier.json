@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "nether_wastes",
+    "crimson_forest",
+    "basalt_deltas"
+  ],
+  "spawners": {
+    "type": "mythsandlegends:imp",
+    "weight": 50,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

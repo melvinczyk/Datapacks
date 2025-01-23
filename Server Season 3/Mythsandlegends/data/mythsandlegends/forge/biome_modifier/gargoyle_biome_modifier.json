@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "stony_peaks",
+    "stony_shore"
+  ],
+  "spawners": {
+    "type": "mythsandlegends:gargoyle",
+    "weight": 50,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}
