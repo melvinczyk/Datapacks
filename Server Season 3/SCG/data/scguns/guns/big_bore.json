@@ -50,7 +50,7 @@
     "advantage": "scguns:heavy",
     "damage": 80.0,
     "ejectsCasing": true,
-    "gravity": false  ,
+    "gravity": false,
     "item": "scguns:osborne_slug",
     "casingType": "scguns:large_iron_casing",
     "casingParticle": "scguns:iron_casing",
@@ -58,11 +58,12 @@
     "life": 100,
     "size": 1.0,
     "speed": 14.0,
-    "trailLengthMultiplier": 2.0
+    "trailLengthMultiplier": 2.0,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 10,
-    "maxAmmo": 1  ,
+    "maxAmmo": 1,
     "reloadItem": "scguns:osborne_slug",
     "reloadTimer": 70,
     "reloadType": "scguns:mag_fed"

@@ -31,7 +31,6 @@
         "zOffset": 1.7,
         "xOffset": -3.2
       },
-
       "underBarrel": {
         "yOffset": 5.5,
         "zOffset": -2.5
@@ -53,7 +52,8 @@
     "life": 55,
     "size": 0.05,
     "speed": 5.0,
-    "trailLengthMultiplier": 2.0
+    "trailLengthMultiplier": 2.0,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 20,

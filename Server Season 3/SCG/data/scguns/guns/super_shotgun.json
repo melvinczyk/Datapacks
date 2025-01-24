@@ -25,9 +25,7 @@
     "playerKnockBackStrength": 0.25
   },
   "modules": {
-    "attachments": {
-
-    },
+    "attachments": {},
     "zoom": {
       "fovModifier": 0.7,
       "yOffset": 5.25,
@@ -42,7 +40,8 @@
     "life": 20,
     "size": 0.05,
     "speed": 4.0,
-    "trailLengthMultiplier": 2.0
+    "trailLengthMultiplier": 2.0,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 15,

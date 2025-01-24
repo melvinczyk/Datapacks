@@ -21,8 +21,7 @@
     "criticalChance": 0.05,
     "speedModifier": 0.9
   },
-  "modules": {
-  },
+  "modules": {},
   "projectile": {
     "advantage": "scguns:none",
     "damage": 15.5,
@@ -34,7 +33,8 @@
     "life": 50,
     "size": 1.0,
     "speed": 1.5,
-    "trailLengthMultiplier": 2.0
+    "trailLengthMultiplier": 2.0,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 10,

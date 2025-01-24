@@ -18,7 +18,7 @@ Format: faction_name|ai_difficulty|mob1,mob2...|closeGun1,closeGun2...|longGun1,
     mteg:akm,mteg:m1_garand,mteg:baker_rifle,jeg:assault_rifle|
     mteg:benelli_m4,jeg:service_rifle,scguns:iron_spear,mteg:m14", 
     
-    "bad_piggies|2|
+    "bad_piggies|4|
     minecraft:piglin,minecraft:piglin_brute|
     jeg:double_barrel_shotgun,mteg:hog_bonker,mteg:uzi|
     jeg:assault_rifle,jeg:semi_auto_rifle|
@@ -30,37 +30,37 @@ Format: faction_name|ai_difficulty|mob1,mob2...|closeGun1,closeGun2...|longGun1,
     jeg:assault_rifle,jeg:semi_auto_rifle|
     jeg:soulhunter_mk2", 
     
-    "lost_souls|3|
+    "lost_souls|5|
     jeg:ghoul|
     jeg:waterpipe_shotgun,jeg:revolver|
     jeg:custom_smg|
     jeg:holy_shotgun,jeg:blossom_rifle",
 
-    "chaos_forces|3|
+    "chaos_forces|4|
     born_in_chaos_v1:fallen_chaos_knight,born_in_chaos_v1:missioner,born_in_chaos_v1:decaying_zombie,born_in_chaos_v1:restless_spirit,born_in_chaos_v1:scarlet_persecutor,born_in_chaos_v1:spirit_guide,born_in_chaos_v1:zombie_clown, born_in_chaos_v1:lord_pumpkinhead,born_in_chaos_v1:bonescaller,born_in_chaos_v1:supreme_bonescaller|
-    mteg:benelli_m4,mteg:micro_uzi,mteg:double_barrel,mteg:thompson|
+    mteg:lanchester,mteg:micro_uzi,mteg:double_barrel,mteg:thompson|
     mteg:m1_garand,mteg:m14,aurorasarsenal:ar_15,scguns:iron_javelin|
     mteg:awp,mteg:akm_custom,mteg:m16a1,mteg:akm",
 
-    "cultists|4|
+    "cultists|5|
     ba_bt:bt_cultist|
     jeg:custom_smg,jeg:assault_rifle,jeg:revolver|
     jeg:bolt_action_rifle,mteg:m1_garand|
     mteg:vss_vintorez,mteg:famas",
 
-    "mutant_upgrade|6|
+    "mutant_upgrade|5|
     mutantmonsters:mutant_skeleton,mutantmonsters:mutant_zombie,mutantmonsters:mutant_enderman|
     aurorasarsenal:vepr_12,mteg:lanchester,mteg:mossberg_590|
     mteg:awp,aurorasarsenal:sr_25,mteg:akm,mteg:m14|
     mteg:m60,scguns:howler,scguns:howler_conversion,mteg:m14_ebr",
 
-    "royalty|3|
+    "royalty|4|
     royalvariations:royal_skeleton,royalvariations:royal_zombie|
     scguns:greaser_smg,scguns:scrapper|
     jeg:bolt_action_rifle,mteg:m1_garand,mteg:vss_vintorez|
     mteg:awp,mteg:m16a1,mteg:m14",
 
-    "bronze_gears|2|
+    "bronze_gears|3|
     scguns:cog_knight,scguns:cog_minion,scguns:sky_carrier|
     scguns:scrapper,scguns:boomstick,scguns:bruiser|
     scguns:llr_director,scguns:makeshift_rifle|
@@ -78,7 +78,7 @@ Format: faction_name|ai_difficulty|mob1,mob2...|closeGun1,closeGun2...|longGun1,
     jeg:bolt_action_rifle,mteg:m1_garand|
     mteg:m14,jeg:semi_auto_rifle,mteg:sks",
 
-    "undead_vikings|4|
+    "undead_vikings|5|
     cataclysm:draugr,cataclysm:elite_draugr|
     mteg:benelli_m4,mteg:micro_uzi,scguns:jackhammer|
     mteg:m1_garand,mteg:remington_870,mteg:akm|

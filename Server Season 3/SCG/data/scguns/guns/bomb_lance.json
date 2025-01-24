@@ -24,8 +24,7 @@
     "speedModifier": 1.1
   },
   "modules": {
-    "attachments": {
-    },
+    "attachments": {},
     "zoom": {
       "fovModifier": 0.6,
       "yOffset": 5.5,
@@ -42,7 +41,8 @@
     "life": 45,
     "size": 0.05,
     "speed": 3.0,
-    "trailLengthMultiplier": 2.0
+    "trailLengthMultiplier": 2.0,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 30,

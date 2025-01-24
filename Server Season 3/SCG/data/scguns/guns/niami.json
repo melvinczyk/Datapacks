@@ -1,6 +1,5 @@
 {
-  "display": {
-  },
+  "display": {},
   "general": {
     "alwaysSpread": false,
     "fireMode": "scguns:semi_automatic",
@@ -39,13 +38,14 @@
     "advantage": "scguns:none",
     "damage": 14.0,
     "ejectsCasing": false,
-    "gravity": true  ,
+    "gravity": true,
     "item": "minecraft:arrow",
     "firesArrows": true,
     "life": 20,
     "size": 0.1,
     "speed": 13.0,
-    "trailLengthMultiplier": 2.0
+    "trailLengthMultiplier": 2.0,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 10,

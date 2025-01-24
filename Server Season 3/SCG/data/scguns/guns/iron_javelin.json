@@ -60,7 +60,8 @@
     "life": 50,
     "size": 0.1,
     "speed": 15.0,
-    "trailLengthMultiplier": 4.0
+    "trailLengthMultiplier": 4.0,
+    "trailColor": 0
   },
   "reloads": {
     "emptyMagTimer": 20,

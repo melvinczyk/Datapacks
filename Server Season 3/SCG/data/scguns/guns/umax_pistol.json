@@ -1,6 +1,5 @@
 {
-  "display": {
-  },
+  "display": {},
   "general": {
     "alwaysSpread": false,
     "fireMode": "scguns:semi_automatic",
@@ -42,7 +41,8 @@
     "life": 40,
     "size": 1.0,
     "speed": 6.0,
-    "trailLengthMultiplier": 0.2
+    "trailLengthMultiplier": 0.2,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 30,

@@ -4,7 +4,7 @@
       "size": 1.5,
       "yOffset": 3.8,
       "zOffset": -4.8,
-     "xOffset": 0.75,
+      "xOffset": 0.75,
       "textureLocation": "muzzle_flash_1",
       "alternateMuzzleFlash": true,
       "alternatePosition": {
@@ -60,7 +60,8 @@
     "life": 25,
     "size": 0.5,
     "speed": 5.0,
-    "trailLengthMultiplier": 2.0
+    "trailLengthMultiplier": 2.0,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 0,

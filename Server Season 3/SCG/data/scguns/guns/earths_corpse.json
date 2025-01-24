@@ -38,15 +38,14 @@
       "stock": {
         "scale": 0.0
       },
-        "barrel": {
-            "scale": 0.0,
-          "yOffset": 5.7,
-          "zOffset": -24.0
-        },
+      "barrel": {
+        "scale": 0.0,
+        "yOffset": 5.7,
+        "zOffset": -24.0
+      },
       "magazine": {
         "scale": 0.0
       }
-
     },
     "zoom": {
       "fovModifier": 0.8,
@@ -65,7 +64,8 @@
     "life": 55,
     "size": 0.1,
     "speed": 5.0,
-    "trailLengthMultiplier": 2.0
+    "trailLengthMultiplier": 2.0,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 10,

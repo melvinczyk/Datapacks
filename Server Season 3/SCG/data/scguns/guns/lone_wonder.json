@@ -24,7 +24,6 @@
   },
   "modules": {
     "attachments": {
-
       "stock": {
         "scale": 0.0
       },
@@ -32,7 +31,6 @@
         "yOffset": 5.5,
         "zOffset": -2.5
       }
-
     },
     "zoom": {
       "fovModifier": 0.6,
@@ -42,7 +40,7 @@
   },
   "projectile": {
     "advantage": "scguns:water",
-    "damage":23.0,
+    "damage": 23.0,
     "ejectsCasing": true,
     "gravity": false,
     "item": "scguns:shock_cell",
@@ -50,7 +48,8 @@
     "life": 40,
     "size": 0.05,
     "speed": 8.0,
-    "trailLengthMultiplier": 2.0
+    "trailLengthMultiplier": 2.0,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 10,

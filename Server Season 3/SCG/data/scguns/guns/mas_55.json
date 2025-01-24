@@ -20,7 +20,6 @@
     "meleeCooldownTicks": 20,
     "hotBarrelRate": 27,
     "criticalChance": 0.05
-
   },
   "modules": {
     "attachments": {
@@ -54,17 +53,18 @@
     "advantage": "scguns:heavy",
     "damage": 18.5,
     "ejectsCasing": true,
-    "gravity": false  ,
+    "gravity": false,
     "item": "scguns:gibbs_round",
     "casingType": "scguns:medium_diamond_steel_casing",
     "life": 90,
     "size": 0.1,
     "speed": 10.0,
-    "trailLengthMultiplier": 2.0
+    "trailLengthMultiplier": 2.0,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 10,
-    "maxAmmo": 8  ,
+    "maxAmmo": 8,
     "reloadItem": "scguns:gibbs_round",
     "reloadTimer": 30,
     "reloadType": "scguns:mag_fed"

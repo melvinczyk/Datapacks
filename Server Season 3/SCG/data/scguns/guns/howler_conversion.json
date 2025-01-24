@@ -23,7 +23,6 @@
     "criticalChance": 0.05,
     "playerKnockBack": true,
     "playerKnockBackStrength": 0.15
-
   },
   "modules": {
     "attachments": {
@@ -57,14 +56,15 @@
     "advantage": "scguns:heavy",
     "damage": 23.5,
     "ejectsCasing": true,
-    "gravity": false  ,
+    "gravity": false,
     "item": "scguns:krahg_round",
     "casingType": "scguns:large_brass_casing",
     "casingParticle": "scguns:brass_casing",
     "life": 65,
     "size": 0.1,
     "speed": 13.0,
-    "trailLengthMultiplier": 2.0
+    "trailLengthMultiplier": 2.0,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 10,

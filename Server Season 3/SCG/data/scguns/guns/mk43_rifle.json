@@ -40,7 +40,7 @@
     },
     "zoom": {
       "fovModifier": 0.7,
-      "yOffset":6.0,
+      "yOffset": 6.0,
       "zOffset": 1.1
     }
   },
@@ -55,7 +55,8 @@
     "life": 50,
     "size": 1.0,
     "speed": 1.8,
-    "trailLengthMultiplier": 2.0
+    "trailLengthMultiplier": 2.0,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 10,

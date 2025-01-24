@@ -35,7 +35,8 @@
       },
       "magazine": {
         "scale": 0.0
-      }, "underBarrel": {
+      },
+      "underBarrel": {
         "yOffset": 5.5,
         "zOffset": -2.5
       }
@@ -56,7 +57,8 @@
     "life": 24,
     "size": 0.1,
     "speed": 4.0,
-    "trailLengthMultiplier": 2.0
+    "trailLengthMultiplier": 2.0,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 30,

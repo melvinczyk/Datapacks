@@ -48,9 +48,10 @@
     "casingType": "scguns:shulker_casing",
     "casingParticle": "scguns:shulk_casing",
     "life": 120,
-    "size": 0.00001,
-    "speed":  0.75,
-    "trailLengthMultiplier": 100.0
+    "size": 1e-05,
+    "speed": 0.75,
+    "trailLengthMultiplier": 100.0,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 10,

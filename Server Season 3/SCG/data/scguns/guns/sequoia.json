@@ -30,7 +30,8 @@
       },
       "stock": {
         "scale": 0.0
-      }, "barrel": {
+      },
+      "barrel": {
         "yOffset": 3.9,
         "zOffset": -9.5
       }
@@ -53,7 +54,8 @@
     "life": 80,
     "size": 0.1,
     "speed": 7.0,
-    "trailLengthMultiplier": 2.0
+    "trailLengthMultiplier": 2.0,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 45,

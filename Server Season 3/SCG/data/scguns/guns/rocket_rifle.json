@@ -28,7 +28,7 @@
       "scope": {
         "size": 0.7,
         "yOffset": 5.8,
-        "zOffset":4.6
+        "zOffset": 4.6
       },
       "stock": {
         "scale": 0.0
@@ -56,7 +56,8 @@
     "life": 55,
     "size": 0.05,
     "speed": 4.0,
-    "trailLengthMultiplier": 2.0
+    "trailLengthMultiplier": 2.0,
+    "trailColor": -256
   },
   "reloads": {
     "emptyMagTimer": 30,
