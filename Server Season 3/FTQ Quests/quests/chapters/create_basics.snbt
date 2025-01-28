@@ -193,7 +193,7 @@
 				}
 			}
 			id: "2611DFBB1AEF32F4"
-			shape: "hexagon"
+			shape: "octagon"
 			size: 1.5d
 			subtitle: "Quick guide on world guns"
 			tasks: [{
@@ -280,7 +280,7 @@
 				title: "Cartography"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -1.5d
 		}
 		{
@@ -315,7 +315,7 @@
 				type: "checkmark"
 			}]
 			title: "No Oceans"
-			x: 3.0d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
@@ -359,7 +359,7 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["00FE6A75A4D506D7"]
@@ -405,7 +405,7 @@
 				title: "Keeping Track of Friends"
 				type: "checkmark"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 1.0d
 		}
 		{
@@ -431,7 +431,7 @@
 				type: "checkmark"
 			}]
 			x: -1.5d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1CAFE50318971604"]
@@ -457,7 +457,7 @@
 				type: "checkmark"
 			}]
 			x: -1.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["19BC0ABC01FFBBE0"]
@@ -550,7 +550,7 @@
 				title: "Connecting Power"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: -3.5d
 		}
 		{
@@ -577,7 +577,7 @@
 				type: "checkmark"
 			}]
 			x: 1.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["19BC0ABC01FFBBE0"]
@@ -620,7 +620,7 @@
 				title: "How to learn more"
 				type: "checkmark"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -3.5d
 		}
 		{
@@ -652,7 +652,7 @@
 				type: "checkmark"
 			}]
 			x: -1.5d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["19BC0ABC01FFBBE0"]
@@ -689,7 +689,7 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2611DFBB1AEF32F4"]
@@ -721,13 +721,15 @@
 				title: "Scorched Guns"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7FBFD30F201A69E5"]
 			description: [
 				"Scorched Guns has a &6teir-based progression&r for guns. Each new teir requires a new blueprint to craft."
+				""
+				"&l&cYOU ARE WASTING RESOURCES IF YOU DO NOT USE SEQUENCED ASSEMBELY CRAFTING FROM CREATE!!!!&r&r"
 				""
 				"Weapons are made on the &6Gunbench&r."
 			]
@@ -746,8 +748,8 @@
 				title: "Crafting"
 				type: "checkmark"
 			}]
-			x: -2.5d
-			y: 2.5d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2611DFBB1AEF32F4"]
@@ -807,7 +809,7 @@
 				title: "Jetpacks"
 				type: "checkmark"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -833,13 +835,16 @@
 				title: "Planes"
 				type: "checkmark"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7FBFD30F201A69E5"]
 			description: [
 				"&cDO NOT USE THE POWERED VERSIONS!!!!&r"
+				""
+				"&l&cYOU ARE WASTING RESOURCES IF YOU DO NOT USE SEQUENCED ASSEMBELY CRAFTING FROM CREATE!!!!&r&r"
+				""
 				""
 				"The &6Macerator&r is used to make combined resources for guns. Like treated iron and diamond steel."
 				""
@@ -863,12 +868,30 @@
 				type: "checkmark"
 			}]
 			x: -3.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2611DFBB1AEF32F4"]
+			description: [
+				"&6Terramity&r is the largest gun mod in here as it adds the most content outside of guns."
+				""
+				"Guns here are &6unique and have differenet abilities&r. They also take in different ammo."
+				""
+				"Terramity &6snipers&r are the strongest weapons in the game, they are able to do +100 damage to enemies if modified correctly."
+			]
 			icon: "terramity:conductite"
 			id: "2C8FDF0A6469FFB1"
+			rewards: [{
+				id: "0D21A14E8AD61D00"
+				item: {
+					Count: 1
+					id: "terramity:flintlock_pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Guide on the Terramity mod"
 			tasks: [{
@@ -876,13 +899,15 @@
 				title: "Terramity"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["37C3BB36606A4C2C"]
 			description: [
 				"Crafting JEG guns is &6fairly straightforward&r and simple. There are teirs of guns in this mod as well."
+				""
+				"&l&cYOU ARE WASTING RESOURCES IF YOU DO NOT USE SEQUENCED ASSEMBELY CRAFTING FROM CREATE!!!!&r&r"
 				""
 				"The &6Scrap Bench&r is used to make scrap weapons and ammo. "
 				""
@@ -907,13 +932,15 @@
 				title: "Crafting Stations"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 0.5d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["37C3BB36606A4C2C"]
 			description: [
 				"JEG uses three metals that are important to crafting guns."
+				""
+				"&l&cYOU ARE WASTING RESOURCES IF YOU DO NOT USE SEQUENCED ASSEMBELY CRAFTING FROM CREATE!!!!&r&r"
 				""
 				"&6Scrap&r is the lowest and is used for making weapons and ammo."
 				""
@@ -936,8 +963,62 @@
 				title: "Crafting"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: -0.5d
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C8FDF0A6469FFB1"]
+			description: [
+				"Terramity weapons have &b5 different rounds&r. Each pretty simple to make. "
+				""
+				"To use the weapons you need to&b sneak to reload&r. You will not be able to aim with these weapons but they are very accurate."
+			]
+			icon: "terramity:antimatter_round"
+			id: "5A73EC86BFE1B63D"
+			rewards: [{
+				count: 10
+				id: "270CFF3F1A1DC9F2"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Quick overview on weapons"
+			tasks: [{
+				id: "48A6B3A515F32CDD"
+				title: "Terramity Weapons"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1CAFE50318971604"]
+			description: [
+				"If you go to a buildng and see the message &e\"this building is haunted be careful\"&r. That means that there will be strong hostile mobs that spawn in the room and you will not be able to open the loot yet."
+				""
+				"You must defeat all of the hostile mobs and then you will be able to get the loot. &a(Btw this look is worth fighting for)&r"
+			]
+			icon: "minecraft:glass"
+			id: "45C5840A2DBAB439"
+			rewards: [{
+				count: 4
+				id: "31FFA1DEBD3F3610"
+				item: {
+					Count: 1
+					id: "jeg:flare"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "How haunted cities and buildings work"
+			tasks: [{
+				id: "46201578B6D068DE"
+				title: "Haunted Buildings"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	title: "Getting Started"

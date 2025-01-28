@@ -1,31 +1,23 @@
-import os
 import json
 
-# Set the directory containing the JSON files
-folder_path = "/Users/nicholasburczyk/Desktop/Minecraft server stuff/Datapacks/Server Season 3/SCG/data/scguns/guns"
+# Input JSON file path
+input_file = "/Users/nicholasburczyk/Desktop/Minecraft server stuff/Datapacks/Server Season 3/factions.json"
+# Output formatted file path
+output_file = "/Users/nicholasburczyk/Desktop/Minecraft server stuff/Datapacks/Server Season 3/factions_formatted.txt"
 
-# Loop through all JSON files in the folder
-for filename in os.listdir(folder_path):
-    if filename.endswith(".json"):  # Ensure it's a JSON file
-        file_path = os.path.join(folder_path, filename)
-        
-        # Open and load JSON file
-        with open(file_path, "r", encoding="utf-8") as file:
-            try:
-                data = json.load(file)
-            except json.JSONDecodeError:
-                print(f"Skipping invalid JSON file: {filename}")
-                continue
+# Load the JSON data from the file
+with open(input_file, "r") as file:
+    data = json.load(file)
 
-        # Check and add "trailColor" if missing
-        if "projectile" in data and "trailColor" not in data["projectile"]:
-            data["projectile"]["trailColor"] = -256
-            print(f"Updated {filename}: Added 'trailColor'.")
+# Ensure data is a list
+if not isinstance(data, list):
+    raise ValueError("Expected a list in the JSON file.")
 
-            # Write back to the file
-            with open(file_path, "w", encoding="utf-8") as file:
-                json.dump(data, file, indent=2)
-        else:
-            print(f"{filename} already has 'trailColor'.")
+# Process and write to the new file
+with open(output_file, "w") as file:
+    for line in data:
+        # Remove any accidental newline characters inside the string
+        formatted_line = line.replace("\n", "")
+        file.write(formatted_line + "\n")
 
-print("Processing complete.")
+print("✅ Formatted data has been saved to:", output_file)

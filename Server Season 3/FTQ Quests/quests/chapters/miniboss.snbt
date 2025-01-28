@@ -1139,7 +1139,7 @@
 				icon: "eeeabsmobs:heart_of_pagan"
 				id: "2DD38BB94E439FC5"
 				type: "kill"
-				value: 5L
+				value: 3L
 			}]
 			x: 6.75d
 			y: 3.75d
@@ -1329,7 +1329,7 @@
 			id: "631A07395CEA9DD3"
 			rewards: [
 				{
-					count: 45
+					count: 30
 					id: "448944581E537300"
 					item: "minecraft:gunpowder"
 					type: "item"
@@ -1353,7 +1353,7 @@
 				}
 				id: "5AF38AD61379C146"
 				type: "kill"
-				value: 8L
+				value: 5L
 			}]
 			x: 8.25d
 			y: 4.5d

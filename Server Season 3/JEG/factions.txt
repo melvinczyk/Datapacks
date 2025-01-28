@@ -3,26 +3,26 @@ Format: faction_name|ai_difficulty|mob1,mob2...|closeGun1,closeGun2...|longGun1,
     "night_of_the_undead|1|
     minecraft:zombie,minecraft:zombie_villager,minecraft:husk|
     jeg:custom_smg,jeg:waterpipe_shotgun,mteg:remington_870|
-    jeg:revolver,mteg:baker_rifle,scguns:scrapper|
-    jeg:double_barrel_shotgun,scguns:greaser_smg,mteg:double_barrel", 
+    jeg:revolver,mteg:baker_rifle,jeg:semi_auto_pistol|
+    jeg:double_barrel_shotgun,mteg:thompson,mteg:double_barrel", 
     
     "the_rattlers|2|
     minecraft:skeleton,minecraft:stray|
-    jeg:custom_smg,mteg:micro_uzi,scguns:scrapper,mteg:m1911|
+    jeg:custom_smg,mteg:micro_uzi,jeg:semi_auto_pistol,mteg:m1911|
     jeg:semi_auto_rifle,mteg:baker_rifle|
-    jeg:bolt_action_rifle,jeg:semi_auto_rifle,aurorasarsenal:mosin", 
+    jeg:bolt_action_rifle,jeg:semi_auto_rifle", 
     
     "grey_raiders|3|
     minecraft:pillager,minecraft:vindicator,takesapillage:archer,takesapillage:legioner,takesapillage:skirmisher|
     jeg:pump_shotgun,mteg:remington_870,mteg:micro_uzi|
     mteg:akm,mteg:m1_garand,mteg:baker_rifle,jeg:assault_rifle|
-    mteg:benelli_m4,jeg:service_rifle,scguns:iron_spear,mteg:m14", 
+    mteg:benelli_m4,jeg:service_rifle,jeg:combat_rifle,mteg:m14", 
     
     "bad_piggies|4|
     minecraft:piglin,minecraft:piglin_brute|
     jeg:double_barrel_shotgun,mteg:hog_bonker,mteg:uzi|
     jeg:assault_rifle,jeg:semi_auto_rifle|
-    jeg:hollenfire_mk2", 
+    jeg:hollenfire_mk2,jeg:bolt_action_rifle", 
     
     "hell_hogs|3|
     minecraft:zombified_piglin,minecraft:wither_skeleton|
@@ -36,29 +36,35 @@ Format: faction_name|ai_difficulty|mob1,mob2...|closeGun1,closeGun2...|longGun1,
     jeg:custom_smg|
     jeg:holy_shotgun,jeg:blossom_rifle",
 
-    "chaos_forces|4|
-    born_in_chaos_v1:fallen_chaos_knight,born_in_chaos_v1:missioner,born_in_chaos_v1:decaying_zombie,born_in_chaos_v1:restless_spirit,born_in_chaos_v1:scarlet_persecutor,born_in_chaos_v1:spirit_guide,born_in_chaos_v1:zombie_clown, born_in_chaos_v1:lord_pumpkinhead,born_in_chaos_v1:bonescaller,born_in_chaos_v1:supreme_bonescaller|
+    "restless_spirits|4|
+    born_in_chaos_v1:restless_spirit,born_in_chaos_v1:scarlet_persecutor,born_in_chaos_v1:seared_spirit|
+    jeg:custom_smg,mteg:micro_uzi,jeg:semi_auto_pistol|
+    mteg:scar_h,mteg:baker_rifle|
+    jeg:bolt_action_rifle,mteg:akm", 
+
+    "chaos_forces|3|
+    born_in_chaos_v1:fallen_chaos_knight,born_in_chaos_v1:decaying_zombie,born_in_chaos_v1:spirit_guide,born_in_chaos_v1:zombie_clown,born_in_chaos_v1:bonescaller,born_in_chaos_v1:supreme_bonescaller,born_in_chaos_v1:mr_pumpkin,born_in_chaos_v1:senor_pumpkin|
     mteg:lanchester,mteg:micro_uzi,mteg:double_barrel,mteg:thompson|
-    mteg:m1_garand,mteg:m14,aurorasarsenal:ar_15,scguns:iron_javelin|
-    mteg:awp,mteg:akm_custom,mteg:m16a1,mteg:akm",
+    mteg:m1_garand,mteg:m14,aurorasarsenal:ak_74m,mteg:akm|
+    mteg:m16a1,aurorasarsenal:g3a3",
 
     "cultists|5|
     ba_bt:bt_cultist|
     jeg:custom_smg,jeg:assault_rifle,jeg:revolver|
     jeg:bolt_action_rifle,mteg:m1_garand|
-    mteg:vss_vintorez,mteg:famas",
+    mteg:vss_vintorez,mteg:famas,jeg:bolt_action_rifle",
 
     "mutant_upgrade|5|
     mutantmonsters:mutant_skeleton,mutantmonsters:mutant_zombie,mutantmonsters:mutant_enderman|
     aurorasarsenal:vepr_12,mteg:lanchester,mteg:mossberg_590|
     mteg:awp,aurorasarsenal:sr_25,mteg:akm,mteg:m14|
-    mteg:m60,scguns:howler,scguns:howler_conversion,mteg:m14_ebr",
+    mteg:m60,mteg:m16_lsw,aurorasarsenal:rpd",
 
     "royalty|4|
     royalvariations:royal_skeleton,royalvariations:royal_zombie|
-    scguns:greaser_smg,scguns:scrapper|
+    mteg:thompson,mteg:glock_17|
     jeg:bolt_action_rifle,mteg:m1_garand,mteg:vss_vintorez|
-    mteg:awp,mteg:m16a1,mteg:m14",
+    mteg:m16a1,mteg:famas",
 
     "bronze_gears|3|
     scguns:cog_knight,scguns:cog_minion,scguns:sky_carrier|
@@ -70,35 +76,35 @@ Format: faction_name|ai_difficulty|mob1,mob2...|closeGun1,closeGun2...|longGun1,
     minecraft:husk,variantsandventures:verdant|
     jeg:custom_smg,mteg:double_barrel,jeg:combat_pistol|
     jeg:bolt_action_rifle,mteg:m1_garand|
-    mteg:m14,jeg:semi_auto_rifle,mteg:sks",
+    mteg:m14,jeg:bolt_action_rifle,mteg:sks",
 
     "swamp_monsters|2|
     variantsandventures:thicket,monsterplus:overgrown_skeleton,monsterplus:swamp_zombie|
     jeg:custom_smg,mteg:double_barrel,jeg:combat_pistol|
     jeg:bolt_action_rifle,mteg:m1_garand|
-    mteg:m14,jeg:semi_auto_rifle,mteg:sks",
+    mteg:akm,jeg:semi_auto_rifle,jeg:double_barrel_shotgun",
 
     "undead_vikings|5|
     cataclysm:draugr,cataclysm:elite_draugr|
-    mteg:benelli_m4,mteg:micro_uzi,scguns:jackhammer|
+    mteg:benelli_m4,mteg:micro_uzi,mteg:lanchester|
     mteg:m1_garand,mteg:remington_870,mteg:akm|
-    mteg:awp,mteg:m16a1,aurorasarsenal:sr_25",
+    mteg:famas,mteg:m16a1,aurorasarsenal:sr_25",
 
     "undead_hunters|5|
     enemyexpansion:huntsman,enemyexpansion:equestrian|
-    scguns:mk43_rifle,scguns:soul_drummer,mteg:micro_uzi|
+    mteg:ppsh_41,mteg:m16a1,mteg:micro_uzi|
     mteg:baker_rifle,mteg:scar_h,mteg:m14_ebr|
-    mteg:awp,mteg:akm,mteg:m16a1",
+    mteg:mp5,mteg:m16a1,jeg:bolt_action_rifle",
 
     "gnumus_killas|3|
     gnumus:gnumus_hunter,gnumus:gnumus_hunter_not_dispawn,gnumus:gnumus_shaman,gnumus:gnumus_worker|
-    mteg:baker_rifle,mteg:double_barrel,scguns:greaser_smg,scguns:rusty_gnat|
-    mteg:m1_garand,mteg:lanchester,scguns:musket,scguns:iron_javelin|
-    scguns:iron_spear,mteg:m1_garand,mteg:remington_870,jeg:infantry_rifle",
+    mteg:baker_rifle,mteg:double_barrel,jeg:custom_smg,jeg:combat_pistol|
+    mteg:m1_garand,mteg:lanchester,jeg:semi_auto_rifle,jeg:combat_rifle|
+    mteg:m1_garand,mteg:remington_870,jeg:infantry_rifle",
 
     "cannibals|4|
     cannibal:cannibal|
-    mteg:double_barrel,scguns:greaser_smg,mteg:remington_870|
+    mteg:double_barrel,jeg:combat_pistol,mteg:remington_870|
     mteg:baker_rifle,jeg:bolt_action_rifle|
     jeg:repeating_shotgun,aurorasarsenal:mosin,mteg:as_val",
 
@@ -110,7 +116,13 @@ Format: faction_name|ai_difficulty|mob1,mob2...|closeGun1,closeGun2...|longGun1,
 
     "nether_skeletons|4|
     netherskeletons:basalt_skeleton,netherskeletons:charred_skeleton,netherskeletons:crimson_skeleton,netherskeletons:nether_skeleton,netherskeletons:skelly_piglin,netherskeletons:soul_skeleton,netherskeletons:warped_skeleton|
-    scguns:pyroclastic_flow,mteg:remington_870,mteg:thompson|
-    jeg:semi_auto_rifle,scguns:cogloader|
-    mteg:hellfire,mteg:blue_heat"
+    mteg:famas,mteg:remington_870,mteg:thompson|
+    jeg:semi_auto_rifle,mteg:blue_heat,jeg:hollenfire_mk2|
+    mteg:hellfire,mteg:blue_heat",
+
+    "drones|3|
+    drones:drone|
+    mteg:benelli_m4|
+    mteg:m14|
+    jeg:bolt_action_rifle"
 ]

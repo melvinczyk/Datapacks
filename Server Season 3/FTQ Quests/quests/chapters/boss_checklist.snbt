@@ -2338,6 +2338,7 @@
 		}
 		{
 			description: ["The Void Blossom is found underground in an arena. You can find it by using a &dVoid Lily&r to show you the way."]
+			icon: "bosses_of_mass_destruction:void_thorn"
 			id: "5791F2FC818AEC9E"
 			rewards: [
 				{
@@ -3786,8 +3787,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -4.5d
-			y: -5.0d
+			x: -5.0d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -5602,7 +5603,6 @@
 		{
 			dependencies: [
 				"27BB666479FB438A"
-				"6102D47970756843"
 				"518D0B2B5C95BC88"
 			]
 			icon: "minecraft:ender_eye"
@@ -5791,85 +5791,6 @@
 			}]
 			x: -3.5d
 			y: -5.0d
-		}
-		{
-			description: ["The Ender King spawns rarely in the &5End&r dimension."]
-			id: "6102D47970756843"
-			rewards: [
-				{
-					id: "78DA89CF99931241"
-					item: {
-						Count: 1
-						id: "animatedmobsmod:ender_spectre"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5C81948F4B9C6EC6"
-					item: "animatedmobsmod:ender_fiend_egg"
-					type: "item"
-				}
-				{
-					count: 30
-					id: "07119F3C697E9489"
-					item: "jeg:gunnite_ingot"
-					type: "item"
-				}
-				{
-					count: 30
-					id: "162D22012BD513EC"
-					item: "jeg:gunmetal_ingot"
-					type: "item"
-				}
-				{
-					auto: "no_toast"
-					id: "20A64F43AA7F6F94"
-					type: "xp_levels"
-					xp_levels: 40
-				}
-				{
-					count: 40
-					id: "2A1B90E775786B22"
-					item: "minecraft:gunpowder"
-					type: "item"
-				}
-				{
-					id: "1CCAF5A0AFE60464"
-					item: "scguns:end_blueprint"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "1ED1B28B18A3E976"
-					item: "scguns:shulkshot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "4307319C42A51062"
-					item: "minecraft:shulker_shell"
-					type: "item"
-				}
-			]
-			subtitle: "Kill 1 Ender King"
-			tasks: [{
-				entity: "animatedmobsmod:ender_king"
-				icon: {
-					Count: 1
-					id: "animatedmobsmod:ender_spectre"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "344EF95C79F8849B"
-				type: "kill"
-				value: 1L
-			}]
-			x: -5.0d
-			y: -4.0d
 		}
 		{
 			description: ["You can summon The Adjuster by crafting a &5Totem of Freak&r and using the item."]

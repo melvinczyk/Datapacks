@@ -9,8 +9,8 @@
   "general": {
     "fireMode": "jeg:semi_automatic",
     "gripType": "jeg:two_handed",
-    "rate": 34,
-    "recoilAngle": 3.5,
+    "rate": 36,
+    "recoilAngle": 7.0,
     "recoilKick": 0.25
   },
   "modules": {
@@ -34,15 +34,15 @@
   },
   "projectile": {
     "advantage": "jeg:none",
-    "damage": 20.0,
+    "damage": 25.0,
     "ejectsCasing": true,
     "headshotMultiplier": 1.5,
     "item": "jeg:rifle_ammo",
     "life": 80,
     "size": 0.05,
-    "speed": 6.0,
-    "trailColor": -256,
-    "trailLengthMultiplier": 10.0
+    "speed": 8.0,
+    "trailColor": 16720641,
+    "trailLengthMultiplier": 100000.0
   },
   "reloads": {
     "emptyMagTimer": 5,

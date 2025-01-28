@@ -49,7 +49,7 @@
 			id: "77961D8A45D406A4"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 20.25"
+					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 25.25"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -121,7 +121,7 @@
 			id: "4148B5EBCBE77E43"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 20.50"
+					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 25.50"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -199,7 +199,7 @@
 			id: "42E0340E4E9FF97A"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 20.75"
+					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 25.75"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -290,7 +290,7 @@
 			id: "4A9759B669D5F436"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 21.00"
+					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 26.00"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -391,7 +391,7 @@
 			id: "2CFC833AD5D2D609"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 21.50"
+					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 26.50"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -506,7 +506,7 @@
 			id: "77CFEEEDE371C95E"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 21.25"
+					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 26.25"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -616,7 +616,7 @@
 			id: "3A5BAA48B6E5BD4C"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 21.75"
+					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 26.75"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -754,7 +754,7 @@
 			id: "624D65B0565EAD86"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 22.00"
+					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 27.00"
 					elevate_perms: true
 					icon: {
 						Count: 1
@@ -908,7 +908,7 @@
 			id: "55AA30331665848B"
 			rewards: [
 				{
-					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 23.00"
+					command: "/attribute @s hoths_jeg_attributes:awp_damage base set 28.00"
 					elevate_perms: true
 					icon: {
 						Count: 1
