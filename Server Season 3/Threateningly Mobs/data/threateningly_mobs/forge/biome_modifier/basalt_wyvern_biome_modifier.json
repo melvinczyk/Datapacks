@@ -8,7 +8,7 @@
   ],
   "spawners": {
     "type": "threateningly_mobs:basalt_wyvern",
-    "weight": 8,
+    "weight": 100,
     "minCount": 1,
     "maxCount": 1
   }

@@ -37,6 +37,7 @@
     "life": 10,
     "size": 0.2,
     "speed": 2.0,
+    "trailLengthMultiplier": 5.0,
     "trailColor": 16765577
   },
   "reloads": {

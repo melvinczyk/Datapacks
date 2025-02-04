@@ -24,7 +24,7 @@
   ],
   "spawners": {
     "type": "threateningly_mobs:steelboar",
-    "weight": 4,
+    "weight": 50,
     "minCount": 1,
     "maxCount": 1
   }

@@ -109,7 +109,36 @@
 		#Set the defense value of an armor item. May not work on modded armors, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:golden_chestplate" = 10
 		[items.armor.defense]
-			test = 0
+			"terramity:dimlite_helmet" = 5
+			"terramity:dimlite_leggings" = 8
+			"terramity:dimlite_boots" = 5
+			"terramity:virentium_armor_helmet" = 5
+			"terramity:virentium_armor_leggings" = 8
+			"terramity:virrentium_armor_boots" = 5
+			"terramity:cosmilite_armor_helmet" = 5
+			"terramity:cosmilite_armor_leggings" = 8
+			"terramity:cosmilite_armor_boots" = 5
+			"terramity:void_mage_helmet" = 6
+			"terramity:void_mage_chestplate" = 11
+			"terramity:void_mage_boots" = 6
+			"terramity:conductite_scouter_helmet" = 6
+			"terramity:conductite_armor_chestplate" = 11
+			"terramity:conductite_armor_boots" = 6
+			"terramity:hellspec_helmet" = 6
+			"terramity:hellspec_chestplate" = 11
+			"terramity:hellspec_boots" = 6
+			"terramity:nyxium_knight_helmet" = 7
+			"terramity:nyxium_knight_chestplate" = 13
+			"terramity:nyxium_knight_boots" = 7
+			"terramity:exodium_warlock_helmet" = 7
+			"terramity:exodium_warlock_chestplate" = 13
+			"terramity:exodium_warlock_boots" = 7
+			"terramity:reverium_paladin_helmet" = 7
+			"terramity:reverium_paladin_chestplate" = 13
+			"terramity:reverium_paladin_boots" = 7
+			"cataclysm:cursium_helmet" = 6
+			"cataclysm:cursium_chestplate" = 11
+			"cataclysm:cursium_leggings" = 9
 
 		#Set the toughness value of an armor item. May not work on modded armors, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:golden_boots" = 1

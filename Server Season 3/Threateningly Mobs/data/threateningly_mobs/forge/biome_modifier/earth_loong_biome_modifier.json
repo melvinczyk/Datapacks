@@ -19,7 +19,7 @@
   ],
   "spawners": {
     "type": "threateningly_mobs:earth_loong",
-    "weight": 4,
+    "weight": 20,
     "minCount": 1,
     "maxCount": 1
   }

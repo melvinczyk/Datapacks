@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": ["nether_wastes"],
+  "spawners": {
+    "type": "threateningly_mobs:terra_dragon",
+    "weight": 100,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

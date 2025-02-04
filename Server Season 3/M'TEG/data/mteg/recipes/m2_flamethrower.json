@@ -5,6 +5,10 @@
   },
   "materials": [
     {
+      "item": "minecraft:netherite_ingot",
+      "count": 10
+    },
+    {
       "item": "jeg:scrap",
       "count": 90
     },

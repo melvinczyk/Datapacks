@@ -9,7 +9,7 @@
   "general": {
     "fireMode": "jeg:semi_automatic",
     "gripType": "jeg:two_handed",
-    "rate": 36,
+    "rate": 32,
     "recoilAngle": 7.0,
     "recoilKick": 0.25
   },
@@ -42,7 +42,7 @@
     "size": 0.05,
     "speed": 8.0,
     "trailColor": 16720641,
-    "trailLengthMultiplier": 100000.0
+    "trailLengthMultiplier": 5.0
   },
   "reloads": {
     "emptyMagTimer": 5,

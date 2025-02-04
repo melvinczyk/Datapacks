@@ -2,9 +2,9 @@ import json
 import os
 
 def update_gunnite_count(json_data):
-    for material in json_data.get("materials", []):
-        if material.get("item") == "born_in_chaos_v1:dark_metal_ingot":
-            material["count"] += 1
+    for material in json_data.get("spawners", []):
+        if material.get("weight") == "born_in_chaos_v1:dark_metal_ingot":
+            material["weight"] += 1
     return json_data
 
 def process_json_files(folder_path):

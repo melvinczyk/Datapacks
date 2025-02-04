@@ -11,11 +11,12 @@
     "biomesoplenty:cold_desert",
     "biomesoplenty:muskeg",
     "biomesoplenty:snowy_fir_clearing",
-    "biomesoplenty:snowy_maple_woods"
+    "biomesoplenty:snowy_maple_woods",
+    "minecraft:frozen_river"
   ],
   "spawners": {
     "type": "threateningly_mobs:inferno",
-    "weight": 2,
+    "weight": 100,
     "minCount": 1,
     "maxCount": 1
   }

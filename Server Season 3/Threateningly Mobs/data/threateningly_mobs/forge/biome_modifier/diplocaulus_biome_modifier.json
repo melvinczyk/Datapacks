@@ -11,7 +11,7 @@
   ],
   "spawners": {
     "type": "threateningly_mobs:diplocaulus",
-    "weight": 2,
+    "weight": 50,
     "minCount": 1,
     "maxCount": 1
   }

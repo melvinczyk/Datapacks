@@ -29,7 +29,8 @@
     "item": "jeg:pistol_ammo",
     "life": 30,
     "size": 0.2,
-    "speed": 30.0,
+    "speed": 12,
+    "trailLengthMultiplier": 5.0,
     "trailColor": 16765577
   },
   "reloads": {

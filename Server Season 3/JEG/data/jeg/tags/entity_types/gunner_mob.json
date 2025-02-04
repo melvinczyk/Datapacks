@@ -57,6 +57,8 @@
     "netherskeletons:nether_skeleton",
     "netherskeletons:skelly_piglin",
     "netherskeletons:soul_skeleton",
-    "netherskeletons:warped_skeleton"
+    "netherskeletons:warped_skeleton",
+    "roamers:roamer",
+    "drones:drone"
   ]
 }

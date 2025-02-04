@@ -16,6 +16,8 @@
     "minecraft:vindicator",
     "minecraft:evoker",
     "minecraft:pillager",
-    "minecraft:witch"
+    "minecraft:witch",
+    "guardvillagers:guard",
+    "kobolds:kobold"
   ]
 }

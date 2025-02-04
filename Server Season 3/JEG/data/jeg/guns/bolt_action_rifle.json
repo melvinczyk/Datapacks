@@ -47,9 +47,9 @@
     "item": "jeg:rifle_ammo",
     "life": 60,
     "size": 0.05,
-    "speed": 24.0,
+    "speed": 12,
     "trailColor": 16720641,
-    "trailLengthMultiplier": 10.0
+    "trailLengthMultiplier": 5.0
   },
   "reloads": {
     "emptyMagTimer": 10,
