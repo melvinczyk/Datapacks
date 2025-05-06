@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:slim_dead_log"
+    }
+  },
+  "result": {
+    "item": "macabre:medium_dead_log",
+    "count": 2
+  }
+}

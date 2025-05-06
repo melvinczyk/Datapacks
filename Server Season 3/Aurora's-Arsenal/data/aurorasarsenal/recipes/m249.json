@@ -6,30 +6,26 @@
   "materials": [
     {
       "item": "minecraft:netherite_ingot",
-      "count": 4
+      "count": 10
     },
     {
       "item": "jeg:gunnite_ingot",
-      "count": 41
+      "count": 52
     },
     {
       "item": "jeg:gunmetal_ingot",
-      "count": 25
+      "count": 128
     },
     {
       "item": "jeg:scrap",
-      "count": 60
+      "count": 128
     },
     {
-      "item": "minecraft:chest",
-      "count": 1
-    },
-    {
-      "item": "minecraft:repeater",
+      "item": "terramity:reverium",
       "count": 2
     },
     {
-      "item": "minecraft:lever",
+      "item": "terramity:profanum",
       "count": 2
     }
   ]

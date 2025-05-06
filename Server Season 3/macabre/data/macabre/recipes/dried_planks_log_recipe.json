@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "macabre:dried_log"
+    }
+  ],
+  "result": {
+    "item": "macabre:dried_planks",
+    "count": 4
+  }
+}

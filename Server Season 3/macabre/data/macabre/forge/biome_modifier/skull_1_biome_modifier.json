@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:deathless_valley",
+    "macabre:decaying_meadow"
+  ],
+  "features": "macabre:skull_1",
+  "step": "vegetal_decoration"
+}

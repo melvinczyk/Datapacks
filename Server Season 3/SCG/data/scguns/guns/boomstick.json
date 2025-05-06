@@ -55,7 +55,7 @@
     "advantage": "scguns:none",
     "damage": 16.5,
     "ejectsCasing": true,
-    "item": "jeg:shotgun_shell",
+    "item": "scguns:shotgun_shell",
     "casingParticle": "scguns:shell",
     "life": 25,
     "size": 0.5,

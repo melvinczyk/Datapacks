@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "macabre:heartburger"
+    },
+    "title": {
+      "translate": "advancements.ach_19.title"
+    },
+    "description": {
+      "translate": "advancements.ach_19.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ach_19_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "macabre:heartburger"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "macabre:ach_9"
+}

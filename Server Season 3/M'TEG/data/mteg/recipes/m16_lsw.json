@@ -6,35 +6,23 @@
   "materials": [
     {
       "item": "minecraft:netherite_ingot",
-      "count": 5
+      "count": 10
     },
     {
-      "item": "minecraft:iron_ingot",
-      "count": 32
-    },
-    {
-      "item": "minecraft:chain",
-      "count": 2
-    },
-    {
-      "item": "minecraft:repeater",
-      "count": 2
-    },
-    {
-      "item": "minecraft:black_dye",
-      "count": 4
+      "item": "terramity:exodium_superalloy",
+      "count": 1
     },
     {
       "item": "jeg:scrap",
-      "count": 70
+      "count": 78
     },
     {
       "item": "jeg:gunnite_ingot",
-      "count": 31
+      "count": 40
     },
     {
       "item": "jeg:gunmetal_ingot",
-      "count": 15
+      "count": 64
     }
   ]
 }

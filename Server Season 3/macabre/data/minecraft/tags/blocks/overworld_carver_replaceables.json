@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "macabre:evaporating_voidturf",
+    "macabre:voidturf",
+    "macabre:gore_undersand",
+    "macabre:necrosis_skin",
+    "macabre:gore_sand",
+    "macabre:tumor_dirt",
+    "macabre:mortem_dirt",
+    "macabre:living_dirt",
+    "macabre:gums",
+    "macabre:damp_dirt",
+    "macabre:dr_dirt",
+    "macabre:crawling_dirt",
+    "macabre:hard_stone"
+  ]
+}

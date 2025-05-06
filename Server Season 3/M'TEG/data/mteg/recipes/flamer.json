@@ -14,11 +14,19 @@
     },
     {
       "item": "jeg:gunnite_ingot",
-      "count": 41
+      "count": 60
     },
     {
       "item": "minecraft:blaze_rod",
-      "count": 20
+      "count": 40
+    },
+    {
+      "item": "terramity:hellspec_alloy",
+      "count": 2
+    },
+    {
+      "item": "terramity:profanum",
+      "count": 2
     }
   ]
 }

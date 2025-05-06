@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:bee_spawn_egg"
+    },
+    "B": {
+      "item": "minecraft:honey_block"
+    },
+    "C": {
+      "tag": "minecraft:flowers"
+    }
+  },
+  "pattern": [
+    "BAB",
+    " C ",
+    " C "
+  ],
+  "result": {
+    "item": "terra_entity:hornet_staff"
+  },
+  "show_notification": true
+}

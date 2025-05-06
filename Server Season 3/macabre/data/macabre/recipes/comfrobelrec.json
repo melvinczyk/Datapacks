@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:call_from_below"
+    },
+    {
+      "item": "macabre:rootofinfestation"
+    }
+  ],
+  "result": {
+    "item": "macabre:company_from_below",
+    "count": 1
+  }
+}

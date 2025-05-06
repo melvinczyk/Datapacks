@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:gloom_forest",
+  "features": "macabre:small_tree_feature",
+  "step": "surface_structures"
+}

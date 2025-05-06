@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:loose_sinew"
+    },
+    "b": {
+      "item": "macabre:scalper_jaw"
+    },
+    "c": {
+      "item": "macabre:skin_tissue"
+    },
+    "d": {
+      "item": "macabre:small_sack"
+    }
+  },
+  "result": {
+    "item": "macabre:medium_sack",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:morphegor_heart"
+    },
+    {
+      "item": "macabre:gauge"
+    }
+  ],
+  "result": {
+    "item": "macabre:shorgan",
+    "count": 1
+  }
+}

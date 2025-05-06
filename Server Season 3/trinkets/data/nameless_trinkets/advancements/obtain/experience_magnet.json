@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:experience_magnet"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.experience_magnet.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.experience_magnet.description"
+    }
+  },
+  "criteria": {
+    "experience_magnet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:experience_magnet"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

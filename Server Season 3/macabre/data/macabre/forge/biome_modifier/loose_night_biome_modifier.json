@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "macabre:deathless_valley",
+    "macabre:rotting_field",
+    "macabre:cracked_cliffs",
+    "macabre:lifeless_pits"
+  ],
+  "spawners": {
+    "type": "macabre:loose_night",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

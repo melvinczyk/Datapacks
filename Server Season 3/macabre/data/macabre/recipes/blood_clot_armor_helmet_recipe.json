@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:blood_clot_ingot"
+    }
+  },
+  "result": {
+    "item": "macabre:blood_clot_armor_helmet",
+    "count": 1
+  }
+}

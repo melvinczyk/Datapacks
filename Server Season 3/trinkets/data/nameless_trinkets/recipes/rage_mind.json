@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "terramity:ruby_block"
+    },
+    {
+      "item": "confluence:obsidian_shield"
+    },
+    {
+      "item": "terramity:ruby_block"
+    },
+    {
+      "item": "macabre:brain"
+    },
+    {
+      "item": "nameless_trinkets:ultimate_dust"
+    },
+    {
+      "item": "macabre:brain"
+    },
+    {
+      "item": "terramity:ruby_block"
+    },
+    {
+      "item": "terramity:magma_stone"
+    },
+    {
+      "item": "terramity:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "nameless_trinkets:rage_mind",
+    "count": 1
+  }
+}

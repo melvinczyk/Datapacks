@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:broken_magnet"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.broken_magnet.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.broken_magnet.description"
+    }
+  },
+  "criteria": {
+    "broken_magnet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:broken_magnet"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

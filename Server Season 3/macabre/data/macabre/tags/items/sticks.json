@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "macabre:bone",
+    "macabre:wasted_stick",
+    "macabre:dried_stick",
+    "macabre:teething_stick",
+    "macabre:drenched_stick"
+  ]
+}

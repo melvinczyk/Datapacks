@@ -6,23 +6,19 @@
   "materials": [
     {
       "item": "jeg:scrap",
-      "count": 20
+      "count": 48
     },
     {
       "item": "jeg:gunnite_ingot",
-      "count": 31
+      "count": 42
     },
     {
       "item": "jeg:gunmetal_ingot",
-      "count": 20
-    },
-    {
-      "item": "minecraft:lever",
-      "count": 1
+      "count": 32
     },
     {
       "item": "minecraft:sandstone",
-      "count": 10
+      "count": 32
     },
     {
       "item": "threateningly_mobs:bettle_horn",

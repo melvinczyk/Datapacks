@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:baal_heart"
+    },
+    {
+      "item": "macabre:rageblade"
+    }
+  ],
+  "result": {
+    "item": "macabre:hemorrhage_sword",
+    "count": 1
+  }
+}

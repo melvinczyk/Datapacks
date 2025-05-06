@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:solid_acid"
+    },
+    {
+      "item": "macabre:fat"
+    }
+  ],
+  "result": {
+    "item": "macabre:scorching_acid",
+    "count": 1
+  }
+}

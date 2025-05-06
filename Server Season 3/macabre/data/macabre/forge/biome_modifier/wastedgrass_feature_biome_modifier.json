@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:cracked_cliffs",
+    "macabre:crawling_field",
+    "macabre:deathless_valley",
+    "macabre:decaying_meadow",
+    "macabre:gloom_forest",
+    "macabre:mortem_swamp",
+    "macabre:mountain_maw",
+    "macabre:rotting_field",
+    "macabre:teething_forest",
+    "macabre:valley_of_eyes",
+    "macabre:tumor_peaks"
+  ],
+  "features": "macabre:wastedgrass_feature",
+  "step": "underground_decoration"
+}

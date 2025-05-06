@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " a ",
+    "fag",
     "bcd",
-    " e "
+    "hei"
   ],
   "key": {
     "a": {
@@ -21,6 +21,18 @@
     },
     "e": {
       "item": "terramity:sapphire"
+    },
+    "f": {
+      "item": "terramity:onyx"
+    },
+    "g": {
+      "item": "macabre:plasma"
+    },
+    "h": {
+      "item": "terramity:iridium_chunk"
+    },
+    "i": {
+      "item": "terramity:gaianite_cluster"
     }
   },
   "result": {

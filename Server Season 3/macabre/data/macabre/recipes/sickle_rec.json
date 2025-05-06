@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:valamon_heart"
+    },
+    {
+      "item": "macabre:carver"
+    }
+  ],
+  "result": {
+    "item": "macabre:valamon_sickle",
+    "count": 1
+  }
+}

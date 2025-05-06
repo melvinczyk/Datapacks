@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:scarab_amulet"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.scarab_amulet.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.scarab_amulet.description"
+    }
+  },
+  "criteria": {
+    "amphibious_hands": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:scarab_amulet"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

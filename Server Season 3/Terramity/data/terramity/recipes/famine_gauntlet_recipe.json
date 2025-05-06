@@ -7,10 +7,10 @@
   ],
   "key": {
     "a": {
-      "item": "minecraft:rotten_flesh"
+      "item": "netherexp:wraithing_flesh"
     },
     "b": {
-      "item": "minecraft:spider_eye"
+      "item": "macabre:eye"
     },
     "c": {
       "item": "terramity:diamond_gauntlet"

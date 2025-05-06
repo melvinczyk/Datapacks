@@ -5,7 +5,7 @@
   },
   "materials": [
     {
-      "item": "minecraft:iron_ingot",
+      "item": "minecraft:gold_ingot",
       "count": 25
     },
     {
@@ -14,19 +14,15 @@
     },
     {
       "item": "jeg:gunnite_ingot",
-      "count": 26
+      "count": 32
     },
     {
       "item": "jeg:gunmetal_ingot",
-      "count": 10
+      "count": 24
     },
     {
       "item": "minecraft:repeater",
       "count": 1
-    },
-    {
-      "item": "minecraft:black_dye",
-      "count": 4
     }
   ]
 }

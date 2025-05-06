@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "macabre:deathless_valley",
+    "macabre:cracked_cliffs",
+    "macabre:decaying_meadow"
+  ],
+  "spawners": {
+    "type": "macabre:brainhemoth_night",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

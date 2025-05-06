@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/cracked_crown",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:gods_crown"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.gods_crown.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.gods_crown.description"
+    }
+  },
+  "criteria": {
+    "gods_crown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:gods_crown"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

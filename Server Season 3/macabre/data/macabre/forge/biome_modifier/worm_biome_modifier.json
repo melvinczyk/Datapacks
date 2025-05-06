@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "macabre:decaying_meadow",
+  "spawners": {
+    "type": "macabre:worm",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 8
+  }
+}

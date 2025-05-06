@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:mortem_marsh",
+  "features": "macabre:marsh_lake_feature",
+  "step": "lakes"
+}

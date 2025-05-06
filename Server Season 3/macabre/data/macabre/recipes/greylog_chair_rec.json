@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "abc",
+    "a c"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:soaked_log"
+    },
+    "b": {
+      "item": "macabre:skin_tissue"
+    },
+    "c": {
+      "item": "macabre:drenched_planks"
+    }
+  },
+  "result": {
+    "item": "macabre:greylog_chair",
+    "count": 2
+  }
+}

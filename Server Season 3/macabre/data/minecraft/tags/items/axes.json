@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "macabre:drenched_axe",
+    "macabre:wasted_axe",
+    "macabre:dried_axe",
+    "macabre:teething_axe",
+    "macabre:brittle_axe",
+    "macabre:soaked_axe",
+    "macabre:abhorrent_axe",
+    "macabre:ferrum_axe",
+    "macabre:plasma_axe",
+    "macabre:blood_clot_axe"
+  ]
+}

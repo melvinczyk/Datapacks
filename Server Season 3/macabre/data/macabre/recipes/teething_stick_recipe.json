@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sticks",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:teething_planks"
+    },
+    {
+      "item": "macabre:teething_planks"
+    }
+  ],
+  "result": {
+    "item": "macabre:bone",
+    "count": 4
+  }
+}

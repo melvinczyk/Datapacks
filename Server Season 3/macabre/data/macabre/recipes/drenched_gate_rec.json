@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "macabre:sticks"
+    },
+    "b": {
+      "item": "macabre:drenched_planks"
+    }
+  },
+  "result": {
+    "item": "macabre:drenched_gate",
+    "count": 1
+  }
+}

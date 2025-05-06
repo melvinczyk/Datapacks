@@ -6,22 +6,22 @@
       "item": "scguns:nether_star_fragment"
     },
     {
-      "item": "minecraft:netherite_ingot"
+      "item": "macabre:blood_clot_ingot"
     },
     {
-      "item": "minecraft:dragon_breath"
+      "item": "terramity:reverium"
     },
     {
-      "item": "scguns:vehement_coal"
+      "item": "terramity:nyxium"
     }
   ],
   "results": [
     {
       "item": "scguns:scorched_blend",
-      "count": 4
+      "count": 3
     },
     {
-      "chance": 0.15,
+      "chance": 0.1,
       "item": "scguns:scorched_blend"
     }
   ]

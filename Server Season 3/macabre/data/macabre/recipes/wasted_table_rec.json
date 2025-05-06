@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:wasted_planks"
+    },
+    "b": {
+      "item": "macabre:skin_tissue"
+    },
+    "c": {
+      "item": "macabre:wasted_log"
+    }
+  },
+  "result": {
+    "item": "macabre:wasted_table",
+    "count": 4
+  }
+}

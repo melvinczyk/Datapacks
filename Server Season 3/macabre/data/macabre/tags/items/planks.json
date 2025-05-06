@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "macabre:soaked_planks",
+    "macabre:teething_planks",
+    "macabre:drenched_planks",
+    "macabre:wasted_planks",
+    "macabre:dried_planks"
+  ]
+}

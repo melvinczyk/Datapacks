@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:soaked_planks"
+    },
+    "b": {
+      "item": "minecraft:red_stained_glass"
+    }
+  },
+  "result": {
+    "item": "macabre:soaked_window",
+    "count": 4
+  }
+}

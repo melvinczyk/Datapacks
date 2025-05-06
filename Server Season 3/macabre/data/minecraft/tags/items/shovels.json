@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "macabre:drenched_shovel",
+    "macabre:wasted_shovel",
+    "macabre:dired_shovel",
+    "macabre:teething_shovel",
+    "macabre:brittle_shovel",
+    "macabre:soaked_shovel",
+    "macabre:abhorrent_shovel",
+    "macabre:ferrum_shovel",
+    "macabre:plasma_shovel",
+    "macabre:blood_clot_shovel"
+  ]
+}

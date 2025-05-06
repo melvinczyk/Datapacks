@@ -20,6 +20,9 @@
     "gun_top_internal_1": {
       "item": "scguns:treated_brass_ingot"
     },
+    "gun_top_barrel_1": {
+      "item": "terramity:dimlite_ingot"
+    },
     "gun_barrel_2": {
       "item": "scguns:gun_barrel"
     },

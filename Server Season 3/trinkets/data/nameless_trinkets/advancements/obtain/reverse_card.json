@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:reverse_card"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.reverse_card.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.reverse_card.description"
+    }
+  },
+  "criteria": {
+    "reverse_card": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:reverse_card"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

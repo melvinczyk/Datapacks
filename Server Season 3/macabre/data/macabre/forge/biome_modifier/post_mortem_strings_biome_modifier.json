@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:mortem_swamp",
+    "macabre:mortem_marsh"
+  ],
+  "features": "macabre:post_mortem_strings",
+  "step": "vegetal_decoration"
+}

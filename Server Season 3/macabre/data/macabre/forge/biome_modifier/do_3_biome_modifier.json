@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:decaying_meadow",
+  "features": "macabre:do_3",
+  "step": "vegetal_decoration"
+}

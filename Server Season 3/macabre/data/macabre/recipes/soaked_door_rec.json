@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_pressure_plate",
+  "category": "redstone",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:soaked_planks"
+    }
+  },
+  "result": {
+    "item": "macabre:fleshdoor",
+    "count": 3
+  }
+}

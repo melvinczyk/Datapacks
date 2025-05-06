@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:scorching_acid"
+    },
+    {
+      "item": "macabre:brittlestone"
+    }
+  ],
+  "result": {
+    "item": "macabre:hard_stone",
+    "count": 1
+  }
+}

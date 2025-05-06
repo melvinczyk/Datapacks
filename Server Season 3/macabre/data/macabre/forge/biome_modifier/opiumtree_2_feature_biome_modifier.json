@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:teething_forest",
+  "features": "macabre:opiumtree_2_feature",
+  "step": "surface_structures"
+}

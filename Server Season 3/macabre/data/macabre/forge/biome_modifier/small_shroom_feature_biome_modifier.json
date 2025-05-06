@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:crawling_field",
+    "macabre:deathless_valley",
+    "macabre:gloom_forest",
+    "macabre:mountain_maw",
+    "macabre:rotting_field",
+    "macabre:cracked_cliffs"
+  ],
+  "features": "macabre:small_shroom_feature",
+  "step": "surface_structures"
+}

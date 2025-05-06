@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence_gate",
+  "category": "redstone",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "macabre:sticks"
+    },
+    "b": {
+      "item": "macabre:teething_planks"
+    }
+  },
+  "result": {
+    "item": "macabre:teething_fence_gate",
+    "count": 1
+  }
+}

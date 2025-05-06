@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:mortem_swamp",
+  "features": "macabre:gomoria_feature",
+  "step": "surface_structures"
+}

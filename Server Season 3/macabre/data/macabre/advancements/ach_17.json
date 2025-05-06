@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "macabre:gargamaw_pack"
+    },
+    "title": {
+      "translate": "advancements.ach_17.title"
+    },
+    "description": {
+      "translate": "advancements.ach_17.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ach_17_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "macabre:gargamaw_pack"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "macabre:ach_11"
+}

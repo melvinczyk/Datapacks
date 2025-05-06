@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "macabre:ba_4",
+    "macabre:ba_3",
+    "macabre:ba_2",
+    "macabre:abhorrent_block",
+    "macabre:ferrum_block",
+    "macabre:fat_block",
+    "macabre:fat_ore",
+    "macabre:blood_clot_ore"
+  ]
+}

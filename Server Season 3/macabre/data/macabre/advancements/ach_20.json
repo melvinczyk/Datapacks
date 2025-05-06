@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "macabre:eyeball_cocktail"
+    },
+    "title": {
+      "translate": "advancements.ach_20.title"
+    },
+    "description": {
+      "translate": "advancements.ach_20.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ach_20_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "macabre:eyeball_cocktail"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "macabre:ach_9"
+}

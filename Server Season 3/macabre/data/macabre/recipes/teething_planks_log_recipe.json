@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "macabre:teething_log"
+    }
+  ],
+  "result": {
+    "item": "macabre:teething_planks",
+    "count": 4
+  }
+}

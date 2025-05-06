@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "macabre:decaying_meadow",
+  "spawners": {
+    "type": "macabre:brainjelly_night",
+    "weight": 60,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

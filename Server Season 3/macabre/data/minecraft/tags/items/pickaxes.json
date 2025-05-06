@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "macabre:drenched_pickaxe",
+    "macabre:wasted_pickaxe",
+    "macabre:dried_pickaxe",
+    "macabre:teething_pickaxe",
+    "macabre:brittle_pickaxe",
+    "macabre:soaked_pickaxe",
+    "macabre:abhorrent_pickaxe",
+    "macabre:ferrum_pickaxe",
+    "macabre:plasma_pickaxe",
+    "macabre:blood_clot_pickaxe"
+  ]
+}

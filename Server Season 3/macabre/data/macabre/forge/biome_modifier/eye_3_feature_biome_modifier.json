@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:valley_of_eyes",
+  "features": "macabre:eye_3_feature",
+  "step": "surface_structures"
+}

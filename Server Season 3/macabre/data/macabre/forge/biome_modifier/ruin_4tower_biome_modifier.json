@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:rotting_field",
+    "macabre:gloom_forest",
+    "macabre:cracked_cliffs",
+    "macabre:mountain_maw",
+    "macabre:teething_forest"
+  ],
+  "features": "macabre:ruin_4tower",
+  "step": "surface_structures"
+}

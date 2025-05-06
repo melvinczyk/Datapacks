@@ -1,32 +1,27 @@
-import json
+import re
+import sys
 
-# Path to your JSON file
-file_path = "/Users/nicholasburczyk/Desktop/Minecraft server stuff/Datapacks/Server Season 3/custom_entity_attributes/basic.json5"
+def modify_quest_file(file_path):
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            content = f.read()
+    except FileNotFoundError:
+        print(f"Error: File '{file_path}' not found.")
+        return
 
-# Load the JSON data
-with open(file_path, "r") as file:
-    data = json.load(file)
+    modified_content = content
 
-# Define the movement speed attribute
-movement_speed_attribute = {
-    "attribute": "minecraft:generic.movement_speed",
-    "value": 0.15,
-    "operation": "MULTIPLY_BASE"
-}
+    # Change all `xp_levels` values to 35
+    modified_content = re.sub(r'(\bid:\s*".*?"\s*type:\s*"xp_levels"\s*xp_levels:\s*)\d+', r'\g<1>35', modified_content)
 
-# Iterate through all entities
-for entity in data.get("modifiers", []):
-    attributes = entity.get("attributes", [])
+    # Ensure gunpowder count is at least 40
+    modified_content = re.sub(r'(\bcount:\s*)([0-3]?[0-9])(\s*id:\s*".*?"\s*item:\s*"minecraft:gunpowder"\s*type:\s*"item")', r'\g<1>40\g<3>', modified_content)
 
-    # Check if the movement speed attribute already exists
-    has_movement_speed = any(attr["attribute"] == "minecraft:generic.movement_speed" for attr in attributes)
+    # Save the modified file
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write(modified_content)
 
-    # If it doesn't exist, add it
-    if not has_movement_speed:
-        attributes.append(movement_speed_attribute)
+    print(f"Updated xp_levels and gunpowder count in {file_path}")
 
-# Save the modified JSON back to the file
-with open(file_path, "w") as file:
-    json.dump(data, file, indent=2)
-
-print("✅ Movement speed attribute added where necessary.")
+if __name__ == "__main__":
+    modify_quest_file("/Users/nicholasburczyk/Documents/curseforge/minecraft/Instances/Server V3 (Guns)/config/ftbquests/quests/chapters/miniboss.snbt")

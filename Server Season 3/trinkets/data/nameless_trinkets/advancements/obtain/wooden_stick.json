@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:wooden_stick"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.wooden_stick.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.wooden_stick.description"
+    }
+  },
+  "criteria": {
+    "wooden_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:wooden_stick"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

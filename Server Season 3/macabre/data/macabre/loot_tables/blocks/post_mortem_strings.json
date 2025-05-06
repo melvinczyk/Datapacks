@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "macabre:blocks/post_mortem_strings",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "macabre:post_mortem_strings"
+        }
+      ]
+    }
+  ]
+}

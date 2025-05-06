@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_stained_glass"
+    }
+  },
+  "result": {
+    "item": "minecraft:glass_bottle",
+    "count": 3
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:deathless_valley",
+  "features": "macabre:valamon_feature",
+  "step": "surface_structures"
+}

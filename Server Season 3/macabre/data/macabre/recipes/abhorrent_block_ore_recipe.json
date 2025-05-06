@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:abhorrent_block"
+    }
+  ],
+  "result": {
+    "item": "macabre:abhorrent",
+    "count": 9
+  }
+}

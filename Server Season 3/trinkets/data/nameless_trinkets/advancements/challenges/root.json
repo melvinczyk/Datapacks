@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:unknown_fragment"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.root.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.root.description"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unknown_fragment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:unknown_fragment"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

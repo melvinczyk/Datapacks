@@ -9,32 +9,16 @@
       "count": 5
     },
     {
-      "item": "minecraft:repeater",
-      "count": 2
-    },
-    {
-      "item": "minecraft:lever",
-      "count": 1
-    },
-    {
-      "item": "minecraft:chest",
-      "count": 1
-    },
-    {
-      "item": "minecraft:black_dye",
-      "count": 4
-    },
-    {
       "item": "jeg:scrap",
       "count": 50
     },
     {
       "item": "jeg:gunnite_ingot",
-      "count": 41
+      "count": 52
     },
     {
       "item": "jeg:gunmetal_ingot",
-      "count": 20
+      "count": 48
     }
   ]
 }

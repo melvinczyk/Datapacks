@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:dried_log"
+    },
+    "b": {
+      "item": "macabre:dried_planks"
+    }
+  },
+  "result": {
+    "item": "macabre:dried_drawer",
+    "count": 2
+  }
+}

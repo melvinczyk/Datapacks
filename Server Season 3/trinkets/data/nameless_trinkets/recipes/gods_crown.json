@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "terramity:ultra_sniffers_pelt"
+  },
+  "base": {
+    "item": "nameless_trinkets:cracked_crown"
+  },
+  "result": {
+    "item": "nameless_trinkets:gods_crown"
+  },
+  "template": {
+    "item": "terramity:ultra_sniffer_fur"
+  }
+}

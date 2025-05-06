@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:wasted_planks"
+    },
+    "b": {
+      "tag": "macabre:sticks"
+    }
+  },
+  "result": {
+    "item": "macabre:wasted_axe",
+    "count": 1
+  }
+}

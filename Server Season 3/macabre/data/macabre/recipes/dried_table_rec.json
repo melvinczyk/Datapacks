@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:dried_planks"
+    },
+    "b": {
+      "item": "macabre:skin_tissue"
+    },
+    "c": {
+      "item": "macabre:dried_log"
+    }
+  },
+  "result": {
+    "item": "macabre:dried_table",
+    "count": 4
+  }
+}

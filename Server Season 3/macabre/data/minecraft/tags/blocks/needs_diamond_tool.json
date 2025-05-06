@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "macabre:ferum_bar",
+    "macabre:vilore",
+    "macabre:chain",
+    "macabre:ferrum_ore",
+    "macabre:plasma_ore",
+    "macabre:dunore",
+    "macabre:blood_clot_block"
+  ]
+}

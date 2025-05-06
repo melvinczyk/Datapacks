@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "macabre:medium_dead_log",
+    "macabre:slim_thorn",
+    "macabre:cemetery_wall",
+    "macabre:brittlestone_walls",
+    "macabre:hard_brick_walls",
+    "macabre:soft_brick_walls",
+    "macabre:long_brick_walls"
+  ]
+}

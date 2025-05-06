@@ -8,7 +8,7 @@
   ],
   "key": {
     "a": {
-      "item": "terramity:ruby_block"
+      "item": "terramity:dimlite_block"
     },
     "b": {
       "item": "minecraft:white_concrete"
@@ -20,7 +20,7 @@
       "item": "terramity:power_bracelets"
     },
     "e": {
-      "item": "terramity:sapphire_block"
+      "item": "terramity:onyx_block"
     }
   },
   "result": {

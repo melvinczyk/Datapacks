@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:gills"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.gills.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.gills.description"
+    }
+  },
+  "criteria": {
+    "gills": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:gills"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:dead_log"
+    }
+  },
+  "result": {
+    "item": "macabre:mortis_essence",
+    "count": 1
+  }
+}

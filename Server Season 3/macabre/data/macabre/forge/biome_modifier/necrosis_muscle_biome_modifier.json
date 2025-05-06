@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:rotting_field",
+    "macabre:deathless_valley",
+    "macabre:gloom_forest",
+    "macabre:mountain_maw",
+    "macabre:crawling_field",
+    "macabre:cracked_cliffs",
+    "macabre:valley_of_eyes",
+    "macabre:decaying_meadow"
+  ],
+  "features": "macabre:necrosis_muscle",
+  "step": "underground_ores"
+}

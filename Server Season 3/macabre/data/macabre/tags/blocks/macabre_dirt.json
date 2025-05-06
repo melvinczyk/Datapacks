@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "macabre:damp_dirt",
+    "macabre:living_dirt",
+    "macabre:breather",
+    "macabre:closed_breather",
+    "macabre:watcher",
+    "macabre:empty_watcher",
+    "macabre:crawling_dirt",
+    "macabre:crawling_living_dirt",
+    "macabre:lumpy_dirt",
+    "macabre:crumbling_dirt",
+    "macabre:dr_dirt",
+    "macabre:tumor_dirt",
+    "macabre:tentacle_cancer",
+    "macabre:tentacle_spawn",
+    "macabre:toxic_dirt",
+    "macabre:rotting_dirt",
+    "macabre:gore_sand",
+    "macabre:gore_quicksand",
+    "macabre:gums",
+    "macabre:mortem_dirt",
+    "macabre:ill_dirt",
+    "macabre:slit",
+    "macabre:geyser",
+    "macabre:geyser_off",
+    "macabre:slit_off"
+  ]
+}

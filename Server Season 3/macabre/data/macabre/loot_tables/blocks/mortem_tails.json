@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "macabre:blocks/mortem_tails",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "macabre:mortem_tails",
+          "conditions": [
+            {
+              "block": "macabre:mortem_tails",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

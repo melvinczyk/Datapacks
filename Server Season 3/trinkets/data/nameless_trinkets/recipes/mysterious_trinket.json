@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#E#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "nameless_trinkets:unknown_fragment"
+    },
+    "E": {
+      "item": "terramity:profanum"
+    }
+  },
+  "result": {
+    "item": "nameless_trinkets:mysterious_trinket",
+    "count": 1
+  }
+}

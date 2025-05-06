@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:ferrum_ingot"
+    }
+  },
+  "result": {
+    "item": "macabre:ferrum_block",
+    "count": 1
+  }
+}

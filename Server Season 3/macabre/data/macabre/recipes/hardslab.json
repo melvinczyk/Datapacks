@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:hard_brick"
+    }
+  },
+  "result": {
+    "item": "macabre:hard_brick_slab",
+    "count": 6
+  }
+}

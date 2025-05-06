@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:mysterious_trinket"
+    },
+    "title": {
+      "translate": "They're out there..."
+    },
+    "description": {
+      "translate": "Catch them all?"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "nameless_trinkets:trinkets"
+          }
+        ]
+      }
+    }
+  }
+}

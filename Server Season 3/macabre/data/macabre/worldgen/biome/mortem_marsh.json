@@ -1,0 +1,63 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.3,
+  "downfall": 0,
+  "effects": {
+    "ambient_sound": "ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "macabre:monstersounds",
+      "tick_delay": 6000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
+    "additions_sound": {
+      "sound": "macabre:wooshambient",
+      "tick_chance": 0.0111
+    },
+    "particle": {
+      "options": {
+        "type": "macabre:mortem_ambient"
+      },
+      "probability": 0.001
+    },
+    "foliage_color": 10387789,
+    "grass_color": 9470285,
+    "sky_color": -6779752,
+    "fog_color": -6779752,
+    "water_color": -12380650,
+    "water_fog_color": -14350071
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

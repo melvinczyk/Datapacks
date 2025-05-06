@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:crawling_field",
+  "features": "macabre:creeping_skin",
+  "step": "vegetal_decoration"
+}

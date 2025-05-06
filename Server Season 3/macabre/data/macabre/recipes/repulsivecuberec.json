@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:cubeomeat"
+    },
+    {
+      "item": "macabre:rootofinfestation"
+    }
+  ],
+  "result": {
+    "item": "macabre:repulsivecube",
+    "count": 1
+  }
+}

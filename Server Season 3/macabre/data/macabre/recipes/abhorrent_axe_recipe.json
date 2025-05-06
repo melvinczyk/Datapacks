@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:abhorrent"
+    },
+    "b": {
+      "tag": "macabre:sticks"
+    }
+  },
+  "result": {
+    "item": "macabre:abhorrent_axe",
+    "count": 1
+  }
+}

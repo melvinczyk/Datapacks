@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:gloom_forest",
+  "features": "macabre:decaying_leaves",
+  "step": "vegetal_decoration"
+}

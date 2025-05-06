@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:tumor_peaks",
+  "features": "macabre:tumour_mountf_1",
+  "step": "surface_structures"
+}

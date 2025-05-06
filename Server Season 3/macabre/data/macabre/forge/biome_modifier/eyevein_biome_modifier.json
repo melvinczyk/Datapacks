@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:rotting_field",
+    "macabre:valley_of_eyes"
+  ],
+  "features": "macabre:eyevein",
+  "step": "vegetal_decoration"
+}

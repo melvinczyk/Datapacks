@@ -10,15 +10,23 @@
     },
     {
       "item": "jeg:scrap",
-      "count": 90
+      "count": 128
     },
     {
       "item": "jeg:gunnite_ingot",
-      "count": 51
+      "count": 68
     },
     {
       "item": "jeg:gunmetal_ingot",
-      "count": 20
+      "count": 128
+    },
+    {
+      "item": "terramity:hellspec_alloy",
+      "count": 3
+    },
+    {
+      "item": "terramity:profanum",
+      "count": 2
     }
   ]
 }

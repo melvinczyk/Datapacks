@@ -1,0 +1,183 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 64,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:granite"
+          }
+        },
+        "state": {
+          "Name": "macabre:expanded_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:diorite"
+          }
+        },
+        "state": {
+          "Name": "macabre:expanded_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:andesite"
+          }
+        },
+        "state": {
+          "Name": "macabre:expanded_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        "state": {
+          "Name": "macabre:expanded_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate_coal_ore"
+          }
+        },
+        "state": {
+          "Name": "macabre:expanded_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate_iron_ore"
+          }
+        },
+        "state": {
+          "Name": "macabre:expanded_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate_redstone_ore",
+            "Properties": {
+              "lit": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "macabre:expanded_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate_gold_ore"
+          }
+        },
+        "state": {
+          "Name": "macabre:expanded_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate_lapis_ore"
+          }
+        },
+        "state": {
+          "Name": "macabre:expanded_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate_diamond_ore"
+          }
+        },
+        "state": {
+          "Name": "macabre:expanded_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate_emerald_ore"
+          }
+        },
+        "state": {
+          "Name": "macabre:expanded_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:deepslate_copper_ore"
+          }
+        },
+        "state": {
+          "Name": "macabre:expanded_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:infested_deepslate",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        "state": {
+          "Name": "macabre:expanded_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:tuff"
+          }
+        },
+        "state": {
+          "Name": "macabre:expanded_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "state": {
+          "Name": "macabre:expanded_stone"
+        }
+      }
+    ]
+  }
+}

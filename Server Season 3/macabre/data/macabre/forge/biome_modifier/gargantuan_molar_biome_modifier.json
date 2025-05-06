@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:teething_forest",
+  "features": "macabre:gargantuan_molar",
+  "step": "surface_structures"
+}

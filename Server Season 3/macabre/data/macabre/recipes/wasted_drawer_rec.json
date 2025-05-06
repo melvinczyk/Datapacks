@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:wasted_log"
+    },
+    "b": {
+      "item": "macabre:wasted_planks"
+    }
+  },
+  "result": {
+    "item": "macabre:wasted_drawer",
+    "count": 2
+  }
+}

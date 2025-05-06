@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:skin_tissue"
+    },
+    "b": {
+      "item": "macabre:morphegor_heart"
+    }
+  },
+  "result": {
+    "item": "macabre:tumor_crown",
+    "count": 1
+  }
+}

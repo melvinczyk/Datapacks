@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "terra_entity:enchanted_boomerang"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    }
+  ],
+  "result": {
+    "item": "terra_entity:shroomerang"
+  }
+}

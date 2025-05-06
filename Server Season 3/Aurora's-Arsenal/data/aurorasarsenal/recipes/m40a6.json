@@ -6,26 +6,30 @@
   "materials": [
     {
       "item": "minecraft:netherite_ingot",
-      "count": 4
-    },
-    {
-      "item": "jeg:gunnite_ingot",
-      "count": 31
-    },
-    {
-      "item": "jeg:gunmetal_ingot",
       "count": 8
     },
     {
+      "item": "jeg:gunnite_ingot",
+      "count": 80
+    },
+    {
       "item": "jeg:scrap",
-      "count": 50
+      "count": 128
     },
     {
       "item": "born_in_chaos_v1:dark_metal_ingot",
-      "count": 4
+      "count": 6
     },
     {
-      "item": "minecraft:lever",
+      "item": "threateningly_mobs:demon_eyes",
+      "count": 1
+    },
+    {
+      "item": "terramity:exodium_superalloy",
+      "count": 1
+    },
+    {
+      "item": "terramity:nyxium",
       "count": 1
     }
   ]

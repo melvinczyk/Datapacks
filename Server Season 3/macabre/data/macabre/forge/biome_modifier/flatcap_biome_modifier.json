@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:gloom_forest",
+    "macabre:rotting_field",
+    "macabre:cracked_cliffs"
+  ],
+  "features": "macabre:flatcap",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:hard_stone"
+    },
+    "b": {
+      "item": "macabre:brittlestone"
+    }
+  },
+  "result": {
+    "item": "macabre:hard_brick_pillar",
+    "count": 6
+  }
+}

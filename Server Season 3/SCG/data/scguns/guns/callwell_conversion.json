@@ -47,7 +47,7 @@
     "advantage": "scguns:illager",
     "damage": 14.0,
     "ejectsCasing": true,
-    "item": "jeg:shotgun_shell",
+    "item": "scguns:shotgun_shell",
     "casingParticle": "scguns:shell",
     "life": 25,
     "size": 0.05,

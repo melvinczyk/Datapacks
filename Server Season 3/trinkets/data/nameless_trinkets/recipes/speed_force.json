@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#SR",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createfood:apple_ice_cream_cone"
+    },
+    "S": {
+      "item": "nameless_trinkets:glowing_dust"
+    },
+    "R": {
+      "item": "minecraft:rabbit_foot"
+    }
+  },
+  "result": {
+    "item": "nameless_trinkets:speed_force",
+    "count": 1
+  }
+}

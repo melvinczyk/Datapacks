@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:mortem_marsh",
+  "features": "macabre:mortem_sinew",
+  "step": "vegetal_decoration"
+}

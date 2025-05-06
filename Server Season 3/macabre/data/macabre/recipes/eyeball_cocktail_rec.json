@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:eye"
+    },
+    {
+      "item": "macabre:liver"
+    },
+    {
+      "item": "macabre:eye"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "item": "macabre:eyeball_cocktail",
+    "count": 1
+  }
+}

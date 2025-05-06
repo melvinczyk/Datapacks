@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:pimples"
+    },
+    "b": {
+      "item": "macabre:fat"
+    }
+  },
+  "result": {
+    "item": "macabre:glowing_pimple",
+    "count": 16
+  }
+}

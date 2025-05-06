@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "macabre:valley_of_eyes",
+  "spawners": {
+    "type": "macabre:witness",
+    "weight": 60,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

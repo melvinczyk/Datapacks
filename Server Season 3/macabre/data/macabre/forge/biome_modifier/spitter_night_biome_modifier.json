@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "macabre:mountain_maw",
+    "macabre:tumor_peaks"
+  ],
+  "spawners": {
+    "type": "macabre:spitter_night",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

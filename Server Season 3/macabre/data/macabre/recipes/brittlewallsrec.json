@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:brittlestone"
+    }
+  },
+  "result": {
+    "item": "macabre:brittlestone_walls",
+    "count": 6
+  }
+}

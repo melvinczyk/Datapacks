@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "macabre:cubeomeat"
+    },
+    "title": {
+      "translate": "advancements.ach_1.title"
+    },
+    "description": {
+      "translate": "advancements.ach_1.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ach_1_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "macabre:the_pit"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "macabre:ach_7"
+}

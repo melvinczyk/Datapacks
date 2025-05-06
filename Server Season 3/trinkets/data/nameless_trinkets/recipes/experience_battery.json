@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#R#",
+    "#S#",
+    "#i#"
+  ],
+  "key": {
+    "#": {
+      "item": "terramity:circuit_board"
+    },
+    "R": {
+      "item": "scguns:energy_core"
+    },
+    "S": {
+      "item": "nameless_trinkets:glowing_dust"
+    },
+    "i": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "nameless_trinkets:experience_battery",
+    "count": 1
+  }
+}

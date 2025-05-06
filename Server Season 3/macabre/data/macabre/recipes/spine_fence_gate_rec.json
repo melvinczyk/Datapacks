@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:bone"
+    },
+    "b": {
+      "item": "macabre:cracking_bone"
+    }
+  },
+  "result": {
+    "item": "macabre:spine_gate",
+    "count": 1
+  }
+}

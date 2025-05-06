@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:lifeless_pits",
+  "features": "macabre:tall_bloodrose",
+  "step": "vegetal_decoration"
+}

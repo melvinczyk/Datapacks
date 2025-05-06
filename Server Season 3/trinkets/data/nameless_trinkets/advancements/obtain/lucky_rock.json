@@ -1,0 +1,26 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:lucky_rock"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.lucky_rock.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.lucky_rock.description"
+    }
+  },
+  "criteria": {
+    "lucky_rock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["nameless_trinkets:lucky_rock"]
+          }
+        ]
+      }
+    }
+  }
+}

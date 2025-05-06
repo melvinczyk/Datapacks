@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:rotting_field",
+  "features": "macabre:big_shroom_feature",
+  "step": "surface_structures"
+}

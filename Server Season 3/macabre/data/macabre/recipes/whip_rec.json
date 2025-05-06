@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:bone"
+    },
+    "b": {
+      "item": "macabre:valamon_heart"
+    }
+  },
+  "result": {
+    "item": "macabre:valamon_gut_whip",
+    "count": 1
+  }
+}

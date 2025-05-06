@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "macabre:wasted_planks"
+    }
+  ],
+  "result": {
+    "item": "macabre:wasted_button",
+    "count": 1
+  }
+}

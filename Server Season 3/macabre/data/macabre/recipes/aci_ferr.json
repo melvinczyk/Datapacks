@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:scorching_acid"
+    },
+    {
+      "item": "macabre:raw_ferrum"
+    },
+    {
+      "item": "macabre:raw_ferrum"
+    },
+    {
+      "item": "macabre:raw_ferrum"
+    },
+    {
+      "item": "macabre:raw_ferrum"
+    },
+    {
+      "item": "macabre:raw_ferrum"
+    },
+    {
+      "item": "macabre:raw_ferrum"
+    },
+    {
+      "item": "macabre:raw_ferrum"
+    },
+    {
+      "item": "macabre:raw_ferrum"
+    }
+  ],
+  "result": {
+    "item": "macabre:ferrum_ingot",
+    "count": 1
+  }
+}

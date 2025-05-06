@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:mortem_swamp",
+  "features": "macabre:mortem_dirt",
+  "step": "underground_ores"
+}

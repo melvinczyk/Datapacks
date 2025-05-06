@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:scorching_acid"
+    },
+    {
+      "item": "macabre:gore_sand"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_stained_glass",
+    "count": 1
+  }
+}

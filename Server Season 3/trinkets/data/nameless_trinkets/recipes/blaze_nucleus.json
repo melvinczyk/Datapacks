@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/C/",
+    "CSC",
+    "/C/"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:blaze_rod"
+    },
+    "S": {
+      "item": "nameless_trinkets:dubious_dust"
+    },
+    "C": {
+      "item": "threateningly_mobs:flame_shell"
+    }
+  },
+  "result": {
+    "item": "nameless_trinkets:blaze_nucleus",
+    "count": 1
+  }
+}

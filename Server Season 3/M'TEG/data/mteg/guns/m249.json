@@ -10,7 +10,7 @@
     "alwaysSpread": true,
     "fireMode": "jeg:automatic",
     "gripType": "jeg:two_handed",
-    "rate": 2,
+    "rate": 3,
     "recoilAngle": 2.0,
     "recoilKick": 0.15,
     "spread": 3.0
@@ -36,7 +36,7 @@
   },
   "projectile": {
     "advantage": "jeg:none",
-    "damage": 6.0,
+    "damage": 4.0,
     "headshotMultiplier": 1.5,
     "item": "jeg:rifle_ammo",
     "life": 40,
@@ -46,9 +46,9 @@
     "trailColor": 16765577
   },
   "reloads": {
-    "emptyMagTimer": 10,
+    "emptyMagTimer": 20,
     "maxAmmo": 200,
-    "reloadTimer": 100,
+    "reloadTimer": 180,
     "reloadType": "jeg:mag_fed"
   },
   "sounds": {

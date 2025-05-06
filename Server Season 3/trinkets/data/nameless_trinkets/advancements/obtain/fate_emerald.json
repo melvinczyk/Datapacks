@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:fate_emerald"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.fate_emerald.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.fate_emerald.description"
+    }
+  },
+  "criteria": {
+    "fate_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:fate_emerald"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

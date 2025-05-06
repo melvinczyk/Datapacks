@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:drenched_planks"
+    },
+    "b": {
+      "item": "macabre:soaked_log"
+    }
+  },
+  "result": {
+    "item": "macabre:greylog_cabinet",
+    "count": 1
+  }
+}

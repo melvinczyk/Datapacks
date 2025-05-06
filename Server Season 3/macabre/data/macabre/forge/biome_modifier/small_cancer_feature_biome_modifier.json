@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:crawling_field",
+  "features": "macabre:small_cancer_feature",
+  "step": "surface_structures"
+}

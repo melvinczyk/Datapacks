@@ -1,12 +1,12 @@
 {
   "type": "scguns:macerating",
-  "processingTime": 200,
+  "processingTime": 400,
   "ingredients": [
     {
       "item": "scguns:nether_star_fragment"
     },
     {
-      "item": "minecraft:netherite_ingot"
+      "item": "macabre:blood_clot_ingot"
     },
     {
       "item": "terramity:reverium"
@@ -17,6 +17,6 @@
   ],
   "result": {
     "item": "scguns:scorched_blend",
-    "count": 4
+    "count": 3
   }
 }

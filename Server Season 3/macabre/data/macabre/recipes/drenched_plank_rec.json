@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:soaked_planks"
+    }
+  },
+  "result": {
+    "item": "macabre:drenched_planks",
+    "count": 4
+  }
+}

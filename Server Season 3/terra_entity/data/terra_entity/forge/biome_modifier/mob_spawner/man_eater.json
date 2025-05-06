@@ -1,0 +1,18 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+      "minecraft:jungle",
+      "minecraft:lush_caves",
+      "minecraft:sparse_jungle",
+      "minecraft:bamboo_jungle",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:rocky_rainforest",
+      "biomesoplenty:tropics"
+    ],
+    "spawners": {
+        "type": "terra_entity:man_eater",
+        "weight": 120,
+        "minCount": 1,
+        "maxCount": 1
+    }
+}

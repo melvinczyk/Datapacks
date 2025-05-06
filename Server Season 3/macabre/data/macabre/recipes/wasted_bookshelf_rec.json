@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:wasted_log"
+    },
+    "b": {
+      "item": "macabre:wasted_planks"
+    },
+    "c": {
+      "item": "macabre:loose_sinew"
+    }
+  },
+  "result": {
+    "item": "macabre:wasted_bookshelf",
+    "count": 4
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/L/",
+    "/S/",
+    "/C/"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:string"
+    },
+    "L": {
+      "item": "minecraft:lightning_rod"
+    },
+    "C": {
+      "item": "scguns:lightning_rod_connector"
+    },
+    "S": {
+      "item": "nameless_trinkets:dubious_dust"
+    }
+  },
+  "result": {
+    "item": "nameless_trinkets:pocket_lightning_rod",
+    "count": 1
+  }
+}

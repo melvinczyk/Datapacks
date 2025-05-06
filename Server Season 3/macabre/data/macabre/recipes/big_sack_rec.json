@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:scalper_jaw"
+    },
+    "b": {
+      "item": "macabre:fatty_maw"
+    },
+    "c": {
+      "item": "macabre:skin_tissue"
+    },
+    "d": {
+      "item": "macabre:medium_sack"
+    }
+  },
+  "result": {
+    "item": "macabre:big_sack",
+    "count": 1
+  }
+}

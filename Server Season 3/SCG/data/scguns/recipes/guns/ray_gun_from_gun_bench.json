@@ -15,13 +15,19 @@
       "item": "scguns:heavy_gun_parts"
     },
     "gun_top_internal_2": {
-      "item": "scguns:anthralite_ingot"
+      "item": "macabre:abhorrent"
     },
     "gun_barrel_1": {
+      "item": "scguns:heavy_gun_barrel"
+    },
+    "gun_barrel_2": {
       "item": "scguns:gun_barrel"
     },
     "gun_grip": {
       "item": "scguns:gun_grip"
+    },
+    "gun_magazine": {
+      "item": "macabre:toxic_moss"
     }
   }
 }

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:stomach"
+    },
+    {
+      "item": "macabre:intestines"
+    },
+    {
+      "item": "macabre:brain"
+    },
+    {
+      "item": "macabre:flesh"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "macabre:brain_soup",
+    "count": 1
+  }
+}

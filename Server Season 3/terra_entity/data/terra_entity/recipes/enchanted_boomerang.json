@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "terra_entity:wood_boomerang"
+    }
+  },
+  "pattern": [
+    "BAA",
+    "A  ",
+    "A  "
+  ],
+  "result": {
+    "item": "terra_entity:enchanted_boomerang"
+  },
+  "show_notification": true
+}

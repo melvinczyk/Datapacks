@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:deathless_valley",
+    "macabre:decaying_meadow",
+    "macabre:lifeless_pits",
+    "macabre:rotting_field",
+    "macabre:valley_of_eyes"
+  ],
+  "features": "macabre:tower_dungeon_1",
+  "step": "surface_structures"
+}

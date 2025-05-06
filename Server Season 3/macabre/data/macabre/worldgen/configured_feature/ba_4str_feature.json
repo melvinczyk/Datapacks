@@ -1,0 +1,9 @@
+{
+  "type": "macabre:ba_4str_feature",
+  "config": {
+    "structure": "macabre:waterstrings4",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block"
+  }
+}

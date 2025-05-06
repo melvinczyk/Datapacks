@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "name": "tier#1",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "paraglider:spirit_orb",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this"
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#2",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "paraglider:spirit_orb",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 2
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#3",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "paraglider:spirit_orb",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 3
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#4",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "paraglider:spirit_orb",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:champion_properties",
+              "entity": "this",
+              "tier": {
+                "min": 4
+              }
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:mountain_maw",
+    "macabre:tumor_peaks"
+  ],
+  "features": "macabre:bigleaf",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "SKS",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "terramity:gilded_feather"
+    },
+    "S": {
+      "item": "terramity:moonstone_rock"
+    },
+    "K": {
+      "item": "nameless_trinkets:dubious_dust"
+    }
+  },
+  "result": {
+    "item": "nameless_trinkets:moon_stone",
+    "count": 1
+  }
+}

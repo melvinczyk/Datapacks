@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:fractured_nullstone"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.fractured_nullstone.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.fractured_nullstone.description"
+    }
+  },
+  "criteria": {
+    "amphibious_hands": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:fractured_nullstone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

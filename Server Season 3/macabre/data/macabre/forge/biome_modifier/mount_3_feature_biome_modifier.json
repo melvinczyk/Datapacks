@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:cracked_cliffs",
+  "features": "macabre:mount_3_feature",
+  "step": "surface_structures"
+}

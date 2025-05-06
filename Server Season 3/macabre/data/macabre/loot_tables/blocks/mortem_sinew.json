@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "macabre:blocks/mortem_sinew",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "macabre:mortem_sinew",
+          "conditions": [
+            {
+              "block": "macabre:mortem_sinew",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "macabre:dried_stairs",
+    "macabre:wasted_stairs",
+    "macabre:drenched_stairs",
+    "macabre:cemetery_stairs",
+    "macabre:teething_stairs",
+    "macabre:long_brick_stairs",
+    "macabre:soft_brick_stairs",
+    "macabre:hard_brick_stairs",
+    "macabre:brittlestone_stairs",
+    "macabre:meat_stairs",
+    "macabre:flesh_stairs",
+    "macabre:soaked_stairs"
+  ]
+}

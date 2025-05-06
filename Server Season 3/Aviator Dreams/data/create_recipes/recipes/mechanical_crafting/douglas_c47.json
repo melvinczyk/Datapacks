@@ -3,9 +3,9 @@
   "pattern": [
     "  IP   ",
     "P II   ",
-    "HIIHH  ",
+    "BIIHH  ",
     "EECCD_I",
-    "HIIHH  ",
+    "BIIHH  ",
     "P II   ",
     "  IP   "
   ],
@@ -38,6 +38,11 @@
     "C": [
       {
         "item": "minecraft:chest"
+      }
+    ],
+    "B": [
+      {
+        "item": "create:blaze_burner"
       }
     ],
     "_": [

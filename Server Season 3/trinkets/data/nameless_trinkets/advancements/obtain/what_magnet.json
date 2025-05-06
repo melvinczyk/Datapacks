@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:what_magnet"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.what_magnet.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.what_magnet.description"
+    }
+  },
+  "criteria": {
+    "what_magnet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:what_magnet"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

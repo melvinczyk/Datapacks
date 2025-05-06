@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:deathless_valley",
+    "macabre:rotting_field",
+    "macabre:gloom_forest",
+    "macabre:valley_of_eyes"
+  ],
+  "features": "macabre:ruin_1",
+  "step": "surface_structures"
+}

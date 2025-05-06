@@ -6,19 +6,15 @@
   "materials": [
     {
       "item": "jeg:gunnite_ingot",
-      "count": 16
+      "count": 20
     },
     {
       "item": "jeg:gunmetal_ingot",
-      "count": 10
+      "count": 20
     },
     {
       "item": "jeg:scrap",
       "count": 30
-    },
-    {
-      "item": "minecraft:repeater",
-      "count": 2
     },
     {
       "item": "minecraft:lever",

@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:deathless_valley",
+    "macabre:lifeless_pits"
+  ],
+  "features": "macabre:borrow",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:long_brick"
+    }
+  },
+  "result": {
+    "item": "macabre:long_brick_walls",
+    "count": 6
+  }
+}

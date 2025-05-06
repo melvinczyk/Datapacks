@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "bc ",
+    "db "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_nugget"
+    },
+    "b": {
+      "item": "minecraft:nether_wart_block"
+    },
+    "c": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "d": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "macabre:sacrificial_dirk",
+    "count": 1
+  }
+}

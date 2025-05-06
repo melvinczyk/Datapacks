@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:bloodloaf"
+    },
+    {
+      "item": "macabre:lungs"
+    },
+    {
+      "item": "macabre:heart"
+    },
+    {
+      "item": "macabre:kidneys"
+    },
+    {
+      "item": "macabre:bloodloaf"
+    }
+  ],
+  "result": {
+    "item": "macabre:heartburger",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:gargamaw_heart"
+    },
+    {
+      "item": "macabre:bonedagger"
+    }
+  ],
+  "result": {
+    "item": "macabre:grossbow",
+    "count": 1
+  }
+}

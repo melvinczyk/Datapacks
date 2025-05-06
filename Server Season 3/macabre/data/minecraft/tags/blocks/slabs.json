@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "macabre:dried_slab",
+    "macabre:wasted_slab",
+    "macabre:drenched_slabs",
+    "macabre:teething_slab",
+    "macabre:long_brick_slab",
+    "macabre:soft_brick_slab",
+    "macabre:hard_brick_slab",
+    "macabre:brittlestone_slab",
+    "macabre:meat_slab",
+    "macabre:flesh_slab",
+    "macabre:soaked_slab"
+  ]
+}

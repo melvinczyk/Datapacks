@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:wasted_planks"
+    },
+    "b": {
+      "item": "macabre:wasted_log"
+    }
+  },
+  "result": {
+    "item": "macabre:wasted_sofa",
+    "count": 3
+  }
+}

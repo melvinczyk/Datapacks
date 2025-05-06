@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "terra_entity:enchanted_boomerang"
+    },
+    {
+      "item": "terra_entity:ice_boomerang"
+    },
+    {
+      "item": "terra_entity:shroomerang"
+    }
+  ],
+  "result": {
+    "item": "terra_entity:trimarang"
+  }
+}

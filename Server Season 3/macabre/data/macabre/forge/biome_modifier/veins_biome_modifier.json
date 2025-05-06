@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:valley_of_eyes",
+  "features": "macabre:veins",
+  "step": "underground_ores"
+}

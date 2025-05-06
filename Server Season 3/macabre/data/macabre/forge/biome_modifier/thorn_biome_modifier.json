@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:deathless_valley",
+  "features": "macabre:thorn",
+  "step": "vegetal_decoration"
+}

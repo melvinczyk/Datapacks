@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "macabre:rootofinfestation"
+    },
+    "title": {
+      "translate": "advancements.ach_2.title"
+    },
+    "description": {
+      "translate": "advancements.ach_2.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ach_2_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "macabre:rootofinfestation"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "macabre:ach_1"
+}

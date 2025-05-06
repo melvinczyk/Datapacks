@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "macabre:rotting_field",
+    "macabre:gloom_forest"
+  ],
+  "spawners": {
+    "type": "macabre:limbsplitter_night",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

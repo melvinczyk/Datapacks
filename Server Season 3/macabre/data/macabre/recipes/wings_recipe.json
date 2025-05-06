@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:marrow_feather"
+    },
+    "b": {
+      "item": "macabre:baal_heart"
+    }
+  },
+  "result": {
+    "item": "macabre:marrow_wings",
+    "count": 1
+  }
+}

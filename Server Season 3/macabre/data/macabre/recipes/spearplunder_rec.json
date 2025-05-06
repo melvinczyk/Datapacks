@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:morphegor_heart"
+    },
+    {
+      "item": "macabre:crippler"
+    }
+  ],
+  "result": {
+    "item": "macabre:spearplunder",
+    "count": 1
+  }
+}

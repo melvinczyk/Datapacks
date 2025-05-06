@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "macabre:eye"
+    },
+    "title": {
+      "translate": "advancements.ach_3.title"
+    },
+    "description": {
+      "translate": "advancements.ach_3.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ach_3_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "macabre:eye"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "macabre:ach_1"
+}

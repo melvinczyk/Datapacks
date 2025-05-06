@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "afa"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:raw_blood_clot"
+    },
+    "b": {
+      "item": "macabre:pimples"
+    },
+    "c": {
+      "item": "macabre:skin_tissue"
+    },
+    "d": {
+      "item": "macabre:mortis_essence"
+    },
+    "e": {
+      "item": "macabre:blackheads"
+    },
+    "f": {
+      "item": "macabre:eye"
+    }
+  },
+  "result": {
+    "item": "macabre:skinray_embryo",
+    "count": 1
+  }
+}

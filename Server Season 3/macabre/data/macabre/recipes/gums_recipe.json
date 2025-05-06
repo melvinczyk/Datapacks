@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:gums_item"
+    }
+  },
+  "result": {
+    "item": "macabre:gum_block",
+    "count": 1
+  }
+}

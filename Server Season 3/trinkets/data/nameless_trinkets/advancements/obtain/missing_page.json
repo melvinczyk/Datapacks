@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:missing_page"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.missing_page.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.missing_page.description"
+    }
+  },
+  "criteria": {
+    "missing_page": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:missing_page"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

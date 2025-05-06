@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:blue_ice"
+    },
+    "B": {
+      "item": "terra_entity:enchanted_boomerang"
+    }
+  },
+  "pattern": [
+    "BAA",
+    "A  ",
+    "A  "
+  ],
+  "result": {
+    "item": "terra_entity:ice_boomerang"
+  },
+  "show_notification": true
+}

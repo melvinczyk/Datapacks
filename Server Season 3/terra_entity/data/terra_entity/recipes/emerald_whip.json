@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    "  A",
+    "AAA",
+    "A  "
+  ],
+  "result": {
+    "item": "terra_entity:emerald_whip"
+  },
+  "show_notification": true
+}

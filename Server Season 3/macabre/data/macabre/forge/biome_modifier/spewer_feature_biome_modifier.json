@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:cracked_cliffs",
+    "macabre:rotting_field"
+  ],
+  "features": "macabre:spewer_feature",
+  "step": "surface_structures"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:rotting_field",
+    "macabre:gloom_forest"
+  ],
+  "features": "macabre:double_blood_grass",
+  "step": "vegetal_decoration"
+}

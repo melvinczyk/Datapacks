@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:fat"
+    }
+  },
+  "result": {
+    "item": "macabre:fat_block",
+    "count": 1
+  }
+}

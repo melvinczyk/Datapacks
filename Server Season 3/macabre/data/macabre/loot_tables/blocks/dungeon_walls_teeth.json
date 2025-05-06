@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "macabre:blocks/dungeon_walls_teeth",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "macabre:bone",
+          "functions": [
+            {
+              "count": 3,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

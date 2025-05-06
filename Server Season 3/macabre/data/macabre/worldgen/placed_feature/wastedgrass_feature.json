@@ -1,0 +1,54 @@
+{
+  "feature": "macabre:wastedgrass_feature",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 10
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -70
+        },
+        "max_inclusive": {
+          "absolute": -38
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:solid",
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:solid",
+              "offset": [
+                0,
+                1,
+                0
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

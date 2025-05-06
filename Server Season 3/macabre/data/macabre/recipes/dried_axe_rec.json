@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:dried_planks"
+    },
+    "b": {
+      "tag": "macabre:sticks"
+    }
+  },
+  "result": {
+    "item": "macabre:dried_axe",
+    "count": 1
+  }
+}

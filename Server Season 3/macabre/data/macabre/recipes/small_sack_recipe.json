@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:loose_sinew"
+    },
+    "b": {
+      "item": "macabre:skin_tissue"
+    },
+    "c": {
+      "item": "macabre:plasma"
+    }
+  },
+  "result": {
+    "item": "macabre:small_sack",
+    "count": 1
+  }
+}

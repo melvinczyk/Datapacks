@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:deathless_valley",
+    "macabre:mortem_swamp",
+    "macabre:mountain_maw"
+  ],
+  "features": "macabre:vilore",
+  "step": "underground_ores"
+}

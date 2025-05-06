@@ -21,16 +21,16 @@
       "item": "scguns:diamond_steel_gun_frame"
     },
     "gun_barrel_2": {
-      "item": "scguns:gun_barrel"
+      "item": "scguns:heavy_gun_barrel"
     },
     "gun_grip": {
       "item": "scguns:gun_grip"
     },
     "gun_barrel_1": {
-      "item": "scguns:gun_barrel"
+      "item": "scguns:heavy_gun_barrel"
     },
     "gun_top_barrel_1": {
-      "tag": "minecraft:planks"
+      "item": "cataclysm:void_eye"
     },
     "gun_magazine": {
       "item": "minecraft:shulker_shell"

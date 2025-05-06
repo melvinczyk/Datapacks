@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "afa"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:raw_blood_clot"
+    },
+    "b": {
+      "item": "macabre:bone"
+    },
+    "c": {
+      "item": "macabre:skull"
+    },
+    "d": {
+      "item": "macabre:mortis_essence"
+    },
+    "e": {
+      "item": "macabre:spine_item"
+    },
+    "f": {
+      "item": "macabre:ribcage_i"
+    }
+  },
+  "result": {
+    "item": "macabre:construct_embryo",
+    "count": 1
+  }
+}

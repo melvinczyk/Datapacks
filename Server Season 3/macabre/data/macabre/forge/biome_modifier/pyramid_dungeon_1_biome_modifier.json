@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:deathless_valley",
+    "macabre:lifeless_pits"
+  ],
+  "features": "macabre:pyramid_dungeon_1",
+  "step": "surface_structures"
+}

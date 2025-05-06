@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "macabre:rotting_field",
+    "macabre:gloom_forest",
+    "macabre:cracked_cliffs",
+    "macabre:teething_forest"
+  ],
+  "spawners": {
+    "type": "macabre:marauder",
+    "weight": 40,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

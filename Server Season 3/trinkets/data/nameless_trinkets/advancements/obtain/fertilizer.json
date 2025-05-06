@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:fertilizer"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.fertilizer.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.fertilizer.description"
+    }
+  },
+  "criteria": {
+    "fertilizer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:fertilizer"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

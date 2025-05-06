@@ -17,7 +17,23 @@
     "minecraft:evoker",
     "minecraft:pillager",
     "minecraft:witch",
-    "guardvillagers:guard",
-    "kobolds:kobold"
+    "kobolds:kobold",
+    "minecraft:wolf",
+    "born_in_chaos_v1:fallen_chaos_knight",
+    "terramity:cave_gnome",
+    "cannibal:cannibal",
+    "minecraft:wither",
+    "minecraft:slime",
+    "cnc:chupacabra",
+    "cnc:timber_wolf",
+    "born_in_chaos_v1:spirit_guide",
+    "born_in_chaos_v1:decaying_zombie",
+    "born_in_chaos_v1:decrepit_skeleton",
+    "just_in_nether:bullkin",
+    "just_in_nether:bullkin_brute",
+    "just_in_nether:dullkin",
+    "just_in_nether:zombiefied_bullkin",
+    "terra_entity:face_monster",
+    "terra_entity:blood_zombie"
   ]
 }

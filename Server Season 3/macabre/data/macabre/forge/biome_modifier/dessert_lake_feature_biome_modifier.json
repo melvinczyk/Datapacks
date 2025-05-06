@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:lifeless_pits",
+  "features": "macabre:dessert_lake_feature",
+  "step": "lakes"
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:vampire_blood"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.vampire_blood.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.vampire_blood.description"
+    }
+  },
+  "criteria": {
+    "vampire_blood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:vampire_blood"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

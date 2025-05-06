@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:brittlestone"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace",
+    "count": 1
+  }
+}

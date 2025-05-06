@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MFM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "F": {
+      "item": "jeg:flare"
+    }
+  },
+  "result": {
+    "item": "jeg:terror_armada_flare"
+  }
+}

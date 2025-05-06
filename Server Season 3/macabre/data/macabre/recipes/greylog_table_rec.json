@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:drenched_planks"
+    },
+    "b": {
+      "item": "macabre:skin_tissue"
+    },
+    "c": {
+      "item": "macabre:soaked_log"
+    }
+  },
+  "result": {
+    "item": "macabre:greylog_table",
+    "count": 4
+  }
+}

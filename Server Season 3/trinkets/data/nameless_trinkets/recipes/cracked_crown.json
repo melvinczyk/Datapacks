@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "VTN",
+    "GSE",
+    "DHR"
+  ],
+  "key": {
+    "N": {
+      "item": "terramity:nyxium_block"
+    },
+    "E": {
+      "item": "terramity:exodium_block"
+    },
+    "R": {
+      "item": "terramity:reverium_block"
+    },
+    "H": {
+      "item": "terramity:hellspec_alloy_block"
+    },
+    "D": {
+      "item": "terramity:dimlite_block"
+    },
+    "G": {
+      "item": "terramity:virentium_alloy_block"
+    },
+    "V": {
+      "item": "terramity:void_alloy_block"
+    },
+    "T": {
+      "tag": "nameless_trinkets:flesh_boss_trophy"
+    },
+    "S": {
+      "item": "nameless_trinkets:ultimate_dust"
+    }
+  },
+  "result": {
+    "item": "nameless_trinkets:cracked_crown",
+    "count": 1
+  }
+}

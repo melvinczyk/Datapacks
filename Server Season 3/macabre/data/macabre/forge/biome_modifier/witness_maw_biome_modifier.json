@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "macabre:cracked_cliffs",
+    "macabre:deathless_valley"
+  ],
+  "spawners": {
+    "type": "macabre:witness_maw",
+    "weight": 60,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

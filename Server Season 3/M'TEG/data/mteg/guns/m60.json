@@ -24,7 +24,7 @@
   },
   "projectile": {
     "advantage": "jeg:none",
-    "damage": 6.0,
+    "damage": 9.0,
     "headshotMultiplier": 1.5,
     "item": "jeg:rifle_ammo",
     "life": 40,

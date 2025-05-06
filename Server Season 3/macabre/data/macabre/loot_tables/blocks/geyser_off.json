@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "macabre:blocks/geyser_off",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "macabre:damp_dirt"
+        }
+      ]
+    }
+  ]
+}

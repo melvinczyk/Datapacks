@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:reforger"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.reforger.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.reforger.description"
+    }
+  },
+  "criteria": {
+    "reforger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:reforger"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

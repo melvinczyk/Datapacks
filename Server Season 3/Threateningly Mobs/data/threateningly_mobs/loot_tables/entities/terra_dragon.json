@@ -154,22 +154,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "terramity:raw_profanum",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:basalt",
-          "weight": 8,
+          "weight": 15,
           "functions": [
             {
               "function": "set_count",

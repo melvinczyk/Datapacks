@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:lifeless_pits",
+  "features": "macabre:dessert_tree_2_feature",
+  "step": "surface_structures"
+}

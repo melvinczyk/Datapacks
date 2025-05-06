@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:crawling_field",
+  "features": "macabre:living_dirt",
+  "step": "underground_ores"
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:explosion_proof_jacket"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.explosion_proof_jacket.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.explosion_proof_jacket.description"
+    }
+  },
+  "criteria": {
+    "explosion_proof_jacket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:explosion_proof_jacket"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

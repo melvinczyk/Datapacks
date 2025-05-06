@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:tumor_peaks",
+    "macabre:mountain_maw"
+  ],
+  "features": "macabre:petrified_rock",
+  "step": "underground_ores"
+}

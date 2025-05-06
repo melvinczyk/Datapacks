@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "macabre:cracked_crystalized_blood"
+    },
+    "title": {
+      "translate": "advancements.ach_5.title"
+    },
+    "description": {
+      "translate": "advancements.ach_5.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ach_5_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "macabre:the_pit"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "macabre:ach_7"
+}

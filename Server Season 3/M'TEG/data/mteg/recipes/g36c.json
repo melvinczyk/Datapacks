@@ -6,11 +6,11 @@
   "materials": [
     {
       "item": "jeg:scrap",
-      "count": 50
+      "count": 64
     },
     {
       "item": "jeg:gunmetal_ingot",
-      "count": 21
+      "count": 28
     },
     {
       "item": "minecraft:ink_sac",

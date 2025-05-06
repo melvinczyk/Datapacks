@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "macabre:lifeless_pits",
+    "macabre:deathless_valley"
+  ],
+  "spawners": {
+    "type": "macabre:desert_worm_night",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

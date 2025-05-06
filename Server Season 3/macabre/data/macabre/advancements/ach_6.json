@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "macabre:blood_clot_ingot"
+    },
+    "title": {
+      "translate": "advancements.ach_6.title"
+    },
+    "description": {
+      "translate": "advancements.ach_6.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ach_6_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "macabre:blood_clot_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "macabre:ach_1"
+}

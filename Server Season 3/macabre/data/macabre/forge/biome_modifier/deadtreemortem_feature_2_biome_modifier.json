@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:mortem_marsh",
+  "features": "macabre:deadtreemortem_feature_2",
+  "step": "surface_structures"
+}

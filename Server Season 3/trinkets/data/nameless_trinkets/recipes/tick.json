@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#HR",
+    "HSH",
+    "RH#"
+  ],
+  "key": {
+    "#": {
+      "item": "arphex:roach_nymph"
+    },
+    "H": {
+      "item": "minecraft:hay_block"
+    },
+    "R": {
+      "item": "arphex:bloodworm_grub"
+    },
+    "S": {
+      "item": "nameless_trinkets:glowing_dust"
+    }
+  },
+  "result": {
+    "item": "nameless_trinkets:tick",
+    "count": 1
+  }
+}

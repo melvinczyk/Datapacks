@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "macabre:slim_dead_log",
+    "macabre:dried_fence",
+    "macabre:wasted_fence",
+    "macabre:soaked_fence",
+    "macabre:drenched_fence",
+    "macabre:teething_fence",
+    "macabre:spine_gate",
+    "macabre:spine_gate_open"
+  ]
+}

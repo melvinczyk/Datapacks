@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:dark_nelumbo"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.dark_nelumbo.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.dark_nelumbo.description"
+    }
+  },
+  "criteria": {
+    "dark_nelumbo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:dark_nelumbo"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

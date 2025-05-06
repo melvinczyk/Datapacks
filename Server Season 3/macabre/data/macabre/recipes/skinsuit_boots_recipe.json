@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:skin_tissue"
+    }
+  },
+  "result": {
+    "item": "macabre:skinsuit_boots",
+    "count": 1
+  }
+}

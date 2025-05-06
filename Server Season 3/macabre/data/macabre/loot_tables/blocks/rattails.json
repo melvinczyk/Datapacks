@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "macabre:blocks/rattails",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "macabre:rattails",
+          "conditions": [
+            {
+              "block": "macabre:rattails",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "macabre:heart"
+    },
+    "title": {
+      "translate": "advancements.ach_9.title"
+    },
+    "description": {
+      "translate": "advancements.ach_9.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ach_9_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "macabre:heart"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "macabre:ach_3"
+}

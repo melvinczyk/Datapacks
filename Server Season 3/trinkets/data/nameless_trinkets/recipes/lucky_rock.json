@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#R#",
+        "iSg",
+        "#C#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stone"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "i": {
+            "item": "create:zinc_ingot"
+        },
+        "S": {
+            "item": "nameless_trinkets:dubious_dust"
+        },
+        "g": {
+            "item": "create:brass_ingot"
+        },
+        "C": {
+            "item": "scguns:sulfur_chunk"
+        }
+    },
+    "result": {
+            "item": "nameless_trinkets:lucky_rock",
+        "count": 1
+    }
+}

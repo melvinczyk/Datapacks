@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "  A",
+    "AAA",
+    "A  "
+  ],
+  "result": {
+    "item": "terra_entity:diamond_whip"
+  },
+  "show_notification": true
+}

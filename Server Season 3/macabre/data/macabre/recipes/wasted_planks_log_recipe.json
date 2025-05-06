@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "macabre:wasted_log"
+    }
+  ],
+  "result": {
+    "item": "macabre:wasted_planks",
+    "count": 4
+  }
+}

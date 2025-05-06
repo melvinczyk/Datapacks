@@ -30,7 +30,6 @@
     "born_in_chaos_v1:lord_pumpkinhead",
     "born_in_chaos_v1:bonescaller",
     "born_in_chaos_v1:supreme_bonescaller",
-    "ba_bt:bt_cultist",
     "royalvariations:royal_skeleton",
     "royalvariations:royal_zombie",
     "scguns:cog_knight",
@@ -58,7 +57,6 @@
     "netherskeletons:skelly_piglin",
     "netherskeletons:soul_skeleton",
     "netherskeletons:warped_skeleton",
-    "roamers:roamer",
     "drones:drone"
   ]
 }

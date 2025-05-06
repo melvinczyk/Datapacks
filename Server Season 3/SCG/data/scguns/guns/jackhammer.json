@@ -52,7 +52,7 @@
     "damage": 19.0,
     "ejectsCasing": true,
     "gravity": false,
-    "item": "jeg:shotgun_shell",
+    "item": "scguns:shotgun_shell",
     "casingParticle": "scguns:shell",
     "life": 24,
     "size": 0.1,

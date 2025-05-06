@@ -104,20 +104,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "terramity:lucky_dice",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "terramity:lava_gauntlet",
           "weight": 1,
           "functions": [
@@ -202,35 +188,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "terramity:proximity_badge",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "terramity:stygian_safety_talisman",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "terramity:die_of_revival",
           "weight": 1,
           "functions": [
             {
@@ -287,20 +245,6 @@
         {
           "type": "minecraft:item",
           "name": "terramity:experience_sapping_gauntlet",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "terramity:poker_chip_bracelets",
           "weight": 1,
           "functions": [
             {

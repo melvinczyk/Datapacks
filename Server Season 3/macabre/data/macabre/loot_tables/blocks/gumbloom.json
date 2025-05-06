@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "macabre:blocks/gumbloom",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "macabre:gums_item",
+          "conditions": [
+            {
+              "block": "macabre:gumbloom",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "functions": [
+            {
+              "count": 3,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

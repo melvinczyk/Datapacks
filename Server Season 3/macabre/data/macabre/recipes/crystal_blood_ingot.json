@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:coated_ferrum"
+    },
+    {
+      "item": "macabre:coated_ferrum"
+    },
+    {
+      "item": "macabre:solid_acid_2"
+    },
+    {
+      "item": "macabre:coated_ferrum"
+    },
+    {
+      "item": "macabre:coated_ferrum"
+    }
+  ],
+  "result": {
+    "item": "macabre:blood_clot_ingot",
+    "count": 2
+  }
+}

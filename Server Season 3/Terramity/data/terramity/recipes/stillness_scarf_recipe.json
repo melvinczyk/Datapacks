@@ -8,16 +8,16 @@
   ],
   "key": {
     "a": {
-      "item": "minecraft:sugar"
+      "item": "terramity:black_matter"
     },
     "b": {
-      "item": "minecraft:fermented_spider_eye"
+      "item": "terramity:profanum"
     },
     "c": {
       "tag": "minecraft:wool"
     },
     "d": {
-      "item": "minecraft:anvil"
+      "item": "terramity:anvil_talisman"
     }
   },
   "result": {

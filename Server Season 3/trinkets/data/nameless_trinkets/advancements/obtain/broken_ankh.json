@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:broken_ankh"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.broken_ankh.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.broken_ankh.description"
+    }
+  },
+  "criteria": {
+    "broken_ankh": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:broken_ankh"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

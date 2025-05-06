@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:ferrum_ingot"
+    }
+  },
+  "result": {
+    "item": "macabre:ferum_bar",
+    "count": 12
+  }
+}

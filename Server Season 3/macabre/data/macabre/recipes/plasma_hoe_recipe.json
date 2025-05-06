@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:plasma"
+    },
+    "b": {
+      "tag": "macabre:sticks"
+    }
+  },
+  "result": {
+    "item": "macabre:plasma_hoe",
+    "count": 1
+  }
+}

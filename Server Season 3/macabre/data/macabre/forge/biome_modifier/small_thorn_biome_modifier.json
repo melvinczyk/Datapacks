@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:lifeless_pits",
+  "features": "macabre:small_thorn",
+  "step": "vegetal_decoration"
+}

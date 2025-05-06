@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "threateningly_mobs:armor_of_desert",
+    "threateningly_mobs:earth_loong",
+    "threateningly_mobs:rock_snail",
+    "threateningly_mobs:titan_rabbit",
+    "threateningly_mobs:earth_drill",
+    "threateningly_mobs:inferno",
+    "threateningly_mobs:lich",
+    "threateningly_mobs:solscarab_maximus",
+    "threateningly_mobs:hydra",
+    "threateningly_mobs:regalhart",
+    "threateningly_mobs:steelboar",
+    "threateningly_mobs:riptooth",
+    "threateningly_mobs:basalt_wyvern",
+    "threateningly_mobs:saint",
+    "threateningly_mobs:terra_dragon",
+    "threateningly_mobs:ferox_death_worm",
+    "threateningly_mobs:ferox_ice_worm",
+    "threateningly_mobs:moon_priest",
+    "threateningly_mobs:lord_mane"
+  ]
+}

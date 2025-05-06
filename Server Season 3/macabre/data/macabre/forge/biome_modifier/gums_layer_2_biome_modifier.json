@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:teething_forest",
+  "features": "macabre:gums_layer_2",
+  "step": "vegetal_decoration"
+}

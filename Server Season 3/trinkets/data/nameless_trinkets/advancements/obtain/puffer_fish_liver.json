@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:puffer_fish_liver"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.puffer_fish_liver.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.puffer_fish_liver.description"
+    }
+  },
+  "criteria": {
+    "puffer_fish_liver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:puffer_fish_liver"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

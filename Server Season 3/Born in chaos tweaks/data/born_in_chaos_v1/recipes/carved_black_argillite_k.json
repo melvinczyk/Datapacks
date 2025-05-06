@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "born_in_chaos_v1:fired_black_argillite"
-  },
-  "result": "born_in_chaos_v1:carved_black_argillite"
-}

@@ -2,13 +2,13 @@
     "type": "create:mechanical_crafting",
     "pattern": [
       "   II   ",
-      "   IP   ",
+      "   BP   ",
       "I  II   ",
       "IHIIIHH ",
       "GHEE___I",
       "IHIIIHH ",
       "I  II   ",
-      "   IP   ",
+      "   BP   ",
       "   II   "
     ],
     "key": {
@@ -35,6 +35,11 @@
       "G": [
         {
           "item": "immersive_aircraft:industrial_gears"
+        }
+      ],
+      "B": [
+        {
+          "item": "create:blaze_burner"
         }
       ],
       "_": [

@@ -12,14 +12,14 @@
     "fireMode": "scguns:automatic",
     "gripType": "scguns:two_handed",
     "baseGripType": "scguns:two_handed",
-    "rate": 9,
-    "recoilAngle": 2.5,
+    "rate": 22,
+    "recoilAngle": 3.5,
     "recoilKick": 0.5,
     "spread": 4.0,
     "meleeDamage": 2.5,
     "meleeCooldownTicks": 20,
     "hotBarrelRate": 20,
-    "criticalChance": 0.05
+    "criticalChance": 0.025
   },
   "modules": {
     "attachments": {
@@ -47,7 +47,7 @@
   },
   "projectile": {
     "advantage": "scguns:none",
-    "damage": 17.0,
+    "damage": 15.0,
     "ejectsCasing": true,
     "gravity": false,
     "item": "scguns:energy_cell",
@@ -63,7 +63,7 @@
     "emptyMagTimer": 10,
     "maxAmmo": 15,
     "reloadItem": "scguns:energy_cell",
-    "reloadTimer": 35,
+    "reloadTimer": 42,
     "reloadType": "scguns:mag_fed"
   },
   "sounds": {

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:ferrum_ingot"
+    },
+    "b": {
+      "tag": "macabre:sticks"
+    }
+  },
+  "result": {
+    "item": "macabre:ferrum_hoe",
+    "count": 1
+  }
+}

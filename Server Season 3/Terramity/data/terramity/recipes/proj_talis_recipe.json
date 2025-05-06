@@ -11,10 +11,10 @@
       "item": "minecraft:gold_ingot"
     },
     "b": {
-      "item": "terramity:sapphire"
+      "item": "terramity:sapphire_block"
     },
     "c": {
-      "item": "minecraft:shield"
+      "item": "skyarena:gold_trophy"
     }
   },
   "result": {

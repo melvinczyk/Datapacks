@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "macabre:blocks/do_3",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air",
+          "conditions": [
+            {
+              "block": "macabre:do_3",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

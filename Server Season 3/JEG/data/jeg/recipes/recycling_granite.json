@@ -4,9 +4,9 @@
     "item": "minecraft:granite"
   },
   "result": {
-    "chance": 0.3,
+    "count": 2,
     "item": "jeg:gunmetal_grit"
   },
-  "experience": 0,
+  "experience": 5,
   "recyclingtime": 50
 }

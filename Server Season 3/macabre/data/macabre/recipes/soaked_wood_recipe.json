@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:soaked_log"
+    }
+  },
+  "result": {
+    "item": "macabre:soaked_wood",
+    "count": 4
+  }
+}

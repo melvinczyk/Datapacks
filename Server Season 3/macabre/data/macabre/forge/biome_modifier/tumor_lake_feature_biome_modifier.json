@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "macabre:tumor_peaks",
+  "features": "macabre:tumor_lake_feature",
+  "step": "lakes"
+}

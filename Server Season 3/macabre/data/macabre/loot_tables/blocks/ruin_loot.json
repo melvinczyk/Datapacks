@@ -1,0 +1,359 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "macabre:bone",
+          "weight": 28,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "macabre:skin_tissue",
+          "weight": 36,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "macabre:coated_ferrum",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "macabre:ferrum_armor_helmet",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 0,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "macabre:ferrum_armor_chestplate",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 0,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "macabre:ferrum_armor_leggings",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 0,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "macabre:ferrum_armor_boots",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 0,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "macabre:flesh",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "macabre:ferrum_pickaxe",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 0,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "macabre:ferrum_axe",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 0,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "macabre:ferrum_shovel",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 0,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "macabre:blood_bottle_item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "macabre:plasma",
+          "weight": 17,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "macabre:fat",
+          "weight": 26,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "macabre:ferrum_sword",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 0,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "macabre:ferrum_hoe",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 0,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "macabre:raw_blood_clot",
+          "weight": 33,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "macabre:bone",
+          "weight": 35,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 11
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "macabre:solid_acid",
+          "weight": 11,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 7
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "macabre:blocks/ruin_loot"
+}

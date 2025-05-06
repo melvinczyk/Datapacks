@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "target": {
+      "Name": "macabre:hard_stone"
+    },
+    "state": {
+      "Name": "macabre:damp_dirt"
+    },
+    "radius": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 9,
+        "max_inclusive": 12
+      }
+    }
+  }
+}

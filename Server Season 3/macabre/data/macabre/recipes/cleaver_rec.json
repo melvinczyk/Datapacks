@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "macabre:gomoria_heart"
+    },
+    {
+      "item": "macabre:bonecrusher"
+    }
+  ],
+  "result": {
+    "item": "macabre:the_cleave",
+    "count": 1
+  }
+}

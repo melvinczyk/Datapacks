@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "macabre:blocks/fern_flower",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "macabre:fern_flower",
+          "conditions": [
+            {
+              "block": "macabre:fern_flower",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

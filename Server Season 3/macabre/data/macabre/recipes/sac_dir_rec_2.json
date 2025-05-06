@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "bc ",
+    "db "
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:raw_blood_clot"
+    },
+    "b": {
+      "item": "macabre:skin_tissue"
+    },
+    "c": {
+      "item": "macabre:ferrum_ingot"
+    },
+    "d": {
+      "item": "macabre:bone"
+    }
+  },
+  "result": {
+    "item": "macabre:sacrificial_dirk",
+    "count": 1
+  }
+}

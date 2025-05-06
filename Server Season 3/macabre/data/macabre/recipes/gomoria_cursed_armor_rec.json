@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "macabre:blood_clot_armor_helmet"
+    },
+    "b": {
+      "item": "macabre:blood_clot_armor_chestplate"
+    },
+    "c": {
+      "item": "macabre:gomoria_heart"
+    },
+    "d": {
+      "item": "macabre:blood_clot_armor_leggings"
+    },
+    "e": {
+      "item": "macabre:blood_clot_armor_boots"
+    }
+  },
+  "result": {
+    "item": "macabre:gomoria_pack",
+    "count": 1
+  }
+}

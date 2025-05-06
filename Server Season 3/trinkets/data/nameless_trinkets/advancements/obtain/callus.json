@@ -1,0 +1,28 @@
+{
+  "parent": "nameless_trinkets:obtain/root",
+  "display": {
+    "icon": {
+      "item": "nameless_trinkets:callus"
+    },
+    "title": {
+      "translate": "advancements.nameless_trinkets.callus.title"
+    },
+    "description": {
+      "translate": "advancements.nameless_trinkets.callus.description"
+    }
+  },
+  "criteria": {
+    "callus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nameless_trinkets:callus"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -3,9 +3,9 @@
     "pattern": [
       "  IS ",
       "S IS ",
-      "HHHH ",
+      "BHHH ",
       "HEE_P",
-      "HHHH ",
+      "BHHH ",
       "S IS ",
       "  IS "
     ],
@@ -33,6 +33,11 @@
       "P": [
         {
           "item": "immersive_aircraft:propeller"
+        }
+      ],
+      "B": [
+        {
+          "item": "create:blaze_burner"
         }
       ],
       "_": [

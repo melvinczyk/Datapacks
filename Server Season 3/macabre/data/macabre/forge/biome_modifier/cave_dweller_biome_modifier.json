@@ -1,0 +1,21 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "macabre:cracked_cliffs",
+    "macabre:crawling_field",
+    "macabre:deathless_valley",
+    "macabre:decaying_meadow",
+    "macabre:gloom_forest",
+    "macabre:mortem_swamp",
+    "macabre:mountain_maw",
+    "macabre:rotting_field",
+    "macabre:teething_forest",
+    "macabre:valley_of_eyes"
+  ],
+  "spawners": {
+    "type": "macabre:cave_dweller",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

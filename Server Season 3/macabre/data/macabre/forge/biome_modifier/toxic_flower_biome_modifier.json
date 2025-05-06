@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "macabre:mountain_maw",
+    "macabre:tumor_peaks"
+  ],
+  "features": "macabre:toxic_flower",
+  "step": "vegetal_decoration"
+}
