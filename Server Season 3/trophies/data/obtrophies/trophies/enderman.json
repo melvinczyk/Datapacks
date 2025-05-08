@@ -1,7 +1,0 @@
-{
-  "behavior": {
-    "type": "obtrophies:ender_pearl"
-  },
-  "entity": "minecraft:enderman",
-  "scale": 0.75
-}

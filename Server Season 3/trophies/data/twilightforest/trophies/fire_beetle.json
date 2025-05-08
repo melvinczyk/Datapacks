@@ -1,7 +1,0 @@
-{
-  "behavior": {
-    "type": "obtrophies:set_fire",
-    "seconds": 5
-  },
-  "entity": "twilightforest:fire_beetle"
-}

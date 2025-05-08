@@ -1,7 +1,0 @@
-{
-  "entity": "aether:moa",
-  "variants": {
-    "key": "MoaType",
-    "registry": "aether:moa_type"
-  }
-}

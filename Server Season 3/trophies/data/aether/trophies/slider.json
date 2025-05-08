@@ -1,8 +1,0 @@
-{
-  "drop_chance": 0.0075,
-  "entity": "aether:slider",
-  "scale": 0.79,
-  "default_variant": {
-    "Awake": true
-  }
-}

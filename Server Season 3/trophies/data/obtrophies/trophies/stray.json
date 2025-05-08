@@ -1,7 +1,0 @@
-{
-  "behavior": {
-    "type": "obtrophies:arrow",
-    "effect": "minecraft:slowness"
-  },
-  "entity": "minecraft:stray"
-}
