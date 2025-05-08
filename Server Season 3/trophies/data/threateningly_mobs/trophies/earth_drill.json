@@ -1,5 +1,6 @@
 {
   "drop_chance": 0.025,
   "entity": "threateningly_mobs:earth_drill",
-  "scale": 1.0
+  "scale": 1.0,
+  "offset": 0.5
 }

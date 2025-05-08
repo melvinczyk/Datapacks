@@ -1,4 +1,5 @@
 {
   "entity": "cataclysm:old_netherite_monstrosity",
-  "scale": 0.75
+  "scale": 0.75,
+  "drop_chance": 0.025
 }
