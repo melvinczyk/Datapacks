@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "unusualend:gloopstone_lands",
+  "features": "unusualend:bouncy_gloopslate_patchs",
+  "step": "top_layer_modification"
+}

@@ -10,13 +10,13 @@
       "item": "nameless_trinkets:dubious_dust"
     },
     "G": {
-      "item": "minecraft:glowstone"
+      "item": "netherexp:wisp_bottle"
     },
     "/": {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:end_rod"
     },
     "Q": {
-      "item": "minecraft:quartz"
+      "item": "netherexp:treacherous_flame"
     }
   },
   "result": {
