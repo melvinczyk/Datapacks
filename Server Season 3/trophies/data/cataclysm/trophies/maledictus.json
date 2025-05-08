@@ -1,5 +1,5 @@
 {
-  "drop_chance": 0.0075,
+  "drop_chance": 0.025,
   "entity": "cataclysm:maledictus",
-  "scale": 0.5
+  "scale": 0.75
 }
