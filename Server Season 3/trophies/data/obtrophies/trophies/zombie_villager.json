@@ -1,0 +1,7 @@
+{
+  "entity": "minecraft:zombie_villager",
+  "variants": {
+    "key": "profession",
+    "registry": "minecraft:villager_profession"
+  }
+}

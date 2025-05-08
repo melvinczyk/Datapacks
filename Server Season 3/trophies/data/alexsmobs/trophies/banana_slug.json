@@ -1,0 +1,18 @@
+{
+  "entity": "alexsmobs:banana_slug",
+  "scale": 1.5,
+  "variants": [
+    {
+      "Variant": 0
+    },
+    {
+      "Variant": 1
+    },
+    {
+      "Variant": 2
+    },
+    {
+      "Variant": 3
+    }
+  ]
+}

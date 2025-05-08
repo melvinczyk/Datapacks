@@ -1,0 +1,12 @@
+{
+  "behavior": {
+    "type": "obtrophies:item",
+    "cooldown": 50000,
+    "item": {
+      "Count": 1,
+      "id": "minecraft:saddle"
+    }
+  },
+  "entity": "minecraft:ravager",
+  "scale": 0.75
+}

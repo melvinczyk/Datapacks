@@ -1,0 +1,15 @@
+{
+  "entity": "alexscaves:relicheirus",
+  "scale": 0.4,
+  "variants": [
+    {
+      "AltSkin": 0
+    },
+    {
+      "AltSkin": 1
+    },
+    {
+      "AltSkin": 2
+    }
+  ]
+}

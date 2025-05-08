@@ -1,0 +1,8 @@
+{
+  "behavior": {
+    "type": "obtrophies:mob_effect",
+    "effect": "minecraft:blindness",
+    "time": 100
+  },
+  "entity": "minecraft:illusioner"
+}

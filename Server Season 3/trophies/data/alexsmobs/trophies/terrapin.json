@@ -1,0 +1,24 @@
+{
+  "entity": "alexsmobs:terrapin",
+  "scale": 1.75,
+  "variants": [
+    {
+      "TurtleType": 0
+    },
+    {
+      "TurtleType": 1
+    },
+    {
+      "TurtleType": 2
+    },
+    {
+      "TurtleType": 3
+    },
+    {
+      "TurtleType": 4
+    },
+    {
+      "TurtleType": 5
+    }
+  ]
+}

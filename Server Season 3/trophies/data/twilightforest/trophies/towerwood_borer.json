@@ -1,0 +1,12 @@
+{
+  "behavior": {
+    "type": "obtrophies:item",
+    "cooldown": 20000,
+    "item": {
+      "Count": 1,
+      "id": "twilightforest:borer_essence"
+    }
+  },
+  "entity": "twilightforest:towerwood_borer",
+  "scale": 1.5
+}

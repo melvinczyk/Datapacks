@@ -1,0 +1,10 @@
+{
+  "behavior": {
+    "type": "obtrophies:mob_effect",
+    "amplifier": 0,
+    "effect": "alexsmobs:sunbird_blessing",
+    "time": 600
+  },
+  "entity": "alexsmobs:sunbird",
+  "scale": 0.35
+}

@@ -1,0 +1,14 @@
+{
+  "entity": "cnb:lilytad",
+  "variants": [
+    {
+      "LilytadType": "cnb:pink"
+    },
+    {
+      "LilytadType": "cnb:light_pink"
+    },
+    {
+      "LilytadType": "cnb:yellow"
+    }
+  ]
+}

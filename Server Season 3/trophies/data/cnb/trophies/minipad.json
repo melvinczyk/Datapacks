@@ -1,0 +1,15 @@
+{
+  "entity": "cnb:minipad",
+  "scale": 1.5,
+  "variants": [
+    {
+      "MinipadType": "cnb:pink"
+    },
+    {
+      "MinipadType": "cnb:light_pink"
+    },
+    {
+      "MinipadType": "cnb:yellow"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "entity": "alexsmobs:underminer",
+  "variants": [
+    {
+      "Variant": 0
+    },
+    {
+      "Variant": 1
+    },
+    {
+      "Dwarf": true
+    }
+  ]
+}

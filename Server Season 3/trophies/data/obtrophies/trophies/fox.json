@@ -1,0 +1,19 @@
+{
+  "behavior": {
+    "type": "obtrophies:item",
+    "cooldown": 20000,
+    "item": {
+      "Count": 1,
+      "id": "minecraft:sweet_berries"
+    }
+  },
+  "entity": "minecraft:fox",
+  "variants": [
+    {
+      "Type": "red"
+    },
+    {
+      "Type": "snow"
+    }
+  ]
+}

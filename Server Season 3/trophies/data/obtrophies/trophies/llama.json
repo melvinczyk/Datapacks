@@ -1,0 +1,21 @@
+{
+  "behavior": {
+    "type": "obtrophies:llama_spit"
+  },
+  "entity": "minecraft:llama",
+  "scale": 0.9,
+  "variants": [
+    {
+      "Variant": 0
+    },
+    {
+      "Variant": 1
+    },
+    {
+      "Variant": 2
+    },
+    {
+      "Variant": 3
+    }
+  ]
+}

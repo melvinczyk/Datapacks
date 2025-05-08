@@ -1,0 +1,18 @@
+{
+  "behavior": {
+    "type": "obtrophies:place_block",
+    "block": {
+      "Name": "minecraft:red_mushroom"
+    },
+    "method": "around"
+  },
+  "entity": "minecraft:mooshroom",
+  "variants": [
+    {
+      "Type": "red"
+    },
+    {
+      "Type": "brown"
+    }
+  ]
+}

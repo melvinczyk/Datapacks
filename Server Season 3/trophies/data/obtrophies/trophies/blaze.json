@@ -1,0 +1,7 @@
+{
+  "behavior": {
+    "type": "obtrophies:set_fire",
+    "seconds": 4
+  },
+  "entity": "minecraft:blaze"
+}

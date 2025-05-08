@@ -1,0 +1,15 @@
+{
+  "entity": "quark:crab",
+  "scale": 1.25,
+  "variants": [
+    {
+      "Variant": 0
+    },
+    {
+      "Variant": 1
+    },
+    {
+      "Variant": 2
+    }
+  ]
+}

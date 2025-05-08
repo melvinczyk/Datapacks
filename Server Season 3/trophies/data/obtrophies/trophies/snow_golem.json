@@ -1,0 +1,21 @@
+{
+  "behavior": {
+    "type": "obtrophies:place_block",
+    "block": {
+      "Name": "minecraft:snow",
+      "Properties": {
+        "layers": "1"
+      }
+    },
+    "method": "around"
+  },
+  "entity": "minecraft:snow_golem",
+  "variants": [
+    {
+      "Pumpkin": 1
+    },
+    {
+      "Pumpkin": 0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "behavior": {
+    "type": "obtrophies:item",
+    "cooldown": 20000,
+    "item": {
+      "Count": 1,
+      "id": "alexsmobs:fish_bones"
+    }
+  },
+  "entity": "alexsmobs:skelewag",
+  "scale": 0.6,
+  "variants": [
+    {
+      "Variant": 0
+    },
+    {
+      "Variant": 1
+    }
+  ]
+}

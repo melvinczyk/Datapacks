@@ -1,0 +1,8 @@
+{
+  "entity": "rats:tamed_rat",
+  "scale": 1.5,
+  "variants": {
+    "key": "ColorVariant",
+    "registry": "rats:rat_variant"
+  }
+}

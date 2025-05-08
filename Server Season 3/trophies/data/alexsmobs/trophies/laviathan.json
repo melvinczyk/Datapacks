@@ -1,0 +1,12 @@
+{
+  "entity": "alexsmobs:laviathan",
+  "scale": 0.25,
+  "variants": [
+    {
+      "Obsidian": false
+    },
+    {
+      "Obsidian": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "entity": "rats:feral_ratlantean",
+  "scale": 0.75,
+  "variants": [
+    {
+      "ColorVariant": 0
+    },
+    {
+      "ColorVariant": 1
+    },
+    {
+      "ColorVariant": 2
+    },
+    {
+      "ColorVariant": 3
+    }
+  ]
+}

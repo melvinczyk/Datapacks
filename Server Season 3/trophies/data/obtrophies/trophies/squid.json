@@ -1,0 +1,14 @@
+{
+  "behavior": {
+    "type": "obtrophies:place_block",
+    "block": {
+      "Name": "minecraft:water",
+      "Properties": {
+        "level": "0"
+      }
+    },
+    "method": "above"
+  },
+  "entity": "minecraft:squid",
+  "offset": 0.5
+}

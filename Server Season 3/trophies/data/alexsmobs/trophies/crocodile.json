@@ -1,0 +1,12 @@
+{
+  "entity": "alexsmobs:crocodile",
+  "scale": 0.5,
+  "variants": [
+    {
+      "Desert": false
+    },
+    {
+      "Desert": true
+    }
+  ]
+}

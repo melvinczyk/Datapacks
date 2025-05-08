@@ -1,0 +1,23 @@
+{
+  "behavior": {
+    "type": "obtrophies:right_click_item",
+    "cooldown": 20000,
+    "execute_behavior": {
+      "type": "obtrophies:item",
+      "item": {
+        "Count": 1,
+        "id": "minecraft:honey_bottle"
+      }
+    },
+    "item_to_use": {
+      "Count": 1,
+      "id": "minecraft:glass_bottle"
+    },
+    "shrink_item_stack": true,
+    "sound": {
+      "sound_id": "minecraft:item.bottle.fill"
+    }
+  },
+  "entity": "minecraft:bee",
+  "scale": 1.5
+}

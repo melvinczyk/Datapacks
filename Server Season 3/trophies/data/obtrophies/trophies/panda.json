@@ -1,0 +1,42 @@
+{
+  "behavior": {
+    "type": "obtrophies:item",
+    "cooldown": 20000,
+    "item": {
+      "Count": 1,
+      "id": "minecraft:bamboo"
+    }
+  },
+  "entity": "minecraft:panda",
+  "scale": 0.75,
+  "variants": [
+    {
+      "HiddenGene": "normal",
+      "MainGene": "normal"
+    },
+    {
+      "HiddenGene": "lazy",
+      "MainGene": "lazy"
+    },
+    {
+      "HiddenGene": "worried",
+      "MainGene": "worried"
+    },
+    {
+      "HiddenGene": "playful",
+      "MainGene": "playful"
+    },
+    {
+      "HiddenGene": "aggressive",
+      "MainGene": "aggressive"
+    },
+    {
+      "HiddenGene": "weak",
+      "MainGene": "weak"
+    },
+    {
+      "HiddenGene": "brown",
+      "MainGene": "brown"
+    }
+  ]
+}

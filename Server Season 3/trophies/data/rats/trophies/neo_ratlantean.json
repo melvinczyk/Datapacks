@@ -1,0 +1,19 @@
+{
+  "drop_chance": 0.0075,
+  "entity": "rats:neo_ratlantean",
+  "scale": 1.4,
+  "variants": [
+    {
+      "ColorVariant": 0
+    },
+    {
+      "ColorVariant": 1
+    },
+    {
+      "ColorVariant": 2
+    },
+    {
+      "ColorVariant": 3
+    }
+  ]
+}
