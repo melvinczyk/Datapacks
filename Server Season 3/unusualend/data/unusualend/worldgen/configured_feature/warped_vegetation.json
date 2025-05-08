@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 60,
+    "xz_spread": 10,
+    "y_spread": 5,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "unusualend:warped_squash"
+                },
+                "weight": 5
+              },
+              {
+                "data": {
+                  "Name": "unusualend:small_warped_squash",
+                  "Properties": {
+                    "waterlogged": "false"
+                  }
+                },
+                "weight": 2
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "#unusualend:warped_bypass"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "unusualend:gneiss",
+                  "unusualend:warped_end_stone",
+                  "unusualend:warped_stone",
+                  "minecraft:warped_wart_block",
+                  "unusualend:warped_squash"
+                ],
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

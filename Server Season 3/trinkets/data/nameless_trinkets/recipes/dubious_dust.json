@@ -1,25 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " # ",
+    " G ",
     "gRi",
     " G "
   ],
   "key": {
-    "#": {
-      "item": "terramity:iridium_pickaxe"
-    },
     "g": {
       "item": "terramity:dimlite_ingot"
     },
     "R": {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:netherite_block"
     },
     "i": {
       "item": "terramity:virentium_alloy_ingot"
     },
     "G": {
-      "item": "scguns:nitro_powder"
+      "item": "terramity:decayed_bedrock_dust"
     }
   },
   "result": {

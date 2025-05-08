@@ -1,0 +1,145 @@
+{
+  "feature": "unusualend:warped_isles",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "weighted_list",
+        "distribution": [
+          {
+            "data": 2,
+            "weight": 1
+          },
+          {
+            "data": {
+              "type": "uniform",
+              "value": {
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              }
+            },
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "data": {
+              "type": "minecraft:uniform",
+              "min_inclusive": {
+                "absolute": 65
+              },
+              "max_inclusive": {
+                "absolute": 90
+              }
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "type": "minecraft:trapezoid",
+              "min_inclusive": {
+                "absolute": 35
+              },
+              "max_inclusive": {
+                "absolute": 115
+              }
+            },
+            "weight": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:solid",
+              "offset": [
+                4,
+                0,
+                0
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:solid",
+              "offset": [
+                0,
+                0,
+                4
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:solid",
+              "offset": [
+                -4,
+                0,
+                0
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:solid",
+              "offset": [
+                0,
+                0,
+                -4
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:solid",
+              "offset": [
+                0,
+                4,
+                0
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:solid",
+              "offset": [
+                0,
+                -4,
+                0
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:solid"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

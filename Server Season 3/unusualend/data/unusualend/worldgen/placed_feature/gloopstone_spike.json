@@ -1,0 +1,37 @@
+{
+  "feature": "unusualend:gloopstone_spike",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 2
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": "#unusualend:gloopstone_valid_placement",
+        "offset": [
+          0,
+          -1,
+          0
+        ]
+      }
+    }
+  ]
+}

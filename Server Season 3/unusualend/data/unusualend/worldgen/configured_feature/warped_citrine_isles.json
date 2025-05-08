@@ -1,0 +1,279 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:simple_random_selector",
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "type": "unusualend:structure_feature",
+                  "config": {
+                    "structure": "unusualend:warped_rock_7",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:air"
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "unusualend:structure_feature",
+                  "config": {
+                    "structure": "unusualend:warped_rock_8",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:air"
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "unusualend:structure_feature",
+                  "config": {
+                    "structure": "unusualend:warped_rock_10",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:air"
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "unusualend:structure_feature",
+                  "config": {
+                    "structure": "unusualend:warped_rock_13",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:air"
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "unusualend:structure_feature",
+                  "config": {
+                    "structure": "unusualend:warped_rock_12",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:air"
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "unusualend:structure_feature",
+                  "config": {
+                    "structure": "unusualend:warped_rock_14",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:air"
+                    ]
+                  }
+                },
+                "placement": []
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 14,
+            "discard_chance_on_air_exposure": 0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "block_match",
+                  "block": "minecraft:air"
+                },
+                "state": {
+                  "Name": "unusualend:gneiss"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:ore",
+          "config": {
+            "size": 7,
+            "discard_chance_on_air_exposure": 0,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "block_match",
+                  "block": "minecraft:air"
+                },
+                "state": {
+                  "Name": "unusualend:warped_stone"
+                }
+              }
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:simple_random_selector",
+          "config": {
+            "features": [
+              {
+                "feature": {
+                  "type": "unusualend:structure_feature",
+                  "config": {
+                    "structure": "unusualend:citrine_island_1",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:air"
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "unusualend:structure_feature",
+                  "config": {
+                    "structure": "unusualend:citrine_island_2",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:air"
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "unusualend:structure_feature",
+                  "config": {
+                    "structure": "unusualend:citrine_island_3",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:air"
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "unusualend:structure_feature",
+                  "config": {
+                    "structure": "unusualend:citrine_island_4",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:air"
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "unusualend:structure_feature",
+                  "config": {
+                    "structure": "unusualend:citrine_island_6",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:air"
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "unusualend:structure_feature",
+                  "config": {
+                    "structure": "unusualend:citrine_island_5",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:air"
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "unusualend:structure_feature",
+                  "config": {
+                    "structure": "unusualend:citrine_island_7",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:air"
+                    ]
+                  }
+                },
+                "placement": []
+              },
+              {
+                "feature": {
+                  "type": "unusualend:structure_feature",
+                  "config": {
+                    "structure": "unusualend:citrine_island_8",
+                    "random_rotation": true,
+                    "random_mirror": true,
+                    "ignored_blocks": [
+                      "minecraft:structure_block",
+                      "minecraft:air"
+                    ]
+                  }
+                },
+                "placement": []
+              }
+            ]
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

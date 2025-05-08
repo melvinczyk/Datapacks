@@ -7,7 +7,7 @@
   ],
   "key": {
     "a": {
-      "item": "terramity:iridescent_shard"
+      "item": "unusualend:pearlescent_ingot"
     },
     "b": {
       "item": "macabre:abhorrent"
@@ -16,7 +16,7 @@
       "item": "terramity:prismatic_jewel"
     },
     "d": {
-      "item": "terramity:diamond_gauntlet"
+      "item": "terramity:divergency_gauntlet"
     }
   },
   "result": {

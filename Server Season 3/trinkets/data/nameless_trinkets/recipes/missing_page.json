@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "macabre:flesh"
+      "item": "macabre:abhorrent"
     },
     "P": {
-      "item": "minecraft:paper"
+      "item": "jcraft:dios_diary"
     },
     "S": {
-      "item": "nameless_trinkets:glowing_dust"
+      "item": "nameless_trinkets:ultimate_dust"
     },
     "B": {
       "item": "cataclysm:koboleton_bone"

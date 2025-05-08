@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "terramity:ruby_block"
+      "item": "cataclysm:ignitium_ingot"
     },
     {
-      "item": "confluence:obsidian_shield"
+      "item": "terramity:shadowflame_stone"
     },
     {
-      "item": "terramity:ruby_block"
+      "item": "cataclysm:ignitium_ingot"
     },
     {
       "item": "macabre:brain"
@@ -20,13 +20,13 @@
       "item": "macabre:brain"
     },
     {
-      "item": "terramity:ruby_block"
+      "item": "cataclysm:ignitium_ingot"
     },
     {
       "item": "terramity:magma_stone"
     },
     {
-      "item": "terramity:ruby_block"
+      "item": "cataclysm:ignitium_ingot"
     }
   ],
   "result": {

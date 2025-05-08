@@ -11,13 +11,13 @@
       "item": "terramity:decayed_bedrock_dust"
     },
     "b": {
-      "item": "terramity:chthonic_crystal"
+      "item": "macabre:blood_clot_ingot"
     },
     "c": {
       "item": "terramity:hellspec_alloy"
     },
     "d": {
-      "item": "terramity:lucky_dice"
+      "item": "terramity:nullifying_dice"
     }
   },
   "result": {
