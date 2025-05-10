@@ -1,3 +1,4 @@
 {
-  "entity": "rottencreatures:dead_beard"
+  "entity": "rottencreatures:dead_beard",
+  "drop_chance": 0.01
 }

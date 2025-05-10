@@ -1,3 +1,4 @@
 {
-  "entity": "cataclysm:lionfish"
+  "entity": "cataclysm:lionfish",
+  "drop_chance": 0.01
 }

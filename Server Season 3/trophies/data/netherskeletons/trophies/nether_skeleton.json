@@ -1,3 +1,4 @@
 {
-  "entity": "netherskeletons:netherborn_skeleton"
+  "entity": "netherskeletons:netherborn_skeleton",
+  "drop_chance": 0.01
 }

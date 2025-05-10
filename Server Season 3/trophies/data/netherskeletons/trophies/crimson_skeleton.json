@@ -1,3 +1,4 @@
 {
-  "entity": "netherskeletons:crimson_skeleton"
+  "entity": "netherskeletons:crimson_skeleton",
+  "drop_chance": 0.01
 }

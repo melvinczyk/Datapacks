@@ -1,3 +1,4 @@
 {
-  "entity": "born_in_chaos_v1:barrel_zombie"
+  "entity": "born_in_chaos_v1:barrel_zombie",
+  "drop_chance": 0.01
 }

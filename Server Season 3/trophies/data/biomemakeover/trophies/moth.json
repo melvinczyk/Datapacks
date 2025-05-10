@@ -1,3 +1,4 @@
 {
-  "entity": "biomemakeover:moth"
+  "entity": "biomemakeover:moth",
+  "drop_chance": 0.01
 }

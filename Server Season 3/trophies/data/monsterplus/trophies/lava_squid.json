@@ -1,4 +1,5 @@
 {
   "entity": "monsterplus:lava_squid",
-  "offset": 0.5
+  "offset": 0.5,
+  "drop_chance": 0.01
 }

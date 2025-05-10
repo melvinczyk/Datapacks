@@ -1,5 +1,5 @@
 {
-  "drop_chance": 0.025,
+  "drop_chance": 0.05,
     "entity": "cartoon_soul:jesterknight",
     "scale": 1.0
   }

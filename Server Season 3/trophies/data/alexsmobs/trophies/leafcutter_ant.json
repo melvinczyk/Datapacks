@@ -19,5 +19,6 @@
     {
       "Queen": true
     }
-  ]
+  ],
+  "drop_chance": 0.01
 }

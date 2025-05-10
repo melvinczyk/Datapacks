@@ -1,4 +1,5 @@
 {
   "entity": "mutantmonsters:mutant_zombie",
-  "scale": 0.65
+  "scale": 0.65,
+  "drop_chance": 0.01
 }

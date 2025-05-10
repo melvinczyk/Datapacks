@@ -1,4 +1,5 @@
 {
   "entity": "enemyexpansion:trollenraged",
-  "scale": 1.11
+  "scale": 1.11,
+  "drop_chance": 0.01
 }

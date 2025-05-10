@@ -1,3 +1,4 @@
 {
-  "entity": "alexsmobs:shoebill"
+  "entity": "alexsmobs:shoebill",
+  "drop_chance": 0.01
 }

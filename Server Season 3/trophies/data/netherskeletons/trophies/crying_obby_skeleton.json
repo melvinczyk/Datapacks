@@ -1,3 +1,4 @@
 {
-  "entity": "netherskeletons:crying_obby_skeleton"
+  "entity": "netherskeletons:crying_obby_skeleton",
+  "drop_chance": 0.01
 }

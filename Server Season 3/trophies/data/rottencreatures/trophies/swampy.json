@@ -1,3 +1,4 @@
 {
-  "entity": "rottencreatures:swampy"
+  "entity": "rottencreatures:swampy",
+  "drop_chance": 0.01
 }

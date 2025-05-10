@@ -1,3 +1,4 @@
 {
-  "entity": "biomemakeover:mushroom_trader"
+  "entity": "biomemakeover:mushroom_trader",
+  "drop_chance": 0.01
 }

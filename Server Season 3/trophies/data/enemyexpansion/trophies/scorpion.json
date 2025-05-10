@@ -1,4 +1,5 @@
 {
   "entity": "enemyexpansion:scorpion",
-  "scale": 1.82
+  "scale": 1.82,
+  "drop_chance": 0.01
 }

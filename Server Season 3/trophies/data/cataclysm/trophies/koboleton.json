@@ -1,3 +1,4 @@
 {
-  "entity": "cataclysm:koboleton"
+  "entity": "cataclysm:koboleton",
+  "drop_chance": 0.01
 }

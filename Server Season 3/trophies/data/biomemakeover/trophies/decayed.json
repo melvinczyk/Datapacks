@@ -1,3 +1,4 @@
 {
-  "entity": "biomemakeover:decayed"
+  "entity": "biomemakeover:decayed",
+  "drop_chance": 0.01
 }

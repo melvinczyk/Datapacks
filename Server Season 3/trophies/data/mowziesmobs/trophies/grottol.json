@@ -1,3 +1,4 @@
 {
-  "entity": "mowziesmobs:grottol"
+  "entity": "mowziesmobs:grottol",
+  "drop_chance": 0.01
 }

@@ -1,3 +1,4 @@
 {
-  "entity": "farlanders:mystic_enderminion"
+  "entity": "farlanders:mystic_enderminion",
+  "drop_chance": 0.01
 }

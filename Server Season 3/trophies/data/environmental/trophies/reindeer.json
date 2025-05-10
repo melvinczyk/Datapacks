@@ -1,3 +1,4 @@
 {
-  "entity": "environmental:reindeer"
+  "entity": "environmental:reindeer",
+  "drop_chance": 0.01
 }

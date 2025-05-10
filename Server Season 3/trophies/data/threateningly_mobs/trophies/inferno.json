@@ -1,5 +1,5 @@
 {
-  "drop_chance": 0.025,
+  "drop_chance": 0.05,
   "entity": "threateningly_mobs:inferno",
   "scale": 0.8
 }

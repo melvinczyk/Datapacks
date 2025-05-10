@@ -1,3 +1,4 @@
 {
-  "entity": "born_in_chaos_v1:krampus_henchman"
+  "entity": "born_in_chaos_v1:krampus_henchman",
+  "drop_chance": 0.01
 }

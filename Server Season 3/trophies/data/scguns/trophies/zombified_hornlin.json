@@ -1,5 +1,5 @@
 {
-    "entity": "scguns:zombified_hornlin",
-    "scale": 1.0
-  }
-  
+  "entity": "scguns:zombified_hornlin",
+  "scale": 1.0,
+  "drop_chance": 0.01
+}

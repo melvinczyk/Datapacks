@@ -7,5 +7,6 @@
       "id": "alexsmobs:soul_heart"
     }
   },
-  "entity": "alexsmobs:soul_vulture"
+  "entity": "alexsmobs:soul_vulture",
+  "drop_chance": 0.01
 }

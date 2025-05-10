@@ -1,3 +1,4 @@
 {
-  "entity": "biomemakeover:tadpole"
+  "entity": "biomemakeover:tadpole",
+  "drop_chance": 0.01
 }

@@ -1,3 +1,4 @@
 {
-  "entity": "cataclysm:draugr"
+  "entity": "cataclysm:draugr",
+  "drop_chance": 0.01
 }

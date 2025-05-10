@@ -1,3 +1,4 @@
 {
-  "entity": "netherexp:ecto_slab"
+  "entity": "netherexp:ecto_slab",
+  "drop_chance": 0.01
 }

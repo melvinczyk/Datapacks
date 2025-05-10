@@ -1,3 +1,4 @@
 {
-  "entity": "cataclysm:nameless_sorcerer"
+  "entity": "cataclysm:nameless_sorcerer",
+  "drop_chance": 0.01
 }

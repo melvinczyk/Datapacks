@@ -1,4 +1,5 @@
 {
   "entity": "born_in_chaos_v1:skeleton_thrasher",
-  "scale": 0.7
+  "scale": 0.7,
+  "drop_chance": 0.01
 }

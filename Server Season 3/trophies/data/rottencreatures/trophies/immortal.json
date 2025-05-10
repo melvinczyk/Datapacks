@@ -1,3 +1,4 @@
 {
-  "entity": "rottencreatures:immortal"
+  "entity": "rottencreatures:immortal",
+  "drop_chance": 0.01
 }

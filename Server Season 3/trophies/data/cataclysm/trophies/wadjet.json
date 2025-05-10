@@ -1,3 +1,4 @@
 {
-  "entity": "cataclysm:wadjet"
+  "entity": "cataclysm:wadjet",
+  "drop_chance": 0.01
 }

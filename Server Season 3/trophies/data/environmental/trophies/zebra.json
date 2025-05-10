@@ -1,3 +1,4 @@
 {
-  "entity": "environmental:zebra"
+  "entity": "environmental:zebra",
+  "drop_chance": 0.01
 }

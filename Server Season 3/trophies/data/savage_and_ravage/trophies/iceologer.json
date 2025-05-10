@@ -1,3 +1,4 @@
 {
-  "entity": "savage_and_ravage:iceologer"
+  "entity": "savage_and_ravage:iceologer",
+  "drop_chance": 0.01
 }

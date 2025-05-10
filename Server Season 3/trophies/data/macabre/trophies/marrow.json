@@ -1,6 +1,6 @@
 {
     "drop_chance": 0.025,
   "entity": "macabre:marrow",
-  "scale": 0.5,
+  "scale": 0.3,
   "offset": 0.5
 }

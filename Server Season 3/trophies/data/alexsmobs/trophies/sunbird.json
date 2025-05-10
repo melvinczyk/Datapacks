@@ -6,5 +6,6 @@
     "time": 600
   },
   "entity": "alexsmobs:sunbird",
-  "scale": 0.35
+  "scale": 0.35,
+  "drop_chance": 0.01
 }

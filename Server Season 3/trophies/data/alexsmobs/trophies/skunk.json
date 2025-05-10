@@ -16,5 +16,6 @@
     "shrink_item_stack": true
   },
   "entity": "alexsmobs:skunk",
-  "scale": 1.25
+  "scale": 1.25,
+  "drop_chance": 0.01
 }

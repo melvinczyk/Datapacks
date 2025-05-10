@@ -1,4 +1,5 @@
 {
   "entity": "farlanders:classic_enderman",
-  "scale": 0.75
+  "scale": 0.75,
+  "drop_chance": 0.01
 }

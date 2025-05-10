@@ -1,3 +1,4 @@
 {
-  "entity": "rottencreatures:burned"
+  "entity": "rottencreatures:burned",
+  "drop_chance": 0.01
 }

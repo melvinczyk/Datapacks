@@ -1,3 +1,4 @@
 {
-  "entity": "environmental:yak"
+  "entity": "environmental:yak",
+  "drop_chance": 0.01
 }

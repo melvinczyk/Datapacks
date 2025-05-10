@@ -1,4 +1,5 @@
 {
   "entity": "biomemakeover:owl",
-  "scale": 1.5
+  "scale": 1.5,
+  "drop_chance": 0.01
 }

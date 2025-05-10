@@ -8,5 +8,6 @@
     {
       "Maracas": true
     }
-  ]
+  ],
+  "drop_chance": 0.01
 }

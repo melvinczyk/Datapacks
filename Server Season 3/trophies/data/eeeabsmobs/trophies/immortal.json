@@ -1,4 +1,5 @@
 {
+  "drop_chance": 0.025,
     "entity": "eeeabsmobs:immortal",
     "scale": 1.0
   }

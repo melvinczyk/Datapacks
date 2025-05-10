@@ -1,3 +1,4 @@
 {
-  "entity": "monsterplus:spectral_skeleton"
+  "entity": "monsterplus:spectral_skeleton",
+  "drop_chance": 0.01
 }

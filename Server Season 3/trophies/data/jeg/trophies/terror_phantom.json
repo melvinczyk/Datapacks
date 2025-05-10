@@ -1,5 +1,7 @@
 {
+  "drop_chance": 0.05,
     "entity": "jeg:terror_phantom",
-    "scale": 1.0
+    "scale": 0.75,
+    "offset": 0.5
   }
   

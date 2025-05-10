@@ -1,4 +1,5 @@
 {
   "entity": "variantsandventures:verdant",
-  "scale": 1.01
+  "scale": 1.01,
+  "drop_chance": 0.01
 }

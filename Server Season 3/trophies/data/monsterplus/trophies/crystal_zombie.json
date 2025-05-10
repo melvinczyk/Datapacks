@@ -1,3 +1,4 @@
 {
-  "entity": "monsterplus:crystal_zombie"
+  "entity": "monsterplus:crystal_zombie",
+  "drop_chance": 0.01
 }

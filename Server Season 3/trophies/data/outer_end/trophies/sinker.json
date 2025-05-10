@@ -1,3 +1,4 @@
 {
-  "entity": "outer_end:sinker"
+  "entity": "outer_end:sinker",
+  "drop_chance": 0.01
 }

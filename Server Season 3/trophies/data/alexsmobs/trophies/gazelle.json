@@ -1,3 +1,4 @@
 {
-  "entity": "alexsmobs:gazelle"
+  "entity": "alexsmobs:gazelle",
+  "drop_chance": 0.01
 }

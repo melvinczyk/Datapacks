@@ -1,3 +1,4 @@
 {
-  "entity": "born_in_chaos_v1:restless_spirit"
+  "entity": "born_in_chaos_v1:restless_spirit",
+  "drop_chance": 0.01
 }

@@ -1,3 +1,4 @@
 {
-  "entity": "monsterplus:swamp_zombie"
+  "entity": "monsterplus:swamp_zombie",
+  "drop_chance": 0.01
 }

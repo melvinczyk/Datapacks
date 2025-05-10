@@ -8,5 +8,6 @@
     }
   },
   "entity": "alexsmobs:rocky_roller",
-  "scale": 0.9
+  "scale": 0.9,
+  "drop_chance": 0.01
 }

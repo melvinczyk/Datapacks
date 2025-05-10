@@ -1,4 +1,5 @@
 {
   "entity": "terra_entity:crimson_slime",
-  "scale": 1.0
+  "scale": 1.0,
+  "drop_chance": 0.01
 }

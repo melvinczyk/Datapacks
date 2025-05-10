@@ -16,5 +16,6 @@
     {
       "Antlered": false
     }
-  ]
+  ],
+  "drop_chance": 0.01
 }

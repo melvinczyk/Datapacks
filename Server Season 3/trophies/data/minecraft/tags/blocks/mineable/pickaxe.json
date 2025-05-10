@@ -1,5 +1,6 @@
 {
   "values": [
     "obtrophies:trophy"
-  ]
+  ],
+  "drop_chance": 0.01
 }

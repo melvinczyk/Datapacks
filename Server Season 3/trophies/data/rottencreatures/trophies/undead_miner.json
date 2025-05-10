@@ -1,3 +1,4 @@
 {
-  "entity": "rottencreatures:undead_miner"
+  "entity": "rottencreatures:undead_miner",
+  "drop_chance": 0.01
 }

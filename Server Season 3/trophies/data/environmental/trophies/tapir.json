@@ -1,3 +1,4 @@
 {
-  "entity": "environmental:tapir"
+  "entity": "environmental:tapir",
+  "drop_chance": 0.01
 }

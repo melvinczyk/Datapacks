@@ -1,3 +1,4 @@
 {
-  "entity": "creeperoverhaul:hills_creeper"
+  "entity": "creeperoverhaul:hills_creeper",
+  "drop_chance": 0.01
 }

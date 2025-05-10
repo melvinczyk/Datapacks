@@ -1,3 +1,4 @@
 {
-  "entity": "alexsmobs:mudskipper"
+  "entity": "alexsmobs:mudskipper",
+  "drop_chance": 0.01
 }

@@ -1,4 +1,5 @@
 {
   "entity": "netherexp:wisp",
-  "scale": 1.75
+  "scale": 1.75,
+  "drop_chance": 0.01
 }

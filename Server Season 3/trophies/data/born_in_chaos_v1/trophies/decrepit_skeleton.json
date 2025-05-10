@@ -1,3 +1,4 @@
 {
-  "entity": "born_in_chaos_v1:decrepit_skeleton"
+  "entity": "born_in_chaos_v1:decrepit_skeleton",
+  "drop_chance": 0.01
 }

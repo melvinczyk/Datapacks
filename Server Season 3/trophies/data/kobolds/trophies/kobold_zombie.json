@@ -1,4 +1,5 @@
 {
   "entity": "kobolds:kobold_zombie",
-  "scale": 1.4
+  "scale": 1.4,
+  "drop_chance": 0.01
 }

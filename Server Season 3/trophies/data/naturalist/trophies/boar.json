@@ -1,3 +1,4 @@
 {
-  "entity": "naturalist:boar"
+  "entity": "naturalist:boar",
+  "drop_chance": 0.01
 }

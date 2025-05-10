@@ -8,5 +8,6 @@
     }
   },
   "entity": "alexsmobs:elephant",
-  "scale": 0.4
+  "scale": 0.4,
+  "drop_chance": 0.01
 }

@@ -1,3 +1,4 @@
 {
-  "entity": "takesapillage:legioner"
+  "entity": "takesapillage:legioner",
+  "drop_chance": 0.01
 }

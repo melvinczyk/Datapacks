@@ -1,5 +1,5 @@
 {
-    "entity": "hs_bosses:sand_warrior",
-    "scale": 1.0
-  }
-  
+  "entity": "hs_bosses:sand_warrior",
+  "scale": 1.0,
+  "drop_chance": 0.05
+}

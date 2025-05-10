@@ -1,5 +1,6 @@
 {
     "entity": "jeg:phantom_gunner",
-    "scale": 1.0
+    "scale": 0.75,
+    "drop_chance": 0.025
   }
   

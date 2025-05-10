@@ -1,3 +1,4 @@
 {
-  "entity": "alexsmobs:mimic_octopus"
+  "entity": "alexsmobs:mimic_octopus",
+  "drop_chance": 0.01
 }

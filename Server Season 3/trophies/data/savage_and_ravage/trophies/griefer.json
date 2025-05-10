@@ -1,3 +1,4 @@
 {
-  "entity": "savage_and_ravage:griefer"
+  "entity": "savage_and_ravage:griefer",
+  "drop_chance": 0.01
 }

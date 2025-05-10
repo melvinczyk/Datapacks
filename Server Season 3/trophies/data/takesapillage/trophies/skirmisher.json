@@ -1,3 +1,4 @@
 {
-  "entity": "takesapillage:skirmisher"
+  "entity": "takesapillage:skirmisher",
+  "drop_chance": 0.01
 }

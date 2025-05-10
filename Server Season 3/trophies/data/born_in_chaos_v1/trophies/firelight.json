@@ -1,4 +1,5 @@
 {
   "entity": "born_in_chaos_v1:firelight",
-  "scale": 1.5
+  "scale": 1.5,
+  "drop_chance": 0.01
 }

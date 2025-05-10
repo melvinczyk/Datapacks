@@ -1,3 +1,4 @@
 {
-  "entity": "biomemakeover:cowboy"
+  "entity": "biomemakeover:cowboy",
+  "drop_chance": 0.01
 }

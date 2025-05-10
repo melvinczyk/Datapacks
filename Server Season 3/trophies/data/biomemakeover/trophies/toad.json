@@ -1,3 +1,4 @@
 {
-  "entity": "biomemakeover:toad"
+  "entity": "biomemakeover:toad",
+  "drop_chance": 0.01
 }

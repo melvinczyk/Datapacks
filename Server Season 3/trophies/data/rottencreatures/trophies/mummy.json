@@ -1,3 +1,4 @@
 {
-  "entity": "rottencreatures:mummy"
+  "entity": "rottencreatures:mummy",
+  "drop_chance": 0.01
 }

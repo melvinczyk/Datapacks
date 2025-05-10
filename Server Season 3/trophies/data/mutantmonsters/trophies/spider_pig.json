@@ -1,4 +1,5 @@
 {
   "entity": "mutantmonsters:spider_pig",
-  "scale": 0.75
+  "scale": 0.75,
+  "drop_chance": 0.01
 }

@@ -1,4 +1,5 @@
 {
   "entity": "cataclysm:deepling",
-  "scale": 0.85
+  "scale": 0.85,
+  "drop_chance": 0.01
 }

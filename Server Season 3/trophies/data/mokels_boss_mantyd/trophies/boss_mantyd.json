@@ -1,4 +1,5 @@
 {
+  "drop_chance": 0.05,
     "entity": "mokels_boss_mantyd:boss_mantyd",
     "scale": 1.0
   }

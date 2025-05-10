@@ -1,4 +1,5 @@
 {
   "entity": "terramity:dungeon_effigy",
-  "scale": 0.8
+  "scale": 0.8,
+  "drop_chance": 0.01
 }

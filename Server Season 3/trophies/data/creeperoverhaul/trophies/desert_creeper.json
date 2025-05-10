@@ -1,3 +1,4 @@
 {
-  "entity": "creeperoverhaul:desert_creeper"
+  "entity": "creeperoverhaul:desert_creeper",
+  "drop_chance": 0.01
 }

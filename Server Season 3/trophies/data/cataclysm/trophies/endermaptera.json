@@ -1,3 +1,4 @@
 {
-  "entity": "cataclysm:endermaptera"
+  "entity": "cataclysm:endermaptera",
+  "drop_chance": 0.01
 }

@@ -1,4 +1,5 @@
 {
   "entity": "alexsmobs:raccoon",
-  "scale": 1.1
+  "scale": 1.1,
+  "drop_chance": 0.01
 }

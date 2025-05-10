@@ -1,3 +1,4 @@
 {
-  "entity": "mowziesmobs:lantern"
+  "entity": "mowziesmobs:lantern",
+  "drop_chance": 0.01
 }

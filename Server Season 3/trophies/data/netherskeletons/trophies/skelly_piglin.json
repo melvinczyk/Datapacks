@@ -1,3 +1,4 @@
 {
-  "entity": "netherskeletons:skelly_piglin"
+  "entity": "netherskeletons:skelly_piglin",
+  "drop_chance": 0.01
 }

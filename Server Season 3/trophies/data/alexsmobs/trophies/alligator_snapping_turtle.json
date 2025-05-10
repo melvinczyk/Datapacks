@@ -1,3 +1,4 @@
 {
-  "entity": "alexsmobs:alligator_snapping_turtle"
+  "entity": "alexsmobs:alligator_snapping_turtle",
+  "drop_chance": 0.01
 }

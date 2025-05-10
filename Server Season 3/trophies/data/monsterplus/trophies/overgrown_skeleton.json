@@ -1,3 +1,4 @@
 {
-  "entity": "monsterplus:overgrown_skeleton"
+  "entity": "monsterplus:overgrown_skeleton",
+  "drop_chance": 0.01
 }

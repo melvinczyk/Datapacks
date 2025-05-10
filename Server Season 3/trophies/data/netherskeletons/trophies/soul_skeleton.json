@@ -1,3 +1,4 @@
 {
-  "entity": "netherskeletons:soul_skeleton"
+  "entity": "netherskeletons:soul_skeleton",
+  "drop_chance": 0.01
 }

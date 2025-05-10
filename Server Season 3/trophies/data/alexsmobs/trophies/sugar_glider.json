@@ -11,5 +11,6 @@
     "shrink_item_stack": true
   },
   "entity": "alexsmobs:sugar_glider",
-  "scale": 1.5
+  "scale": 1.5,
+  "drop_chance": 0.01
 }

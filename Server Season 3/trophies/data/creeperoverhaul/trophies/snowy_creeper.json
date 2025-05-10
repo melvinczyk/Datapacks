@@ -1,3 +1,4 @@
 {
-  "entity": "creeperoverhaul:snowy_creeper"
+  "entity": "creeperoverhaul:snowy_creeper",
+  "drop_chance": 0.01
 }

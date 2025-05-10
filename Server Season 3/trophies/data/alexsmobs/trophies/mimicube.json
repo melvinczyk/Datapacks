@@ -1,3 +1,4 @@
 {
-  "entity": "alexsmobs:mimicube"
+  "entity": "alexsmobs:mimicube",
+  "drop_chance": 0.01
 }

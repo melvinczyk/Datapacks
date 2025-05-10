@@ -1,4 +1,5 @@
 {
   "entity": "mutantmonsters:mutant_enderman",
-  "scale": 0.45
+  "scale": 0.45,
+  "drop_chance": 0.01
 }

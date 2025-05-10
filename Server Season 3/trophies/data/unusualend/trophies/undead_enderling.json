@@ -1,3 +1,4 @@
 {
-  "entity": "unusualend:undead_enderling"
+  "entity": "unusualend:undead_enderling",
+  "drop_chance": 0.01
 }

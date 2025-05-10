@@ -1,3 +1,4 @@
 {
-  "entity": "monsterplus:glow_skeleton"
+  "entity": "monsterplus:glow_skeleton",
+  "drop_chance": 0.01
 }

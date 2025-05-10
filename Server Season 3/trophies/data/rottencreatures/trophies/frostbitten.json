@@ -1,3 +1,4 @@
 {
-  "entity": "rottencreatures:frostbitten"
+  "entity": "rottencreatures:frostbitten",
+  "drop_chance": 0.01
 }

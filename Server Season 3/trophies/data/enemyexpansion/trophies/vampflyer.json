@@ -1,4 +1,5 @@
 {
   "entity": "enemyexpansion:vampflyer",
-  "scale": 1.03
+  "scale": 1.03,
+  "drop_chance": 0.01
 }

@@ -1,3 +1,4 @@
 {
-  "entity": "alexsmobs:maned_wolf"
+  "entity": "alexsmobs:maned_wolf",
+  "drop_chance": 0.01
 }

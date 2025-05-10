@@ -1,3 +1,4 @@
 {
-  "entity": "biomemakeover:ghost"
+  "entity": "biomemakeover:ghost",
+  "drop_chance": 0.01
 }

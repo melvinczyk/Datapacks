@@ -1,3 +1,4 @@
 {
-  "entity": "creeperoverhaul:dark_oak_creeper"
+  "entity": "creeperoverhaul:dark_oak_creeper",
+  "drop_chance": 0.01
 }

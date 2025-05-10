@@ -1,3 +1,4 @@
 {
-  "entity": "alexsmobs:skreecher"
+  "entity": "alexsmobs:skreecher",
+  "drop_chance": 0.01
 }

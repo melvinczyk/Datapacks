@@ -1,4 +1,5 @@
 {
   "entity": "enemyexpansion:troll",
-  "scale": 1.11
+  "scale": 1.11,
+  "drop_chance": 0.01
 }

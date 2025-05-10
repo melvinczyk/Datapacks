@@ -27,5 +27,6 @@
         "profession": "ribbits:merchant"
       }
     }
-  ]
+  ],
+  "drop_chance": 0.01
 }

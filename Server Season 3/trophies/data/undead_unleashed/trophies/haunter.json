@@ -1,5 +1,5 @@
 {
-    "entity": "undead_unleashed:haunter",
-    "scale": 1.0
-  }
-  
+  "entity": "undead_unleashed:haunter",
+  "scale": 1.0,
+  "drop_chance": 0.01
+}

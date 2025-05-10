@@ -1,3 +1,4 @@
 {
-  "entity": "born_in_chaos_v1:door_knight"
+  "entity": "born_in_chaos_v1:door_knight",
+  "drop_chance": 0.01
 }

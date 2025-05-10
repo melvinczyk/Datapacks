@@ -11,5 +11,6 @@
     {
       "CatfishSize": 2
     }
-  ]
+  ],
+  "drop_chance": 0.01
 }

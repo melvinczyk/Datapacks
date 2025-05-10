@@ -1,3 +1,4 @@
 {
-  "entity": "monsterplus:abyssologer"
+  "entity": "monsterplus:abyssologer",
+  "drop_chance": 0.01
 }

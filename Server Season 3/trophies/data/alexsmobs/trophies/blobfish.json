@@ -16,5 +16,6 @@
     "shrink_item_stack": true
   },
   "entity": "alexsmobs:blobfish",
-  "scale": 1.5
+  "scale": 1.5,
+  "drop_chance": 0.01
 }

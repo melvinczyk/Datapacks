@@ -1,5 +1,5 @@
 {
-    "entity": "eeeabsmobs:immortal_shaman",
-    "scale": 1.0
-  }
-  
+  "entity": "eeeabsmobs:immortal_shaman",
+  "scale": 1.0,
+  "drop_chance": 0.01
+}

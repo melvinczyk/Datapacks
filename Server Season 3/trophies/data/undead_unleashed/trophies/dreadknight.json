@@ -1,5 +1,5 @@
 {
-    "entity": "undead_unleashed:dreadknight",
-    "scale": 1.0
-  }
-  
+  "entity": "undead_unleashed:dreadknight",
+  "scale": 1.0,
+  "drop_chance": 0.01
+}

@@ -16,5 +16,6 @@
     {
       "Variant": 4
     }
-  ]
+  ],
+  "drop_chance": 0.01
 }

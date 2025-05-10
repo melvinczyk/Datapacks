@@ -1,3 +1,4 @@
 {
-  "entity": "creeperoverhaul:badlands_creeper"
+  "entity": "creeperoverhaul:badlands_creeper",
+  "drop_chance": 0.01
 }

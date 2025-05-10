@@ -1,5 +1,6 @@
 {
   "entity": "monsterplus:mother_lava_squid",
   "offset": 0.5,
-  "scale": 0.15
+  "scale": 0.15,
+  "drop_chance": 0.01
 }

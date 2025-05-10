@@ -1,3 +1,4 @@
 {
-  "entity": "takesapillage:archer"
+  "entity": "takesapillage:archer",
+  "drop_chance": 0.01
 }

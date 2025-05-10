@@ -1,3 +1,4 @@
 {
-  "entity": "farlanders:enderminion"
+  "entity": "farlanders:enderminion",
+  "drop_chance": 0.01
 }

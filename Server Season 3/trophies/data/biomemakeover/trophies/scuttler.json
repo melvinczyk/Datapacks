@@ -1,3 +1,4 @@
 {
-  "entity": "biomemakeover:scuttler"
+  "entity": "biomemakeover:scuttler",
+  "drop_chance": 0.01
 }

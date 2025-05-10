@@ -1,5 +1,5 @@
 {
-  "drop_chance": 0.025,
+  "drop_chance": 0.05,
   "entity": "cataclysm:the_harbinger",
   "scale": 1.0
 }

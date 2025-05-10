@@ -1,4 +1,5 @@
 {
   "entity": "naturalist:snake",
-  "scale": 1.25
+  "scale": 1.25,
+  "drop_chance": 0.01
 }

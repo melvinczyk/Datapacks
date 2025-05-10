@@ -1,4 +1,5 @@
 {
   "entity": "enlightened_end:void_leviathan",
-  "scale": 0.5
+  "scale": 0.5,
+  "drop_chance": 0.01
 }

@@ -1,3 +1,4 @@
 {
-  "entity": "farlanders:ender_guardian"
+  "entity": "farlanders:ender_guardian",
+  "drop_chance": 0.01
 }

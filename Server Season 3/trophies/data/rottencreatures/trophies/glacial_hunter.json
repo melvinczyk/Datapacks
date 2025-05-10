@@ -1,3 +1,4 @@
 {
-  "entity": "rottencreatures:glacial_hunter"
+  "entity": "rottencreatures:glacial_hunter",
+  "drop_chance": 0.01
 }

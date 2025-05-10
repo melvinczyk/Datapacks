@@ -1,3 +1,4 @@
 {
-  "entity": "creeperoverhaul:ocean_creeper"
+  "entity": "creeperoverhaul:ocean_creeper",
+  "drop_chance": 0.01
 }

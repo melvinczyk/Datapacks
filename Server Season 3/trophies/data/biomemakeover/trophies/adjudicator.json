@@ -1,3 +1,4 @@
 {
-  "entity": "biomemakeover:adjudicator"
+  "entity": "biomemakeover:adjudicator",
+  "drop_chance": 0.01
 }

@@ -1,3 +1,4 @@
 {
-  "entity": "farlanders:farlander"
+  "entity": "farlanders:farlander",
+  "drop_chance": 0.01
 }
