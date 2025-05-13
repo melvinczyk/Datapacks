@@ -1,6 +1,6 @@
 {
-  "drop_chance": 0.025,
+  "drop_chance": 0.05,
   "entity": "bosses_of_mass_destruction:obsidilith",
-  "scale": 0.75,
+  "scale": 1.0,
   "offset": 1.25
 }

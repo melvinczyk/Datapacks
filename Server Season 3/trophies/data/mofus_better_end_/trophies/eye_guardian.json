@@ -1,4 +1,5 @@
 {
   "entity": "mofus_better_end_:eye_guardian",
-  "drop_chance": 0.05
+  "drop_chance": 0.05,
+  "scale": 0.5
 }
