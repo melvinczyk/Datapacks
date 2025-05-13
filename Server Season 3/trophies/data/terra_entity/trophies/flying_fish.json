@@ -2,5 +2,5 @@
   "entity": "terra_entity:flying_fish",
   "scale": 1.0,
   "offset": 0.5,
-  "drop_chance": 0.01
+  "drop_chance": 0.015
 }

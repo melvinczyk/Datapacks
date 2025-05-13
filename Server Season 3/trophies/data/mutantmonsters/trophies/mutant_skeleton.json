@@ -1,5 +1,5 @@
 {
   "entity": "mutantmonsters:mutant_skeleton",
   "scale": 0.65,
-  "drop_chance": 0.01
+  "drop_chance": 0.015
 }

@@ -1,5 +1,5 @@
 {
   "entity": "cataclysm:deepling_priest",
   "scale": 0.85,
-  "drop_chance": 0.01
+  "drop_chance": 0.015
 }

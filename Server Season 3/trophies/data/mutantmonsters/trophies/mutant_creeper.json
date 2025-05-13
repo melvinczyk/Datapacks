@@ -1,5 +1,5 @@
 {
   "entity": "mutantmonsters:mutant_creeper",
   "scale": 0.55,
-  "drop_chance": 0.01
+  "drop_chance": 0.015
 }

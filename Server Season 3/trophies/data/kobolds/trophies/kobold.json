@@ -1,5 +1,5 @@
 {
   "entity": "kobolds:kobold",
   "scale": 1.4,
-  "drop_chance": 0.01
+  "drop_chance": 0.015
 }
