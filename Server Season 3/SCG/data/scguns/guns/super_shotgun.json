@@ -34,7 +34,7 @@
   },
   "projectile": {
     "advantage": "scguns:wither",
-    "damage": 20.0,
+    "damage": 30.0,
     "item": "jeg:shotgun_shell",
     "casingParticle": "scguns:shell",
     "life": 20,

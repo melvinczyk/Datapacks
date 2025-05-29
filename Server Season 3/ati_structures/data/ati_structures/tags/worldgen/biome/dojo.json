@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:flower_forest",
+        "minecraft:old_growth_birch_forest",
+        "minecraft:taiga",
+        "minecraft:snowy_taiga",
+        "minecraft:jungle",
+        "minecraft:old_growth_spruce_taiga",
+        "minecraft:sparse_jungle",
+        "minecraft:bamboo_jungle",
+        "minecraft:forest",
+        "minecraft:plains"
+    ]
+}
