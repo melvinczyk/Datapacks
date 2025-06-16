@@ -1,0 +1,12 @@
+{
+  "loot_table": "serverv3:chests/nether",
+  "max_result_itemcount": 10,
+  "integrated_loot_tables": {
+    "mns:houses": 1,
+    "mns:chests/houses": 1,
+    "mns:treasure": 2,
+    "mns:chests/treasure": 2,
+    "mns:uncommon": 1,
+    "mns:chests/uncommon": 1
+  }
+}

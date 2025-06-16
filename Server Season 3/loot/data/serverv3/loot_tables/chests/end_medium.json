@@ -1,0 +1,105 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "max": 3.0,
+        "min": 1.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_fruit",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "unusualend:warped_berries",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "max": 5.0,
+        "min": 1.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "unusualend:shiny_crystal",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "unusualend:citrine_chunk",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "unusualend:prismalite_shard",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "max": 2.0,
+        "min": 1.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "enlightened_end:adamantite_nugget",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "max": 2.0,
+        "min": 1.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mofus_better_end_:end_manta_nectar",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mofus_better_end_:enderman_heart",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mofus_better_end_:titanium_nugget",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "unusualend:prismalite_gem",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "unusualend:golem_orb",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "unusualend:pearlescent_ingot",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

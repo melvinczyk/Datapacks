@@ -1,5 +1,5 @@
 {
-  "loot_table": "lootintegrations:chests/village",
+  "loot_table": "serverv3:chests/village",
   "max_result_itemcount": 8,
   "integrated_loot_tables": {
     "dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_supply": 2,

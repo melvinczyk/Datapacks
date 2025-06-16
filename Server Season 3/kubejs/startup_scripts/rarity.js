@@ -1874,4 +1874,5 @@ RarityJSEvents.register(event =>
     event.setRarity('scguns:diamond_steel_block', 'raritymod.uncommon')
     event.setRarity('scguns:vehement_coal_block', 'raritymod.uncommon')
     event.setRarity('scguns:vehement_coal_ore', 'raritymod.uncommon')
+    event.setRarity('obtrophies:trophy', 'raritymod.legendary')
 });

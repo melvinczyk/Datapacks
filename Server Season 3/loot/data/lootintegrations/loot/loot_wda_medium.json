@@ -1,5 +1,5 @@
 {
-  "loot_table": "lootintegrations:chests/medium",
+  "loot_table": "serverv3:chests/medium",
   "max_result_itemcount": 7,
   "integrated_loot_tables": {
     "dungeons_arise:chests/mines_treasure_big": 3,

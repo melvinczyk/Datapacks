@@ -1,0 +1,18 @@
+{
+  "loot_table": "serverv3:chests/medium",
+  "max_result_itemcount": 12,
+  "integrated_loot_tables": {
+    "dungeons_enhanced:chests/castle/throne": 3,
+    "dungeons_enhanced:chests/castle/library": 1,
+    "dungeons_enhanced:chests/tower_of_the_undead/treasure": 3,
+    "dungeons_enhanced:desert_temple_treasure": 2,
+    "dungeons_enhanced:chests/desert_temple/treasure": 2,
+    "dungeons_enhanced:chests/jungle_monument/treasure": 3,
+    "dungeons_enhanced:chests/large_dungeon": 2,
+    "dungeons_enhanced:chests/monster_maze/treasure": 3,
+    "dungeons_enhanced:chests/monster_maze/prison": 2,
+    "dungeons_enhanced:chests/black_citadel/normal_alt": 2,
+    "dungeons_enhanced:chests/black_citadel/treasure": 2,
+    "dungeons_enhanced:chests/black_citadel/treasure_alt": 2
+  }
+}

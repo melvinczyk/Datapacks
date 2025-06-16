@@ -1,0 +1,19 @@
+{
+  "loot_table": "serverv3:chests/village",
+  "max_result_itemcount": 12,
+  "integrated_loot_tables": {
+    "dungeons_enhanced:chests/ruined/house": 2,
+    "dungeons_enhanced:chests/mushroom_house": 2,
+    "dungeons_enhanced:chests/miners_house": 2,
+    "dungeons_enhanced:chests/castle/quarters": 2,
+    "dungeons_enhanced:chests/castle/armory": 2,
+    "dungeons_enhanced:chests/witch_tower": 2,
+    "dungeons_enhanced:chests/watch_tower": 3,
+    "dungeons_enhanced:chests/tree_house/roof": 2,
+    "dungeons_enhanced:chests/tree_house/kitchen": 2,
+    "dungeons_enhanced:chests/fishing_ship": 2,
+    "dungeons_enhanced:chests/hay_storage": 2,
+    "dungeons_enhanced:chests/ruined_building": 2,
+    "dungeons_enhanced:chests/black_citadel/kitchen": 2
+  }
+}

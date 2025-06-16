@@ -1,0 +1,8 @@
+{
+  "loot_table": "serverv3:chests/village",
+  "max_result_itemcount": 10,
+  "integrated_loot_tables": {
+    "tlc:chests/food": 2,
+    "tlc:chests/house": 2
+  }
+}

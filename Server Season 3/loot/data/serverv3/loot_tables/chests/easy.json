@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "terramity:iridium_chunk"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "caverns_and_chasms:silver_nugget"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "terramity:cardboard"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "terramity:gold_round"
+        }
+      ]
+    }
+  ]
+}

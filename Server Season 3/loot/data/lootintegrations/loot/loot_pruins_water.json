@@ -1,0 +1,8 @@
+{
+  "loot_table": "serverv3:chests/water",
+  "max_result_itemcount": 10,
+  "integrated_loot_tables": {
+    "philipsruins:chest/ocean_ruins_loot": 2,
+    "philipsruins:chest/ocean_ruin_fortress": 2
+  }
+}

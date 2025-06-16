@@ -1,0 +1,20 @@
+{
+  "loot_table": "serverv3:chests/nether",
+  "max_result_itemcount": 10,
+  "integrated_loot_tables": {
+    "formationsnether:large_house/barrel": 1,
+    "formationsnether:large_house/chest": 2,
+    "formationsnether:sphere_cage/piglin": 1,
+    "formationsnether:sphere_cage/wither": 1,
+    "formationsnether:basalt_hut": 1,
+    "formationsnether:blackstone_castle": 2,
+    "formationsnether:blackstone_remnant": 1,
+    "formationsnether:campsite": 1,
+    "formationsnether:large_tree": 1,
+    "formationsnether:parkour_challenge": 2,
+    "formationsnether:rib_cage": 1,
+    "formationsnether:small_fire_arena": 2,
+    "formationsnether:small_lava_arena": 2,
+    "formationsnether:small_lava_shrine": 1
+  }
+}

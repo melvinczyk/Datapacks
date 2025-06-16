@@ -1,0 +1,7 @@
+{
+  "loot_table": "serverv3:chests/end_hard",
+  "max_result_itemcount": 12,
+  "integrated_loot_tables": {
+    "philipsruins:chest/end_ruins_loot": 2
+  }
+}

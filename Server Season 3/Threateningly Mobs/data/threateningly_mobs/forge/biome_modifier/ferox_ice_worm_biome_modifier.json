@@ -6,19 +6,16 @@
     "snowy_plains",
     "snowy_taiga",
     "ice_spikes",
-    "cold_ocean",
-    "deep_cold_ocean",
-    "frozen_river",
-    "frozen_peaks",
     "biomesoplenty:cold_desert",
     "biomesoplenty:muskeg",
     "biomesoplenty:snowy_fir_clearing",
     "biomesoplenty:snowy_maple_woods",
-    "minecraft:frozen_river"
+    "frozen_river",
+    "frozen_peaks"
   ],
   "spawners": {
-    "type": "threateningly_mobs:inferno",
-    "weight": 100,
+    "type": "threateningly_mobs:ferox_ice_worm",
+    "weight": 50,
     "minCount": 1,
     "maxCount": 1
   }

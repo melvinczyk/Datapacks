@@ -1,5 +1,5 @@
 {
-  "loot_table": "lootintegrations:chests/water",
+  "loot_table": "serverv3:chests/water",
   "max_result_itemcount": 8,
   "integrated_loot_tables": {
     "dungeons_arise:chests/fishing_hut/fishing_hut_barrels": 1,

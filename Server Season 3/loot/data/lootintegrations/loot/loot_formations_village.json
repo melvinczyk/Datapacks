@@ -1,0 +1,18 @@
+{
+  "loot_table": "serverv3:chests/village",
+  "max_result_itemcount": 10,
+  "integrated_loot_tables": {
+    "formationsoverworld:hobbit_hole/food": 2,
+    "formationsoverworld:small_house/fireplace": 1,
+    "formationsoverworld:stone_tower/bedroom": 2,
+    "formationsoverworld:witch_tower/botany": 1,
+    "formationsoverworld:bamboo_hut": 2,
+    "formationsoverworld:campsite": 2,
+    "formationsoverworld:desert_houses": 2,
+    "formationsoverworld:log_shelter": 2,
+    "formationsoverworld:small_statue": 2,
+    "formationsoverworld:tiny_house": 2,
+    "formationsoverworld:wagon": 2,
+    "formationsoverworld:well": 2
+  }
+}

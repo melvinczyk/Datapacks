@@ -1,5 +1,5 @@
 {
-  "loot_table": "lootintegrations:chests/hard",
+  "loot_table": "serverv3:chests/hard",
   "max_result_itemcount": 8,
   "integrated_loot_tables": {
     "dungeons_arise:chests/shiraz_palace/shiraz_palace_elite": 2,

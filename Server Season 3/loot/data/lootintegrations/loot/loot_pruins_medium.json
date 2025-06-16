@@ -1,0 +1,9 @@
+{
+  "loot_table": "serverv3:chests/medium",
+  "max_result_itemcount": 10,
+  "integrated_loot_tables": {
+    "philipsruins:chest/ancient_ruins_loot": 2,
+    "philipsruins:chest/lost_soul_city_loot": 2,
+    "philipsruins:chest/sculk_dungeon_loot": 3
+  }
+}

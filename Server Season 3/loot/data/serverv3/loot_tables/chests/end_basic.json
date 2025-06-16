@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "max": 3.0,
+        "min": 1.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_fruit",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "unusualend:warped_berries",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "max": 3.0,
+        "min": 1.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "unusualend:shiny_crystal",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "unusualend:citrine_chunk",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "unusualend:prismalite_shard",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "max": 2.0,
+        "min": 1.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "enlightened_end:adamantite_nugget",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_breath",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

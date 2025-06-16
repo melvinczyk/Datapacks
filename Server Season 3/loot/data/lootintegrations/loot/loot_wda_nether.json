@@ -1,5 +1,5 @@
 {
-  "loot_table": "lootintegrations:chests/nether",
+  "loot_table": "serverv3:chests/nether",
   "max_result_itemcount": 8,
   "integrated_loot_tables": {
     "dungeons_arise:chests/plague_asylum/plague_asylum_potions": 1,

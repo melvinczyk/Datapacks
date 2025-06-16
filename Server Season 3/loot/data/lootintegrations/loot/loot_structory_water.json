@@ -1,0 +1,12 @@
+{
+  "loot_table": "serverv3:chests/water",
+  "max_result_itemcount": 10,
+  "integrated_loot_tables": {
+    "structory:outcast/boat/loot": 1,
+    "structory_towers:basic/lighthouse_basic": 1,
+    "structory_towers:basic/lighthouse_top": 1,
+    "structory_towers:basic/ocean_pillar_basic": 1,
+    "structory_towers:basic/ocean_pillar_top": 1,
+    "structory_towers:top/ocean_pillar_top": 1
+  }
+}

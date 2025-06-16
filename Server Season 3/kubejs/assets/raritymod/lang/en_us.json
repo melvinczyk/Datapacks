@@ -1,0 +1,19 @@
+{
+  "rarity.raritymod.common.name": "Common",
+  "rarity.raritymod.uncommon.name": "Uncommon",
+  "rarity.raritymod.rare.name": "Rare",
+  "rarity.raritymod.legendary.name": "Legendary",
+  "rarity.raritymod.epic.name": "Epic",
+  "rarity.raritymod.god.name": "Godly",
+  "rarity.raritymod.unique.name": "Unique",
+  "rarity.raritymod.mythic.name": "Mythic",
+  "raritymod.common": "§fCommon",        
+  "raritymod.uncommon": "§aUncommon",    
+  "raritymod.rare": "§bRare",             
+  "raritymod.epic": "§dEpic",             
+  "raritymod.legendary": "§eLegendary", 
+  "raritymod.mythic": "§cMythic",      
+  "raritymod.god": "§4Godly",          
+  "raritymod.unique": "§6Unique"       
+
+}
