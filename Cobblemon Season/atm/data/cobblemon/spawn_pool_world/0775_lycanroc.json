@@ -1,0 +1,139 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "lycanroc-midday-1",
+            "pokemon": "lycanroc time_evolution=midday",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-45",
+            "weight": 0.5,
+            "condition": {
+                "canSeeSky": true,
+                "timeRange": "day",
+                "biomes": [
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_desert"
+                ]
+            }
+        },
+        {
+            "id": "lycanroc-midday-2",
+            "pokemon": "lycanroc time_evolution=midday",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-55",
+            "weight": 0.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_dripstone"
+                ],
+                "minY": 32
+            }
+        },
+        {
+            "id": "lycanroc-midnight-1",
+            "pokemon": "lycanroc time_evolution=midnight",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-45",
+            "weight": 0.5,
+            "weightMultiplier": {
+               "multiplier": 1.5,
+               "condition": {
+                "moonPhase": 1
+               }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_desert"
+                ]
+            }
+        },
+        {
+            "id": "lycanroc-midnight-2",
+            "pokemon": "lycanroc time_evolution=midnight",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-55",
+            "weight": 0.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_dripstone"
+                ],
+                "minY": 32
+            }
+        },
+        {
+            "id": "lycanroc-dusk-1",
+            "pokemon": "lycanroc time_evolution=dusk",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-45",
+            "weight": 0.5,
+            "condition": {
+                "canSeeSky": true,
+                "timeRange": "dusk",
+                "biomes": [
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_desert"
+                ]
+            }
+        },
+        {
+            "id": "lycanroc-dusk-2",
+            "pokemon": "lycanroc time_evolution=dusk",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-55",
+            "weight": 0.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_dripstone"
+                ],
+                "minY": 32
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Swimmer\u2640 Nicole",
+  "team": [
+    {
+      "species": "marill",
+      "gender": "FEMALE",
+      "level": 99,
+      "nature": "relaxed",
+      "ability": "thickfat",
+      "moveset": [
+        "raindance",
+        "doubleedge",
+        "superpower",
+        "hydropump"
+      ],
+      "ivs": {
+        "hp": 10,
+        "atk": 10,
+        "def": 10,
+        "spa": 10,
+        "spd": 10,
+        "spe": 10
+      },
+      "evs": {}
+    }
+  ]
+}

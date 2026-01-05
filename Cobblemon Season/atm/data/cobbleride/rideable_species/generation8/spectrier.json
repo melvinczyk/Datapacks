@@ -1,0 +1,14 @@
+{
+  "name": "Spectrier",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -1.05,
+      "z": -0.1
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 0.2
+}

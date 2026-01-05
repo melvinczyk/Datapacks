@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:snout_armor_trim_smithing_template"
+  },
+  "base": {
+    "item": "cobblemon:dark_gem"
+  },
+  "addition": {
+    "item": "mega_showdown:mega_stone_crystal"
+  },
+  "result": {
+    "id": "minecraft:purple_dye",
+    "components": {
+      "minecraft:custom_model_data": 260613,
+      "minecraft:item_name": "{\"extra\":[{\"color\":\"light_purple\",\"italic\":false,\"text\": \"Shadow Energy\"}],\"italic\":false,\"text\":\"\"}",
+      "minecraft:lore": [
+        "{\"text\":\"Form Changes\", \"color\":\"blue\", \"italic\":false}",
+        "{\"color\":\"gray\",\"text\":\"Corrupts Pokémon with its strange Aura\"}"
+      ]
+    }
+  }
+}

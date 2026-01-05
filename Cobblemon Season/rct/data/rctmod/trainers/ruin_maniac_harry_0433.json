@@ -1,0 +1,20 @@
+{
+  "name": "Ruin Maniac Harry",
+  "team": [
+    {
+      "species": "bronzor",
+      "gender": "GENDERLESS",
+      "level": 75,
+      "nature": "relaxed",
+      "ability": "heatproof",
+      "moveset": [
+        "confuseray",
+        "payback",
+        "gyroball",
+        "safeguard"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

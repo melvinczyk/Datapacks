@@ -1,0 +1,31 @@
+{
+  "msd_id": "meteorite",
+  "item_id": "minecraft:red_dye",
+  "tradable_form": true,
+  "item_name": "§fMeteorite",
+  "item_description": [
+    "§9Form Changes",
+    "§fAn improved version of the normal meteorite,",
+    "§fwhich does not get consumed when used."
+  ],
+  "custom_model_data": 260612,
+  "effects": {
+    "particle_apply": "minecraft:sonic_boom",
+    "particle_revert": "minecraft:sonic_boom",
+    "sound_apply": "minecraft:entity.wither.ambient",
+    "sound_revert": "minecraft:entity.wither.ambient",
+    "particle_apply_amplifier": 1,
+    "particle_revert_amplifier": 1
+  },
+  "required_aspects": [],
+  "pokemons": ["Deoxys"],
+  "aspects": [],
+  "default_aspects": [],
+  "toggle_aspects": [
+    ["meteorite_forme=normal"],
+    ["meteorite_forme=attack"],
+    ["meteorite_forme=speed"],
+    ["meteorite_forme=defense"]
+  ],
+  "consume": false
+}

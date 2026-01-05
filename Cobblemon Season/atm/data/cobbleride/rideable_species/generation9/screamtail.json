@@ -1,0 +1,14 @@
+{
+  "name": "Scream Tail",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0.0,
+      "y": -0.23,
+      "z": -0.45
+    }
+  },
+  "baseSpeedModifier": 0.5,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 1.0
+}

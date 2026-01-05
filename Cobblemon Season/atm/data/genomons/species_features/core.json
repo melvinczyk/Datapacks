@@ -1,0 +1,10 @@
+{
+    "keys": [ "core" ],
+    "type": "flag",
+    "default": false,
+    "choices": [
+        "core"
+      ],
+      "isAspect": true,
+      "aspectFormat": "core-pattern-{{core}}"
+  }

@@ -1,0 +1,44 @@
+{
+  "name": "Bug Catcher Phillip",
+  "team": [
+    {
+      "species": "wurmple",
+      "gender": "FEMALE",
+      "level": 54,
+      "nature": "naive",
+      "ability": "shielddust",
+      "moveset": [
+        "tackle",
+        "stringshot",
+        "poisonsting"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "cascoon",
+      "gender": "MALE",
+      "level": 56,
+      "nature": "naive",
+      "ability": "shedskin",
+      "moveset": [
+        "harden"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "dustox",
+      "gender": "MALE",
+      "level": 58,
+      "nature": "hasty",
+      "ability": "shielddust",
+      "moveset": [
+        "gust",
+        "confusion"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

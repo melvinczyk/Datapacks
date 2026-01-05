@@ -1,0 +1,23 @@
+{
+  "type": "choice",
+  "keys": [
+    "incineroar_costume"
+  ],
+  "default": "no",
+  "choices": [
+    "no",
+    "champion",
+    "royal_mask",
+    "summer",
+    "dancer",
+    "1pride",
+    "trans_pride",
+    "ace_pride",
+    "bi_pride",
+    "pan_pride",
+    "tekken",
+    "team_skull"
+  ],
+  "isAspect": true,
+  "aspectFormat": "{{choice}}-costume"
+}

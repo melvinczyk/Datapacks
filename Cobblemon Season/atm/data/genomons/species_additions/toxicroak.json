@@ -1,0 +1,9 @@
+{
+  "implemented": true,
+  "target": "cobblemon:toxicroak",
+  "hitbox": {
+    "width": 1.1,
+    "height": 2.1,
+    "fixed": false
+  }
+}

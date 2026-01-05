@@ -1,0 +1,14 @@
+{
+  "name": "Bisharp",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -1.1,
+      "z": -0.4
+    }
+  },
+  "baseSpeedModifier": 0.7,
+  "landSpeedModifier": 0.75,
+  "waterSpeedModifier": 0.5
+}

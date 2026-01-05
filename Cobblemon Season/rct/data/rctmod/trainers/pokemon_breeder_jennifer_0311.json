@@ -1,0 +1,50 @@
+{
+  "name": "Pok\u00e9mon Breeder Jennifer",
+  "team": [
+    {
+      "species": "mimejr",
+      "gender": "MALE",
+      "level": 61,
+      "nature": "timid",
+      "ability": "filter",
+      "moveset": [
+        "pound",
+        "copycat",
+        "encore",
+        "confusion"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "budew",
+      "gender": "FEMALE",
+      "level": 60,
+      "nature": "hasty",
+      "ability": "poisonpoint",
+      "moveset": [
+        "absorb",
+        "growth",
+        "stunspore",
+        "worryseed"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "cleffa",
+      "gender": "FEMALE",
+      "level": 62,
+      "nature": "hasty",
+      "ability": "cutecharm",
+      "moveset": [
+        "pound",
+        "sing",
+        "sweetkiss",
+        "disarmingvoice"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

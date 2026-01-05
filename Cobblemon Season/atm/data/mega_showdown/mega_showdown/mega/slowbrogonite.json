@@ -1,0 +1,12 @@
+{
+  "msd_id": "slowbrogonite",
+  "showdown_id": "slowbrogonite",
+  "item_id": "minecraft:red_dye",
+  "item_name": "Slowbrogonite",
+  "item_description": [],
+  "custom_model_data": 260621,
+  "required_aspects": [],
+  "blacklist_aspects": [],
+  "pokemon": "Slowbro",
+  "aspects": ["mega_evolution=mega"]
+}

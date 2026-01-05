@@ -1,0 +1,10 @@
+{
+  "implemented": true,
+  "baseScale": 0.65,
+  "target": "cobblemon:helioptile",
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.2,
+    "fixed": false
+  }
+}

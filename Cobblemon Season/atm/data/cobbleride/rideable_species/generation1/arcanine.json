@@ -1,0 +1,30 @@
+{
+  "name": "Arcanine",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.4,
+      "z": -0.15
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.45,
+  "waterSpeedModifier": 0.2,
+  "forms": [
+		{
+			"name": "Hisui",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -0.4,
+					"z": -0.4
+				}
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 0.45,
+			"waterSpeedModifier": 0.2
+		}
+	]
+}

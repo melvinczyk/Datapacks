@@ -1,0 +1,10 @@
+{
+  "implemented": true,
+  "baseScale": 0.7,
+  "target": "cobblemon:cosmoem",
+  "hitbox": {
+    "width": 1.1,
+    "height": 1.8,
+    "fixed": false
+  }
+}

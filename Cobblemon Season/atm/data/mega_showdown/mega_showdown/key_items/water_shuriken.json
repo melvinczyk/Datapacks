@@ -1,0 +1,25 @@
+{
+  "msd_id": "water_shuriken",
+  "item_id": "minecraft:red_dye",
+  "tradable_form": true,
+  "item_name": "§r§fWater Shuriken",
+  "item_description": [
+    "§9Form Changes",
+    "§r§fA rare shuriken that allows you to change the appearance of Greninja."
+  ],
+  "custom_model_data": 260611,
+  "effects": {
+    "particle_apply": "minecraft:end_rod",
+    "particle_revert": "minecraft:end_rod",
+    "sound_apply": "minecraft:block.beacon.activate",
+    "sound_revert": "minecraft:block.beacon.deactivate",
+    "particle_apply_amplifier": 1,
+    "particle_revert_amplifier": 1
+  },
+  "required_aspects": ["battle_bond=bond"],
+  "pokemons": ["Greninja"],
+  "aspects": ["battle_bond=ash"],
+  "default_aspects": ["battle_bond=bond"],
+  "toggle_aspects": [],
+  "consume": false
+}

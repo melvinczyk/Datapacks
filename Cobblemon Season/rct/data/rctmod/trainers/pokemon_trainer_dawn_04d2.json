@@ -1,0 +1,38 @@
+{
+  "name": "Pok\u00e9mon Trainer Dawn",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.15
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:potion",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "piplup",
+      "gender": "MALE",
+      "level": 58,
+      "nature": "hardy",
+      "ability": "torrent",
+      "moveset": [
+        "pound",
+        "growl",
+        "watergun"
+      ],
+      "ivs": {
+        "hp": 31,
+        "def": 31,
+        "spd": 31
+      },
+      "evs": {}
+    }
+  ]
+}

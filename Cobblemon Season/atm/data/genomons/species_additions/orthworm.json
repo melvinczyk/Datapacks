@@ -1,0 +1,9 @@
+{
+  "implemented": true,
+  "target": "cobblemon:orthworm",
+  "hitbox": {
+    "width": 1.5,
+    "height": 1.3,
+    "fixed": false
+  }
+}

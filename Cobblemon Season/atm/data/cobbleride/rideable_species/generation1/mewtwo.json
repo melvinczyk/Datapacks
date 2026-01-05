@@ -1,0 +1,67 @@
+{
+	"name": "Mewtwo",
+	"enabled": true,
+	"offsets": {
+		"DEFAULT": {
+			"x": 0.0,
+			"y": -1.1,
+			"z": -0.5
+		},
+		"WALKING": {
+			"x": 0.0,
+			"y": 0.15,
+			"z": 0.125
+		},
+		"FLYING": {
+			"x": 0,
+			"y": 0.15,
+			"z": 0.125
+		}
+	},
+	"baseSpeedModifier": 1.0,
+	"landSpeedModifier": 0.4,
+	"waterSpeedModifier": 0.4,
+	"airSpeedModifier": 0.7,
+	"forms": [
+		{
+			"name": "Mega-Y",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -0.55,
+					"z": -0.75
+				},
+				"FLYING": {
+				  "x": 0.0,
+				  "y": 0.3,
+				  "z": 0.2
+				}
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 0.5,
+			"waterSpeedModifier": 0.5,
+			"airSpeedModifier":0.7
+		},
+		{
+			"name": "Shadow-Mega-Y",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -0.55,
+					"z": -0.75
+				},
+				"FLYING": {
+				  "x": 0.0,
+				  "y": 0.3,
+				  "z": 0.2
+				}
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 0.5,
+			"waterSpeedModifier": 0.5,
+			"airSpeedModifier":0.7
+		}
+	]
+}

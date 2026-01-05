@@ -1,0 +1,20 @@
+{
+  "name": "Scientist Stefano",
+  "team": [
+    {
+      "species": "kadabra",
+      "gender": "FEMALE",
+      "level": 66,
+      "nature": "sassy",
+      "ability": "synchronize",
+      "moveset": [
+        "kinesis",
+        "psybeam",
+        "reflect",
+        "psychocut"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

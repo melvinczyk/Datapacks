@@ -1,0 +1,14 @@
+{
+  "name": "Chienpao",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.6,
+      "z": -0.15
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.3,
+  "waterSpeedModifier": 0.75
+}

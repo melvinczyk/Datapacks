@@ -1,0 +1,16 @@
+{
+  "name": "Entei",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.3,
+      "z": 0.1
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.6,
+  "waterSpeedModifier": 0.2,
+  "airSpeedModifier": 0.1,
+  "forms": []
+}

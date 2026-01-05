@@ -1,0 +1,30 @@
+{
+  "name": "Ursaluna",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.1,
+      "z": -0.25
+    }
+  },
+  "baseSpeedModifier": 0.75,
+  "landSpeedModifier": 0.7,
+  "waterSpeedModifier": 0.5,
+  "forms": [
+		{
+			"name": "Bloodmoon",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -0.1,
+					"z": -0.25
+				}
+			},
+			"baseSpeedModifier": 0.85,
+			"landSpeedModifier": 0.7,
+			"waterSpeedModifier": 0.5
+		}
+	]
+}

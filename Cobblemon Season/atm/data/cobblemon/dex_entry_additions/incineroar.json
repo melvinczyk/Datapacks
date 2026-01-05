@@ -1,0 +1,49 @@
+{
+  "entryId": "cobblemon:incineroar",
+  "forms": [
+    {
+      "displayForm": "Royal-Mask",
+      "unlockForms": ["royal-mask"]
+    },
+    {
+      "displayForm": "Summer",
+      "unlockForms": ["summer"]
+    },
+    {
+      "displayForm": "Champion",
+      "unlockForms": ["champion"]
+    },
+    {
+      "displayForm": "Dancer",
+      "unlockForms": ["dancer"]
+    },  
+    {
+      "displayForm": "Pride",
+      "unlockForms": ["pride"]
+    },
+    {
+      "displayForm": "Trans-Pride",
+      "unlockForms": ["trans-pride"]
+    },
+    {
+      "displayForm": "Ace-Pride",
+      "unlockForms": ["ace-pride"]
+    },
+    {
+      "displayForm": "Bi-Pride",
+      "unlockForms": ["bi-pride"]
+    },
+    {
+      "displayForm": "Pan-Pride",
+      "unlockForms": ["pan-pride"]
+    },
+    {
+      "displayForm": "Tekken",
+      "unlockForms": ["tekken"]
+    },
+    {
+      "displayForm": "Team-Skull",
+      "unlockForms": ["team-skull"]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "keys": [ "armored" ],
+    "type": "flag",
+    "default": false,
+    "choices": [
+        "armored"
+      ],
+      "isAspect": true,
+      "aspectFormat": "armored-pattern-{{armored}}"
+  }

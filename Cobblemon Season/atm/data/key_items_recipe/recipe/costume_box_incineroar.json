@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:barrel"
+  },
+  "base": {
+    "item": "cobblemon:fire_gem"
+  },
+  "addition": {
+    "item": "minecraft:black_dye"
+  },
+  "result": {
+    "id": "minecraft:white_dye",
+    "components": {
+      "minecraft:custom_model_data": 260607,
+      "minecraft:item_name": "{\"extra\":[{\"color\":\"light_purple\",\"italic\":false,\"text\": \"Costume Box (Incineroar)\"}],\"italic\":false,\"text\":\"\"}",
+      "minecraft:lore": [
+        "{\"text\":\"Form Changes\", \"color\":\"blue\", \"italic\":false}",
+        "{\"color\":\"gray\",\"text\":\"A Box full of Incineroars favorite costumes\"}"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Deoxys",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.75,
+      "z": -0.45
+    },
+	"WALKING": {
+      "x": 0,
+      "y": 0.0,
+      "z": 0.1
+    },
+	"FLYING": {
+      "x": 0,
+      "y": 0.0,
+      "z": 0.1
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.4,
+  "waterSpeedModifier": 0.4,
+  "airSpeedModifier": 0.5
+}

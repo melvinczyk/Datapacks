@@ -1,0 +1,10 @@
+{
+    "keys": [ "dawn-wings" ],
+    "type": "flag",
+    "default": false,
+    "choices": [
+        "dawn-wings"
+      ],
+      "isAspect": true,
+      "aspectFormat": "dawn-wings-pattern-{{dawn-wings}}"
+  }

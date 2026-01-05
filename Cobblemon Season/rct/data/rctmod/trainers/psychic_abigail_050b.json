@@ -1,0 +1,50 @@
+{
+  "name": "Psychic Abigail",
+  "team": [
+    {
+      "species": "haunter",
+      "gender": "FEMALE",
+      "level": 82,
+      "nature": "timid",
+      "ability": "levitate",
+      "moveset": [
+        "confuseray",
+        "payback",
+        "hex",
+        "nightshade"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "misdreavus",
+      "gender": "MALE",
+      "level": 84,
+      "nature": "timid",
+      "ability": "levitate",
+      "moveset": [
+        "confuseray",
+        "hex",
+        "psybeam",
+        "payback"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "kadabra",
+      "gender": "FEMALE",
+      "level": 83,
+      "nature": "timid",
+      "ability": "synchronize",
+      "moveset": [
+        "psychocut",
+        "recover",
+        "psyshock",
+        "psychic"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

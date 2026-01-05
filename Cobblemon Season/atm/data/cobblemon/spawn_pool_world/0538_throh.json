@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "throh-1",
+            "pokemon": "throh",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "39-45",
+            "weight": 8,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_savanna"
+
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wochien-1",
+      "pokemon": "wochien",
+      "presets": ["natural"],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "160",
+      "weight": 1.0,
+      "condition": {
+        "biomes": ["minecraft:dark_forest"]
+      }
+    },
+    {
+      "id": "wochien-2",
+      "pokemon": "wochien",
+      "presets": ["natural"],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60",
+      "weight": 1.0,
+      "condition": {
+        "biomes": ["#cobblemon:is_savanna"]
+      }
+    }
+  ]
+}

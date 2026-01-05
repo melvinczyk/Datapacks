@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tarountula-1",
+      "pokemon": "tarountula",
+      "presets": ["natural"],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-23",
+      "weight": 11.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": ["minecraft:bamboo_jungle"]
+      }
+    },
+    {
+        "id": "tarountula-2",
+        "pokemon": "tarountula",
+        "presets": ["natural"],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "uncommon",
+        "level": "8-26",
+        "weight": 9.0,
+        "condition": {
+          "biomes": ["minecraft:bamboo_jungle"]
+        }
+      }
+  ]
+}

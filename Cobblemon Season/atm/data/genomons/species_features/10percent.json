@@ -1,0 +1,10 @@
+{
+    "keys": [ "10percent" ],
+    "type": "flag",
+    "default": false,
+    "choices": [
+        "10percent"
+      ],
+      "isAspect": true,
+      "aspectFormat": "10percent-pattern-{{10percent}}"
+  }

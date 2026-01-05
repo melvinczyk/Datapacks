@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemon:silk_scarf"
+  },
+  "base": {
+    "item": "cobblemon:green_mint_leaf"
+  },
+  "addition": {
+    "item": "minecraft:green_dye"
+  },
+  "result": {
+    "id": "minecraft:white_dye",
+    "components": {
+      "minecraft:custom_model_data": 260610,
+      "minecraft:item_name": "{\"extra\":[{\"color\":\"light_purple\",\"italic\":false,\"text\": \"Green Scarf\"}],\"italic\":false,\"text\":\"\"}",
+      "minecraft:lore": [
+        "{\"text\":\"Form Changes\", \"color\":\"blue\", \"italic\":false}",
+        "{\"color\":\"gray\",\"text\":\"A scarf typically worn by the Mystery Dungeon Team\"}"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Kingambit",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0.0,
+      "y": -0.55,
+      "z": -0.45
+    },
+	"WALKING": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -0.25
+    }
+  },
+  "baseSpeedModifier": 0.5,
+  "landSpeedModifier": 0.75,
+  "waterSpeedModifier": 1.0
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemon:dark_gem"
+  },
+  "base": {
+    "item": "mega_showdown:mewtwonite_y"
+  },
+  "addition": {
+    "item": "cobblemon:dark_gem"
+  },
+  "result": {
+    "id": "minecraft:purple_dye",
+    "components": {
+      "minecraft:custom_model_data": 260616,
+      "minecraft:item_name": "{\"extra\":[{\"color\":\"light_purple\",\"italic\":false,\"text\": \"Shadow Mewtwonite Y\"}],\"italic\":false,\"text\":\"\"}",
+      "minecraft:lore": [
+        "{\"text\":\"Form Changes\", \"color\":\"blue\", \"italic\":false}",
+        "{\"color\":\"gray\",\"text\":\"This corrupted Megastone allows Mewtwo\"}",
+		"{\"color\":\"gray\",\"text\":\"to Mega Evolve into Shadow Mega Y\"}"
+      ]
+    }
+  }
+}

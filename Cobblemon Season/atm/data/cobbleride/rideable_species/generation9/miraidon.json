@@ -1,0 +1,16 @@
+{
+	"name": "miraidon",
+	"enabled": true,
+	"offsets": {
+		"DEFAULT": {
+			"x": 0.0,
+			"y": -1.8,
+			"z": -0.1
+		}
+	},
+	"baseSpeedModifier": 1.0,
+	"landSpeedModifier": 0.7,
+	"waterSpeedModifier": 0.2,
+	"airSpeedModifier":0.2,
+	"forms": []
+}

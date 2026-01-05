@@ -1,0 +1,123 @@
+{
+  "target": "cobblemon:mewtwo",
+  "baseScale": 0.95,
+  "hitbox": {
+    "width": 2,
+    "height": 2,
+    "fixed": false
+   },
+   "features": ["shadow", "armored"],
+   "forms": [
+    {
+      "name": "Shadow",
+      "primaryType": "psychic",
+      "secondaryType": "dark",
+      "abilities": [
+        "pressure",
+        "h:unnerve"
+      ],
+      "baseStats": {
+        "hp": 106,
+        "attack": 132,
+        "defence": 72,
+        "special_attack": 184,
+        "special_defence": 72,
+        "speed": 130    
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "shoulderMountable": false,
+      "baseExperienceYield": 340,    
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0    
+      },
+      "experienceGroup": "medium_fast",
+      "eggCycles": 25,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen1"
+      ],
+      "aspects": [
+        "shadow"
+      ],
+      "height": 20,
+      "weight": 1190,    
+      "evolutions": [
+        {
+          "id": "mewtwo shadow_mewtwo",
+          "variant": "item_interact",
+          "result": "mewtwo",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": {
+        "item": "minecraft:feather",
+        "nbt": "{CustomModelData: 150}"}
+      }
+      ]
+    },
+    {
+      "name": "Armored",
+      "primaryType": "psychic",
+      "abilities": [
+        "pressure",
+        "h:unnerve"
+      ],
+      "baseStats": {
+        "hp": 106,
+        "attack": 132,
+        "defence": 72,
+        "special_attack": 184,
+        "special_defence": 72,
+        "speed": 130    
+      },
+      "catchRate": 3,
+      "maleRatio": -1,
+      "shoulderMountable": false,
+      "baseExperienceYield": 340,    
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0    
+      },
+      "experienceGroup": "medium_fast",
+      "eggCycles": 25,
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "labels": [
+        "gen1"
+      ],
+      "aspects": [
+        "armored"
+      ],
+      "height": 20,
+      "weight": 1190,    
+      "evolutions": [
+      ]
+    }
+  ],
+  "evolutions": [
+    {
+      "id": "mewtwo_mewtwo shadow",
+      "variant": "item_interact",
+      "result": "mewtwo shadow",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": {
+    "item": "minecraft:feather",
+    "nbt": "{CustomModelData: 150}"}
+  }
+  ]
+  }

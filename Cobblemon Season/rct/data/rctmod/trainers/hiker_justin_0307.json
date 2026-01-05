@@ -1,0 +1,35 @@
+{
+  "name": "Hiker Justin",
+  "team": [
+    {
+      "species": "geodude",
+      "gender": "MALE",
+      "level": 61,
+      "nature": "relaxed",
+      "ability": "rockhead",
+      "moveset": [
+        "tackle",
+        "sandstorm",
+        "harden",
+        "rockthrow"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "bronzor",
+      "gender": "GENDERLESS",
+      "level": 63,
+      "nature": "hardy",
+      "ability": "levitate",
+      "moveset": [
+        "confusion",
+        "confuseray",
+        "payback",
+        "gyroball"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

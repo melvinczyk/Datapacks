@@ -1,0 +1,10 @@
+{
+    "keys": [ "ultra" ],
+    "type": "flag",
+    "default": false,
+    "choices": [
+        "ultra"
+      ],
+      "isAspect": true,
+      "aspectFormat": "ultra-pattern-{{ultra}}"
+  }

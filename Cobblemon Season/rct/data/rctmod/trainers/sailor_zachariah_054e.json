@@ -1,0 +1,50 @@
+{
+  "name": "Sailor Zachariah",
+  "team": [
+    {
+      "species": "pelipper",
+      "gender": "MALE",
+      "level": 100,
+      "nature": "bold",
+      "ability": "drizzle",
+      "moveset": [
+        "tailwind",
+        "waterpulse",
+        "roost",
+        "hurricane"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "machamp",
+      "gender": "MALE",
+      "level": 103,
+      "nature": "adamant",
+      "ability": "noguard",
+      "moveset": [
+        "knockoff",
+        "dualchop",
+        "bulkup",
+        "dynamicpunch"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "gastrodon",
+      "gender": "FEMALE",
+      "level": 103,
+      "nature": "modest",
+      "ability": "stormdrain",
+      "moveset": [
+        "recover",
+        "ancientpower",
+        "muddywater",
+        "earthpower"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

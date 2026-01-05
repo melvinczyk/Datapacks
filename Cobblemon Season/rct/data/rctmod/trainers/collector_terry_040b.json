@@ -1,0 +1,50 @@
+{
+  "name": "Collector Terry",
+  "team": [
+    {
+      "species": "gastly",
+      "gender": "MALE",
+      "level": 57,
+      "nature": "sassy",
+      "ability": "levitate",
+      "moveset": [
+        "lick",
+        "confuseray",
+        "meanlook",
+        "payback"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "gastly",
+      "gender": "FEMALE",
+      "level": 58,
+      "nature": "sassy",
+      "ability": "levitate",
+      "moveset": [
+        "lick",
+        "confuseray",
+        "meanlook",
+        "payback"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "gastly",
+      "gender": "MALE",
+      "level": 62,
+      "nature": "sassy",
+      "ability": "levitate",
+      "moveset": [
+        "lick",
+        "confuseray",
+        "payback",
+        "spite"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

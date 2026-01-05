@@ -1,0 +1,50 @@
+{
+  "name": "Collector Fernando",
+  "team": [
+    {
+      "species": "mrmime",
+      "gender": "MALE",
+      "level": 62,
+      "nature": "sassy",
+      "ability": "filter",
+      "moveset": [
+        "powerswap",
+        "copycat",
+        "batonpass",
+        "encore"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "mrmime",
+      "gender": "MALE",
+      "level": 65,
+      "nature": "sassy",
+      "ability": "soundproof",
+      "moveset": [
+        "copycat",
+        "encore",
+        "confusion",
+        "roleplay"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "mrmime",
+      "gender": "FEMALE",
+      "level": 65,
+      "nature": "sassy",
+      "ability": "soundproof",
+      "moveset": [
+        "copycat",
+        "encore",
+        "confusion",
+        "roleplay"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Young Couple Ty",
+  "battleFormat": "GEN_9_DOUBLES",
+  "team": [
+    {
+      "species": "machop",
+      "gender": "MALE",
+      "level": 64,
+      "nature": "impish",
+      "ability": "noguard",
+      "moveset": [
+        "leer",
+        "focusenergy",
+        "lowsweep",
+        "knockoff"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

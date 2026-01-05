@@ -1,0 +1,30 @@
+{
+  "name": "Muk",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.7,
+      "z": -0.4
+    }
+  },
+  "baseSpeedModifier": 0.25,
+  "landSpeedModifier": 1.0,
+  "waterSpeedModifier": 0.5,
+  "forms": [
+		{
+			"name": "Alola",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -0.7,
+					"z": -0.5
+				}
+			},
+			"baseSpeedModifier": 0.25,
+			"landSpeedModifier": 1.0,
+			"waterSpeedModifier": 0.5
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "target": "cobblemon:excadrill",
+  "hitbox": {
+   "width": 1,
+   "height": 1.7,
+   "fixed": false
+ },
+ "baseScale": 0.8
+}

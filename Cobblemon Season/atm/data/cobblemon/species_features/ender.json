@@ -1,0 +1,6 @@
+{
+  "keys": ["ender"],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
+}

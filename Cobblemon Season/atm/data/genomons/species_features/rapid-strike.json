@@ -1,0 +1,10 @@
+{
+    "keys": [ "rapid-strike" ],
+    "type": "flag",
+    "default": false,
+    "choices": [
+        "rapid-strike"
+      ],
+      "isAspect": true,
+      "aspectFormat": "rapid-strike-pattern-{{rapid-strike}}"
+  }

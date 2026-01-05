@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kyurem-1T",
+      "pokemon": "kyurem",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "270",
+      "weight": 4.0,
+      "weightMultiplier": {
+        "multiplier": 2.5,
+        "condition": {
+          "isRaining": "true"
+        }
+      },
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_glacial"
+        ]
+      }
+    }
+  ]
+}

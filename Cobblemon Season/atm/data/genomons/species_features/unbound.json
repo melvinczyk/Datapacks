@@ -1,0 +1,10 @@
+{
+    "keys": [ "unbound" ],
+    "type": "flag",
+    "default": false,
+    "choices": [
+        "unbound"
+      ],
+      "isAspect": true,
+      "aspectFormat": "unbound-pattern-{{unbound}}"
+  }

@@ -1,0 +1,14 @@
+{
+  "name": "Audino",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.2,
+      "z": -0.45
+    }
+  },
+  "baseSpeedModifier": 0.7,
+  "landSpeedModifier": 0.55,
+  "waterSpeedModifier": 0.5
+}

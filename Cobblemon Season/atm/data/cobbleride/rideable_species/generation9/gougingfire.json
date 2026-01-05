@@ -1,0 +1,19 @@
+{
+  "name": "Gouging Fire",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.3,
+      "z": 0.65
+    },
+    "WALKING": {
+      "x": 0,
+      "y": 0,
+      "z": 0.0
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.35,
+  "waterSpeedModifier": 1.0
+}

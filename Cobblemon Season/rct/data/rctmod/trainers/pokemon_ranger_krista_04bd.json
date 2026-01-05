@@ -1,0 +1,35 @@
+{
+  "name": "Pok\u00e9mon Ranger Krista",
+  "team": [
+    {
+      "species": "trapinch",
+      "gender": "FEMALE",
+      "level": 99,
+      "nature": "hardy",
+      "ability": "hypercutter",
+      "moveset": [
+        "crunch",
+        "sandtomb",
+        "dig",
+        "sandstorm"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "vibrava",
+      "gender": "MALE",
+      "level": 101,
+      "nature": "impish",
+      "ability": "levitate",
+      "moveset": [
+        "supersonic",
+        "bugbuzz",
+        "earthpower",
+        "dragonbreath"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

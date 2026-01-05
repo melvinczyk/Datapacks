@@ -1,0 +1,9 @@
+{
+  "target": "cobblemon:drilbur",
+  "hitbox": {
+   "width": 1,
+   "height": 1.5,
+   "fixed": false
+ },
+ "baseScale": 0.9
+}

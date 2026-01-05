@@ -1,0 +1,93 @@
+{
+  "name": "Bug Catcher Jonah",
+  "team": [
+    {
+      "species": "yanma",
+      "gender": "MALE",
+      "level": 90,
+      "nature": "calm",
+      "ability": "compoundeyes",
+      "moveset": [
+        "pursuit",
+        "ancientpower",
+        "hypnosis",
+        "wingattack"
+      ],
+      "ivs": {
+        "hp": 1,
+        "atk": 1,
+        "def": 1,
+        "spa": 1,
+        "spd": 1,
+        "spe": 1
+      },
+      "evs": {}
+    },
+    {
+      "species": "beedrill",
+      "gender": "MALE",
+      "level": 90,
+      "nature": "lax",
+      "ability": "swarm",
+      "moveset": [
+        "poisonjab",
+        "agility",
+        "endeavor",
+        "fellstinger"
+      ],
+      "ivs": {
+        "hp": 1,
+        "atk": 1,
+        "def": 1,
+        "spa": 1,
+        "spd": 1,
+        "spe": 1
+      },
+      "evs": {}
+    },
+    {
+      "species": "yanma",
+      "gender": "FEMALE",
+      "level": 91,
+      "nature": "calm",
+      "ability": "compoundeyes",
+      "moveset": [
+        "ancientpower",
+        "hypnosis",
+        "wingattack",
+        "screech"
+      ],
+      "ivs": {
+        "hp": 1,
+        "atk": 1,
+        "def": 1,
+        "spa": 1,
+        "spd": 1,
+        "spe": 1
+      },
+      "evs": {}
+    },
+    {
+      "species": "beedrill",
+      "gender": "MALE",
+      "level": 92,
+      "nature": "bashful",
+      "ability": "swarm",
+      "moveset": [
+        "poisonjab",
+        "agility",
+        "endeavor",
+        "fellstinger"
+      ],
+      "ivs": {
+        "hp": 1,
+        "atk": 1,
+        "def": 1,
+        "spa": 1,
+        "spd": 1,
+        "spe": 1
+      },
+      "evs": {}
+    }
+  ]
+}

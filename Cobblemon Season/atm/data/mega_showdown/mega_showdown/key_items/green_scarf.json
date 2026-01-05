@@ -1,0 +1,25 @@
+{
+  "msd_id": "green_scarf",
+  "item_id": "minecraft:white_dye",
+  "tradable_form": true,
+  "item_name": "§r§Green Scarf",
+  "item_description": [
+    "§9Form Changes",
+    "§r§fA scarf typically worn by the Mystery Dungeon Team"
+  ],
+  "custom_model_data": 260610,
+  "effects": {
+    "particle_apply": "minecraft:enchant",
+    "particle_revert": "minecraft:white_ash",
+    "sound_apply": "minecraft:entity.allay.ambient_without_item",
+    "sound_revert": "minecraft:entity.allay.item_taken",
+    "particle_apply_amplifier": 1,
+    "particle_revert_amplifier": 1
+  },
+  "required_aspects": [],
+  "pokemons": ["Riolu","Lucario"],
+  "aspects": ["scarf=psmd","costume=no"],
+  "default_aspects": ["scarf=no","costume=no"],
+  "toggle_aspects": [],
+  "consume": false
+}

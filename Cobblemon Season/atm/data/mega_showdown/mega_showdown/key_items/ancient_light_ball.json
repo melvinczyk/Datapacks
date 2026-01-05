@@ -1,0 +1,25 @@
+{
+  "msd_id": "ancient_light_ball",
+  "item_id": "minecraft:red_dye",
+  "tradable_form": true,
+  "item_name": "§r§Pichu Item",
+  "item_description": [
+    "§9Form Changes",
+    "§r§fA rare item."
+  ],
+  "custom_model_data": 260617,
+  "effects": {
+    "particle_apply": "minecraft:end_rod",
+    "particle_revert": "minecraft:end_rod",
+    "sound_apply": "minecraft:block.beacon.activate",
+    "sound_revert": "minecraft:block.beacon.deactivate",
+    "particle_apply_amplifier": 1,
+    "particle_revert_amplifier": 1
+  },
+  "required_aspects": ["gender=female"],
+  "pokemons": ["Pichu"],
+  "aspects": ["spiky_eared=true"],
+  "default_aspects": ["spiky_eared=false"],
+  "toggle_aspects": [],
+  "consume": true
+}

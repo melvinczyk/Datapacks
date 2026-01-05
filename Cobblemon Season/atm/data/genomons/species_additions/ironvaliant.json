@@ -1,0 +1,10 @@
+{
+  "implemented": "true",
+  "target": "cobblemon:ironvaliant",
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.9,
+    "height": 2.1,
+    "fixed": false
+  }
+}

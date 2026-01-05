@@ -1,0 +1,19 @@
+{
+  "name": "Archaludon",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0.0,
+      "y": -0.55,
+      "z": -0.45
+    },
+	"WALKING": {
+      "x": 0.0,
+      "y": 0.1,
+      "z": 0.15
+    }
+  },
+  "baseSpeedModifier": 0.5,
+  "landSpeedModifier": 0.3,
+  "waterSpeedModifier": 1.0
+}

@@ -1,0 +1,9 @@
+{
+  "entryId": "cobblemon:victini",
+  "forms": [
+    {
+      "displayForm": "Mega",
+      "unlockForms": ["Mega"]
+    }
+  ]
+}

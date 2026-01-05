@@ -1,0 +1,38 @@
+{
+  "msd_id": "costume_box_incineroar",
+  "item_id": "minecraft:white_dye",
+  "tradable_form": true,
+  "item_name": "§Costume Box (Incineroar)",
+  "item_description": [
+    "§9Form Changes",
+    "§fA Box full of Incineroars favorite costumes"
+  ],
+  "custom_model_data": 260607,
+  "effects": {
+    "particle_apply": "minecraft:crimson_spore",
+    "particle_revert": "minecraft:crimson_spore",
+    "sound_apply": "minecraft:item.armor.equip_leather",
+    "sound_revert": "minecraft:item.armor.equip_leather",
+    "particle_apply_amplifier": 1,
+    "particle_revert_amplifier": 1
+  },
+  "required_aspects": [],
+  "pokemons": ["Incineroar"],
+  "aspects": [],
+  "default_aspects": [],
+  "toggle_aspects": [
+    ["incineroar_costume=champion"],
+    ["incineroar_costume=royal_mask"],
+    ["incineroar_costume=summer"],
+    ["incineroar_costume=dancer"],
+    ["incineroar_costume=1pride"],
+    ["incineroar_costume=ace_pride"],
+    ["incineroar_costume=trans_pride"],
+    ["incineroar_costume=bi_pride"],
+    ["incineroar_costume=pan_pride"],
+    ["incineroar_costume=tekken"],
+    ["incineroar_costume=team_skull"],
+    ["incineroar_costume=no"]
+  ],
+  "consume": false
+}

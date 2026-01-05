@@ -1,0 +1,22 @@
+{
+  "msd_id": "corrupted_wish",
+  "item_id": "minecraft:purple_dye",
+  "tradable_form": true,
+  "item_name": "§r§Corrupted Wish",
+  "item_description": [],
+  "custom_model_data": 260620,
+  "effects": {
+    "particle_apply": "minecraft:campfire_cosy_smoke",
+    "particle_revert": "minecraft:end_rod",
+    "sound_apply": "minecraft:block.beacon.activate",
+    "sound_revert": "minecraft:block.beacon.deactivate",
+    "particle_apply_amplifier": 1.0,
+    "particle_revert_amplifier": 1.0
+  },
+  "required_aspects": [],
+  "pokemons": ["Groudon"],
+  "aspects": ["virus=true"],
+  "default_aspects": ["virus=false"],
+  "toggle_aspects": [],
+  "consume": false
+}

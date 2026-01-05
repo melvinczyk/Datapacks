@@ -1,0 +1,19 @@
+{
+  "name": "Picnicker Karina",
+  "team": [
+    {
+      "species": "piplup",
+      "gender": "MALE",
+      "level": 64,
+      "nature": "hasty",
+      "ability": "torrent",
+      "moveset": [
+        "growl",
+        "peck",
+        "bubblebeam"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

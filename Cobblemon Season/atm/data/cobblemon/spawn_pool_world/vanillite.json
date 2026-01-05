@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "vanillite-1",
+            "pokemon": "vanillite",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-32",
+            "weight": 6.5,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_tundra",
+                    "minecraft:snowy_plains",
+                    "#cobblemon:is_snowy_forest",
+                    "minecraft:ice_spikes"
+                ]
+            }
+        }
+    ]
+ }

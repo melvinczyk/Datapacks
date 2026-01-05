@@ -1,0 +1,35 @@
+{
+  "name": "Swimmer Sophia",
+  "team": [
+    {
+      "species": "mantyke",
+      "gender": "FEMALE",
+      "level": 95,
+      "nature": "calm",
+      "ability": "waterabsorb",
+      "moveset": [
+        "hydropump",
+        "aquaring",
+        "supersonic",
+        "airslash"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "mantine",
+      "gender": "FEMALE",
+      "level": 97,
+      "nature": "calm",
+      "ability": "waterabsorb",
+      "moveset": [
+        "hydropump",
+        "bounce",
+        "aquaring",
+        "airslash"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

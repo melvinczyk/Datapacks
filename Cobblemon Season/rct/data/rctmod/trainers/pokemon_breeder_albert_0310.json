@@ -1,0 +1,50 @@
+{
+  "name": "Pok\u00e9mon Breeder Albert",
+  "team": [
+    {
+      "species": "bonsly",
+      "gender": "MALE",
+      "level": 61,
+      "nature": "impish",
+      "ability": "sturdy",
+      "moveset": [
+        "copycat",
+        "flail",
+        "rockthrow",
+        "mimic"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "budew",
+      "gender": "MALE",
+      "level": 60,
+      "nature": "bold",
+      "ability": "poisonpoint",
+      "moveset": [
+        "absorb",
+        "growth",
+        "stunspore",
+        "worryseed"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "pichu",
+      "gender": "FEMALE",
+      "level": 62,
+      "nature": "bold",
+      "ability": "static",
+      "moveset": [
+        "thundershock",
+        "tailwhip",
+        "playnice",
+        "nuzzle"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

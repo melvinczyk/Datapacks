@@ -1,0 +1,25 @@
+{
+  "msd_id": "shadow_energy",
+  "item_id": "minecraft:purple_dye",
+  "tradable_form": true,
+  "item_name": "§r§fShadow Energy",
+  "item_description": [
+    "§9Form Changes",
+    "§r§fCorrupts Pokémon with its strange Aura"
+  ],
+  "custom_model_data": 260613,
+  "effects": {
+    "particle_apply": "minecraft:dragon_breath",
+    "particle_revert": "minecraft:end_rod",
+    "sound_apply": "minecraft:block.beacon.activate",
+    "sound_revert": "minecraft:block.beacon.deactivate",
+    "particle_apply_amplifier": 1.5,
+    "particle_revert_amplifier": 1.5
+  },
+  "required_aspects": [],
+  "pokemons": ["Mewtwo","Lugia"],
+  "aspects": ["shadows=true"],
+  "default_aspects": ["shadows=false"],
+  "toggle_aspects": [],
+  "consume": false
+}

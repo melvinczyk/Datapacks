@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemon:light_ball"
+  },
+  "base": {
+    "item": "cobblemon:electric_gem"
+  },
+  "addition": {
+    "item": "minecraft:clock"
+  },
+  "result": {
+    "id": "minecraft:red_dye",
+    "components": {
+      "minecraft:custom_model_data": 260617,
+      "minecraft:item_name": "{\"extra\":[{\"color\":\"light_purple\",\"italic\":false,\"text\": \"Ancient Light Ball\"}],\"italic\":false,\"text\":\"\"}",
+      "minecraft:lore": [
+        "{\"text\":\"Form Changes\", \"color\":\"blue\", \"italic\":false}",
+        "{\"color\":\"gray\",\"text\":\"A rare relic from a distant time\"}",
+        "{\"color\":\"gray\",\"text\":\"it has a strange effect on female Pichu.\"}"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "garbodor-1",
+           "pokemon": "garbodor",
+           "presets": [
+               "natural"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "rare",
+           "level": "5-32",
+           "weight": 5.0,
+           "condition": {
+               "canSeeSky": true,
+               "biomes": [
+                   "#cobblemon:is_swamp"
+               ]
+           }
+       }
+   ]
+}

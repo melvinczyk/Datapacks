@@ -1,0 +1,16 @@
+{
+  "name": "Regieleki",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.5,
+      "z": -0.3
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.2,
+  "waterSpeedModifier": 0.2,
+  "airSpeedModifier": 0.2,
+  "forms": []
+}

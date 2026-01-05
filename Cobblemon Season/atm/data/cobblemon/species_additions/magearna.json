@@ -1,0 +1,33 @@
+{
+    "target": "cobblemon:magearna",
+        "behaviour": {
+        "resting": {
+            "canSleep": false,
+            "depth": "normal",
+            "light": "4-15"
+        },
+        "moving": {
+            "canLook": true,
+            "walk": {
+                "canWalk": true,
+				"walkSpeed": 0.250,
+                "avoidsLand": false
+            },
+            "swim": {
+                "swimSpeed": 0.1,
+                "canSwimInWater": true,
+                "canBreatheUnderwater": false
+            },
+			"fly": {
+			"canFly": false
+			}
+        }
+    },
+	"shoulderMountable": false,
+    "baseScale": 0.6,
+    "hitbox": {
+        "width": 1.2,
+        "height": 2.5,
+        "fixed": false
+    }
+}

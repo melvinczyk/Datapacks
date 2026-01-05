@@ -1,0 +1,93 @@
+{
+  "name": "Lass Dalia",
+  "team": [
+    {
+      "species": "hoppip",
+      "gender": "MALE",
+      "level": 91,
+      "nature": "sassy",
+      "ability": "leafguard",
+      "moveset": [
+        "uturn",
+        "worryseed",
+        "gigadrain",
+        "bounce"
+      ],
+      "ivs": {
+        "hp": 5,
+        "atk": 5,
+        "def": 5,
+        "spa": 5,
+        "spd": 5,
+        "spe": 5
+      },
+      "evs": {}
+    },
+    {
+      "species": "hoppip",
+      "gender": "MALE",
+      "level": 92,
+      "nature": "rash",
+      "ability": "leafguard",
+      "moveset": [
+        "uturn",
+        "worryseed",
+        "gigadrain",
+        "bounce"
+      ],
+      "ivs": {
+        "hp": 5,
+        "atk": 5,
+        "def": 5,
+        "spa": 5,
+        "spd": 5,
+        "spe": 5
+      },
+      "evs": {}
+    },
+    {
+      "species": "skiploom",
+      "gender": "FEMALE",
+      "level": 92,
+      "nature": "docile",
+      "ability": "leafguard",
+      "moveset": [
+        "acrobatics",
+        "ragepowder",
+        "cottonspore",
+        "uturn"
+      ],
+      "ivs": {
+        "hp": 5,
+        "atk": 5,
+        "def": 5,
+        "spa": 5,
+        "spd": 5,
+        "spe": 5
+      },
+      "evs": {}
+    },
+    {
+      "species": "skiploom",
+      "gender": "MALE",
+      "level": 93,
+      "nature": "hasty",
+      "ability": "leafguard",
+      "moveset": [
+        "ragepowder",
+        "cottonspore",
+        "uturn",
+        "worryseed"
+      ],
+      "ivs": {
+        "hp": 5,
+        "atk": 5,
+        "def": 5,
+        "spa": 5,
+        "spd": 5,
+        "spe": 5
+      },
+      "evs": {}
+    }
+  ]
+}

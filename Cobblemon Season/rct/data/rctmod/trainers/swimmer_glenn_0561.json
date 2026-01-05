@@ -1,0 +1,35 @@
+{
+  "name": "Swimmer Glenn",
+  "team": [
+    {
+      "species": "dewgong",
+      "gender": "FEMALE",
+      "level": 103,
+      "nature": "calm",
+      "ability": "thickfat",
+      "moveset": [
+        "dive",
+        "aquatail",
+        "icebeam",
+        "safeguard"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "starmie",
+      "gender": "GENDERLESS",
+      "level": 103,
+      "nature": "timid",
+      "ability": "naturalcure",
+      "moveset": [
+        "hydropump",
+        "psychic",
+        "swift",
+        "recover"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

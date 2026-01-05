@@ -1,0 +1,193 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "rockruff-1",
+            "pokemon": "rockruff",
+            "presets": [
+                "natural",
+                "urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-20",
+            "weight": 4.3,
+            "weightMultiplier": {
+               "multiplier": 2.0,
+               "condition": {
+                   "biomes": [
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_desert"
+                   ]
+               }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "rockruff-2",
+            "pokemon": "rockruff",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-20",
+            "weight": 4.3,
+            "weightMultiplier": {
+               "multiplier": 2.0,
+               "condition": {
+                   "biomes": [
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_desert"
+                   ]
+               }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "structures": [
+                    "#minecraft:village"
+                ],
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "rockruff-3",
+            "pokemon": "rockruff",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "10-25",
+            "weight": 1.8,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_desert"
+                ]
+            }
+        },
+        {
+            "id": "rockruff-4",
+            "pokemon": "rockruff",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "15-30",
+            "weight": 3.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_dripstone"
+                ],
+                "minY": 32
+            }
+        },
+        {
+            "id": "rockruff-owntempo-1",
+            "pokemon": "rockruff owntempo",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "15-30",
+            "weight": 0.5,
+            "weightMultiplier": {
+                "multiplier": 3.5,
+                "condition": {
+                    "timeRange": "dusk"
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_desert"
+                ]
+            }
+        },
+        {
+            "id": "rockruff-owntempo-2",
+            "pokemon": "rockruff owntempo",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-20",
+            "weight": 0.1,
+            "weightMultiplier": {
+               "multiplier": 1.1,
+               "condition": {
+                   "biomes": [
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_desert"
+                   ],
+                   "timeRange": "dusk"
+               }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "structures": [
+                    "#minecraft:village"
+                ],
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "rockruff-owntempo-3",
+            "pokemon": "rockruff owntempo",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "15-30",
+            "weight": 0.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_dripstone"
+                ],
+                "minY": 32
+            }
+        }
+    ]
+}

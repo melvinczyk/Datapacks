@@ -1,0 +1,14 @@
+{
+  "name": "Melmetal",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.3,
+      "z": -0.4
+    }
+  },
+  "baseSpeedModifier": 0.75,
+  "landSpeedModifier": 0.75,
+  "waterSpeedModifier": 0.4
+}

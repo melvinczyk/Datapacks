@@ -1,0 +1,36 @@
+{
+  "msd_id": "costume_box_lucario",
+  "item_id": "minecraft:white_dye",
+  "tradable_form": true,
+  "item_name": "§Costume Box (Lucario)",
+  "item_description": [
+    "§9Form Changes",
+    "§fA Box full of Lucarios favorite costumes"
+  ],
+  "custom_model_data": 260608,
+  "effects": {
+    "particle_apply": "minecraft:crimson_spore",
+    "particle_revert": "minecraft:crimson_spore",
+    "sound_apply": "minecraft:item.armor.equip_leather",
+    "sound_revert": "minecraft:item.armor.equip_leather",
+    "particle_apply_amplifier": 1,
+    "particle_revert_amplifier": 1
+  },
+  "required_aspects": [],
+  "pokemons": ["Lucario"],
+  "aspects": [],
+  "default_aspects": ["costume=no","scarf=no"],
+  "toggle_aspects": [
+    ["costume=cafe"],
+    ["costume=captain"],
+    ["costume=chef"],
+    ["costume=concert"],
+    ["costume=costume_party"],
+    ["costume=holiday"],
+    ["costume=martial_arts"],
+    ["costume=ruins"],
+    ["costume=space"],
+	["costume=no"]
+  ],
+  "consume": false
+}

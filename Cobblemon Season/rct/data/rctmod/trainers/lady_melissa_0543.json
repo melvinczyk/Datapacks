@@ -1,0 +1,20 @@
+{
+  "name": "Lady Melissa",
+  "team": [
+    {
+      "species": "lopunny",
+      "gender": "FEMALE",
+      "level": 105,
+      "nature": "jolly",
+      "ability": "klutz",
+      "moveset": [
+        "headbutt",
+        "entrainment",
+        "bounce",
+        "highjumpkick"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

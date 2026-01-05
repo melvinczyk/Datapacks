@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:tide_armor_trim_smithing_template"
+  },
+  "base": {
+    "item": "cobblemon:water_gem"
+  },
+  "addition": {
+    "item": "mega_showdown:mega_stone_crystal"
+  },
+  "result": {
+    "id": "minecraft:red_dye",
+    "components": {
+      "minecraft:custom_model_data": 260611,
+      "minecraft:item_name": "{\"extra\":[{\"color\":\"light_purple\",\"italic\":false,\"text\": \"Water Shuriken\"}],\"italic\":false,\"text\":\"\"}",
+      "minecraft:lore": [
+        "{\"text\":\"Form Changes\", \"color\":\"blue\", \"italic\":false}",
+        "{\"color\":\"gray\",\"text\":\"A rare shuriken that allows you to\"}",
+        "{\"color\":\"gray\",\"text\":\"change the appearance of Greninja.\"}"
+      ]
+    }
+  }
+}

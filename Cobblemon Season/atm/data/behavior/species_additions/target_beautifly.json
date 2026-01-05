@@ -1,0 +1,9 @@
+{
+ "target": "cobblemon:beautifly",
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    }
+  }
+}

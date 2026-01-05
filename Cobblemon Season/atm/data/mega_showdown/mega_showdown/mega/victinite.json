@@ -1,0 +1,13 @@
+
+{
+  "msd_id": "victinite",
+  "showdown_id": "victinite",
+  "item_id": "minecraft:purple_dye",
+  "item_name": "Victinite",
+  "item_description": [],
+  "custom_model_data": 260619,
+  "required_aspects": [],
+  "blacklist_aspects": [],
+  "pokemon": "Victini",
+  "aspects": ["mega_evolution=mega"]
+}

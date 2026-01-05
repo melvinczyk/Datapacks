@@ -1,0 +1,14 @@
+{
+  "name": "Cyclizar",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": 0.0,
+      "z": -0.55
+    }
+  },
+  "baseSpeedModifier": 0.8,
+  "landSpeedModifier": 0.55,
+  "waterSpeedModifier": 1.0
+}

@@ -1,0 +1,78 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "irontreads-1",
+            "pokemon": "irontreads",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "50-70",
+            "weight": 3,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_arid",
+		            "#cobblemon:is_badlands",
+		            "#cobblemon:is_mountain"
+                ]
+            }
+        },
+	 {
+            "id": "irontreads-2",
+            "pokemon": "irontreads",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "50-70",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        },
+	 {
+            "id": "irontreads-3",
+            "pokemon": "irontreads",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "50-70",
+            "weight": 10,
+            "condition": {
+                "biomes": [
+                    "#betterend:dust_wastelands",
+                    "#betterend:dry_shrubland"
+                ]
+            }
+        },
+        {
+            "id": "irontreads-4",
+            "pokemon": "irontreads",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "60-70",
+            "weight": 5,
+            "condition": {
+                "biomes": [
+                    "betterend:crystal_mountains"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "entryId": "cobblemon:pichu",
+  "forms": [
+    {
+      "displayForm": "Spiky-Eared",
+      "unlockForms": ["Spiky-Eared"]
+    }
+  ]
+}

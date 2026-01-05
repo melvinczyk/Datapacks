@@ -1,0 +1,25 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "trubbish-1",
+           "pokemon": "trubbish",
+           "presets": [
+               "natural"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "common",
+           "level": "21-25",
+           "weight": 2.0,
+           "condition": {
+               "canSeeSky": true,
+               "biomes": [
+                   "#cobblemon:is_swamp"
+               ]
+           }
+       }
+   ]
+}

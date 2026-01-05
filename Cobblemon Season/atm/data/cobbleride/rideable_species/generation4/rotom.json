@@ -1,0 +1,87 @@
+{
+	"name": "Rotom",
+	"enabled": true,
+	"offsets": {
+		"DEFAULT": {
+			"x": 0.0,
+			"y": -0.9,
+			"z": -0.45
+		}
+	},
+	"baseSpeedModifier": 0.75,
+	"landSpeedModifier": 0.5,
+	"waterSpeedModifier": 0.5,
+	"airSpeedModifier":1.4,
+	"forms": [
+		{
+			"name": "Heat",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -0.25,
+					"z": -0.35
+				}
+			},
+			"baseSpeedModifier": 0.75,
+			"landSpeedModifier": 0.45,
+			"waterSpeedModifier": 0.5
+		},
+		{
+			"name": "Frost",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -0.2,
+					"z": -0.35
+				}
+			},
+			"baseSpeedModifier": 0.75,
+			"landSpeedModifier": 0.40,
+			"waterSpeedModifier": 1.0
+		},
+		{
+			"name": "Wash",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -0.25,
+					"z": -0.3
+				}
+			},
+			"baseSpeedModifier": 0.75,
+			"landSpeedModifier": 0.45,
+			"waterSpeedModifier": 1.0
+		},
+		{
+			"name": "Mow",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -0.75,
+					"z": -0.55
+				}
+			},
+			"baseSpeedModifier": 0.75,
+			"landSpeedModifier": 0.95,
+			"waterSpeedModifier": 0.45
+		},
+		{
+			"name": "Fan",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -1.1,
+					"z": -0.45
+				}
+			},
+			"baseSpeedModifier": 0.75,
+			"landSpeedModifier": 0.40,
+			"waterSpeedModifier": 0.5
+		}
+	]
+}

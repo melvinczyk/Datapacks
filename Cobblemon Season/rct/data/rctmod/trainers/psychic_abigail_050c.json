@@ -1,0 +1,50 @@
+{
+  "name": "Psychic Abigail",
+  "team": [
+    {
+      "species": "gengar",
+      "gender": "MALE",
+      "level": 103,
+      "nature": "timid",
+      "ability": "cursedbody",
+      "moveset": [
+        "confuseray",
+        "payback",
+        "nightshade",
+        "darkpulse"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "misdreavus",
+      "gender": "FEMALE",
+      "level": 102,
+      "nature": "timid",
+      "ability": "levitate",
+      "moveset": [
+        "psybeam",
+        "payback",
+        "shadowball",
+        "powergem"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "alakazam",
+      "gender": "MALE",
+      "level": 104,
+      "nature": "timid",
+      "ability": "synchronize",
+      "moveset": [
+        "recover",
+        "psyshock",
+        "psychic",
+        "futuresight"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

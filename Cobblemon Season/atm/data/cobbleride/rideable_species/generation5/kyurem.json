@@ -1,0 +1,46 @@
+{
+	"name": "kyurem",
+	"enabled": true,
+	"offsets": {
+		"DEFAULT": {
+			"x": 0.0,
+			"y": -1.0,
+			"z": 0.0
+		}
+	},
+	"baseSpeedModifier": 1.0,
+	"landSpeedModifier": 0.35,
+	"waterSpeedModifier": 0.4,
+	"forms": [
+		{
+			"name": "White",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				}
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 0.7,
+			"waterSpeedModifier": 0.5,
+			"airSpeedModifier":1.0
+		},
+		{
+			"name": "Black",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				}
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 0.7,
+			"waterSpeedModifier": 0.5,
+			"airSpeedModifier":1.0
+		}
+	]
+}

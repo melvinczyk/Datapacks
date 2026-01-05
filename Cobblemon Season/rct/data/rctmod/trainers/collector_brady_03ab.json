@@ -1,0 +1,50 @@
+{
+  "name": "Collector Brady",
+  "team": [
+    {
+      "species": "ponyta",
+      "gender": "MALE",
+      "level": 67,
+      "nature": "sassy",
+      "ability": "runaway",
+      "moveset": [
+        "growl",
+        "tailwhip",
+        "flamecharge",
+        "agility"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "ponyta",
+      "gender": "FEMALE",
+      "level": 65,
+      "nature": "sassy",
+      "ability": "runaway",
+      "moveset": [
+        "tackle",
+        "growl",
+        "flamecharge",
+        "agility"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "ponyta",
+      "gender": "MALE",
+      "level": 69,
+      "nature": "sassy",
+      "ability": "runaway",
+      "moveset": [
+        "tackle",
+        "growl",
+        "ember",
+        "flamecharge"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

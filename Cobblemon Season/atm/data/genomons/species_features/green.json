@@ -1,0 +1,10 @@
+{
+    "keys": [ "green" ],
+    "type": "flag",
+    "default": false,
+    "choices": [
+        "green"
+      ],
+      "isAspect": true,
+      "aspectFormat": "green-pattern-{{green}}"
+  }

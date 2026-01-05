@@ -1,0 +1,9 @@
+{
+    "entryId": "cobblemon:onix",
+    "forms": [
+      {
+        "displayForm": "Crystal",
+        "unlockForms": ["Crystal"]
+      }
+    ]
+}

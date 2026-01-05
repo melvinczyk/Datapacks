@@ -1,0 +1,32 @@
+{
+  "name": "Altaria",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.25,
+      "z": -0.45
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.4,
+  "waterSpeedModifier": 0.2,
+  "airSpeedModifier": 0.4,
+  "forms": [
+		{
+			"name": "Mega",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -0.25,
+					"z": -0.45
+				}
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 0.4,
+			"waterSpeedModifier": 0.25,
+      "airSpeedModifier": 0.65
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+ "target": "cobblemon:zangoose",
+  "behaviour": {
+   "moving": {
+     "walk": {
+       "canWalk": true,
+       "walkSpeed": 0.5
+     }
+   },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    }
+  },
+  "hitbox": {
+    "width": 1,
+    "height": 1.5,
+    "fixed": false
+  }
+}

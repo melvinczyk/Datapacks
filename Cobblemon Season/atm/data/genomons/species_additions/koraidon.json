@@ -1,0 +1,9 @@
+{
+  "implemented": true,
+  "target": "cobblemon:koraidon",
+  "hitbox": {
+    "width": 1.5,
+    "height": 2.9,
+    "fixed": false
+  }
+}

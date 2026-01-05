@@ -1,0 +1,35 @@
+{
+  "name": "Pok\u00e9mon Ranger Allison",
+  "team": [
+    {
+      "species": "ambipom",
+      "gender": "FEMALE",
+      "level": 106,
+      "nature": "jolly",
+      "ability": "pickup",
+      "moveset": [
+        "dualchop",
+        "tickle",
+        "doublehit",
+        "fling"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "azumarill",
+      "gender": "FEMALE",
+      "level": 104,
+      "nature": "jolly",
+      "ability": "thickfat",
+      "moveset": [
+        "bubblebeam",
+        "bounce",
+        "playrough",
+        "superpower"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

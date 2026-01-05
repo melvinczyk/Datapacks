@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bisharp_override",
+  "speciesId": "cobblemon:bisharp_override",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

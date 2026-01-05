@@ -1,0 +1,35 @@
+{
+  "name": "Pok\u00e9mon Ranger Jeffrey",
+  "team": [
+    {
+      "species": "prinplup",
+      "gender": "MALE",
+      "level": 66,
+      "nature": "sassy",
+      "ability": "torrent",
+      "moveset": [
+        "metalclaw",
+        "charm",
+        "peck",
+        "bubblebeam"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "prinplup",
+      "gender": "MALE",
+      "level": 66,
+      "nature": "sassy",
+      "ability": "torrent",
+      "moveset": [
+        "metalclaw",
+        "tackle",
+        "peck",
+        "bubblebeam"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

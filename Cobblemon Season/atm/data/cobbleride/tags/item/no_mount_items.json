@@ -1,0 +1,190 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:pokedex",
+    {
+      "id": "#mega_showdown:form_change_items",
+      "required": false
+    },
+    {
+      "id": "#mega_showdown:tera_shards",
+      "required": false
+    },
+    {
+      "id": "mega_showdown:dynamax_candy",
+      "required": false
+    },
+    {
+      "id": "mega_showdown:max_soup",
+      "required": false
+    },
+    {
+      "id": "mega_showdown:sweet_max_soup",
+      "required": false
+    },
+    {
+      "id": "cobblemon:rare_candy",
+      "required": false
+    },
+    {
+      "id": "cobblemon:ability_capsule",
+      "required": false
+    },
+    {
+      "id": "cobblemon:ability_patch",
+      "required": false
+    },
+    {
+      "id": "minecraft:paper",
+      "required": false
+    },
+    {
+      "id": "cobblemon:fire_gem",
+      "required": false
+    },
+    {
+      "id": "cobblemon:water_gem",
+      "required": false
+    },
+    {
+      "id": "cobblemon:electric_gem",
+      "required": false
+    },
+    {
+      "id": "cobblemon:grass_gem",
+      "required": false
+    },
+    {
+      "id": "cobblemon:ice_gem",
+      "required": false
+    },
+    {
+      "id": "cobblemon:fighting_gem",
+      "required": false
+    },
+    {
+      "id": "cobblemon:poison_gem",
+      "required": false
+    },
+    {
+      "id": "cobblemon:ground_gem",
+      "required": false
+    },
+    {
+      "id": "cobblemon:flying_gem",
+      "required": false
+    },
+    {
+      "id": "cobblemon:psychic_gem",
+      "required": false
+    },
+    {
+      "id": "cobblemon:bug_gem",
+      "required": false
+    },
+    {
+      "id": "cobblemon:rock_gem",
+      "required": false
+    },
+    {
+      "id": "cobblemon:ghost_gem",
+      "required": false
+    },
+    {
+      "id": "cobblemon:dragon_gem",
+      "required": false
+    },
+	  {
+      "id": "cobblemon:dark_gem",
+      "required": false
+    },
+	  {
+      "id": "cobblemon:steel_gem",
+      "required": false
+    },
+	  {
+      "id": "cobblemon:normal_gem",
+      "required": false
+    },
+	  {
+      "id": "cobblemon:fairy_gem",
+      "required": false
+    },
+	  {
+      "id": "minecraft:slime_block",
+      "required": false
+    },
+	  {
+      "id": "minecraft:golden_helmet",
+      "required": false
+    },
+	  {
+      "id": "cobblemon:fire_stone",
+      "required": false
+    },
+	  {
+      "id": "cobblemon:water_stone",
+      "required": false
+    },
+	  {
+      "id": "cobblemon:thunder_stone",
+      "required": false
+    },
+	  {
+      "id": "cobblemon:leaf_stone",
+      "required": false
+    },
+	  {
+      "id": "cobblemon:moon_stone",
+      "required": false
+    },
+	  {
+      "id": "cobblemon:sun_stone",
+      "required": false
+    },
+	  {
+      "id": "cobblemon:shiny_stone",
+      "required": false
+    },
+	  {
+      "id": "cobblemon:dusk_stone",
+      "required": false
+    },
+	  {
+      "id": "cobblemon:dawn_stone",
+      "required": false
+    },
+	  {
+      "id": "cobblemon:ice_stone",
+      "required": false
+    },
+	  {
+      "id": "minecraft:diamond_sword",
+      "required": false
+    },
+	  {
+      "id": "minecraft:totem_of_undying",
+      "required": false
+    },
+	  {
+      "id": "minecraft:iron_sword",
+      "required": false
+    },
+	  {
+      "id": "minecraft:shield",
+      "required": false
+    },
+    {
+      "id": "minecraft:dragon_breath",
+      "required": true
+    },
+    {
+      "id": "minecraft:honeycomb",
+      "required": false
+    },
+    {
+      "id": "minecraft:purple_dye",
+      "required": false
+    }
+  ]
+}

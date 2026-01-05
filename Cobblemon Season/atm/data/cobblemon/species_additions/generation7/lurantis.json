@@ -1,0 +1,17 @@
+{
+ "target": "cobblemon:lurantis",
+ "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "depth": "normal",
+            "light": "0-4"
+        }
+	},
+	"baseScale": 0.85,
+	"hitbox": {
+		"width": 1,
+		"height": 1.7,
+		"fixed": false
+   }
+
+}

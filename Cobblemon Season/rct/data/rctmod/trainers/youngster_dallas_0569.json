@@ -1,0 +1,20 @@
+{
+  "name": "Youngster Dallas",
+  "team": [
+    {
+      "species": "kricketune",
+      "gender": "FEMALE",
+      "level": 76,
+      "nature": "jolly",
+      "ability": "swarm",
+      "moveset": [
+        "furycutter",
+        "focusenergy",
+        "slash",
+        "xscissor"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+	"name": "palkia",
+	"enabled": true,
+	"offsets": {
+		"DEFAULT": {
+			"x": 0.0,
+			"y": -0.25,
+			"z": 1.0
+		}
+	},
+	"baseSpeedModifier": 1.0,
+	"landSpeedModifier": 0.5,
+	"waterSpeedModifier": 1.0,
+	"airSpeedModifier":1.0,
+	"forms": [
+		{
+			"name": "Origin",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -2.55,
+					"z": -1.4
+				}
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 0.6,
+			"waterSpeedModifier": 1.0,
+			"airSpeedModifier":1.0
+		}
+	]
+}

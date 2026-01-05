@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:barrel"
+  },
+  "base": {
+    "item": "cobblemon:fighting_gem"
+  },
+  "addition": {
+    "item": "minecraft:blue_dye"
+  },
+  "result": {
+    "id": "minecraft:white_dye",
+    "components": {
+      "minecraft:custom_model_data": 260608,
+      "minecraft:item_name": "{\"extra\":[{\"color\":\"light_purple\",\"italic\":false,\"text\": \"Costume Box (Lucario)\"}],\"italic\":false,\"text\":\"\"}",
+      "minecraft:lore": [
+        "{\"text\":\"Form Changes\", \"color\":\"blue\", \"italic\":false}",
+        "{\"color\":\"gray\",\"text\":\"A Box full of Lucarios favorite costumes\"}"
+      ]
+    }
+  }
+}

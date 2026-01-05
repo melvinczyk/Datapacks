@@ -1,0 +1,14 @@
+{
+  "name": "Skuntank",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": 0.0,
+      "z": -0.25
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.3,
+  "waterSpeedModifier": 0.35
+}

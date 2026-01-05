@@ -1,0 +1,16 @@
+{
+  "name": "Regidrago",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0.0,
+      "y": -0.65,
+      "z": 0.0
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 0.5,
+  "forms": []
+}

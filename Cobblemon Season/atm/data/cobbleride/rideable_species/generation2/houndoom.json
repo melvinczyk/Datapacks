@@ -1,0 +1,30 @@
+{
+  "name": "Houndoom",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.1,
+      "z": -0.25
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 0.2,
+  "forms": [
+		{
+			"name": "Mega",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -0.1,
+					"z": -0.25
+				}
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 0.6,
+			"waterSpeedModifier": 0.3
+		}
+	]
+}

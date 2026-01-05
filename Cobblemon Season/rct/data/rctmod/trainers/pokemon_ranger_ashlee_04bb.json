@@ -1,0 +1,35 @@
+{
+  "name": "Pok\u00e9mon Ranger Ashlee",
+  "team": [
+    {
+      "species": "zigzagoon",
+      "gender": "FEMALE",
+      "level": 95,
+      "nature": "jolly",
+      "ability": "pickup",
+      "moveset": [
+        "flail",
+        "rest",
+        "bellydrum",
+        "headbutt"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "skarmory",
+      "gender": "FEMALE",
+      "level": 101,
+      "nature": "impish",
+      "ability": "keeneye",
+      "moveset": [
+        "steelwing",
+        "bravebird",
+        "slash",
+        "irondefense"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

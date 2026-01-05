@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sandyshocks-1",
+            "pokemon": "sandyshocks",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "43-68",
+            "weight": 3.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ]
+            }
+        }
+    ]
+}

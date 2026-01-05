@@ -1,0 +1,10 @@
+{
+  "implemented": true,
+  "baseScale": 0.8,
+  "target": "cobblemon:baxcalibur",
+  "hitbox": {
+    "width": 1.6,
+    "height": 3.4,
+    "fixed": false
+  }
+}

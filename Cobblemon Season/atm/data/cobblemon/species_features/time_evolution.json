@@ -1,0 +1,12 @@
+{
+  "type": "choice",
+  "keys": ["time_evolution"],
+  "default": "random",
+  "choices": [
+    "midday",
+    "dusk",
+    "midnight"
+  ],
+  "isAspect": true,
+  "aspectFormat": "time-evolution-{{choice}}"
+}

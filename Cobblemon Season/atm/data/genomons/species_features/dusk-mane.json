@@ -1,0 +1,10 @@
+{
+    "keys": [ "dusk-mane" ],
+    "type": "flag",
+    "default": false,
+    "choices": [
+        "dusk-mane"
+      ],
+      "isAspect": true,
+      "aspectFormat": "dusk-mane-pattern-{{dusk-mane}}"
+  }

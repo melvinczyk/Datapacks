@@ -1,0 +1,10 @@
+{
+    "keys": [ "complete" ],
+    "type": "flag",
+    "default": false,
+    "choices": [
+        "complete"
+      ],
+      "isAspect": true,
+      "aspectFormat": "complete-pattern-{{complete}}"
+  }

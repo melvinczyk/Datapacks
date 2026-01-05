@@ -1,0 +1,35 @@
+{
+  "name": "Swimmer Wesley",
+  "team": [
+    {
+      "species": "floatzel",
+      "gender": "FEMALE",
+      "level": 103,
+      "nature": "jolly",
+      "ability": "swiftswim",
+      "moveset": [
+        "icefang",
+        "crunch",
+        "aquajet",
+        "waterfall"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "tentacruel",
+      "gender": "MALE",
+      "level": 103,
+      "nature": "timid",
+      "ability": "liquidooze",
+      "moveset": [
+        "acidarmor",
+        "poisonjab",
+        "sludgewave",
+        "hydropump"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

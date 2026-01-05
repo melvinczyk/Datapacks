@@ -1,0 +1,16 @@
+{
+  "name": "Regirock",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.7,
+      "z": -0.55
+    }
+  },
+  "baseSpeedModifier": 0.75,
+  "landSpeedModifier": 0.75,
+  "waterSpeedModifier": 0.45,
+  "airSpeedModifier": 0.75,
+  "forms": []
+}

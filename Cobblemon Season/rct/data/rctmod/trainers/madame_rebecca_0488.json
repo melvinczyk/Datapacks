@@ -1,0 +1,35 @@
+{
+  "name": "Madame Rebecca",
+  "team": [
+    {
+      "species": "lopunny",
+      "gender": "FEMALE",
+      "level": 67,
+      "nature": "careful",
+      "ability": "cutecharm",
+      "moveset": [
+        "mirrorcoat",
+        "magiccoat",
+        "babydolleyes",
+        "quickattack"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "glameow",
+      "gender": "FEMALE",
+      "level": 65,
+      "nature": "impish",
+      "ability": "limber",
+      "moveset": [
+        "fakeout",
+        "growl",
+        "aerialace",
+        "furyswipes"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

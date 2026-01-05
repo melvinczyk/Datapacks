@@ -1,0 +1,86 @@
+{
+  "target": "cobblemon:furfrou",
+  "evolutions": [
+    {
+      "id": "furfrou_yellow_furfrou",
+      "variant": "item_interact",
+      "result": "yellow_furfrou",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:yellow_dye"
+    },
+	{
+      "id": "furfrou_purple_furfrou",
+      "variant": "item_interact",
+      "result": "purple_furfrou",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:purple_dye"
+    },
+	{
+      "id": "furfrou_pink_furfrou",
+      "variant": "item_interact",
+      "result": "pink_furfrou",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:pink_dye"
+    },
+	{
+      "id": "furfrou_orange_furfrou",
+      "variant": "item_interact",
+      "result": "orange_furfrou",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:orange_dye"
+    },
+	{
+      "id": "furfrou_limegreen_furfrou",
+      "variant": "item_interact",
+      "result": "limegreen_furfrou",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:lime_dye"
+    },
+	{
+      "id": "furfrou_lightblue_furfrou",
+      "variant": "item_interact",
+      "result": "lightblue_furfrou",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:light_blue_dye"
+    },
+		{
+      "id": "furfrou_blue_furfrou",
+      "variant": "item_interact",
+      "result": "blue_furfrou",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:blue_dye"
+    },
+		{
+      "id": "furfrou_red_furfrou",
+      "variant": "item_interact",
+      "result": "red_furfrou",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:red_dye"
+    },
+	{
+      "id": "furfrou_cyan_furfrou",
+      "variant": "item_interact",
+      "result": "cyan_furfrou",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:cyan_dye"
+    }
+  ]
+}

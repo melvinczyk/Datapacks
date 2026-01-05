@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "cobblemon:steel_gem"
+  },
+  "addition": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "result": {
+    "id": "minecraft:purple_dye",
+    "components": {
+      "minecraft:custom_model_data": 260614,
+      "minecraft:item_name": "{\"extra\":[{\"color\":\"light_purple\",\"italic\":false,\"text\": \"Binding Armor\"}],\"italic\":false,\"text\":\"\"}",
+      "minecraft:lore": [
+        "{\"text\":\"Form Changes\", \"color\":\"blue\", \"italic\":false}",
+        "{\"color\":\"gray\",\"text\":\"Focuses and restrains Mewtwo's Powers\"}"
+      ]
+    }
+  }
+}

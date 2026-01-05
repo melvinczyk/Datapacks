@@ -1,0 +1,29 @@
+{
+  "name": "Lycanroc",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.2,
+      "z": -0.3
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.4,
+  "waterSpeedModifier": 1.0,
+  "forms": [
+	{
+	  "name": "Midnight",
+	  "enabled": true,
+	  "offsets": {
+	    "DEFAULT": {
+		  "x": 0.0,
+	  	  "y": 0.15,
+		  "z": -0.35
+	    }
+	  },
+	  "baseSpeedModifier": 0.8,
+	  "landSpeedModifier": 0.5,
+	  "waterSpeedModifier": 1.0
+	}
+  ]
+}

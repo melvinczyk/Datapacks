@@ -1,0 +1,35 @@
+{
+  "name": "Camper Diego",
+  "team": [
+    {
+      "species": "cascoon",
+      "gender": "MALE",
+      "level": 58,
+      "nature": "naive",
+      "ability": "shedskin",
+      "moveset": [
+        "tackle",
+        "stringshot",
+        "poisonsting",
+        "harden"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "dustox",
+      "gender": "MALE",
+      "level": 62,
+      "nature": "hasty",
+      "ability": "shielddust",
+      "moveset": [
+        "gust",
+        "confusion",
+        "poisonpowder",
+        "moonlight"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

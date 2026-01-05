@@ -1,0 +1,36 @@
+{
+  "name": "Twins Emma & Lil",
+  "battleFormat": "GEN_9_DOUBLES",
+  "team": [
+    {
+      "species": "bonsly",
+      "gender": "MALE",
+      "level": 64,
+      "nature": "jolly",
+      "ability": "rockhead",
+      "moveset": [
+        "faketears",
+        "copycat",
+        "flail",
+        "rockthrow"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "mimejr",
+      "gender": "MALE",
+      "level": 64,
+      "nature": "timid",
+      "ability": "filter",
+      "moveset": [
+        "pound",
+        "copycat",
+        "encore",
+        "confusion"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

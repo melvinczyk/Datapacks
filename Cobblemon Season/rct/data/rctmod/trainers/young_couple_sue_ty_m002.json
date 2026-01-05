@@ -1,0 +1,36 @@
+{
+  "name": "Young Couple Sue & Ty",
+  "battleFormat": "GEN_9_DOUBLES",
+  "team": [
+    {
+      "species": "meditite",
+      "gender": "FEMALE",
+      "level": 64,
+      "nature": "bashful",
+      "ability": "purepower",
+      "moveset": [
+        "lowkick",
+        "detect",
+        "forcepalm",
+        "psybeam"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "machop",
+      "gender": "MALE",
+      "level": 64,
+      "nature": "impish",
+      "ability": "noguard",
+      "moveset": [
+        "leer",
+        "focusenergy",
+        "lowsweep",
+        "knockoff"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

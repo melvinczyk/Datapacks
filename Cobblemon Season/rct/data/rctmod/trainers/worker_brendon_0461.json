@@ -1,0 +1,35 @@
+{
+  "name": "Worker Brendon",
+  "team": [
+    {
+      "species": "onix",
+      "gender": "MALE",
+      "level": 74,
+      "nature": "relaxed",
+      "ability": "rockhead",
+      "moveset": [
+        "curse",
+        "rockslide",
+        "screech",
+        "sandtomb"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "steelix",
+      "gender": "FEMALE",
+      "level": 78,
+      "nature": "relaxed",
+      "ability": "rockhead",
+      "moveset": [
+        "crunch",
+        "thunderfang",
+        "icefang",
+        "rockslide"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

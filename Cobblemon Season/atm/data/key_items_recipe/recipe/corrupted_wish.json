@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemon:poison_gem"
+  },
+  "base": {
+    "item": "mega_showdown:redorb"
+  },
+  "addition": {
+    "item": "cobblemon:poison_gem"
+  },
+  "result": {
+    "id": "minecraft:purple_dye",
+    "components": {
+      "minecraft:custom_model_data": 260620,
+      "minecraft:item_name": "{\"extra\":[{\"color\":\"light_purple\",\"italic\":false,\"text\": \"Corrupted Wish\"}],\"italic\":false,\"text\":\"\"}",
+      "minecraft:lore": [
+        "{\"text\":\"Form Changes\", \"color\":\"blue\", \"italic\":false}",
+        "{\"color\":\"gray\",\"text\":\"A wish tag granted by Jirachi, tainted by the evil\"}",
+        "{\"color\":\"gray\",\"text\":\"intentions of a blind human who sought to summon Groudon,\"}",
+        "{\"color\":\"gray\",\"text\":\"twisted the mighty creature into a being of pure darkness\"}"
+      ]
+    }
+  }
+}

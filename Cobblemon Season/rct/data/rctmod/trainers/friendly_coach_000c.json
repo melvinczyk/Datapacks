@@ -1,0 +1,128 @@
+{
+  "name": "Friendly Coach (Spa)",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "moveBias": 1,
+      "statusMoveBias": 1,
+      "switchBias": 0,
+      "itemBias": 0
+    }
+  },
+  "team": [
+    {
+      "species": "beautifly",
+      "gender": "MALE",
+      "level": 46,
+      "nature": "relaxed",
+      "ability": "swarm",
+      "moveset": [
+        "memento"
+      ],
+      "ivs": {
+        "hp": 10,
+        "atk": 10,
+        "def": 10,
+        "spa": 10,
+        "spd": 10,
+        "spe": 10
+      },
+      "evs": {}
+    },
+    {
+      "species": "beautifly",
+      "gender": "MALE",
+      "level": 46,
+      "nature": "naive",
+      "ability": "swarm",
+      "moveset": [
+        "memento"
+      ],
+      "ivs": {
+        "hp": 10,
+        "atk": 10,
+        "def": 10,
+        "spa": 10,
+        "spd": 10,
+        "spe": 10
+      },
+      "evs": {}
+    },
+    {
+      "species": "beautifly",
+      "gender": "FEMALE",
+      "level": 46,
+      "nature": "serious",
+      "ability": "swarm",
+      "moveset": [
+        "memento"
+      ],
+      "ivs": {
+        "hp": 10,
+        "atk": 10,
+        "def": 10,
+        "spa": 10,
+        "spd": 10,
+        "spe": 10
+      },
+      "evs": {}
+    },
+    {
+      "species": "beautifly",
+      "gender": "MALE",
+      "level": 46,
+      "nature": "adamant",
+      "ability": "swarm",
+      "moveset": [
+        "memento"
+      ],
+      "ivs": {
+        "hp": 10,
+        "atk": 10,
+        "def": 10,
+        "spa": 10,
+        "spd": 10,
+        "spe": 10
+      },
+      "evs": {}
+    },
+    {
+      "species": "beautifly",
+      "gender": "MALE",
+      "level": 46,
+      "nature": "timid",
+      "ability": "swarm",
+      "moveset": [
+        "memento"
+      ],
+      "ivs": {
+        "hp": 10,
+        "atk": 10,
+        "def": 10,
+        "spa": 10,
+        "spd": 10,
+        "spe": 10
+      },
+      "evs": {}
+    },
+    {
+      "species": "beautifly",
+      "gender": "FEMALE",
+      "level": 46,
+      "nature": "impish",
+      "ability": "swarm",
+      "moveset": [
+        "memento"
+      ],
+      "ivs": {
+        "hp": 10,
+        "atk": 10,
+        "def": 10,
+        "spa": 10,
+        "spd": 10,
+        "spe": 10
+      },
+      "evs": {}
+    }
+  ]
+}

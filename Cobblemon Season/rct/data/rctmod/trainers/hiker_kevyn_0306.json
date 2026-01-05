@@ -1,0 +1,65 @@
+{
+  "name": "Hiker Kevyn",
+  "team": [
+    {
+      "species": "geodude",
+      "gender": "MALE",
+      "level": 60,
+      "nature": "relaxed",
+      "ability": "rockhead",
+      "moveset": [
+        "tackle",
+        "defensecurl",
+        "rockpolish",
+        "rollout"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "geodude",
+      "gender": "FEMALE",
+      "level": 61,
+      "nature": "relaxed",
+      "ability": "rockhead",
+      "moveset": [
+        "tackle",
+        "rockpolish",
+        "harden",
+        "rockthrow"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "zubat",
+      "gender": "FEMALE",
+      "level": 62,
+      "nature": "sassy",
+      "ability": "innerfocus",
+      "moveset": [
+        "absorb",
+        "supersonic",
+        "astonish",
+        "poisonfang"
+      ],
+      "ivs": {},
+      "evs": {}
+    },
+    {
+      "species": "geodude",
+      "gender": "FEMALE",
+      "level": 61,
+      "nature": "relaxed",
+      "ability": "rockhead",
+      "moveset": [
+        "tackle",
+        "rockpolish",
+        "harden",
+        "rockthrow"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

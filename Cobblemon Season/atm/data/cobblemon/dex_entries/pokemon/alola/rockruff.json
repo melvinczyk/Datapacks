@@ -1,0 +1,16 @@
+{
+  "id": "cobblemon:rockruff",
+  "speciesId": "cobblemon:rockruff",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal",
+        "Own Tempo"
+      ]
+    }
+  ],
+  "variations": []
+}

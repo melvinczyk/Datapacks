@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemon:poison_gem"
+  },
+  "base": {
+    "item": "mega_showdown:slowbronite"
+  },
+  "addition": {
+    "item": "cobblemon:poison_gem"
+  },
+  "result": {
+    "id": "minecraft:red_dye",
+    "components": {
+      "minecraft:custom_model_data": 260621,
+      "minecraft:item_name": "{\"extra\":[{\"color\":\"light_purple\",\"italic\":false,\"text\": \"Slowbrogonite\"}],\"italic\":false,\"text\":\"\"}",
+      "minecraft:lore": [
+        "{\"text\":\"Form Changes\", \"color\":\"blue\", \"italic\":false}",
+        "{\"color\":\"gray\",\"text\":\"Allows Galarian Slowbro to Mega\"}",
+		"{\"color\":\"gray\",\"text\":\"Evolve into Galarian Mega Slowbro\"}"
+      ]
+    }
+  }
+}

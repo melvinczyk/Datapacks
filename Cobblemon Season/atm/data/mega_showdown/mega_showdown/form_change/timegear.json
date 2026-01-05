@@ -1,0 +1,23 @@
+{
+  "msd_id": "timegear",
+  "showdown_id": "timegear",
+  "item_id": "minecraft:red_dye",
+  "battle_mode_only": false,
+  "tradable_form": true,
+  "item_name": "<aqua>Time Gear",
+  "item_description": ["Reversion! easteregg lol"],
+  "custom_model_data": 260618,
+  "effects": {
+    "particle_apply": "minecraft:campfire_cosy_smoke",
+    "particle_revert": "minecraft:campfire_cosy_smoke",
+    "sound_apply": "minecraft:block.beacon.activate",
+    "sound_revert": "minecraft:block.beacon.deactivate",
+    "particle_apply_amplifier": 1,
+    "particle_revert_amplifier": 1
+  },
+  "required_aspects": [],
+  "pokemons": ["Dialga"],
+  "aspects": ["reversion_state=primal"],
+  "default_aspects": ["reversion_state=standard"],
+  "form_name": "primal"
+}

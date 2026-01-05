@@ -1,0 +1,14 @@
+{
+  "name": "Gothitelle",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.05,
+      "z": -0.35
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.35,
+  "waterSpeedModifier": 0.25
+}

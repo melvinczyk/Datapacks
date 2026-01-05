@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemon:dark_gem"
+  },
+  "base": {
+    "item": "mega_showdown:mewtwonite_x"
+  },
+  "addition": {
+    "item": "cobblemon:dark_gem"
+  },
+  "result": {
+    "id": "minecraft:red_dye",
+    "components": {
+      "minecraft:custom_model_data": 260615,
+      "minecraft:item_name": "{\"extra\":[{\"color\":\"light_purple\",\"italic\":false,\"text\": \"Shadow Mewtwonite X\"}],\"italic\":false,\"text\":\"\"}",
+      "minecraft:lore": [
+        "{\"text\":\"Form Changes\", \"color\":\"blue\", \"italic\":false}",
+        "{\"color\":\"gray\",\"text\":\"This corrupted Megastone allows Mewtwo\"}",
+		"{\"color\":\"gray\",\"text\":\"to Mega Evolve into Shadow Mega X\"}"
+      ]
+    }
+  }
+}

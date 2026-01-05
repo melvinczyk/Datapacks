@@ -1,0 +1,10 @@
+{
+    "keys": [ "ice" ],
+    "type": "flag",
+    "default": false,
+    "choices": [
+        "ice"
+      ],
+      "isAspect": true,
+      "aspectFormat": "ice-pattern-{{ice}}"
+  }

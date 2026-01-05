@@ -1,0 +1,28 @@
+{
+  "id": "cobblemon:lycanroc",
+  "speciesId": "cobblemon:lycanroc",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal",
+        "Midnight",
+        "Dusk"
+      ]
+    }
+  ],
+  "variations": [
+    {
+      "displayName": "cobblemon.pokedex.variation.lycanrocform",
+      "icon": "cobblemon:textures/gui/pokedex/variation/timeevolution.png",
+      "aspects": [
+        "time-evolution-midday",
+        "time-evolution-midnight",
+        "time-evolution-dusk"
+      ]
+    }
+
+  ]
+}

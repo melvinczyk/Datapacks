@@ -1,0 +1,14 @@
+{
+  "name": "Zarude",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.9,
+      "z": -0.3
+    }
+  },
+  "baseSpeedModifier": 0.65,
+  "landSpeedModifier": 0.65,
+  "waterSpeedModifier": 0.75
+}

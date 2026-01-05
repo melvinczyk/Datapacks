@@ -1,0 +1,16 @@
+{
+  "name": "Regigigas",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 1.1,
+      "y": -0.05,
+      "z": -0.4
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.3,
+  "waterSpeedModifier": 0.2,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

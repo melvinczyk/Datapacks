@@ -1,0 +1,24 @@
+{
+  "name": "ragingbolt",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.6,
+      "z": -0.1
+    },
+    "HOVERING": {
+      "x": 0,
+      "y": 0,
+      "z": 0.0
+    },
+    "FLYING": {
+      "x": 0,
+      "y": 0.0,
+      "z": 0
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.4,
+  "waterSpeedModifier": 1.0
+}

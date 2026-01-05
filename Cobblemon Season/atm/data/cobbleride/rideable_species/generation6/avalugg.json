@@ -1,0 +1,78 @@
+{
+  "name": "Avalugg",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.3,
+      "z": 0.7
+    },
+    "SWIMMING": {
+      "x": 0,
+      "y": -1.4,
+      "z": 0
+    },
+    "DIVING": {
+      "x": 0,
+      "y": -1.4,
+      "z": 0
+    }
+  },
+  "additionalSeats": [
+    {
+      "DEFAULT": {
+        "x": -1,
+        "y": -0.3,
+        "z": -0.3
+      },
+      "SWIMMING": {
+        "x": 0,
+        "y": -1.4,
+        "z": 0
+      },
+      "DIVING": {
+        "x": 0,
+        "y": -1.4,
+        "z": 0
+      }
+    },
+    {
+      "DEFAULT": {
+        "x": 1,
+        "y": -0.3,
+        "z": -0.3
+      },
+      "SWIMMING": {
+        "x": 0,
+        "y": -1.4,
+        "z": 0
+      },
+      "DIVING": {
+        "x": 0,
+        "y": -1.4,
+        "z": 0
+      }
+    },
+    {
+      "DEFAULT": {
+        "x": 0,
+        "y": -0.3,
+        "z": -1.3
+      },
+      "SWIMMING": {
+        "x": 0,
+        "y": -1.4,
+        "z": 0
+      },
+      "DIVING": {
+        "x": 0,
+        "y": -1.4,
+        "z": 0
+      }
+    }
+  ],
+  "baseSpeedModifier": 0.5,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 1.0,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

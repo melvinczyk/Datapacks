@@ -1,0 +1,16 @@
+{
+	"name": "arceus",
+	"enabled": true,
+	"offsets": {
+		"DEFAULT": {
+			"x": 0.0,
+			"y": 0.2,
+			"z": -0.2
+		}
+	},
+	"baseSpeedModifier": 1.0,
+	"landSpeedModifier": 0.6,
+	"waterSpeedModifier": 0.65,
+	"airSpeedModifier":1.0,
+	"forms": []
+}

@@ -1,0 +1,10 @@
+{
+ "target": "cobblemon:wurmple",
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "light": "0-4"
+    }
+  },
+ "baseScale": 0.5
+}

@@ -1,0 +1,80 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "unown-1T",
+            "pokemon": "unown",
+            "presets": [
+                "stronghold"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "14-63",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "unown-2T",
+            "pokemon": "unown",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-60",
+            "weight": 15.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end"
+                ]
+            }
+        },
+        {
+            "id": "unown-3T",
+            "pokemon": "unown character=?",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "60-75",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end"
+                ]
+            }
+        },
+        {
+            "id": "unown-4T",
+            "pokemon": "unown character=!",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "60-75",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end"
+                ]
+            }
+        },
+        {
+            "id": "unown-5T",
+            "pokemon": "unown character=t",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "50-70",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_end"
+                ]
+            }
+        }
+    ]
+}

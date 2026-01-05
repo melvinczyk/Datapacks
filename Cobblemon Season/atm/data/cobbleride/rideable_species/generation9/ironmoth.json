@@ -1,0 +1,26 @@
+{
+  "name": "ironmoth",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": 0.3,
+      "z": -0.5
+    },
+    "HOVERING": {
+      "x": 0,
+      "y": 0,
+      "z": 0.0
+    },
+    "FLYING": {
+      "x": 0,
+      "y": 0.0,
+      "z": 0
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.45,
+  "waterSpeedModifier": 1.0,
+  "airSpeedModifier": 0.7,
+  "forms": []
+}

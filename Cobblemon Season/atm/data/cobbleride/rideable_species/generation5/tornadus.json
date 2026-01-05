@@ -1,0 +1,31 @@
+{
+  "name": "Tornadus",
+  "enabled": true,
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.25,
+      "z": -0.55
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.4,
+  "waterSpeedModifier": 0.2,
+  "airSpeedModifier": 0.8,
+  "forms": [
+		{
+			"name": "Therian",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -0.85,
+					"z": 0.0
+				}
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 0.6,
+			"waterSpeedModifier": 0.2
+		}
+	]
+}

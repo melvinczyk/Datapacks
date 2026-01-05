@@ -1,0 +1,20 @@
+{
+  "name": "Skier Andrea",
+  "team": [
+    {
+      "species": "staravia",
+      "gender": "FEMALE",
+      "level": 83,
+      "nature": "jolly",
+      "ability": "intimidate",
+      "moveset": [
+        "quickattack",
+        "doubleteam",
+        "endeavor",
+        "aerialace"
+      ],
+      "ivs": {},
+      "evs": {}
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "msd_id": "binding_armor",
+  "item_id": "minecraft:purple_dye",
+  "tradable_form": true,
+  "item_name": "§r§Binding Armor",
+  "item_description": [
+    "§9Form Changes",
+    "§r§fFocuses and restrains Mewtwo's Powers"
+  ],
+  "custom_model_data": 260614,
+  "effects": {
+    "particle_apply": "minecraft:campfire_cosy_smoke",
+    "particle_revert": "minecraft:end_rod",
+    "sound_apply": "minecraft:block.beacon.activate",
+    "sound_revert": "minecraft:block.beacon.deactivate",
+    "particle_apply_amplifier": 1.0,
+    "particle_revert_amplifier": 1.5
+  },
+  "required_aspects": [],
+  "pokemons": ["Mewtwo"],
+  "aspects": ["armored=true"],
+  "default_aspects": ["armored=false"],
+  "toggle_aspects": [],
+  "consume": false
+}

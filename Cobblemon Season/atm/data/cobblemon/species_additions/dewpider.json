@@ -1,0 +1,27 @@
+{
+  "target": "cobblemon:dewpider",
+  "hitbox": {
+   "width": 1,
+   "height": 1.5,
+   "fixed": false
+ },
+ "baseScale": 0.8,
+ "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "depth": "normal",
+          "light": "0-4"
+        },
+        "moving": {
+          "canLook": true,
+          "walk": {
+            "walkSpeed": 0.5
+          },
+          "swim": {
+            "swimSpeed": 0.4,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+          }
+        }
+      }
+}

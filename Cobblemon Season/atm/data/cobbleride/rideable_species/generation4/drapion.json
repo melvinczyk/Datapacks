@@ -1,0 +1,15 @@
+{
+	"name": "Drapion",
+	"enabled": true,
+	"offsets": {
+		"DEFAULT": {
+			"x": 0.0,
+			"y": -0.55,
+			"z": -0.15
+		}
+	},
+	"baseSpeedModifier": 1.0,
+	"landSpeedModifier": 0.25,
+	"waterSpeedModifier": 0.5,
+	"airSpeedModifier":1.4
+}

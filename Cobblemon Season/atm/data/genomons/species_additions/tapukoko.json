@@ -1,0 +1,10 @@
+{
+  "implemented": true,
+  "baseScale": 1.5,
+  "target": "cobblemon:tapukoko",
+  "hitbox": {
+    "width": 1.2,
+    "height": 1.9,
+    "fixed": false
+  }
+}
