@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "ocean",
+    "warm_ocean"
+  ],
+  "spawners": {
+    "type": "trueprimepiecetwo:momoo",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,49 @@
+{
+	"replace": false,
+	"values": [
+        {
+            "id": "#forge:is_snowy",
+            "required": false
+        },
+        {
+            "id": "minecraft:snowy_plains",
+            "required": false
+        },
+        {
+            "id": "minecraft:snowy_slopes",
+            "required": false
+        },
+        {
+            "id": "minecraft:snowy_taiga",
+            "required": false
+        },
+        {
+            "id": "minecraft:snowy_beach",
+            "required": false
+        },
+        {
+            "id": "minecraft:frozen_peaks",
+            "required": false
+        },
+        {
+            "id": "minecraft:frozen_river",
+            "required": false
+        },
+        {
+            "id": "minecraft:ice_spikes",
+            "required": false
+        },
+        {
+            "id": "minecraft:jagged_peaks",
+            "required": false
+        },
+        {
+            "id": "#forge:is_snowy",
+            "required": false
+        },
+        {
+            "id": "#byg:is_snowy",
+            "required": false
+        }
+	]
+}

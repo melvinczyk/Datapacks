@@ -1,0 +1,24 @@
+{
+  "values": [
+	{
+      "id": "minecraft:stripped_oak_log",
+      "required": false
+    },
+	{
+      "id": "minecraft:stripped_birch_log",
+      "required": false
+    },
+	{
+      "id": "minecraft:stripped_spruce_log",
+      "required": false
+    },
+	{
+      "id": "upgrade_aquatic:stripped_driftwood_log",
+      "required": false
+    },
+	{
+      "id": "upgrade_aquatic:stripped_river_log",
+      "required": false
+    }
+  ]
+}

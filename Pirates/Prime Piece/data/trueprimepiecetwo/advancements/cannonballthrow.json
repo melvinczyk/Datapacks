@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "trueprimepiecetwo:cannonballthrowicon"
+    },
+    "title": {
+      "translate": "advancements.cannonballthrow.title"
+    },
+    "description": {
+      "translate": "advancements.cannonballthrow.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "cannonballthrow_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "trueprimepiecetwo:strengthlevel_10"
+}

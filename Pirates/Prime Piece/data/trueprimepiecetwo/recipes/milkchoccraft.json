@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "trueprimepiecetwo:donut_1"
+    },
+    "b": {
+      "item": "trueprimepiecetwo:white_chocolate"
+    }
+  },
+  "result": {
+    "item": "trueprimepiecetwo:donut_2",
+    "count": 1
+  }
+}

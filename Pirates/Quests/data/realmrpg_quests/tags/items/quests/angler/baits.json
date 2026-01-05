@@ -1,0 +1,20 @@
+{
+  "values": [
+	{
+      "id": "minecraft:spider_eye",
+      "required": false
+    },
+	{
+      "id": "minecraft:bread",
+      "required": false
+    },
+	{
+      "id": "aquaculture:minnow",
+      "required": false
+    },
+	{
+      "id": "aquaculture:worm",
+      "required": false
+    }
+  ]
+}

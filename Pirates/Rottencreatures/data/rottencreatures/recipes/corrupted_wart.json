@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "rottencreatures:frozen_rotten_flesh"
+    },
+    "W": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "pattern": [
+    " W ",
+    "WFW",
+    " W "
+  ],
+  "result": {
+    "item": "rottencreatures:corrupted_wart"
+  },
+  "show_notification": true
+}

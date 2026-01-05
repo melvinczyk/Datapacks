@@ -1,0 +1,44 @@
+{
+  "values": [
+	{
+      "id": "minecraft:oak_boat",
+      "required": false
+    },
+	{
+      "id": "minecraft:oak_chest_boat",
+      "required": false
+    },
+	{
+      "id": "minecraft:spruce_boat",
+      "required": false
+    },
+	{
+      "id": "minecraft:spruce_chest_boat",
+      "required": false
+    },
+	{
+      "id": "minecraft:birch_boat",
+      "required": false
+    },
+	{
+      "id": "minecraft:birch_chest_boat",
+      "required": false
+    },
+	{
+      "id": "upgrade_aquatic:driftwood_boat",
+      "required": false
+    },
+	{
+      "id": "upgrade_aquatic:driftwood_chest_boat",
+      "required": false
+    },
+	{
+      "id": "upgrade_aquatic:river_boat",
+      "required": false
+    },
+	{
+      "id": "upgrade_aquatic:river_chest_boat",
+      "required": false
+    }
+  ]
+}

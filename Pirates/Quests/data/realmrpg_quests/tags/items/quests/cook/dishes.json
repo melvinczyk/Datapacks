@@ -1,0 +1,12 @@
+{
+  "values": [
+	{
+      "id": "minecraft:bowl",
+      "required": false
+    },
+	{
+      "id": "minecraft:glass_bottle",
+      "required": false
+    }
+  ]
+}

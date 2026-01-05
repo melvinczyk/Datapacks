@@ -1,0 +1,20 @@
+{
+  "values": [
+	{
+      "id": "minecraft:cake",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:apple_pie",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:sweet_berry_cheesecake",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:chocolate_pie",
+      "required": false
+    }
+  ]
+}

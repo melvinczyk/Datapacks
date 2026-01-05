@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 2
+							}
+						}
+					],
+					"name": "oceanicrealms:raw_tuna"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "oceanicrealms:entities/tuna"
+}

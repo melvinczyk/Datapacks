@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_soul_fire_base_block1": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:soul_fire_base_blocks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_soul_fire_base_block1"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "treasures_of_the_dead:small_iron_soul_brazier",
+      "treasures_of_the_dead:small_golden_soul_brazier"
+    ]
+  }
+}

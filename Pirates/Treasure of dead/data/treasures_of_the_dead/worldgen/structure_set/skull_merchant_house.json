@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "treasures_of_the_dead:skull_merchant_house",
+      "weight": 10
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 78753459881222,
+    "spacing": 16,
+    "separation": 8
+
+  }
+}

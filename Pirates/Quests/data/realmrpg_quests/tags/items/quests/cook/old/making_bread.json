@@ -1,0 +1,12 @@
+{
+  "values": [
+	{
+      "id": "minecraft:bread",
+      "required": false
+    },
+	{
+      "id": "autumnity:pumpkin_bread",
+      "required": false
+    }
+  ]
+}

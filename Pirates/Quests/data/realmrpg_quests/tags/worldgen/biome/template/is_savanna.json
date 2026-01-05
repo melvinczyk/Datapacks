@@ -1,0 +1,29 @@
+{
+	"replace": false,
+	"values": [
+        {
+            "id": "#minecraft:is_savanna",
+            "required": false
+        },
+        {
+            "id": "minecraft:savanna",
+            "required": false
+        },
+        {
+            "id": "minecraft:savanna_plateau",
+            "required": false
+        },
+        {
+            "id": "minecraft:windswept_savanna",
+            "required": false
+        },
+        {
+            "id": "#forge:is_savanna",
+            "required": false
+        },
+        {
+            "id": "#byg:is_savanna",
+            "required": false
+        }
+	]
+}

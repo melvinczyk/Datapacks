@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:barrier"
+    },
+    "title": {
+      "translate": "advancements.refuse_quest.title"
+    },
+    "description": {
+      "translate": "advancements.refuse_quest.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "refuse_quest_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "realmrpg_quests:root"
+}

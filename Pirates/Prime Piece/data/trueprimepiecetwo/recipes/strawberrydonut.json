@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "trueprimepiecetwo:strawberry"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "trueprimepiecetwo:strawberry"
+    }
+  ],
+  "result": {
+    "item": "trueprimepiecetwo:donut_3",
+    "count": 1
+  }
+}

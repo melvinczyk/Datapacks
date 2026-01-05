@@ -1,0 +1,20 @@
+{
+  "values": [
+	{
+      "id": "minecraft:egg",
+      "required": false
+    },
+	{
+      "id": "minecraft:brick",
+      "required": false
+    },
+	{
+      "id": "minecraft:glass_bottle",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:rotten_tomato",
+      "required": false
+    }
+  ]
+}

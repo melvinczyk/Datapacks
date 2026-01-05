@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "trueprimepiecetwo:dumb_fish",
+    "weight": 3,
+    "minCount": 9,
+    "maxCount": 14
+  }
+}

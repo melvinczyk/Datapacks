@@ -1,0 +1,21 @@
+{
+  "values": [
+	{
+      "id": "minecraft:copper_ingot",
+      "required": false
+    },
+	{
+      "id": "minecraft:raw_copper",
+      "required": false
+    },
+	{
+      "id": "minecraft:zinc_ingot",
+      "required": false
+    },
+	{
+      "id": "minecraft:raw_zinc",
+      "required": false
+    }
+
+  ]
+}

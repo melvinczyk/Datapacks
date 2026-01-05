@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "trueprimepiecetwo:blocks/buddha_buddha",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:buddha_buddha"
+        }
+      ]
+    }
+  ]
+}

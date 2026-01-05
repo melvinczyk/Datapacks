@@ -1,0 +1,36 @@
+{
+  "values": [
+	{
+      "id": "minecraft:bread",
+      "required": false
+    },
+	{
+      "id": "minecraft:mushroom_stew",
+      "required": false
+    },
+	{
+      "id": "minecraft:suspicious_stew",
+      "required": false
+    },
+	{
+      "id": "minecraft:beetroot_soup",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:mixed_salad",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:barbecue_stick",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:stuffed_potato",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:egg_sandwich",
+      "required": false
+    }
+  ]
+}

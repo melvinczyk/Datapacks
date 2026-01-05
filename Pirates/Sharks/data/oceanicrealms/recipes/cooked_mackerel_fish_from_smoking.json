@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smoking",
+	"ingredient": {
+		"item": "oceanicrealms:mackerel_fish"
+	},
+	"result": "oceanicrealms:cooked_mackerel_fish",
+	"experience": 0.35,
+	"cookingtime": 100
+}

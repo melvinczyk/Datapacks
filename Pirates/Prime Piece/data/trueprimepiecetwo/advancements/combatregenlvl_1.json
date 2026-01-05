@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "trueprimepiecetwo:combatregenicon"
+    },
+    "title": {
+      "translate": "advancements.combatregenlvl_1.title"
+    },
+    "description": {
+      "translate": "advancements.combatregenlvl_1.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "combatregenlvl_1_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "trueprimepiecetwo:healthlvl_10"
+}

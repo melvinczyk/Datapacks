@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"oceanicrealms:raw_tuna",
+		"oceanicrealms:raw_dolphinfish",
+		"oceanicrealms:fish_fillet",
+		"oceanicrealms:mackerel_fish",
+		"oceanicrealms:cooked_mackerel_fish",
+		"oceanicrealms:silver_pomfret_fish",
+		"oceanicrealms:cooked_silver_pomfret_fish"
+	]
+}

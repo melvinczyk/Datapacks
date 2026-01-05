@@ -1,0 +1,16 @@
+{
+  "values": [
+	{
+      "id": "minecraft:iron_axe",
+      "required": false
+    },
+	{
+      "id": "minecraft:iron_sword",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:iron_knife",
+      "required": false
+    }
+  ]
+}

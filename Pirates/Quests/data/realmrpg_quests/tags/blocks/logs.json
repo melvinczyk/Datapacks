@@ -1,0 +1,24 @@
+{
+  "values": [
+	{
+      "id": "minecraft:oak_log",
+      "required": false
+    },
+	{
+      "id": "minecraft:birch_log",
+      "required": false
+    },
+	{
+      "id": "minecraft:oak_log",
+      "required": false
+    },
+	{
+      "id": "minecraft:oak_log",
+      "required": false
+    },
+	{
+      "id": "minecraft:oak_log",
+      "required": false
+    }
+  ]
+}

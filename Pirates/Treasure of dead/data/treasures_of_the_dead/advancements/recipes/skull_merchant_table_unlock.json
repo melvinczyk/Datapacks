@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_trophy_skulls": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "treasures_of_the_dead:trophy_skulls"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_trophy_skulls"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "treasures_of_the_dead:skull_merchant_table"
+    ]
+  }
+}

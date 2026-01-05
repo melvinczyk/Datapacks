@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bread"
+    },
+    "b": {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "result": {
+    "item": "trueprimepiecetwo:honeybread",
+    "count": 1
+  }
+}

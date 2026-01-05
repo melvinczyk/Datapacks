@@ -1,0 +1,6 @@
+{
+	"type": "forge:add_features",
+	"biomes": "#oceanicrealms:warm_oceans",
+	"features": "oceanicrealms:giant_kelp",
+	"step": "top_layer_modification"
+}

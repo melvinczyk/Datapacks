@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:snow_block"
+    },
+    "b": {
+      "item": "realmrpg_quests:ring_of_ice_lesser"
+    }
+  },
+  "result": {
+    "item": "realmrpg_quests:ring_of_ice",
+    "count": 1
+  }
+}

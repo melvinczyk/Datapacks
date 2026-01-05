@@ -1,0 +1,51 @@
+{
+  "waves_cooldown": 100,
+  "waves": {
+    "min": 6,
+    "max": 7
+  },
+  "entities_count": {
+    "min": 14,
+    "max": 16
+  },
+  "boss_count": {
+    "min": 3,
+    "max": 3
+  },
+  "entities": [
+    {
+    "type": "treasures_of_the_dead:totd_skeleton",
+    "weight": 15
+    },
+    {
+    "type": "treasures_of_the_dead:blooming_skeleton",
+    "weight": 15
+    },
+    {
+    "type": "treasures_of_the_dead:shadow_skeleton",
+    "weight": 35
+    },
+    {
+    "type": "treasures_of_the_dead:golden_skeleton",
+    "weight": 35
+    }
+  ],
+  "boss_entities": [
+    {
+      "type": "treasures_of_the_dead:captain_skeleton",
+      "weight": 60
+    },
+    {
+      "type": "treasures_of_the_dead:captain_blooming_skeleton",
+      "weight": 40
+    },
+    {
+      "type": "treasures_of_the_dead:captain_shadow_skeleton",
+      "weight": 0
+    },
+    {
+      "type": "treasures_of_the_dead:captain_golden_skeleton",
+      "weight": 0
+    }
+  ]
+}

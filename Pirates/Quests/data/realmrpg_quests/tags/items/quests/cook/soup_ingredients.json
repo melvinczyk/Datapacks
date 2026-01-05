@@ -1,0 +1,12 @@
+{
+  "values": [
+	{
+      "id": "minecraft:potato",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:onion",
+      "required": false
+    }
+  ]
+}

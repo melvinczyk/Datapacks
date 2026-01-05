@@ -1,0 +1,12 @@
+{
+  "values": [
+	{
+      "id": "minecraft:nautilus_shell",
+      "required": false
+    },
+	{
+      "id": "upgrade_aquatic:thrasher_tooth",
+      "required": false
+    }
+  ]
+}

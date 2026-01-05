@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "@": {
+      "tag": "treasures_of_the_dead:trophy_skulls"
+    }
+  },
+  "result": {
+    "item": "treasures_of_the_dead:skull_merchant_table",
+    "count": 1
+  }
+}

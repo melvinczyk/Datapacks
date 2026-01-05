@@ -1,0 +1,44 @@
+{
+  "values": [
+	{
+      "id": "minecraft:cake",
+      "required": false
+    },
+	{
+      "id": "minecraft:rabbit_stew",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:shepherds_pie_block",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:apple_pie",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:sweet_berry_cheesecake",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:chocolate_pie",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:melon_popsicle",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:roasted_mutton_chops",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:steak_and_potatoes",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:grilled_salmon",
+      "required": false
+    }
+  ]
+}

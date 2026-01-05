@@ -1,0 +1,36 @@
+{
+  "values": [
+	{
+      "id": "minecraft:beetroot_soup",
+      "required": false
+    },
+	{
+      "id": "minecraft:pumpkin_pie",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:bacon_sandwich",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:mutton_wrap",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:hamburger",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:kelp_roll",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:bacon_and_eggs",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:fruit_salad",
+      "required": false
+    }
+  ]
+}

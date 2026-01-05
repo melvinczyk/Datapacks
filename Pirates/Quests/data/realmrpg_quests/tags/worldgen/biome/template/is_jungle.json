@@ -1,0 +1,29 @@
+{
+	"replace": false,
+	"values": [
+        {
+            "id": "#minecraft:is_jungle",
+            "required": false
+        },
+        {
+            "id": "minecraft:jungle",
+            "required": false
+        },
+        {
+            "id": "minecraft:sparse_jungle",
+            "required": false
+        },
+        {
+            "id": "minecraft:bamboo_jungle",
+            "required": false
+        },
+        {
+            "id": "#forge:is_jungle",
+            "required": false
+        },
+        {
+            "id": "#byg:is_jungle",
+            "required": false
+        }
+	]
+}

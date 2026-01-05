@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "trueprimepiecetwo:agilityicon"
+    },
+    "title": {
+      "translate": "advancements.agilitylevel_9.title"
+    },
+    "description": {
+      "translate": "advancements.agilitylevel_9.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "agilitylevel_9_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "trueprimepiecetwo:agilitylevel_8"
+}

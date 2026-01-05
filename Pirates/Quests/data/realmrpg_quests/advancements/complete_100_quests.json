@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "advancements.complete_100_quests.title"
+    },
+    "description": {
+      "translate": "advancements.complete_100_quests.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "complete_100_quests_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "realmrpg_quests:complete_10_quests"
+}

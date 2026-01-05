@@ -1,0 +1,24 @@
+{
+  "values": [
+	{
+      "id": "minecraft:cod",
+      "required": false
+    },
+	{
+      "id": "minecraft:salmon",
+      "required": false
+    },
+	{
+      "id": "minecraft:tropical_fish",
+      "required": false
+    },
+	{
+      "id": "upgrade_aquatic:pike",
+      "required": false
+    },
+	{
+      "id": "upgrade_aquatic:perch",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "trueprimepiecetwo:darkrootplant",
+  "step": "vegetal_decoration"
+}

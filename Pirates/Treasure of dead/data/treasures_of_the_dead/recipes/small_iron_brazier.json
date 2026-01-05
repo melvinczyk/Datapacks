@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "1 1",
+    "131",
+    "212"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:iron_nugget"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "tag": "minecraft:coals"
+    }
+  },
+  "result": {
+    "item": "treasures_of_the_dead:small_iron_brazier",
+    "count": 2
+  }
+}

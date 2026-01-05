@@ -1,0 +1,12 @@
+{
+  "values": [
+	{
+      "id": "minecraft:cauldron",
+      "required": false
+    },
+	{
+      "id": "farmersdelight:cooking_pot",
+      "required": false
+    }
+  ]
+}

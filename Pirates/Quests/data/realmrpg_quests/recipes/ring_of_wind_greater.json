@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "b": {
+      "item": "realmrpg_quests:ring_of_wind"
+    }
+  },
+  "result": {
+    "item": "realmrpg_quests:ring_of_wind_greater",
+    "count": 1
+  }
+}

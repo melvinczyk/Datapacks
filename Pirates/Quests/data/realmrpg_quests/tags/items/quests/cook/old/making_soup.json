@@ -1,0 +1,24 @@
+{
+  "values": [
+	{
+      "id": "minecraft:mushroom_stew",
+      "required": false
+    },
+	{
+      "id": "minecraft:beetroot_soup",
+      "required": false
+    },
+	{
+      "id": "minecraft:suspicious_stew",
+      "required": false
+    },
+	{
+      "id": "autumnity:foul_soup",
+      "required": false
+    },
+	{
+      "id": "aquaculture:turtle_soup",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "trueprimepiecetwo:ryouiconadv"
+    },
+    "title": {
+      "translate": "advancements.blossomofpower.title"
+    },
+    "description": {
+      "translate": "advancements.blossomofpower.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "blossomofpower_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "trueprimepiecetwo:toughspirit"
+}

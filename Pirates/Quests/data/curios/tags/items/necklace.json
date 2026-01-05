@@ -1,0 +1,9 @@
+{
+  "replace": "false",
+  "values": [
+    "minecraft:air",
+    "realmrpg_quests:necklace_of_fishing",
+    "realmrpg_quests:necklace_of_grace",
+    "realmrpg_quests:necklace_of_satiety"
+  ]
+}

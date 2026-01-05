@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    " a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "trueprimepiecetwo:croissant",
+    "count": 1
+  }
+}

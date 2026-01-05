@@ -1,0 +1,7 @@
+{
+  "asset_id": "treasures_of_the_dead:order_of_souls",
+  "description": {
+    "translate": "trim_pattern.treasures_of_the_dead.order_of_souls"
+  },
+  "template_item": "treasures_of_the_dead:order_of_souls_armor_trim_smithing_template"
+}

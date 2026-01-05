@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+{
+    "rolls": 4,
+    "entries": [
+        {
+            "type": "minecraft:item",
+            "name": "cscurrency:dollar_one",
+            "weight": 50
+        },
+        {
+            "type": "minecraft:item",
+            "name": "cscurrency:dollar_two",
+            "weight": 30
+        },
+        {
+            "type": "minecraft:item",
+            "name": "cscurrency:dollar_five",
+            "weight": 15
+        },
+        {
+            "type": "minecraft:item",
+            "name": "cscurrency:dollar_ten",
+            "weight": 8
+        },
+        {
+            "type": "minecraft:item",
+            "name": "cscurrency:dollar_twenty",
+            "weight": 5
+        },
+        {
+            "type": "minecraft:item",
+            "name": "cscurrency:dollar_fifty",
+            "weight": 3
+        },
+        {
+            "type": "minecraft:item",
+            "name": "cscurrency:dollar_hundred",
+            "weight": 1
+        }
+    ]
+} ]
+}

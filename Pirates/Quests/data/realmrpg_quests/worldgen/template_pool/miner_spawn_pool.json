@@ -1,0 +1,51 @@
+{
+  "name": "realmrpg_quests:miner_spawn_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{	
+      "weight": 1,
+      "element": {
+        "location": "realmrpg_quests:miner_houses/miner_spawn_1",
+        "processors": "realmrpg_quests:mossy_age",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "realmrpg_quests:miner_houses/miner_spawn_2",
+        "processors": "realmrpg_quests:mossy_age",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "realmrpg_quests:miner_houses/miner_spawn_3",
+        "processors": "realmrpg_quests:mossy_age",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "realmrpg_quests:miner_houses/miner_spawn_4",
+        "processors": "realmrpg_quests:mossy_age",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 1,
+      "element": {
+        "location": "realmrpg_quests:miner_houses/miner_spawn_5",
+        "processors": "realmrpg_quests:mossy_age",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

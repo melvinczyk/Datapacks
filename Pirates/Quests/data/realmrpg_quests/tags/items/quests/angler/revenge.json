@@ -1,0 +1,28 @@
+{
+  "values": [
+	{
+      "id": "minecraft:pufferfish",
+      "required": false
+    },
+	{
+      "id": "upgrade_aquatic:lionfish",
+      "required": false
+    },
+	{
+      "id": "upgrade_aquatic:pike",
+      "required": false
+    },
+	{
+      "id": "aquaculture:gar",
+      "required": false
+    },
+	{
+      "id": "aquaculture:piranha",
+      "required": false
+    },
+	{
+      "id": "aquaculture:muskellunge",
+      "required": false
+    }
+  ]
+}

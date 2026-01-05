@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "forest",
+    "birch_forest",
+    "dark_forest",
+    "windswept_forest"
+  ],
+  "spawners": {
+    "type": "trueprimepiecetwo:fruitspawner",
+    "weight": 100,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "trueprimepiecetwo:gomu_gomunomi"
+    },
+    "title": {
+      "translate": "advancements.primepiece.title"
+    },
+    "description": {
+      "translate": "advancements.primepiece.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "primepiece_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

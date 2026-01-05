@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "realmrpg_quests:blocks/piglin_game_spawner",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "realmrpg_quests:piglin_game_spawner"
+        }
+      ]
+    }
+  ]
+}

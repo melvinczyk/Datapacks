@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:campfire_cooking",
+	"ingredient": {
+		"item": "oceanicrealms:silver_pomfret_fish"
+	},
+	"result": "oceanicrealms:cooked_silver_pomfret_fish",
+	"experience": 0.35,
+	"cookingtime": 600
+}

@@ -1,0 +1,16 @@
+{
+  "values": [
+	{
+      "id": "minecraft:pumpkin_pie",
+      "required": false
+    },
+	{
+      "id": "autumnity:pancake",
+      "required": false
+    },
+	{
+      "id": "upgrade_aquatic:mulberry_pie",
+      "required": false
+    }
+  ]
+}
