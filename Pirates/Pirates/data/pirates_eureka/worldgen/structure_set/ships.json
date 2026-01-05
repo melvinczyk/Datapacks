@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "pirates_eureka:ship",
+            "weight": 50
+        }
+    ],
+    "placement": {
+        "type": "random_spread",
+        "spacing": 12,
+        "separation": 6,
+        "salt": 367453547
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:cobblestone",
+    "minecraft:cobblestone_stairs",
+    "minecraft:sandstone",
+    "minecraft:chiseled_sandstone"
+  ]
+}

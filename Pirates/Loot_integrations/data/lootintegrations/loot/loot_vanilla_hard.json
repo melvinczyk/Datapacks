@@ -1,0 +1,12 @@
+{
+  "loot_table": "lootintegrations:chests/hard",
+  "max_result_itemcount": 10,
+  "integrated_loot_tables": {
+    "minecraft:chests/stronghold_crossing": 1,
+    "minecraft:chests/woodland_mansion": 2,
+    "minecraft:chests/ancient_city": 1,
+    "minecraft:chests/end_city_treasure": 2,
+    "minecraft:chests/trial_chambers/reward_ominous_rare": 2,
+    "minecraft:chests/trial_chambers/reward_rare": 2
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "type": "add",
+    "argument1": "minecraft:overworld/temperature",
+    "argument2": 0.45
+}

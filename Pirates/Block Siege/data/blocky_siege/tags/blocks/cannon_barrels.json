@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "blocky_siege:cannon_barrel_straight",
+    "blocky_siege:cannon_barrel_up_1",
+    "blocky_siege:cannon_barrel_up_2",
+    "blocky_siege:cannon_barrel_up_3",
+    "blocky_siege:cannon_barrel_down_1",
+    "blocky_siege:cannon_barrel_down_2",
+    "blocky_siege:cannon_barrel_down_3"
+  ]
+}

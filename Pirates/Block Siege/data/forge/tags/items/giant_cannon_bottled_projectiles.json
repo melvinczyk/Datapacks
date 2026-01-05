@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "blocky_siege:giant_fire_bomb",
+    "blocky_siege:giant_frost_bomb",
+    "blocky_siege:giant_sculk_bomb"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "Survival Island Worldgen",
+        "color": "#02c4d6"
+      },
+      "\n",
+      {
+        "text": "Made by ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Klinbee",
+        "color": "#ffbbbb"
+      }
+    ],
+    "pack_format": 15,
+    "min_format": 15,
+    "max_format": 999,
+    "supported_formats": [15, 999]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "min_format": 88,
+        "max_format": 999,
+        "directory": "overlay_1_21_9"
+      }
+    ]
+  }
+}

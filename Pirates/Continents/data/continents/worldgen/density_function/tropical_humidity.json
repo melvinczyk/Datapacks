@@ -1,0 +1,5 @@
+{
+    "type": "add",
+    "argument1": "minecraft:overworld/humidity",
+    "argument2": 0.35
+}

@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:paper",
+    "minecraft:written_book",
+    {
+      "id": "create:clipboard",
+      "required": false
+    }
+  ]
+}

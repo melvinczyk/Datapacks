@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "blocky_siege:block_of_cast_iron"
+    }
+  },
+  "result": {
+    "item": "blocky_siege:block_of_cast_iron_stairs",
+    "count": 4
+  }
+}

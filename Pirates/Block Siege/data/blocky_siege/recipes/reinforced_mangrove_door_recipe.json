@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:mangrove_door"
+    }
+  },
+  "result": {
+    "item": "blocky_siege:reinforced_mangrove_door",
+    "count": 1
+  }
+}

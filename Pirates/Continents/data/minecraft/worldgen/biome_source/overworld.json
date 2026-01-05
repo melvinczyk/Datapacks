@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:multi_noise",
+    "temperature": {
+        "type": "constant",
+        "value": 1.0
+    },
+    "humidity": {
+        "type": "constant",
+        "value": 0.8
+    },
+    "continentalness": "minecraft:overworld/continentalness",
+    "erosion": "minecraft:overworld/erosion",
+    "weirdness": "minecraft:overworld/weirdness",
+    "offset": 0.0,
+    "biomes": "minecraft:overworld"
+}
