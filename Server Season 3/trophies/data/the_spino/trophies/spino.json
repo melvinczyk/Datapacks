@@ -1,6 +1,5 @@
 {
-  "drop_chance": 0.05,
-    "entity": "the_spino:spino",
-    "scale": 0.75
-  }
-  
+  "drop_chance": 0.1,
+  "entity": "the_spino:spino",
+  "scale": 0.75
+}

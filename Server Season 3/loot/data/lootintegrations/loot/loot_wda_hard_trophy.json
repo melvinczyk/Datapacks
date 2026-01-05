@@ -1,0 +1,20 @@
+{
+  "loot_table": "serverv3:chests/hard_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+   "dungeons_arise:chests/shiraz_palace/shiraz_palace_elite": 1,
+    "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_treasure": 1,
+    "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_treasure": 1,
+    "dungeons_arise:chests/heavenly_rider/heavenly_rider_treasure": 1,
+    "dungeons_arise:chests/aviary/aviary_treasure": 1,
+    "dungeons_arise:chests/thornborn_towers/thornborn_towers_top_treasure": 1,
+    "dungeons_arise:chests/infested_temple/infested_temple_vault_treasure": 1,
+    "dungeons_arise:chests/kisegi_sanctuary/kisegi_sanctuary_vault_ominous_treasure": 1,
+    "dungeons_arise:chests/kisegi_sanctuary/kisegi_sanctuary_vault_ominous": 1,
+    "dungeons_arise:chests/bandit_towers/bandit_towers_treasure": 1,
+    "dungeons_arise:chests/ceryneian_hind/ceryneian_hind_treasure": 1,
+    "dungeons_arise:chests/foundry/foundry_treasure": 1,
+    "dungeons_arise:chests/plague_asylum/plague_asylum_treasure": 1,
+    "dungeons_arise:chests/scorched_mines/scorched_mines_treasure": 1
+  }
+}

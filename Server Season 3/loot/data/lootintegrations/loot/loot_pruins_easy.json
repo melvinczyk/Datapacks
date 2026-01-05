@@ -2,14 +2,14 @@
   "loot_table": "serverv3:chests/easy",
   "max_result_itemcount": 8,
   "integrated_loot_tables": {
-    "philipsruins:chest/ancient_ruins": 2,
-    "philipsruins:chest/badlands_dungeon_loot_high": 2,
-    "philipsruins:chest/badlands_dungeon_loot_low": 2,
-    "philipsruins:chest/bone_dungeon_loot": 1,
-    "philipsruins:chest/desert_pyramid_loot": 3,
-    "philipsruins:chest/level_one_ruins_loot": 2,
-    "philipsruins:chest/level_three_ruins_loot": 2,
-    "philipsruins:chest/ruin_loot": 2,
-    "philipsruins:chest/ruin_loot_value": 2
+    "philipsruins:chest/ancient_ruins": 3,
+    "philipsruins:chest/badlands_dungeon_loot_high": 3,
+    "philipsruins:chest/badlands_dungeon_loot_low": 3,
+    "philipsruins:chest/bone_dungeon_loot": 2,
+    "philipsruins:chest/desert_pyramid_loot": 4,
+    "philipsruins:chest/level_one_ruins_loot": 3,
+    "philipsruins:chest/level_three_ruins_loot": 3,
+    "philipsruins:chest/ruin_loot": 3,
+    "philipsruins:chest/ruin_loot_value": 3
   }
 }

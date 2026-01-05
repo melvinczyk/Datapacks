@@ -1,0 +1,8 @@
+{
+  "loot_table": "serverv3:chests/medium_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "formationsoverworld:large_temple/rich_chest": 1,
+    "formationsoverworld:witch_tower/smithing": 1
+  }
+}

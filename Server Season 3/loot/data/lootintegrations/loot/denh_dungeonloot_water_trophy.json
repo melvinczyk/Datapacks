@@ -1,0 +1,10 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "dungeons_enhanced:chests/castle/spring": 1,
+    "dungeons_enhanced:chests/elders_temple/elder_room": 1,
+    "dungeons_enhanced:chests/elders_temple/main": 1,
+    "dungeons_enhanced:chests/sunken_shrine": 1
+  }
+}

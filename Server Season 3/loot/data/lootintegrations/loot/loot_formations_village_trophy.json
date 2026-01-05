@@ -1,0 +1,18 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "formationsoverworld:hobbit_hole/food": 1,
+    "formationsoverworld:small_house/fireplace": 1,
+    "formationsoverworld:stone_tower/bedroom": 1,
+    "formationsoverworld:witch_tower/botany": 1,
+    "formationsoverworld:bamboo_hut": 1,
+    "formationsoverworld:campsite": 1,
+    "formationsoverworld:desert_houses": 1,
+    "formationsoverworld:log_shelter": 1,
+    "formationsoverworld:small_statue": 1,
+    "formationsoverworld:tiny_house": 1,
+    "formationsoverworld:wagon": 1,
+    "formationsoverworld:well": 1
+  }
+}

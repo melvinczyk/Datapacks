@@ -1,6 +1,5 @@
 {
-  "drop_chance": 0.05,
-    "entity": "eeeabsmobs:nameless_guardian",
-    "scale": 1.0
-  }
-  
+  "drop_chance": 0.1,
+  "entity": "eeeabsmobs:nameless_guardian",
+  "scale": 1.0
+}

@@ -1,0 +1,9 @@
+{
+  "loot_table": "serverv3:chests/medium_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "philipsruins:chest/ancient_ruins_loot": 1,
+    "philipsruins:chest/lost_soul_city_loot": 1,
+    "philipsruins:chest/sculk_dungeon_loot": 1
+  }
+}

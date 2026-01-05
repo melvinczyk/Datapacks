@@ -1,0 +1,24 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "betterdeserttemples:chests/lab": 1,
+    "betterdeserttemples:chests/storage": 1,
+    "betterdeserttemples:chests/tomb": 1,
+    "betterdeserttemples:chests/wardrobe": 1,
+    "betterdungeons:skeleton_dungeon/chests/common": 1,
+    "betterdungeons:skeleton_dungeon/chests/middle": 1,
+    "betterdungeons:spider_dungeon/chests/egg_room": 1,
+    "betterdungeons:zombie_dungeon/chests/common": 1,
+    "betterdungeons:zombie_dungeon/chests/tombstone": 1,
+    "betterjungletemples:chests/campsite": 1,
+    "betterfortresses:chests/beacon": 1,
+    "betterfortresses:chests/keep": 1,
+    "betterstrongholds:chests/common": 1,
+    "betterstrongholds:chests/armoury": 1,
+    "betterstrongholds:chests/crypt": 1,
+    "betterstrongholds:chests/prison_lg": 1,
+    "betterstrongholds:chests/trap": 1,
+    "betterwitchhuts:chests/hut_0": 1
+  }
+}

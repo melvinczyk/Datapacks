@@ -2,7 +2,7 @@
   "loot_table": "serverv3:chests/medium",
   "max_result_itemcount": 10,
   "integrated_loot_tables": {
-    "cataclysm:entities/ancient_remnant": 4,
-    "cataclysm:chests/frosted_prison_treasure": 3
+    "cataclysm:entities/ancient_remnant": 6,
+    "cataclysm:chests/frosted_prison_treasure": 6
   }
 }

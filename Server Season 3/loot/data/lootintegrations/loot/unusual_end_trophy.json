@@ -1,0 +1,12 @@
+{
+  "loot_table": "serverv3:chests/medium_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "unusualend:chests/end_city_additional_loots": 1,
+    "unusualend:chests/flying_ship": 1,
+    "unusualend:chests/wandering_house": 1,
+    "unusualend:chests/gloopy_altar": 1,
+    "unusualend:chests/wandering_house_barrel": 1,
+    "unusualend:chests/warped_ship": 1
+  }
+}

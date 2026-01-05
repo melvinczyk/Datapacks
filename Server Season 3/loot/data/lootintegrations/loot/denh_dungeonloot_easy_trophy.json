@@ -1,0 +1,31 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "dungeons_enhanced:desert_temple_coffin": 1,
+    "dungeons_enhanced:chests/desert_temple/coffin": 1,
+    "dungeons_enhanced:chests/desert_temple/floor": 1,
+    "dungeons_enhanced:desert_temple_floor": 1,
+    "dungeons_enhanced:chests/pillager_camp/general": 1,
+    "dungeons_enhanced:chests/pillager_camp/kitchen": 1,
+    "dungeons_enhanced:chests/stables": 1,
+    "dungeons_enhanced:chests/castle/cellar": 1,
+    "dungeons_enhanced:chests/castle/kitchen": 1,
+    "dungeons_enhanced:chests/castle/coffin": 1,
+    "dungeons_enhanced:chests/castle/prison": 1,
+    "dungeons_enhanced:chests/castle/bedroom": 1,
+    "dungeons_enhanced:chests/desert_tomb": 1,
+    "dungeons_enhanced:chests/ice_pit/armory": 1,
+    "dungeons_enhanced:chests/ice_pit/hall": 1,
+    "dungeons_enhanced:chests/ice_pit/food": 1,
+    "dungeons_enhanced:chests/ice_pit/garden": 1,
+    "dungeons_enhanced:chests/ice_pit/bed": 1,
+    "dungeons_enhanced:chests/jungle_monument/floor": 1,
+    "dungeons_enhanced:chests/monster_maze/church": 1,
+    "dungeons_enhanced:chests/monster_maze/brewery": 1,
+    "dungeons_enhanced:chests/deep_crypt": 1,
+    "dungeons_enhanced:chests/flying_dutchman": 1,
+    "dungeons_enhanced:chests/pirate_ship": 1,
+    "dungeons_enhanced:chests/black_citadel/normal": 1
+  }
+}

@@ -1,9 +1,9 @@
 {
   "loot_table": "serverv3:chests/medium",
-  "max_result_itemcount": 10,
+  "max_result_itemcount": 12,
   "integrated_loot_tables": {
-    "tlc:chests/biblio": 2,
-    "tlc:chests/throne": 2,
-    "tlc:chests/treasure": 3
+    "tlc:chests/biblio": 3,
+    "tlc:chests/throne": 3,
+    "tlc:chests/treasure": 4
   }
 }

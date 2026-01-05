@@ -3,7 +3,7 @@
     "flash": {
       "size": 1.2,
       "yOffset": 3.75,
-      "zOffset": -8.0,
+      "zOffset": -10.0,
       "textureLocation": "muzzle_flash_1",
       "alternateMuzzleFlash": true,
       "alternatePosition": {
@@ -14,21 +14,14 @@
     }
   },
   "general": {
-    "alwaysSpread": true,
+    "weaponType": "shotgun",
     "fireMode": "scguns:semi_automatic",
     "gripType": "scguns:two_handed",
     "baseGripType": "scguns:two_handed",
-    "projectileAmount": 22,
-    "rate": 16,
-    "recoilAngle": 10.0,
-    "recoilKick": 3.0,
-    "spread": 15.0,
+    "rate": 2,
     "meleeDamage": 3.0,
     "meleeCooldownTicks": 20,
-    "hotBarrelRate": 45,
-    "criticalChance": 0.05,
-    "playerKnockBack": true,
-    "playerKnockBackStrength": 0.25
+    "hotBarrelRate": 40
   },
   "modules": {
     "attachments": {
@@ -47,17 +40,30 @@
     }
   },
   "projectile": {
+    "projectileAmount": 18,
+    "alwaysSpread": true,
+    "recoilAngle": 10.0,
+    "recoilKick": 3.0,
+    "spread": 6.0,
+    "criticalChance": 0.05,
+    "playerKnockBack": true,
+    "playerKnockBackStrength": 0.25,
+    "knockbackStrength": 0.75,
+    "damageFalloffStart": 7.0,
+    "damageFalloffEnd": 18.0,
+    "damageFalloffMinMultiplier": 0.35,
     "advantage": "scguns:illager",
-    "damage": 16.0,
+    "damage": 18.5,
     "ejectsCasing": true,
     "item": "scguns:shotgun_shell",
+    "casingType": "scguns:small_copper_casing",
     "casingParticle": "scguns:shell",
     "ejectDuringReload": true,
-    "life": 25,
+    "life": 45,
     "size": 0.05,
     "speed": 5.0,
     "trailLengthMultiplier": 2.0,
-    "trailColor": -256
+    "trailThickness": 0.5
   },
   "reloads": {
     "emptyMagTimer": 50,

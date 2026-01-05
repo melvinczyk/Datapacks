@@ -1,0 +1,14 @@
+{
+  "loot_table": "serverv3:chests/medium_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "terramity:chests/chthonic_dungeon_loot": 1,
+    "terramity:chests/infested_lab_loot": 1,
+    "terramity:chests/overgrown_facility_loot": 1,
+    "terramity:chests/suspicious_shrine_loot": 1,
+    "terramity:chests/snow_fort_loot": 1,
+    "terramity:chests/subterranean_shrine_loot": 1,
+    "terramity:chests/ancient_outcrop_loot": 1,
+    "terramity:chests/chthonian_breach_loot": 1
+  }
+}

@@ -1,5 +1,5 @@
 {
-    "drop_chance": 0.05,
+  "drop_chance": 0.1,
   "entity": "terra_entity:brain_of_cthulhu",
   "scale": 1.0,
   "offset": 0.5

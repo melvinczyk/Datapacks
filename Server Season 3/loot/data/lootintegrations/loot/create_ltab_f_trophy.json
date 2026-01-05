@@ -1,0 +1,14 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "create_ltab_f:earth_l": 1,
+    "create_ltab_f:grass_l": 1,
+    "create_ltab_f:normal_loot": 1,
+    "create_ltab_f:normal_nether_loot": 1,
+    "create_ltab_f:normal_oak_house_loot": 1,
+    "create_ltab_f:rare_loot": 1,
+    "create_ltab_f:sand_l": 1,
+    "create_ltab_f:winter_l": 1
+  }
+}

@@ -9,7 +9,7 @@
   "general": {
     "fireMode": "jeg:semi_automatic",
     "gripType": "jeg:two_handed",
-    "rate": 32,
+    "rate": 20,
     "recoilAngle": 7.0,
     "recoilKick": 0.25
   },

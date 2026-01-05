@@ -1,0 +1,12 @@
+{
+  "loot_table": "serverv3:chests/medium_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "mns:houses": 1,
+    "mns:chests/houses": 1,
+    "mns:treasure": 1,
+    "mns:chests/treasure": 1,
+    "mns:uncommon": 1,
+    "mns:chests/uncommon": 1
+  }
+}

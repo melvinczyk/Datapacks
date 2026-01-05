@@ -1,0 +1,198 @@
+{
+	"client_settings": {
+		"color_settings": {
+			"moon_texture_color": "00008B",
+			"sky_light_color": "00008B"
+		},
+		"moon_size": 200.0,
+		"moon_texture_location": "minecraft:textures/environment/moon_phases.png",
+		"sound_track": {
+      "sound_id": "enhancedcelestials:blood_moon"
+    }
+	},
+	"dimension_chances": {
+		"minecraft:overworld": {
+			"chance": 0.05,
+			"min_number_of_nights_between": 4,
+			"valid_moon_phases": [
+				0
+			]
+		}
+	},
+	"drops": {
+		"drop_enhancer": {
+			"#forge:chaos_drops": 2.0
+		 }
+	},
+	"mob_settings": {
+		"blocks_sleeping": {
+			"type": "corgilib:any"
+		},
+		"lunar_spawn_settings": {
+			"force_surface_spawning": true,
+			"mob_spawn_settings": {
+				"spawn_costs": { },
+				"spawners": {
+					"ambient": [],
+					"axolotls": [],
+					"creature": [],
+					"misc": [],
+					"monster": [
+					{
+			   "type": "born_in_chaos_v1:skeleton_demoman",
+          		   "weight": 1000,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:baby_skeleton",
+          		   "weight": 1000,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:barrel_zombie",
+          		   "weight": 1000,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:phantom_creeper",
+          		   "weight": 1000,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:door_knight",
+          		   "weight": 800,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:restless_spirit",
+          		   "weight": 1000,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:skeleton_thrasher",
+          		   "weight": 300,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:firelight",
+          		   "weight": 1000,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:bonescaller",
+          		   "weight": 800,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:supreme_bonescaller",
+          		   "weight": 100,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:nightmare_stalker",
+          		   "weight": 300,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:dark_vortex",
+          		   "weight": 1000,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:dread_hound",
+          		   "weight": 1000,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:dire_hound_leader",
+          		   "weight": 300,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:spirit_guide",
+          		   "weight": 1000,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:zombie_clown",
+          		   "weight": 800,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:zombie_fisherman",
+          		   "weight": 1000,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:zombie_lumberjack",
+          		   "weight": 1000,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:zombie_bruiser",
+          		   "weight": 800,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			},
+			{
+			   "type": "born_in_chaos_v1:decaying_zombie",
+          		   "weight": 1000,
+          		   "minCount": 1,
+	 		   "maxCount": 1
+			}
+			],
+					"underground_water_creature": [],
+					"water_ambient": [],
+					"water_creature": []
+				}
+			},
+			"slimes_spawn_everywhere": false,
+			"use_biome_spawn_settings": true
+		},
+		"mob_effects": [],
+		"spawn_category_multiplier": {
+			"monster": 2.25
+		  }
+	},
+	"text_components": {
+		"end_notification": {
+			"component": {
+				"key": "enhancedcelestials.notification.super_chaos_moon.set"
+			},
+			"type": "CHAT"
+		},
+		"name": {
+			"key": "enhancedcelestials.name.super_chaos_moon",
+			"style": {
+				"color": "00008B"
+			}
+		},
+		"start_notification": {
+			"component": {
+				"key": "enhancedcelestials.notification.super_chaos_moon.rise",
+				"style": {
+					"color": "00008B"
+				}
+			},
+			"type": "CHAT"
+		}
+	}
+}

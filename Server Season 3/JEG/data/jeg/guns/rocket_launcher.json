@@ -29,7 +29,7 @@
   },
   "projectile": {
     "advantage": "jeg:very_heavy",
-    "damage": 28.0,
+    "damage": 54.0,
     "ejectsCasing": true,
     "gravity": true,
     "headshotMultiplier": 1.5,

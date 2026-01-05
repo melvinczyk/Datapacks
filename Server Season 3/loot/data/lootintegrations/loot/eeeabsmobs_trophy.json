@@ -1,0 +1,9 @@
+{
+  "loot_table": "serverv3:chests/hard_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "eeeabsmobs:chests/epic_ancient_tomb": 1,
+    "eeeabsmobs:chests/unusual_ancient_tomb": 1,
+    "eeeabsmobs:chests/rare_ancient_tomb": 1
+  }
+}

@@ -2,8 +2,8 @@ import os
 import json
 
 BASE_FOLDER = '/Users/nicholasburczyk/Desktop/Minecraft server stuff/Datapacks/Server Season 3/trophies/data'
-OLD_DROP_CHANCE = 0.01
-NEW_DROP_CHANCE = 0.015
+OLD_DROP_CHANCE = 0.015
+NEW_DROP_CHANCE = 0.025
 
 def update_existing_drop_chance(base_folder):
     for root, dirs, files in os.walk(base_folder):

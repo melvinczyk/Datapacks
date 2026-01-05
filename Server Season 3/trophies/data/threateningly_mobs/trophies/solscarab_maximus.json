@@ -1,5 +1,5 @@
 {
-  "drop_chance": 0.05,
+  "drop_chance": 0.1,
   "entity": "threateningly_mobs:solscarab_maximus",
   "scale": 0.8
 }

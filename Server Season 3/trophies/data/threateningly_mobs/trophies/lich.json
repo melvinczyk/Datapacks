@@ -1,5 +1,5 @@
 {
-  "drop_chance": 0.05,
+  "drop_chance": 0.1,
   "entity": "threateningly_mobs:lich",
   "scale": 0.8,
   "offset": 0.5

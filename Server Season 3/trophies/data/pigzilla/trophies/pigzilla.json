@@ -1,6 +1,5 @@
 {
-  "drop_chance": 0.05,
-    "entity": "pigzilla:pigzilla",
-    "scale": 0.3
-  }
-  
+  "drop_chance": 0.1,
+  "entity": "pigzilla:pigzilla",
+  "scale": 0.3
+}

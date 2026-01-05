@@ -1,0 +1,19 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "formationsoverworld:fountain/lesser_chest": 1,
+    "formationsoverworld:fountain/rich_chest": 1,
+    "formationsoverworld:graveyard/grave": 1,
+    "formationsoverworld:graveyard/tomb": 1,
+    "formationsoverworld:graveyard/trapped_grave": 1,
+    "formationsoverworld:hobbit_hole/common": 1,
+    "formationsoverworld:large_temple/pillar_chest": 1,
+    "formationsoverworld:small_house/degraded": 1,
+    "formationsoverworld:small_house/intact": 1,
+    "formationsoverworld:stone_tower/basement": 1,
+    "formationsoverworld:stone_tower/smithing": 1,
+    "formationsoverworld:log_spikes": 1,
+    "formationsoverworld:tower_remnant": 1
+  }
+}

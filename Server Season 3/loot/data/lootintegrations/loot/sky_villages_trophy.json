@@ -1,0 +1,16 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "skyvillages:chests/sky_village_armorer": 1,
+    "skyvillages:chests/sky_village_butcher": 1,
+    "skyvillages:chests/sky_village_cartographer": 1,
+    "skyvillages:chests/sky_village_fisher": 1,
+    "skyvillages:chests/sky_village_mason": 1,
+    "skyvillages:chests/sky_village_normal_house": 1,
+    "skyvillages:chests/sky_village_shepherd": 1,
+    "skyvillages:chests/sky_village_temple": 1,
+    "skyvillages:chests/sky_village_toolsmith": 1,
+    "skyvillages:chests/sky_village_weaponsmith": 1
+  }
+}

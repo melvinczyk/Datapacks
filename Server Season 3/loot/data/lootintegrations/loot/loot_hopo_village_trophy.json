@@ -1,0 +1,30 @@
+{
+  "loot_table": "serverv3:chests/village",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "hopo:chests/food": 1,
+    "hopo:chests/chests/mineshaft/base/bedroom": 1,
+    "hopo:chests/chests/mineshaft/base/brown_mushroom": 1,
+    "hopo:chests/chests/mineshaft/base/crafting": 1,
+    "hopo:chests/chests/mineshaft/base/food": 1,
+    "hopo:chests/chests/mineshaft/base/fossils": 1,
+    "hopo:chests/chests/mineshaft/base/gold": 1,
+    "hopo:chests/chests/mineshaft/base/iron": 1,
+    "hopo:chests/chests/mineshaft/base/lapis": 1,
+    "hopo:chests/chests/mineshaft/base/redstone": 1,
+    "hopo:chests/chests/mineshaft/base/red_mushroom": 1,
+    "hopo:chests/chests/mineshaft/base/rip": 1,
+    "hopo:chests/chests/mineshaft/big_rooms/farm_beetroot": 1,
+    "hopo:chests/chests/mineshaft/big_rooms/farm_carrot": 1,
+    "hopo:chests/chests/mineshaft/big_rooms/farm_melon": 1,
+    "hopo:chests/chests/mineshaft/big_rooms/farm_potato": 1,
+    "hopo:chests/chests/mineshaft/big_rooms/farm_pumpkin": 1,
+    "hopo:chests/chests/mineshaft/big_rooms/farm_wheat": 1,
+    "hopo:chests/chests/mineshaft/big_rooms/iron_golem": 1,
+    "hopo:chests/chests/mineshaft/big_rooms/map": 1,
+    "hopo:chests/chests/mineshaft/big_rooms/music": 1,
+    "hopo:chests/chests/mineshaft/big_rooms/stews": 1,
+    "hopo:chests/chests/mineshaft/deepslate/lapis": 1,
+    "hopo:chests/chests/mineshaft/deepslate/redstone": 1
+  }
+}

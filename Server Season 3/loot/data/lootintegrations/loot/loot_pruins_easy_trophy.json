@@ -1,0 +1,15 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "philipsruins:chest/ancient_ruins": 1,
+    "philipsruins:chest/badlands_dungeon_loot_high": 1,
+    "philipsruins:chest/badlands_dungeon_loot_low": 1,
+    "philipsruins:chest/bone_dungeon_loot": 1,
+    "philipsruins:chest/desert_pyramid_loot": 1,
+    "philipsruins:chest/level_one_ruins_loot": 1,
+    "philipsruins:chest/level_three_ruins_loot": 1,
+    "philipsruins:chest/ruin_loot": 1,
+    "philipsruins:chest/ruin_loot_value": 1
+  }
+}

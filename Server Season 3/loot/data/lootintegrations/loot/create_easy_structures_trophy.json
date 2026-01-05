@@ -1,0 +1,7 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "create_easy_structures:chests/common_chest_es": 1
+  }
+}

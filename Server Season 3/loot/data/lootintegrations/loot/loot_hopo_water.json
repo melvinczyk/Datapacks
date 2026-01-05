@@ -1,0 +1,12 @@
+{
+  "loot_table": "sererv3:chests/water",
+  "max_result_itemcount": 10,
+  "integrated_loot_tables": {
+    "hopo:chests/copper": 1,
+    "hopo:chests/coral": 1,
+    "hopo:chests/materials": 1,
+    "hopo:chests/prismarine": 1,
+    "hopo:chests/small_ruin_cold": 1,
+    "hopo:chests/small_ruin_warm": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "biomemakeover:mansion/arrows": 1,
+    "biomemakeover:mansion/dungeon": 1,
+    "biomemakeover:mansion/dungeon_good": 1,
+    "biomemakeover:mansion/dungeon_junk": 1,
+    "biomemakeover:mansion/good": 1,
+    "biomemakeover:mansion/standard": 1,
+    "biomemakeover:mushroom_house": 1,
+    "biomemakeover:pillager_outpost_additional": 1
+  }
+}

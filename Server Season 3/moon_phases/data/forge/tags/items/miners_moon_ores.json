@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:raw_materials",
+      "required": false
+    },
+    {
+      "id": "#forge:gems",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots",
+      "required": false
+    },
+    {
+      "id": "#forge:coals",
+      "required": false
+    }
+  ]
+}

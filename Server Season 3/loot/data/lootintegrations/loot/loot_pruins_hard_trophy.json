@@ -1,0 +1,7 @@
+{
+  "loot_table": "serverv3:chests/end_hard_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "philipsruins:chest/end_ruins_loot": 1
+  }
+}

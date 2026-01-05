@@ -4,7 +4,7 @@
     {
       "rolls": {
         "min": 1.0,
-        "max": 5.0,
+        "max": 2.0,
         "type": "minecraft:uniform"
       },
       "entries": [
@@ -46,34 +46,6 @@
     {
       "rolls": {
         "min": 1.0,
-        "max": 5.0,
-        "type": "minecraft:uniform"
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "scguns:krahg_round"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "scguns:beowulf_round"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "scguns:bearpack_shell"
-        },
-        {
-          "type": "minecraft:empty",
-          "weight": 5
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 1.0,
         "max": 3.0,
         "type": "minecraft:uniform"
       },
@@ -91,34 +63,6 @@
         {
           "type": "minecraft:empty",
           "weight": 5
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0,
-        "type": "minecraft:uniform"
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "terramity:gaianite_cluster"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "terramity:untapped_dimlite"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "terramity:daemonium_chunk"
-        },
-        {
-          "type": "minecraft:empty",
-          "weight": 3
         }
       ]
     },

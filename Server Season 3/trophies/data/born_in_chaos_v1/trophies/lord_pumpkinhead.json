@@ -1,5 +1,5 @@
 {
-  "drop_chance": 0.05,
+  "drop_chance": 0.1,
   "entity": "born_in_chaos_v1:lord_pumpkinhead",
   "scale": 0.5
 }

@@ -1,0 +1,9 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "outer_end:chests/basement_loot": 1,
+    "outer_end:chests/catacomb_generic": 1,
+    "outer_end:chests/catacomb_loot": 1
+  }
+}

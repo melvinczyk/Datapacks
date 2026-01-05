@@ -1,6 +1,6 @@
 {
   "loot_table": "serverv3:chests/easy",
-  "max_result_itemcount": 6,
+  "max_result_itemcount": 8,
   "integrated_loot_tables": {
     "dungeons_arise:entities/gladiator_loot": 1,
     "dungeons_arise:chests/mines_treasure_small": 1,

@@ -1,5 +1,5 @@
 {
-  "drop_chance": 0.05,
+  "drop_chance": 0.1,
   "entity": "terramity:trial_guardian",
   "scale": 0.75
 }

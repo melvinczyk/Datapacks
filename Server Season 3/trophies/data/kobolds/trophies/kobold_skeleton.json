@@ -1,5 +1,5 @@
 {
   "entity": "kobolds:kobold_skeleton",
   "scale": 1.4,
-  "drop_chance": 0.015
+  "drop_chance": 0.025
 }

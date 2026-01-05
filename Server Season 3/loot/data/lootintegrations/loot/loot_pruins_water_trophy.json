@@ -1,0 +1,8 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "philipsruins:chest/ocean_ruins_loot": 1,
+    "philipsruins:chest/ocean_ruin_fortress": 1
+  }
+}

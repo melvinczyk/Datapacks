@@ -1,0 +1,18 @@
+{
+  "loot_table": "serverv3:chests/medium_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "dungeons_enhanced:chests/castle/throne": 1,
+    "dungeons_enhanced:chests/castle/library": 1,
+    "dungeons_enhanced:chests/tower_of_the_undead/treasure": 1,
+    "dungeons_enhanced:desert_temple_treasure": 1,
+    "dungeons_enhanced:chests/desert_temple/treasure": 1,
+    "dungeons_enhanced:chests/jungle_monument/treasure": 1,
+    "dungeons_enhanced:chests/large_dungeon": 1,
+    "dungeons_enhanced:chests/monster_maze/treasure": 1,
+    "dungeons_enhanced:chests/monster_maze/prison": 1,
+    "dungeons_enhanced:chests/black_citadel/normal_alt": 1,
+    "dungeons_enhanced:chests/black_citadel/treasure": 1,
+    "dungeons_enhanced:chests/black_citadel/treasure_alt": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "mvs:cathedral_rare": 1,
+    "mvs:houses_rare": 1,
+    "mvs:pillager": 1,
+    "mvs:swamps": 1,
+    "mss:cathedral_rare": 1,
+    "mss:houses_rare": 1,
+    "mss:pillager": 1,
+    "mss:swamps": 1,
+    "mes:cathedral_rare": 1,
+    "mes:houses_rare": 1,
+    "mes:swamps": 1
+  }
+}

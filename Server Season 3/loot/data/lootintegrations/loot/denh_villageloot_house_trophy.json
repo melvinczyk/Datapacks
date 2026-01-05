@@ -1,0 +1,19 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "dungeons_enhanced:chests/ruined/house": 1,
+    "dungeons_enhanced:chests/mushroom_house": 1,
+    "dungeons_enhanced:chests/miners_house": 1,
+    "dungeons_enhanced:chests/castle/quarters": 1,
+    "dungeons_enhanced:chests/castle/armory": 1,
+    "dungeons_enhanced:chests/witch_tower": 1,
+    "dungeons_enhanced:chests/watch_tower": 1,
+    "dungeons_enhanced:chests/tree_house/roof": 1,
+    "dungeons_enhanced:chests/tree_house/kitchen": 1,
+    "dungeons_enhanced:chests/fishing_ship": 1,
+    "dungeons_enhanced:chests/hay_storage": 1,
+    "dungeons_enhanced:chests/ruined_building": 1,
+    "dungeons_enhanced:chests/black_citadel/kitchen": 1
+  }
+}

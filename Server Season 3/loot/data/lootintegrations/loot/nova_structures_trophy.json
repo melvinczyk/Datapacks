@@ -1,0 +1,28 @@
+{
+  "loot_table": "serverv1:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "nova_structures:chests/badland_miner_outpost": 1,
+    "nova_structures:chests/badland_miner_outpost_forge": 1,
+    "nova_structures:chests/badland_miner_outpost_towers": 1,
+    "nova_structures:chests/dungeon_1": 1,
+    "nova_structures:chests/dungeon_2": 1,
+    "nova_structures:chests/dungeon_3": 1,
+    "nova_structures:chests/dungeon_4": 1,
+    "nova_structures:chests/dungeon_5": 1,
+    "nova_structures:chests/dungeon_6": 1,
+    "nova_structures:chests/dungeon_7": 1,
+    "nova_structures:chests/illager_camp": 1,
+    "nova_structures:chests/illager_hideout_brewing": 1,
+    "nova_structures:chests/illager_hideout_fishing": 1,
+    "nova_structures:chests/illager_hideout_heart_loot": 1,
+    "nova_structures:chests/illager_hideout_lesser_treasure": 1,
+    "nova_structures:chests/illager_hideout_library": 1,
+    "nova_structures:chests/illager_hideout_treasure": 1,
+    "nova_structures:chests/illager_hideout_utility": 1,
+    "nova_structures:chests/illager_hideout_weaponry": 1,
+    "nova_structures:chests/mining_supply": 1,
+    "nova_structures:chests/pillager_outpost_treasure": 1,
+    "nova_structures:chests/ruin_loot_master": 1
+  }
+}

@@ -9,7 +9,7 @@
   "general": {
     "fireMode": "jeg:semi_automatic",
     "gripType": "jeg:two_handed",
-    "rate": 20,
+    "rate": 18,
     "recoilAngle": 15.0,
     "recoilKick": 1.0
   },
@@ -38,7 +38,7 @@
   },
   "projectile": {
     "advantage": "jeg:none",
-    "damage": 29.0,
+    "damage": 46.0,
     "headshotMultiplier": 2.5,
     "item": "jeg:rifle_ammo",
     "life": 40,

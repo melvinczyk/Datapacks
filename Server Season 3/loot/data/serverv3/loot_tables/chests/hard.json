@@ -4,24 +4,6 @@
     {
       "rolls": {
         "min": 1.0,
-        "max": 10.0,
-        "type": "minecraft:uniform"
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "terramity:iridium_chunk"
-        },
-        {
-          "type": "minecraft:empty",
-          "weight": 5
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 1.0,
         "max": 15.0,
         "type": "minecraft:uniform"
       },
@@ -78,29 +60,6 @@
     {
       "rolls": {
         "min": 1.0,
-        "max": 10.0,
-        "type": "minecraft:uniform"
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "scguns:peal_dust"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "scguns:peal"
-        },
-        {
-          "type": "minecraft:empty",
-          "weight": 5
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 1.0,
         "max": 1.0,
         "type": "minecraft:uniform"
       },
@@ -130,7 +89,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 20
+          "weight": 15
         }
       ]
     },
@@ -149,6 +108,24 @@
         {
           "type": "minecraft:empty",
           "weight": 25
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "terramity:conductite"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 30
         }
       ]
     },
@@ -182,6 +159,20 @@
         {
           "type": "minecraft:empty",
           "weight": 20
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "serverv3:chests/random_trophy",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 7
         }
       ]
     }

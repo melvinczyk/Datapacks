@@ -1,0 +1,13 @@
+{
+  "loot_table": "serverv3:chests/medium_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "betterdeserttemples:chests/library": 1,
+    "betterdeserttemples:chests/pharaoh_hidden": 1,
+    "betterdeserttemples:chests/tomb_pharaoh": 1,
+    "betterdungeons:zombie_dungeon/chests/special": 1,
+    "betterstrongholds:chests/treasure": 1,
+    "betterstrongholds:chests/grand_library": 1,
+    "betterjungletemples:chests/treasure": 1
+  }
+}

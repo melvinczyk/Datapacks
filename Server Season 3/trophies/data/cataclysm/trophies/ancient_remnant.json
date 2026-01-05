@@ -1,5 +1,5 @@
 {
-  "drop_chance": 0.05,
+  "drop_chance": 0.1,
   "entity": "cataclysm:ancient_remnant",
   "scale": 0.75
 }

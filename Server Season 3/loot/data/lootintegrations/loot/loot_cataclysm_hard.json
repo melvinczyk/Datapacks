@@ -1,8 +1,8 @@
 {
   "loot_table": "serverv3:chests/hard",
-  "max_result_itemcount": 12,
+  "max_result_itemcount": 15,
   "integrated_loot_tables": {
-    "cataclysm:entities/the_harbinger": 4,
-    "cataclysm:entities/ender_guardian": 4
+    "cataclysm:entities/the_harbinger": 12,
+    "cataclysm:entities/ender_guardian": 12
   }
 }

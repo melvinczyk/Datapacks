@@ -1,0 +1,14 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "structory_towers:basic/crimson_basic": 1,
+    "structory_towers:basic/fortress_basic": 1,
+    "structory_towers:basic/strange_basic": 1,
+    "structory_towers:basic/warped_basic": 1,
+    "structory_towers:top/crimson_top": 1,
+    "structory_towers:top/fortress_top": 1,
+    "structory_towers:top/warped_top": 1,
+    "structory_towers:sword_portal": 1
+  }
+}

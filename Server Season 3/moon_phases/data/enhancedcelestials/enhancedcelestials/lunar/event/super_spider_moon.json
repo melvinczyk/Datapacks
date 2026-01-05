@@ -1,0 +1,88 @@
+{
+	"client_settings": {
+		"color_settings": {
+			"moon_texture_color": "420D09",
+			"sky_light_color": "420D09"
+		},
+		"moon_size": 200.0,
+		"moon_texture_location": "minecraft:textures/environment/moon_phases.png",
+		"sound_track": {
+      "sound_id": "enhancedcelestials:blood_moon"
+    }
+	},
+	"dimension_chances": {
+		"minecraft:overworld": {
+			"chance": 0.1,
+			"min_number_of_nights_between": 4,
+			"valid_moon_phases": [
+				0
+			]
+		}
+	},
+	"drops": {
+		"drop_enhancer": { }
+	},
+	"mob_settings": {
+		"blocks_sleeping": {
+			"type": "corgilib:any"
+		},
+		"lunar_spawn_settings": {
+			"force_surface_spawning": true,
+			"mob_spawn_settings": {
+				"spawn_costs": { },
+				"spawners": {
+					"ambient": [],
+					"axolotls": [],
+					"creature": [],
+					"misc": [],
+					"monster": [
+					{
+			   "type": "minecraft:spider",
+          		   "weight": 2000,
+          		   "minCount": 5,
+	 		   "maxCount": 10
+			},
+			{
+			   "type": "minecraft:cave_spider",
+          		   "weight": 400,
+          		   "minCount": 5,
+	 		   "maxCount": 10
+			}
+			],
+					"underground_water_creature": [],
+					"water_ambient": [],
+					"water_creature": []
+				}
+			},
+			"slimes_spawn_everywhere": false,
+			"use_biome_spawn_settings": true
+		},
+		"mob_effects": [],
+		"spawn_category_multiplier": {
+			"monster": 2.0
+		 }
+	},
+	"text_components": {
+		"end_notification": {
+			"component": {
+				"key": "enhancedcelestials.notification.super_spider_moon.set"
+			},
+			"type": "CHAT"
+		},
+		"name": {
+			"key": "enhancedcelestials.name.super_spider_moon",
+			"style": {
+				"color": "420D09"
+			}
+		},
+		"start_notification": {
+			"component": {
+				"key": "enhancedcelestials.notification.super_spider_moon.rise",
+				"style": {
+					"color": "420D09"
+				}
+			},
+			"type": "CHAT"
+		}
+	}
+}

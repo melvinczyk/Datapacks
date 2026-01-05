@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:slime_ball",
+	"minecraft:prismarine_crystals",
+	"minecraft:prismarine_shard",
+	"minecraft:ender_pearl",
+	"minecraft:gunpowder",
+	"minecraft:phantom_membrane",
+	"minecraft:spider_eye",
+	"minecraft:ink_sac",
+	"minecraft:arrow",
+  "obtrophies:trophy",
+    {
+      "id": "#forge:dusts",
+      "required": false
+    },
+    {
+      "id": "#forge:gems",
+      "required": false
+    },
+    {
+      "id": "#forge:nuggets",
+      "required": false
+    },
+    {
+      "id": "#forge:ingots",
+      "required": false
+    }
+  ]
+}

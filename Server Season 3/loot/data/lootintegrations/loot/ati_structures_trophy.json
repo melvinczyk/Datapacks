@@ -1,0 +1,26 @@
+{
+  "loot_table": "serverv3:chests/medium_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "ati_structures:chests/iron_storage": 1,
+    "ati_structures:chests/library": 1,
+    "ati_structures:chests/mechanism_storage": 1,
+    "ati_structures:chests/minerals": 1,
+    "ati_structures:chests/potion_storage": 1,
+    "ati_structures:chests/resources": 1,
+    "ati_structures:chests/slime": 1,
+    "ati_structures:chests/stone_storage": 1,
+    "ati_structures:chests/vegetation": 1,
+    "ati_structures:chests/wood_storage": 1,
+    "ati_structures:chests/archer_chest": 1,
+    "ati_structures:chests/archer_chest2": 1,
+    "ati_structures:chests/armory": 1,
+    "ati_structures:chests/coal_storage": 1,
+    "ati_structures:chests/construction": 1,
+    "ati_structures:chests/copper_storage": 1,
+    "ati_structures:chests/crafting": 1,
+    "ati_structures:chests/food_storage": 1,
+    "ati_structures:chests/gold_storage": 1,
+    "ati_structures:chests/ingredients": 1
+  }
+}

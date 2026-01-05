@@ -1,0 +1,24 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "hopo:chests/chests/mineshaft/base/amethyst": 1,
+    "hopo:chests/chests/mineshaft/base/archer": 1,
+    "hopo:chests/chests/mineshaft/base/copper": 1,
+    "hopo:chests/chests/mineshaft/base/diamond": 1,
+    "hopo:chests/chests/mineshaft/base/emerald": 1,
+    "hopo:chests/chests/mineshaft/base/prison": 1,
+    "hopo:chests/chests/mineshaft/base/smelting": 1,
+    "hopo:chests/chests/mineshaft/base/tnt": 1,
+    "hopo:chests/chests/mineshaft/big_rooms/archer": 1,
+    "hopo:chests/chests/mineshaft/big_rooms/copper": 1,
+    "hopo:chests/chests/mineshaft/big_rooms/prison": 1,
+    "hopo:chests/chests/mineshaft/deepslate/copper": 1,
+    "hopo:chests/chests/mineshaft/deepslate/diamond": 1,
+    "hopo:chests/chests/mineshaft/deepslate/emerald": 1,
+    "hopo:chests/chests/mineshaft/deepslate/gold": 1,
+    "hopo:chests/chests/mineshaft/deepslate/iron": 1,
+    "hopo:chests/chests/mineshaft/minecart/connector": 1,
+    "hopo:chests/pots/mineshaft/corridor_mineshaft": 1
+  }
+}

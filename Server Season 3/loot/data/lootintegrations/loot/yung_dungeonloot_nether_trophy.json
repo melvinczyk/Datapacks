@@ -1,0 +1,14 @@
+{
+  "loot_table": "serverv3:chests/easy_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "betterdungeons:small_nether_dungeon/chests/common": 1,
+    "betterfortresses:chests/extra": 1,
+    "betterfortresses:chests/obsidian": 1,
+    "betterfortresses:chests/puzzle": 1,
+    "betterfortresses:chests/hall": 1,
+    "betterfortresses:chests/quarters": 1,
+    "betterfortresses:chests/storage": 1,
+    "betterfortresses:chests/worship": 1
+  }
+}

@@ -1,6 +1,5 @@
 {
-  "drop_chance": 0.05,
-    "entity": "theinkarena:blot",
-    "scale": 0.5
-  }
-  
+  "drop_chance": 0.1,
+  "entity": "theinkarena:blot",
+  "scale": 0.5
+}

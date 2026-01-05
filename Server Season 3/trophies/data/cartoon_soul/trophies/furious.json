@@ -1,6 +1,5 @@
 {
-  "drop_chance": 0.05,
-    "entity": "cartoon_soul:furious",
-    "scale": 1.0
-  }
-  
+  "drop_chance": 0.1,
+  "entity": "cartoon_soul:furious",
+  "scale": 1.0
+}

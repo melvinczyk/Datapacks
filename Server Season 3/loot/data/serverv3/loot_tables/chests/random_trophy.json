@@ -1,0 +1,6200 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:alligator_snapping_turtle\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:anaconda\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:anteater\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:bald_eagle\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:banana_slug\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:bison\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:blobfish\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:blue_jay\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:bone_serpent\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:bunfungus\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:cachalot_whale\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:caiman\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:capuchin_monkey\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:catfish\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:centipede_head\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:cockroach\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:comb_jelly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:cosmaw\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:cosmic_cod\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:crimson_mosquito\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:crocodile\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:crow\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:devils_hole_pupfish\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:dropbear\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:elephant\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:emu\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:endergrade\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:enderiophage\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:farseer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:flutter\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:fly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:flying_fish\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:frilled_shark\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:froststalker\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:gazelle\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:gelada_monkey\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:giant_squid\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:gorilla\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:grizzly_bear\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:guster\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:hammerhead_shark\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:hummingbird\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:jerboa\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:kangaroo\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:komodo_dragon\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:laviathan\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:leafcutter_ant\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:lobster\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:maned_wolf\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:mantis_shrimp\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:mimic_octopus\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:mimicube\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:moose\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:mudskipper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:mungus\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:murmur\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:orca\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:platypus\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:potoo\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:raccoon\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:rain_frog\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:rattlesnake\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:rhinoceros\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:roadrunner\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:rocky_roller\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:sea_bear\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:seagull\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:seal\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:shoebill\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:skelewag\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:skreecher\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:skunk\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:snow_leopard\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:soul_vulture\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:spectre\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:straddler\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:stradpole\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:sugar_glider\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:sunbird\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:tarantula_hawk\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:tasmanian_devil\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:terrapin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:tiger\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:toucan\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:triops\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:tusklin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:underminer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:warped_mosco\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"alexsmobs:warped_toad\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"autumnity:snail\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"autumnity:turkey\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"biomemakeover:adjudicator\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"biomemakeover:blightbat\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"biomemakeover:cowboy\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"biomemakeover:decayed\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"biomemakeover:dragonfly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"biomemakeover:ghost\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"biomemakeover:glowfish\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"biomemakeover:moth\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"biomemakeover:mushroom_trader\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"biomemakeover:owl\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"biomemakeover:rootling\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"biomemakeover:scuttler\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"biomemakeover:stone_golem\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"biomemakeover:tadpole\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"biomemakeover:toad\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:baby_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:baby_spider\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:barrel_zombie\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:bloody_gadfly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:bone_imp\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:bonescaller\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:corpse_fish\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:corpse_fly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:dark_vortex\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:decaying_zombie\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:decrepit_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:diamond_termite\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:dire_hound_leader\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:door_knight\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:dread_hound\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:fallen_chaos_knight\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:felsteed\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:firelight\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:glutton_fish\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:infernal_spirit\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:krampus\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:krampus_henchman\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:lifestealer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:lifestealer_true_form\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:maggot\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:missioner\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:mother_spider\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:mr_pumpkin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:mrs_pumpkin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:nightmare_stalker\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:phantom_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:pumpkin_bruiser\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:pumpkin_dunce\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:pumpkin_spirit\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:pumpkinhead\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:restless_spirit\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:scarlet_persecutor\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:seared_spirit\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:senor_pumpkin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:siamese_skeletons\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:siamese_skeletonsleft\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:siamese_skeletonsright\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:sir_pumpkinhead\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:sir_pumpkinhead_without_horse\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:sir_the_headless\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:skeleton_demoman\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:skeleton_thrasher\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:spirit_guide\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:spirit_guide_assistant\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:spiritof_chaos\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:supreme_bonescaller\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:supreme_bonescaller_stage_2\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:swarmer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:thornshell_crab\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:zombie_bruiser\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:zombie_clown\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:zombie_fisherman\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"born_in_chaos_v1:zombie_lumberjack\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:amethyst_crab\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:ancient_ancient_remnant\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:aptrgangr\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:coral_golem\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:coralssus\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:deepling\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:deepling_angler\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:deepling_brute\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:deepling_priest\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:deepling_warlock\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:draugr\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:elite_draugr\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:ender_golem\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:endermaptera\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:ignited_berserker\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:ignited_revenant\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:kobolediator\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:koboleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:lionfish\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:modern_remnant\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:nameless_sorcerer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:netherite_ministrosity\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:old_netherite_monstrosity\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:royal_draugr\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:the_baby_leviathan\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:the_leviathan\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:the_prowler\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:the_watcher\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:wadjet\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:beaver\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:black_bear\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:caribou\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:chupacabra\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:cougar\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:coyote\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:elk\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:giant_boar\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:goose\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:howler\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:mouse\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:pit_viper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:rattlesnake\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:ringtail\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:sasquatch\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:snake\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:squonk\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:timber_wolf\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:turkey\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:wechuge\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cnc:wendigo\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"creeperoverhaul:badlands_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"creeperoverhaul:bamboo_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"creeperoverhaul:beach_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"creeperoverhaul:cave_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"creeperoverhaul:dark_oak_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"creeperoverhaul:desert_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"creeperoverhaul:dripstone_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"creeperoverhaul:hills_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"creeperoverhaul:jungle_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"creeperoverhaul:mushroom_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"creeperoverhaul:ocean_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"creeperoverhaul:savannah_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"creeperoverhaul:snowy_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"creeperoverhaul:spruce_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"creeperoverhaul:swamp_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"crimsonsteves_mutant_mobs:hopkeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"crimsonsteves_mutant_mobs:mutant_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"crimsonsteves_mutant_mobs:withered_hopkeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"drones:drone\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"eeeabsmobs:corpse\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"eeeabsmobs:guling_sentinel\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"eeeabsmobs:guling_sentinel_heavy\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"eeeabsmobs:immortal\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"eeeabsmobs:immortal_executioner\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"eeeabsmobs:immortal_golem\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"eeeabsmobs:immortal_knight\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"eeeabsmobs:immortal_shaman\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"eeeabsmobs:immortal_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:botfly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:crawler\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:direwolf\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:drone\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:equestrian\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:faller\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:flutterfly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:goblin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:huntsman\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:intruder\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:invisicreeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:ladybug\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:meature\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:scorpion\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:silverqueen\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:silverqueenbodiless\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:slugger\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:sprinter\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:starved\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:tarantula\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:troll\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:trollenraged\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:vampbiter\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:vampflyer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:vampire\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enemyexpansion:wasp\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enlightened_end:eidolon\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enlightened_end:floating_elevibloom\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enlightened_end:fumesplat\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enlightened_end:gloop\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enlightened_end:ringling\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enlightened_end:stalker\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"enlightened_end:void_leviathan\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"environmental:deer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"environmental:duck\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"environmental:koi\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"environmental:reindeer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"environmental:slabfish\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"environmental:tapir\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"environmental:yak\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"environmental:zebra\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"farlanders:classic_enderman\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"farlanders:ender_golem\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"farlanders:ender_guardian\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"farlanders:enderminion\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"farlanders:fanmade_enderman\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"farlanders:farlander\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"farlanders:looter\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"farlanders:mystic_enderman\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"farlanders:mystic_enderminion\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"farlanders:rebel\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"farlanders:titan\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"farlanders:wanderer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"fromtheshadows:bulldrogioth\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"fromtheshadows:cleric\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"fromtheshadows:froglin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"fromtheshadows:nehemoth\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"habitat:passerine\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"habitat:pooka\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"illageandspillage:absorber\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"illageandspillage:crocofang\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"illageandspillage:engineer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"illageandspillage:igniter\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"illageandspillage:ragno\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"jeg:phantom_gunner\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"just_in_nether:bullkin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"just_in_nether:bullkin_brute\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"just_in_nether:bullkindar\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"just_in_nether:dullkin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"just_in_nether:pigmar\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"just_in_nether:zombiefied_bullkin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"kobolds:kobold\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"kobolds:kobold_captain\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"kobolds:kobold_child\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"kobolds:kobold_enchanter\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"kobolds:kobold_engineer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"kobolds:kobold_pirate\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"kobolds:kobold_rascal\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"kobolds:kobold_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"kobolds:kobold_warrior\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"kobolds:kobold_zombie\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_beasts:bone_stalker\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_beasts:crimson_spitter\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_beasts:mummy\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_beasts:phoenixbird\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_beasts:piglin_executioner\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_beasts:soul_furnace\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_beasts:the_furnace\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_beasts:the_scarecrow\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_beasts:tree_ent\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_beasts:vile_gator\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_beasts:yeti\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_nether:basalt_executioner\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_nether:crimson_walker\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_nether:cultist_archer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_nether:cultist_rider\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_nether:mushlin_bumper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_nether:mushlin_spewer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_nether:piglin_cultist\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_nether:piglin_cultist_leader\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_nether:piglin_executioner\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_nether:piglin_ghost\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_nether:revenant_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"luminous_nether:warped_spewer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:baloon_eye\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:brainhemoth\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:brainjelly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:brainmite\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:cave_dweller\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:crawler\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:fatty\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:fly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:giant\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:gore_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:gorehound\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:hemoslime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:hollow\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:limbsplitter\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:limp\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:lurker\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:marauder\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:marrow\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:scalper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:skinmaw\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:smiley\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:smirk\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:spewer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:spitter\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:split\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:stinger\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:trunk\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"macabre:witness\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:alpha_crown_squid\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:axefish\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:blackwasp\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:bloodworm\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:crestguin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:crestling\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:crown_squid\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:end_manta\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:endermite_guardian\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:endermite_swarmer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:eye_guardian_crawler\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:eye_guardian_golem\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:eye_guardian_machine\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:eye_guardian_seeker\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:eye_guardian_walker\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:greater_endermitee\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:nomouth_enderman\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:starfly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:sunglider\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:void_jelly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mofus_better_end_:zombified_enderman\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"monsterplus:abyssologer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"monsterplus:crystal_zombie\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"monsterplus:glow_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"monsterplus:lava_squid\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"monsterplus:mother_lava_squid\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"monsterplus:opalescent_eye\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"monsterplus:overgrown_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"monsterplus:spectral_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"monsterplus:swamp_zombie\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mowziesmobs:ferrous_wroughtnaut\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mowziesmobs:frostmaw\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mowziesmobs:grottol\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mowziesmobs:lantern\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mowziesmobs:umvuthi\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mutantmonsters:mutant_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mutantmonsters:mutant_enderman\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mutantmonsters:mutant_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mutantmonsters:mutant_snow_golem\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mutantmonsters:mutant_zombie\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mutantmonsters:spider_pig\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mythsandlegends:imp\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"mythsandlegends:possessed_armor\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:alligator\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:bass\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:bear\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:bluejay\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:boar\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:butterfly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:canary\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:cardinal\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:caterpillar\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:catfish\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:coral_snake\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:deer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:dragonfly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:duck\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:elephant\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:finch\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:firefly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:giraffe\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:hippo\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:lion\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:lizard\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:rattlesnake\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:rhino\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:robin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:snail\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:snake\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:sparrow\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:tortoise\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:vulture\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"naturalist:zebra\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"netherexp:apparition\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"netherexp:banshee\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"netherexp:carcass\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"netherexp:ecto_slab\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"netherexp:stampede\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"netherexp:wisp\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"netherskeletons:basalt_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"netherskeletons:charred_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"netherskeletons:crimson_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"netherskeletons:crying_obby_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"netherskeletons:netherborn_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"netherskeletons:skelly_ghast\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"netherskeletons:skelly_piglin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"netherskeletons:soul_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"netherskeletons:warped_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"outer_end:entombed\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"outer_end:himmelite\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"outer_end:purpur_golem\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"outer_end:sinker\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"outer_end:spectrafly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"outer_end:stalker\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"ribbits:ribbit\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"rottencreatures:burned\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"rottencreatures:dead_beard\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"rottencreatures:frostbitten\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"rottencreatures:glacial_hunter\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"rottencreatures:immortal\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"rottencreatures:mummy\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"rottencreatures:swampy\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"rottencreatures:undead_miner\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"royalvariations:royal_creeper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"royalvariations:royal_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"royalvariations:royal_zombie\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"savage_and_ravage:creepie\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"savage_and_ravage:executioner\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"savage_and_ravage:griefer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"savage_and_ravage:iceologer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"savage_and_ravage:skeleton_villager\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"savage_and_ravage:trickster\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"scguns:blunderer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"scguns:cog_knight\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"scguns:cog_minion\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"scguns:dissident\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"scguns:hive\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"scguns:hornlin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"scguns:redcoat\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"scguns:sky_carrier\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"scguns:zombified_hornlin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"takesapillage:archer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"takesapillage:clay_golem\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"takesapillage:legioner\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"takesapillage:skirmisher\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:black_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:blood_crawler\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:blood_zombie\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:blue_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:cave_bat\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:corrupted_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:crimson_kemera\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:crimson_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:demon_eye\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:desert_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:devourer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:drippler\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:eater_of_souls\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:evil_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:face_monster\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:flying_fish\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:giant_shelly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:giant_worm\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:green_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:hell_bat\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:honey_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:hornet\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:ice_bat\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:ice_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:jungle_bat\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:jungle_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:lava_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:luminous_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:pink_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:purple_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:red_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:snatcher\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:spore_bat\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:swamp_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:wandering_eye_fish\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terra_entity:yellow_slime\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:blue_fairy\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:cave_gnome\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:conjurling\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:dungeon_effigy\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:dungeon_sentry\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:duskrok\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:echo_bug\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:elite_skeleton\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:enchanter_merlin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:gatmancer\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:green_fairy\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:hellrok\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:megabite\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:pink_fairy\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:royal_gnome\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:sorceress_circe\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:thunker\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:uvogre\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"terramity:virtue\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"theinkarena:ink_brute\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"theinkarena:ink_titan\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"theinkarena:ink_worm\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"theinkarena:splotch\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:armor_of_desert\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:basalt_wyvern\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:cave_hunter\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:diplocaulus\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:dracoscorpius\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:earth_drill\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:earth_loong\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:elite_skeleton_minion\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:ferox_death_worm\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:ferox_ice_worm\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:flame_horn\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:forest_drake\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:frostbite\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:hydra\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:ice_fairy\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:ice_fairy_guardian\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:knowledge_fairy\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:moon_priest\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:nature_fairy\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:regalhart\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:rock_snail\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:sandworm\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:steelboar\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:strong_zombie\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:strong_zombie_warrior\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:tall_mouse\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:terra_dragon\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:tide_specter\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"threateningly_mobs:titan_rabbit\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"undead_unleashed:dreadknight\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"undead_unleashed:flamebreather\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"undead_unleashed:haunter\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"undead_unleashed:shadewraith\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"unusualend:bluk\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"unusualend:bolok\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"unusualend:dragling\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"unusualend:ender_blob\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"unusualend:ender_firefly\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"unusualend:enderblob_queen\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"unusualend:enderbulb\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"unusualend:endstone_golem\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"unusualend:endstone_trapper\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"unusualend:glub\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"unusualend:small_enderbulb\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"unusualend:spunkler\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"unusualend:summoned_dragling\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"unusualend:undead_enderling\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"variantsandventures:gelid\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"variantsandventures:murk\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"variantsandventures:thicket\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"variantsandventures:verdant\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"whisperwoods:zotzpyre\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"zombiesmore:boomer_zombie\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"zombiesmore:crawler\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"zombiesmore:cursed_zombie\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"zombiesmore:explosive_zombie\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"zombiesmore:tank_zombie\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:clawdian\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:cindaria\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:hippocamtus\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obtrophies:trophy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{entity:\"cataclysm:urchinkin\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "loot_table": "serverv3:chests/medium_trophy",
+  "max_result_itemcount": 1,
+  "integrated_loot_tables": {
+    "hopo:chests/portal/better_ruined_portal": 1,
+    "hopo:chests/portal/ruined_portal_cool": 1,
+    "hopo:chests/portal/dripstone_portal": 1,
+    "hopo:chests/portal/lush_portal": 1,
+    "hopo:chests/portal/piglin_ruin": 1
+  }
+}
