@@ -4,7 +4,7 @@
   "spawners": [
     {
       "type": "treasures_of_the_dead:totd_skeleton",
-      "weight": 20,
+      "weight": 75,
       "minCount": 3,
       "maxCount": 4
     },

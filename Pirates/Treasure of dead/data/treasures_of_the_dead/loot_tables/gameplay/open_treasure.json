@@ -94,13 +94,13 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.25
+          "chance": 0.5
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 4,
           "name": "minecraft:diamond",
           "functions": [
             {
@@ -144,7 +144,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 3
+              "levels": 5
             },
             {
               "function": "minecraft:enchant_randomly",
@@ -231,7 +231,7 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": 3,
       "entries": [
         {
           "type": "minecraft:item",
@@ -257,55 +257,19 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 3,
-        "max": 6
+        "min": 50,
+        "max": 100
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cscurrency:dollar_one",
+          "name": "lightmanscurrency:coin_gold",
           "weight": 50
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cscurrency:dollar_two",
-          "weight": 30
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cscurrency:dollar_five",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cscurrency:dollar_ten",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cscurrency:dollar_twenty",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cscurrency:dollar_fifty",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cscurrency:dollar_hundred",
-          "weight": 1
         }
       ]
     },
     {
       "rolls": 1,
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.25
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",

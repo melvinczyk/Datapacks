@@ -5,6 +5,8 @@
     "minecraft:old_growth_spruce_taiga",
     "minecraft:old_growth_pine_taiga",
     "minecraft:windswept_hills",
-    "minecraft:savanna_plateau"
+    "minecraft:savanna_plateau",
+    "minecraft:jungle",
+    "minecraft:beach"
   ]
 }

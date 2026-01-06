@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#minecraft:is_overworld",
+  "spawners": [
+    {
+      "type": "treasures_of_the_dead:skeleton_crew_camp",
+      "weight": 50,
+      "minCount": 3,
+      "maxCount": 4
+    }
+  ]
+}
