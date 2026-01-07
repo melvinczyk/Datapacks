@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "nether_wastes",
+  "spawners": {
+    "type": "threateningly_mobs:scorch_golem",
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

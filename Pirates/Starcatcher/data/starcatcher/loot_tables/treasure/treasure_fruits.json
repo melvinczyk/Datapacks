@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:mera_meranomi"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:leopardnomi"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:goro_goronomi"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:pika_pikanomi"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:magu_magunomi"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:zushi_zushinomi"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:gura_guranomi"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:ope_openomi"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:gomu_gomunomi"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:doku_dokunomi"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:uo_uonomi"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:nikyu_nikyunomi"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:mochi_mochinomi"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:guru_gurunomi"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:tori_torinomi"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "trueprimepiecetwo:suke_sukenomi"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "starcatcher:treasure"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "abb"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:foods/fruit"
+    },
+    "b": {
+      "tag": "forge:crops"
+    }
+  },
+  "result": {
+    "item": "threateningly_mobs:pet_salad",
+    "count": 3
+  }
+}

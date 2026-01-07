@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "threateningly_mobs:distortion_land",
+  "features": "threateningly_mobs:distortion_trees",
+  "step": "local_modifications"
+}

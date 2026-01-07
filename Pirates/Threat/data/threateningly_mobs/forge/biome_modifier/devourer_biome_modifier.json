@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "threateningly_mobs:distortion_land",
+  "spawners": {
+    "type": "threateningly_mobs:devourer",
+    "weight": 12,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "threateningly_mobs:inanition_heart"
+    },
+    "title": {
+      "translate": "advancements.saint_defeat.title"
+    },
+    "description": {
+      "translate": "advancements.saint_defeat.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "saint_defeat_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "threateningly_mobs:ebonlord_get"
+}

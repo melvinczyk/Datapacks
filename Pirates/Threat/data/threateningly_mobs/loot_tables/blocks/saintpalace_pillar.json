@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "threateningly_mobs:blocks/saintpalace_pillar",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "threateningly_mobs:saintpalace_pillar"
+        }
+      ]
+    }
+  ]
+}

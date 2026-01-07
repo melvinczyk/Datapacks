@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "threateningly_mobs:flame_dungeon_slab",
+    "threateningly_mobs:ice_dungeon_bricks",
+    "threateningly_mobs:flame_dungeon_stair",
+    "threateningly_mobs:ice_dungeon_wall",
+    "threateningly_mobs:flame_dungeon_light",
+    "threateningly_mobs:bionics_metal_block",
+    "threateningly_mobs:flame_dungeon_chisel_bricks",
+    "threateningly_mobs:flame_dungeon_bricks",
+    "threateningly_mobs:flame_dungeon_wall",
+    "threateningly_mobs:forest_dungeon_bricks",
+    "threateningly_mobs:ice_dungeon_pillar",
+    "threateningly_mobs:ice_dungeon_light",
+    "threateningly_mobs:ice_dungeon_chisel_bricks",
+    "threateningly_mobs:flame_dungeon_cracked_bricks",
+    "threateningly_mobs:forest_dungeon_pillar",
+    "threateningly_mobs:forest_dungeon_brick_slab",
+    "threateningly_mobs:forest_dungeon_stair",
+    "threateningly_mobs:flame_dungeon_pillar",
+    "threateningly_mobs:ice_dungeon_trap",
+    "threateningly_mobs:flame_dungeon_trap",
+    "threateningly_mobs:ice_dungeon_slab",
+    "threateningly_mobs:forest_dungeon_light",
+    "threateningly_mobs:forest_dungeon_brick_wall",
+    "threateningly_mobs:ice_dungeon_cracked_bricks",
+    "threateningly_mobs:forest_dungeon_chisel_brick",
+    "threateningly_mobs:ice_dungeon_stair"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "threateningly_mobs:sea_cucumber_nest",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 12,
+    "salt": 651141991
+  }
+}

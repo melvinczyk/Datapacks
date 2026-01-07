@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "threateningly_mobs:saintpalace_cracked_bricks",
+    "threateningly_mobs:saintpalace_bricks",
+    "threateningly_mobs:saintpalace_pillarbase",
+    "threateningly_mobs:saintpalace_pillar",
+    "threateningly_mobs:stardust_sandstone",
+    "threateningly_mobs:magic_crystal_block",
+    "threateningly_mobs:stardust_smooth_sandstone",
+    "threateningly_mobs:saintpalace_golden_pillar"
+  ]
+}

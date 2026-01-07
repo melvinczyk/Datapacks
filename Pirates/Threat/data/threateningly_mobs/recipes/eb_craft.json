@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "threateningly_mobs:magic_bladefragments"
+    },
+    "b": {
+      "tag": "threateningly_mobs:threat_tier_high"
+    },
+    "c": {
+      "tag": "threateningly_mobs:threat_tier_ultra"
+    }
+  },
+  "result": {
+    "item": "threateningly_mobs:emperor_blade",
+    "count": 1
+  }
+}

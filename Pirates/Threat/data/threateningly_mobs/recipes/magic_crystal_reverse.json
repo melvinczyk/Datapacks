@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "threateningly_mobs:magic_crystal"
+    }
+  },
+  "result": {
+    "item": "threateningly_mobs:magic_dust",
+    "count": 4
+  }
+}

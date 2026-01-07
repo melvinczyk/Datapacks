@@ -1,0 +1,17 @@
+{
+  "name": "threateningly_mobs:distortion_village_end",
+  "fallback": "threateningly_mobs:distortion_village_end",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "threateningly_mobs:distortion_road2",
+        "projection": "terrain_matching",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

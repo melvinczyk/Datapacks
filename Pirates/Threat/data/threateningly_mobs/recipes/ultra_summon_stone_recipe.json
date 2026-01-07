@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "threateningly_mobs:magic_dust"
+    },
+    "b": {
+      "item": "threateningly_mobs:magic_crystal"
+    },
+    "c": {
+      "tag": "threateningly_mobs:threat_tier_high"
+    },
+    "d": {
+      "item": "threateningly_mobs:advanced_summon_stone"
+    }
+  },
+  "result": {
+    "item": "threateningly_mobs:ultra_summon_stone",
+    "count": 1
+  }
+}

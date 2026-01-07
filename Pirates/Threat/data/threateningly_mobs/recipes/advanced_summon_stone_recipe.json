@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "threateningly_mobs:magic_dust"
+    },
+    "b": {
+      "tag": "threateningly_mobs:threat_tier_normal"
+    },
+    "c": {
+      "item": "threateningly_mobs:normal_summon_stone"
+    }
+  },
+  "result": {
+    "item": "threateningly_mobs:advanced_summon_stone",
+    "count": 1
+  }
+}

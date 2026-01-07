@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "threateningly_mobs:forestdungeon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 24,
+    "separation": 16,
+    "salt": 374019213
+  }
+}

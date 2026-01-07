@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "desert",
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands",
+    "savanna",
+    "savanna_plateau",
+    "windswept_savanna"
+  ],
+  "spawners": {
+    "type": "threateningly_mobs:sandworm",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

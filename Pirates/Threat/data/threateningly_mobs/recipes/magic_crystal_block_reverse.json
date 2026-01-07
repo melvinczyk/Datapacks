@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "threateningly_mobs:magic_crystal_block"
+    }
+  ],
+  "result": {
+    "item": "threateningly_mobs:magic_crystal",
+    "count": 9
+  }
+}

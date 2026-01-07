@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "threateningly_mobs:ebonlord_block"
+    }
+  ],
+  "result": {
+    "item": "threateningly_mobs:ebonlord_ingot",
+    "count": 9
+  }
+}

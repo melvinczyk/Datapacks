@@ -3,7 +3,7 @@
 	"biomes": "#oceanicrealms:warm_oceans",
 	"spawners": {
 		"type": "oceanicrealms:sailfish",
-		"weight": 40,
+		"weight": 60,
 		"minCount": 1,
 		"maxCount": 1
 	}

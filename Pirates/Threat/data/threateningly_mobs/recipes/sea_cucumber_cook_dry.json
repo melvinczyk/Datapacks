@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "experience": 2,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "threateningly_mobs:raw_seacucumber"
+  },
+  "result": "threateningly_mobs:dry_seacucumber"
+}

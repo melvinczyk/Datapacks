@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "threateningly_mobs:dracoscorpius_nest",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 24,
+    "separation": 16,
+    "salt": 883361556
+  }
+}

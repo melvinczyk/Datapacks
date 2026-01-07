@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "threateningly_mobs:blocks/flame_dungeon_trap",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "threateningly_mobs:flame_dungeon_trap"
+        }
+      ]
+    }
+  ]
+}

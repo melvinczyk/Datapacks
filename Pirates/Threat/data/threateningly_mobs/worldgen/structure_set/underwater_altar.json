@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "threateningly_mobs:underwater_altar",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 36,
+    "separation": 18,
+    "salt": 1183592935
+  }
+}

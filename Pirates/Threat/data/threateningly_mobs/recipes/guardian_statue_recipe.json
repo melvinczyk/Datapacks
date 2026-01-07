@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:stone_bricks"
+    },
+    "b": {
+      "item": "threateningly_mobs:guardian_core"
+    },
+    "c": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "result": {
+    "item": "threateningly_mobs:guardian_statue_item",
+    "count": 1
+  }
+}

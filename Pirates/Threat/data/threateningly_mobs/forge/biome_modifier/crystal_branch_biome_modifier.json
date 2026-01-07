@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "threateningly_mobs:star_desert",
+  "features": "threateningly_mobs:crystal_branch",
+  "step": "vegetal_decoration"
+}

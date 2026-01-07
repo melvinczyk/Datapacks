@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "threateningly_mobs:firelizard_tail",
+    "threateningly_mobs:cooked_arthropod_meat",
+    "threateningly_mobs:cookedcopasmeat",
+    "threateningly_mobs:cooked_diplocaulus_meat",
+    "threateningly_mobs:cookedlouxiameat",
+    "threateningly_mobs:cooked_raptile_meat"
+  ]
+}

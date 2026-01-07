@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "dcd"
+  ],
+  "key": {
+    "a": {
+      "item": "threateningly_mobs:wood_horn"
+    },
+    "b": {
+      "tag": "threateningly_mobs:threat_tier_ultra"
+    },
+    "c": {
+      "item": "minecraft:blaze_rod"
+    },
+    "d": {
+      "tag": "threateningly_mobs:threat_tier_high"
+    }
+  },
+  "result": {
+    "item": "threateningly_mobs:emperor_handle",
+    "count": 1
+  }
+}

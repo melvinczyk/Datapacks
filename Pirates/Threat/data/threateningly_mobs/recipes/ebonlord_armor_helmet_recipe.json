@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "threateningly_mobs:ebonlord_ingot"
+    }
+  },
+  "result": {
+    "item": "threateningly_mobs:ebonlord_armor_helmet",
+    "count": 1
+  }
+}

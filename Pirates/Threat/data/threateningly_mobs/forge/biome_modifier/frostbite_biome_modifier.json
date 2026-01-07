@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "snowy_slopes",
+    "snowy_beach",
+    "snowy_plains",
+    "snowy_taiga",
+    "cold_ocean",
+    "deep_cold_ocean",
+    "ice_spikes"
+  ],
+  "spawners": {
+    "type": "threateningly_mobs:frostbite",
+    "weight": 16,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

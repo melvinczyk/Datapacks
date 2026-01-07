@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "threateningly_mobs:guardian_core"
+    },
+    "title": {
+      "translate": "advancements.armor_of_desert_defeat.title"
+    },
+    "description": {
+      "translate": "advancements.armor_of_desert_defeat.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "armor_of_desert_defeat_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "threateningly_mobs:the_threateningly_mobs"
+}

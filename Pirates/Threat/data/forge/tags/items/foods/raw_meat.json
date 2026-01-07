@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "threateningly_mobs:arthropod_meat",
+    "threateningly_mobs:raptile_meat",
+    "threateningly_mobs:diplocaulus_meat",
+    "threateningly_mobs:louxiameat",
+    "threateningly_mobs:copasmeat",
+    "threateningly_mobs:cannon_crab_claw"
+  ]
+}

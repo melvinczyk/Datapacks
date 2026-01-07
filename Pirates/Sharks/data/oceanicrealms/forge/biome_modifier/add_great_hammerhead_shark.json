@@ -3,7 +3,7 @@
 	"biomes": "minecraft:deep_lukewarm_ocean",
 	"spawners": {
 		"type": "oceanicrealms:great_hammerhead_shark",
-		"weight": 20,
+		"weight": 50,
 		"minCount": 1,
 		"maxCount": 1
 	}

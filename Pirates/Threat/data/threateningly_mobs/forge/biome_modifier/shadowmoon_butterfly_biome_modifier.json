@@ -1,0 +1,24 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "birch_forest",
+    "dark_forest",
+    "flower_forest",
+    "forest",
+    "old_growth_birch_forest",
+    "windswept_forest",
+    "plains",
+    "snowy_plains",
+    "sunflower_plains",
+    "bamboo_jungle",
+    "jungle",
+    "sparse_jungle",
+    "meadow"
+  ],
+  "spawners": {
+    "type": "threateningly_mobs:shadowmoon_butterfly",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

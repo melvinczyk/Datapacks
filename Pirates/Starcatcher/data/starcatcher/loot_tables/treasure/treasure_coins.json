@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "lightmanscurrency:coinpile_gold"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "lightmanscurrency:coinpile_gold"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "lightmanscurrency:coinpile_gold"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "lightmanscurrency:coinpile_gold"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "lightmanscurrency:coinpile_gold"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "lightmanscurrency:coinblock_gold"
+                }
+            ],
+            "rolls": 1
+        }
+    ],
+    "random_sequence": "starcatcher:treasure"
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "threateningly_mobs:forestdrake_nest",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 24,
+    "separation": 16,
+    "salt": 1599875897
+  }
+}

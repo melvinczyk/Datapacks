@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "threateningly_mobs:arthropod_meat",
+    "threateningly_mobs:firelizard_tail",
+    "threateningly_mobs:raptile_meat",
+    "threateningly_mobs:diplocaulus_meat"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "threateningly_mobs:raptile_meat"
+  },
+  "result": "threateningly_mobs:cooked_raptile_meat"
+}

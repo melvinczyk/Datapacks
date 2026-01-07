@@ -1,0 +1,76 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_core:earth_core"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_core:fire_essence"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_core:ocean_essence"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_core:warden_sclerite"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_core:light_fragment"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_core:midnight_fragment"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_core:death_essence"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_core:pure_nether_star"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_core:shulker_scrap"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_core:soaring_wings"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_core:heart_fragment"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_core:sakura_fragment"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_core:guardian_spike"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_core:broken_totem"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_core:treasure_fragment"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_core:void_essence"
+                }
+            ],
+            "rolls": 1
+        }
+    ],
+    "random_sequence": "starcatcher:treasure"
+}

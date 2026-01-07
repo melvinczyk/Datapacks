@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "mangrove_swamp",
+    "swamp",
+    "beach"
+  ],
+  "spawners": {
+    "type": "threateningly_mobs:diplocaulus",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

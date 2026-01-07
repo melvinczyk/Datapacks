@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "threateningly_mobs:blocks/crystal_branch",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz",
+          "conditions": [
+            {
+              "block": "threateningly_mobs:crystal_branch",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

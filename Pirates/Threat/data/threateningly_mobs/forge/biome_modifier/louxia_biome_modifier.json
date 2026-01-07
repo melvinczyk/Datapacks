@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "plains",
+    "sunflower_plains"
+  ],
+  "spawners": {
+    "type": "threateningly_mobs:louxia",
+    "weight": 10,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

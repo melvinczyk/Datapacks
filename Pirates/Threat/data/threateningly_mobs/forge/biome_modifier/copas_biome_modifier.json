@@ -1,0 +1,20 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands",
+    "windswept_forest",
+    "windswept_gravelly_hills",
+    "windswept_hills",
+    "windswept_savanna",
+    "savanna",
+    "savanna_plateau"
+  ],
+  "spawners": {
+    "type": "threateningly_mobs:copas",
+    "weight": 10,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

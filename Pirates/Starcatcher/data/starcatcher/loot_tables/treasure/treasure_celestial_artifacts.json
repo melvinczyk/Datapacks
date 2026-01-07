@@ -1,0 +1,84 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:the_end_dust"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:nebula_cube"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:gold_ring"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:traveler_scroll"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:red_ruby_bracelet"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:charming_bracelet"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:fang_necklace"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:heirloom_necklace"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:ender_protector"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:guardian_eye"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:catastrophe_scroll"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:chaotic_etching"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:origin_etching"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:life_etching"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:truth_etching"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:desire_etching"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:nihility_etching"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "celestial_artifacts:end_etching"
+                }
+            ],
+            "rolls": 1
+        }
+    ],
+    "random_sequence": "starcatcher:treasure"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "threateningly_mobs:blocks/purple_soul_flower",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "threateningly_mobs:purple_soul_flower"
+        }
+      ]
+    }
+  ]
+}

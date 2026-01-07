@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "plains",
+    "savanna_plateau",
+    "sunflower_plains"
+  ],
+  "spawners": {
+    "type": "threateningly_mobs:tall_mouse",
+    "weight": 12,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

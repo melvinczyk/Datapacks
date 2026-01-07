@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sniffer_egg",
+    "threateningly_mobs:forest_drake_egg",
+    "minecraft:turtle_egg",
+    "minecraft:egg"
+  ]
+}

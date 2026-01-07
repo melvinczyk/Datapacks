@@ -3,7 +3,7 @@
 	"biomes": "#oceanicrealms:warm_oceans",
 	"spawners": {
 		"type": "oceanicrealms:dolphinfish",
-		"weight": 20,
+		"weight": 40,
 		"minCount": 5,
 		"maxCount": 7
 	}

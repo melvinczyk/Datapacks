@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "threateningly_mobs:glowingswell"
+    }
+  },
+  "result": {
+    "item": "threateningly_mobs:louxia_lamp",
+    "count": 1
+  }
+}

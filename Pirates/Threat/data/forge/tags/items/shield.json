@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:shield",
+    "threateningly_mobs:ebonlord_shield",
+    "threateningly_mobs:magma_shell_shield"
+  ]
+}

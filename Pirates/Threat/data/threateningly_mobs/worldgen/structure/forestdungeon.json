@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "threateningly_mobs:forestdungeon",
+  "size": 4,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "strongholds",
+  "terrain_adaptation": "none",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": -40
+    },
+    "max_inclusive": {
+      "absolute": 48
+    }
+  },
+  "biomes": "#minecraft:is_forest",
+  "use_expansion_hack": false
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "abd"
+  ],
+  "key": {
+    "a": {
+      "item": "threateningly_mobs:dry_seacucumber"
+    },
+    "b": {
+      "tag": "forge:foods/cooked_meat"
+    },
+    "c": {
+      "item": "minecraft:golden_carrot"
+    },
+    "d": {
+      "tag": "forge:foods/berry"
+    }
+  },
+  "result": {
+    "item": "threateningly_mobs:seacucumber_stew",
+    "count": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "threateningly_mobs:blocks/bionics_metal_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "threateningly_mobs:bionics_metal_block"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 2,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "threateningly_mobs:raw_seacucumber"
+  },
+  "result": "threateningly_mobs:dry_seacucumber"
+}

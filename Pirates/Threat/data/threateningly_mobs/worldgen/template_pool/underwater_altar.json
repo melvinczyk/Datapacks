@@ -1,0 +1,32 @@
+{
+  "name": "threateningly_mobs:underwater_altar",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "threateningly_mobs:summon_altar2",
+        "projection": "rigid",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:block_ignore",
+              "blocks": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Name": "minecraft:void_air"
+                },
+                {
+                  "Name": "minecraft:cave_air"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

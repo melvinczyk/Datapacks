@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_nugget"
+    },
+    "b": {
+      "item": "minecraft:gold_ingot"
+    },
+    "c": {
+      "item": "threateningly_mobs:forest_trial_proving"
+    },
+    "d": {
+      "item": "threateningly_mobs:grass_scarf"
+    }
+  },
+  "result": {
+    "item": "threateningly_mobs:royal_crown",
+    "count": 1
+  }
+}

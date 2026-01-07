@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "threateningly_mobs:posion_goo"
+    },
+    "title": {
+      "translate": "advancements.the_threateningly_mobs.title"
+    },
+    "description": {
+      "translate": "advancements.the_threateningly_mobs.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_threateningly_mobs_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

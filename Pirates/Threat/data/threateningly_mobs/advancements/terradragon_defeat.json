@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "threateningly_mobs:terradragon_heatbone"
+    },
+    "title": {
+      "translate": "advancements.terradragon_defeat.title"
+    },
+    "description": {
+      "translate": "advancements.terradragon_defeat.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "terradragon_defeat_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "threateningly_mobs:nature_sprirt_defeat"
+}

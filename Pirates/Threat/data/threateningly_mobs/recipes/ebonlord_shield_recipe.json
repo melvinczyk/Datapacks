@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cac",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "threateningly_mobs:ebonlord_ingot"
+    },
+    "b": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "c": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "threateningly_mobs:ebonlord_shield",
+    "count": 1
+  }
+}
