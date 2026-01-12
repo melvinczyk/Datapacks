@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "sirens:textures/screens/pris.png",
+    "icon": {
+      "item": "sirens:sea_scale_dagger"
+    },
+    "title": {
+      "translate": "advancements.kill_the_songs_of_the_sea.title"
+    },
+    "description": {
+      "translate": "advancements.kill_the_songs_of_the_sea.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_the_songs_of_the_sea_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 3,
+    "recipes": [
+      "sirens:scale_helmet"
+    ]
+  }
+}

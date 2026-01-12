@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "pillagersplus:ship_2",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 2,
+    "salt": 786995682
+  }
+}

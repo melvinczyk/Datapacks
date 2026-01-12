@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:empty",
+    "pools": [
+        {
+            "bonus_rolls": 0,
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "l2artifacts:random_1",
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "l2artifacts:random_2",
+                    "weight": 35
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "l2artifacts:random_3",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "l2artifacts:random_4",
+                    "weight": 7
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "l2artifacts:random_5",
+                    "weight": 3
+                }
+            ]
+        }
+    ],
+    "random_sequence": "starcatcher:treasure"
+}

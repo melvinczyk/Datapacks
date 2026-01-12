@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "sirens:ghostly_anchor"
+    },
+    "title": {
+      "translate": "advancements.drowned_in_the_deep.title"
+    },
+    "description": {
+      "translate": "advancements.drowned_in_the_deep.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "drowned_in_the_deep_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 3,
+    "recipes": [
+      "sirens:ghostly_anchored"
+    ]
+  },
+  "parent": "sirens:kill_the_songs_of_the_sea"
+}

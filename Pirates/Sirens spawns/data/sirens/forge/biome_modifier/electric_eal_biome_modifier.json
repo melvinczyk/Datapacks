@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "mangrove_swamp",
+    "swamp"
+  ],
+  "spawners": {
+    "type": "sirens:electric_eal",
+    "weight": 8,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

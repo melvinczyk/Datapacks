@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "pillagersplus:easy_2_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 1,
+    "salt": 1135382289
+  }
+}

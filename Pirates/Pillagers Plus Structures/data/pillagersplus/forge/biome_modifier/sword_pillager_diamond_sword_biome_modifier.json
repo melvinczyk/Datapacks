@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "pillagersplus:nasonice",
+  "spawners": {
+    "type": "pillagersplus:sword_pillager_diamond_sword",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

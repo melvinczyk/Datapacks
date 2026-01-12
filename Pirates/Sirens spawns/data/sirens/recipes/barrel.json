@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hiding_barrel",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "c": {
+      "tag": "minecraft:wool_carpets"
+    }
+  },
+  "result": {
+    "item": "sirens:barrel",
+    "count": 1
+  }
+}

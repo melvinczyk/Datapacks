@@ -1,0 +1,26 @@
+{
+  "name": "philipsruins:desert_structures",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "philipsruins:sand_house",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "philipsruins:lost_desert_ruin1",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
+
+

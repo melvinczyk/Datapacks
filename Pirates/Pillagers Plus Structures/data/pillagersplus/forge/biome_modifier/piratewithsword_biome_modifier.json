@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "beach",
+    "snowy_beach"
+  ],
+  "spawners": {
+    "type": "pillagersplus:piratewithsword",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

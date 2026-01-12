@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "l2artifacts:random_1",
+                    "weight": 40
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "l2artifacts:random_2",
+                    "weight": 30
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "l2artifacts:random_3",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "l2artifacts:random_4",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "l2artifacts:random_5",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 45
+                }
+            ]
+        }
+    ]
+}

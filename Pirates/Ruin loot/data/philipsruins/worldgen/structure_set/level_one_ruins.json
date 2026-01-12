@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "philipsruins:level_one_ruins",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 368134891,
+    "spacing": 23,
+    "separation": 4
+  }
+}

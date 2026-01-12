@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "pillagersplus:nasonice",
+  "spawners": {
+    "type": "pillagersplus:royal_guards",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

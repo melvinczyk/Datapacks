@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "sirens:siren_sea_stone",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 30,
+    "separation": 4,
+    "salt": 111820536
+  }
+}

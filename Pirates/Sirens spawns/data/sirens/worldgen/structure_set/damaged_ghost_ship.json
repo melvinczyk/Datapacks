@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "sirens:damaged_ghost_ship",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 35,
+    "separation": 5,
+    "salt": 153740324
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "sirens:controlle_staff"
+    },
+    "title": {
+      "translate": "advancements.prowler_tamer.title"
+    },
+    "description": {
+      "translate": "advancements.prowler_tamer.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "prowler_tamer_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 3,
+    "recipes": [
+      "sirens:controlle_staff",
+      "sirens:barrel"
+    ]
+  },
+  "parent": "sirens:explosive_science"
+}

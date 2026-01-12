@@ -1,17 +1,21 @@
 {
-    "rolls": 2,
-    "entries": [
+    "pools": [
         {
-            "type": "minecraft:item",
-            "name": "lightmanscurrency:coin_gold",
-            "weight": 50,
-            "functions": [
+            "rolls": 3,
+            "entries": [
                 {
-                    "function": "minecraft:set_count",
-                    "count": {
-                        "min": 0,
-                        "max": 3
-                    }
+                    "type": "minecraft:item",
+                    "name": "lightmanscurrency:coin_gold",
+                    "weight": 50,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 3
+                            }
+                        }
+                    ]
                 }
             ]
         }

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pillagersplus",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aba",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:leather_chestplate"
+    },
+    "c": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "pillagersplus:basic_pillager_armor_chestplate",
+    "count": 1
+  }
+}

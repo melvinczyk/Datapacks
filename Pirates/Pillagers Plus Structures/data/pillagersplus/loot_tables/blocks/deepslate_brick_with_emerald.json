@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "pillagersplus:blocks/deepslate_brick_with_emerald",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pillagersplus:deepslate_brick_with_emerald"
+        }
+      ]
+    }
+  ]
+}

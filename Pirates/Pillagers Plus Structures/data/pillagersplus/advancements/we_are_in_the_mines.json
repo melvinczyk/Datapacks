@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "pillagersplus:deepslate_brick_with_emerald"
+    },
+    "title": {
+      "translate": "advancements.we_are_in_the_mines.title"
+    },
+    "description": {
+      "translate": "advancements.we_are_in_the_mines.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "we_are_in_the_mines_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pillagersplus:deepslate_brick_with_emerald"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "pillagersplus:we_are_in_the_mines"
+}

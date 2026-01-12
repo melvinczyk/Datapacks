@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "dark_forest",
+    "swamp",
+    "pillagersplus:nasonice"
+  ],
+  "spawners": {
+    "type": "pillagersplus:hog_rider",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

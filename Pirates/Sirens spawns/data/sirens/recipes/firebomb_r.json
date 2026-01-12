@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bomb",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "minecraft:flint"
+    },
+    "c": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "sirens:fire_bomb",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "sirens:raid_anchor_crewmate",
+    "sirens:raid_ghost_captain",
+    "sirens:raid_ghost_crew_mate"
+  ]
+}

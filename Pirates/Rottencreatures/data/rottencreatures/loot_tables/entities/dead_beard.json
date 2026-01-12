@@ -302,6 +302,31 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 10,
+        "max": 20
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "lightmanscurrency:coin_gold",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
     }
   ]
 }

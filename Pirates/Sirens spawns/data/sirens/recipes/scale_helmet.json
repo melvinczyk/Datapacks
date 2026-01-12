@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "siren_helmet",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "sirens:siren_scales"
+    },
+    "b": {
+      "item": "sirens:salors_coin"
+    }
+  },
+  "result": {
+    "item": "sirens:siren_helm_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+    
+
+  "name": "philipsruins:lost_soul_dungeon/side_pool2",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+   
+      
+        "location": "philipsruins:walkway2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

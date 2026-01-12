@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kraken_sword",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "sirens:kraken_fang"
+    },
+    "b": {
+      "item": "sirens:siren_scales"
+    }
+  },
+  "result": {
+    "item": "sirens:kraken_tools_sword",
+    "count": 1
+  }
+}

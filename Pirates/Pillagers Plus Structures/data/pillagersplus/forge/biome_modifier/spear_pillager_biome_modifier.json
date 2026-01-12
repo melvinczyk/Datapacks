@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "dark_forest",
+    "pillagersplus:nasonice"
+  ],
+  "spawners": {
+    "type": "pillagersplus:spear_pillager",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

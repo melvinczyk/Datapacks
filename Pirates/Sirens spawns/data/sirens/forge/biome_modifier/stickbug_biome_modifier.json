@@ -1,0 +1,19 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "bamboo_jungle",
+    "jungle",
+    "sparse_jungle",
+    "cherry_grove",
+    "flower_forest",
+    "mangrove_swamp",
+    "mushroom_fields",
+    "swamp"
+  ],
+  "spawners": {
+    "type": "sirens:stickbug",
+    "weight": 11,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

@@ -3,7 +3,7 @@
     "biomes": "#minecraft:is_ocean",
     "spawners": {
         "type": "threateningly_mobs:abyss_fang",
-        "weight": 7,
+        "weight": 2,
         "minCount": 1,
         "maxCount": 1
     }

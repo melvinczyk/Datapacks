@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pillagersplus",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "bab",
+    "bab"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "pillagersplus:evoker_armor_chestplate",
+    "count": 1
+  }
+}

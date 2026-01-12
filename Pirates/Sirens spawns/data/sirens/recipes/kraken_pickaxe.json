@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "kraken_pickaxe",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "sirens:kraken_fang"
+    },
+    "b": {
+      "item": "minecraft:ender_pearl"
+    },
+    "c": {
+      "item": "sirens:siren_scales"
+    }
+  },
+  "result": {
+    "item": "sirens:kraken_tools_pickaxe",
+    "count": 1
+  }
+}

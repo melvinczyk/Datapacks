@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "sirens:dynamite"
+    },
+    "title": {
+      "translate": "advancements.explosive_science.title"
+    },
+    "description": {
+      "translate": "advancements.explosive_science.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "explosive_science_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sirens:dynamite"
+            ],
+            "count": {
+              "min": 1,
+              "max": 38
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3,
+    "recipes": [
+      "sirens:dynamite"
+    ]
+  },
+  "parent": "sirens:drowned_in_the_deep"
+}

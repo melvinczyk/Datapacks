@@ -1,0 +1,21 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "cold_ocean",
+    "deep_cold_ocean",
+    "deep_frozen_ocean",
+    "deep_lukewarm_ocean",
+    "deep_ocean",
+    "frozen_ocean",
+    "lukewarm_ocean",
+    "ocean",
+    "warm_ocean",
+    "desert"
+  ],
+  "spawners": {
+    "type": "sirens:haunted_ghost_basket_shark",
+    "weight": 7,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

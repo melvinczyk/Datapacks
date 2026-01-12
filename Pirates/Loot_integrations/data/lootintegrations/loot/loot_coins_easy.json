@@ -1,0 +1,34 @@
+{
+    "loot_table": "lootintegrations:chests/coins_easy",
+    "max_result_itemcount": 5,
+    "integrated_loot_tables": {
+        "minecraft:chests/pillager_outpost": 2,
+        "minecraft:chests/abandoned_mineshaft": 2,
+        "minecraft:chests/simple_dungeon": 2,
+        "minecraft:chests/trial_chambers/corridor": 1,
+        "minecraft:chests/trial_chambers/reward_common": 1,
+        "minecraft:chests/trial_chambers/reward_ominous_common": 1,
+        "celestial_artifacts:chests/village_plains_house": 1,
+        
+        "seadwellers:gameplay/architect_loot_crate": 1,
+        "seadwellers:gameplay/blacksmith_loot_crate": 1,
+        "seadwellers:gameplay/cavern_loot_crate": 1,
+        "seadwellers:gameplay/collector_loot_crate": 1,
+        "seadwellers:gameplay/coral_loot_crate": 1,
+        "seadwellers:gameplay/farmer_loot_crate": 1,
+        "seadwellers:gameplay/hunter_loot_crate": 1,
+        "seadwellers:gameplay/icy_loot_crate": 1,
+        "seadwellers:gameplay/mermorph_loot_crate": 1,
+        "seadwellers:gameplay/river_loot_crate": 1,
+        "minecraft:gameplay/fishing/treasure": 1,
+        "mtr:stronghold_corridor_common": 1,
+        "forgottenruins:chest/exterior": 2,
+        "forgottenruins:chest/farming": 2,
+        "hopo:chests/copper": 1,
+        "hopo:chests/small_ruin_cold": 1,
+        "hopo:chests/small_ruin_warm": 1,
+        "minecraft:chests/underwater_ruin_small": 1,
+        "mtr:desert_temple_wall_chest": 1,
+        "mtr:desert_temple_pillar_chest": 1
+    }
+}

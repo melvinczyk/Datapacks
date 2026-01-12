@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "pillagersplus:hammer"
+    },
+    "title": {
+      "translate": "advancements.player_pillager.title"
+    },
+    "description": {
+      "translate": "advancements.player_pillager.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "player_pillager_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "pillagersplus:hog_rider_advancment"
+}

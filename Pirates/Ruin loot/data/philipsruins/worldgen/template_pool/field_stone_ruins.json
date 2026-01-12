@@ -1,0 +1,26 @@
+{
+  "name": "philipsruins:field_stone_ruins",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "philipsruins:field_stone_ruins1",
+        "processors": "philipsruins:ruins_processor"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "philipsruins:field_stone_ruins2",
+        "processors": "philipsruins:ruins_processor"
+      }
+    }
+  ]
+}
+
+

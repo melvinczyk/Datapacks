@@ -7,7 +7,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:candle",
+          "name": "minecraft:cooked_porkchop",
+          "weight": 2,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_chicken",
           "weight": 2,
           "quality": 2,
           "functions": [
@@ -88,7 +104,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.05
+          "chance": 0.025
         }
       ],
       "entries": [
