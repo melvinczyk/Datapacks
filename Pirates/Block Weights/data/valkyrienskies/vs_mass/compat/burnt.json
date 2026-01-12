@@ -1,0 +1,182 @@
+[
+    {
+        "block": "burnt:burnt_log",
+        "mass": 9000
+    },
+    {
+        "block": "burnt:broken_burnt_log",
+        "mass": 9000
+    },
+    {
+        "block": "burnt:stripped_burnt_log",
+        "mass": 9000
+    },
+    {
+        "block": "burnt:stripped_broken_burnt_log",
+        "mass": 9000
+    },
+    {
+        "block": "burnt:burnt_wood",
+        "mass": 9000
+    },
+    {
+        "block": "burnt:stripped_burnt_wood",
+        "mass": 9000
+    },
+    {
+        "block": "burnt:burnt_planks",
+        "mass": 4500
+    },
+    {
+        "block": "burnt:burnt_stairs",
+        "mass": 1500
+    },
+    {
+        "block": "burnt:burnt_slab",
+        "mass": 1500
+    },
+    {
+        "block": "burnt:burnt_fence",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_fencegate",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_button",
+        "mass": 150
+    },
+    {
+        "block": "burnt:burnt_pressure_plate",
+        "mass": 150
+    },
+    {
+        "block": "burnt:burnt_door",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_trapdoor",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_oak_door",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_oak_trapdoor",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_spruce_door",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_spruce_trapdoor",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_birch_door",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_birch_trapdoor",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_acacia_door",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_acacia_trapdoor",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_dark_oak_door",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_dark_oak_trapdoor",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_jungle_door",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_jungle_trapdoor",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_mangrove_door",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_manrove_trapdoor",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_cherry_door",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_cherry_trapdoor",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_bamboo_door",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_bamboo_trapdoor",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_bamboo_block",
+        "mass": 1250
+    },
+    {
+        "block": "burnt:burnt_bamboo_planks",
+        "mass": 4500
+    },
+    {
+        "block": "burnt:burnt_bamboo_mosaic_planks",
+        "mass": 4500
+    },
+    {
+        "block": "burnt:burnt_bamboo_stairs",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_bamboo_mosaic_stairs",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_bamboo_slab",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_bamboo_mosaic_slab",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_bamboo_fence",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_bamboo_fencegate",
+        "mass": 1000
+    },
+    {
+        "block": "burnt:burnt_wool",
+        "mass": 1500
+    },
+    {
+        "block": "burnt:burnt_bamboo_leaves",
+        "mass": 150
+    },
+    {
+        "block": "burnt:burnt_barrel",
+        "mass": 4500
+    }
+]
