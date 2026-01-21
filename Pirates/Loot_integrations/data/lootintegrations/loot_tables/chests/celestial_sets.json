@@ -6,7 +6,7 @@
                 {
                     "type": "minecraft:item",
                     "name": "l2artifacts:random_1",
-                    "weight": 40
+                    "weight": 45
                 },
                 {
                     "type": "minecraft:item",
@@ -21,12 +21,12 @@
                 {
                     "type": "minecraft:item",
                     "name": "l2artifacts:random_4",
-                    "weight": 10
+                    "weight": 8
                 },
                 {
                     "type": "minecraft:item",
                     "name": "l2artifacts:random_5",
-                    "weight": 5
+                    "weight": 2
                 },
                 {
                     "type": "minecraft:empty",

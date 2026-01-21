@@ -206,7 +206,7 @@
         {
           "type": "minecraft:item",
           "name": "l2artifacts:random_1",
-          "weight": 50,
+          "weight": 55,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -239,7 +239,7 @@
         {
           "type": "minecraft:item",
           "name": "l2artifacts:random_4",
-          "weight": 8,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -250,7 +250,7 @@
         {
           "type": "minecraft:item",
           "name": "l2artifacts:random_5",
-          "weight": 4,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
