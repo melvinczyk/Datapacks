@@ -395,7 +395,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.05
+          "chance": 0.1
         }
       ],
       "entries": [
@@ -410,6 +410,28 @@
             }
           ]
         },
+        {
+          "type": "minecraft:item",
+          "name": "l2artifacts:random_2",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      ],
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "l2artifacts:random_2",

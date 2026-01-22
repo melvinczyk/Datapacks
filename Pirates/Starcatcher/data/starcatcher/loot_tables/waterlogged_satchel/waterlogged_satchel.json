@@ -26,16 +26,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "starcatcher:waterlogged_satchel/treasure_celestial",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "starcatcher:waterlogged_satchel/treasure_celestial_artifacts",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:loot_table",
           "name": "starcatcher:waterlogged_satchel/treasure_fruits",
           "weight": 1
         }

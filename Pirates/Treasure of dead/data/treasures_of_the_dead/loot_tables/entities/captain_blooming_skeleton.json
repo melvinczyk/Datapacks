@@ -38,8 +38,8 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 2,
-        "max": 10
+        "min": 10,
+        "max": 15
       },
       "entries": [
         {

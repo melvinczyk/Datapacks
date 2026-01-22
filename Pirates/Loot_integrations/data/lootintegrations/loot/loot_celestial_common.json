@@ -1,6 +1,6 @@
 {
-    "loot_table": "lootintegrations:chests/coins_medium",
-    "max_result_itemcount": 10,
+    "loot_table": "lootintegrations:chests/celestial_common",
+    "max_result_itemcount": 1,
     "integrated_loot_tables": {
         "classic_caravans:cargo/desert_grave": 1,
         "classic_caravans:cargo/desert_harvest": 1,
@@ -48,6 +48,23 @@
         "tw:chests/oak_watchtower": 1,
         "tw:chests/pirate_savanna_watchtower": 1,
         "tw:chests/scout_tower": 1,
-        "underwater_village:chests/underwatervillage_loot_common": 1
+        "underwater_village:chests/underwatervillage_loot_common": 1,
+        "call_of_yucutan:chest/crypt_chest_loot": 1,
+        "call_of_yucutan:chest/overgrown_chest_loot": 1,
+        "jellyfishing:chests/buried_treasure": 1,
+        "jellyfishing:chests/end_city_treasure": 1,
+        "jellyfishing:chests/jellyfishing_treasure": 1,
+        "jellyfishing:chests/shipwreck_treasure": 1,
+        "minecraft:chests/ancient_city": 1,
+        "minecraft:chests/bastion_treasure": 1,
+        "minecraft:chests/buried_treasure": 1,
+        "minecraft:chests/end_city_treasure": 1,
+        "minecraft:chests/shipwreck_treasure": 1,
+        "minecraft:chests/woodland_mansion": 1,
+        "mtr:jungle_temple_puzzle_treasure": 1,
+        "mtr:ocean_temple_treasure": 1,
+        "mtr:stronghold_corridor_rare": 1,
+        "nova_structures:chests/ruin_loot_master": 1,
+        "nova_structures:chests/illager_hideout_heart_loot": 1
     }
 }

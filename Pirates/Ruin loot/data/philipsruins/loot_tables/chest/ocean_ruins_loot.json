@@ -511,6 +511,36 @@
       }
     },
     {
+      "rolls": 1,
+      "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "l2artifacts:random_1",
+                    "weight": 50
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "l2artifacts:random_2",
+                    "weight": 35
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "l2artifacts:random_3",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "l2artifacts:random_4",
+                    "weight": 8
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "l2artifacts:random_5",
+                    "weight": 2
+                }
+            ]
+    },
+    {
       "bonus_rolls": 0.0,
       "entries": [
         {

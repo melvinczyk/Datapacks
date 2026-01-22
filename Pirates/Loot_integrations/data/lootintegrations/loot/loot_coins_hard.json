@@ -4,10 +4,6 @@
     "integrated_loot_tables": {
         "call_of_yucutan:chest/crypt_chest_loot": 1,
         "call_of_yucutan:chest/overgrown_chest_loot": 1,
-        "celestial_artifacts:chests/ancient_city": 1,
-        "celestial_artifacts:chests/bastion_treasure": 1,
-        "celestial_artifacts:chests/end_city_treasure": 1,
-        "celestial_artifacts:chests/fishing_treasure": 1,
         "jellyfishing:chests/buried_treasure": 1,
         "jellyfishing:chests/end_city_treasure": 1,
         "jellyfishing:chests/jellyfishing_treasure": 1,
