@@ -1,0 +1,18 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "l2artifacts:random_1",
+                    "weight": 30
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 70
+                }
+            ]
+        }
+    ]
+}

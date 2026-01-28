@@ -22,7 +22,11 @@
         {
           "type": "minecraft:loot_table",
           "name": "starcatcher:waterlogged_satchel/treasure_artifacts",
+<<<<<<< HEAD
           "weight": 6
+=======
+          "weight": 4
+>>>>>>> dfdbd4ed7fd8aea416a78e746abe5efbd88f3ac5
         },
         {
           "type": "minecraft:loot_table",

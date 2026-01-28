@@ -6,12 +6,16 @@
                 {
                     "type": "minecraft:item",
                     "name": "l2artifacts:random_1",
-                    "weight": 45
+                    "weight": 40
                 },
                 {
                     "type": "minecraft:item",
                     "name": "l2artifacts:random_2",
+<<<<<<< HEAD
                     "weight": 35
+=======
+                    "weight": 25
+>>>>>>> dfdbd4ed7fd8aea416a78e746abe5efbd88f3ac5
                 },
                 {
                     "type": "minecraft:item",
@@ -21,16 +25,24 @@
                 {
                     "type": "minecraft:item",
                     "name": "l2artifacts:random_4",
+<<<<<<< HEAD
                     "weight": 5
+=======
+                    "weight": 7
+>>>>>>> dfdbd4ed7fd8aea416a78e746abe5efbd88f3ac5
                 },
                 {
                     "type": "minecraft:item",
                     "name": "l2artifacts:random_5",
-                    "weight": 2
+                    "weight": 1
                 },
                 {
                     "type": "minecraft:empty",
+<<<<<<< HEAD
                     "weight": 60
+=======
+                    "weight": 50
+>>>>>>> dfdbd4ed7fd8aea416a78e746abe5efbd88f3ac5
                 }
             ]
         }

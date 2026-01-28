@@ -395,7 +395,11 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
+<<<<<<< HEAD
           "chance": 0.03
+=======
+          "chance": 0.1
+>>>>>>> dfdbd4ed7fd8aea416a78e746abe5efbd88f3ac5
         }
       ],
       "entries": [
@@ -410,6 +414,28 @@
             }
           ]
         },
+        {
+          "type": "minecraft:item",
+          "name": "l2artifacts:random_2",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      ],
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "l2artifacts:random_2",
