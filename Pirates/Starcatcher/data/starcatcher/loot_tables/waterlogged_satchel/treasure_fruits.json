@@ -6,67 +6,155 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "trueprimepiecetwo:mera_meranomi"
+          "name": "minepiece:item_devil_fruit_yami_yami"
         },
         {
           "type": "minecraft:item",
-          "name": "trueprimepiecetwo:leopardnomi"
+          "name": "minepiece:item_devil_fruit_mera_mera"
         },
         {
           "type": "minecraft:item",
-          "name": "trueprimepiecetwo:goro_goronomi"
+          "name": "minepiece:item_devil_fruit_bisu_bisu"
         },
         {
           "type": "minecraft:item",
-          "name": "trueprimepiecetwo:pika_pikanomi"
+          "name": "minepiece:item_devil_fruit_pika_pika"
         },
         {
           "type": "minecraft:item",
-          "name": "trueprimepiecetwo:magu_magunomi"
+          "name": "minepiece:item_devil_fruit_nikyu_nikyu"
         },
         {
           "type": "minecraft:item",
-          "name": "trueprimepiecetwo:zushi_zushinomi"
+          "name": "minepiece:item_devil_fruit_zushi_zushi"
         },
         {
           "type": "minecraft:item",
-          "name": "trueprimepiecetwo:gura_guranomi"
+          "name": "minepiece:item_devil_fruit_ryu_ryu_pachycephalosaurus"
         },
         {
           "type": "minecraft:item",
-          "name": "trueprimepiecetwo:ope_openomi"
+          "name": "minepiece:item_devil_fruit_inu_inu_wolf"
         },
         {
           "type": "minecraft:item",
-          "name": "trueprimepiecetwo:gomu_gomunomi"
+          "name": "minepiece:item_devil_fruit_horo_horo"
         },
         {
           "type": "minecraft:item",
-          "name": "trueprimepiecetwo:doku_dokunomi"
+          "name": "minepiece:item_devil_fruit_hie_hie"
         },
         {
           "type": "minecraft:item",
-          "name": "trueprimepiecetwo:uo_uonomi"
+          "name": "minepiece:item_devil_fruit_magu_magu"
         },
         {
           "type": "minecraft:item",
-          "name": "trueprimepiecetwo:nikyu_nikyunomi"
+          "name": "minepiece:item_devil_fruit_neko_neko_leopard"
         },
         {
           "type": "minecraft:item",
-          "name": "trueprimepiecetwo:mochi_mochinomi"
+          "name": "minepiece:item_devil_fruit_batto_batto"
         },
         {
           "type": "minecraft:item",
-          "name": "trueprimepiecetwo:guru_gurunomi"
+          "name": "minepiece:item_devil_fruit_inu_inu_okuchi_no_makami"
         },
         {
           "type": "minecraft:item",
-          "name": "trueprimepiecetwo:tori_torinomi"
+          "name": "minepiece:item_devil_fruit_hito_hito_daibutsu"
         },
         {
           "type": "minecraft:item",
-          "name": "trueprimepiecetwo:suke_sukenomi"
+          "name": "minepiece:item_devil_fruit_gomu_gomu"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_ushi_ushi_giraffe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_gura_gura"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_mochi_mochi"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_supa_supa"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_kira_kira"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_tori_tori_phoenix"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_uta_uta"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_goro_goro"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_mero_mero"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_riki_riki"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_suna_suna"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_kiro_kiro"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_moku_moku"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_uo_uo_seiryu"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_ope_ope"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_aro_aro"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_ryu_ryu_brachiosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_ryu_ryu_pteranodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_neko_neko_sabertiger"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_kage_kage"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_mori_mori"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minepiece:item_devil_fruit_soru_soru"
         }
       ],
       "rolls": 1

@@ -12,7 +12,7 @@
         {
           "type": "minecraft:loot_table",
           "name": "starcatcher:waterlogged_satchel/cosmetics",
-          "weight": 6
+          "weight": 3
         },
         {
           "type": "minecraft:loot_table",
@@ -22,17 +22,7 @@
         {
           "type": "minecraft:loot_table",
           "name": "starcatcher:waterlogged_satchel/treasure_artifacts",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "starcatcher:waterlogged_satchel/treasure_celestial",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "starcatcher:waterlogged_satchel/treasure_celestial_artifacts",
-          "weight": 1
+          "weight": 6
         },
         {
           "type": "minecraft:loot_table",

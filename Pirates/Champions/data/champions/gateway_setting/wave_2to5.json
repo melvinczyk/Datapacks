@@ -1,0 +1,22 @@
+{
+  "affixes": [
+    "champions:magnetic",
+    "champions:dampening",
+    "champions:desecrating"
+  ],
+  "enable": false,
+  "entityBlackList": [
+    "minecraft:pig",
+    "minecraft:zombie"
+  ],
+  "gateway_type": "normal",
+  "setting_id": "champions:wave_2to5",
+  "tier_range": {
+    "max": 5,
+    "min": 2
+  },
+  "wave_range": {
+    "max": 4,
+    "min": 2
+  }
+}

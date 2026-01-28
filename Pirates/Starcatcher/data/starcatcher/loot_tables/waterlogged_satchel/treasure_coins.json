@@ -26,6 +26,10 @@
                 },
                 {
                     "type": "minecraft:item",
+                    "name": "lightmanscurrency:coinpile_gold"
+                },
+                {
+                    "type": "minecraft:item",
                     "name": "lightmanscurrency:coinblock_gold"
                 }
             ],

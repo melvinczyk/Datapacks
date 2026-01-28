@@ -8,8 +8,9 @@
     }
   },
   "pattern": [
-    "xx",
-    "xx"
+    "xxx",
+    "xxx",
+    "xxx"
   ],
   "result": {
     "item": "lightmanscurrency:coinblock_gold"

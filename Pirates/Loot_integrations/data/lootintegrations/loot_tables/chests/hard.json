@@ -1,5 +1,5 @@
 {
-  "rolls": 3,
+  "rolls": 2,
   "entries": [
     {
       "type": "minecraft:item",
@@ -9,8 +9,8 @@
         {
           "function": "minecraft:set_count",
           "count": {
-            "min": 2,
-            "max": 4
+            "min": 0,
+            "max": 2
           }
         }
       ]
