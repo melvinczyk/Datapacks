@@ -395,11 +395,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-<<<<<<< HEAD
-          "chance": 0.03
-=======
           "chance": 0.1
->>>>>>> dfdbd4ed7fd8aea416a78e746abe5efbd88f3ac5
         }
       ],
       "entries": [
