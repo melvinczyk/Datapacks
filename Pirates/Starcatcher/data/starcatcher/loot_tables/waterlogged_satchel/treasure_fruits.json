@@ -155,6 +155,18 @@
         {
           "type": "minecraft:item",
           "name": "minepiece:item_devil_fruit_soru_soru"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hakminepiece:item_devil_fruit_wapu_wapu"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hakminepiece:item_devil_fruit_aro_aro"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hakminepiece:item_devil_fruit_deka_deka"
         }
       ],
       "rolls": 1

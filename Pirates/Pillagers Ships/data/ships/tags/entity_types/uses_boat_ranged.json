@@ -1,6 +1,7 @@
 
 {
   "values": [
-    "minecraft:pillager"
+    "minecraft:pillager",
+    "pirates:pirate"
   ]
 }
