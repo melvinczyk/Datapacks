@@ -3,7 +3,7 @@
   "biomes": "#minecraft:is_ocean",
   "spawners": {
     "type": "threateningly_mobs:riptooth",
-    "weight": 7,
+    "weight": 10,
     "minCount": 1,
     "maxCount": 1
   }
